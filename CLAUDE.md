@@ -45,7 +45,8 @@ One website with a separate private page for each tutoring student. Each week I 
 
 - Each student's page already knows who they are from their link, so no name typing.
 - Every spelling test, quiz and match result is sent to a Google Sheet I own, using a Google Apps Script web app. Columns: date and time, student, week, activity, score, total, time taken, words or questions missed.
-- Write the Apps Script for me and give me click-by-click setup steps. I will paste the web app URL into one config file.
+- HOW IT WORKS NOW (set up 20 Nov 2026): scores go to a Google Form called "Score Collector" (one short-answer question, fields joined by tabs), which saves into the Google Sheet "Tutoring Scores (Form)". Its "Scores" tab splits them into the columns above with a formula. The form address and question id are in `site/config.js` (`SCORE_FORM`). No Apps Script needed. (The Apps Script route kept failing at Google's permission pop-up; `apps-script/` is kept only as a backup.)
+- For parent reports: open the sheet, go to the **Scores** tab, then File → Download → CSV, and save it into `scores/`.
 - If there is no internet, the activity still works, the score is kept in the browser and sent later.
 
 ## Weekly routine (commands I will type)
