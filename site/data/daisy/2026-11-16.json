@@ -1,0 +1,2319 @@
+{
+ "week": "2026-11-16",
+ "title": {
+  "en": "Story Detective and Fraction Café",
+  "zh": "故事侦探和分数咖啡馆"
+ },
+ "message": {
+  "en": "This week: point of view, plural spelling words, run-on sentences and fractions. You can do it, Daisy!",
+  "zh": "本周：叙述视角、复数拼写词、连写句和分数。Daisy，你能做到！"
+ },
+ "activities": [
+  {
+   "id": "spelling",
+   "type": "spelling",
+   "title": {
+    "en": "Spelling: Plural Words",
+    "zh": "拼写：复数单词"
+   },
+   "subtitle": {
+    "en": "28 words",
+    "zh": "28 个词"
+   },
+   "intro": {
+    "en": "Plurals: words ending in o add -s or -es (echoes, pianos). A single f often changes to v + es (halves). ff just adds -s (cliffs).",
+    "zh": "复数：以 o 结尾的词加 -s 或 -es（echoes、pianos）。单个 f 常常变成 v 再加 -es（halves）。ff 结尾直接加 -s（cliffs）。"
+   },
+   "groups": [
+    {
+     "id": "main",
+     "en": "This week's 20",
+     "zh": "本周 20 个"
+    },
+    {
+     "id": "review",
+     "en": "Review",
+     "zh": "复习"
+    },
+    {
+     "id": "challenge",
+     "en": "Challenge",
+     "zh": "挑战"
+    }
+   ],
+   "words": [
+    {
+     "word": "echoes",
+     "sentence": "We heard our echoes in the big cave.",
+     "zh": "回声",
+     "group": "main"
+    },
+    {
+     "word": "halves",
+     "sentence": "Cut the orange into two halves.",
+     "zh": "一半（复数）",
+     "group": "main"
+    },
+    {
+     "word": "solos",
+     "sentence": "Lily sang two solos at the concert.",
+     "zh": "独唱；独奏",
+     "group": "main"
+    },
+    {
+     "word": "leaves",
+     "sentence": "The leaves fall off the trees in autumn.",
+     "zh": "树叶",
+     "group": "main"
+    },
+    {
+     "word": "heroes",
+     "sentence": "The firefighters were heroes that day.",
+     "zh": "英雄",
+     "group": "main"
+    },
+    {
+     "word": "cliffs",
+     "sentence": "Birds build nests on the tall cliffs.",
+     "zh": "悬崖",
+     "group": "main"
+    },
+    {
+     "word": "scarves",
+     "sentence": "We wore warm scarves in the snow.",
+     "zh": "围巾",
+     "group": "main"
+    },
+    {
+     "word": "potatoes",
+     "sentence": "Tom peeled the potatoes for dinner.",
+     "zh": "土豆",
+     "group": "main"
+    },
+    {
+     "word": "pianos",
+     "sentence": "The music room has two pianos.",
+     "zh": "钢琴",
+     "group": "main"
+    },
+    {
+     "word": "volcanoes",
+     "sentence": "Some volcanoes are under the sea.",
+     "zh": "火山",
+     "group": "main"
+    },
+    {
+     "word": "sheriffs",
+     "sentence": "The sheriffs rode into the town.",
+     "zh": "警长",
+     "group": "main"
+    },
+    {
+     "word": "calves",
+     "sentence": "The baby calves stayed close to their mothers.",
+     "zh": "小牛；小腿肚",
+     "group": "main"
+    },
+    {
+     "word": "tomatoes",
+     "sentence": "Emma put tomatoes in the salad.",
+     "zh": "西红柿",
+     "group": "main"
+    },
+    {
+     "word": "cellos",
+     "sentence": "The cellos play the low notes.",
+     "zh": "大提琴",
+     "group": "main"
+    },
+    {
+     "word": "wolves",
+     "sentence": "The wolves howled at the moon.",
+     "zh": "狼",
+     "group": "main"
+    },
+    {
+     "word": "ratios",
+     "sentence": "We used ratios in our maths lesson.",
+     "zh": "比率",
+     "group": "main"
+    },
+    {
+     "word": "stereos",
+     "sentence": "The shop sells stereos and speakers.",
+     "zh": "音响",
+     "group": "main"
+    },
+    {
+     "word": "yourselves",
+     "sentence": "Please help yourselves to some cake.",
+     "zh": "你们自己",
+     "group": "main"
+    },
+    {
+     "word": "studios",
+     "sentence": "K-pop stars record their songs in studios.",
+     "zh": "录音室；工作室",
+     "group": "main"
+    },
+    {
+     "word": "bookshelves",
+     "sentence": "Daisy put her new books on the bookshelves.",
+     "zh": "书架",
+     "group": "main"
+    },
+    {
+     "word": "conscience",
+     "sentence": "My conscience told me to say sorry.",
+     "zh": "良心",
+     "group": "review"
+    },
+    {
+     "word": "emigrate",
+     "sentence": "Their family will emigrate to Canada.",
+     "zh": "移居国外",
+     "group": "review"
+    },
+    {
+     "word": "effect",
+     "sentence": "The rain had a big effect on the game.",
+     "zh": "影响；效果",
+     "group": "review"
+    },
+    {
+     "word": "precede",
+     "sentence": "Lightning will always precede thunder.",
+     "zh": "在……之前",
+     "group": "review"
+    },
+    {
+     "word": "portfolios",
+     "sentence": "The art students showed their portfolios.",
+     "zh": "作品集",
+     "group": "challenge"
+    },
+    {
+     "word": "vetoes",
+     "sentence": "The leader used two vetoes to stop the new rules.",
+     "zh": "否决",
+     "group": "challenge"
+    },
+    {
+     "word": "vertebrae",
+     "sentence": "Your backbone is made of small bones called vertebrae.",
+     "zh": "椎骨",
+     "group": "challenge"
+    },
+    {
+     "word": "thieves",
+     "sentence": "The police caught the two thieves.",
+     "zh": "小偷",
+     "group": "challenge"
+    }
+   ],
+   "canNow": {
+    "en": "I can now spell plural words with -s, -es, and f changing to v.",
+    "zh": "我现在可以拼写加 -s、-es 以及 f 变 v 的复数单词。"
+   }
+  },
+  {
+   "id": "cards",
+   "type": "flashcards",
+   "title": {
+    "en": "Flashcards: Reading Test Words",
+    "zh": "闪卡：阅读考试词汇"
+   },
+   "subtitle": {
+    "en": "10 words",
+    "zh": "10 个词"
+   },
+   "intro": {
+    "en": "Read the word. Say what it means. Tap to check.",
+    "zh": "读单词，说出意思，点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "Point of View",
+     "back": "WHO is telling the story. The angle the story is told from.",
+     "zh": "视角",
+     "zhBack": "谁在讲故事。"
+    },
+    {
+     "front": "Perspective",
+     "back": "HOW a character sees something, because of their own experiences, beliefs and opinions.",
+     "zh": "看法",
+     "zhBack": "人物怎样看一件事（因为他们自己的经历和想法）。"
+    },
+    {
+     "front": "First Person",
+     "back": "The narrator is a character IN the story and uses I, me, my, we.",
+     "zh": "第一人称",
+     "zhBack": "叙述者是故事里的人物，用 I、me、my、we。"
+    },
+    {
+     "front": "Second Person",
+     "back": "The narrator talks straight to the reader, using you and your.",
+     "zh": "第二人称",
+     "zhBack": "叙述者直接对读者说话，用 you、your。"
+    },
+    {
+     "front": "Third Person Objective",
+     "back": "The narrator is outside the story and knows NOBODY's thoughts or feelings, like a camera.",
+     "zh": "第三人称客观",
+     "zhBack": "叙述者在故事外面，不知道任何人的想法，像摄像机。"
+    },
+    {
+     "front": "Third Person Limited",
+     "back": "The narrator is outside the story and knows the thoughts and feelings of ONE character.",
+     "zh": "第三人称有限",
+     "zhBack": "叙述者在故事外面，只知道一个人物的想法和感受。"
+    },
+    {
+     "front": "Third Person Omniscient",
+     "back": "The narrator is outside the story and knows the thoughts and feelings of ALL characters.",
+     "zh": "第三人称全知",
+     "zhBack": "叙述者在故事外面，知道所有人物的想法和感受。"
+    },
+    {
+     "front": "Narrator",
+     "back": "The one who is telling the story.",
+     "zh": "叙述者",
+     "zhBack": "讲故事的人。"
+    },
+    {
+     "front": "Dialogue",
+     "back": "The words the characters say, inside speech marks \" \".",
+     "zh": "对话",
+     "zhBack": "人物说的话，在引号里面。"
+    },
+    {
+     "front": "Theme",
+     "back": "The message or life lesson of the story. NOT a summary.",
+     "zh": "主题",
+     "zhBack": "故事告诉我们的人生道理，不是概要。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain all 10 reading test words.",
+    "zh": "我现在可以解释全部 10 个阅读考试词汇。"
+   }
+  },
+  {
+   "id": "match",
+   "type": "match",
+   "title": {
+    "en": "Match Game: Test Words",
+    "zh": "配对游戏：考试词汇"
+   },
+   "intro": {
+    "en": "Tap a word, then tap its meaning. Be quick!",
+    "zh": "先点一个词，再点它的意思。要快！"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "Point of View",
+     "b": "WHO is telling the story"
+    },
+    {
+     "a": "Perspective",
+     "b": "HOW a character sees something"
+    },
+    {
+     "a": "First Person",
+     "b": "narrator is IN the story: I, me, we"
+    },
+    {
+     "a": "Second Person",
+     "b": "talks to the reader: you, your"
+    },
+    {
+     "a": "Third Person Objective",
+     "b": "outside, knows NOBODY's feelings (camera)"
+    },
+    {
+     "a": "Third Person Limited",
+     "b": "outside, knows ONE character's feelings"
+    },
+    {
+     "a": "Third Person Omniscient",
+     "b": "outside, knows ALL characters' feelings"
+    },
+    {
+     "a": "Narrator",
+     "b": "the one telling the story"
+    },
+    {
+     "a": "Dialogue",
+     "b": "words characters say, inside \" \""
+    },
+    {
+     "a": "Theme",
+     "b": "the life lesson (NOT a summary)"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match each test word to its meaning quickly.",
+    "zh": "我现在可以快速把考试词汇和意思配对。"
+   }
+  },
+  {
+   "id": "speed",
+   "type": "quiz",
+   "timed": true,
+   "count": 10,
+   "seconds": 20,
+   "title": {
+    "en": "Speed Quiz: Point of View",
+    "zh": "抢答：叙述视角"
+   },
+   "intro": {
+    "en": "10 questions, 20 seconds each. Faster answers win more points. Tip: cover the dialogue first!",
+    "zh": "10 道题，每题 20 秒。答得越快分越高。小技巧：先遮住对话！"
+   },
+   "questions": [
+    {
+     "q": "We packed our swimming bags and ran to catch the school bus.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue words: we, our. That is first person.",
+      "zh": "线索词：we、our，所以是第一人称。"
+     }
+    },
+    {
+     "q": "Have you ever eaten durian? You will never forget the smell!\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The narrator talks to YOU, the reader. That is second person.",
+      "zh": "叙述者在对“你”（读者）说话，所以是第二人称。"
+     }
+    },
+    {
+     "q": "Sophie bought a photo card of her favourite singer. She smiled all the way home.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Clue words: Sophie, her, she. That is third person.",
+      "zh": "线索词：Sophie、her、she，所以是第三人称。"
+     }
+    },
+    {
+     "q": "\"You are my best friend!\" Lily told Emma. Then they hugged.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Cover the dialogue first! \"You\" is inside the speech marks, so it does not count. Lily, Emma, they = third person.",
+      "zh": "先遮住对话！“You” 在引号里，不算。Lily、Emma、they = 第三人称。"
+     }
+    },
+    {
+     "q": "\"I won, I won!\" Tom shouted. He held his gold medal high.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Cover the dialogue: \"I won\" does not count. Tom, he, his = third person.",
+      "zh": "遮住对话：“I won” 不算。Tom、he、his = 第三人称。"
+     }
+    },
+    {
+     "q": "Have you ever visited a Thai temple? You must take off your shoes first.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Clue words: you, your. The narrator talks to the reader. That is second person.",
+      "zh": "线索词：you、your，叙述者在对读者说话，是第二人称。"
+     }
+    },
+    {
+     "q": "James and Tom carried the bread to the hall. They put it on the long table.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "We only SEE actions. We know nobody's feelings, like a camera. That is objective.",
+      "zh": "我们只看到动作，不知道任何人的感受，像摄像机，所以是客观。"
+     }
+    },
+    {
+     "q": "Lily wanted to sing on stage, but she was scared her voice would shake.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "We know the feelings of ONE person: Lily. That is limited.",
+      "zh": "我们只知道一个人（Lily）的感受，所以是有限。"
+     }
+    },
+    {
+     "q": "Daisy felt proud of her drawing. Emma felt a little jealous, and the teacher was delighted.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "We know how EVERYONE feels: Daisy, Emma and the teacher. That is omniscient.",
+      "zh": "我们知道每个人的感受：Daisy、Emma 和老师，所以是全知。"
+     }
+    },
+    {
+     "q": "The swimmers dived into the pool. The crowd clapped and cheered.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Only actions, no feelings. Like a camera. That is objective.",
+      "zh": "只有动作，没有感受，像摄像机，所以是客观。"
+     }
+    },
+    {
+     "q": "Sophie was nervous about the test, and Lily was worried about her too. Their teacher felt sure they would both do well.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "We know the feelings of Sophie, Lily AND the teacher. All of them = omniscient.",
+      "zh": "我们知道 Sophie、Lily 和老师的感受。所有人 = 全知。"
+     }
+    },
+    {
+     "q": "Tom smiled at the new girl. He hoped she would sit next to him at lunch.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "We only know what Tom hopes. One person = limited.",
+      "zh": "我们只知道 Tom 的想法。一个人 = 有限。"
+     }
+    },
+    {
+     "q": "It rains all day. Daisy is sad because her swimming lesson is cancelled. Farmer Tom is happy because his plants need water.\nThis shows that the two characters have different...",
+     "options": [
+      "themes",
+      "perspectives",
+      "narrators",
+      "dialogues"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They see the SAME rain in different ways. HOW a character sees something is perspective.",
+      "zh": "他们看同一场雨的感受不同。人物怎样看一件事就是“看法”。"
+     }
+    },
+    {
+     "q": "\"Emma gave the card back to Sophie.\"\nIs this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary",
+      "Dialogue",
+      "Narrator"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It tells WHAT HAPPENED and uses names. That is a summary.",
+      "zh": "它讲的是发生了什么，还有名字，所以是概要。"
+     }
+    },
+    {
+     "q": "\"Be honest, even when nobody is watching.\"\nIs this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary",
+      "Dialogue",
+      "Narrator"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "It is a life lesson for EVERYONE, with no names. That is a theme.",
+      "zh": "这是对每个人都适用的道理，没有名字，所以是主题。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now find the point of view and tell a theme from a summary.",
+    "zh": "我现在可以找出叙述视角，并分清主题和概要。"
+   }
+  },
+  {
+   "id": "reading",
+   "type": "reading",
+   "title": {
+    "en": "Reading: The Lost Photo Card",
+    "zh": "阅读：丢失的小卡"
+   },
+   "intro": {
+    "en": "Learn the key words, read the story, answer the questions, then write the theme.",
+    "zh": "先学关键词，再读故事，回答问题，最后写出主题。"
+   },
+   "storyTitle": "The Lost Photo Card",
+   "keywords": [
+    {
+     "word": "photo card",
+     "meaning": "a small card with a picture of a singer",
+     "zh": "小卡（明星照片卡）"
+    },
+    {
+     "word": "rare",
+     "meaning": "very hard to find",
+     "zh": "稀有的"
+    },
+    {
+     "word": "my heart felt heavy",
+     "meaning": "I felt sad and worried inside",
+     "zh": "我心里很沉重"
+    },
+    {
+     "word": "her face lit up",
+     "meaning": "she suddenly looked very happy",
+     "zh": "她的脸一下子亮了起来（很开心）"
+    },
+    {
+     "word": "warm inside",
+     "meaning": "happy and kind feelings in your heart",
+     "zh": "心里暖暖的"
+    }
+   ],
+   "paragraphs": [
+    "My name is Emma, and I love K-pop. On Monday, I found a photo card on the bus floor. It was my favourite singer, and it was very rare! I was so excited. I wanted to keep it.",
+    "Then I saw a younger girl at the back of the bus. She was crying and looking under every seat. \"My sister gave it to me for my birthday,\" she said to her friend.",
+    "My heart felt heavy. I walked over and held out the card. \"Is this yours?\" I asked. The girl's face lit up. \"Thank you so much!\" she said. Her name was Sophie.",
+    "I did not have the rare card any more, but I felt warm and happy inside. It was a better feeling than keeping it."
+   ],
+   "questions": [
+    {
+     "q": "What is the point of view of this story?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue words outside the dialogue: My, I, me. That is first person.",
+      "zh": "对话外面的线索词：My、I、me，所以是第一人称。"
+     }
+    },
+    {
+     "q": "Who is the narrator?",
+     "options": [
+      "Sophie",
+      "Emma",
+      "Sophie's sister",
+      "the bus driver"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "\"My name is Emma.\" Emma tells the story.",
+      "zh": "“My name is Emma.” 是 Emma 在讲故事。"
+     }
+    },
+    {
+     "q": "How did Emma feel when she FIRST found the card?",
+     "options": [
+      "angry",
+      "bored",
+      "excited",
+      "scared"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Paragraph 1: \"I was so excited.\"",
+      "zh": "第 1 段：“I was so excited.”"
+     }
+    },
+    {
+     "q": "Why was the card so special to Sophie?",
+     "options": [
+      "It was a gift from her sister.",
+      "She bought it in Korea.",
+      "It cost a lot of money.",
+      "Emma gave it to her."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 2: \"My sister gave it to me for my birthday.\"",
+      "zh": "第 2 段：“My sister gave it to me for my birthday.”"
+     }
+    },
+    {
+     "q": "Which is the BEST theme of the story?",
+     "options": [
+      "Emma found a card on the bus.",
+      "K-pop cards are rare.",
+      "Buses are often crowded.",
+      "Doing the right thing feels better than keeping what is not yours."
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A theme is a life lesson for everyone. The others are facts or a summary.",
+      "zh": "主题是对每个人都适用的道理。其他选项是事实或概要。"
+     }
+    },
+    {
+     "q": "\"Emma gave the card back to Sophie.\" Is this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It tells what happened and uses names, so it is a summary.",
+      "zh": "它讲发生了什么，还有名字，所以是概要。"
+     }
+    },
+    {
+     "q": "\"Be honest, even when nobody is watching.\" Is this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "It is a lesson for everyone with no names, so it is a theme.",
+      "zh": "这是给每个人的道理，没有名字，所以是主题。"
+     }
+    }
+   ],
+   "write": {
+    "prompt": {
+     "en": "Write the theme of \"The Lost Photo Card\" in your OWN words. Remember: no names!",
+     "zh": "用你自己的话写出这个故事的主题。记住：不写名字！"
+    },
+    "model": "It feels good to give back something that is not yours.",
+    "avoidNames": [
+     "Emma",
+     "Sophie",
+     "Daisy"
+    ]
+   },
+   "canNow": {
+    "en": "I can now find the narrator and write a theme with no names.",
+    "zh": "我现在可以找到叙述者，并写出不带名字的主题。"
+   }
+  },
+  {
+   "id": "multiply",
+   "type": "guided",
+   "icon": "🧮",
+   "title": {
+    "en": "Fraction Café 1: Multiply",
+    "zh": "分数咖啡馆 1：乘法"
+   },
+   "subtitle": {
+    "en": "9 questions",
+    "zh": "9 道题"
+   },
+   "intro": {
+    "en": "Multiply: top × top, bottom × bottom, then simplify. A whole number goes over 1.",
+    "zh": "乘法：分子乘分子，分母乘分母，再约分。整数写成分母是 1 的分数。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "1/2 × 1/3 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "1 × 1 = 1"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "2 × 3 = 6"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "1/2 × 1/3 = 1/6"
+      },
+      {
+       "en": "Can we simplify 1/6? No number except 1 divides both 1 and 6, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 1 和 6，所以已经是最简分数。",
+       "math": "1/6"
+      }
+     ],
+     "answer": "1/6",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "1/2 × 1/3",
+      "value": "1/6"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "2/5 × 1/4 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 1 = 2"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "5 × 4 = 20"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/5 × 1/4 = 2/20"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 2 and 20 is 2.",
+       "zh": "约分。能同时整除 2 和 20 的最大的数是 2。",
+       "math": [
+        "2 ÷ 2 = 1",
+        "20 ÷ 2 = 10",
+        "2/20 = 1/10"
+       ]
+      }
+     ],
+     "answer": "1/10",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "2/5 × 1/4",
+      "value": "1/10"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "3/4 × 2/3 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 2 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "4 × 3 = 12"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/4 × 2/3 = 6/12"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 6 and 12 is 6.",
+       "zh": "约分。能同时整除 6 和 12 的最大的数是 6。",
+       "math": [
+        "6 ÷ 6 = 1",
+        "12 ÷ 6 = 2",
+        "6/12 = 1/2"
+       ]
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "3/4 × 2/3",
+      "value": "1/2"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "5/6 × 3/5 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "6 × 5 = 30"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "5/6 × 3/5 = 15/30"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 15 and 30 is 15.",
+       "zh": "约分。能同时整除 15 和 30 的最大的数是 15。",
+       "math": [
+        "15 ÷ 15 = 1",
+        "30 ÷ 15 = 2",
+        "15/30 = 1/2"
+       ]
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "5/6 × 3/5",
+      "value": "1/2"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "3 × 2/5 = ?",
+     "hint": {
+      "en": "Write the whole number over 1 first. Then multiply the tops and the bottoms.",
+      "zh": "先把整数写成分母是 1 的分数，再分子乘分子、分母乘分母。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 3 as a fraction over 1.",
+       "zh": "把整数 3 写成分母是 1 的分数。",
+       "math": "3 = 3/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 2 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 5 = 5"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/1 × 2/5 = 6/5"
+      },
+      {
+       "en": "Can we simplify 6/5? No number except 1 divides both 6 and 5, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 6 和 5，所以已经是最简分数。",
+       "math": "6/5"
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 6 ÷ 5 = 1 with 1 left over.",
+       "zh": "分子比分母大，变成带分数：6 ÷ 5 = 1 余 1。",
+       "math": [
+        "5 × 1 = 5",
+        "6 − 5 = 1",
+        "6/5 = 1 1/5"
+       ]
+      }
+     ],
+     "answer": "1 1/5",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "3 × 2/5",
+      "value": "1 1/5"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "4/7 × 1/2 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "4 × 1 = 4"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "7 × 2 = 14"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "4/7 × 1/2 = 4/14"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 4 and 14 is 2.",
+       "zh": "约分。能同时整除 4 和 14 的最大的数是 2。",
+       "math": [
+        "4 ÷ 2 = 2",
+        "14 ÷ 2 = 7",
+        "4/14 = 2/7"
+       ]
+      }
+     ],
+     "answer": "2/7",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "4/7 × 1/2",
+      "value": "2/7"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "2/3 × 6 = ?",
+     "hint": {
+      "en": "Write the whole number over 1 first. Then multiply the tops and the bottoms.",
+      "zh": "先把整数写成分母是 1 的分数，再分子乘分子、分母乘分母。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 6 as a fraction over 1.",
+       "zh": "把整数 6 写成分母是 1 的分数。",
+       "math": "6 = 6/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 6 = 12"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "3 × 1 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/3 × 6/1 = 12/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 12 ÷ 3 = 4.",
+       "zh": "分子能被分母整除：12 ÷ 3 = 4。",
+       "math": "12/3 = 12 ÷ 3 = 4"
+      }
+     ],
+     "answer": "4",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "2/3 × 6",
+      "value": "4"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "3/8 × 4/9 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 4 = 12"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "8 × 9 = 72"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/8 × 4/9 = 12/72"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 12 and 72 is 12.",
+       "zh": "约分。能同时整除 12 和 72 的最大的数是 12。",
+       "math": [
+        "12 ÷ 12 = 1",
+        "72 ÷ 12 = 6",
+        "12/72 = 1/6"
+       ]
+      }
+     ],
+     "answer": "1/6",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "3/8 × 4/9",
+      "value": "1/6"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "5 × 3/4 = ?",
+     "hint": {
+      "en": "Write the whole number over 1 first. Then multiply the tops and the bottoms.",
+      "zh": "先把整数写成分母是 1 的分数，再分子乘分子、分母乘分母。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 5 as a fraction over 1.",
+       "zh": "把整数 5 写成分母是 1 的分数。",
+       "math": "5 = 5/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 4 = 4"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "5/1 × 3/4 = 15/4"
+      },
+      {
+       "en": "Can we simplify 15/4? No number except 1 divides both 15 and 4, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 15 和 4，所以已经是最简分数。",
+       "math": "15/4"
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 15 ÷ 4 = 3 with 3 left over.",
+       "zh": "分子比分母大，变成带分数：15 ÷ 4 = 3 余 3。",
+       "math": [
+        "4 × 3 = 12",
+        "15 − 12 = 3",
+        "15/4 = 3 3/4"
+       ]
+      }
+     ],
+     "answer": "3 3/4",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "5 × 3/4",
+      "value": "3 3/4"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now multiply fractions and simplify the answer.",
+    "zh": "我现在可以做分数乘法并约分。"
+   }
+  },
+  {
+   "id": "divide",
+   "type": "guided",
+   "icon": "🧮",
+   "title": {
+    "en": "Fraction Café 2: Divide",
+    "zh": "分数咖啡馆 2：除法"
+   },
+   "subtitle": {
+    "en": "8 questions",
+    "zh": "8 道题"
+   },
+   "intro": {
+    "en": "Divide: Keep, Change, Flip, then multiply.",
+    "zh": "除法：不变、变号、倒过来，再相乘。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "1/2 ÷ 1/6 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "KEEP the first fraction: 1/2. CHANGE ÷ to ×. FLIP the second fraction: 1/6 becomes 6/1.",
+       "zh": "第一个分数不变：1/2。除号变乘号。第二个分数倒过来：1/6 变成 6/1。",
+       "math": "1/2 ÷ 1/6 = 1/2 × 6/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "1 × 6 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "2 × 1 = 2"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "1/2 × 6/1 = 6/2"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 6 ÷ 2 = 3.",
+       "zh": "分子能被分母整除：6 ÷ 2 = 3。",
+       "math": "6/2 = 6 ÷ 2 = 3"
+      }
+     ],
+     "answer": "3",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "1/2 ÷ 1/6",
+      "value": "3"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "3 ÷ 1/2 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 3 as a fraction over 1.",
+       "zh": "把整数 3 写成分母是 1 的分数。",
+       "math": "3 = 3/1"
+      },
+      {
+       "en": "KEEP the first fraction: 3/1. CHANGE ÷ to ×. FLIP the second fraction: 1/2 becomes 2/1.",
+       "zh": "第一个分数不变：3/1。除号变乘号。第二个分数倒过来：1/2 变成 2/1。",
+       "math": "3/1 ÷ 1/2 = 3/1 × 2/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 2 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 1 = 1"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/1 × 2/1 = 6/1"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 6 ÷ 1 = 6.",
+       "zh": "分子能被分母整除：6 ÷ 1 = 6。",
+       "math": "6/1 = 6 ÷ 1 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "3 ÷ 1/2",
+      "value": "6"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "2/3 ÷ 1/3 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "KEEP the first fraction: 2/3. CHANGE ÷ to ×. FLIP the second fraction: 1/3 becomes 3/1.",
+       "zh": "第一个分数不变：2/3。除号变乘号。第二个分数倒过来：1/3 变成 3/1。",
+       "math": "2/3 ÷ 1/3 = 2/3 × 3/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 3 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "3 × 1 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/3 × 3/1 = 6/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 6 ÷ 3 = 2.",
+       "zh": "分子能被分母整除：6 ÷ 3 = 2。",
+       "math": "6/3 = 6 ÷ 3 = 2"
+      }
+     ],
+     "answer": "2",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "2/3 ÷ 1/3",
+      "value": "2"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "3/4 ÷ 1/8 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "KEEP the first fraction: 3/4. CHANGE ÷ to ×. FLIP the second fraction: 1/8 becomes 8/1.",
+       "zh": "第一个分数不变：3/4。除号变乘号。第二个分数倒过来：1/8 变成 8/1。",
+       "math": "3/4 ÷ 1/8 = 3/4 × 8/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 8 = 24"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "4 × 1 = 4"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/4 × 8/1 = 24/4"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 24 ÷ 4 = 6.",
+       "zh": "分子能被分母整除：24 ÷ 4 = 6。",
+       "math": "24/4 = 24 ÷ 4 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "3/4 ÷ 1/8",
+      "value": "6"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "4/5 ÷ 2 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 2 as a fraction over 1.",
+       "zh": "把整数 2 写成分母是 1 的分数。",
+       "math": "2 = 2/1"
+      },
+      {
+       "en": "KEEP the first fraction: 4/5. CHANGE ÷ to ×. FLIP the second fraction: 2/1 becomes 1/2.",
+       "zh": "第一个分数不变：4/5。除号变乘号。第二个分数倒过来：2/1 变成 1/2。",
+       "math": "4/5 ÷ 2/1 = 4/5 × 1/2"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "4 × 1 = 4"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "5 × 2 = 10"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "4/5 × 1/2 = 4/10"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 4 and 10 is 2.",
+       "zh": "约分。能同时整除 4 和 10 的最大的数是 2。",
+       "math": [
+        "4 ÷ 2 = 2",
+        "10 ÷ 2 = 5",
+        "4/10 = 2/5"
+       ]
+      }
+     ],
+     "answer": "2/5",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "4/5 ÷ 2",
+      "value": "2/5"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "5/6 ÷ 1/3 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "KEEP the first fraction: 5/6. CHANGE ÷ to ×. FLIP the second fraction: 1/3 becomes 3/1.",
+       "zh": "第一个分数不变：5/6。除号变乘号。第二个分数倒过来：1/3 变成 3/1。",
+       "math": "5/6 ÷ 1/3 = 5/6 × 3/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "6 × 1 = 6"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "5/6 × 3/1 = 15/6"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 15 and 6 is 3.",
+       "zh": "约分。能同时整除 15 和 6 的最大的数是 3。",
+       "math": [
+        "15 ÷ 3 = 5",
+        "6 ÷ 3 = 2",
+        "15/6 = 5/2"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 5 ÷ 2 = 2 with 1 left over.",
+       "zh": "分子比分母大，变成带分数：5 ÷ 2 = 2 余 1。",
+       "math": [
+        "2 × 2 = 4",
+        "5 − 4 = 1",
+        "5/2 = 2 1/2"
+       ]
+      }
+     ],
+     "answer": "2 1/2",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "5/6 ÷ 1/3",
+      "value": "2 1/2"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "2/5 ÷ 3/4 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "KEEP the first fraction: 2/5. CHANGE ÷ to ×. FLIP the second fraction: 3/4 becomes 4/3.",
+       "zh": "第一个分数不变：2/5。除号变乘号。第二个分数倒过来：3/4 变成 4/3。",
+       "math": "2/5 ÷ 3/4 = 2/5 × 4/3"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 4 = 8"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/5 × 4/3 = 8/15"
+      },
+      {
+       "en": "Can we simplify 8/15? No number except 1 divides both 8 and 15, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 8 和 15，所以已经是最简分数。",
+       "math": "8/15"
+      }
+     ],
+     "answer": "8/15",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "2/5 ÷ 3/4",
+      "value": "8/15"
+     }
+    },
+    {
+     "section": {
+      "en": "Divide fractions",
+      "zh": "分数除法"
+     },
+     "q": "6 ÷ 2/3 = ?",
+     "hint": {
+      "en": "Keep, Change, Flip: keep the first fraction, change ÷ to ×, flip the second fraction.",
+      "zh": "不变、变号、倒过来：第一个分数不变，除号变乘号，第二个分数倒过来。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 6 as a fraction over 1.",
+       "zh": "把整数 6 写成分母是 1 的分数。",
+       "math": "6 = 6/1"
+      },
+      {
+       "en": "KEEP the first fraction: 6/1. CHANGE ÷ to ×. FLIP the second fraction: 2/3 becomes 3/2.",
+       "zh": "第一个分数不变：6/1。除号变乘号。第二个分数倒过来：2/3 变成 3/2。",
+       "math": "6/1 ÷ 2/3 = 6/1 × 3/2"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "6 × 3 = 18"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 2 = 2"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "6/1 × 3/2 = 18/2"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 18 ÷ 2 = 9.",
+       "zh": "分子能被分母整除：18 ÷ 2 = 9。",
+       "math": "18/2 = 18 ÷ 2 = 9"
+      }
+     ],
+     "answer": "9",
+     "why": {
+      "en": "Dividing by a fraction is the same as multiplying by its flip. It tells us how many pieces fit.",
+      "zh": "除以一个分数，等于乘它的倒数。它告诉我们能放进几份。"
+     },
+     "check": {
+      "expr": "6 ÷ 2/3",
+      "value": "9"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now divide fractions with Keep, Change, Flip.",
+    "zh": "我现在可以用“不变、变号、倒过来”做分数除法。"
+   }
+  },
+  {
+   "id": "wordproblems",
+   "type": "guided",
+   "icon": "🧮",
+   "title": {
+    "en": "Fraction Café 3: Word Problems",
+    "zh": "分数咖啡馆 3：应用题"
+   },
+   "subtitle": {
+    "en": "6 questions",
+    "zh": "6 道题"
+   },
+   "intro": {
+    "en": "\"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+    "zh": "“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Daisy has 3/4 of a bubble tea. She drinks 1/2 of it. What fraction of the whole tea does she drink?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key word: \"of\" means multiply (×).",
+       "zh": "圈出关键词：“of” 的意思是乘（×）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "1/2 × 3/4"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "2 × 4 = 8"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "1/2 × 3/4 = 3/8"
+      },
+      {
+       "en": "Can we simplify 3/8? No number except 1 divides both 3 and 8, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 3 和 8，所以已经是最简分数。",
+       "math": "3/8"
+      }
+     ],
+     "answer": "3/8 of the whole tea",
+     "why": {
+      "en": "She drinks half OF the 3/4 she has, and \"of\" means ×.",
+      "zh": "她喝的是 3/4 的一半，“of” 就是乘。"
+     },
+     "check": {
+      "expr": "1/2 × 3/4",
+      "value": "3/8"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Lily has 6 metres of ribbon. Each bow needs 3/4 of a metre. How many bows can she make?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"How many ... ?\" from a total means divide (÷).",
+       "zh": "圈出关键词：“能做/分几个？” 用除法（÷）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "6 ÷ 3/4"
+      },
+      {
+       "en": "Write the whole number 6 as a fraction over 1.",
+       "zh": "把整数 6 写成分母是 1 的分数。",
+       "math": "6 = 6/1"
+      },
+      {
+       "en": "Keep, Change, Flip.",
+       "zh": "不变、变号、倒过来。",
+       "math": "6/1 ÷ 3/4 = 6/1 × 4/3"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "6 × 4 = 24"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "6/1 × 4/3 = 24/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 24 ÷ 3 = 8.",
+       "zh": "分子能被分母整除：24 ÷ 3 = 8。",
+       "math": "24/3 = 24 ÷ 3 = 8"
+      }
+     ],
+     "answer": "8 bows",
+     "why": {
+      "en": "We want to know how many 3/4 m pieces fit into 6 m, so we divide.",
+      "zh": "我们要知道 6 米里能剪出几段 3/4 米，所以用除法。"
+     },
+     "check": {
+      "expr": "6 ÷ 3/4",
+      "value": "8"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Emma swims 3/5 of a kilometre every day. How far does she swim in 4 days?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"every day ... in 4 days\" means the same amount 4 times, so multiply (×).",
+       "zh": "圈出关键词：“每天……4 天一共” 就是同样的量 4 次，用乘法（×）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "4 × 3/5"
+      },
+      {
+       "en": "Write the whole number 4 as a fraction over 1.",
+       "zh": "把整数 4 写成分母是 1 的分数。",
+       "math": "4 = 4/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "4 × 3 = 12"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 5 = 5"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "4/1 × 3/5 = 12/5"
+      },
+      {
+       "en": "Can we simplify 12/5? No number except 1 divides both 12 and 5, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 12 和 5，所以已经是最简分数。",
+       "math": "12/5"
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 12 ÷ 5 = 2 with 2 left over.",
+       "zh": "分子比分母大，变成带分数：12 ÷ 5 = 2 余 2。",
+       "math": [
+        "5 × 2 = 10",
+        "12 − 10 = 2",
+        "12/5 = 2 2/5"
+       ]
+      }
+     ],
+     "answer": "2 2/5 km",
+     "why": {
+      "en": "She swims the same distance 4 times, so 4 × 3/5.",
+      "zh": "同样的距离游 4 次，所以是 4 × 3/5。"
+     },
+     "check": {
+      "expr": "4 × 3/5",
+      "value": "2 2/5"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "4 friends share 2/3 kg of nuts equally. How much does each friend get?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"share equally\" means divide (÷).",
+       "zh": "圈出关键词：“平均分” 用除法（÷）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "2/3 ÷ 4"
+      },
+      {
+       "en": "Write the whole number 4 as a fraction over 1.",
+       "zh": "把整数 4 写成分母是 1 的分数。",
+       "math": "4 = 4/1"
+      },
+      {
+       "en": "Keep, Change, Flip.",
+       "zh": "不变、变号、倒过来。",
+       "math": "2/3 ÷ 4/1 = 2/3 × 1/4"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 1 = 2"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "3 × 4 = 12"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/3 × 1/4 = 2/12"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 2 and 12 is 2.",
+       "zh": "约分。能同时整除 2 和 12 的最大的数是 2。",
+       "math": [
+        "2 ÷ 2 = 1",
+        "12 ÷ 2 = 6",
+        "2/12 = 1/6"
+       ]
+      }
+     ],
+     "answer": "1/6 kg",
+     "why": {
+      "en": "Sharing 2/3 kg between 4 friends makes each share smaller, so we divide by 4.",
+      "zh": "把 2/3 千克分给 4 个人，每人分得更少，所以除以 4。"
+     },
+     "check": {
+      "expr": "2/3 ÷ 4",
+      "value": "1/6"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Sophie has 150 baht. She spends 2/5 of it on gel pens. How much does she spend?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key word: \"of\" means multiply (×).",
+       "zh": "圈出关键词：“of” 的意思是乘（×）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "2/5 × 150"
+      },
+      {
+       "en": "Write the whole number 150 as a fraction over 1.",
+       "zh": "把整数 150 写成分母是 1 的分数。",
+       "math": "150 = 150/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 150 = 300"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "5 × 1 = 5"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/5 × 150/1 = 300/5"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 300 ÷ 5 = 60.",
+       "zh": "分子能被分母整除：300 ÷ 5 = 60。",
+       "math": "300/5 = 300 ÷ 5 = 60"
+      }
+     ],
+     "answer": "60 baht",
+     "why": {
+      "en": "She spends 2/5 OF her money, and \"of\" means ×.",
+      "zh": "她花了钱的 2/5，“of” 就是乘。"
+     },
+     "check": {
+      "expr": "2/5 × 150",
+      "value": "60"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "James has 3 loaves of bread for the class feast. Each child gets 3/8 of a loaf. How many children get bread?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"How many ... ?\" from a total means divide (÷).",
+       "zh": "圈出关键词：“能做/分几个？” 用除法（÷）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "3 ÷ 3/8"
+      },
+      {
+       "en": "Write the whole number 3 as a fraction over 1.",
+       "zh": "把整数 3 写成分母是 1 的分数。",
+       "math": "3 = 3/1"
+      },
+      {
+       "en": "Keep, Change, Flip.",
+       "zh": "不变、变号、倒过来。",
+       "math": "3/1 ÷ 3/8 = 3/1 × 8/3"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 8 = 24"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/1 × 8/3 = 24/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 24 ÷ 3 = 8.",
+       "zh": "分子能被分母整除：24 ÷ 3 = 8。",
+       "math": "24/3 = 24 ÷ 3 = 8"
+      }
+     ],
+     "answer": "8 children",
+     "why": {
+      "en": "We want to know how many 3/8 pieces fit into 3 loaves, so we divide.",
+      "zh": "我们要知道 3 个面包能分出几份 3/8，所以用除法。"
+     },
+     "check": {
+      "expr": "3 ÷ 3/8",
+      "value": "8"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose × or ÷ in fraction word problems.",
+    "zh": "我现在可以在分数应用题里选择乘或除。"
+   }
+  },
+  {
+   "id": "runons",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "✏️",
+   "title": {
+    "en": "Run-ons and Speech Parts",
+    "zh": "连写句和演讲结构"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "A run-on is two complete sentences joined with nothing, or only a comma. Fix 1: full stop + capital letter. Fix 2: comma + and / but / so.",
+    "zh": "连写句是两个完整的句子连在一起，中间没有标点或只有逗号。改法 1：句号 + 大写。改法 2：逗号 + and / but / so。"
+   },
+   "questions": [
+    {
+     "q": "Which one is a RUN-ON sentence?",
+     "options": [
+      "I like bread.",
+      "I like bread it is soft.",
+      "I like soft bread.",
+      "Soft bread is nice."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "\"I like bread\" and \"it is soft\" are two complete sentences joined with nothing between them.",
+      "zh": "“I like bread” 和 “it is soft” 是两个完整的句子，中间什么都没有。"
+     }
+    },
+    {
+     "q": "Which one is a RUN-ON sentence?",
+     "options": [
+      "Tom ran, but he was late.",
+      "Tom ran fast.",
+      "Tom ran fast, he was late.",
+      "Tom was late."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Two complete sentences joined with only a comma is still a run-on. It needs \"but\" or a full stop.",
+      "zh": "两个完整的句子只用逗号连起来，还是连写句。需要加 but 或句号。"
+     }
+    },
+    {
+     "q": "Choose the best fix: Emma loves K-pop she dances every day.",
+     "options": [
+      "Emma loves K-pop, she dances every day.",
+      "Emma loves K-pop. She dances every day.",
+      "Emma loves K-pop she. Dances every day.",
+      "emma loves K-pop. she dances every day."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Fix 1: full stop + capital letter. \"She\" starts the new sentence with a capital S.",
+      "zh": "改法 1：句号 + 大写字母。新句子 She 要大写。"
+     }
+    },
+    {
+     "q": "Choose the best fix: My grandma smiled she gave me a big hug.",
+     "options": [
+      "My grandma smiled, she gave me a big hug.",
+      "My grandma smiled and, she gave me a big hug.",
+      "My grandma smiled, and she gave me a big hug.",
+      "my grandma smiled. she gave me a big hug."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Fix 2: comma + and. \"My grandma smiled, and she gave me a big hug.\"",
+      "zh": "改法 2：逗号 + and。"
+     }
+    },
+    {
+     "q": "Choose the best fix: I dropped my phone, the screen cracked.",
+     "options": [
+      "I dropped my phone, so the screen cracked.",
+      "I dropped my phone the screen cracked.",
+      "I dropped, my phone the screen cracked.",
+      "I dropped my phone, the Screen cracked."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A comma alone is not enough. Comma + so joins the two ideas and shows the reason.",
+      "zh": "只有逗号不够。逗号 + so 把两个意思连起来，还说明了原因。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"Have you ever tried to cook something and made a big mess?\"",
+     "options": [
+      "Introduction",
+      "Beginning",
+      "Middle",
+      "End"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A question to grab attention is an introduction.",
+      "zh": "用问题吸引听众，这是开场。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"It was Chinese New Year, and I was in Grandma's kitchen.\"",
+     "options": [
+      "Introduction",
+      "Beginning",
+      "Middle",
+      "Conclusion"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It tells WHEN and WHERE. That is the beginning.",
+      "zh": "它讲了时间和地点，这是开始。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"Then, something unexpected happened: my first dumpling burst open in the pot!\"",
+     "options": [
+      "Beginning",
+      "Middle",
+      "End",
+      "Conclusion"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A problem or surprise is the exciting middle part.",
+      "zh": "问题或惊喜是最精彩的中间部分。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"Finally, Grandma tasted my dumplings and said they were perfect.\"",
+     "options": [
+      "Introduction",
+      "Middle",
+      "End",
+      "Conclusion"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "It tells how the story ended. That is the end.",
+      "zh": "它讲了故事的结果，这是结尾。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"I learned that making mistakes is part of learning something new.\"",
+     "options": [
+      "Beginning",
+      "Middle",
+      "End",
+      "Conclusion"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "It tells what I learned, not the story again. That is the conclusion.",
+      "zh": "它讲了我学到什么，不是再讲故事，这是总结。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now fix run-on sentences and name the 5 parts of a speech.",
+    "zh": "我现在可以改正连写句，并说出演讲的 5 个部分。"
+   }
+  },
+  {
+   "id": "wordstudy",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "🔡",
+   "title": {
+    "en": "Word Study: -ance and -ence",
+    "zh": "构词：-ance 和 -ence"
+   },
+   "subtitle": {
+    "en": "8 questions",
+    "zh": "8 道题"
+   },
+   "intro": {
+    "en": "-ant usually takes -ance (distant → distance). -ent usually takes -ence (silent → silence). Some words you just learn: appear → appearance.",
+    "zh": "-ant 结尾通常加 -ance（distant → distance）。-ent 结尾通常加 -ence（silent → silence）。有些词要记住：appear → appearance。"
+   },
+   "questions": [
+    {
+     "q": "silent + -ance or -ence = ?",
+     "options": [
+      "silance",
+      "silence",
+      "silentce",
+      "silents"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Words ending in -ent usually take -ence: silent → silence.",
+      "zh": "以 -ent 结尾的词通常加 -ence：silent → silence。"
+     }
+    },
+    {
+     "q": "appear + -ance or -ence = ?",
+     "options": [
+      "appearence",
+      "appearance",
+      "apperance",
+      "appearnce"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "appear does not end in -ant or -ent. We learn it: appear → appearance.",
+      "zh": "appear 不是 -ant 或 -ent 结尾，要记住：appear → appearance。"
+     }
+    },
+    {
+     "q": "confident + -ance or -ence = ?",
+     "options": [
+      "confidance",
+      "confidentce",
+      "confidence",
+      "confidense"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "-ent → -ence: confident → confidence.",
+      "zh": "-ent → -ence：confident → confidence。"
+     }
+    },
+    {
+     "q": "distant + -ance or -ence = ?",
+     "options": [
+      "distence",
+      "distance",
+      "distants",
+      "distanse"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "-ant → -ance: distant → distance.",
+      "zh": "-ant → -ance：distant → distance。"
+     }
+    },
+    {
+     "q": "independent + -ance or -ence = ?",
+     "options": [
+      "independance",
+      "independense",
+      "independents",
+      "independence"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "-ent → -ence: independent → independence.",
+      "zh": "-ent → -ence：independent → independence。"
+     }
+    },
+    {
+     "q": "guide + -ance or -ence = ? (drop the e!)",
+     "options": [
+      "guidance",
+      "guideance",
+      "guidence",
+      "guidanse"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Drop the e, then add -ance: guide → guidance.",
+      "zh": "去掉 e，再加 -ance：guide → guidance。"
+     }
+    },
+    {
+     "q": "Sophie showed great __________ while she waited for her turn.",
+     "options": [
+      "patients",
+      "patiance",
+      "patience",
+      "patient"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "We need a noun. patient → patience (-ent → -ence). \"patients\" means sick people at a hospital!",
+      "zh": "这里要名词。patient → patience。patients 是“病人”的意思！"
+     }
+    },
+    {
+     "q": "Which sentence uses the idiom \"the icing on the cake\" correctly?",
+     "options": [
+      "I fell over, and that was the icing on the cake.",
+      "Our trip was great, and seeing an elephant was the icing on the cake.",
+      "I put pink icing on the cake.",
+      "The test was hard, the icing on the cake."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The idiom means something extra that makes a GOOD thing even better.",
+      "zh": "这个习语的意思是让好事变得更好的额外惊喜（锦上添花）。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now add -ance and -ence to make nouns, and use \"the icing on the cake\".",
+    "zh": "我现在可以用 -ance 和 -ence 构成名词，并会用“锦上添花”。"
+   }
+  }
+ ]
+}

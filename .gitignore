@@ -1,0 +1,14 @@
+# Private source material: never goes to GitHub (leading / = only the top-level folder)
+/Daisy/
+/Issie/
+/Lyra/
+/inbox/
+/archive/
+/scores/
+/students.md
+/CHECK-ME.md
+/.claude/
+.venv/
+.DS_Store
+/context/
+/checks/private_words.txt
