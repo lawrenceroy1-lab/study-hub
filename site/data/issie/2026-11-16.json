@@ -1,0 +1,1993 @@
+{
+ "week": "2026-11-16",
+ "title": {
+  "en": "Equations, Coral Reef Words and Weather",
+  "zh": "方程、珊瑚礁单词和天气"
+ },
+ "message": {
+  "en": "This week: × and ÷ equations, fraction equations with a bar model, is or are, and weather. Lawrence will check your workbook on Monday. You can do it, Issie!",
+  "zh": "本周：乘除方程、用线段图解分数方程、is 和 are，还有天气。Lawrence 星期一会检查你的练习册。Issie，你能做到！"
+ },
+ "activities": [
+  {
+   "id": "spelling",
+   "type": "spelling",
+   "title": {
+    "en": "Spelling: Coral Reef Words",
+    "zh": "拼写：珊瑚礁单词"
+   },
+   "subtitle": {
+    "en": "15 words",
+    "zh": "15 个词"
+   },
+   "intro": {
+    "en": "Listen, then type the word. Step 1: hear it. Step 2: say it slowly in parts (con-fi-dent). Step 3: type it. Missed words come back until you get them all!",
+    "zh": "听一听，再输入单词。第 1 步：听。第 2 步：慢慢分开读（con-fi-dent）。第 3 步：输入。拼错的词会再出现，直到全部拼对！"
+   },
+   "groups": [
+    {
+     "id": "sea",
+     "en": "Sea and Animals",
+     "zh": "海洋和动物"
+    },
+    {
+     "id": "people",
+     "en": "People and Feelings",
+     "zh": "人和感受"
+    },
+    {
+     "id": "science",
+     "en": "Science and Numbers",
+     "zh": "科学和数字"
+    }
+   ],
+   "words": [
+    {
+     "word": "ecologist",
+     "sentence": "The ecologist counted the fish on the coral reef.",
+     "zh": "生态学家",
+     "group": "science"
+    },
+    {
+     "word": "shell",
+     "sentence": "Lily found a white shell on the beach.",
+     "zh": "壳",
+     "group": "sea"
+    },
+    {
+     "word": "dissolve",
+     "sentence": "Watch the sugar dissolve in the hot tea.",
+     "zh": "溶解",
+     "group": "science"
+    },
+    {
+     "word": "venom",
+     "sentence": "Some sea snakes have strong venom.",
+     "zh": "毒液",
+     "group": "sea"
+    },
+    {
+     "word": "personality",
+     "sentence": "Emma has a kind and funny personality.",
+     "zh": "性格",
+     "group": "people"
+    },
+    {
+     "word": "saltwater",
+     "sentence": "Clownfish are saltwater fish.",
+     "zh": "咸水的；海水的",
+     "group": "sea"
+    },
+    {
+     "word": "classify",
+     "sentence": "We classify animals by how they live.",
+     "zh": "分类",
+     "group": "science"
+    },
+    {
+     "word": "coral",
+     "sentence": "Coral grows slowly in warm, clear water.",
+     "zh": "珊瑚",
+     "group": "sea"
+    },
+    {
+     "word": "disruption",
+     "sentence": "The storm caused a disruption to the school trip.",
+     "zh": "中断；扰乱",
+     "group": "science"
+    },
+    {
+     "word": "confident",
+     "sentence": "Sophie felt confident before her singing show.",
+     "zh": "自信的",
+     "group": "people"
+    },
+    {
+     "word": "perplexing",
+     "sentence": "The last maths question was perplexing.",
+     "zh": "令人困惑的",
+     "group": "people"
+    },
+    {
+     "word": "billion",
+     "sentence": "There are about eight billion people on Earth.",
+     "zh": "十亿",
+     "group": "science"
+    },
+    {
+     "word": "neurons",
+     "sentence": "Neurons send messages from your brain to your hand.",
+     "zh": "神经元",
+     "group": "science"
+    },
+    {
+     "word": "captivity",
+     "sentence": "The turtle lived in captivity at the aquarium.",
+     "zh": "圈养；囚禁",
+     "group": "sea"
+    },
+    {
+     "word": "female",
+     "sentence": "The female turtle laid her eggs on the sand.",
+     "zh": "女性的；雌性的",
+     "group": "people"
+    }
+   ],
+   "canNow": {
+    "en": "I can now spell all 15 coral reef words.",
+    "zh": "我现在可以拼写全部 15 个珊瑚礁单词。"
+   }
+  },
+  {
+   "id": "cards",
+   "type": "flashcards",
+   "title": {
+    "en": "Flashcards: Words of the Week",
+    "zh": "闪卡：本周单词"
+   },
+   "subtitle": {
+    "en": "15 words",
+    "zh": "15 个词"
+   },
+   "intro": {
+    "en": "Step 1: read the word out loud. Step 2: say what it means. Step 3: tap the card to check.",
+    "zh": "第 1 步：大声读单词。第 2 步：说出意思。第 3 步：点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "ecologist",
+     "back": "a person who studies the natural relationships between the air, land, water, animals, and plants",
+     "zh": "生态学家"
+    },
+    {
+     "front": "shell",
+     "back": "the hard outer covering of something, especially nuts, eggs, and some animals",
+     "zh": "壳"
+    },
+    {
+     "front": "dissolve",
+     "back": "to be absorbed or to cause a solid to be absorbed by a liquid",
+     "zh": "溶解"
+    },
+    {
+     "front": "venom",
+     "back": "a poisonous liquid that some snakes, insects, etc. produce and can put into another animal's body",
+     "zh": "毒液"
+    },
+    {
+     "front": "personality",
+     "back": "the type of person you are, shown by the way you behave, feel, and think",
+     "zh": "性格"
+    },
+    {
+     "front": "saltwater",
+     "back": "connected with or found in sea water or water containing salt",
+     "zh": "咸水的；海水的"
+    },
+    {
+     "front": "classify",
+     "back": "to divide things into groups according to type",
+     "zh": "分类"
+    },
+    {
+     "front": "coral",
+     "back": "a substance like rock, formed in the sea by groups of particular types of small animal",
+     "zh": "珊瑚"
+    },
+    {
+     "front": "disruption",
+     "back": "the action of preventing something from continuing as usual or as expected",
+     "zh": "中断；扰乱"
+    },
+    {
+     "front": "confident",
+     "back": "being certain of your abilities or having trust in people, plans, or the future",
+     "zh": "自信的"
+    },
+    {
+     "front": "perplexing",
+     "back": "confusing, often because you do not know how to solve something",
+     "zh": "令人困惑的"
+    },
+    {
+     "front": "billion",
+     "back": "the number 1,000,000,000",
+     "zh": "十亿"
+    },
+    {
+     "front": "neurons",
+     "back": "nerve cells that carry information between the brain and other parts of the body",
+     "zh": "神经元"
+    },
+    {
+     "front": "captivity",
+     "back": "the situation in which a person or animal is kept somewhere and is not allowed to leave",
+     "zh": "圈养；囚禁"
+    },
+    {
+     "front": "female",
+     "back": "belonging or related to women",
+     "zh": "女性的；雌性的"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain what all 15 words mean.",
+    "zh": "我现在可以解释全部 15 个单词的意思。"
+   }
+  },
+  {
+   "id": "match",
+   "type": "match",
+   "title": {
+    "en": "Match Game: Words of the Week",
+    "zh": "配对游戏：本周单词"
+   },
+   "intro": {
+    "en": "Tap a word, then tap its meaning. Be quick!",
+    "zh": "先点一个词，再点它的意思。要快！"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "ecologist",
+     "b": "studies how living things and nature are connected"
+    },
+    {
+     "a": "shell",
+     "b": "a hard outer covering"
+    },
+    {
+     "a": "dissolve",
+     "b": "to mix into a liquid and disappear"
+    },
+    {
+     "a": "venom",
+     "b": "poison from a snake or insect"
+    },
+    {
+     "a": "personality",
+     "b": "the type of person you are"
+    },
+    {
+     "a": "saltwater",
+     "b": "found in sea water"
+    },
+    {
+     "a": "classify",
+     "b": "to put things into groups"
+    },
+    {
+     "a": "coral",
+     "b": "rock-like thing made by tiny sea animals"
+    },
+    {
+     "a": "disruption",
+     "b": "something that stops things going as normal"
+    },
+    {
+     "a": "confident",
+     "b": "sure of yourself"
+    },
+    {
+     "a": "perplexing",
+     "b": "confusing, hard to solve"
+    },
+    {
+     "a": "billion",
+     "b": "1,000,000,000"
+    },
+    {
+     "a": "neurons",
+     "b": "nerve cells that carry messages"
+    },
+    {
+     "a": "captivity",
+     "b": "kept somewhere and not allowed to leave"
+    },
+    {
+     "a": "female",
+     "b": "a girl, a woman or a mother animal"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match each word to its meaning quickly.",
+    "zh": "我现在可以快速把单词和意思配对。"
+   }
+  },
+  {
+   "id": "wordquiz",
+   "type": "quiz",
+   "timed": true,
+   "count": 10,
+   "seconds": 20,
+   "title": {
+    "en": "Speed Quiz: Word Meanings",
+    "zh": "抢答：单词意思"
+   },
+   "intro": {
+    "en": "10 questions, 20 seconds each. Read the question twice, then choose. Faster answers win more points!",
+    "zh": "10 道题，每题 20 秒。题目读两遍，再选择。答得越快分越高！"
+   },
+   "questions": [
+    {
+     "q": "A perplexing maths problem makes you feel...",
+     "options": [
+      "confused",
+      "happy",
+      "hungry",
+      "brave"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Perplexing means confusing. A confusing problem makes you feel confused.",
+      "zh": "perplexing 的意思是令人困惑的，所以你会觉得困惑。"
+     }
+    },
+    {
+     "q": "Sugar ________ in hot tea.",
+     "options": [
+      "dissolves",
+      "classifies",
+      "confident",
+      "coral"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Dissolve means to mix into a liquid and disappear. Sugar dissolves in tea.",
+      "zh": "dissolve 的意思是溶解。糖在茶里溶解。"
+     }
+    },
+    {
+     "q": "Which animal can have venom?",
+     "options": [
+      "a snake",
+      "a rabbit",
+      "a cow",
+      "a goldfish"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Venom is poison that some snakes and insects put into another animal.",
+      "zh": "毒液是一些蛇和昆虫产生的毒。"
+     }
+    },
+    {
+     "q": "How many zeros are in one billion?",
+     "options": [
+      "9",
+      "6",
+      "12",
+      "3"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "One billion is 1,000,000,000. Count the zeros: 3 + 3 + 3 = 9. (One million has 6.)",
+      "zh": "十亿是 1,000,000,000。数一数零：3 + 3 + 3 = 9 个。（一百万有 6 个零。）"
+     }
+    },
+    {
+     "q": "Neurons carry messages between...",
+     "options": [
+      "the brain and the body",
+      "the sea and the sky",
+      "two shells",
+      "a tree and its leaves"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Neurons are nerve cells. They carry messages between your brain and your body.",
+      "zh": "神经元是神经细胞，在大脑和身体之间传递信息。"
+     }
+    },
+    {
+     "q": "A dolphin in captivity...",
+     "options": [
+      "lives in a tank and cannot leave",
+      "swims anywhere it likes",
+      "is always confident",
+      "is a kind of coral"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Captivity means kept somewhere and not allowed to leave.",
+      "zh": "captivity 的意思是被关着，不能离开。"
+     }
+    },
+    {
+     "q": "An ecologist studies...",
+     "options": [
+      "how animals, plants, air, land and water are connected",
+      "only the stars and planets",
+      "old coins and stamps",
+      "how to build houses"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "An ecologist studies the natural relationships between living things and nature.",
+      "zh": "生态学家研究生物和自然之间的关系。"
+     }
+    },
+    {
+     "q": "To classify shells means to...",
+     "options": [
+      "put them into groups by type",
+      "break them into pieces",
+      "paint them",
+      "throw them away"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Classify means to put things into groups. You classified your words into 3 groups!",
+      "zh": "classify 的意思是分类。你已经把单词分成 3 组了！"
+     }
+    },
+    {
+     "q": "The puzzle is perplexing. I am ________.",
+     "options": [
+      "perplexed",
+      "perplexing",
+      "perplex",
+      "perplexes"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Trap! -ing describes the THING (the puzzle is perplexing). -ed describes the PERSON who feels it (I am perplexed).",
+      "zh": "陷阱！-ing 形容让人有感觉的东西（谜题令人困惑）。-ed 形容有这种感觉的人（我感到困惑）。"
+     }
+    },
+    {
+     "q": "A storm closed the roads, so there was a ________ to the school trip.",
+     "options": [
+      "disruption",
+      "personality",
+      "coral",
+      "venom"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A disruption stops things going as normal. The storm stopped the trip going as planned.",
+      "zh": "disruption 的意思是中断。暴风雨让旅行不能按计划进行。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose the right word of the week, even in a trap question.",
+    "zh": "我现在可以选对本周单词，连陷阱题也不怕。"
+   }
+  },
+  {
+   "id": "undo",
+   "type": "guided",
+   "icon": "⚖️",
+   "title": {
+    "en": "Undo It! × and ÷ Equations",
+    "zh": "做相反运算！乘除方程"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Think of a balance scale: whatever you do to one side, do to the other. Step 1: what is happening to the letter? Step 2: do the OPPOSITE to both sides (× is undone by ÷, ÷ is undone by ×). Step 3: write letter = number. Step 4: check it!",
+    "zh": "想象一个天平：一边做什么，另一边也要做同样的事。第 1 步：字母发生了什么？第 2 步：两边做相反的运算（× 用 ÷ 抵消，÷ 用 × 抵消）。第 3 步：写成“字母 = 数字”。第 4 步：检查！"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve 5k = 35",
+     "hint": {
+      "en": "k is multiplied by 5. Do the opposite: ÷ 5 on both sides.",
+      "zh": "k 被乘以 5。做相反的运算：两边同时 ÷ 5。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to k? k is being MULTIPLIED by 5.",
+       "zh": "k 发生了什么？k 被乘以 5。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 5 is ÷ 5.",
+       "zh": "两边做相反的运算。× 5 的相反是 ÷ 5。",
+       "math": [
+        "35 ÷ 5 = 7"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: k = 7",
+       "zh": "把答案写完整，写成“字母 = 数字”：k = 7"
+      },
+      {
+       "en": "Check it! Put 7 back in.",
+       "zh": "检查！把 7 放回去。",
+       "math": "5 × 7 = 35"
+      }
+     ],
+     "answer": "k = 7",
+     "why": {
+      "en": "÷ undoes ×, so k is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "÷ 可以抵消 ×，这样 k 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "35 ÷ 5",
+      "value": "7"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve y ÷ 3 = 8",
+     "hint": {
+      "en": "y is divided by 3. Do the opposite: × 3 on both sides.",
+      "zh": "y 被除以 3。做相反的运算：两边同时 × 3。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to y? y is being DIVIDED by 3.",
+       "zh": "y 发生了什么？y 被除以 3。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of ÷ 3 is × 3.",
+       "zh": "两边做相反的运算。÷ 3 的相反是 × 3。",
+       "math": [
+        "8 × 3 = 24"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: y = 24",
+       "zh": "把答案写完整，写成“字母 = 数字”：y = 24"
+      },
+      {
+       "en": "Check it! Put 24 back in.",
+       "zh": "检查！把 24 放回去。",
+       "math": "24 ÷ 3 = 8"
+      }
+     ],
+     "answer": "y = 24",
+     "why": {
+      "en": "× undoes ÷, so y is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "× 可以抵消 ÷，这样 y 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "8 × 3",
+      "value": "24"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve 9p = 72",
+     "hint": {
+      "en": "p is multiplied by 9. Do the opposite: ÷ 9 on both sides.",
+      "zh": "p 被乘以 9。做相反的运算：两边同时 ÷ 9。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to p? p is being MULTIPLIED by 9.",
+       "zh": "p 发生了什么？p 被乘以 9。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 9 is ÷ 9.",
+       "zh": "两边做相反的运算。× 9 的相反是 ÷ 9。",
+       "math": [
+        "72 ÷ 9 = 8"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: p = 8",
+       "zh": "把答案写完整，写成“字母 = 数字”：p = 8"
+      },
+      {
+       "en": "Check it! Put 8 back in.",
+       "zh": "检查！把 8 放回去。",
+       "math": "9 × 8 = 72"
+      }
+     ],
+     "answer": "p = 8",
+     "why": {
+      "en": "÷ undoes ×, so p is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "÷ 可以抵消 ×，这样 p 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "72 ÷ 9",
+      "value": "8"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve w ÷ 6 = 7",
+     "hint": {
+      "en": "w is divided by 6. Do the opposite: × 6 on both sides.",
+      "zh": "w 被除以 6。做相反的运算：两边同时 × 6。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to w? w is being DIVIDED by 6.",
+       "zh": "w 发生了什么？w 被除以 6。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of ÷ 6 is × 6.",
+       "zh": "两边做相反的运算。÷ 6 的相反是 × 6。",
+       "math": [
+        "7 × 6 = 42"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: w = 42",
+       "zh": "把答案写完整，写成“字母 = 数字”：w = 42"
+      },
+      {
+       "en": "Check it! Put 42 back in.",
+       "zh": "检查！把 42 放回去。",
+       "math": "42 ÷ 6 = 7"
+      }
+     ],
+     "answer": "w = 42",
+     "why": {
+      "en": "× undoes ÷, so w is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "× 可以抵消 ÷，这样 w 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "7 × 6",
+      "value": "42"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve 12a = 144",
+     "hint": {
+      "en": "a is multiplied by 12. Do the opposite: ÷ 12 on both sides.",
+      "zh": "a 被乘以 12。做相反的运算：两边同时 ÷ 12。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to a? a is being MULTIPLIED by 12.",
+       "zh": "a 发生了什么？a 被乘以 12。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 12 is ÷ 12.",
+       "zh": "两边做相反的运算。× 12 的相反是 ÷ 12。",
+       "math": [
+        "144 ÷ 12 = 12"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: a = 12",
+       "zh": "把答案写完整，写成“字母 = 数字”：a = 12"
+      },
+      {
+       "en": "Check it! Put 12 back in.",
+       "zh": "检查！把 12 放回去。",
+       "math": "12 × 12 = 144"
+      }
+     ],
+     "answer": "a = 12",
+     "why": {
+      "en": "÷ undoes ×, so a is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "÷ 可以抵消 ×，这样 a 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "144 ÷ 12",
+      "value": "12"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve 150 = 6m",
+     "hint": {
+      "en": "The letter is on the right this time. That is fine! m is multiplied by 6, so ÷ 6 on both sides.",
+      "zh": "这次字母在右边，没关系！m 被乘以 6，所以两边同时 ÷ 6。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to m? m is being MULTIPLIED by 6.",
+       "zh": "m 发生了什么？m 被乘以 6。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 6 is ÷ 6.",
+       "zh": "两边做相反的运算。× 6 的相反是 ÷ 6。",
+       "math": [
+        "150 ÷ 6 = 25"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: m = 25",
+       "zh": "把答案写完整，写成“字母 = 数字”：m = 25"
+      },
+      {
+       "en": "Check it! Put 25 back in.",
+       "zh": "检查！把 25 放回去。",
+       "math": "6 × 25 = 150"
+      }
+     ],
+     "answer": "m = 25",
+     "why": {
+      "en": "Finish the answer! \"150 ÷ 6\" or \"25 × 6\" is only working. The answer is m = 25.",
+      "zh": "把答案写完整！“150 ÷ 6”或“25 × 6”只是计算过程，答案是 m = 25。"
+     },
+     "check": {
+      "expr": "150 ÷ 6",
+      "value": "25"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Undo it!",
+      "zh": "做相反运算！"
+     },
+     "q": "Solve 14.7 = b ÷ 7",
+     "hint": {
+      "en": "b is divided by 7. Do the opposite: × 7 on both sides.",
+      "zh": "b 被除以 7。做相反的运算：两边同时 × 7。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to b? b is being DIVIDED by 7.",
+       "zh": "b 发生了什么？b 被除以 7。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of ÷ 7 is × 7.",
+       "zh": "两边做相反的运算。÷ 7 的相反是 × 7。",
+       "math": [
+        "14.7 × 7 = 102.9"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: b = 102.9",
+       "zh": "把答案写完整，写成“字母 = 数字”：b = 102.9"
+      },
+      {
+       "en": "Check it! Put 102.9 back in.",
+       "zh": "检查！把 102.9 放回去。",
+       "math": "102.9 ÷ 7 = 14.7"
+      }
+     ],
+     "answer": "b = 102.9",
+     "why": {
+      "en": "Check your multiplication carefully: 14 × 7 = 98 and 0.7 × 7 = 4.9, so 98 + 4.9 = 102.9.",
+      "zh": "仔细检查乘法：14 × 7 = 98，0.7 × 7 = 4.9，所以 98 + 4.9 = 102.9。"
+     },
+     "check": {
+      "expr": "14.7 × 7",
+      "value": "102.9"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Word problem",
+      "zh": "应用题"
+     },
+     "q": "Mia ran 14 laps of a track. She ran 4,200 m in total. How long is one lap? Use 14d = 4,200.",
+     "hint": {
+      "en": "d is multiplied by 14. Do the opposite: ÷ 14 on both sides.",
+      "zh": "d 被乘以 14。做相反的运算：两边同时 ÷ 14。"
+     },
+     "steps": [
+      {
+       "en": "Write the equation: 14 laps of d metres make 4,200 m, so 14d = 4,200.",
+       "zh": "写方程：14 圈，每圈 d 米，一共 4,200 米，所以 14d = 4,200。"
+      },
+      {
+       "en": "What is happening to d? d is being MULTIPLIED by 14.",
+       "zh": "d 发生了什么？d 被乘以 14。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 14 is ÷ 14.",
+       "zh": "两边做相反的运算。× 14 的相反是 ÷ 14。",
+       "math": [
+        "4,200 ÷ 14 = 300"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: d = 300 m",
+       "zh": "把答案写完整，写成“字母 = 数字”：d = 300 m"
+      },
+      {
+       "en": "Check it! Put 300 back in.",
+       "zh": "检查！把 300 放回去。",
+       "math": "14 × 300 = 4,200"
+      }
+     ],
+     "answer": "d = 300 m",
+     "why": {
+      "en": "÷ undoes ×, so d is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "÷ 可以抵消 ×，这样 d 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "4,200 ÷ 14",
+      "value": "300"
+     }
+    },
+    {
+     "section": {
+      "en": "Word problem",
+      "zh": "应用题"
+     },
+     "q": "Emma pays 60 baht for 4 notebooks. Each notebook costs p baht. Find p.",
+     "hint": {
+      "en": "p is multiplied by 4. Do the opposite: ÷ 4 on both sides.",
+      "zh": "p 被乘以 4。做相反的运算：两边同时 ÷ 4。"
+     },
+     "steps": [
+      {
+       "en": "Write the equation: 4 notebooks at p baht each cost 60 baht, so 4p = 60.",
+       "zh": "写方程：4 本笔记本，每本 p 泰铢，一共 60 泰铢，所以 4p = 60。"
+      },
+      {
+       "en": "What is happening to p? p is being MULTIPLIED by 4.",
+       "zh": "p 发生了什么？p 被乘以 4。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 4 is ÷ 4.",
+       "zh": "两边做相反的运算。× 4 的相反是 ÷ 4。",
+       "math": [
+        "60 ÷ 4 = 15"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: p = 15 baht",
+       "zh": "把答案写完整，写成“字母 = 数字”：p = 15 baht"
+      },
+      {
+       "en": "Check it! Put 15 back in.",
+       "zh": "检查！把 15 放回去。",
+       "math": "4 × 15 = 60"
+      }
+     ],
+     "answer": "p = 15 baht",
+     "why": {
+      "en": "÷ undoes ×, so p is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "÷ 可以抵消 ×，这样 p 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "60 ÷ 4",
+      "value": "15"
+     }
+    },
+    {
+     "section": {
+      "en": "Find the error",
+      "zh": "找错误"
+     },
+     "q": "Lucy solved 6w = 14.4 like this: 6w ÷ 6 = 14.4 × 6. What did she do wrong? Find w.",
+     "hint": {
+      "en": "w is multiplied by 6. Do the opposite: ÷ 6 on both sides.",
+      "zh": "w 被乘以 6。做相反的运算：两边同时 ÷ 6。"
+     },
+     "steps": [
+      {
+       "en": "Look at both sides. Lucy DIVIDED the left side by 6 but MULTIPLIED the right side by 6. That breaks the balance! Both sides need the SAME operation.",
+       "zh": "看两边。Lucy 左边除以 6，右边却乘以 6，天平就不平衡了！两边必须做同样的运算。"
+      },
+      {
+       "en": "What is happening to w? w is being MULTIPLIED by 6.",
+       "zh": "w 发生了什么？w 被乘以 6。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 6 is ÷ 6.",
+       "zh": "两边做相反的运算。× 6 的相反是 ÷ 6。",
+       "math": [
+        "14.4 ÷ 6 = 2.4"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: w = 2.4",
+       "zh": "把答案写完整，写成“字母 = 数字”：w = 2.4"
+      },
+      {
+       "en": "Check it! Put 2.4 back in.",
+       "zh": "检查！把 2.4 放回去。",
+       "math": "6 × 2.4 = 14.4"
+      }
+     ],
+     "answer": "w = 2.4",
+     "why": {
+      "en": "Same operation on BOTH sides. Lucy should divide both sides by 6.",
+      "zh": "两边做同样的运算。Lucy 应该两边都除以 6。"
+     },
+     "check": {
+      "expr": "14.4 ÷ 6",
+      "value": "2.4"
+     },
+     "noUnit": true
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve × and ÷ equations by doing the opposite, write letter = number, and check my answer.",
+    "zh": "我现在可以用相反运算解乘除方程，写成“字母 = 数字”，并检查答案。"
+   }
+  },
+  {
+   "id": "bars",
+   "type": "guided",
+   "icon": "📊",
+   "title": {
+    "en": "Decimals and Fractions in Equations",
+    "zh": "方程里的小数和分数"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Decimals: do the opposite, just like before. Fractions: use a bar model. Step 1: cut the letter into equal parts (the BOTTOM number). Step 2: find 1 part (÷ by the TOP number). Step 3: find all the parts (× by the BOTTOM number). Step 4: check it!",
+    "zh": "小数：和以前一样做相反运算。分数：用线段图。第 1 步：把字母分成相等的几份（分母）。第 2 步：求 1 份（除以分子）。第 3 步：求全部（乘以分母）。第 4 步：检查！"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Decimals",
+      "zh": "小数"
+     },
+     "q": "Solve 2.5m = 10",
+     "hint": {
+      "en": "Easy trick: how many 2.5s make 10?",
+      "zh": "小技巧：几个 2.5 加起来是 10？"
+     },
+     "steps": [
+      {
+       "en": "What is happening to m? m is being MULTIPLIED by 2.5.",
+       "zh": "m 发生了什么？m 被乘以 2.5。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 2.5 is ÷ 2.5.",
+       "zh": "两边做相反的运算。× 2.5 的相反是 ÷ 2.5。",
+       "math": [
+        "2.5 + 2.5 + 2.5 + 2.5 = 10",
+        "10 ÷ 2.5 = 4"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: m = 4",
+       "zh": "把答案写完整，写成“字母 = 数字”：m = 4"
+      },
+      {
+       "en": "Check it! Put 4 back in.",
+       "zh": "检查！把 4 放回去。",
+       "math": "2.5 × 4 = 10"
+      }
+     ],
+     "answer": "m = 4",
+     "why": {
+      "en": "÷ undoes ×, so m is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "÷ 可以抵消 ×，这样 m 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "10 ÷ 2.5",
+      "value": "4"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Decimals",
+      "zh": "小数"
+     },
+     "q": "Solve 0.5x = 7",
+     "hint": {
+      "en": "0.5 is a half. Half of x is 7. So what is all of x?",
+      "zh": "0.5 是一半。x 的一半是 7，那 x 是多少？"
+     },
+     "steps": [
+      {
+       "en": "What is happening to x? x is being MULTIPLIED by 0.5.",
+       "zh": "x 发生了什么？x 被乘以 0.5。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of × 0.5 is ÷ 0.5.",
+       "zh": "两边做相反的运算。× 0.5 的相反是 ÷ 0.5。",
+       "math": [
+        "7 ÷ 0.5 = 7 × 2",
+        "7 ÷ 0.5 = 14"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: x = 14",
+       "zh": "把答案写完整，写成“字母 = 数字”：x = 14"
+      },
+      {
+       "en": "Check it! Put 14 back in.",
+       "zh": "检查！把 14 放回去。",
+       "math": "0.5 × 14 = 7"
+      }
+     ],
+     "answer": "x = 14",
+     "why": {
+      "en": "Dividing by 0.5 is the same as doubling. Half of x is 7, so x is double 7.",
+      "zh": "除以 0.5 就是乘以 2。x 的一半是 7，所以 x 是 7 的两倍。"
+     },
+     "check": {
+      "expr": "7 ÷ 0.5",
+      "value": "14"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Decimals",
+      "zh": "小数"
+     },
+     "q": "Solve 1.3 = c ÷ 4",
+     "hint": {
+      "en": "c is divided by 4. Do the opposite: × 4 on both sides.",
+      "zh": "c 被除以 4。做相反的运算：两边同时 × 4。"
+     },
+     "steps": [
+      {
+       "en": "What is happening to c? c is being DIVIDED by 4.",
+       "zh": "c 发生了什么？c 被除以 4。"
+      },
+      {
+       "en": "Do the OPPOSITE to both sides. The opposite of ÷ 4 is × 4.",
+       "zh": "两边做相反的运算。÷ 4 的相反是 × 4。",
+       "math": [
+        "1.3 × 4 = 5.2"
+       ]
+      },
+      {
+       "en": "Finish the answer. Write it as letter = number: c = 5.2",
+       "zh": "把答案写完整，写成“字母 = 数字”：c = 5.2"
+      },
+      {
+       "en": "Check it! Put 5.2 back in.",
+       "zh": "检查！把 5.2 放回去。",
+       "math": "5.2 ÷ 4 = 1.3"
+      }
+     ],
+     "answer": "c = 5.2",
+     "why": {
+      "en": "× undoes ÷, so c is left on its own. Doing the same to BOTH sides keeps the scale balanced.",
+      "zh": "× 可以抵消 ÷，这样 c 就单独留下了。两边做同样的运算，天平才保持平衡。"
+     },
+     "check": {
+      "expr": "1.3 × 4",
+      "value": "5.2"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Fractions: bar model",
+      "zh": "分数：线段图"
+     },
+     "q": "Solve 3/5 s = 9",
+     "hint": {
+      "en": "Bar model: cut s into 5 parts. 3 parts = 9. Find 1 part, then all 5 parts.",
+      "zh": "线段图：把 s 分成 5 份。3 份 = 9。先求 1 份，再求全部 5 份。"
+     },
+     "steps": [
+      {
+       "en": "3/5 s means \"3 out of 5 equal parts of s is 9\". Draw s and cut it into 5 equal parts. Colour 3.",
+       "zh": "3/5 s 的意思是“s 的 5 等份里的 3 份是 9”。画出 s，分成 5 等份，涂 3 份。",
+       "bar": {
+        "parts": 5,
+        "shaded": 3,
+        "label": "s = 5 parts"
+       }
+      },
+      {
+       "en": "3 parts = 9, so 1 part = 9 ÷ 3.",
+       "zh": "3 份 = 9，所以 1 份 = 9 ÷ 3。",
+       "math": "9 ÷ 3 = 3",
+       "bar": {
+        "parts": 5,
+        "shaded": 3,
+        "fill": "3",
+        "label": "s = 5 parts"
+       }
+      },
+      {
+       "en": "s is ALL 5 parts. Write it as letter = number: s = 15",
+       "zh": "s 是全部 5 份。写成“字母 = 数字”：s = 15",
+       "bar": {
+        "parts": 5,
+        "shaded": 5,
+        "fill": "3",
+        "label": "s = 5 parts"
+       },
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Check it! 3/5 of 15 should be 9.",
+       "zh": "检查！15 的 3/5 应该是 9。",
+       "math": "3/5 × 15 = 9"
+      }
+     ],
+     "answer": "s = 15",
+     "why": {
+      "en": "Divide by the TOP number to find 1 part, then multiply by the BOTTOM number to get all the parts.",
+      "zh": "先除以分子求出 1 份，再乘以分母求出全部。"
+     },
+     "check": {
+      "expr": "9 ÷ 3 × 5",
+      "value": "15"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Fractions: bar model",
+      "zh": "分数：线段图"
+     },
+     "q": "Solve 1/4 k = 5",
+     "hint": {
+      "en": "Bar model: cut k into 4 parts. 1 part = 5. Find 1 part, then all 4 parts.",
+      "zh": "线段图：把 k 分成 4 份。1 份 = 5。先求 1 份，再求全部 4 份。"
+     },
+     "steps": [
+      {
+       "en": "1/4 k means \"1 out of 4 equal parts of k is 5\". Draw k and cut it into 4 equal parts. Colour 1.",
+       "zh": "1/4 k 的意思是“k 的 4 等份里的 1 份是 5”。画出 k，分成 4 等份，涂 1 份。",
+       "bar": {
+        "parts": 4,
+        "shaded": 1,
+        "label": "k = 4 parts"
+       }
+      },
+      {
+       "en": "1 part is already 5.",
+       "zh": "1 份已经是 5。",
+       "bar": {
+        "parts": 4,
+        "shaded": 1,
+        "fill": "5",
+        "label": "k = 4 parts"
+       }
+      },
+      {
+       "en": "k is ALL 4 parts. Write it as letter = number: k = 20",
+       "zh": "k 是全部 4 份。写成“字母 = 数字”：k = 20",
+       "bar": {
+        "parts": 4,
+        "shaded": 4,
+        "fill": "5",
+        "label": "k = 4 parts"
+       },
+       "math": "4 × 5 = 20"
+      },
+      {
+       "en": "Check it! 1/4 of 20 should be 5.",
+       "zh": "检查！20 的 1/4 应该是 5。",
+       "math": "1/4 × 20 = 5"
+      }
+     ],
+     "answer": "k = 20",
+     "why": {
+      "en": "Divide by the TOP number to find 1 part, then multiply by the BOTTOM number to get all the parts.",
+      "zh": "先除以分子求出 1 份，再乘以分母求出全部。"
+     },
+     "check": {
+      "expr": "5 ÷ 1 × 4",
+      "value": "20"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Fractions: bar model",
+      "zh": "分数：线段图"
+     },
+     "q": "Solve 2/3 n = 10",
+     "hint": {
+      "en": "Bar model: cut n into 3 parts. 2 parts = 10. Find 1 part, then all 3 parts.",
+      "zh": "线段图：把 n 分成 3 份。2 份 = 10。先求 1 份，再求全部 3 份。"
+     },
+     "steps": [
+      {
+       "en": "2/3 n means \"2 out of 3 equal parts of n is 10\". Draw n and cut it into 3 equal parts. Colour 2.",
+       "zh": "2/3 n 的意思是“n 的 3 等份里的 2 份是 10”。画出 n，分成 3 等份，涂 2 份。",
+       "bar": {
+        "parts": 3,
+        "shaded": 2,
+        "label": "n = 3 parts"
+       }
+      },
+      {
+       "en": "2 parts = 10, so 1 part = 10 ÷ 2.",
+       "zh": "2 份 = 10，所以 1 份 = 10 ÷ 2。",
+       "math": "10 ÷ 2 = 5",
+       "bar": {
+        "parts": 3,
+        "shaded": 2,
+        "fill": "5",
+        "label": "n = 3 parts"
+       }
+      },
+      {
+       "en": "n is ALL 3 parts. Write it as letter = number: n = 15",
+       "zh": "n 是全部 3 份。写成“字母 = 数字”：n = 15",
+       "bar": {
+        "parts": 3,
+        "shaded": 3,
+        "fill": "5",
+        "label": "n = 3 parts"
+       },
+       "math": "3 × 5 = 15"
+      },
+      {
+       "en": "Check it! 2/3 of 15 should be 10.",
+       "zh": "检查！15 的 2/3 应该是 10。",
+       "math": "2/3 × 15 = 10"
+      }
+     ],
+     "answer": "n = 15",
+     "why": {
+      "en": "Divide by the TOP number to find 1 part, then multiply by the BOTTOM number to get all the parts.",
+      "zh": "先除以分子求出 1 份，再乘以分母求出全部。"
+     },
+     "check": {
+      "expr": "10 ÷ 2 × 3",
+      "value": "15"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Fractions: bar model",
+      "zh": "分数：线段图"
+     },
+     "q": "Solve 3/4 b = 12",
+     "hint": {
+      "en": "Bar model: cut b into 4 parts. 3 parts = 12. Find 1 part, then all 4 parts.",
+      "zh": "线段图：把 b 分成 4 份。3 份 = 12。先求 1 份，再求全部 4 份。"
+     },
+     "steps": [
+      {
+       "en": "3/4 b means \"3 out of 4 equal parts of b is 12\". Draw b and cut it into 4 equal parts. Colour 3.",
+       "zh": "3/4 b 的意思是“b 的 4 等份里的 3 份是 12”。画出 b，分成 4 等份，涂 3 份。",
+       "bar": {
+        "parts": 4,
+        "shaded": 3,
+        "label": "b = 4 parts"
+       }
+      },
+      {
+       "en": "3 parts = 12, so 1 part = 12 ÷ 3.",
+       "zh": "3 份 = 12，所以 1 份 = 12 ÷ 3。",
+       "math": "12 ÷ 3 = 4",
+       "bar": {
+        "parts": 4,
+        "shaded": 3,
+        "fill": "4",
+        "label": "b = 4 parts"
+       }
+      },
+      {
+       "en": "b is ALL 4 parts. Write it as letter = number: b = 16",
+       "zh": "b 是全部 4 份。写成“字母 = 数字”：b = 16",
+       "bar": {
+        "parts": 4,
+        "shaded": 4,
+        "fill": "4",
+        "label": "b = 4 parts"
+       },
+       "math": "4 × 4 = 16"
+      },
+      {
+       "en": "Check it! 3/4 of 16 should be 12.",
+       "zh": "检查！16 的 3/4 应该是 12。",
+       "math": "3/4 × 16 = 12"
+      }
+     ],
+     "answer": "b = 16",
+     "why": {
+      "en": "Divide by the TOP number to find 1 part, then multiply by the BOTTOM number to get all the parts.",
+      "zh": "先除以分子求出 1 份，再乘以分母求出全部。"
+     },
+     "check": {
+      "expr": "12 ÷ 3 × 4",
+      "value": "16"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Fractions: bar model",
+      "zh": "分数：线段图"
+     },
+     "q": "Solve 1/3 n = 15",
+     "hint": {
+      "en": "Bar model: cut n into 3 parts. 1 part = 15. Find 1 part, then all 3 parts.",
+      "zh": "线段图：把 n 分成 3 份。1 份 = 15。先求 1 份，再求全部 3 份。"
+     },
+     "steps": [
+      {
+       "en": "1/3 n means \"1 out of 3 equal parts of n is 15\". Draw n and cut it into 3 equal parts. Colour 1.",
+       "zh": "1/3 n 的意思是“n 的 3 等份里的 1 份是 15”。画出 n，分成 3 等份，涂 1 份。",
+       "bar": {
+        "parts": 3,
+        "shaded": 1,
+        "label": "n = 3 parts"
+       }
+      },
+      {
+       "en": "1 part is already 15.",
+       "zh": "1 份已经是 15。",
+       "bar": {
+        "parts": 3,
+        "shaded": 1,
+        "fill": "15",
+        "label": "n = 3 parts"
+       }
+      },
+      {
+       "en": "n is ALL 3 parts. Write it as letter = number: n = 45",
+       "zh": "n 是全部 3 份。写成“字母 = 数字”：n = 45",
+       "bar": {
+        "parts": 3,
+        "shaded": 3,
+        "fill": "15",
+        "label": "n = 3 parts"
+       },
+       "math": "3 × 15 = 45"
+      },
+      {
+       "en": "Check it! 1/3 of 45 should be 15.",
+       "zh": "检查！45 的 1/3 应该是 15。",
+       "math": "1/3 × 45 = 15"
+      }
+     ],
+     "answer": "n = 45",
+     "why": {
+      "en": "Divide by the TOP number to find 1 part, then multiply by the BOTTOM number to get all the parts.",
+      "zh": "先除以分子求出 1 份，再乘以分母求出全部。"
+     },
+     "check": {
+      "expr": "15 ÷ 1 × 3",
+      "value": "45"
+     },
+     "noUnit": true
+    },
+    {
+     "section": {
+      "en": "Word problem",
+      "zh": "应用题"
+     },
+     "q": "Sophie ran 3/4 of a race. She ran 600 m. How long is the whole race? Use 3/4 r = 600.",
+     "hint": {
+      "en": "Bar model: cut r into 4 parts. 3 parts = 600. Find 1 part, then all 4 parts.",
+      "zh": "线段图：把 r 分成 4 份。3 份 = 600。先求 1 份，再求全部 4 份。"
+     },
+     "steps": [
+      {
+       "en": "Write the equation: 3/4 of the race r is 600 m, so 3/4 r = 600.",
+       "zh": "写方程：全程 r 的 3/4 是 600 米，所以 3/4 r = 600。"
+      },
+      {
+       "en": "3/4 r means \"3 out of 4 equal parts of r is 600 m\". Draw r and cut it into 4 equal parts. Colour 3.",
+       "zh": "3/4 r 的意思是“r 的 4 等份里的 3 份是 600 m”。画出 r，分成 4 等份，涂 3 份。",
+       "bar": {
+        "parts": 4,
+        "shaded": 3,
+        "label": "r = 4 parts"
+       }
+      },
+      {
+       "en": "3 parts = 600 m, so 1 part = 600 ÷ 3.",
+       "zh": "3 份 = 600 m，所以 1 份 = 600 ÷ 3。",
+       "math": "600 ÷ 3 = 200",
+       "bar": {
+        "parts": 4,
+        "shaded": 3,
+        "fill": "200",
+        "label": "r = 4 parts"
+       }
+      },
+      {
+       "en": "r is ALL 4 parts. Write it as letter = number: r = 800 m",
+       "zh": "r 是全部 4 份。写成“字母 = 数字”：r = 800 m",
+       "bar": {
+        "parts": 4,
+        "shaded": 4,
+        "fill": "200",
+        "label": "r = 4 parts"
+       },
+       "math": "4 × 200 = 800"
+      },
+      {
+       "en": "Check it! 3/4 of 800 should be 600.",
+       "zh": "检查！800 的 3/4 应该是 600。",
+       "math": "3/4 × 800 = 600"
+      }
+     ],
+     "answer": "r = 800 m",
+     "why": {
+      "en": "Divide by the TOP number to find 1 part, then multiply by the BOTTOM number to get all the parts.",
+      "zh": "先除以分子求出 1 份，再乘以分母求出全部。"
+     },
+     "check": {
+      "expr": "600 ÷ 3 × 4",
+      "value": "800"
+     }
+    },
+    {
+     "section": {
+      "en": "Fractions: bar model",
+      "zh": "分数：线段图"
+     },
+     "q": "Solve 2/3 n = 1/4",
+     "hint": {
+      "en": "Bar model: cut n into 3 parts. 2 parts = 1/4. Find 1 part, then all 3 parts.",
+      "zh": "线段图：把 n 分成 3 份。2 份 = 1/4。先求 1 份，再求全部 3 份。"
+     },
+     "steps": [
+      {
+       "en": "2/3 n means \"2 out of 3 equal parts of n is 1/4\". Draw n and cut it into 3 equal parts. Colour 2.",
+       "zh": "2/3 n 的意思是“n 的 3 等份里的 2 份是 1/4”。画出 n，分成 3 等份，涂 2 份。",
+       "bar": {
+        "parts": 3,
+        "shaded": 2,
+        "label": "n = 3 parts"
+       }
+      },
+      {
+       "en": "2 parts = 1/4, so 1 part = 1/4 ÷ 2.",
+       "zh": "2 份 = 1/4，所以 1 份 = 1/4 ÷ 2。",
+       "math": "1/4 ÷ 2 = 1/8",
+       "bar": {
+        "parts": 3,
+        "shaded": 2,
+        "fill": "1/8",
+        "label": "n = 3 parts"
+       }
+      },
+      {
+       "en": "n is ALL 3 parts. Write it as letter = number: n = 3/8",
+       "zh": "n 是全部 3 份。写成“字母 = 数字”：n = 3/8",
+       "bar": {
+        "parts": 3,
+        "shaded": 3,
+        "fill": "1/8",
+        "label": "n = 3 parts"
+       },
+       "math": "3 × 1/8 = 3/8"
+      },
+      {
+       "en": "Check it! 2/3 of 3/8 should be 1/4.",
+       "zh": "检查！3/8 的 2/3 应该是 1/4。",
+       "math": "2/3 × 3/8 = 1/4"
+      }
+     ],
+     "answer": "n = 3/8",
+     "why": {
+      "en": "Same bar model, even with a fraction! 2 parts = 1/4, so 1 part is half of 1/4, which is 1/8. All 3 parts = 3/8.",
+      "zh": "分数也一样用线段图！2 份 = 1/4，所以 1 份是 1/4 的一半，就是 1/8。全部 3 份 = 3/8。"
+     },
+     "check": {
+      "expr": "1/4 ÷ 2 × 3",
+      "value": "3/8"
+     },
+     "noUnit": true
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve equations with decimals and fractions, and use a bar model to help me.",
+    "zh": "我现在可以解含有小数和分数的方程，并用线段图帮助我。"
+   }
+  },
+  {
+   "id": "isare",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "✏️",
+   "title": {
+    "en": "Grammar: is or are?",
+    "zh": "语法：用 is 还是 are？"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Step 1: find the SUBJECT (who or what is the sentence about?). Step 2: count it. ONE thing → is. MORE THAN ONE → are. Step 3: check with it or they (it is, they are). Watch out for traps!",
+    "zh": "第 1 步：找主语（这句话说的是谁或什么？）。第 2 步：数一数。一个 → is，多于一个 → are。第 3 步：用 it 或 they 检查（it is，they are）。小心陷阱！"
+   },
+   "questions": [
+    {
+     "q": "The coral ________ beautiful.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Subject: the coral. One thing, so is. (It is beautiful.)",
+      "zh": "主语：the coral，一个东西，所以用 is。"
+     }
+    },
+    {
+     "q": "The shells ________ on the sand.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Subject: the shells. More than one, so are. (They are on the sand.)",
+      "zh": "主语：the shells，多于一个，所以用 are。"
+     }
+    },
+    {
+     "q": "My personality ________ friendly.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Subject: my personality. One thing, so is.",
+      "zh": "主语：my personality，一个，所以用 is。"
+     }
+    },
+    {
+     "q": "Neurons ________ very small cells.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Subject: neurons. More than one, so are.",
+      "zh": "主语：neurons，多于一个，所以用 are。"
+     }
+    },
+    {
+     "q": "The box of shells ________ heavy.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Trap! The word next to the gap is \"shells\", but the subject is the BOX. One box, so is.",
+      "zh": "陷阱！空格前的词是 shells，但主语是 box。一个盒子，所以用 is。"
+     }
+    },
+    {
+     "q": "Emma and Tom ________ ecologists.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Subject: Emma and Tom. Two people, so are. (They are ecologists.)",
+      "zh": "主语：Emma 和 Tom，两个人，所以用 are。"
+     }
+    },
+    {
+     "q": "The bag of oranges ________ on the table.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Trap! The subject is the BAG, not the oranges. One bag, so is.",
+      "zh": "陷阱！主语是 bag，不是 oranges。一个袋子，所以用 is。"
+     }
+    },
+    {
+     "q": "Each of the turtles ________ in captivity.",
+     "options": [
+      "is",
+      "are"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Trap! \"Each\" means one at a time. Each one is, so is.",
+      "zh": "陷阱！each 的意思是每一个，所以用 is。"
+     }
+    },
+    {
+     "q": "Which sentence is correct?",
+     "options": [
+      "The animals in the zoo are in captivity.",
+      "The snakes is dangerous.",
+      "Lily's personality are kind.",
+      "The water are salty."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Animals = more than one, so are. The others should be: The snakes are, Lily's personality is, The water is.",
+      "zh": "animals 多于一个，所以用 are。其他应该是：The snakes are，Lily's personality is，The water is。"
+     }
+    },
+    {
+     "q": "Which sentence is correct?",
+     "options": [
+      "Each fish is a different colour.",
+      "Lily and Mia is sisters.",
+      "The shells is hard.",
+      "My friends is confident."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Each fish = one at a time, so is. The others should be: Lily and Mia are, The shells are, My friends are.",
+      "zh": "each fish 是每一条，所以用 is。其他应该是：Lily and Mia are，The shells are，My friends are。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now find the subject and choose is or are correctly, even in trap sentences.",
+    "zh": "我现在可以找到主语，正确选择 is 或 are，连陷阱句也不怕。"
+   }
+  },
+  {
+   "id": "reading",
+   "type": "reading",
+   "title": {
+    "en": "Reading: Weather Made Easy",
+    "zh": "阅读：轻松学天气"
+   },
+   "intro": {
+    "en": "Step 1: learn the key words. Step 2: read the passage out loud. Step 3: answer the questions. Step 4: write one sentence with \"because\".",
+    "zh": "第 1 步：学关键词。第 2 步：大声读短文。第 3 步：回答问题。第 4 步：用 because 写一个句子。"
+   },
+   "storyTitle": "Weather Made Easy",
+   "keywords": [
+    {
+     "word": "weather",
+     "meaning": "what the air and sky are like today (sunny, rainy, windy)",
+     "zh": "天气"
+    },
+    {
+     "word": "climate",
+     "meaning": "the usual weather of a place over many years",
+     "zh": "气候"
+    },
+    {
+     "word": "air mass",
+     "meaning": "a huge body of air with the same heat and wetness",
+     "zh": "气团"
+    },
+    {
+     "word": "front",
+     "meaning": "the place where two air masses meet",
+     "zh": "锋（锋面）"
+    },
+    {
+     "word": "condensation",
+     "meaning": "when water vapour cools and turns back into water drops",
+     "zh": "凝结"
+    }
+   ],
+   "paragraphs": [
+    "Weather is like your OUTFIT: it changes every day. Today you might wear a raincoat, tomorrow a T-shirt. Climate is like your WARDROBE: it is what a place has over many years. Thailand's wardrobe has lots of T-shirts and a few jackets for the cool season.",
+    "An air mass is a huge body of air. It is like a giant sponge. It sits over one place for a long time and soaks up that place's heat or cold, and its wetness or dryness. An air mass over the warm sea becomes warm and wet.",
+    "A front is where two air masses meet. At a cold front, heavy cold air pushes under warm air like a bulldozer. The warm air is pushed up quickly and steeply, so we often get short, heavy rain and thunderstorms.",
+    "At a warm front, warm air slides gently up over cold air, like walking up a ramp. The air rises slowly, so we get long, light rain and grey clouds.",
+    "Why do clouds form? Think of a cold can of drink on a hot day. Tiny water drops appear on the outside. Warm air touched the cold can and the water vapour turned back into water. This is condensation. High in the sky, air cools down, and condensation makes clouds."
+   ],
+   "questions": [
+    {
+     "q": "Weather is like your ________; climate is like your ________.",
+     "options": [
+      "outfit / wardrobe",
+      "wardrobe / outfit",
+      "shoes / hat",
+      "sponge / ramp"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 1: weather changes every day like an outfit. Climate is over many years, like a wardrobe.",
+      "zh": "第 1 段：天气每天变，像衣服；气候是很多年的情况，像衣柜。"
+     }
+    },
+    {
+     "q": "\"Bangkok is hot and wet for most of the year.\" This sentence is about...",
+     "options": [
+      "climate",
+      "weather",
+      "a cold front",
+      "an air mass"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "\"Most of the year\" means over a long time. That is climate, not today's weather.",
+      "zh": "“一年中大部分时间”说的是长时间的情况，所以是气候，不是今天的天气。"
+     }
+    },
+    {
+     "q": "Why is an air mass like a giant sponge?",
+     "options": [
+      "It soaks up the heat and wetness of the place it sits over.",
+      "It is yellow and soft.",
+      "It cleans the sky.",
+      "It moves very fast."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 2: the air mass soaks up heat or cold, wetness or dryness, like a sponge soaks up water.",
+      "zh": "第 2 段：气团像海绵吸水一样，吸收所在地方的冷热和干湿。"
+     }
+    },
+    {
+     "q": "At a cold front, warm air is pushed up...",
+     "options": [
+      "quickly and steeply",
+      "slowly and gently",
+      "sideways",
+      "not at all"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 3: the cold air is a bulldozer. It pushes the warm air up quickly and steeply.",
+      "zh": "第 3 段：冷空气像推土机，把暖空气又快又陡地推上去。"
+     }
+    },
+    {
+     "q": "A cold front often brings...",
+     "options": [
+      "heavy rain and storms",
+      "light rain for days",
+      "snow every time",
+      "no clouds at all"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 3: short, heavy rain and thunderstorms. \"Light rain for days\" is the warm front trap!",
+      "zh": "第 3 段：短时大雨和雷暴。“连续几天小雨”是暖锋，是陷阱！"
+     }
+    },
+    {
+     "q": "Which comparison matches a warm front?",
+     "options": [
+      "a ramp",
+      "a bulldozer",
+      "a wardrobe",
+      "a can of drink"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 4: warm air slides gently up over cold air, like walking up a ramp.",
+      "zh": "第 4 段：暖空气慢慢滑到冷空气上面，像走上斜坡。"
+     }
+    },
+    {
+     "q": "Water drops on a cold can of drink are an example of...",
+     "options": [
+      "condensation",
+      "evaporation",
+      "dissolving",
+      "captivity"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 5: water vapour turns back into water. That is condensation. Evaporation is the opposite.",
+      "zh": "第 5 段：水蒸气变回水，这是凝结。蒸发正好相反。"
+     }
+    },
+    {
+     "q": "TEST TIP: Which question word tells you to give a REASON?",
+     "options": [
+      "Explain why...",
+      "Name...",
+      "Circle...",
+      "List..."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "\"Explain why\" asks for a reason. Answer with \"because\".",
+      "zh": "“Explain why”要求你给出原因，用 because 回答。"
+     }
+    }
+   ],
+   "write": {
+    "prompt": {
+     "en": "Explain why clouds form high in the sky. Use the word \"because\".",
+     "zh": "解释为什么云在高空形成。要用 because。"
+    },
+    "model": "Clouds form high in the sky because the air cools down and the water vapour turns into tiny water drops."
+   },
+   "canNow": {
+    "en": "I can now explain weather, climate, air masses, fronts and condensation with simple comparisons.",
+    "zh": "我现在可以用简单的比喻解释天气、气候、气团、锋和凝结。"
+   }
+  },
+  {
+   "id": "weatherquiz",
+   "type": "quiz",
+   "timed": true,
+   "count": 10,
+   "seconds": 25,
+   "icon": "🌦️",
+   "title": {
+    "en": "Speed Quiz: Air Masses and Fronts",
+    "zh": "抢答：气团和锋"
+   },
+   "intro": {
+    "en": "Remember the pictures: sponge = air mass, bulldozer = cold front, ramp = warm front, cold drink = condensation, outfit and wardrobe = weather and climate. 10 questions, 25 seconds each!",
+    "zh": "记住这些图：海绵 = 气团，推土机 = 冷锋，斜坡 = 暖锋，冷饮 = 凝结，衣服和衣柜 = 天气和气候。10 道题，每题 25 秒！"
+   },
+   "questions": [
+    {
+     "q": "A maritime tropical air mass is...",
+     "options": [
+      "warm and wet",
+      "cold and dry",
+      "hot and dry",
+      "cool and wet"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Maritime = over the sea, so wet. Tropical = near the equator, so warm.",
+      "zh": "maritime = 在海上，所以湿。tropical = 靠近赤道，所以暖。"
+     }
+    },
+    {
+     "q": "A continental polar air mass is...",
+     "options": [
+      "cold and dry",
+      "warm and wet",
+      "cool and wet",
+      "hot and dry"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Continental = over land, so dry. Polar = near the poles, so cold.",
+      "zh": "continental = 在陆地上，所以干。polar = 靠近两极，所以冷。"
+     }
+    },
+    {
+     "q": "A cold front acts like a...",
+     "options": [
+      "bulldozer",
+      "ramp",
+      "sponge",
+      "wardrobe"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Heavy cold air shoves under the warm air and pushes it up fast, like a bulldozer.",
+      "zh": "重的冷空气钻到暖空气下面，把它快速推上去，像推土机。"
+     }
+    },
+    {
+     "q": "A cold front usually brings...",
+     "options": [
+      "short, heavy storms, then cooler weather",
+      "long, light rain, then warmer weather",
+      "no clouds at all",
+      "snow every time"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Warm air is pushed up fast, so tall storm clouds and short heavy rain. Then the cold air arrives, so it gets cooler.",
+      "zh": "暖空气被快速推上去，形成高大的雷雨云和短时大雨。之后冷空气来了，天气变凉。"
+     }
+    },
+    {
+     "q": "A warm front usually brings...",
+     "options": [
+      "long, light rain, then warmer, humid weather",
+      "short, heavy storms, then cooler weather",
+      "thunderstorms every time",
+      "clear blue skies"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Warm air slides slowly up the ramp, so flat grey clouds and long, light rain. Then it gets warmer.",
+      "zh": "暖空气慢慢滑上斜坡，形成扁平的灰云和长时间的小雨。之后变暖。"
+     }
+    },
+    {
+     "q": "Water drops on a cold glass of juice show...",
+     "options": [
+      "condensation",
+      "evaporation",
+      "dissolving",
+      "precipitation"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The cold drink trick: air touching the cold glass cools, and water vapour turns back into water.",
+      "zh": "冷饮小实验：碰到冷杯子的空气变冷，水蒸气变回水。"
+     }
+    },
+    {
+     "q": "Weather is like your outfit. Climate is like your...",
+     "options": [
+      "wardrobe",
+      "shoes",
+      "hat",
+      "sponge"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "An outfit is for today. A wardrobe is everything over many years, like climate.",
+      "zh": "衣服是今天穿的，衣柜是很多年的全部衣服，就像气候。"
+     }
+    },
+    {
+     "q": "Wind blows from...",
+     "options": [
+      "high pressure to low pressure",
+      "low pressure to high pressure",
+      "the ground straight up to space",
+      "east to west every day"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Like air rushing out of a squeezed balloon: from high pressure to low pressure.",
+      "zh": "就像空气从挤压的气球里冲出来：从高压吹向低压。"
+     }
+    },
+    {
+     "q": "Why are cumulonimbus clouds found at cold fronts?",
+     "options": [
+      "Because warm air is pushed up fast and steep, so tall storm clouds form.",
+      "Because warm air slides up slowly, so flat clouds form.",
+      "Because cold air rises above warm air.",
+      "Because the air is very dry."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The bulldozer pushes warm air up fast and steep, so tall storm clouds (cumulonimbus) grow.",
+      "zh": "推土机把暖空气又快又陡地推上去，所以长出高大的积雨云。"
+     }
+    },
+    {
+     "q": "High pressure usually brings...",
+     "options": [
+      "clear skies, because heavy air sinks",
+      "rain, because light air rises",
+      "storms, because air is pushed up",
+      "fog every day"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Cold, heavy air sinks and presses down: high pressure, usually clear skies. Rising light air means low pressure and rain.",
+      "zh": "冷而重的空气下沉，形成高压，通常是晴天。轻的空气上升是低压，会下雨。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain air masses, cold and warm fronts, and pressure with simple pictures.",
+    "zh": "我现在可以用简单的图像解释气团、冷锋暖锋和气压。"
+   }
+  }
+ ]
+}

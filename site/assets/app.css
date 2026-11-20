@@ -184,6 +184,15 @@ input[type=text]:focus, input[type=number]:focus, textarea:focus { outline: none
 .step { animation: pop .25s ease-out; }
 .math { font-weight: 800; font-size: 1.1em; margin-top: 4px; }
 .final { font-weight: 900; font-size: 1.2em; }
+.barmodel { margin: 10px 0 4px; }
+.barlabel { font-weight: 800; margin-bottom: 4px; }
+.barrow { display: flex; gap: 0; max-width: 520px; }
+.barbox {
+  flex: 1; min-height: 48px; border: 3px solid var(--title, #1b2a4a); margin-left: -3px; background: #fff;
+  display: flex; align-items: center; justify-content: center; font-weight: 900;
+}
+.barbox:first-child { margin-left: 0; }
+.barbox.on { background: var(--accent-soft); }
 
 /* Stacked fractions */
 .frac { display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1.05; margin: 0 .08em; font-size: .9em; }

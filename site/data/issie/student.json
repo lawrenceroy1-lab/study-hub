@@ -1,0 +1,11 @@
+{
+  "id": "issie",
+  "name": "Issie",
+  "accent": "#0b7a75",
+  "accentSoft": "#e0f4f2",
+  "bilingual": true,
+  "voice": "en-US",
+  "weeks": [
+    "2026-11-16"
+  ]
+}

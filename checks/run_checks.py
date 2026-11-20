@@ -48,7 +48,7 @@ def text_rules(where, s):
         bad(where, "use cm² / cm³, not cm2 / cm3")
 
 # ---------- maths ----------
-TOKEN = re.compile(r"\s*(\d+\s+\d+/\d+|\d+/\d+|\d+|[×÷+\-−()])")
+TOKEN = re.compile(r"\s*(\d+\s+\d+/\d+|\d+/\d+|\d{1,3}(?:,\d{3})+(?:\.\d+)?|\d+\.\d+|\d+|[×÷+\-−()])")
 
 def evaluate(expr):
     """Evaluate a fraction expression like '3/4 × 2/1' or '1 1/2'. Returns Fraction."""
@@ -63,7 +63,7 @@ def evaluate(expr):
         if " " in t:
             w, f = t.split()
             return Fraction(int(w)) + Fraction(f)
-        return Fraction(t)
+        return Fraction(t.replace(",", ""))
     # shunting-yard
     prec = {"×": 2, "÷": 2, "+": 1, "-": 1, "−": 1}
     out, ops = [], []
@@ -105,7 +105,10 @@ def check_chain(where, line):
 
 def simplest(where, s):
     """Final answers: whole number, proper fraction in lowest terms, or mixed number in lowest terms."""
-    m = re.fullmatch(r"(\d+)(?: (\d+)/(\d+))?|(\d+)/(\d+)", s)
+    if re.fullmatch(r"\d{1,3}(?:,\d{3})*\.\d+|\d+\.\d+", s):
+        if s.endswith("0"): bad(where, f"decimal answer '{s}' has a trailing zero")
+        return
+    m = re.fullmatch(r"(\d{1,3}(?:,\d{3})+|\d+)(?: (\d+)/(\d+))?|(\d+)/(\d+)", s)
     if not m:
         bad(where, f"answer '{s}' is not a whole number, fraction or mixed number"); return
     if m.group(4):
@@ -135,11 +138,13 @@ def check_guided(where, a):
                     bad(w, f"answer WRONG: {c['expr']} is {evaluate(c['expr'])}, not {c['value']}")
             except Exception as e:
                 bad(w, f"cannot check: {e}")
+            # Equations: the answer may be written in final form "letter = number", e.g. "k = 7".
+            ans = re.sub(r"^[a-zA-Z] = ", "", ans)
             if not ans.startswith(c["value"]):
                 bad(w, f"shown answer '{ans}' does not match checked value '{c['value']}'")
             simplest(w, c["value"])
             unit = ans[len(c["value"]):].strip()
-            if re.search(r"[a-zA-Z]", it["q"]) and not unit:
+            if re.search(r"[a-zA-Z]", it["q"]) and not unit and not it.get("noUnit"):
                 bad(w, "word problem answer needs a unit")
         elif re.search(r"\d", it["q"]):
             bad(w, "maths item has no 'check' block, so it cannot be verified")

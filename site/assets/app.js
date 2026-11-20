@@ -740,6 +740,17 @@
     keywords();
   };
 
+  /* Bar model for fraction equations: {parts: 5, shaded: 3, fill: "3", label: "s"}.
+     Draws `parts` equal boxes; the first `shaded` are coloured and show `fill`. */
+  function barModel(b) {
+    var boxes = [];
+    for (var k = 0; k < b.parts; k++) {
+      boxes.push(h('div', { class: 'barbox' + (k < b.shaded ? ' on' : '') }, k < b.shaded && b.fill ? rich(b.fill) : ''));
+    }
+    return h('div', { class: 'barmodel', role: 'img', 'aria-label': b.label ? b.label + ' = ' + b.parts + ' parts' : b.parts + ' parts' },
+      b.label ? h('div', { class: 'barlabel' }, rich(b.label)) : null, h('div', { class: 'barrow' }, boxes));
+  }
+
   /* ---------- 6. GUIDED ANSWERS ---------- */
   ACT.guided = function (a, ctx, area) {
     var i = 0;
@@ -770,6 +781,7 @@
           var s = it.steps[shown];
           var maths = s.math == null ? [] : [].concat(s.math);
           add(steps, h('div', { class: 'box teach step' }, h('b', null, (S.lang === 'zh' && bilingual() ? '第 ' + (shown + 1) + ' 步' : 'Step ' + (shown + 1)) + ': '), bi(s, true),
+            s.bar ? barModel(s.bar) : null,
             maths.map(function (m) { return h('div', { class: 'math' }, rich(m)); })));
           shown++;
           nextBtn.textContent = T('nextStep');
