@@ -172,13 +172,28 @@
     flush();
   }
   var flushing = false;
+  /* Google Form method: each score becomes one form answer, fields separated by tabs. */
+  function formLine(r) {
+    return [r.time, r.student, r.week, r.activity, r.score, r.total, r.seconds, r.missed, r.id]
+      .map(function (v) { return String(v == null ? '' : v).replace(/[\t\n\r]+/g, ' '); }).join('\t');
+  }
+  function sendBatch(q) {
+    var form = window.SCORE_FORM;
+    if (form && form.url && form.entry) {
+      return Promise.all(q.map(function (r) {
+        var body = new URLSearchParams(); body.append(form.entry, formLine(r));
+        return fetch(form.url, { method: 'POST', mode: 'no-cors', body: body });
+      }));
+    }
+    return fetch(window.SCORE_URL, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(q) });
+  }
   function flush() {
-    var url = window.SCORE_URL;
-    if (!url || flushing || navigator.onLine === false) return;
+    var ready = window.SCORE_URL || (window.SCORE_FORM && window.SCORE_FORM.url);
+    if (!ready || flushing || navigator.onLine === false) return;
     var q = lsGet(QKEY, []);
     if (!q.length) return;
     flushing = true;
-    fetch(url, { method: 'POST', mode: 'no-cors', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify(q) })
+    sendBatch(q)
       .then(function () {
         var sent = {}; q.forEach(function (r) { sent[r.id] = 1; });
         lsSet(QKEY, lsGet(QKEY, []).filter(function (r) { return !sent[r.id]; }));
