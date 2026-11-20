@@ -88,5 +88,6 @@ One website with a separate private page for each tutoring student. Each week I 
 
 ## Publishing
 
-- When Daisy's page is approved, help me publish for free, step by step: put the project in a PRIVATE GitHub repository and connect it to Cloudflare Pages, so my students' names are never in a public repository. Give me each student's link.
-- Later, when I say "publish my changes", update the live site so the links stay the same.
+- The site is live on GitHub Pages from the PUBLIC repo `lawrenceroy1-lab/study-hub` (my choice, 20 Nov 2026: students go by nicknames only). Live address: https://lawrenceroy1-lab.github.io/study-hub/
+- "Publish my changes" = run `python3 checks/run_checks.py`, then commit and push to `main`. The GitHub Action in `.github/workflows/pages.yml` publishes `site/` automatically. Links stay the same.
+- Because the repo is public: before every push, check that no real names, surnames, school names, parents' or teachers' names are in ANY uploaded file (not just `site/`). Real names live only in `checks/private_words.txt`, `students.md` and `context/`, which are git-ignored. Never commit those.
