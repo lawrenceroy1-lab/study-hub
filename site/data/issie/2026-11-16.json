@@ -332,12 +332,12 @@
     {
      "q": "A perplexing maths problem makes you feel...",
      "options": [
-      "confused",
-      "happy",
       "hungry",
-      "brave"
+      "brave",
+      "confused",
+      "happy"
      ],
-     "answer": 0,
+     "answer": 2,
      "why": {
       "en": "Perplexing means confusing. A confusing problem makes you feel confused.",
       "zh": "perplexing 的意思是令人困惑的，所以你会觉得困惑。"
@@ -348,8 +348,8 @@
      "options": [
       "dissolves",
       "classifies",
-      "confident",
-      "coral"
+      "coral",
+      "confident"
      ],
      "answer": 0,
      "why": {
@@ -360,12 +360,12 @@
     {
      "q": "Which animal can have venom?",
      "options": [
-      "a snake",
       "a rabbit",
+      "a goldfish",
       "a cow",
-      "a goldfish"
+      "a snake"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "Venom is poison that some snakes and insects put into another animal.",
       "zh": "毒液是一些蛇和昆虫产生的毒。"
@@ -374,12 +374,12 @@
     {
      "q": "How many zeros are in one billion?",
      "options": [
-      "9",
+      "3",
       "6",
       "12",
-      "3"
+      "9"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "One billion is 1,000,000,000. Count the zeros: 3 + 3 + 3 = 9. (One million has 6.)",
       "zh": "十亿是 1,000,000,000。数一数零：3 + 3 + 3 = 9 个。（一百万有 6 个零。）"
@@ -389,9 +389,9 @@
      "q": "Neurons carry messages between...",
      "options": [
       "the brain and the body",
-      "the sea and the sky",
+      "a tree and its leaves",
       "two shells",
-      "a tree and its leaves"
+      "the sea and the sky"
      ],
      "answer": 0,
      "why": {
@@ -404,8 +404,8 @@
      "options": [
       "lives in a tank and cannot leave",
       "swims anywhere it likes",
-      "is always confident",
-      "is a kind of coral"
+      "is a kind of coral",
+      "is always confident"
      ],
      "answer": 0,
      "why": {
@@ -416,12 +416,12 @@
     {
      "q": "An ecologist studies...",
      "options": [
-      "how animals, plants, air, land and water are connected",
-      "only the stars and planets",
       "old coins and stamps",
-      "how to build houses"
+      "only the stars and planets",
+      "how to build houses",
+      "how animals, plants, air, land and water are connected"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "An ecologist studies the natural relationships between living things and nature.",
       "zh": "生态学家研究生物和自然之间的关系。"
@@ -430,12 +430,12 @@
     {
      "q": "To classify shells means to...",
      "options": [
+      "paint them",
       "put them into groups by type",
       "break them into pieces",
-      "paint them",
       "throw them away"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Classify means to put things into groups. You classified your words into 3 groups!",
       "zh": "classify 的意思是分类。你已经把单词分成 3 组了！"
@@ -444,12 +444,12 @@
     {
      "q": "The puzzle is perplexing. I am ________.",
      "options": [
-      "perplexed",
       "perplexing",
       "perplex",
+      "perplexed",
       "perplexes"
      ],
-     "answer": 0,
+     "answer": 2,
      "why": {
       "en": "Trap! -ing describes the THING (the puzzle is perplexing). -ed describes the PERSON who feels it (I am perplexed).",
       "zh": "陷阱！-ing 形容让人有感觉的东西（谜题令人困惑）。-ed 形容有这种感觉的人（我感到困惑）。"
@@ -458,12 +458,12 @@
     {
      "q": "A storm closed the roads, so there was a ________ to the school trip.",
      "options": [
+      "venom",
       "disruption",
-      "personality",
       "coral",
-      "venom"
+      "personality"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "A disruption stops things going as normal. The storm stopped the trip going as planned.",
       "zh": "disruption 的意思是中断。暴风雨让旅行不能按计划进行。"
@@ -1638,12 +1638,12 @@
     {
      "q": "Which sentence is correct?",
      "options": [
+      "The shells is hard.",
       "Each fish is a different colour.",
       "Lily and Mia is sisters.",
-      "The shells is hard.",
       "My friends is confident."
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Each fish = one at a time, so is. The others should be: Lily and Mia are, The shells are, My friends are.",
       "zh": "each fish 是每一条，所以用 is。其他应该是：Lily and Mia are，The shells are，My friends are。"
@@ -1705,12 +1705,12 @@
     {
      "q": "Weather is like your ________; climate is like your ________.",
      "options": [
-      "outfit / wardrobe",
-      "wardrobe / outfit",
       "shoes / hat",
-      "sponge / ramp"
+      "sponge / ramp",
+      "wardrobe / outfit",
+      "outfit / wardrobe"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "Paragraph 1: weather changes every day like an outfit. Climate is over many years, like a wardrobe.",
       "zh": "第 1 段：天气每天变，像衣服；气候是很多年的情况，像衣柜。"
@@ -1720,9 +1720,9 @@
      "q": "\"Bangkok is hot and wet for most of the year.\" This sentence is about...",
      "options": [
       "climate",
+      "an air mass",
       "weather",
-      "a cold front",
-      "an air mass"
+      "a cold front"
      ],
      "answer": 0,
      "why": {
@@ -1733,12 +1733,12 @@
     {
      "q": "Why is an air mass like a giant sponge?",
      "options": [
-      "It soaks up the heat and wetness of the place it sits over.",
-      "It is yellow and soft.",
       "It cleans the sky.",
-      "It moves very fast."
+      "It soaks up the heat and wetness of the place it sits over.",
+      "It moves very fast.",
+      "It is yellow and soft."
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Paragraph 2: the air mass soaks up heat or cold, wetness or dryness, like a sponge soaks up water.",
       "zh": "第 2 段：气团像海绵吸水一样，吸收所在地方的冷热和干湿。"
@@ -1747,12 +1747,12 @@
     {
      "q": "At a cold front, warm air is pushed up...",
      "options": [
-      "quickly and steeply",
       "slowly and gently",
       "sideways",
-      "not at all"
+      "not at all",
+      "quickly and steeply"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "Paragraph 3: the cold air is a bulldozer. It pushes the warm air up quickly and steeply.",
       "zh": "第 3 段：冷空气像推土机，把暖空气又快又陡地推上去。"
@@ -1761,12 +1761,12 @@
     {
      "q": "A cold front often brings...",
      "options": [
-      "heavy rain and storms",
       "light rain for days",
+      "heavy rain and storms",
       "snow every time",
       "no clouds at all"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Paragraph 3: short, heavy rain and thunderstorms. \"Light rain for days\" is the warm front trap!",
       "zh": "第 3 段：短时大雨和雷暴。“连续几天小雨”是暖锋，是陷阱！"
@@ -1775,12 +1775,12 @@
     {
      "q": "Which comparison matches a warm front?",
      "options": [
-      "a ramp",
       "a bulldozer",
       "a wardrobe",
-      "a can of drink"
+      "a can of drink",
+      "a ramp"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "Paragraph 4: warm air slides gently up over cold air, like walking up a ramp.",
       "zh": "第 4 段：暖空气慢慢滑到冷空气上面，像走上斜坡。"
@@ -1790,9 +1790,9 @@
      "q": "Water drops on a cold can of drink are an example of...",
      "options": [
       "condensation",
-      "evaporation",
       "dissolving",
-      "captivity"
+      "captivity",
+      "evaporation"
      ],
      "answer": 0,
      "why": {
@@ -1803,12 +1803,12 @@
     {
      "q": "TEST TIP: Which question word tells you to give a REASON?",
      "options": [
-      "Explain why...",
-      "Name...",
       "Circle...",
-      "List..."
+      "Explain why...",
+      "List...",
+      "Name..."
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "\"Explain why\" asks for a reason. Answer with \"because\".",
       "zh": "“Explain why”要求你给出原因，用 because 回答。"
@@ -1846,12 +1846,12 @@
     {
      "q": "A maritime tropical air mass is...",
      "options": [
-      "warm and wet",
-      "cold and dry",
       "hot and dry",
-      "cool and wet"
+      "cold and dry",
+      "cool and wet",
+      "warm and wet"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "Maritime = over the sea, so wet. Tropical = near the equator, so warm.",
       "zh": "maritime = 在海上，所以湿。tropical = 靠近赤道，所以暖。"
@@ -1860,12 +1860,12 @@
     {
      "q": "A continental polar air mass is...",
      "options": [
-      "cold and dry",
       "warm and wet",
+      "cold and dry",
       "cool and wet",
       "hot and dry"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Continental = over land, so dry. Polar = near the poles, so cold.",
       "zh": "continental = 在陆地上，所以干。polar = 靠近两极，所以冷。"
@@ -1874,12 +1874,12 @@
     {
      "q": "A cold front acts like a...",
      "options": [
+      "wardrobe",
       "bulldozer",
-      "ramp",
       "sponge",
-      "wardrobe"
+      "ramp"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Heavy cold air shoves under the warm air and pushes it up fast, like a bulldozer.",
       "zh": "重的冷空气钻到暖空气下面，把它快速推上去，像推土机。"
@@ -1888,12 +1888,12 @@
     {
      "q": "A cold front usually brings...",
      "options": [
+      "snow every time",
       "short, heavy storms, then cooler weather",
-      "long, light rain, then warmer weather",
       "no clouds at all",
-      "snow every time"
+      "long, light rain, then warmer weather"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "Warm air is pushed up fast, so tall storm clouds and short heavy rain. Then the cold air arrives, so it gets cooler.",
       "zh": "暖空气被快速推上去，形成高大的雷雨云和短时大雨。之后冷空气来了，天气变凉。"
@@ -1902,12 +1902,12 @@
     {
      "q": "A warm front usually brings...",
      "options": [
-      "long, light rain, then warmer, humid weather",
       "short, heavy storms, then cooler weather",
       "thunderstorms every time",
+      "long, light rain, then warmer, humid weather",
       "clear blue skies"
      ],
-     "answer": 0,
+     "answer": 2,
      "why": {
       "en": "Warm air slides slowly up the ramp, so flat grey clouds and long, light rain. Then it gets warmer.",
       "zh": "暖空气慢慢滑上斜坡，形成扁平的灰云和长时间的小雨。之后变暖。"
@@ -1916,12 +1916,12 @@
     {
      "q": "Water drops on a cold glass of juice show...",
      "options": [
-      "condensation",
-      "evaporation",
       "dissolving",
-      "precipitation"
+      "evaporation",
+      "precipitation",
+      "condensation"
      ],
-     "answer": 0,
+     "answer": 3,
      "why": {
       "en": "The cold drink trick: air touching the cold glass cools, and water vapour turns back into water.",
       "zh": "冷饮小实验：碰到冷杯子的空气变冷，水蒸气变回水。"
@@ -1930,12 +1930,12 @@
     {
      "q": "Weather is like your outfit. Climate is like your...",
      "options": [
-      "wardrobe",
-      "shoes",
       "hat",
-      "sponge"
+      "wardrobe",
+      "sponge",
+      "shoes"
      ],
-     "answer": 0,
+     "answer": 1,
      "why": {
       "en": "An outfit is for today. A wardrobe is everything over many years, like climate.",
       "zh": "衣服是今天穿的，衣柜是很多年的全部衣服，就像气候。"
@@ -1944,12 +1944,12 @@
     {
      "q": "Wind blows from...",
      "options": [
-      "high pressure to low pressure",
       "low pressure to high pressure",
       "the ground straight up to space",
+      "high pressure to low pressure",
       "east to west every day"
      ],
-     "answer": 0,
+     "answer": 2,
      "why": {
       "en": "Like air rushing out of a squeezed balloon: from high pressure to low pressure.",
       "zh": "就像空气从挤压的气球里冲出来：从高压吹向低压。"
@@ -1959,9 +1959,9 @@
      "q": "Why are cumulonimbus clouds found at cold fronts?",
      "options": [
       "Because warm air is pushed up fast and steep, so tall storm clouds form.",
+      "Because the air is very dry.",
       "Because warm air slides up slowly, so flat clouds form.",
-      "Because cold air rises above warm air.",
-      "Because the air is very dry."
+      "Because cold air rises above warm air."
      ],
      "answer": 0,
      "why": {
@@ -1973,9 +1973,9 @@
      "q": "High pressure usually brings...",
      "options": [
       "clear skies, because heavy air sinks",
-      "rain, because light air rises",
       "storms, because air is pushed up",
-      "fog every day"
+      "fog every day",
+      "rain, because light air rises"
      ],
      "answer": 0,
      "why": {

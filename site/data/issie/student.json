@@ -5,6 +5,7 @@
   "accentSoft": "#e0f4f2",
   "bilingual": true,
   "voice": "en-US",
+  "separateKey": true,
   "weeks": [
     "2026-11-16"
   ]

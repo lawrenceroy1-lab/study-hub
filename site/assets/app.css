@@ -222,6 +222,15 @@ input[type=text]:focus, input[type=number]:focus, textarea:focus { outline: none
 .print-page .newpage { break-before: page; }
 .print-page .noprint { margin: 16px 0; }
 .print-page table { border-collapse: collapse; width: 100%; }
+.print-page .pzh { font-size: .9em; margin: 2px 0 6px; }
+.print-page .tkey { border: 3px double #000; padding: 6px 10px; margin: 8px 0 12px; font-size: .9em; }
+.print-page .kq { break-inside: avoid; border-bottom: 1px solid #000; padding: 6px 0 10px; }
+.print-page .kright { font-weight: 900; text-decoration: underline; }
+.print-page .kwhy { margin-top: 4px; }
+.print-page .ksteps { margin: 6px 0; padding-left: 28px; }
+.print-page .ksteps li { margin: 4px 0; }
+.print-page .math { color: #000; }
+.print-page .barmodel { display: none; }
 .print-page td, .print-page th { border: 1px solid #000; padding: 6px 8px; text-align: left; vertical-align: top; }
 @media print {
   .noprint { display: none !important; }

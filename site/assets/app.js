@@ -934,6 +934,87 @@
   }
 
   /* ================= PRINT PAGE ================= */
+  /* Bilingual students: Chinese under each title, and the instructions (worked steps) in both languages. */
+  function zhText(v) { return v && typeof v === 'object' && v.zh ? v.zh : ''; }
+  function enText(v) { return v == null ? '' : (typeof v === 'string' ? v : (v.en || '')); }
+  function printZh(v) { return bilingual() && zhText(v) ? h('p', { class: 'pzh', lang: 'zh' }, zhText(v)) : null; }
+  function printIntro(v) {
+    if (!v || !bilingual()) return null;
+    return h('div', { class: 'pbox' }, rich(enText(v)), zhText(v) ? h('div', { class: 'pzh', lang: 'zh' }, rich(zhText(v))) : null);
+  }
+
+  /* ================= TEACHER ANSWER KEY =================
+     A separate, hidden page for the teacher only. One answer key per activity, each on its own printed page.
+     Option letters A to D follow the printed worksheet (data order). */
+  function renderTeacher() {
+    document.body.className = 'print-page';
+    document.title = 'Answer key';
+    var root = h('div', { class: 'wrap' });
+    document.body.appendChild(root);
+    S.lang = 'en';
+    var ids = weekIds();
+    var m = /[?&]w=([0-9-]+)/.exec(location.search);
+    var id = m ? m[1] : ids[0];
+    var nav = h('div', { class: 'noprint row' },
+      h('button', { class: 'btn', onclick: function () { window.print(); } }, '🖨️ Print'),
+      ids.map(function (x) { return h('a', { class: 'btn ghost', href: '?w=' + x }, weekLabel(x)); }));
+    add(root, nav);
+    function stamp(sub) {
+      return h('div', { class: 'tkey' }, h('b', null, 'TEACHER COPY ONLY: ANSWER KEY'), ' · 教师用答案 · ', S.student.name + ' · ' + weekLabel(id) + (sub ? ' · ' + sub : ''));
+    }
+    function both(v, isRich) {
+      return [isRich ? rich(enText(v)) : enText(v), zhText(v) ? h('div', { class: 'pzh', lang: 'zh' }, isRich ? rich(zhText(v)) : zhText(v)) : null];
+    }
+    function mcq(q, n) {
+      var L = String.fromCharCode(65 + q.answer);
+      return h('div', { class: 'kq' },
+        h('div', { class: 'pq' }, (n + 1) + '. ', q.context ? h('div', { style: 'font-weight:400' }, rich(q.context)) : null, rich(q.q)),
+        h('div', { class: 'opts' }, q.options.map(function (o, k) {
+          var right = k === q.answer;
+          return h('div', { class: right ? 'kright' : null }, (right ? '✔ ' : '    ') + String.fromCharCode(65 + k) + ')  ', rich(o));
+        })),
+        h('div', null, h('b', null, 'Answer: ' + L + ')  '), rich(q.options[q.answer])),
+        q.why ? h('div', { class: 'kwhy' }, h('b', null, 'Why: '), both(q.why, true)) : null);
+    }
+    loadWeek(id).then(function (w) {
+      add(root, [h('h1', null, 'Answer key: ' + enText(w.title)), printZh(w.title), stamp(),
+        h('p', null, 'Option letters match the printed worksheet. On screen the options are shuffled.'),
+        h('ol', null, w.activities.map(function (a) { return h('li', null, enText(a.title)); }))]);
+      w.activities.forEach(function (a) {
+        var sec = h('section', { class: 'newpage' }, stamp(enText(a.title)), h('h2', null, enText(a.title)), printZh(a.title));
+        if (a.type === 'spelling') {
+          add(sec, h('table', null, h('tr', null, h('th', null, '#'), h('th', null, 'Word'), h('th', null, '中文'), h('th', null, 'Sentence')),
+            a.words.map(function (x, n) { return h('tr', null, h('td', null, n + 1), h('td', null, h('b', null, x.word)), h('td', null, x.zh || ''), h('td', null, x.sentence || '')); })));
+        } else if (a.type === 'flashcards') {
+          add(sec, h('table', null, h('tr', null, h('th', null, 'Front'), h('th', null, 'Back'), h('th', null, '中文')),
+            a.cards.map(function (c) { return h('tr', null, h('td', null, h('b', null, c.front)), h('td', null, c.back), h('td', null, [c.zh, c.zhBack].filter(Boolean).join('：'))); })));
+        } else if (a.type === 'match') {
+          add(sec, h('table', null, h('tr', null, h('th', null, 'Word'), h('th', null, 'Matches')),
+            a.pairs.map(function (p) { return h('tr', null, h('td', null, h('b', null, p.a)), h('td', null, p.b)); })));
+        } else if (a.type === 'quiz') {
+          add(sec, a.questions.map(mcq));
+          add(sec, h('div', { class: 'pbox' }, h('b', null, 'Quick key: '), a.questions.map(function (q, n) { return (n + 1) + ' ' + String.fromCharCode(65 + q.answer); }).join('   ')));
+        } else if (a.type === 'reading') {
+          add(sec, a.questions.map(mcq));
+          if (a.write) add(sec, h('div', { class: 'kq' }, h('div', { class: 'pq' }, (a.questions.length + 1) + '. ', enText(a.write.prompt)), printZh(a.write.prompt),
+            h('div', null, h('b', null, 'Model answer: '), a.write.model), h('div', { class: 'small' }, 'Accept any complete sentence that makes sense, starts with a capital letter and ends with a full stop.')));
+          add(sec, h('div', { class: 'pbox' }, h('b', null, 'Quick key: '), a.questions.map(function (q, n) { return (n + 1) + ' ' + String.fromCharCode(65 + q.answer); }).join('   ')));
+        } else if (a.type === 'guided') {
+          a.items.forEach(function (it, n) {
+            add(sec, h('div', { class: 'kq' }, h('div', { class: 'pq' }, (n + 1) + '. ', rich(it.q)),
+              h('ol', { class: 'ksteps' }, it.steps.map(function (s) {
+                return h('li', null, both(s, true), [].concat(s.math == null ? [] : s.math).map(function (mm) { return h('div', { class: 'math' }, rich(mm)); }));
+              })),
+              h('div', null, h('b', null, h('u', null, 'Answer: ', rich(it.answer)))),
+              it.why ? h('div', { class: 'kwhy' }, h('b', null, 'Why: '), both(it.why, true)) : null));
+          });
+          add(sec, h('div', { class: 'pbox' }, h('b', null, 'Quick key: '), rich(a.items.map(function (it, n) { return (n + 1) + ') ' + it.answer; }).join('   '))));
+        }
+        add(root, sec);
+      });
+    }).catch(function () { add(root, h('p', null, 'Could not load this week.')); });
+  }
+
   function renderPrint() {
     document.body.className = 'print-page';
     var m = /[?&]w=([0-9-]+)/.exec(location.search);
@@ -949,7 +1030,7 @@
         h('p', null, 'Week of ' + weekLabel(w.week)), h('p', null, 'Date: ______________')
       ]);
       w.activities.forEach(function (a) {
-        var title = h('h2', null, a.title.en || a.title);
+        var title = [h('h2', null, a.title.en || a.title), printZh(a.title), printIntro(a.intro)];
         if (a.type === 'spelling') {
           add(root, [title, h('p', null, 'Look, say, cover, write, check.'),
             h('table', null, h('tr', null, h('th', null, '#'), h('th', null, 'Word'), h('th', null, 'Write it'), h('th', null, 'Write it again'), h('th', null, '✔')),
@@ -979,7 +1060,8 @@
           answers.push([a.title.en || a.title, a.items.map(function (it, n) { return (n + 1) + ') ' + it.answer; }).join('   ')]);
         }
       });
-      if (answers.length) {
+      /* Students with a separate teacher answer key get no answers on their own sheet. */
+      if (answers.length && !S.student.separateKey) {
         add(root, [h('div', { class: 'newpage' }), h('h2', null, 'Answers (for checking)')]);
         answers.forEach(function (x) { add(root, h('div', { class: 'pbox' }, h('b', null, x[0] + ': '), rich(x[1]))); });
       }
@@ -994,6 +1076,7 @@
     document.title = 'Hi ' + st.name + '!';
     if (st.accent) document.documentElement.style.setProperty('--accent', st.accent);
     if (st.accentSoft) document.documentElement.style.setProperty('--accent-soft', st.accentSoft);
+    if (window.TEACHER_MODE) return renderTeacher();
     if (window.PRINT_MODE) return renderPrint();
     frame();
     window.addEventListener('hashchange', route);
