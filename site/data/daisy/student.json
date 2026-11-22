@@ -1,9 +1,12 @@
 {
-  "id": "daisy",
-  "name": "Daisy",
-  "accent": "#7b3fe4",
-  "accentSoft": "#f1eaff",
-  "bilingual": true,
-  "voice": "en-GB",
-  "weeks": ["2026-11-16"]
+ "id": "daisy",
+ "name": "Daisy",
+ "accent": "#7b3fe4",
+ "accentSoft": "#f1eaff",
+ "bilingual": true,
+ "voice": "en-GB",
+ "weeks": [
+  "2026-11-16",
+  "2026-11-23"
+ ]
 }

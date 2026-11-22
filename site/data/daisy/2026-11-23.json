@@ -1,0 +1,1581 @@
+{
+ "week": "2026-11-23",
+ "title": {
+  "en": "Reading Test Monday and -ion Words",
+  "zh": "周一阅读考试和 -ion 单词"
+ },
+ "message": {
+  "en": "Reading Test is on MONDAY 23 November! Start with tonight's workbook. Spelling quiz is Friday 27 November.",
+  "zh": "阅读考试改到周一 11 月 23 日！先做今晚的练习册。拼写小测在周五 11 月 27 日。"
+ },
+ "days": [
+  {
+   "date": "2026-11-22",
+   "title": {
+    "en": "Reading Test Review",
+    "zh": "阅读考试复习"
+   },
+   "message": {
+    "en": "The test is tomorrow. Do the lesson with Roy first, then the practice in order.",
+    "zh": "明天就考试了。先和 Roy 老师一起看课堂幻灯片，再按顺序练习。"
+   },
+   "activities": [
+    "lesson-pov",
+    "cards",
+    "povfill",
+    "speed",
+    "reading"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "id": "lesson-pov",
+   "type": "lesson",
+   "icon": "📽️",
+   "title": {
+    "en": "Lesson: Reading Test Review",
+    "zh": "课堂：阅读考试复习"
+   },
+   "subtitle": {
+    "en": "8 slides",
+    "zh": "8 页"
+   },
+   "intro": {
+    "en": "Go through these slides with Roy. Tap 🔊 to hear each slide.",
+    "zh": "和 Roy 老师一起看幻灯片。点 🔊 听朗读。"
+   },
+   "slides": [
+    {
+     "icon": "🕵️",
+     "title": {
+      "en": "Reading Test tomorrow!",
+      "zh": "明天阅读考试！"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🗣️",
+        "en": "Point of view: WHO tells it",
+        "zh": "视角：谁在讲"
+       },
+       {
+        "icon": "👓",
+        "en": "Perspective: HOW they see it",
+        "zh": "看法：怎样看"
+       },
+       {
+        "icon": "💡",
+        "en": "Theme: the LESSON",
+        "zh": "主题：道理"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Tomorrow's test is about 3 big ideas: point of view, perspective and theme.",
+       "zh": "明天的考试有 3 个重点：视角、看法和主题。"
+      },
+      {
+       "en": "You already know a lot. Today we practise the tricky parts.",
+       "zh": "你已经会很多了。今天我们练习难的部分。"
+      }
+     ]
+    },
+    {
+     "icon": "📖",
+     "title": {
+      "en": "Who is telling the story?",
+      "zh": "谁在讲故事？"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🗣️📖",
+        "en": "Narrator = the one telling the story",
+        "zh": "叙述者 = 讲故事的人"
+       },
+       {
+        "icon": "💬",
+        "en": "Dialogue = words inside \" \"",
+        "zh": "对话 = 引号里的话"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "The narrator tells the story. The point of view tells us WHO the narrator is.",
+       "zh": "叙述者讲故事。视角告诉我们叙述者是谁。"
+      }
+     ]
+    },
+    {
+     "icon": "✋",
+     "title": {
+      "en": "Step 1: Cover the dialogue!",
+      "zh": "第一步：遮住对话！"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "\"I love swimming!\" shouted James. He jumped in.",
+       "zh": "\"I love swimming!\" shouted James. He jumped in."
+      },
+      "example": {
+       "en": "Cover \"I love swimming!\" Clue words left: James, He. So it is THIRD person.",
+       "zh": "遮住 \"I love swimming!\"。剩下的线索词：James、He。所以是第三人称。"
+      }
+     },
+     "points": [
+      {
+       "en": "Words inside speech marks are a TRAP. Do not use them for clue words.",
+       "zh": "引号里的词是陷阱，不要用它们找线索。"
+      }
+     ],
+     "remember": {
+      "en": "Always cover the dialogue first.",
+      "zh": "一定要先遮住对话。"
+     }
+    },
+    {
+     "icon": "🔍",
+     "title": {
+      "en": "Step 2: Find the clue words",
+      "zh": "第二步：找线索词"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🙋‍♀️",
+        "en": "I, me, my, we = FIRST person",
+        "zh": "I、me、my、we = 第一人称"
+       },
+       {
+        "icon": "👉",
+        "en": "you, your = SECOND person",
+        "zh": "you、your = 第二人称"
+       },
+       {
+        "icon": "👥",
+        "en": "he, she, they, names = THIRD person",
+        "zh": "he、she、they、名字 = 第三人称"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "First person: the narrator is IN the story.",
+       "zh": "第一人称：叙述者在故事里面。"
+      },
+      {
+       "en": "Second person: the narrator talks straight to YOU, the reader.",
+       "zh": "第二人称：叙述者直接对“你”（读者）说话。"
+      },
+      {
+       "en": "Third person: the narrator is OUTSIDE the story.",
+       "zh": "第三人称：叙述者在故事外面。"
+      }
+     ]
+    },
+    {
+     "icon": "📷",
+     "title": {
+      "en": "Step 3: Third person has 3 kinds",
+      "zh": "第三步：第三人称有 3 种"
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "📷",
+        "en": "Objective: knows NOBODY's feelings",
+        "zh": "客观：不知道任何人的感受"
+       },
+       {
+        "icon": "🧠",
+        "en": "Limited: knows ONE person's feelings",
+        "zh": "有限：只知道一个人的感受"
+       },
+       {
+        "icon": "🌍",
+        "en": "Omniscient: knows EVERYONE's feelings",
+        "zh": "全知：知道所有人的感受"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Ask: whose thoughts or feelings do I know?",
+       "zh": "问自己：我知道谁的想法或感受？"
+      },
+      {
+       "en": "Nobody = objective (like a camera). One = limited. All = omniscient (\"omni\" means all).",
+       "zh": "没有人 = 客观（像摄像机）。一个人 = 有限。所有人 = 全知（omni 的意思是“全部”）。"
+      }
+     ]
+    },
+    {
+     "icon": "🌧️",
+     "title": {
+      "en": "Perspective: same thing, different feelings",
+      "zh": "看法：同一件事，不同感受"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏊‍♀️😢",
+        "en": "Daisy: sad, swimming is cancelled",
+        "zh": "Daisy：难过，游泳课取消了"
+       },
+       {
+        "icon": "🌾😊",
+        "en": "Farmer Tom: happy, his plants need water",
+        "zh": "农民 Tom：开心，庄稼需要水"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Perspective = HOW a character sees something, because of their own life, beliefs and opinions.",
+       "zh": "看法 = 人物怎样看一件事，因为他们自己的经历、想法和观点。"
+      },
+      {
+       "en": "The same rain, two different perspectives.",
+       "zh": "同一场雨，两种不同的看法。"
+      }
+     ]
+    },
+    {
+     "icon": "💡",
+     "title": {
+      "en": "Theme is NOT a summary",
+      "zh": "主题不是概要"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "📝",
+        "en": "Summary: WHAT happened (has names)",
+        "zh": "概要：发生了什么（有名字）"
+       },
+       {
+        "icon": "💡",
+        "en": "Theme: the LESSON for everyone (no names)",
+        "zh": "主题：给每个人的道理（没有名字）"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Summary: \"Emma gave the photo card back to Sophie.\"",
+       "zh": "概要：\"Emma gave the photo card back to Sophie.\""
+      },
+      {
+       "en": "Theme: \"Doing the right thing feels better than keeping what is not yours.\"",
+       "zh": "主题：\"Doing the right thing feels better than keeping what is not yours.\""
+      }
+     ],
+     "remember": {
+      "en": "If it has a name in it, it is probably NOT the theme.",
+      "zh": "如果句子里有名字，那多半不是主题。"
+     }
+    },
+    {
+     "icon": "⭐",
+     "title": {
+      "en": "Test tips for tomorrow",
+      "zh": "明天考试的小技巧"
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "👀",
+        "en": "Read the question twice",
+        "zh": "题目读两遍"
+       },
+       {
+        "icon": "✋",
+        "en": "Cover the dialogue",
+        "zh": "遮住对话"
+       },
+       {
+        "icon": "🔍",
+        "en": "Find the clue words",
+        "zh": "找线索词"
+       },
+       {
+        "icon": "✅",
+        "en": "Check every answer",
+        "zh": "检查每个答案"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "You have practised this all week. You are ready, Daisy!",
+       "zh": "你这周一直在练习。Daisy，你准备好了！"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now find the narrator, the point of view, the perspective and the theme.",
+    "zh": "我现在能找出叙述者、视角、看法和主题。"
+   }
+  },
+  {
+   "id": "cards",
+   "type": "flashcards",
+   "title": {
+    "en": "Flashcards: Reading Test Words",
+    "zh": "闪卡：阅读考试词汇"
+   },
+   "subtitle": {
+    "en": "10 words",
+    "zh": "10 个词"
+   },
+   "intro": {
+    "en": "Read the word. Say what it means. Tap to check.",
+    "zh": "读单词，说出意思，点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "Point of View",
+     "back": "WHO is telling the story. The angle the story is told from.",
+     "zh": "视角",
+     "zhBack": "谁在讲故事。"
+    },
+    {
+     "front": "Perspective",
+     "back": "HOW a character sees something, because of their own experiences, beliefs and opinions.",
+     "zh": "看法",
+     "zhBack": "人物怎样看一件事（因为他们自己的经历和想法）。"
+    },
+    {
+     "front": "First Person",
+     "back": "The narrator is a character IN the story and uses I, me, my, we.",
+     "zh": "第一人称",
+     "zhBack": "叙述者是故事里的人物，用 I、me、my、we。"
+    },
+    {
+     "front": "Second Person",
+     "back": "The narrator talks straight to the reader, using you and your.",
+     "zh": "第二人称",
+     "zhBack": "叙述者直接对读者说话，用 you、your。"
+    },
+    {
+     "front": "Third Person Objective",
+     "back": "The narrator is outside the story and knows NOBODY's thoughts or feelings, like a camera.",
+     "zh": "第三人称客观",
+     "zhBack": "叙述者在故事外面，不知道任何人的想法，像摄像机。"
+    },
+    {
+     "front": "Third Person Limited",
+     "back": "The narrator is outside the story and knows the thoughts and feelings of ONE character.",
+     "zh": "第三人称有限",
+     "zhBack": "叙述者在故事外面，只知道一个人物的想法和感受。"
+    },
+    {
+     "front": "Third Person Omniscient",
+     "back": "The narrator is outside the story and knows the thoughts and feelings of ALL characters.",
+     "zh": "第三人称全知",
+     "zhBack": "叙述者在故事外面，知道所有人物的想法和感受。"
+    },
+    {
+     "front": "Narrator",
+     "back": "The one who is telling the story.",
+     "zh": "叙述者",
+     "zhBack": "讲故事的人。"
+    },
+    {
+     "front": "Dialogue",
+     "back": "The words the characters say, inside speech marks \" \".",
+     "zh": "对话",
+     "zhBack": "人物说的话，在引号里面。"
+    },
+    {
+     "front": "Theme",
+     "back": "The message or life lesson of the story. NOT a summary.",
+     "zh": "主题",
+     "zhBack": "故事告诉我们的人生道理，不是概要。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain all 10 reading test words.",
+    "zh": "我现在可以解释全部 10 个阅读考试词汇。"
+   }
+  },
+  {
+   "id": "povfill",
+   "type": "fillblank",
+   "icon": "✍️",
+   "shuffle": false,
+   "title": {
+    "en": "Fill in the Blanks: Test Words",
+    "zh": "填空：考试词汇"
+   },
+   "subtitle": {
+    "en": "10 sentences",
+    "zh": "10 个句子"
+   },
+   "intro": {
+    "en": "Read the sentence, then tap the missing word.",
+    "zh": "读句子，然后点出缺少的词。"
+   },
+   "bank": [
+    "narrator",
+    "dialogue",
+    "first",
+    "second",
+    "third",
+    "objective",
+    "limited",
+    "omniscient",
+    "perspective",
+    "theme"
+   ],
+   "items": [
+    {
+     "text": "The ___ is the one who tells the story.",
+     "answer": "narrator",
+     "why": {
+      "en": "Narrator = the storyteller.",
+      "zh": "叙述者 = 讲故事的人。"
+     }
+    },
+    {
+     "text": "The words characters say inside speech marks are called ___.",
+     "answer": "dialogue",
+     "why": {
+      "en": "Dialogue is inside \" \". Cover it first!",
+      "zh": "对话在引号里，要先遮住！"
+     }
+    },
+    {
+     "text": "I, me and my are clue words for ___ person.",
+     "answer": "first",
+     "why": {
+      "en": "The narrator is IN the story.",
+      "zh": "叙述者在故事里面。"
+     }
+    },
+    {
+     "text": "You and your are clue words for ___ person.",
+     "answer": "second",
+     "why": {
+      "en": "The narrator talks to you, the reader.",
+      "zh": "叙述者对你（读者）说话。"
+     }
+    },
+    {
+     "text": "He, she, they and names are clue words for ___ person.",
+     "answer": "third",
+     "why": {
+      "en": "The narrator is outside the story.",
+      "zh": "叙述者在故事外面。"
+     }
+    },
+    {
+     "text": "A narrator who knows NOBODY's feelings, like a camera, is third person ___.",
+     "answer": "objective",
+     "why": {
+      "en": "Objective = camera: only actions.",
+      "zh": "客观 = 摄像机：只有动作。"
+     }
+    },
+    {
+     "text": "A narrator who knows the feelings of only ONE character is third person ___.",
+     "answer": "limited",
+     "why": {
+      "en": "Limited = one mind.",
+      "zh": "有限 = 一个人的想法。"
+     }
+    },
+    {
+     "text": "A narrator who knows EVERYONE's feelings is third person ___.",
+     "answer": "omniscient",
+     "why": {
+      "en": "Omni = all.",
+      "zh": "omni = 全部。"
+     }
+    },
+    {
+     "text": "How a character sees something, because of their own life, is their ___.",
+     "answer": "perspective",
+     "why": {
+      "en": "Perspective = HOW they see it.",
+      "zh": "看法 = 怎样看。"
+     }
+    },
+    {
+     "text": "The life lesson of a story, with no names, is the ___.",
+     "answer": "theme",
+     "why": {
+      "en": "Theme = the lesson, not a summary.",
+      "zh": "主题 = 道理，不是概要。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use all 10 reading test words.",
+    "zh": "我现在会用 10 个阅读考试词汇。"
+   }
+  },
+  {
+   "id": "speed",
+   "type": "quiz",
+   "timed": true,
+   "count": 10,
+   "seconds": 20,
+   "title": {
+    "en": "Speed Quiz: Point of View",
+    "zh": "抢答：叙述视角"
+   },
+   "intro": {
+    "en": "10 questions, 20 seconds each. Faster answers win more points. Tip: cover the dialogue first!",
+    "zh": "10 道题，每题 20 秒。答得越快分越高。小技巧：先遮住对话！"
+   },
+   "questions": [
+    {
+     "q": "We packed our swimming bags and ran to catch the school bus.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue words: we, our. That is first person.",
+      "zh": "线索词：we、our，所以是第一人称。"
+     }
+    },
+    {
+     "q": "Have you ever eaten durian? You will never forget the smell!\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The narrator talks to YOU, the reader. That is second person.",
+      "zh": "叙述者在对“你”（读者）说话，所以是第二人称。"
+     }
+    },
+    {
+     "q": "Sophie bought a photo card of her favourite singer. She smiled all the way home.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Clue words: Sophie, her, she. That is third person.",
+      "zh": "线索词：Sophie、her、she，所以是第三人称。"
+     }
+    },
+    {
+     "q": "\"You are my best friend!\" Lily told Emma. Then they hugged.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Cover the dialogue first! \"You\" is inside the speech marks, so it does not count. Lily, Emma, they = third person.",
+      "zh": "先遮住对话！“You” 在引号里，不算。Lily、Emma、they = 第三人称。"
+     }
+    },
+    {
+     "q": "\"I won, I won!\" Tom shouted. He held his gold medal high.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Cover the dialogue: \"I won\" does not count. Tom, he, his = third person.",
+      "zh": "遮住对话：“I won” 不算。Tom、he、his = 第三人称。"
+     }
+    },
+    {
+     "q": "Have you ever visited a Thai temple? You must take off your shoes first.\nWhat is the point of view?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Clue words: you, your. The narrator talks to the reader. That is second person.",
+      "zh": "线索词：you、your，叙述者在对读者说话，是第二人称。"
+     }
+    },
+    {
+     "q": "James and Tom carried the bread to the hall. They put it on the long table.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "We only SEE actions. We know nobody's feelings, like a camera. That is objective.",
+      "zh": "我们只看到动作，不知道任何人的感受，像摄像机，所以是客观。"
+     }
+    },
+    {
+     "q": "Lily wanted to sing on stage, but she was scared her voice would shake.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "We know the feelings of ONE person: Lily. That is limited.",
+      "zh": "我们只知道一个人（Lily）的感受，所以是有限。"
+     }
+    },
+    {
+     "q": "Daisy felt proud of her drawing. Emma felt a little jealous, and the teacher was delighted.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "We know how EVERYONE feels: Daisy, Emma and the teacher. That is omniscient.",
+      "zh": "我们知道每个人的感受：Daisy、Emma 和老师，所以是全知。"
+     }
+    },
+    {
+     "q": "The swimmers dived into the pool. The crowd clapped and cheered.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Only actions, no feelings. Like a camera. That is objective.",
+      "zh": "只有动作，没有感受，像摄像机，所以是客观。"
+     }
+    },
+    {
+     "q": "Sophie was nervous about the test, and Lily was worried about her too. Their teacher felt sure they would both do well.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "We know the feelings of Sophie, Lily AND the teacher. All of them = omniscient.",
+      "zh": "我们知道 Sophie、Lily 和老师的感受。所有人 = 全知。"
+     }
+    },
+    {
+     "q": "Tom smiled at the new girl. He hoped she would sit next to him at lunch.\nWhich kind of third person is it?",
+     "options": [
+      "Third person objective",
+      "Third person limited",
+      "Third person omniscient",
+      "First person"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "We only know what Tom hopes. One person = limited.",
+      "zh": "我们只知道 Tom 的想法。一个人 = 有限。"
+     }
+    },
+    {
+     "q": "It rains all day. Daisy is sad because her swimming lesson is cancelled. Farmer Tom is happy because his plants need water.\nThis shows that the two characters have different...",
+     "options": [
+      "themes",
+      "perspectives",
+      "narrators",
+      "dialogues"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They see the SAME rain in different ways. HOW a character sees something is perspective.",
+      "zh": "他们看同一场雨的感受不同。人物怎样看一件事就是“看法”。"
+     }
+    },
+    {
+     "q": "\"Emma gave the card back to Sophie.\"\nIs this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary",
+      "Dialogue",
+      "Narrator"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It tells WHAT HAPPENED and uses names. That is a summary.",
+      "zh": "它讲的是发生了什么，还有名字，所以是概要。"
+     }
+    },
+    {
+     "q": "\"Be honest, even when nobody is watching.\"\nIs this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary",
+      "Dialogue",
+      "Narrator"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "It is a life lesson for EVERYONE, with no names. That is a theme.",
+      "zh": "这是对每个人都适用的道理，没有名字，所以是主题。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now find the point of view and tell a theme from a summary.",
+    "zh": "我现在可以找出叙述视角，并分清主题和概要。"
+   }
+  },
+  {
+   "id": "reading",
+   "type": "reading",
+   "title": {
+    "en": "Reading: The Lost Photo Card",
+    "zh": "阅读：丢失的小卡"
+   },
+   "intro": {
+    "en": "Learn the key words, read the story, answer the questions, then write the theme.",
+    "zh": "先学关键词，再读故事，回答问题，最后写出主题。"
+   },
+   "storyTitle": "The Lost Photo Card",
+   "keywords": [
+    {
+     "word": "photo card",
+     "meaning": "a small card with a picture of a singer",
+     "zh": "小卡（明星照片卡）"
+    },
+    {
+     "word": "rare",
+     "meaning": "very hard to find",
+     "zh": "稀有的"
+    },
+    {
+     "word": "my heart felt heavy",
+     "meaning": "I felt sad and worried inside",
+     "zh": "我心里很沉重"
+    },
+    {
+     "word": "her face lit up",
+     "meaning": "she suddenly looked very happy",
+     "zh": "她的脸一下子亮了起来（很开心）"
+    },
+    {
+     "word": "warm inside",
+     "meaning": "happy and kind feelings in your heart",
+     "zh": "心里暖暖的"
+    }
+   ],
+   "paragraphs": [
+    "My name is Emma, and I love K-pop. On Monday, I found a photo card on the bus floor. It was my favourite singer, and it was very rare! I was so excited. I wanted to keep it.",
+    "Then I saw a younger girl at the back of the bus. She was crying and looking under every seat. \"My sister gave it to me for my birthday,\" she said to her friend.",
+    "My heart felt heavy. I walked over and held out the card. \"Is this yours?\" I asked. The girl's face lit up. \"Thank you so much!\" she said. Her name was Sophie.",
+    "I did not have the rare card any more, but I felt warm and happy inside. It was a better feeling than keeping it."
+   ],
+   "questions": [
+    {
+     "q": "What is the point of view of this story?",
+     "options": [
+      "First person",
+      "Second person",
+      "Third person",
+      "No narrator"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue words outside the dialogue: My, I, me. That is first person.",
+      "zh": "对话外面的线索词：My、I、me，所以是第一人称。"
+     }
+    },
+    {
+     "q": "Who is the narrator?",
+     "options": [
+      "Sophie",
+      "Emma",
+      "Sophie's sister",
+      "the bus driver"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "\"My name is Emma.\" Emma tells the story.",
+      "zh": "“My name is Emma.” 是 Emma 在讲故事。"
+     }
+    },
+    {
+     "q": "How did Emma feel when she FIRST found the card?",
+     "options": [
+      "angry",
+      "bored",
+      "excited",
+      "scared"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Paragraph 1: \"I was so excited.\"",
+      "zh": "第 1 段：“I was so excited.”"
+     }
+    },
+    {
+     "q": "Why was the card so special to Sophie?",
+     "options": [
+      "It was a gift from her sister.",
+      "She bought it in Korea.",
+      "It cost a lot of money.",
+      "Emma gave it to her."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraph 2: \"My sister gave it to me for my birthday.\"",
+      "zh": "第 2 段：“My sister gave it to me for my birthday.”"
+     }
+    },
+    {
+     "q": "Which is the BEST theme of the story?",
+     "options": [
+      "Emma found a card on the bus.",
+      "K-pop cards are rare.",
+      "Buses are often crowded.",
+      "Doing the right thing feels better than keeping what is not yours."
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A theme is a life lesson for everyone. The others are facts or a summary.",
+      "zh": "主题是对每个人都适用的道理。其他选项是事实或概要。"
+     }
+    },
+    {
+     "q": "\"Emma gave the card back to Sophie.\" Is this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It tells what happened and uses names, so it is a summary.",
+      "zh": "它讲发生了什么，还有名字，所以是概要。"
+     }
+    },
+    {
+     "q": "\"Be honest, even when nobody is watching.\" Is this a theme or a summary?",
+     "options": [
+      "Theme",
+      "Summary"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "It is a lesson for everyone with no names, so it is a theme.",
+      "zh": "这是给每个人的道理，没有名字，所以是主题。"
+     }
+    }
+   ],
+   "write": {
+    "prompt": {
+     "en": "Write the theme of \"The Lost Photo Card\" in your OWN words. Remember: no names!",
+     "zh": "用你自己的话写出这个故事的主题。记住：不写名字！"
+    },
+    "model": "It feels good to give back something that is not yours.",
+    "avoidNames": [
+     "Emma",
+     "Sophie",
+     "Daisy"
+    ]
+   },
+   "canNow": {
+    "en": "I can now find the narrator and write a theme with no names.",
+    "zh": "我现在可以找到叙述者，并写出不带名字的主题。"
+   }
+  },
+  {
+   "id": "spelling",
+   "type": "spelling",
+   "title": {
+    "en": "Spelling: Adding -ion",
+    "zh": "拼写：加 -ion"
+   },
+   "subtitle": {
+    "en": "28 words, quiz Friday 27 Nov",
+    "zh": "28 个词，周五 27 日小测"
+   },
+   "intro": {
+    "en": "Add -ion to make a noun: discuss → discussion. If the word ends in e, drop the e first: evaluate → evaluation.",
+    "zh": "加 -ion 变成名词：discuss → discussion。如果单词以 e 结尾，先去掉 e：evaluate → evaluation。"
+   },
+   "groups": [
+    {
+     "id": "basic",
+     "en": "Basic 20",
+     "zh": "基础 20 个"
+    },
+    {
+     "id": "review",
+     "en": "Review",
+     "zh": "复习"
+    },
+    {
+     "id": "challenge",
+     "en": "Challenge",
+     "zh": "挑战"
+    }
+   ],
+   "words": [
+    {
+     "word": "instruct",
+     "sentence": "The coach will instruct us how to dive.",
+     "zh": "指导；教",
+     "group": "basic"
+    },
+    {
+     "word": "digest",
+     "sentence": "Your stomach helps you digest food.",
+     "zh": "消化",
+     "group": "basic"
+    },
+    {
+     "word": "discussion",
+     "sentence": "We had a class discussion about K-pop.",
+     "zh": "讨论",
+     "group": "basic"
+    },
+    {
+     "word": "congratulation",
+     "sentence": "Please accept my congratulation on your win.",
+     "zh": "祝贺",
+     "group": "basic"
+    },
+    {
+     "word": "investigate",
+     "sentence": "The detective will investigate the lost photo card.",
+     "zh": "调查",
+     "group": "basic"
+    },
+    {
+     "word": "instruction",
+     "sentence": "Read each instruction carefully.",
+     "zh": "说明；指示",
+     "group": "basic"
+    },
+    {
+     "word": "violate",
+     "sentence": "Do not violate the school rules.",
+     "zh": "违反",
+     "group": "basic"
+    },
+    {
+     "word": "operation",
+     "sentence": "The vet did an operation on the cat's leg.",
+     "zh": "手术",
+     "group": "basic"
+    },
+    {
+     "word": "evaluate",
+     "sentence": "The teacher will evaluate our speeches.",
+     "zh": "评估",
+     "group": "basic"
+    },
+    {
+     "word": "duplication",
+     "sentence": "Avoid duplication: do not write the same idea twice.",
+     "zh": "重复；复制",
+     "group": "basic"
+    },
+    {
+     "word": "discuss",
+     "sentence": "Let's discuss the story together.",
+     "zh": "讨论",
+     "group": "basic"
+    },
+    {
+     "word": "investigation",
+     "sentence": "The police started an investigation.",
+     "zh": "调查",
+     "group": "basic"
+    },
+    {
+     "word": "operate",
+     "sentence": "Can you operate this camera?",
+     "zh": "操作",
+     "group": "basic"
+    },
+    {
+     "word": "evaluation",
+     "sentence": "Tom got a good evaluation for his project.",
+     "zh": "评估",
+     "group": "basic"
+    },
+    {
+     "word": "punctuate",
+     "sentence": "Remember to punctuate every sentence.",
+     "zh": "加标点",
+     "group": "basic"
+    },
+    {
+     "word": "digestion",
+     "sentence": "Fruit is good for digestion.",
+     "zh": "消化",
+     "group": "basic"
+    },
+    {
+     "word": "congratulate",
+     "sentence": "We congratulate Lily on her swimming medal.",
+     "zh": "祝贺",
+     "group": "basic"
+    },
+    {
+     "word": "violation",
+     "sentence": "Running in the hall is a violation of the rules.",
+     "zh": "违反",
+     "group": "basic"
+    },
+    {
+     "word": "punctuation",
+     "sentence": "Check your punctuation before you hand it in.",
+     "zh": "标点符号",
+     "group": "basic"
+    },
+    {
+     "word": "duplicate",
+     "sentence": "Please duplicate this page for the class.",
+     "zh": "复制",
+     "group": "basic"
+    },
+    {
+     "word": "criticize",
+     "sentence": "It is not kind to criticize your friends.",
+     "zh": "批评",
+     "group": "review"
+    },
+    {
+     "word": "college",
+     "sentence": "My cousin studies art at college.",
+     "zh": "大学；学院",
+     "group": "review"
+    },
+    {
+     "word": "recognize",
+     "sentence": "Did you recognize your favourite singer?",
+     "zh": "认出",
+     "group": "review"
+    },
+    {
+     "word": "heritage",
+     "sentence": "Festivals are part of our heritage.",
+     "zh": "传统；遗产",
+     "group": "review"
+    },
+    {
+     "word": "contraction",
+     "sentence": "Can't is a contraction of cannot.",
+     "zh": "缩写",
+     "group": "challenge"
+    },
+    {
+     "word": "motivation",
+     "sentence": "Praise gives me motivation to study.",
+     "zh": "动力",
+     "group": "challenge"
+    },
+    {
+     "word": "excavate",
+     "sentence": "Scientists excavate old bones from the ground.",
+     "zh": "挖掘",
+     "group": "challenge"
+    },
+    {
+     "word": "commemorate",
+     "sentence": "We commemorate the day with a festival.",
+     "zh": "纪念",
+     "group": "challenge"
+    }
+   ],
+   "canNow": {
+    "en": "I can now spell words that end in -ion.",
+    "zh": "我现在能拼写以 -ion 结尾的单词。"
+   }
+  },
+  {
+   "id": "multiply",
+   "type": "guided",
+   "icon": "🧮",
+   "title": {
+    "en": "Fraction Café 1: Multiply",
+    "zh": "分数咖啡馆 1：乘法"
+   },
+   "subtitle": {
+    "en": "9 questions",
+    "zh": "9 道题"
+   },
+   "intro": {
+    "en": "Multiply: top × top, bottom × bottom, then simplify. A whole number goes over 1.",
+    "zh": "乘法：分子乘分子，分母乘分母，再约分。整数写成分母是 1 的分数。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "1/2 × 1/3 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "1 × 1 = 1"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "2 × 3 = 6"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "1/2 × 1/3 = 1/6"
+      },
+      {
+       "en": "Can we simplify 1/6? No number except 1 divides both 1 and 6, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 1 和 6，所以已经是最简分数。",
+       "math": "1/6"
+      }
+     ],
+     "answer": "1/6",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "1/2 × 1/3",
+      "value": "1/6"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "2/5 × 1/4 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 1 = 2"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "5 × 4 = 20"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/5 × 1/4 = 2/20"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 2 and 20 is 2.",
+       "zh": "约分。能同时整除 2 和 20 的最大的数是 2。",
+       "math": [
+        "2 ÷ 2 = 1",
+        "20 ÷ 2 = 10",
+        "2/20 = 1/10"
+       ]
+      }
+     ],
+     "answer": "1/10",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "2/5 × 1/4",
+      "value": "1/10"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "3/4 × 2/3 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 2 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "4 × 3 = 12"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/4 × 2/3 = 6/12"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 6 and 12 is 6.",
+       "zh": "约分。能同时整除 6 和 12 的最大的数是 6。",
+       "math": [
+        "6 ÷ 6 = 1",
+        "12 ÷ 6 = 2",
+        "6/12 = 1/2"
+       ]
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "3/4 × 2/3",
+      "value": "1/2"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "5/6 × 3/5 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "6 × 5 = 30"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "5/6 × 3/5 = 15/30"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 15 and 30 is 15.",
+       "zh": "约分。能同时整除 15 和 30 的最大的数是 15。",
+       "math": [
+        "15 ÷ 15 = 1",
+        "30 ÷ 15 = 2",
+        "15/30 = 1/2"
+       ]
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "5/6 × 3/5",
+      "value": "1/2"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "3 × 2/5 = ?",
+     "hint": {
+      "en": "Write the whole number over 1 first. Then multiply the tops and the bottoms.",
+      "zh": "先把整数写成分母是 1 的分数，再分子乘分子、分母乘分母。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 3 as a fraction over 1.",
+       "zh": "把整数 3 写成分母是 1 的分数。",
+       "math": "3 = 3/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 2 = 6"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 5 = 5"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/1 × 2/5 = 6/5"
+      },
+      {
+       "en": "Can we simplify 6/5? No number except 1 divides both 6 and 5, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 6 和 5，所以已经是最简分数。",
+       "math": "6/5"
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 6 ÷ 5 = 1 with 1 left over.",
+       "zh": "分子比分母大，变成带分数：6 ÷ 5 = 1 余 1。",
+       "math": [
+        "5 × 1 = 5",
+        "6 − 5 = 1",
+        "6/5 = 1 1/5"
+       ]
+      }
+     ],
+     "answer": "1 1/5",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "3 × 2/5",
+      "value": "1 1/5"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "4/7 × 1/2 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "4 × 1 = 4"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "7 × 2 = 14"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "4/7 × 1/2 = 4/14"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 4 and 14 is 2.",
+       "zh": "约分。能同时整除 4 和 14 的最大的数是 2。",
+       "math": [
+        "4 ÷ 2 = 2",
+        "14 ÷ 2 = 7",
+        "4/14 = 2/7"
+       ]
+      }
+     ],
+     "answer": "2/7",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "4/7 × 1/2",
+      "value": "2/7"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "2/3 × 6 = ?",
+     "hint": {
+      "en": "Write the whole number over 1 first. Then multiply the tops and the bottoms.",
+      "zh": "先把整数写成分母是 1 的分数，再分子乘分子、分母乘分母。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 6 as a fraction over 1.",
+       "zh": "把整数 6 写成分母是 1 的分数。",
+       "math": "6 = 6/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 6 = 12"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "3 × 1 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/3 × 6/1 = 12/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 12 ÷ 3 = 4.",
+       "zh": "分子能被分母整除：12 ÷ 3 = 4。",
+       "math": "12/3 = 12 ÷ 3 = 4"
+      }
+     ],
+     "answer": "4",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "2/3 × 6",
+      "value": "4"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "3/8 × 4/9 = ?",
+     "hint": {
+      "en": "Multiply the tops, then multiply the bottoms. Then simplify.",
+      "zh": "分子乘分子，分母乘分母，然后约分。"
+     },
+     "steps": [
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 4 = 12"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "8 × 9 = 72"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/8 × 4/9 = 12/72"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 12 and 72 is 12.",
+       "zh": "约分。能同时整除 12 和 72 的最大的数是 12。",
+       "math": [
+        "12 ÷ 12 = 1",
+        "72 ÷ 12 = 6",
+        "12/72 = 1/6"
+       ]
+      }
+     ],
+     "answer": "1/6",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "3/8 × 4/9",
+      "value": "1/6"
+     }
+    },
+    {
+     "section": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "q": "5 × 3/4 = ?",
+     "hint": {
+      "en": "Write the whole number over 1 first. Then multiply the tops and the bottoms.",
+      "zh": "先把整数写成分母是 1 的分数，再分子乘分子、分母乘分母。"
+     },
+     "steps": [
+      {
+       "en": "Write the whole number 5 as a fraction over 1.",
+       "zh": "把整数 5 写成分母是 1 的分数。",
+       "math": "5 = 5/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "5 × 3 = 15"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 4 = 4"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "5/1 × 3/4 = 15/4"
+      },
+      {
+       "en": "Can we simplify 15/4? No number except 1 divides both 15 and 4, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 15 和 4，所以已经是最简分数。",
+       "math": "15/4"
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 15 ÷ 4 = 3 with 3 left over.",
+       "zh": "分子比分母大，变成带分数：15 ÷ 4 = 3 余 3。",
+       "math": [
+        "4 × 3 = 12",
+        "15 − 12 = 3",
+        "15/4 = 3 3/4"
+       ]
+      }
+     ],
+     "answer": "3 3/4",
+     "why": {
+      "en": "When we multiply fractions, we take a part of a part, so we multiply the tops and the bottoms.",
+      "zh": "分数相乘就是求“一部分的一部分”，所以分子乘分子，分母乘分母。"
+     },
+     "check": {
+      "expr": "5 × 3/4",
+      "value": "3 3/4"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now multiply fractions and simplify the answer.",
+    "zh": "我现在可以做分数乘法并约分。"
+   }
+  }
+ ]
+}
