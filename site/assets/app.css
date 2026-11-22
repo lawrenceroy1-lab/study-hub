@@ -315,3 +315,20 @@ table.log th { color: var(--title); }
   .print-page { font-size: 13pt; }
   @page { margin: 14mm; }
 }
+
+/* Play / stop audio: big stop button while the browser is reading aloud */
+.stopbar {
+  position: fixed; left: 50%; bottom: 18px; transform: translateX(-50%); z-index: 50;
+  font: inherit; font-weight: 900; font-size: 1.1em; min-height: 60px; padding: 10px 28px;
+  border: 0; border-radius: 999px; background: #c92a2a; color: #fff; box-shadow: 0 6px 18px rgba(0,0,0,.25); cursor: pointer;
+}
+@media print { .stopbar { display: none !important; } }
+
+/* Subject buttons on the front page (Science, English, Maths) */
+.subject-row { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 14px 0; }
+@media (min-width: 700px) { .subject-row { grid-template-columns: 1fr 1fr 1fr; } }
+.feature.subject { margin: 0; background: linear-gradient(135deg, var(--accent), #1b2a6b); }
+.subject-part { margin-top: 18px; }
+
+/* Layer pictures (soil horizons, rock layers) and the ocean floor profile */
+.vis-svg text { font-family: inherit; }

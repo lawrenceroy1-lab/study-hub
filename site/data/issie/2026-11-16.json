@@ -5,8 +5,8 @@
   "zh": "方程、珊瑚礁单词和天气"
  },
  "message": {
-  "en": "This week: × and ÷ equations, fraction equations with a bar model, is or are, and weather. Lawrence will check your workbook on Monday. You can do it, Issie!",
-  "zh": "本周：乘除方程、用线段图解分数方程、is 和 are，还有天气。Lawrence 星期一会检查你的练习册。Issie，你能做到！"
+  "en": "This week: × and ÷ equations, fraction equations with a bar model, is or are, and weather. Roy will check your workbook on Monday. You can do it, Issie!",
+  "zh": "本周：乘除方程、用线段图解分数方程、is 和 are，还有天气。Roy 星期一会检查你的练习册。Issie，你能做到！"
  },
  "activities": [
   {
@@ -136,7 +136,8 @@
    "canNow": {
     "en": "I can now spell all 15 coral reef words.",
     "zh": "我现在可以拼写全部 15 个珊瑚礁单词。"
-   }
+   },
+   "part": "E"
   },
   {
    "id": "cards",
@@ -233,7 +234,8 @@
    "canNow": {
     "en": "I can now explain what all 15 words mean.",
     "zh": "我现在可以解释全部 15 个单词的意思。"
-   }
+   },
+   "part": "E"
   },
   {
    "id": "match",
@@ -312,7 +314,8 @@
    "canNow": {
     "en": "I can now match each word to its meaning quickly.",
     "zh": "我现在可以快速把单词和意思配对。"
-   }
+   },
+   "part": "E"
   },
   {
    "id": "wordquiz",
@@ -473,7 +476,8 @@
    "canNow": {
     "en": "I can now choose the right word of the week, even in a trap question.",
     "zh": "我现在可以选对本周单词，连陷阱题也不怕。"
-   }
+   },
+   "part": "E"
   },
   {
    "id": "undo",
@@ -936,7 +940,8 @@
    "canNow": {
     "en": "I can now solve × and ÷ equations by doing the opposite, write letter = number, and check my answer.",
     "zh": "我现在可以用相反运算解乘除方程，写成“字母 = 数字”，并检查答案。"
-   }
+   },
+   "part": "M"
   },
   {
    "id": "bars",
@@ -1504,7 +1509,8 @@
    "canNow": {
     "en": "I can now solve equations with decimals and fractions, and use a bar model to help me.",
     "zh": "我现在可以解含有小数和分数的方程，并用线段图帮助我。"
-   }
+   },
+   "part": "M"
   },
   {
    "id": "isare",
@@ -1653,7 +1659,8 @@
    "canNow": {
     "en": "I can now find the subject and choose is or are correctly, even in trap sentences.",
     "zh": "我现在可以找到主语，正确选择 is 或 are，连陷阱句也不怕。"
-   }
+   },
+   "part": "E"
   },
   {
    "id": "reading",
@@ -1825,7 +1832,8 @@
    "canNow": {
     "en": "I can now explain weather, climate, air masses, fronts and condensation with simple comparisons.",
     "zh": "我现在可以用简单的比喻解释天气、气候、气团、锋和凝结。"
-   }
+   },
+   "part": "S"
   },
   {
    "id": "weatherquiz",
@@ -1987,7 +1995,8 @@
    "canNow": {
     "en": "I can now explain air masses, cold and warm fronts, and pressure with simple pictures.",
     "zh": "我现在可以用简单的图像解释气团、冷锋暖锋和气压。"
-   }
+   },
+   "part": "S"
   }
  ]
 }

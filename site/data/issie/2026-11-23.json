@@ -1,0 +1,2225 @@
+{
+ "week": "2026-11-23",
+ "title": {
+  "en": "Soil, Rock Layers, Ocean Floor and Usage",
+  "zh": "土壤、岩层、海底和用法"
+ },
+ "message": {
+  "en": "This week: Science (soil, erosion, rock layers, ocean floor) and English (usage words). Start with your subject buttons above. You can do it, Issie!",
+  "zh": "本周：科学（土壤、侵蚀、岩层、海底）和英语（用法词）。从上面的科目按钮开始。Issie，你能做到！"
+ },
+ "days": [
+  {
+   "date": "2026-11-23",
+   "kind": "workbook",
+   "title": {
+    "en": "Soil, Erosion and Divides + Usage",
+    "zh": "土壤、侵蚀和分水岭 + 用法"
+   },
+   "message": {
+    "en": "Class order: 1. Homework Review. 2. Main Book S1 to S3 and E1 with Roy. 3. This Workbook. 4. Review it together.",
+    "zh": "上课顺序：1. 作业讲评。2. 和 Roy 老师学主课本 S1 到 S3 和 E1。3. 做这本练习册。4. 一起讲评。"
+   },
+   "activities": [
+    "s-cards1",
+    "s-match1",
+    "s-quiz1",
+    "e-fill"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "kind": "homework",
+   "title": {
+    "en": "Science: Soil, Erosion and Divides",
+    "zh": "科学：土壤、侵蚀和分水岭"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book S1 to S3, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。读主课本 S1 到 S3，然后做一次小测。"
+   },
+   "activities": [
+    "hw-tue"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "kind": "homework",
+   "title": {
+    "en": "English: Usage Words",
+    "zh": "英语：用法词"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book E1, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。读主课本 E1，然后做一次小测。"
+   },
+   "activities": [
+    "hw-wed"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "kind": "homework",
+   "title": {
+    "en": "Science: Rock Layers and Ocean Floor",
+    "zh": "科学：岩层和海底"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book S4 to S6, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。读主课本 S4 到 S6，然后做一次小测。"
+   },
+   "activities": [
+    "hw-thu"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "kind": "workbook",
+   "title": {
+    "en": "Rock Layers, Ocean Floor + Proofreading",
+    "zh": "岩层、海底 + 校对"
+   },
+   "message": {
+    "en": "Class order: 1. Homework Review. 2. Main Book S4 to S6 and E2 with Roy. 3. This Workbook. 4. Review it together.",
+    "zh": "上课顺序：1. 作业讲评。2. 和 Roy 老师学主课本 S4 到 S6 和 E2。3. 做这本练习册。4. 一起讲评。"
+   },
+   "activities": [
+    "s-cards2",
+    "s-match2",
+    "s-quiz2",
+    "e-proof"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "id": "s-cards1",
+   "type": "flashcards",
+   "part": "S",
+   "title": {
+    "en": "Flashcards: Soil, Erosion and Divides",
+    "zh": "闪卡：土壤、侵蚀和分水岭"
+   },
+   "intro": {
+    "en": "Say what each word means, then flip to check.",
+    "zh": "说出每个词的意思，再翻过来检查。"
+   },
+   "canNow": {
+    "en": "I can now explain the soil and erosion words.",
+    "zh": "我现在可以解释土壤和侵蚀的词。"
+   },
+   "icon": "🃏",
+   "subtitle": {
+    "en": "13 words",
+    "zh": "13 个词"
+   },
+   "cards": [
+    {
+     "front": "soil",
+     "back": "a mixture of rock pieces, minerals and organic matter",
+     "zh": "土壤"
+    },
+    {
+     "front": "weathering",
+     "back": "rocks breaking into smaller pieces",
+     "zh": "风化"
+    },
+    {
+     "front": "humus",
+     "back": "organic material in soil from decaying plants and animals",
+     "zh": "腐殖质"
+    },
+    {
+     "front": "horizon",
+     "back": "one layer of soil",
+     "zh": "土层"
+    },
+    {
+     "front": "topsoil",
+     "back": "Horizon A: loose soil rich in humus",
+     "zh": "表土"
+    },
+    {
+     "front": "subsoil",
+     "back": "Horizon B: minerals washed down, and clay",
+     "zh": "底土"
+    },
+    {
+     "front": "erosion",
+     "back": "moving rock and soil away to another place",
+     "zh": "侵蚀"
+    },
+    {
+     "front": "deposition",
+     "back": "dropping rock and soil in a new place",
+     "zh": "沉积"
+    },
+    {
+     "front": "sediment",
+     "back": "small pieces of rock and soil that get carried",
+     "zh": "沉积物"
+    },
+    {
+     "front": "delta",
+     "back": "sediment a river drops where it meets the ocean",
+     "zh": "三角洲"
+    },
+    {
+     "front": "glacier",
+     "back": "a river or sheet of ice that lasts all year",
+     "zh": "冰川"
+    },
+    {
+     "front": "divide",
+     "back": "high land where water runs down one side or the other",
+     "zh": "分水岭"
+    },
+    {
+     "front": "drainage basin",
+     "back": "all the land where water flows to one river (watershed)",
+     "zh": "流域"
+    }
+   ]
+  },
+  {
+   "id": "s-match1",
+   "type": "match",
+   "part": "S",
+   "title": {
+    "en": "Match Game: Soil and Erosion",
+    "zh": "配对游戏：土壤和侵蚀"
+   },
+   "intro": {
+    "en": "Tap a word, then its meaning. Be quick!",
+    "zh": "先点词，再点意思。要快！"
+   },
+   "canNow": {
+    "en": "I can now match the soil and erosion words quickly.",
+    "zh": "我现在可以快速配对土壤和侵蚀的词。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "soil",
+     "b": "a mixture of rock pieces, minerals and organic matter"
+    },
+    {
+     "a": "weathering",
+     "b": "rocks breaking into smaller pieces"
+    },
+    {
+     "a": "humus",
+     "b": "organic material in soil from decaying plants and animals"
+    },
+    {
+     "a": "horizon",
+     "b": "one layer of soil"
+    },
+    {
+     "a": "topsoil",
+     "b": "Horizon A: loose soil rich in humus"
+    },
+    {
+     "a": "subsoil",
+     "b": "Horizon B: minerals washed down, and clay"
+    },
+    {
+     "a": "erosion",
+     "b": "moving rock and soil away to another place"
+    },
+    {
+     "a": "deposition",
+     "b": "dropping rock and soil in a new place"
+    },
+    {
+     "a": "sediment",
+     "b": "small pieces of rock and soil that get carried"
+    },
+    {
+     "a": "delta",
+     "b": "sediment a river drops where it meets the ocean"
+    },
+    {
+     "a": "glacier",
+     "b": "a river or sheet of ice that lasts all year"
+    },
+    {
+     "a": "divide",
+     "b": "high land where water runs down one side or the other"
+    },
+    {
+     "a": "drainage basin",
+     "b": "all the land where water flows to one river (watershed)"
+    }
+   ]
+  },
+  {
+   "id": "s-quiz1",
+   "type": "quiz",
+   "part": "S",
+   "title": {
+    "en": "Quiz: Soil, Erosion and Divides",
+    "zh": "小测：土壤、侵蚀和分水岭"
+   },
+   "intro": {
+    "en": "Read each question twice. Watch for traps!",
+    "zh": "每题读两遍，小心陷阱！"
+   },
+   "canNow": {
+    "en": "I can now answer questions on soil, erosion and divides.",
+    "zh": "我现在可以回答关于土壤、侵蚀和分水岭的问题。"
+   },
+   "icon": "🌍",
+   "timed": false,
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "questions": [
+    {
+     "q": "Soil is a mixture of...",
+     "options": [
+      "only sand and water",
+      "only dead leaves",
+      "rock pieces, minerals and organic matter",
+      "only rocks"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Soil has rock pieces, minerals and organic matter (plus water and air).",
+      "zh": "土壤有岩石碎块、矿物和有机物（还有水和空气）。"
+     }
+    },
+    {
+     "q": "Humus comes from...",
+     "options": [
+      "melted ice",
+      "weathered rock",
+      "rainwater",
+      "decaying plants and animals"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Bacteria and fungi break down dead plants and animals into humus.",
+      "zh": "细菌和真菌把死去的植物和动物分解成腐殖质。"
+     }
+    },
+    {
+     "q": "Which horizon is topsoil?",
+     "options": [
+      "Horizon O",
+      "Horizon A",
+      "Horizon B",
+      "Horizon C"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Topsoil is Horizon A, under the O layer of leaves.",
+      "zh": "表土是 A 层，在 O 层（落叶层）下面。"
+     }
+    },
+    {
+     "q": "Which horizon is mostly pieces of weathered rock?",
+     "options": [
+      "Horizon A",
+      "Horizon B",
+      "Horizon O",
+      "Horizon C"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Horizon C is at the bottom: pieces of weathered rock.",
+      "zh": "C 层在最下面：风化的岩石碎块。"
+     }
+    },
+    {
+     "q": "Erosion means...",
+     "options": [
+      "soil growing plants",
+      "rocks melting",
+      "dropping rock and soil in a new place",
+      "carrying rock and soil away"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Erosion takes away. Deposition drops. Trap: do not mix them up!",
+      "zh": "侵蚀是带走，沉积是放下。陷阱：别搞混！"
+     }
+    },
+    {
+     "q": "A river drops its sediment where it meets the ocean. This makes a...",
+     "options": [
+      "gully",
+      "divide",
+      "glacier",
+      "delta"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A delta forms at the river mouth, like the Mississippi River delta.",
+      "zh": "三角洲在河口形成，比如密西西比河三角洲。"
+     }
+    },
+    {
+     "q": "Wind erosion is greatest in...",
+     "options": [
+      "dry places like deserts",
+      "places with many trees",
+      "rainforests",
+      "under the sea"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Deserts have little water to hold soil and few trees to block the wind.",
+      "zh": "沙漠里水少，留不住土；树少，挡不住风。"
+     }
+    },
+    {
+     "q": "What is the force under ALL erosion and deposition?",
+     "options": [
+      "wind",
+      "magnets",
+      "gravity",
+      "sunlight"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Gravity makes water and ice move downhill and makes particles settle.",
+      "zh": "重力让水和冰往下流，也让颗粒沉下来。"
+     }
+    },
+    {
+     "q": "A divide is...",
+     "options": [
+      "a river mouth",
+      "a deep hole in the sea",
+      "a line of high land where water runs down one side or the other",
+      "a layer of soil"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Rain on a divide runs down one side or the other.",
+      "zh": "落在分水岭上的雨从一边或另一边流下。"
+     }
+    },
+    {
+     "q": "Water from the EAST slopes of the Rocky Mountains runs toward the...",
+     "options": [
+      "Arctic Ocean",
+      "Indian Ocean",
+      "Gulf of Mexico",
+      "Pacific Ocean"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "West slopes: Pacific Ocean. East slopes: Gulf of Mexico.",
+      "zh": "西坡流向太平洋，东坡流向墨西哥湾。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "e-fill",
+   "type": "fillblank",
+   "part": "E",
+   "title": {
+    "en": "Usage: Fill the Gap",
+    "zh": "用法：填空"
+   },
+   "intro": {
+    "en": "Tap the word that fits. Think: count it? compare? to me or away?",
+    "zh": "点出合适的词。想一想：能数吗？比较吗？拿来还是拿走？"
+   },
+   "canNow": {
+    "en": "I can now choose bring/take, fewer/less, than/then, accept/except.",
+    "zh": "我现在可以选对 bring/take、fewer/less、than/then、accept/except。"
+   },
+   "subtitle": {
+    "en": "10 sentences",
+    "zh": "10 个句子"
+   },
+   "bank": [
+    "bring",
+    "take",
+    "fewer",
+    "less",
+    "than",
+    "then",
+    "accept",
+    "except",
+    "already",
+    "between"
+   ],
+   "items": [
+    {
+     "text": "Please ___ your book here to me.",
+     "answer": "bring",
+     "why": {
+      "en": "Toward the speaker (to me): bring.",
+      "zh": "拿到说话人这里：bring。"
+     }
+    },
+    {
+     "text": "Don't forget to ___ your umbrella when you go to school.",
+     "answer": "take",
+     "why": {
+      "en": "Away from home: take.",
+      "zh": "从家里带走：take。"
+     }
+    },
+    {
+     "text": "There were ___ students in class today because of the rain.",
+     "answer": "fewer",
+     "why": {
+      "en": "You can count students: fewer.",
+      "zh": "学生可以数：fewer。"
+     }
+    },
+    {
+     "text": "I drink ___ milk than my brother.",
+     "answer": "less",
+     "why": {
+      "en": "You cannot count milk: less.",
+      "zh": "牛奶不能一个一个数：less。"
+     }
+    },
+    {
+     "text": "Lily is taller ___ Tom.",
+     "answer": "than",
+     "why": {
+      "en": "Comparing two people: than.",
+      "zh": "比较两个人：than。"
+     }
+    },
+    {
+     "text": "We ate lunch, and ___ we went swimming.",
+     "answer": "then",
+     "why": {
+      "en": "What happened next (time): then.",
+      "zh": "接下来发生的事（时间）：then。"
+     }
+    },
+    {
+     "text": "Emma was happy to ___ the gift from her friend.",
+     "answer": "accept",
+     "why": {
+      "en": "Take it and say yes: accept.",
+      "zh": "接受：accept。"
+     }
+    },
+    {
+     "text": "Everyone came to the party ___ James, who was ill.",
+     "answer": "except",
+     "why": {
+      "en": "But not James: except.",
+      "zh": "除了 James：except。"
+     }
+    },
+    {
+     "text": "The bus had ___ left when we got to the stop.",
+     "answer": "already",
+     "why": {
+      "en": "Before now: already (one word).",
+      "zh": "已经：already（一个词）。"
+     }
+    },
+    {
+     "text": "The cat sat ___ the two chairs.",
+     "answer": "between",
+     "why": {
+      "en": "Two things: between.",
+      "zh": "两样东西之间：between。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "s-cards2",
+   "type": "flashcards",
+   "part": "S",
+   "title": {
+    "en": "Flashcards: Rock Layers and Ocean Floor",
+    "zh": "闪卡：岩层和海底"
+   },
+   "intro": {
+    "en": "Say what each word means, then flip to check.",
+    "zh": "说出每个词的意思，再翻过来检查。"
+   },
+   "canNow": {
+    "en": "I can now explain the rock layer and ocean floor words.",
+    "zh": "我现在可以解释岩层和海底的词。"
+   },
+   "icon": "🃏",
+   "subtitle": {
+    "en": "13 words",
+    "zh": "13 个词"
+   },
+   "cards": [
+    {
+     "front": "uniformitarianism",
+     "back": "the processes changing Earth today are the same as in the past",
+     "zh": "均变论"
+    },
+    {
+     "front": "sedimentary rock",
+     "back": "rock made from layers of sediment pressed together",
+     "zh": "沉积岩"
+    },
+    {
+     "front": "superposition",
+     "back": "lower rock layers are older than the layers above them",
+     "zh": "叠置原理"
+    },
+    {
+     "front": "magma",
+     "back": "molten (melted) rock under the ground",
+     "zh": "岩浆"
+    },
+    {
+     "front": "cross-cutting relationships",
+     "back": "something that cuts through layers is younger than them",
+     "zh": "切割关系"
+    },
+    {
+     "front": "unconformity",
+     "back": "a place where rock layers are missing",
+     "zh": "不整合"
+    },
+    {
+     "front": "cross-section",
+     "back": "a cutaway view of the rocks in one place",
+     "zh": "剖面"
+    },
+    {
+     "front": "continental shelf",
+     "back": "gentle sea floor nearest the shore, up to about 200 m deep",
+     "zh": "大陆架"
+    },
+    {
+     "front": "continental slope",
+     "back": "steep drop down to about 4000 m deep",
+     "zh": "大陆坡"
+    },
+    {
+     "front": "continental rise",
+     "back": "level part at the bottom of the slope, covered in sediment",
+     "zh": "大陆隆"
+    },
+    {
+     "front": "abyssal plain",
+     "back": "the deep, flat ocean floor",
+     "zh": "深海平原"
+    },
+    {
+     "front": "deep-sea trench",
+     "back": "the lowest places on Earth, at convergent boundaries",
+     "zh": "深海海沟"
+    },
+    {
+     "front": "mid-ocean ridge",
+     "back": "long underwater mountain chain at divergent boundaries",
+     "zh": "大洋中脊"
+    }
+   ]
+  },
+  {
+   "id": "s-match2",
+   "type": "match",
+   "part": "S",
+   "title": {
+    "en": "Match Game: Rock Layers and Ocean Floor",
+    "zh": "配对游戏：岩层和海底"
+   },
+   "intro": {
+    "en": "Tap a word, then its meaning. Be quick!",
+    "zh": "先点词，再点意思。要快！"
+   },
+   "canNow": {
+    "en": "I can now match the rock layer and ocean floor words quickly.",
+    "zh": "我现在可以快速配对岩层和海底的词。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "uniformitarianism",
+     "b": "the processes changing Earth today are the same as in the past"
+    },
+    {
+     "a": "sedimentary rock",
+     "b": "rock made from layers of sediment pressed together"
+    },
+    {
+     "a": "superposition",
+     "b": "lower rock layers are older than the layers above them"
+    },
+    {
+     "a": "magma",
+     "b": "molten (melted) rock under the ground"
+    },
+    {
+     "a": "cross-cutting relationships",
+     "b": "something that cuts through layers is younger than them"
+    },
+    {
+     "a": "unconformity",
+     "b": "a place where rock layers are missing"
+    },
+    {
+     "a": "cross-section",
+     "b": "a cutaway view of the rocks in one place"
+    },
+    {
+     "a": "continental shelf",
+     "b": "gentle sea floor nearest the shore, up to about 200 m deep"
+    },
+    {
+     "a": "continental slope",
+     "b": "steep drop down to about 4000 m deep"
+    },
+    {
+     "a": "continental rise",
+     "b": "level part at the bottom of the slope, covered in sediment"
+    },
+    {
+     "a": "abyssal plain",
+     "b": "the deep, flat ocean floor"
+    },
+    {
+     "a": "deep-sea trench",
+     "b": "the lowest places on Earth, at convergent boundaries"
+    },
+    {
+     "a": "mid-ocean ridge",
+     "b": "long underwater mountain chain at divergent boundaries"
+    }
+   ]
+  },
+  {
+   "id": "s-quiz2",
+   "type": "quiz",
+   "part": "S",
+   "title": {
+    "en": "Quiz: Earth History and Ocean Floor",
+    "zh": "小测：地球历史和海底"
+   },
+   "intro": {
+    "en": "Read each question twice. Watch for traps!",
+    "zh": "每题读两遍，小心陷阱！"
+   },
+   "canNow": {
+    "en": "I can now answer questions on rock layers and the ocean floor.",
+    "zh": "我现在可以回答关于岩层和海底的问题。"
+   },
+   "icon": "🌊",
+   "timed": false,
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "questions": [
+    {
+     "q": "Earth formed about...",
+     "options": [
+      "46 years ago",
+      "4.6 million years ago",
+      "4600 years ago",
+      "4.6 billion years ago"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Billion, not million: about 4.6 billion years.",
+      "zh": "是十亿不是百万：大约 46 亿年。"
+     }
+    },
+    {
+     "q": "Uniformitarianism says...",
+     "options": [
+      "the processes changing Earth today also changed it in the past",
+      "all rocks are the same age",
+      "Earth never changes",
+      "only volcanoes change Earth"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Uniform means same: same processes, then and now.",
+      "zh": "uniform 是“相同”：过去和现在是同样的过程。"
+     }
+    },
+    {
+     "q": "By the principle of superposition, the OLDEST layer is usually...",
+     "options": [
+      "in the middle",
+      "at the bottom",
+      "at the top",
+      "on the side"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Lower layers formed first, so they are older (unless disturbed).",
+      "zh": "下面的层先形成，所以更老（除非被扰动过）。"
+     }
+    },
+    {
+     "q": "Magma cuts through four rock layers. The magma is...",
+     "options": [
+      "younger than all four layers",
+      "the oldest rock",
+      "older than all four layers",
+      "the same age as the top layer"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Cross-cutting: the layers had to be there first.",
+      "zh": "切割关系：岩层必须先存在。"
+     }
+    },
+    {
+     "q": "An unconformity is a place where...",
+     "options": [
+      "the sea is deepest",
+      "soil is thickest",
+      "rock layers are missing",
+      "magma cuts through"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Uplift and erosion removed some layers.",
+      "zh": "抬升和侵蚀磨掉了一些岩层。"
+     }
+    },
+    {
+     "q": "The continental shelf is...",
+     "options": [
+      "the deepest flat floor",
+      "the gentle part nearest the shore",
+      "the steep drop",
+      "a trench"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Shelf = gentle, near the shore, up to about 150 to 200 m deep.",
+      "zh": "大陆架 = 平缓，靠近海岸，水深最多约 150 到 200 米。"
+     }
+    },
+    {
+     "q": "Which part of the margin is steep and goes down to about 4000 m?",
+     "options": [
+      "abyssal plain",
+      "continental shelf",
+      "continental slope",
+      "continental rise"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "The slope drops steeply. Submarine canyons cut into it.",
+      "zh": "大陆坡陡峭下降，海底峡谷切进去。"
+     }
+    },
+    {
+     "q": "A passive margin, like the east coast of North America, has...",
+     "options": [
+      "a wide shelf and no plate boundary nearby",
+      "a narrow shelf and a trench",
+      "many volcanoes",
+      "a mid-ocean ridge on the beach"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Passive = no plate boundary = wide shelf (100 km or more).",
+      "zh": "被动 = 没有板块边界 = 宽大陆架（100 千米或更多）。"
+     }
+    },
+    {
+     "q": "Deep-sea trenches form where...",
+     "options": [
+      "rivers meet the sea",
+      "glaciers melt",
+      "ocean crust dives under continental crust",
+      "plates move apart"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Trenches are at convergent boundaries. Ridges are at divergent ones (trap!).",
+      "zh": "海沟在汇聚边界，洋中脊在离散边界（陷阱！）。"
+     }
+    },
+    {
+     "q": "Mid-ocean ridges are about how long?",
+     "options": [
+      "50 kilometers",
+      "60,000 kilometers",
+      "4000 meters",
+      "200 meters"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They are Earth's longest continuous mountain range.",
+      "zh": "它们是地球上最长的连续山脉。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "e-proof",
+   "type": "quiz",
+   "part": "E",
+   "title": {
+    "en": "Proofreading: Sound-Alike Words",
+    "zh": "校对：读音相同的词"
+   },
+   "intro": {
+    "en": "Use the \"say it in full\" test: you're = you are, it's = it is.",
+    "zh": "用“展开说”检查法：you're = you are，it's = it is。"
+   },
+   "canNow": {
+    "en": "I can now fix your/you're, their/they're, its/it's and more.",
+    "zh": "我现在可以改正 your/you're、their/they're、its/it's 等错误。"
+   },
+   "icon": "🔍",
+   "timed": false,
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "questions": [
+    {
+     "q": "Choose the correct word: ___ coat is on the chair.",
+     "options": [
+      "You're",
+      "Your",
+      "Yore",
+      "You"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Belongs to you: your. You're = you are.",
+      "zh": "你的：your。you're = you are。"
+     }
+    },
+    {
+     "q": "Choose the correct word: ___ going to the beach tomorrow.",
+     "options": [
+      "There",
+      "They're",
+      "Theyre",
+      "Their"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "They are going: they're.",
+      "zh": "他们要去：they're = they are。"
+     }
+    },
+    {
+     "q": "Choose the correct word: The dog wagged ___ tail.",
+     "options": [
+      "it's",
+      "its",
+      "its'",
+      "it"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Belongs to it: its. It's = it is.",
+      "zh": "它的：its。it's = it is。"
+     }
+    },
+    {
+     "q": "Choose the correct word: ___ the girl singing on stage?",
+     "options": [
+      "Who",
+      "Whose",
+      "Who's",
+      "Whos"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Who is: who's.",
+      "zh": "谁是：who's = who is。"
+     }
+    },
+    {
+     "q": "Choose the correct word: Sophie ___ to live in London.",
+     "options": [
+      "used",
+      "use",
+      "using",
+      "uses"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A past habit: used to.",
+      "zh": "过去常常：used to。"
+     }
+    },
+    {
+     "q": "Choose the correct word: James ate ___ orange.",
+     "options": [
+      "the an",
+      "a",
+      "an",
+      "one an"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Orange starts with a vowel sound: an.",
+      "zh": "orange 以元音开头：an。"
+     }
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "Take the box off of the table.",
+      "Take the box off the table.",
+      "Take the box of off the table.",
+      "Take the box offen the table."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Write off, not \"off of\".",
+      "zh": "写 off，不写 off of。"
+     }
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "Their are a lot of pandas here.",
+      "There are allot of pandas here.",
+      "There are alot of pandas here.",
+      "There are a lot of pandas here."
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A lot is two words. There = a place / there are.",
+      "zh": "a lot 是两个词。there are = 有。"
+     }
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "We walked a longs way.",
+      "We walked along ways.",
+      "We walked a long ways.",
+      "We walked a long way."
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A long way, not \"a long ways\".",
+      "zh": "a long way，不是 a long ways。"
+     }
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "Here this book is mine.",
+      "This here is book mine.",
+      "This book is mine.",
+      "This here book is mine."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "This book, not \"this here book\".",
+      "zh": "this book，不是 this here book。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-tue",
+   "type": "hwquiz",
+   "part": "S",
+   "title": {
+    "en": "Homework: Soil, Erosion and Divides",
+    "zh": "作业：土壤、侵蚀和分水岭"
+   },
+   "intro": {
+    "en": "Read Main Book S1 to S3 first. Then do this ONCE.",
+    "zh": "先读主课本 S1 到 S3，再做一次。"
+   },
+   "canNow": {
+    "en": "I can now answer soil, erosion and divide questions on my own.",
+    "zh": "我现在可以自己回答土壤、侵蚀和分水岭的问题。"
+   },
+   "questions": [
+    {
+     "q": "Soil horizons from TOP to bottom are...",
+     "options": [
+      "O, C, B, A",
+      "A, B, C, O",
+      "O, A, B, C",
+      "C, B, A, O"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "O (leaves), A (topsoil), B (subsoil), C (weathered rock).",
+      "zh": "O（落叶）、A（表土）、B（底土）、C（风化岩石）。"
+     }
+    },
+    {
+     "q": "Which part of soil is organic?",
+     "options": [
+      "rock pieces",
+      "minerals",
+      "humus",
+      "air"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Organic = made by living things. Humus comes from dead plants and animals.",
+      "zh": "有机 = 由生物形成。腐殖质来自死去的动植物。"
+     }
+    },
+    {
+     "q": "Iron and aluminum compounds washed down by rainwater collect in...",
+     "options": [
+      "Horizon O",
+      "Horizon A (topsoil)",
+      "Horizon B (subsoil)",
+      "Horizon C"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Rainwater washes minerals down from A into B.",
+      "zh": "雨水把矿物从 A 层冲到 B 层。"
+     }
+    },
+    {
+     "q": "A mature soil has how many horizons?",
+     "options": [
+      "four",
+      "three",
+      "two",
+      "ten"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Mature soil has four horizons. Younger soil has fewer.",
+      "zh": "成熟土壤有四层，年轻土壤更少。"
+     }
+    },
+    {
+     "q": "Rainwater running off land leaves an eroded path called a...",
+     "options": [
+      "trench",
+      "gully",
+      "delta",
+      "dune"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A gully can grow into a stream or river.",
+      "zh": "冲沟可以变成溪流或河。"
+     }
+    },
+    {
+     "q": "Deposition means...",
+     "options": [
+      "dropping sediment in a new place",
+      "melting ice",
+      "carrying sediment away",
+      "breaking rock"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Deposition builds land in a new place.",
+      "zh": "沉积让新的地方土地变多。"
+     }
+    },
+    {
+     "q": "Sand dunes are built when...",
+     "options": [
+      "the wind slows down and drops sand",
+      "a river reaches the sea",
+      "rain makes a gully",
+      "a glacier melts"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Slow wind cannot carry its load, so it drops the sand.",
+      "zh": "风变慢带不动，就把沙子放下。"
+     }
+    },
+    {
+     "q": "Glaciers can...",
+     "options": [
+      "carve or deepen valleys",
+      "stop gravity",
+      "make magma",
+      "build deltas in the desert"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Glaciers move boulders and carve valleys over time.",
+      "zh": "冰川推动巨石，时间久了刻出山谷。"
+     }
+    },
+    {
+     "q": "Drainage basin means the same as...",
+     "options": [
+      "divide",
+      "watershed",
+      "delta",
+      "glacier"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The Word Watch says drainage basin and watershed mean the same.",
+      "zh": "词语小贴士说 drainage basin 和 watershed 意思一样。"
+     }
+    },
+    {
+     "q": "Water from the WEST slopes of the Appalachian Mountains flows into the...",
+     "options": [
+      "Arctic Ocean",
+      "Atlantic Ocean",
+      "Pacific Ocean",
+      "Gulf of Mexico"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Appalachians: west to the Gulf of Mexico, east to the Atlantic.",
+      "zh": "阿巴拉契亚山脉：西边流向墨西哥湾，东边流向大西洋。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-wed",
+   "type": "hwquiz",
+   "part": "E",
+   "title": {
+    "en": "Homework: Usage Words",
+    "zh": "作业：用法词"
+   },
+   "intro": {
+    "en": "Read Main Book E1 first. Then do this ONCE.",
+    "zh": "先读主课本 E1，再做一次。"
+   },
+   "canNow": {
+    "en": "I can now choose the correct usage word on my own.",
+    "zh": "我现在可以自己选对用法词。"
+   },
+   "questions": [
+    {
+     "q": "(Bring / Take) this letter to the post office, please.",
+     "options": [
+      "Brought",
+      "Taked",
+      "Bring",
+      "Take"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Away from here: take.",
+      "zh": "拿走：take。"
+     }
+    },
+    {
+     "q": "There are (fewer / less) cars on the road today.",
+     "options": [
+      "lesser",
+      "few",
+      "less",
+      "fewer"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Cars can be counted: fewer.",
+      "zh": "车可以数：fewer。"
+     }
+    },
+    {
+     "q": "Tom runs faster (than / then) Ben.",
+     "options": [
+      "than",
+      "then",
+      "thane",
+      "that"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Comparing: than.",
+      "zh": "比较：than。"
+     }
+    },
+    {
+     "q": "We (could have / could of) won the game.",
+     "options": [
+      "could of",
+      "could has",
+      "could have",
+      "could off"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Could of is never correct. Write could have.",
+      "zh": "could of 永远是错的，要写 could have。"
+     }
+    },
+    {
+     "q": "Share the sweets (between / among) the five children.",
+     "options": [
+      "betwixt",
+      "between",
+      "inbetween",
+      "among"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Five children = more than two: among.",
+      "zh": "五个孩子，多于两个：among。"
+     }
+    },
+    {
+     "q": "Mia wanted to know (why / how come) the shop was closed.",
+     "options": [
+      "how come",
+      "for why",
+      "how comes",
+      "why"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "In writing: why.",
+      "zh": "书面语：why。"
+     }
+    },
+    {
+     "q": "The story (that / where) we read was about a fox.",
+     "options": [
+      "what where",
+      "where",
+      "that",
+      "where it"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "A story is not a place: that.",
+      "zh": "故事不是地点：that。"
+     }
+    },
+    {
+     "q": "Is everything (all right / allright)?",
+     "options": [
+      "allright",
+      "al right",
+      "alright right",
+      "all right"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "All right is two words.",
+      "zh": "all right 是两个词。"
+     }
+    },
+    {
+     "q": "Emma (teaches / learns) her little brother to swim.",
+     "options": [
+      "learn",
+      "teaches",
+      "learns",
+      "teach him learns"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Emma shows him how: teaches.",
+      "zh": "Emma 教他：teaches。"
+     }
+    },
+    {
+     "q": "The puppy wagged (its / it's) tail.",
+     "options": [
+      "it is",
+      "it's",
+      "its",
+      "its'"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Belongs to it: its.",
+      "zh": "它的：its。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-thu",
+   "type": "hwquiz",
+   "part": "S",
+   "title": {
+    "en": "Homework: Rock Layers and Ocean Floor",
+    "zh": "作业：岩层和海底"
+   },
+   "intro": {
+    "en": "Read Main Book S4 to S6 first. Then do this ONCE.",
+    "zh": "先读主课本 S4 到 S6，再做一次。"
+   },
+   "canNow": {
+    "en": "I can now answer rock layer and ocean floor questions on my own.",
+    "zh": "我现在可以自己回答岩层和海底的问题。"
+   },
+   "questions": [
+    {
+     "q": "Who wrote Theory of the Earth in 1795?",
+     "options": [
+      "Isaac Newton",
+      "James Hutton",
+      "Charles Darwin",
+      "Albert Einstein"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "James Hutton, a Scottish geologist.",
+      "zh": "苏格兰地质学家詹姆斯·赫顿。"
+     }
+    },
+    {
+     "q": "Uplift means...",
+     "options": [
+      "mountain building",
+      "rain falling",
+      "dropping sediment",
+      "wearing rock down"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Uplift raises land up. Weathering and erosion wear it down.",
+      "zh": "抬升让土地升高，风化和侵蚀把它磨低。"
+     }
+    },
+    {
+     "q": "Sedimentary rock forms when layers of sediment are...",
+     "options": [
+      "pressed and cemented together",
+      "frozen in a glacier",
+      "blown away by wind",
+      "melted by magma"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Compacted (pressed) and cemented (stuck) together.",
+      "zh": "被压紧和粘合在一起。"
+     }
+    },
+    {
+     "q": "Layer 1 is at the bottom and layer 3 is at the top. Which is the youngest?",
+     "options": [
+      "layer 3",
+      "they are the same age",
+      "layer 2",
+      "layer 1"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Superposition: the top layer is the youngest.",
+      "zh": "叠置原理：最上面的层最年轻。"
+     }
+    },
+    {
+     "q": "\"Super\" in superposition means...",
+     "options": [
+      "below",
+      "above",
+      "old",
+      "same"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Word Watch: super = above, position = where something is.",
+      "zh": "词语小贴士：super = 在上面，position = 位置。"
+     }
+    },
+    {
+     "q": "A cutaway view of the rocks in one place is called a...",
+     "options": [
+      "geologic cross-section",
+      "station model",
+      "drainage basin",
+      "delta"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Like cutting a layer cake to see inside.",
+      "zh": "像切开千层蛋糕看里面。"
+     }
+    },
+    {
+     "q": "The continental rise is covered by...",
+     "options": [
+      "glaciers",
+      "magma",
+      "sediment from the shelf and slope",
+      "coral only"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Sediment drifted down and settled at the bottom of the slope.",
+      "zh": "沉积物飘下来，堆在大陆坡底部。"
+     }
+    },
+    {
+     "q": "An active margin, like the west coast of North America, often has...",
+     "options": [
+      "a narrow shelf, trenches, volcanoes and earthquakes",
+      "a very wide shelf and no earthquakes",
+      "no ocean at all",
+      "only sand dunes"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Active = plate boundary nearby.",
+      "zh": "主动 = 附近有板块边界。"
+     }
+    },
+    {
+     "q": "Deep-sea trenches are...",
+     "options": [
+      "the highest mountains",
+      "river mouths",
+      "the lowest places on Earth",
+      "flat plains"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Trenches are the deepest parts of the ocean.",
+      "zh": "海沟是海洋最深的地方。"
+     }
+    },
+    {
+     "q": "Mid-ocean ridges form at...",
+     "options": [
+      "the North Pole only",
+      "convergent boundaries, where plates collide",
+      "divergent boundaries, where plates move apart",
+      "the shoreline"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Diverge = move apart.",
+      "zh": "diverge = 分开。"
+     }
+    }
+   ]
+  }
+ ],
+ "reviews": [
+  {
+   "id": "hw-2026-11-19-m",
+   "date": "2026-11-19",
+   "part": "M",
+   "title": {
+    "en": "Day 1 Maths: Undo It! × and ÷ Equations",
+    "zh": "第 1 天数学：乘除方程"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Day 1: Maths",
+      "zh": "第 1 天：数学"
+     },
+     "items": [
+      {
+       "n": "Part A 1",
+       "q": "Solve 5k = 35. What happens to k? What is the opposite? Answer and check.",
+       "right": "× 5, so do ÷ 5. k = 7. Check: 5 × 7 = 35 ✓",
+       "why": {
+        "en": "k is multiplied by 5, so divide both sides by 5: 35 ÷ 5 = 7.",
+        "zh": "k 被乘以 5，所以两边除以 5：35 ÷ 5 = 7。"
+       }
+      },
+      {
+       "n": "Part A 2",
+       "q": "Solve y ÷ 3 = 8. What happens to y? What is the opposite? Answer and check.",
+       "right": "÷ 3, so do × 3. y = 24. Check: 24 ÷ 3 = 8 ✓",
+       "why": {
+        "en": "y is divided by 3, so multiply both sides by 3: 8 × 3 = 24.",
+        "zh": "y 被除以 3，所以两边乘以 3：8 × 3 = 24。"
+       }
+      },
+      {
+       "n": "Part A 3",
+       "q": "Solve 9p = 72. What happens to p? What is the opposite? Answer and check.",
+       "right": "× 9, so do ÷ 9. p = 8. Check: 9 × 8 = 72 ✓",
+       "why": {
+        "en": "p is multiplied by 9, so divide both sides by 9: 72 ÷ 9 = 8.",
+        "zh": "p 被乘以 9，所以两边除以 9：72 ÷ 9 = 8。"
+       }
+      },
+      {
+       "n": "Part A 4",
+       "q": "Solve w ÷ 6 = 7. What happens to w? What is the opposite? Answer and check.",
+       "right": "÷ 6, so do × 6. w = 42. Check: 42 ÷ 6 = 7 ✓",
+       "why": {
+        "en": "w is divided by 6, so multiply both sides by 6: 7 × 6 = 42.",
+        "zh": "w 被除以 6，所以两边乘以 6：7 × 6 = 42。"
+       }
+      },
+      {
+       "n": "Part A 5",
+       "q": "Solve 12a = 144. What happens to a? What is the opposite? Answer and check.",
+       "right": "× 12, so do ÷ 12. a = 12. Check: 12 × 12 = 144 ✓",
+       "why": {
+        "en": "a is multiplied by 12, so divide both sides by 12: 144 ÷ 12 = 12.",
+        "zh": "a 被乘以 12，所以两边除以 12：144 ÷ 12 = 12。"
+       }
+      },
+      {
+       "n": "Part B 6",
+       "q": "8x = 96. x = ?",
+       "right": "B) 12",
+       "why": {
+        "en": "96 ÷ 8 = 12. Check: 8 × 12 = 96.",
+        "zh": "96 ÷ 8 = 12。检查：8 × 12 = 96。"
+       },
+       "options": [
+        "A) 88",
+        "B) 12",
+        "C) 768",
+        "D) 104"
+       ],
+       "answer": 1
+      },
+      {
+       "n": "Part B 7",
+       "q": "t ÷ 5 = 11. t = ?",
+       "right": "C) 55",
+       "why": {
+        "en": "Do the opposite of ÷ 5: 11 × 5 = 55.",
+        "zh": "÷ 5 的相反是 × 5：11 × 5 = 55。"
+       },
+       "options": [
+        "A) 6",
+        "B) 16",
+        "C) 55",
+        "D) 2.2"
+       ],
+       "answer": 2
+      },
+      {
+       "n": "Part B 8",
+       "q": "14d = 4,200. d = ?",
+       "right": "A) 300",
+       "why": {
+        "en": "4,200 ÷ 14 = 300. Check: 14 × 300 = 4,200.",
+        "zh": "4,200 ÷ 14 = 300。检查：14 × 300 = 4,200。"
+       },
+       "options": [
+        "A) 300",
+        "B) 30",
+        "C) 4,186",
+        "D) 3,000"
+       ],
+       "answer": 0
+      },
+      {
+       "n": "Part B 9",
+       "q": "Emma pays 60 baht for 4 notebooks. Which equation finds the price p of one?",
+       "right": "D) 4p = 60",
+       "why": {
+        "en": "4 notebooks × p baht = 60 baht. (Then p = 15 baht.)",
+        "zh": "4 本 × p 泰铢 = 60 泰铢。（所以 p = 15 泰铢。）"
+       },
+       "options": [
+        "A) p ÷ 4 = 60",
+        "B) 4 + p = 60",
+        "C) 60p = 4",
+        "D) 4p = 60"
+       ],
+       "answer": 3
+      },
+      {
+       "n": "Part B 10",
+       "q": "Tom solved 7r = 56 and wrote r = 392. What did he do wrong?",
+       "right": "B) He multiplied by 7. He should divide.",
+       "why": {
+        "en": "56 × 7 = 392. The opposite of × 7 is ÷ 7, so r = 56 ÷ 7 = 8.",
+        "zh": "56 × 7 = 392。× 7 的相反是 ÷ 7，所以 r = 56 ÷ 7 = 8。"
+       },
+       "options": [
+        "A) He divided by 7.",
+        "B) He multiplied by 7. He should divide.",
+        "C) He added 7.",
+        "D) Nothing. It is correct."
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hw-2026-11-19-e",
+   "date": "2026-11-19",
+   "part": "E",
+   "title": {
+    "en": "Day 1 English: Sort Them Out!",
+    "zh": "第 1 天英语：单词分类"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Day 1: English Words",
+      "zh": "第 1 天：英语单词"
+     },
+     "items": [
+      {
+       "n": "Part A",
+       "q": "Which words go in the Sea and Animals group?",
+       "right": "coral, shell, venom, saltwater, captivity",
+       "why": {
+        "en": "They are about the sea or animals.",
+        "zh": "它们和海洋或动物有关。"
+       }
+      },
+      {
+       "n": "Part A",
+       "q": "Which words go in the People and Feelings group?",
+       "right": "confident, personality, perplexing, female",
+       "why": {
+        "en": "They describe people and how they feel.",
+        "zh": "它们描述人和感受。"
+       }
+      },
+      {
+       "n": "Part A",
+       "q": "Which words go in the Science and Numbers group?",
+       "right": "ecologist, dissolve, classify, disruption, billion, neurons",
+       "why": {
+        "en": "They are science or number words.",
+        "zh": "它们是科学或数字的词。"
+       }
+      },
+      {
+       "n": "Part B 1",
+       "q": "A perplexing maths problem makes you feel...",
+       "right": "B) confused",
+       "why": {
+        "en": "Perplexing = confusing.",
+        "zh": "perplexing = 令人困惑的。"
+       },
+       "options": [
+        "A) happy",
+        "B) confused",
+        "C) hungry",
+        "D) brave"
+       ],
+       "answer": 1
+      },
+      {
+       "n": "Part B 2",
+       "q": "Sugar ________ in hot tea.",
+       "right": "A) dissolves",
+       "why": {
+        "en": "Dissolve = mix into a liquid and disappear.",
+        "zh": "dissolve = 溶解。"
+       },
+       "options": [
+        "A) dissolves",
+        "B) classifies",
+        "C) confident",
+        "D) coral"
+       ],
+       "answer": 0
+      },
+      {
+       "n": "Part B 3",
+       "q": "Which animal can have venom?",
+       "right": "C) a snake",
+       "why": {
+        "en": "Some snakes make venom (poison).",
+        "zh": "有些蛇有毒液。"
+       },
+       "options": [
+        "A) a rabbit",
+        "B) a cow",
+        "C) a snake",
+        "D) a goldfish"
+       ],
+       "answer": 2
+      },
+      {
+       "n": "Part B 4",
+       "q": "How many zeros are in one billion (1,000,000,000)?",
+       "right": "D) 9",
+       "why": {
+        "en": "Count them: 3 + 3 + 3 = 9.",
+        "zh": "数一数：3 + 3 + 3 = 9。"
+       },
+       "options": [
+        "A) 6",
+        "B) 12",
+        "C) 3",
+        "D) 9"
+       ],
+       "answer": 3
+      },
+      {
+       "n": "Part B 5",
+       "q": "Neurons carry messages between...",
+       "right": "A) the brain and the body",
+       "why": {
+        "en": "Neurons are nerve cells.",
+        "zh": "神经元是神经细胞。"
+       },
+       "options": [
+        "A) the brain and the body",
+        "B) the sea and the sky",
+        "C) two shells",
+        "D) a tree and its leaves"
+       ],
+       "answer": 0
+      },
+      {
+       "n": "Part B 6",
+       "q": "A dolphin in captivity...",
+       "right": "B) lives in a tank and cannot leave",
+       "why": {
+        "en": "Captivity = kept somewhere and not allowed to leave.",
+        "zh": "captivity = 被关着，不能离开。"
+       },
+       "options": [
+        "A) swims anywhere it likes",
+        "B) lives in a tank and cannot leave",
+        "C) is always confident",
+        "D) is a kind of coral"
+       ],
+       "answer": 1
+      },
+      {
+       "n": "Part B 7",
+       "q": "Write ONE sentence about yourself with the word \"confident\".",
+       "right": "Example: I feel confident when I sing in front of my friends.",
+       "why": {
+        "en": "Any sentence is fine if it uses confident correctly, starts with a capital letter and ends with a full stop.",
+        "zh": "只要正确使用 confident，大写开头、句号结尾，都可以。"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hw-2026-11-20-m",
+   "date": "2026-11-20",
+   "part": "M",
+   "title": {
+    "en": "Day 2 Maths: Decimals and Fractions",
+    "zh": "第 2 天数学：小数和分数"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Day 2: Maths",
+      "zh": "第 2 天：数学"
+     },
+     "items": [
+      {
+       "n": "Part A 1",
+       "q": "1/4 k = 5. 1 part = 5. k is 4 parts, so k = 4 × 5 = ?",
+       "right": "k = 20",
+       "why": {
+        "en": "1 part is 5, and k is all 4 parts: 4 × 5 = 20. Check: 1/4 of 20 = 5.",
+        "zh": "1 份是 5，k 是全部 4 份：4 × 5 = 20。检查：20 的 1/4 = 5。"
+       }
+      },
+      {
+       "n": "Part A 2",
+       "q": "2/3 n = 10. 2 parts = 10, so 1 part = ?  n = 3 × ? = ?",
+       "right": "1 part = 5. n = 3 × 5 = 15",
+       "why": {
+        "en": "10 ÷ 2 = 5, then 3 × 5 = 15. Check: 2/3 of 15 = 10.",
+        "zh": "10 ÷ 2 = 5，再 3 × 5 = 15。检查：15 的 2/3 = 10。"
+       }
+      },
+      {
+       "n": "Part A 3",
+       "q": "3/4 b = 12. 3 parts = 12, so 1 part = ?  b = ? × ? = ?",
+       "right": "1 part = 4. b = 4 × 4 = 16",
+       "why": {
+        "en": "12 ÷ 3 = 4, then 4 parts × 4 = 16. Check: 3/4 of 16 = 12.",
+        "zh": "12 ÷ 3 = 4，再 4 × 4 = 16。检查：16 的 3/4 = 12。"
+       }
+      },
+      {
+       "n": "Part A 4",
+       "q": "0.5x = 7. 0.5 is a half. Half of x is 7, so x = ?  Check: 0.5 × ? = 7",
+       "right": "x = 14. Check: 0.5 × 14 = 7",
+       "why": {
+        "en": "Half of x is 7, so x is double 7: 14.",
+        "zh": "x 的一半是 7，所以 x 是 7 的两倍：14。"
+       }
+      },
+      {
+       "n": "Part B 6",
+       "q": "4.5 = c ÷ 2. c = ?",
+       "right": "C) 9",
+       "why": {
+        "en": "Do the opposite of ÷ 2: 4.5 × 2 = 9.",
+        "zh": "÷ 2 的相反是 × 2：4.5 × 2 = 9。"
+       },
+       "options": [
+        "A) 2.25",
+        "B) 6.5",
+        "C) 9",
+        "D) 2.5"
+       ],
+       "answer": 2
+      },
+      {
+       "n": "Part B 7",
+       "q": "2/5 h = 8. h = ?",
+       "right": "A) 20",
+       "why": {
+        "en": "2 parts = 8, so 1 part = 4. h = 5 × 4 = 20.",
+        "zh": "2 份 = 8，所以 1 份 = 4。h = 5 × 4 = 20。"
+       },
+       "options": [
+        "A) 20",
+        "B) 16",
+        "C) 3.2",
+        "D) 10"
+       ],
+       "answer": 0
+      },
+      {
+       "n": "Part B 8",
+       "q": "1.2w = 6. w = ?",
+       "right": "D) 5",
+       "why": {
+        "en": "6 ÷ 1.2 = 5. Check: 1.2 × 5 = 6.",
+        "zh": "6 ÷ 1.2 = 5。检查：1.2 × 5 = 6。"
+       },
+       "options": [
+        "A) 7.2",
+        "B) 0.5",
+        "C) 4.8",
+        "D) 5"
+       ],
+       "answer": 3
+      },
+      {
+       "n": "Part B 9",
+       "q": "Sophie ran 3/4 of a race. She ran 600 m. How long is the whole race?",
+       "right": "B) 800 m",
+       "why": {
+        "en": "3 parts = 600 m, so 1 part = 200 m. 4 parts = 800 m.",
+        "zh": "3 份 = 600 米，1 份 = 200 米。4 份 = 800 米。"
+       },
+       "options": [
+        "A) 450 m",
+        "B) 800 m",
+        "C) 200 m",
+        "D) 1,200 m"
+       ],
+       "answer": 1
+      },
+      {
+       "n": "Part B 10",
+       "q": "Jack says the answer to 2/3 n = 12 is n = 8. Is he right?",
+       "right": "B) No, n = 18",
+       "why": {
+        "en": "2 parts = 12, so 1 part = 6. n = 3 × 6 = 18. Jack found 2/3 of 12 instead.",
+        "zh": "2 份 = 12，1 份 = 6。n = 3 × 6 = 18。Jack 算成了 12 的 2/3。"
+       },
+       "options": [
+        "A) Yes, n = 8",
+        "B) No, n = 18",
+        "C) No, n = 24",
+        "D) No, n = 6"
+       ],
+       "answer": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hw-2026-11-20-e",
+   "date": "2026-11-20",
+   "part": "E",
+   "title": {
+    "en": "Day 2 English: is or are?",
+    "zh": "第 2 天英语：is 还是 are？"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Day 2: Grammar",
+      "zh": "第 2 天：语法"
+     },
+     "items": [
+      {
+       "n": "Part A 1",
+       "q": "Emma ________ a confident swimmer.",
+       "right": "is",
+       "why": {
+        "en": "Emma = one person: is.",
+        "zh": "一个：is。"
+       }
+      },
+      {
+       "n": "Part A 2",
+       "q": "Sharks ________ saltwater fish.",
+       "right": "are",
+       "why": {
+        "en": "Sharks = more than one: are.",
+        "zh": "多于一个：are。"
+       }
+      },
+      {
+       "n": "Part A 3",
+       "q": "The coral reef ________ full of colour.",
+       "right": "is",
+       "why": {
+        "en": "The reef = one thing: is.",
+        "zh": "一个：is。"
+       }
+      },
+      {
+       "n": "Part A 4",
+       "q": "Neurons ________ tiny cells in your body.",
+       "right": "are",
+       "why": {
+        "en": "Neurons = more than one: are.",
+        "zh": "多于一个：are。"
+       }
+      },
+      {
+       "n": "Part A 5",
+       "q": "James and Tom ________ ecologists.",
+       "right": "are",
+       "why": {
+        "en": "Two people: are.",
+        "zh": "多于一个：are。"
+       }
+      },
+      {
+       "n": "Part A 6",
+       "q": "This puzzle ________ so perplexing!",
+       "right": "is",
+       "why": {
+        "en": "One puzzle: is.",
+        "zh": "一个：is。"
+       }
+      },
+      {
+       "n": "Part A 7",
+       "q": "There ________ more than a billion people in China.",
+       "right": "are",
+       "why": {
+        "en": "The subject is people (more than one): are.",
+        "zh": "多于一个：are。"
+       }
+      },
+      {
+       "n": "Part A 8",
+       "q": "The box of shells ________ on the table. (Careful!)",
+       "right": "is",
+       "why": {
+        "en": "Trap! The subject is the BOX (one): is.",
+        "zh": "陷阱！主语是 box（一个）：is。"
+       }
+      },
+      {
+       "n": "Part B 9",
+       "q": "Which sentence is correct?",
+       "right": "C) The animals in the zoo are in captivity.",
+       "why": {
+        "en": "Animals = more than one: are.",
+        "zh": "animals 多于一个：are。"
+       },
+       "options": [
+        "A) The snakes is dangerous.",
+        "B) Mia's personality are kind.",
+        "C) The animals in the zoo are in captivity.",
+        "D) The water are salty."
+       ],
+       "answer": 2
+      },
+      {
+       "n": "Part B 10",
+       "q": "Which sentence is correct?",
+       "right": "B) Each fish is a different colour.",
+       "why": {
+        "en": "Each = one at a time: is.",
+        "zh": "each = 每一个：is。"
+       },
+       "options": [
+        "A) Lily and Mia is sisters.",
+        "B) Each fish is a different colour.",
+        "C) The shells is hard.",
+        "D) My friends is confident."
+       ],
+       "answer": 1
+      },
+      {
+       "n": "Part B 11",
+       "q": "Write 2 sentences about your family: one with is, one with are.",
+       "right": "Example: My dad is funny. My cousins are in Beijing.",
+       "why": {
+        "en": "One person or thing: is. More than one: are.",
+        "zh": "一个：is。多于一个：are。"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hw-2026-11-21-s",
+   "date": "2026-11-21",
+   "part": "S",
+   "title": {
+    "en": "Day 3 Science: Weather Made Easy",
+    "zh": "第 3 天科学：轻松学天气"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Day 3: Science",
+      "zh": "第 3 天：科学"
+     },
+     "items": [
+      {
+       "n": "1",
+       "q": "Weather is like your ________; climate is like your ________.",
+       "right": "B) outfit / wardrobe",
+       "why": {
+        "en": "Weather changes daily like an outfit. Climate is over many years like a wardrobe.",
+        "zh": "天气每天变，像衣服；气候是多年的，像衣柜。"
+       },
+       "options": [
+        "A) wardrobe / outfit",
+        "B) outfit / wardrobe",
+        "C) shoes / hat",
+        "D) sponge / ramp"
+       ],
+       "answer": 1
+      },
+      {
+       "n": "2",
+       "q": "\"Bangkok is hot and wet for most of the year.\" This sentence is about...",
+       "right": "D) climate",
+       "why": {
+        "en": "\"Most of the year\" = a long time = climate.",
+        "zh": "“一年中大部分时间” = 长时间 = 气候。"
+       },
+       "options": [
+        "A) weather",
+        "B) a cold front",
+        "C) an air mass",
+        "D) climate"
+       ],
+       "answer": 3
+      },
+      {
+       "n": "3",
+       "q": "Why is an air mass like a giant sponge?",
+       "right": "A) It soaks up the heat and wetness of the place it sits over.",
+       "why": {
+        "en": "Like a sponge soaks up water.",
+        "zh": "像海绵吸水一样。"
+       },
+       "options": [
+        "A) It soaks up the heat and wetness of the place it sits over.",
+        "B) It is yellow and soft.",
+        "C) It cleans the sky.",
+        "D) It moves very fast."
+       ],
+       "answer": 0
+      },
+      {
+       "n": "4",
+       "q": "At a cold front, warm air is pushed up...",
+       "right": "C) quickly and steeply",
+       "why": {
+        "en": "The bulldozer pushes warm air up fast.",
+        "zh": "推土机把暖空气快速推上去。"
+       },
+       "options": [
+        "A) slowly and gently",
+        "B) sideways",
+        "C) quickly and steeply",
+        "D) not at all"
+       ],
+       "answer": 2
+      },
+      {
+       "n": "5",
+       "q": "A cold front often brings...",
+       "right": "B) heavy rain and storms",
+       "why": {
+        "en": "Short, heavy rain and thunderstorms.",
+        "zh": "短时大雨和雷暴。"
+       },
+       "options": [
+        "A) light rain for days",
+        "B) heavy rain and storms",
+        "C) snow every time",
+        "D) no clouds at all"
+       ],
+       "answer": 1
+      },
+      {
+       "n": "6",
+       "q": "Which comparison matches a warm front?",
+       "right": "A) a ramp",
+       "why": {
+        "en": "Warm air slides gently up like a ramp.",
+        "zh": "暖空气像走斜坡一样慢慢滑上去。"
+       },
+       "options": [
+        "A) a ramp",
+        "B) a bulldozer",
+        "C) a wardrobe",
+        "D) a can of drink"
+       ],
+       "answer": 0
+      },
+      {
+       "n": "7",
+       "q": "Water drops on a cold can of drink are an example of...",
+       "right": "C) condensation",
+       "why": {
+        "en": "Water vapour turns back into water.",
+        "zh": "水蒸气变回水。"
+       },
+       "options": [
+        "A) evaporation",
+        "B) dissolving",
+        "C) condensation",
+        "D) captivity"
+       ],
+       "answer": 2
+      },
+      {
+       "n": "8",
+       "q": "TEST TIP: Which question word tells you to give a REASON?",
+       "right": "D) Explain why...",
+       "why": {
+        "en": "\"Explain why\" asks for a reason. Use because.",
+        "zh": "Explain why 要求给出原因，用 because。"
+       },
+       "options": [
+        "A) Name...",
+        "B) Circle...",
+        "C) List...",
+        "D) Explain why..."
+       ],
+       "answer": 3
+      },
+      {
+       "n": "9",
+       "q": "Explain why clouds form high in the sky. Use the word \"because\".",
+       "right": "Example: Clouds form high in the sky because the air cools down and the water vapour condenses into tiny water drops.",
+       "why": {
+        "en": "Your answer needs: air cools + water vapour turns into water drops (condensation) + because.",
+        "zh": "答案要有：空气变冷 + 水蒸气变成小水滴（凝结）+ because。"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

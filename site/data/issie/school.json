@@ -1,0 +1,358 @@
+{
+ "sheets": [
+  {
+   "id": "usage-a",
+   "part": "E",
+   "icon": "✏️",
+   "subject": {
+    "en": "English: Usage",
+    "zh": "英语：用法"
+   },
+   "title": {
+    "en": "Module 10 Review A: Choose the Correct Word",
+    "zh": "第 10 单元复习 A：选对词"
+   },
+   "intro": {
+    "en": "Read the sentence. Say which word is correct. Then underline it on your paper. Main Book E1 helps.",
+    "zh": "读句子，说出哪个词是对的，再在作业纸上划线。主课本 E1 可以帮你。"
+   },
+   "items": [
+    {
+     "n": "1",
+     "q": "After we got to the beach, we discovered that Alani (all ready / already) knew how to surf.",
+     "answer": "already",
+     "why": {
+      "en": "Already = before now. All ready = everyone is ready.",
+      "zh": "already = 已经。all ready = 全都准备好了。"
+     }
+    },
+    {
+     "n": "2",
+     "q": "My grandmother was certain that (somewhere / somewheres) in the attic was the trunk containing the old photographs.",
+     "answer": "somewhere",
+     "why": {
+      "en": "There is no word \"somewheres\". Always write somewhere.",
+      "zh": "没有 somewheres 这个词，要写 somewhere。"
+     }
+    },
+    {
+     "n": "3",
+     "q": "No one (would have / would of) thrown the football to Floyd, because he had his hands in his pockets.",
+     "answer": "would have",
+     "why": {
+      "en": "\"Would of\" only sounds like \"would've\". The correct words are would have.",
+      "zh": "would of 只是听起来像 would've，正确写法是 would have。"
+     }
+    },
+    {
+     "n": "4",
+     "q": "The hidden gate lay in the valley (between / among) the ancient ruins and the pine forest.",
+     "answer": "between",
+     "why": {
+      "en": "Two things (the ruins and the forest), so between.",
+      "zh": "两样东西（废墟和森林），所以用 between。"
+     }
+    },
+    {
+     "n": "5",
+     "q": "You (had ought / ought) to see how wonderful the trees look when the leaves return after a long winter.",
+     "answer": "ought",
+     "why": {
+      "en": "Never use \"had\" with ought. Write ought to.",
+      "zh": "ought 前面不加 had，写 ought to。"
+     }
+    },
+    {
+     "n": "6",
+     "q": "Ronnie thought that the old house on the corner was (sort of / rather) mysterious.",
+     "answer": "rather",
+     "why": {
+      "en": "In writing, use rather (or somewhat), not \"sort of\".",
+      "zh": "书面语用 rather，不用 sort of。"
+     }
+    },
+    {
+     "n": "7",
+     "q": "Luanne has a stronger crosscourt shot (then / than) I have.",
+     "answer": "than",
+     "why": {
+      "en": "Than compares two things (stronger than). Then is about time.",
+      "zh": "than 用来比较（stronger than），then 表示时间。"
+     }
+    },
+    {
+     "n": "8",
+     "q": "The jury couldn't understand (how come / why) that man had committed the crime.",
+     "answer": "why",
+     "why": {
+      "en": "In writing, use why, not \"how come\".",
+      "zh": "书面语用 why，不用 how come。"
+     }
+    },
+    {
+     "n": "9",
+     "q": "If someone you didn't know offered you a million dollars for no reason at all, would you (accept / except) it?",
+     "answer": "accept",
+     "why": {
+      "en": "Accept = take it and say yes. Except = but not.",
+      "zh": "accept = 接受。except = 除了。"
+     }
+    },
+    {
+     "n": "10",
+     "q": "(Fewer / Less) people came to the play on Sunday afternoon than on Saturday night.",
+     "answer": "Fewer",
+     "why": {
+      "en": "You can count people, so fewer.",
+      "zh": "人可以数，所以用 fewer。"
+     }
+    },
+    {
+     "n": "11",
+     "q": "Those beavers get so busy whenever they (try and / try to) build a dam.",
+     "answer": "try to",
+     "why": {
+      "en": "Write try to, not \"try and\".",
+      "zh": "写 try to，不写 try and。"
+     }
+    },
+    {
+     "n": "12",
+     "q": "When the Brown family went for a boat ride down the Amazon, they didn't forget to (bring / take) along a big bottle of insect repellent.",
+     "answer": "take",
+     "why": {
+      "en": "They carried it AWAY from home, so take.",
+      "zh": "他们把东西从家里带走，所以用 take。"
+     }
+    },
+    {
+     "n": "13",
+     "q": "Oscar pointed to the newspaper story (where it / that) explained how the Blue Jays had won the game.",
+     "answer": "that",
+     "why": {
+      "en": "\"Where\" is for places. A story is not a place, so the story that explained.",
+      "zh": "where 用于地点。故事不是地点，所以用 that。"
+     }
+    },
+    {
+     "n": "14",
+     "q": "If I get rid of my cold, I'll be (all right / allright).",
+     "answer": "all right",
+     "why": {
+      "en": "All right is always two words.",
+      "zh": "all right 永远是两个词。"
+     }
+    },
+    {
+     "n": "15",
+     "q": "Running red lights just (ain't / isn't) right.",
+     "answer": "isn't",
+     "why": {
+      "en": "\"Ain't\" is not used in correct writing. Use isn't.",
+      "zh": "正式写作不用 ain't，要用 isn't。"
+     }
+    },
+    {
+     "n": "16",
+     "q": "Columbus and his crew had to sail a long (way / ways) before they reached land.",
+     "answer": "way",
+     "why": {
+      "en": "Write a long way, not \"a long ways\".",
+      "zh": "写 a long way，不写 a long ways。"
+     }
+    },
+    {
+     "n": "17",
+     "q": "Nobody mentioned the incident that happened yesterday because it had already been discussed (a lot / alot).",
+     "answer": "a lot",
+     "why": {
+      "en": "A lot is always two words.",
+      "zh": "a lot 永远是两个词。"
+     }
+    },
+    {
+     "n": "18",
+     "q": "Frannie and I looked at the map to find out (where the shortcut was / where the shortcut was at).",
+     "answer": "where the shortcut was",
+     "why": {
+      "en": "Do not add \"at\" after where.",
+      "zh": "where 后面不要再加 at。"
+     }
+    },
+    {
+     "n": "19",
+     "q": "Mrs. Canares always (learns / teaches) her piano students the basics before she gets into the more difficult lessons.",
+     "answer": "teaches",
+     "why": {
+      "en": "The teacher teaches. The students learn.",
+      "zh": "老师 teach（教），学生 learn（学）。"
+     }
+    },
+    {
+     "n": "20",
+     "q": "Please (bring / take) me that game so that I may read the directions.",
+     "answer": "bring",
+     "why": {
+      "en": "\"Me\" means toward the speaker, so bring.",
+      "zh": "me 表示拿到说话人这里，所以用 bring。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "usage-b",
+   "part": "E",
+   "icon": "🐼",
+   "subject": {
+    "en": "English: Usage",
+    "zh": "英语：用法"
+   },
+   "title": {
+    "en": "Module 10 Review B: Proofread the Panda Paragraph",
+    "zh": "第 10 单元复习 B：校对熊猫段落"
+   },
+   "intro": {
+    "en": "Find the wrong word in each sentence. Cross it out and write the correct word on your paper. Main Book E2 helps.",
+    "zh": "找出每句里用错的词，划掉，在纸上写出正确的词。主课本 E2 可以帮你。"
+   },
+   "items": [
+    {
+     "n": "[1]",
+     "q": "[1] These pandas are certainly not you're ordinary bear.",
+     "answer": "you're → your",
+     "why": {
+      "en": "You're = you are. \"You are ordinary bear\" makes no sense. Your = belongs to you.",
+      "zh": "you're = you are，说不通。your = 你的。"
+     }
+    },
+    {
+     "n": "[2]",
+     "q": "[2] There native habitat is the wooded mountains of western China.",
+     "answer": "There → Their",
+     "why": {
+      "en": "The habitat belongs to the pandas, so their.",
+      "zh": "栖息地属于熊猫，所以用 their（它们的）。"
+     }
+    },
+    {
+     "n": "[3]",
+     "q": "[3] For many years, this 355-pound black-and-white animal use to be considered a myth by most people outside China.",
+     "answer": "use → used",
+     "why": {
+      "en": "For the past, write used to: it used to be.",
+      "zh": "说过去常常，要写 used to。"
+     }
+    },
+    {
+     "n": "[4]",
+     "q": "[4] The panda can eat meat, but it's diet consists mainly of bamboo shoots and roots.",
+     "answer": "it's → its",
+     "why": {
+      "en": "It's = it is. \"It is diet\" makes no sense. Its = belongs to it.",
+      "zh": "it's = it is，说不通。its = 它的。"
+     }
+    },
+    {
+     "n": "[5]",
+     "q": "[5] A adult panda usually lives alone.",
+     "answer": "A → An",
+     "why": {
+      "en": "Adult starts with a vowel sound, so an adult.",
+      "zh": "adult 以元音开头，所以用 an。"
+     }
+    },
+    {
+     "n": "[6]",
+     "q": "[6] Giant pandas can spend ten to twelve hours a day stuffing themselves with bamboo.",
+     "answer": "Roy will check this sentence with you in class.",
+     "why": {
+      "en": "Read it slowly with Roy and look for a usage mistake together.",
+      "zh": "和 Roy 老师一起慢慢读，找找有没有用法错误。"
+     }
+    },
+    {
+     "n": "[7]",
+     "q": "[7] Their paws have a thumb that they use to strip the leaves off of the bamboo.",
+     "answer": "off of → off",
+     "why": {
+      "en": "Write off, not \"off of\": strip the leaves off the bamboo. (\"use to\" is correct here: they use it to strip leaves.)",
+      "zh": "写 off，不写 off of。（这里 use to 是对的：用它来剥叶子。）"
+     }
+    },
+    {
+     "n": "[8]",
+     "q": "[8] This here thumb is the sixth \"finger\" they have on their paws.",
+     "answer": "This here → This",
+     "why": {
+      "en": "Write this thumb, not \"this here thumb\".",
+      "zh": "写 this thumb，不写 this here thumb。"
+     }
+    },
+    {
+     "n": "[9]",
+     "q": "[9] A giant panda whose having cubs may take shelter in a cave or a hollow tree.",
+     "answer": "whose → who's",
+     "why": {
+      "en": "Who's = who is: a panda who is having cubs.",
+      "zh": "who's = who is：正在生宝宝的熊猫。"
+     }
+    },
+    {
+     "n": "[10]",
+     "q": "[10] Giant pandas don't live in trees, but they can climb up them quite a ways when they need to escape from hunters.",
+     "answer": "a ways → a way",
+     "why": {
+      "en": "Write quite a way, not \"quite a ways\".",
+      "zh": "写 quite a way，不写 quite a ways。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "flyer",
+   "part": "E",
+   "icon": "📣",
+   "subject": {
+    "en": "English: Writing",
+    "zh": "英语：写作"
+   },
+   "title": {
+    "en": "Module 10 Review C: Write a Winter Carnival Flyer",
+    "zh": "第 10 单元复习 C：写冬季嘉年华宣传单"
+   },
+   "intro": {
+    "en": "Plan first, then write your own flyer on paper. Main Book E3 helps.",
+    "zh": "先计划，再在纸上写你自己的宣传单。主课本 E3 可以帮你。"
+   },
+   "items": [
+    {
+     "n": "1",
+     "q": "What must your flyer include?",
+     "answer": "The time, the date and the activities, plus at least 10 usage examples from Module 10, each one underlined.",
+     "why": {
+      "en": "The task asks for time, date and activities, and ten underlined usage examples.",
+      "zh": "题目要求写时间、日期、活动，并划出 10 个用法例子。"
+     }
+    },
+    {
+     "n": "2",
+     "q": "Plan it: fill in what, when, where and 3 activities.",
+     "answer": "What: Winter Carnival\nWhen: Saturday 12 December, 10 am to 3 pm\nWhere: the school field\nActivities: rides, games, an ice-sculpture contest",
+     "why": {
+      "en": "This is only an example plan. Use your own ideas.",
+      "zh": "这只是一个计划例子，要用你自己的想法。"
+     }
+    },
+    {
+     "n": "3",
+     "q": "Example flyer to learn from (write your OWN, do not copy).",
+     "answer": "Our class is proud to announce that on Saturday 12 December it's holding a Winter Carnival. We hope that you and your family will come. There will be a lot of rides and games, and an ice-sculpture contest. Tickets cost less than last year, and fewer people will be in each line. You ought to come early. Bring your friends, and take home a prize! It will be all right if it rains, because there is a hall.",
+     "why": {
+      "en": "Usage words to underline here: it's, your, There, a lot, an, less than, fewer, ought to, Bring, take, all right.",
+      "zh": "这里要划线的用法词：it's、your、There、a lot、an、less than、fewer、ought to、Bring、take、all right。"
+     }
+    }
+   ]
+  }
+ ]
+}

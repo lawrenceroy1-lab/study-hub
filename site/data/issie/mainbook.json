@@ -1,0 +1,1687 @@
+{
+ "intro": {
+  "en": "Your Main Book. Learn one chapter at a time with Roy. Every new word is explained first. Press 🔊 to listen and press it again (or ⏹ Stop) to stop.",
+  "zh": "你的主课本。和 Roy 老师一章一章地学。每个新词都先解释。按 🔊 听，再按一次（或按 ⏹ 停止）就停下。"
+ },
+ "parts": [
+  {
+   "id": "S",
+   "title": {
+    "en": "Science: Earth Science",
+    "zh": "科学：地球科学"
+   }
+  },
+  {
+   "id": "E",
+   "title": {
+    "en": "English: Usage and Writing",
+    "zh": "英语：用法和写作"
+   }
+  },
+  {
+   "id": "M",
+   "title": {
+    "en": "Maths: Equations (Chapter 8)",
+    "zh": "数学：方程（第 8 章）"
+   }
+  }
+ ],
+ "chapters": [
+  {
+   "code": "S1",
+   "part": "S",
+   "title": {
+    "en": "Soil",
+    "zh": "土壤"
+   },
+   "slides": [
+    {
+     "icon": "🟫",
+     "title": {
+      "en": "What is soil?",
+      "zh": "什么是土壤？"
+     },
+     "points": [
+      {
+       "en": "Soil is a mixture of rock pieces, minerals and organic matter. A mixture means different things mixed together.",
+       "zh": "土壤是岩石碎块、矿物和有机物的混合物。混合物就是不同的东西混在一起。"
+      },
+      {
+       "en": "Weathering means rocks slowly breaking into smaller pieces. Weathering makes the rock and mineral bits in soil.",
+       "zh": "风化就是岩石慢慢碎成更小的块。风化产生了土壤里的岩石和矿物颗粒。"
+      },
+      {
+       "en": "Water and air fill the small spaces between the soil pieces.",
+       "zh": "水和空气填满土壤颗粒之间的小空隙。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🪨",
+        "en": "rock pieces",
+        "zh": "岩石碎块"
+       },
+       {
+        "icon": "💎",
+        "en": "minerals",
+        "zh": "矿物"
+       },
+       {
+        "icon": "🍂",
+        "en": "organic matter",
+        "zh": "有机物"
+       },
+       {
+        "icon": "💧",
+        "en": "water",
+        "zh": "水"
+       },
+       {
+        "icon": "💨",
+        "en": "air",
+        "zh": "空气"
+       }
+      ]
+     },
+     "remember": {
+      "en": "soil = rock pieces + minerals + organic matter (+ water and air)",
+      "zh": "土壤 = 岩石碎块 + 矿物 + 有机物（+ 水和空气）"
+     }
+    },
+    {
+     "icon": "🍂",
+     "title": {
+      "en": "Organic and inorganic",
+      "zh": "有机和无机"
+     },
+     "points": [
+      {
+       "en": "Organic means made by living things, like leaves, twigs and dead animals.",
+       "zh": "有机的意思是由生物形成的，比如树叶、树枝和死去的动物。"
+      },
+      {
+       "en": "Inorganic means NOT made by living things, like rock, minerals, water and air.",
+       "zh": "无机的意思是不是由生物形成的，比如岩石、矿物、水和空气。"
+      },
+      {
+       "en": "Humus is the organic material in soil. Bacteria and fungi break down dead plants and animals, and that makes humus.",
+       "zh": "腐殖质是土壤里的有机物。细菌和真菌分解死去的植物和动物，就形成了腐殖质。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🍂",
+        "en": "dead leaves and animals",
+        "zh": "落叶和死去的动物"
+       },
+       {
+        "icon": "🦠",
+        "en": "bacteria and fungi break them down",
+        "zh": "细菌和真菌分解它们"
+       },
+       {
+        "icon": "🟫",
+        "en": "humus",
+        "zh": "腐殖质"
+       }
+      ]
+     },
+     "remember": {
+      "en": "humus = organic material from decaying plants and animals",
+      "zh": "腐殖质 = 腐烂的植物和动物形成的有机物"
+     }
+    },
+    {
+     "icon": "📚",
+     "title": {
+      "en": "Soil horizons: the layers",
+      "zh": "土层：土壤的层"
+     },
+     "points": [
+      {
+       "en": "A horizon is one layer of soil. Soil is made of horizons, one on top of another.",
+       "zh": "土层就是土壤的一层。土壤由一层一层的土层叠起来组成。"
+      },
+      {
+       "en": "It takes thousands of years for soil to become mature (fully grown). Mature soil has four horizons. Younger soil has fewer.",
+       "zh": "土壤要几千年才能变成熟。成熟的土壤有四层，年轻的土壤层数更少。"
+      },
+      {
+       "en": "From top to bottom: O, A, B, C.",
+       "zh": "从上到下：O、A、B、C。"
+      }
+     ],
+     "visual": {
+      "type": "layers",
+      "layers": [
+       {
+        "label": {
+         "en": "O: decaying leaves and twigs",
+         "zh": "O 层：腐烂的树叶和树枝"
+        },
+        "color": "#5c3d1e",
+        "dark": true
+       },
+       {
+        "label": {
+         "en": "A: topsoil, rich in humus",
+         "zh": "A 层：表土，富含腐殖质"
+        },
+        "color": "#8b5a2b",
+        "dark": true
+       },
+       {
+        "label": {
+         "en": "B: subsoil, minerals and clay",
+         "zh": "B 层：底土，矿物和黏土"
+        },
+        "color": "#d9a066"
+       },
+       {
+        "label": {
+         "en": "C: pieces of weathered rock",
+         "zh": "C 层：风化的岩石碎块"
+        },
+        "color": "#ced4da",
+        "dots": true
+       }
+      ]
+     },
+     "remember": {
+      "en": "O, A, B, C from top to bottom",
+      "zh": "从上到下是 O、A、B、C"
+     }
+    },
+    {
+     "icon": "🔎",
+     "title": {
+      "en": "What is in each horizon?",
+      "zh": "每一层里有什么？"
+     },
+     "points": [
+      {
+       "en": "Horizon O: mostly decaying leaves, twigs, and animal remains and wastes.",
+       "zh": "O 层：主要是腐烂的树叶、树枝，以及动物的遗体和排泄物。"
+      },
+      {
+       "en": "Horizon A (topsoil): loose soil rich in the organic material plants need, such as humus and nitrogen compounds.",
+       "zh": "A 层（表土）：疏松的土壤，富含植物需要的有机物，比如腐殖质和含氮化合物。"
+      },
+      {
+       "en": "Horizon B (subsoil): rich in minerals such as iron and aluminum compounds that rainwater washed down from Horizon A. It also has humus and clay, the tiniest soil particles.",
+       "zh": "B 层（底土）：富含雨水从 A 层冲下来的矿物，比如铁和铝的化合物。也有腐殖质和黏土（最小的土壤颗粒）。"
+      },
+      {
+       "en": "Horizon C: mostly pieces of weathered rock.",
+       "zh": "C 层：主要是风化的岩石碎块。"
+      }
+     ],
+     "remember": {
+      "en": "topsoil = A, subsoil = B",
+      "zh": "表土 = A 层，底土 = B 层"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain what soil is made of and name the four soil horizons.",
+    "zh": "我现在可以说出土壤由什么组成，并说出四个土层。"
+   }
+  },
+  {
+   "code": "S2",
+   "part": "S",
+   "title": {
+    "en": "Erosion and Deposition",
+    "zh": "侵蚀和沉积"
+   },
+   "slides": [
+    {
+     "icon": "🌊",
+     "title": {
+      "en": "Erosion and deposition",
+      "zh": "侵蚀和沉积"
+     },
+     "points": [
+      {
+       "en": "Weathering breaks rocks into small pieces. Sediment means small pieces of rock and soil that get carried away.",
+       "zh": "风化把岩石碎成小块。沉积物就是被带走的岩石和土壤小碎块。"
+      },
+      {
+       "en": "Erosion: moving water, ice, wind or gravity carries the pieces away. Erosion takes land away in one place.",
+       "zh": "侵蚀：流水、冰、风或重力把碎块带走。侵蚀让一个地方的土地变少。"
+      },
+      {
+       "en": "Deposition: the pieces are dropped in a new place. Deposition builds land in another place.",
+       "zh": "沉积：碎块被放到新的地方。沉积让另一个地方的土地变多。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🪨",
+        "en": "weathering: rock breaks",
+        "zh": "风化：岩石碎裂"
+       },
+       {
+        "icon": "🌊",
+        "en": "erosion: carried away",
+        "zh": "侵蚀：被带走"
+       },
+       {
+        "icon": "🏖️",
+        "en": "deposition: dropped",
+        "zh": "沉积：被放下"
+       }
+      ]
+     },
+     "remember": {
+      "en": "erosion takes away, deposition drops",
+      "zh": "侵蚀是带走，沉积是放下"
+     }
+    },
+    {
+     "icon": "💧",
+     "title": {
+      "en": "Moving water",
+      "zh": "流水"
+     },
+     "points": [
+      {
+       "en": "Rainwater running off the land carries sediment and leaves a path called a gully.",
+       "zh": "雨水从地面流走时带走沉积物，留下一条小沟，叫冲沟（gully）。"
+      },
+      {
+       "en": "Water keeps flowing in the gully, so it gets wider and deeper and becomes a stream or river. Scientists call a creek, brook or river a stream.",
+       "zh": "水不断在冲沟里流，冲沟变宽变深，就成了溪流或河。科学家把小溪、小河、大河都叫作 stream（溪流）。"
+      },
+      {
+       "en": "Great rivers, like the Mississippi River, drop their sediment where they enter the ocean. This makes a delta.",
+       "zh": "大河（比如密西西比河）在流入大海的地方放下沉积物，形成三角洲。"
+      },
+      {
+       "en": "Ocean waves and currents carry sand off one beach and drop it on another beach.",
+       "zh": "海浪和洋流把一个海滩的沙带走，放到另一个海滩上。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🌧️",
+        "en": "rain",
+        "zh": "雨"
+       },
+       {
+        "icon": "〰️",
+        "en": "gully",
+        "zh": "冲沟"
+       },
+       {
+        "icon": "🏞️",
+        "en": "stream or river",
+        "zh": "溪流或河"
+       },
+       {
+        "icon": "🔺",
+        "en": "delta at the ocean",
+        "zh": "入海口的三角洲"
+       }
+      ]
+     },
+     "remember": {
+      "en": "delta = sediment a river drops where it meets the ocean",
+      "zh": "三角洲 = 河流入海时放下的沉积物"
+     }
+    },
+    {
+     "icon": "🧊",
+     "title": {
+      "en": "Ice and wind",
+      "zh": "冰和风"
+     },
+     "points": [
+      {
+       "en": "Glaciers are rivers and sheets of ice that stay all year. They move very slowly over land.",
+       "zh": "冰川是一年四季都在的冰河和冰盖，在陆地上非常慢地移动。"
+      },
+      {
+       "en": "Glaciers can move boulders as big as houses. Over time they carve or deepen valleys.",
+       "zh": "冰川能推动像房子一样大的巨石，时间久了能刻出或加深山谷。"
+      },
+      {
+       "en": "Fast wind carries sand and dust that scour (rub away) the surfaces they hit. Wind erosion is greatest in dry places like deserts, with little water and few trees.",
+       "zh": "快速的风带着沙子和尘土，磨掉它们撞到的表面。风的侵蚀在沙漠这样干燥、水少、树少的地方最强。"
+      },
+      {
+       "en": "When the wind slows down, it drops its load of sand. This is how sand dunes are built.",
+       "zh": "风变慢时会放下带着的沙子，沙丘就是这样形成的。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧊",
+        "en": "glacier carves valleys",
+        "zh": "冰川刻出山谷"
+       },
+       {
+        "icon": "🌬️",
+        "en": "wind carries sand",
+        "zh": "风带着沙子"
+       },
+       {
+        "icon": "🏜️",
+        "en": "wind slows: sand dune",
+        "zh": "风变慢：沙丘"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "⬇️",
+     "title": {
+      "en": "Gravity",
+      "zh": "重力"
+     },
+     "points": [
+      {
+       "en": "Gravity is the force under ALL erosion and deposition.",
+       "zh": "重力是所有侵蚀和沉积背后的力量。"
+      },
+      {
+       "en": "Gravity makes water and glaciers move downhill, and makes particles settle onto a stream bed, a lake bed or the ground.",
+       "zh": "重力让水和冰川往下坡流，也让颗粒沉到河床、湖底或地上。"
+      },
+      {
+       "en": "Gravity can also cause erosion directly: landslides and mudflows.",
+       "zh": "重力也能直接造成侵蚀：山体滑坡和泥石流。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "💧",
+        "en": "moving water",
+        "zh": "流水"
+       },
+       {
+        "icon": "🧊",
+        "en": "ice",
+        "zh": "冰"
+       },
+       {
+        "icon": "🌬️",
+        "en": "wind",
+        "zh": "风"
+       },
+       {
+        "icon": "⬇️",
+        "en": "gravity",
+        "zh": "重力"
+       }
+      ]
+     },
+     "remember": {
+      "en": "4 movers of sediment: water, ice, wind, gravity",
+      "zh": "搬运沉积物的 4 个力量：水、冰、风、重力"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain erosion and deposition and the four things that move sediment.",
+    "zh": "我现在可以解释侵蚀和沉积，以及搬运沉积物的四种力量。"
+   }
+  },
+  {
+   "code": "S3",
+   "part": "S",
+   "title": {
+    "en": "Divides and Drainage Basins",
+    "zh": "分水岭和流域"
+   },
+   "slides": [
+    {
+     "icon": "⛰️",
+     "title": {
+      "en": "What is a divide?",
+      "zh": "什么是分水岭？"
+     },
+     "points": [
+      {
+       "en": "A divide is a line of high land. Rainwater or melted snow runs down one side or the other side.",
+       "zh": "分水岭是一条高地线。雨水或融化的雪水从一边或另一边流下去。"
+      },
+      {
+       "en": "A divide can cross a small hill or a whole mountain range.",
+       "zh": "分水岭可以经过一座小山，也可以是一整条山脉。"
+      }
+     ],
+     "visual": {
+      "type": "divide",
+      "left": {
+       "en": "water runs this way",
+       "zh": "水往这边流"
+      },
+      "right": {
+       "en": "or this way",
+       "zh": "或往这边流"
+      }
+     },
+     "remember": {
+      "en": "divide = high land that splits where the water goes",
+      "zh": "分水岭 = 把水分开流向不同方向的高地"
+     }
+    },
+    {
+     "icon": "🏞️",
+     "title": {
+      "en": "Drainage basin (watershed)",
+      "zh": "流域（集水区）"
+     },
+     "points": [
+      {
+       "en": "Water running down each side of a divide makes small streams. Small streams join into bigger streams, and then rivers.",
+       "zh": "从分水岭两边流下的水形成小溪，小溪汇成大溪，再汇成河。"
+      },
+      {
+       "en": "A drainage basin is ALL the land where water collects and flows toward one river.",
+       "zh": "流域就是水汇集并流向同一条河的所有土地。"
+      },
+      {
+       "en": "Drainage basin and watershed mean the same thing. Large drainage basins are made of many smaller ones.",
+       "zh": "drainage basin 和 watershed 意思一样。大流域由很多小流域组成。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "💧",
+        "en": "small streams",
+        "zh": "小溪"
+       },
+       {
+        "icon": "〰️",
+        "en": "bigger streams",
+        "zh": "大溪"
+       },
+       {
+        "icon": "🏞️",
+        "en": "one river",
+        "zh": "一条河"
+       }
+      ]
+     },
+     "remember": {
+      "en": "drainage basin = watershed",
+      "zh": "drainage basin = watershed = 流域"
+     }
+    },
+    {
+     "icon": "🗺️",
+     "title": {
+      "en": "Divides in North America",
+      "zh": "北美洲的分水岭"
+     },
+     "points": [
+      {
+       "en": "The Great Continental Divide runs through the Rocky Mountains, which run north to south through the United States and Canada.",
+       "zh": "大陆分水岭经过落基山脉，落基山脉从北到南穿过美国和加拿大。"
+      },
+      {
+       "en": "From the WEST slopes of the Rockies, water runs toward the Pacific Ocean. From the EAST slopes, it runs toward the Gulf of Mexico.",
+       "zh": "从落基山脉西坡流下的水流向太平洋，从东坡流下的水流向墨西哥湾。"
+      },
+      {
+       "en": "A smaller divide is in the Appalachian Mountains. West slopes: water flows to the Gulf of Mexico. East slopes: to the Atlantic Ocean.",
+       "zh": "阿巴拉契亚山脉有一条较小的分水岭。西坡的水流向墨西哥湾，东坡的水流向大西洋。"
+      },
+      {
+       "en": "The largest drainage basin in the United States is the land between the Rocky Mountains and the Appalachian Mountains.",
+       "zh": "美国最大的流域是落基山脉和阿巴拉契亚山脉之间的土地。"
+      }
+     ],
+     "visual": {
+      "type": "divide",
+      "top": {
+       "en": "Rocky Mountains",
+       "zh": "落基山脉"
+      },
+      "left": {
+       "en": "Pacific Ocean",
+       "zh": "太平洋"
+      },
+      "right": {
+       "en": "Gulf of Mexico",
+       "zh": "墨西哥湾"
+      }
+     },
+     "remember": {
+      "en": "Rockies: west to the Pacific, east to the Gulf of Mexico",
+      "zh": "落基山脉：西边流向太平洋，东边流向墨西哥湾"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain a divide and a drainage basin, and where water goes from the Rocky Mountains.",
+    "zh": "我现在可以解释分水岭和流域，以及落基山脉的水流向哪里。"
+   }
+  },
+  {
+   "code": "S4",
+   "part": "S",
+   "title": {
+    "en": "Earth History and Geologic Principles",
+    "zh": "地球历史和地质原理"
+   },
+   "slides": [
+    {
+     "icon": "🌋",
+     "title": {
+      "en": "Young Earth",
+      "zh": "年轻的地球"
+     },
+     "points": [
+      {
+       "en": "Evidence suggests Earth formed about 4.6 billion years ago.",
+       "zh": "证据表明地球大约在 46 亿年前形成。"
+      },
+      {
+       "en": "Back then Earth was very hot. No water flowed, no wind blew, and nothing lived on it.",
+       "zh": "那时地球非常热。没有流水，没有风，也没有生物。"
+      },
+      {
+       "en": "Over time all of this changed and made the Earth we know today. Scientists use theories to explain how.",
+       "zh": "经过很长时间，这些都改变了，形成了今天的地球。科学家用理论来解释是怎么变化的。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🔥",
+        "en": "very hot",
+        "zh": "非常热"
+       },
+       {
+        "icon": "🚫💧",
+        "en": "no flowing water",
+        "zh": "没有流水"
+       },
+       {
+        "icon": "🚫🌬️",
+        "en": "no wind",
+        "zh": "没有风"
+       },
+       {
+        "icon": "🚫🌱",
+        "en": "no living things",
+        "zh": "没有生物"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Earth formed about 4.6 billion years ago",
+      "zh": "地球大约在 46 亿年前形成"
+     }
+    },
+    {
+     "icon": "🔁",
+     "title": {
+      "en": "Uniformitarianism",
+      "zh": "均变论"
+     },
+     "points": [
+      {
+       "en": "In 1795, the Scottish geologist James Hutton wrote a book called Theory of the Earth.",
+       "zh": "1795 年，苏格兰地质学家詹姆斯·赫顿写了一本书叫《地球的理论》。"
+      },
+      {
+       "en": "The principle of uniformitarianism: the processes changing Earth's surface TODAY are the same as the ones that changed it in the PAST.",
+       "zh": "均变论原理：今天改变地球表面的过程，和过去改变地球表面的过程是一样的。"
+      },
+      {
+       "en": "These processes are uplift (mountain building) and wearing down (weathering, erosion and deposition).",
+       "zh": "这些过程包括抬升（造山）和磨损（风化、侵蚀和沉积）。"
+      },
+      {
+       "en": "Word Watch: uniform means \"same\".",
+       "zh": "词语小贴士：uniform 的意思是“相同”。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "⛰️",
+        "en": "uplift: mountain building",
+        "zh": "抬升：造山"
+       },
+       {
+        "icon": "🪨",
+        "en": "weathering",
+        "zh": "风化"
+       },
+       {
+        "icon": "🌊",
+        "en": "erosion",
+        "zh": "侵蚀"
+       },
+       {
+        "icon": "🏖️",
+        "en": "deposition",
+        "zh": "沉积"
+       }
+      ]
+     },
+     "remember": {
+      "en": "uniformitarianism = same processes, then and now",
+      "zh": "均变论 = 过去和现在是同样的过程"
+     }
+    },
+    {
+     "icon": "🐚",
+     "title": {
+      "en": "Sedimentary rock",
+      "zh": "沉积岩"
+     },
+     "points": [
+      {
+       "en": "Weathered earth materials, shells and bone pieces settle in layers at the bottom of water.",
+       "zh": "风化的地球物质、贝壳和骨头碎片在水底一层一层地沉下来。"
+      },
+      {
+       "en": "Over time they are pressed (compacted) and stuck (cemented) together. This makes sedimentary rock layers.",
+       "zh": "时间久了，它们被压紧、粘在一起，就形成了一层一层的沉积岩。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🐚",
+        "en": "bits settle in water",
+        "zh": "碎块沉到水底"
+       },
+       {
+        "icon": "📚",
+        "en": "layers build up",
+        "zh": "一层层堆积"
+       },
+       {
+        "icon": "🗜️",
+        "en": "pressed and cemented",
+        "zh": "压紧并粘合"
+       },
+       {
+        "icon": "🪨",
+        "en": "sedimentary rock",
+        "zh": "沉积岩"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "📏",
+     "title": {
+      "en": "Superposition",
+      "zh": "叠置原理"
+     },
+     "points": [
+      {
+       "en": "The principle of superposition: layers near the surface are YOUNGER than layers deeper down, unless something has disturbed them.",
+       "zh": "叠置原理：靠近地表的岩层比更深的岩层年轻，除非岩层被扰动过。"
+      },
+      {
+       "en": "So each layer is older than the one above it and younger than the one below it.",
+       "zh": "所以每一层都比上面那层老，比下面那层年轻。"
+      },
+      {
+       "en": "Think of a pile of homework sheets: the sheet at the bottom went on first, so it is the oldest.",
+       "zh": "想象一叠作业纸：最下面那张最先放上去，所以它最老。"
+      },
+      {
+       "en": "Word Watch: super means \"above\". Position means \"where something is\".",
+       "zh": "词语小贴士：super 的意思是“在上面”，position 的意思是“位置”。"
+      }
+     ],
+     "visual": {
+      "type": "layers",
+      "layers": [
+       {
+        "label": {
+         "en": "layer 4",
+         "zh": "第 4 层"
+        },
+        "color": "#ffe8cc"
+       },
+       {
+        "label": {
+         "en": "layer 3",
+         "zh": "第 3 层"
+        },
+        "color": "#ffd8a8"
+       },
+       {
+        "label": {
+         "en": "layer 2",
+         "zh": "第 2 层"
+        },
+        "color": "#e9c46a"
+       },
+       {
+        "label": {
+         "en": "layer 1",
+         "zh": "第 1 层"
+        },
+        "color": "#c9a26b"
+       }
+      ],
+      "side": {
+       "top": {
+        "en": "youngest",
+        "zh": "最年轻"
+       },
+       "bottom": {
+        "en": "oldest",
+        "zh": "最老"
+       }
+      }
+     },
+     "remember": {
+      "en": "bottom layer = oldest, top layer = youngest",
+      "zh": "最下层 = 最老，最上层 = 最年轻"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain uniformitarianism and use superposition to say which rock layer is older.",
+    "zh": "我现在可以解释均变论，并用叠置原理判断哪一层岩石更老。"
+   }
+  },
+  {
+   "code": "S5",
+   "part": "S",
+   "title": {
+    "en": "Geologic Cross-Sections",
+    "zh": "地质剖面"
+   },
+   "slides": [
+    {
+     "icon": "🍰",
+     "title": {
+      "en": "What is a cross-section?",
+      "zh": "什么是剖面？"
+     },
+     "points": [
+      {
+       "en": "A geologic cross-section is a cutaway view of the rocks in one place, like cutting a layer cake to see inside.",
+       "zh": "地质剖面就是把一个地方的岩石切开看，就像切开千层蛋糕看里面。"
+      },
+      {
+       "en": "You can sometimes see cross-sections at road cuts, where a road is cut through a hill.",
+       "zh": "有时在路堑（公路穿过山丘切开的地方）能看到剖面。"
+      },
+      {
+       "en": "Geologic principles help us \"read\" the story in a cross-section.",
+       "zh": "地质原理帮助我们“读懂”剖面里的故事。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🍰",
+        "en": "layer cake",
+        "zh": "千层蛋糕"
+       },
+       {
+        "icon": "🛣️",
+        "en": "road cut",
+        "zh": "路堑"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌋",
+     "title": {
+      "en": "Cross-cutting relationships",
+      "zh": "切割关系原理"
+     },
+     "points": [
+      {
+       "en": "Magma is molten (melted) rock. It can move up through cracks and cut through sedimentary rock layers.",
+       "zh": "岩浆是熔化的岩石。它能沿着裂缝往上走，切穿沉积岩层。"
+      },
+      {
+       "en": "The principle of cross-cutting relationships: anything that cuts through layers is YOUNGER than all the layers it cuts.",
+       "zh": "切割关系原理：切穿岩层的东西，比它切穿的所有岩层都年轻。"
+      },
+      {
+       "en": "Why? The layers had to be there first before the magma could cut them.",
+       "zh": "为什么？岩层必须先存在，岩浆才能切穿它们。"
+      }
+     ],
+     "visual": {
+      "type": "layers",
+      "layers": [
+       {
+        "label": {
+         "en": "limestone",
+         "zh": "石灰岩"
+        },
+        "color": "#f1f3f5"
+       },
+       {
+        "label": {
+         "en": "sandstone",
+         "zh": "砂岩"
+        },
+        "color": "#ffe8cc"
+       },
+       {
+        "label": {
+         "en": "shale",
+         "zh": "页岩"
+        },
+        "color": "#868e96",
+        "dark": true
+       },
+       {
+        "label": {
+         "en": "oldest rock",
+         "zh": "最老的岩石"
+        },
+        "color": "#dee2e6",
+        "dots": true
+       }
+      ],
+      "cut": {
+       "x": 330,
+       "label": {
+        "en": "magma: youngest",
+        "zh": "岩浆：最年轻"
+       }
+      }
+     },
+     "remember": {
+      "en": "the cutter is younger than what it cuts",
+      "zh": "切穿别人的比被切穿的年轻"
+     }
+    },
+    {
+     "icon": "〰️",
+     "title": {
+      "en": "Unconformity",
+      "zh": "不整合"
+     },
+     "points": [
+      {
+       "en": "After layers form, uplift can raise them to Earth's surface, and erosion wears some of them away.",
+       "zh": "岩层形成后，抬升会把它们升到地表，侵蚀再磨掉一些。"
+      },
+      {
+       "en": "An unconformity is a place where rock layers are MISSING.",
+       "zh": "不整合就是岩层缺失的地方。"
+      },
+      {
+       "en": "The layers above an unconformity are a different kind of rock from the layers below it.",
+       "zh": "不整合上面的岩层和下面的岩层是不同种类的岩石。"
+      }
+     ],
+     "visual": {
+      "type": "layers",
+      "layers": [
+       {
+        "label": {
+         "en": "new layer",
+         "zh": "新岩层"
+        },
+        "color": "#ffe8cc"
+       },
+       {
+        "label": {
+         "en": "old layer",
+         "zh": "老岩层"
+        },
+        "color": "#c9a26b"
+       },
+       {
+        "label": {
+         "en": "older layer",
+         "zh": "更老的岩层"
+        },
+        "color": "#a87c4f",
+        "dark": true
+       }
+      ],
+      "gap": 0,
+      "gapLabel": {
+       "en": "unconformity: layers missing",
+       "zh": "不整合：岩层缺失"
+      }
+     },
+     "remember": {
+      "en": "unconformity = missing layers (a wavy line in diagrams)",
+      "zh": "不整合 = 缺失的岩层（图里常画成波浪线）"
+     }
+    },
+    {
+     "icon": "🕵️",
+     "title": {
+      "en": "Read the story, step by step",
+      "zh": "一步一步读懂故事"
+     },
+     "points": [
+      {
+       "en": "Step 1: start at the BOTTOM. The lowest layer is the oldest.",
+       "zh": "第 1 步：从最下面开始。最下面的岩层最老。"
+      },
+      {
+       "en": "Step 2: go UP one layer at a time. Each one is younger.",
+       "zh": "第 2 步：一层一层往上看，每一层都更年轻。"
+      },
+      {
+       "en": "Step 3: anything that CUTS through layers (like magma) is younger than those layers.",
+       "zh": "第 3 步：切穿岩层的东西（比如岩浆）比那些岩层年轻。"
+      },
+      {
+       "en": "Step 4: a wavy line means an unconformity: some layers are missing there.",
+       "zh": "第 4 步：波浪线表示不整合：那里缺了一些岩层。"
+      }
+     ],
+     "visual": {
+      "type": "layers",
+      "layers": [
+       {
+        "label": {
+         "en": "youngest layer",
+         "zh": "最年轻的层"
+        },
+        "color": "#ffe8cc"
+       },
+       {
+        "label": {
+         "en": "middle layer",
+         "zh": "中间层"
+        },
+        "color": "#e9c46a"
+       },
+       {
+        "label": {
+         "en": "oldest layer",
+         "zh": "最老的层"
+        },
+        "color": "#a87c4f",
+        "dark": true
+       }
+      ],
+      "gap": 0,
+      "gapLabel": {
+       "en": "unconformity",
+       "zh": "不整合"
+      },
+      "cut": {
+       "x": 420,
+       "label": {
+        "en": "magma",
+        "zh": "岩浆"
+       }
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now read a geologic cross-section: oldest at the bottom, cutters are younger, wavy line means missing layers.",
+    "zh": "我现在可以读懂地质剖面：最下面最老，切穿的更年轻，波浪线表示岩层缺失。"
+   }
+  },
+  {
+   "code": "S6",
+   "part": "S",
+   "title": {
+    "en": "The Ocean Floor",
+    "zh": "海底"
+   },
+   "slides": [
+    {
+     "icon": "🌊",
+     "title": {
+      "en": "The continental margin",
+      "zh": "大陆边缘"
+     },
+     "points": [
+      {
+       "en": "Continents do not stop at the shoreline. They continue under the sea. This part is the continental margin.",
+       "zh": "大陆并不在海岸线结束，它们在海下继续延伸。这部分叫大陆边缘。"
+      },
+      {
+       "en": "The continental margin has three parts: the continental shelf, the continental slope and the continental rise.",
+       "zh": "大陆边缘有三部分：大陆架、大陆坡和大陆隆。"
+      },
+      {
+       "en": "After the rise comes the deep, flat abyssal plain.",
+       "zh": "大陆隆之后是又深又平的深海平原。"
+      }
+     ],
+     "visual": {
+      "type": "seafloor",
+      "kind": "passive"
+     },
+     "remember": {
+      "en": "shelf, slope, rise, then the abyssal plain",
+      "zh": "大陆架、大陆坡、大陆隆，然后是深海平原"
+     }
+    },
+    {
+     "icon": "📐",
+     "title": {
+      "en": "Shelf, slope, rise, plain",
+      "zh": "大陆架、大陆坡、大陆隆、深海平原"
+     },
+     "points": [
+      {
+       "en": "Continental shelf: nearest the shore. It slopes gently and the water is up to about 150 to 200 meters deep.",
+       "zh": "大陆架：离海岸最近，坡度平缓，水深最多大约 150 到 200 米。"
+      },
+      {
+       "en": "Continental slope: where the land drops steeply, down to about 4000 meters deep. Deep submarine canyons cut into it. Rivers most likely carved them.",
+       "zh": "大陆坡：海底陡峭地往下降，深到大约 4000 米。深深的海底峡谷切进大陆坡，很可能是河流刻出来的。"
+      },
+      {
+       "en": "Continental rise: at the bottom of the slope, the margin levels out. It is covered by sediment that drifted down from the shelf and slope.",
+       "zh": "大陆隆：在大陆坡底部，海底变平缓，上面盖着从大陆架和大陆坡飘下来的沉积物。"
+      },
+      {
+       "en": "Abyssal plain: the deep, flat ocean floor after the rise.",
+       "zh": "深海平原：大陆隆之后又深又平的海底。"
+      }
+     ],
+     "remember": {
+      "en": "shelf = gentle, slope = steep, rise = sediment",
+      "zh": "大陆架 = 平缓，大陆坡 = 陡峭，大陆隆 = 沉积物"
+     }
+    },
+    {
+     "icon": "🟦",
+     "title": {
+      "en": "Passive margin",
+      "zh": "被动大陆边缘"
+     },
+     "points": [
+      {
+       "en": "A passive margin has NO plate boundary near it. Example: the east coast of North America.",
+       "zh": "被动大陆边缘附近没有板块边界。例子：北美洲东海岸。"
+      },
+      {
+       "en": "Passive margins have WIDE continental shelves that reach 100 kilometers or more into the ocean before dropping off at the continental slope.",
+       "zh": "被动大陆边缘的大陆架很宽，向海里延伸 100 千米或更远，才到大陆坡。"
+      }
+     ],
+     "visual": {
+      "type": "seafloor",
+      "kind": "passive"
+     },
+     "remember": {
+      "en": "passive = no plate boundary = wide shelf",
+      "zh": "被动 = 没有板块边界 = 宽大陆架"
+     }
+    },
+    {
+     "icon": "🌋",
+     "title": {
+      "en": "Active margin",
+      "zh": "主动大陆边缘"
+     },
+     "points": [
+      {
+       "en": "An active margin HAS plate boundaries near it. Example: the west coast of North America.",
+       "zh": "主动大陆边缘附近有板块边界。例子：北美洲西海岸。"
+      },
+      {
+       "en": "Active margins have NARROW shelves, only about 50 kilometers or less.",
+       "zh": "主动大陆边缘的大陆架很窄，只有大约 50 千米或更短。"
+      },
+      {
+       "en": "They often have deep-sea trenches, the lowest places on Earth. Trenches form at convergent plate boundaries, where heavier (denser) ocean crust dives under continental crust.",
+       "zh": "那里常有深海海沟，是地球上最低的地方。海沟在汇聚板块边界形成，较重（密度更大）的海洋地壳钻到大陆地壳下面。"
+      },
+      {
+       "en": "Volcanoes and earthquakes are common on land near an active margin.",
+       "zh": "主动大陆边缘附近的陆地上常有火山和地震。"
+      }
+     ],
+     "visual": {
+      "type": "seafloor",
+      "kind": "active"
+     },
+     "remember": {
+      "en": "active = plate boundary = narrow shelf + trench + volcanoes",
+      "zh": "主动 = 有板块边界 = 窄大陆架 + 海沟 + 火山"
+     }
+    },
+    {
+     "icon": "🏔️",
+     "title": {
+      "en": "Mid-ocean ridges",
+      "zh": "大洋中脊"
+     },
+     "points": [
+      {
+       "en": "Mid-ocean ridges are long mountain chains that snake through Earth's oceans.",
+       "zh": "大洋中脊是在地球海洋里蜿蜒的长长山脉。"
+      },
+      {
+       "en": "Together they are Earth's longest continuous mountain range, about 60,000 kilometers long.",
+       "zh": "它们连在一起是地球上最长的连续山脉，大约 60,000 千米长。"
+      },
+      {
+       "en": "They form at DIVERGENT boundaries, where plates move apart. Converge = come together. Diverge = move apart.",
+       "zh": "它们在离散板块边界形成，也就是板块分开的地方。converge = 靠拢，diverge = 分开。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "➡️⬅️",
+        "en": "convergent: plates come together (trench)",
+        "zh": "汇聚：板块靠拢（海沟）"
+       },
+       {
+        "icon": "⬅️➡️",
+        "en": "divergent: plates move apart (ridge)",
+        "zh": "离散：板块分开（洋中脊）"
+       }
+      ]
+     },
+     "remember": {
+      "en": "trench = convergent, ridge = divergent",
+      "zh": "海沟 = 汇聚，洋中脊 = 离散"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now label the ocean floor and explain passive and active margins, trenches and ridges.",
+    "zh": "我现在可以标出海底各部分，并解释被动和主动大陆边缘、海沟和洋中脊。"
+   }
+  },
+  {
+   "code": "E1",
+   "part": "E",
+   "title": {
+    "en": "Usage: Choosing the Right Word",
+    "zh": "用法：选对词"
+   },
+   "slides": [
+    {
+     "icon": "🎒",
+     "title": {
+      "en": "bring or take?",
+      "zh": "bring 还是 take？"
+     },
+     "points": [
+      {
+       "en": "BRING means carry something TOWARD the speaker (to here). Please bring me that game.",
+       "zh": "bring 是把东西拿到说话人这里来。Please bring me that game.（请把那个游戏拿给我。）"
+      },
+      {
+       "en": "TAKE means carry something AWAY (to there). Take these flowers home with you.",
+       "zh": "take 是把东西拿走、带到别处去。Take these flowers home with you.（把这些花带回家。）"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "➡️🙋‍♀️",
+        "en": "bring = to me",
+        "zh": "bring = 拿过来"
+       },
+       {
+        "icon": "🙋‍♀️➡️",
+        "en": "take = away from me",
+        "zh": "take = 拿走"
+       }
+      ]
+     },
+     "remember": {
+      "en": "bring = here, take = there",
+      "zh": "bring = 拿来这里，take = 拿去那里"
+     }
+    },
+    {
+     "icon": "🔢",
+     "title": {
+      "en": "fewer or less? than or then?",
+      "zh": "fewer 还是 less？than 还是 then？"
+     },
+     "points": [
+      {
+       "en": "FEWER is for things you can COUNT: fewer people, fewer apples. LESS is for things you cannot count: less water, less time.",
+       "zh": "fewer 用于能数的东西：fewer people。less 用于不能数的东西：less water。"
+      },
+      {
+       "en": "THAN compares two things: taller than Tom. THEN tells WHEN: we ate, then we swam.",
+       "zh": "than 用来比较：taller than Tom。then 表示时间“然后”：we ate, then we swam。"
+      }
+     ],
+     "remember": {
+      "en": "count it = fewer; compare = than",
+      "zh": "能数 = fewer；比较 = than"
+     }
+    },
+    {
+     "icon": "✅",
+     "title": {
+      "en": "accept or except? already or all ready?",
+      "zh": "accept 还是 except？already 还是 all ready？"
+     },
+     "points": [
+      {
+       "en": "ACCEPT means to say yes and take something: accept a gift. EXCEPT means \"but not\": everyone except me.",
+       "zh": "accept 是接受：accept a gift。except 是“除了”：everyone except me。"
+      },
+      {
+       "en": "ALREADY means \"before now\": she already knew. ALL READY means \"everyone or everything is ready\": we are all ready to go.",
+       "zh": "already 是“已经”：she already knew。all ready 是“全都准备好了”：we are all ready to go。"
+      },
+      {
+       "en": "BETWEEN is for two things. AMONG is for three or more.",
+       "zh": "between 用于两者之间，among 用于三个或更多之间。"
+      }
+     ],
+     "remember": {
+      "en": "between 2, among 3 or more",
+      "zh": "between 两者之间，among 三者以上"
+     }
+    },
+    {
+     "icon": "🚫",
+     "title": {
+      "en": "Words to avoid in writing",
+      "zh": "写作时要避免的说法"
+     },
+     "points": [
+      {
+       "en": "would OF → would HAVE (also could have, should have)",
+       "zh": "would of → would have（could have、should have 也一样）"
+      },
+      {
+       "en": "had ought → ought; sort of mysterious → rather mysterious; how come → why",
+       "zh": "had ought → ought；sort of → rather；how come → why"
+      },
+      {
+       "en": "try and → try to; ain't → isn't; alot → a lot; allright → all right",
+       "zh": "try and → try to；ain't → isn't；alot → a lot；allright → all right"
+      },
+      {
+       "en": "somewheres, anywheres, a long ways → somewhere, anywhere, a long way",
+       "zh": "somewheres、anywheres、a long ways → somewhere、anywhere、a long way"
+      },
+      {
+       "en": "the story where it explained → the story that explained; where it was at → where it was",
+       "zh": "the story where it explained → the story that explained；where it was at → where it was"
+      }
+     ],
+     "remember": {
+      "en": "If it sounds like chatting, check it before you write it.",
+      "zh": "听起来像聊天的说法，写之前先检查。"
+     }
+    },
+    {
+     "icon": "👩‍🏫",
+     "title": {
+      "en": "teach or learn?",
+      "zh": "teach 还是 learn？"
+     },
+     "points": [
+      {
+       "en": "TEACH means to show someone else how: Mrs. Brown teaches her students.",
+       "zh": "teach 是教别人：Mrs. Brown teaches her students。"
+      },
+      {
+       "en": "LEARN means to get the knowledge yourself: the students learn the basics.",
+       "zh": "learn 是自己学会：the students learn the basics。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "👩‍🏫",
+        "en": "teacher teaches",
+        "zh": "老师教"
+       },
+       {
+        "icon": "🧒",
+        "en": "student learns",
+        "zh": "学生学"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose the correct word: bring or take, fewer or less, than or then, and more.",
+    "zh": "我现在可以选对词：bring 或 take、fewer 或 less、than 或 then 等。"
+   }
+  },
+  {
+   "code": "E2",
+   "part": "E",
+   "title": {
+    "en": "Proofreading: Sound-Alike Words",
+    "zh": "校对：读音相同的词"
+   },
+   "slides": [
+    {
+     "icon": "🔍",
+     "title": {
+      "en": "The \"say it in full\" test",
+      "zh": "“展开说”检查法"
+     },
+     "points": [
+      {
+       "en": "Some words sound the same but mean different things. Test: say the long form.",
+       "zh": "有些词读音一样，意思不同。检查方法：把缩写展开说。"
+      },
+      {
+       "en": "you're = you are. your = belongs to you. \"You are ordinary bear\" makes no sense, so write YOUR ordinary bear.",
+       "zh": "you're = you are；your = 你的。“You are ordinary bear”说不通，所以写 your ordinary bear。"
+      },
+      {
+       "en": "they're = they are. their = belongs to them. there = a place.",
+       "zh": "they're = they are；their = 他们的；there = 那里。"
+      },
+      {
+       "en": "it's = it is. its = belongs to it. who's = who is. whose = belongs to whom.",
+       "zh": "it's = it is；its = 它的；who's = who is；whose = 谁的。"
+      }
+     ],
+     "remember": {
+      "en": "If \"it is\" fits, write it's. If not, write its.",
+      "zh": "能换成 it is 就写 it's，不能就写 its。"
+     }
+    },
+    {
+     "icon": "🐼",
+     "title": {
+      "en": "More usage fixes",
+      "zh": "更多用法改错"
+     },
+     "points": [
+      {
+       "en": "USED TO (past habit): it used to be a myth. But \"a thumb they USE TO strip leaves\" is correct (use it to do something).",
+       "zh": "used to（过去常常）：it used to be a myth。但 a thumb they use to strip leaves 是对的（用它来做事）。"
+      },
+      {
+       "en": "AN before a vowel sound: an adult, an apple. A before other sounds: a panda.",
+       "zh": "元音音素前用 an：an adult、an apple；其他用 a：a panda。"
+      },
+      {
+       "en": "off of → off: strip the leaves off the bamboo. this here thumb → this thumb.",
+       "zh": "off of → off：strip the leaves off the bamboo。this here thumb → this thumb。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🐼",
+        "en": "an adult panda",
+        "zh": "一只成年熊猫"
+       },
+       {
+        "icon": "🎋",
+        "en": "off the bamboo",
+        "zh": "从竹子上"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now find and fix sound-alike mistakes like your/you're, their/there and its/it's.",
+    "zh": "我现在可以找出并改正 your/you're、their/there、its/it's 这类错误。"
+   }
+  },
+  {
+   "code": "E3",
+   "part": "E",
+   "title": {
+    "en": "Writing a Flyer",
+    "zh": "写一张宣传单"
+   },
+   "slides": [
+    {
+     "icon": "📣",
+     "title": {
+      "en": "What is a flyer?",
+      "zh": "什么是宣传单？"
+     },
+     "points": [
+      {
+       "en": "A flyer is one page that tells people about an event so they want to come.",
+       "zh": "宣传单是一页纸，介绍一个活动，让人们想来参加。"
+      },
+      {
+       "en": "It must say WHAT the event is, WHEN (date and time), WHERE, and the ACTIVITIES.",
+       "zh": "一定要写清楚：什么活动、什么时候（日期和时间）、在哪里、有什么活动项目。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🎪",
+        "en": "what",
+        "zh": "什么活动"
+       },
+       {
+        "icon": "📅",
+        "en": "date and time",
+        "zh": "日期和时间"
+       },
+       {
+        "icon": "📍",
+        "en": "where",
+        "zh": "在哪里"
+       },
+       {
+        "icon": "🎠",
+        "en": "activities",
+        "zh": "活动项目"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "✍️",
+     "title": {
+      "en": "Plan, write, check",
+      "zh": "计划、写、检查"
+     },
+     "points": [
+      {
+       "en": "Step 1: plan. Write the event name, date, time, place and 3 or 4 activities.",
+       "zh": "第 1 步：计划。写下活动名称、日期、时间、地点和 3 到 4 个活动项目。"
+      },
+      {
+       "en": "Step 2: write short, friendly sentences. Use the usage words correctly (a lot, there, their, an, ought to, fewer, than, all right...).",
+       "zh": "第 2 步：写简短友好的句子，正确使用学过的用法词（a lot、there、their、an、ought to、fewer、than、all right……）。"
+      },
+      {
+       "en": "Step 3: underline at least 10 usage examples. Check capital letters and full stops.",
+       "zh": "第 3 步：至少划出 10 个用法例子。检查大写字母和句号。"
+      }
+     ],
+     "remember": {
+      "en": "what, when, where, activities + 10 underlined usage words",
+      "zh": "什么、何时、何地、活动 + 10 个划线的用法词"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now plan and write a flyer with the date, time, activities and correct usage words.",
+    "zh": "我现在可以计划并写一张有日期、时间、活动和正确用法词的宣传单。"
+   }
+  },
+  {
+   "code": "M1",
+   "part": "M",
+   "title": {
+    "en": "Undo It! × and ÷ Equations",
+    "zh": "做相反运算！乘除方程"
+   },
+   "slides": [
+    {
+     "icon": "⚖️",
+     "title": {
+      "en": "An equation is a balance",
+      "zh": "方程就像天平"
+     },
+     "points": [
+      {
+       "en": "An equation has two sides that are equal, like a balance scale that stays level.",
+       "zh": "方程两边相等，就像一个保持平衡的天平。"
+      },
+      {
+       "en": "Whatever you do to one side, you MUST do to the other side.",
+       "zh": "一边做什么，另一边也必须做同样的事。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "⚖️",
+        "en": "both sides stay level",
+        "zh": "两边保持平衡"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔄",
+     "title": {
+      "en": "Do the opposite",
+      "zh": "做相反运算"
+     },
+     "points": [
+      {
+       "en": "× is undone by ÷. ÷ is undone by ×.",
+       "zh": "× 用 ÷ 抵消，÷ 用 × 抵消。"
+      },
+      {
+       "en": "6m means 6 × m. So to undo it, divide both sides by 6.",
+       "zh": "6m 就是 6 × m，所以两边同时除以 6 来抵消。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "× ↔ ÷",
+       "zh": "× ↔ ÷"
+      },
+      "example": {
+       "en": "n ÷ 4 = 9, so n = 9 × 4 = 36",
+       "zh": "n ÷ 4 = 9，所以 n = 9 × 4 = 36"
+      }
+     }
+    },
+    {
+     "icon": "🪜",
+     "title": {
+      "en": "Worked example: 6m = 42",
+      "zh": "例题：6m = 42"
+     },
+     "points": [
+      {
+       "en": "Step 1: what is happening to m? It is MULTIPLIED by 6.",
+       "zh": "第 1 步：m 怎么了？它被乘以 6。"
+      },
+      {
+       "en": "Step 2: do the opposite to both sides: 42 ÷ 6 = 7.",
+       "zh": "第 2 步：两边做相反运算：42 ÷ 6 = 7。"
+      },
+      {
+       "en": "Step 3: finish the answer as letter = number: m = 7.",
+       "zh": "第 3 步：答案写成“字母 = 数字”：m = 7。"
+      },
+      {
+       "en": "Step 4: check it! 6 × 7 = 42. ✓",
+       "zh": "第 4 步：检查！6 × 7 = 42 ✓"
+      }
+     ],
+     "remember": {
+      "en": "Always finish: m = 7, not 42 ÷ 6",
+      "zh": "答案要写完整：m = 7，不是 42 ÷ 6"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve × and ÷ equations and check my answer.",
+    "zh": "我现在可以解乘除方程并检查答案。"
+   }
+  },
+  {
+   "code": "M2",
+   "part": "M",
+   "title": {
+    "en": "Fraction Equations with a Bar Model",
+    "zh": "用线段图解分数方程"
+   },
+   "slides": [
+    {
+     "icon": "📊",
+     "title": {
+      "en": "Worked example: 3/5 s = 9",
+      "zh": "例题：3/5 s = 9"
+     },
+     "points": [
+      {
+       "en": "Step 1: 3/5 s means 3 out of 5 equal parts of s is 9. Draw s and cut it into 5 equal parts.",
+       "zh": "第 1 步：3/5 s 的意思是 s 的 5 等份里的 3 份是 9。画出 s，分成 5 等份。"
+      },
+      {
+       "en": "Step 2: 3 parts = 9, so 1 part = 9 ÷ 3 = 3.",
+       "zh": "第 2 步：3 份 = 9，所以 1 份 = 9 ÷ 3 = 3。"
+      },
+      {
+       "en": "Step 3: s is ALL 5 parts: s = 5 × 3 = 15.",
+       "zh": "第 3 步：s 是全部 5 份：s = 5 × 3 = 15。"
+      },
+      {
+       "en": "Step 4: check it! 3/5 of 15 = 9. ✓",
+       "zh": "第 4 步：检查！15 的 3/5 = 9 ✓"
+      }
+     ],
+     "visual": {
+      "type": "bar",
+      "parts": 5,
+      "shaded": 3,
+      "fill": "3",
+      "label": "s = 5 parts"
+     },
+     "remember": {
+      "en": "divide by the TOP number, then multiply by the BOTTOM number",
+      "zh": "先除以分子，再乘以分母"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve fraction equations with a bar model.",
+    "zh": "我现在可以用线段图解分数方程。"
+   }
+  }
+ ]
+}

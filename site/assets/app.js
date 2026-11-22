@@ -149,18 +149,32 @@
     return voices.filter(function (v) { return norm(v.lang) === want; })[0] ||
       voices.filter(function (v) { return /^en-/.test(norm(v.lang)); })[0] || null;
   }
+  /* Play and stop: pressing the same 🔊 button again stops it, and a big ⏹ Stop button shows while audio plays. */
+  var speaking = null, stopBar = null;
+  function showStop(on) {
+    if (!stopBar) {
+      stopBar = h('button', { class: 'stopbar hidden', 'aria-label': 'Stop audio', onclick: function () { stopSpeech(); } });
+      document.body.appendChild(stopBar);
+    }
+    stopBar.textContent = '⏹ ' + ((bilingual() && S.lang === 'zh') ? '停止 Stop' : 'Stop');
+    stopBar.classList.toggle('hidden', !on);
+  }
   function say(text, slow) {
     if (!window.speechSynthesis) return;
     try {
+      if (speaking === text + (slow ? '#slow' : '') && (speechSynthesis.speaking || speechSynthesis.pending)) { stopSpeech(); return; }
       speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
       var v = pickVoice();
       if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-GB';
       u.rate = slow ? 0.5 : 0.9;
+      var me = speaking = text + (slow ? '#slow' : '');
+      u.onend = u.onerror = function () { if (speaking === me) { speaking = null; showStop(false); } };
       speechSynthesis.speak(u);
+      showStop(true);
     } catch (e) { /* no speech on this device */ }
   }
-  function stopSpeech() { try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {} }
+  function stopSpeech() { speaking = null; try { if (window.speechSynthesis) speechSynthesis.cancel(); } catch (e) {} if (stopBar) showStop(false); }
 
   /* ---------------- scores ---------------- */
   var QKEY = key('scoreQueue');
@@ -271,6 +285,7 @@
     }
     if (parts[0] === 'log') return renderLog();
     if (parts[0] === 'book') return renderBook(parts[1]);
+    if (parts[0] === 'subject') return renderSubject(parts[1]);
     if (parts[0] === 'school') return renderSchool(parts[1]);
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
@@ -327,7 +342,61 @@
       h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Main Book', '主课本')), h('span', { class: 'fsub' }, L('Learn every key word, step by step', '一步一步学会每个关键词')))) : null;
     var schoolBtn = S.student.schoolHomework ? h('a', { class: 'feature school', href: '#/school' }, h('span', { class: 'fico' }, '🏫'),
       h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('School Homework', '学校作业')), h('span', { class: 'fsub' }, L('Learn it together, then copy onto paper', '一起学，再抄到作业纸上')))) : null;
-    show(h('div', { class: 'feature-row' }, bookBtn, schoolBtn), thisWeek, anytime, past);
+    /* Students with "subjects" in student.json get one big button per subject first. */
+    var subjects = S.student.subjects ? h('div', { class: 'subject-row' }, S.student.subjects.map(function (sb) {
+      return h('a', { class: 'feature subject', href: '#/subject/' + sb.id }, h('span', { class: 'fico' }, sb.icon || '📚'),
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, tx(sb.title)), sb.sub ? h('span', { class: 'fsub' }, tx(sb.sub)) : null));
+    })) : null;
+    show(subjects, h('div', { class: 'feature-row' }, bookBtn, schoolBtn), thisWeek, anytime, past);
+  }
+
+  /* One subject: School Homework, Homework, Homework Review, Main Book, then practice. Activities, sheets,
+     reviews and chapters belong to a subject through "part" (the same letter as the Main Book part). */
+  function renderSubject(id) {
+    var sb = (S.student.subjects || []).filter(function (x) { return x.id === id; })[0];
+    if (!sb) return renderError();
+    show(backLink(), h('p', { class: 'muted' }, '…'));
+    var ids = weekIds();
+    Promise.all([Promise.all(ids.map(loadWeek)),
+      S.student.mainBook ? loadBook().catch(function () { return null; }) : null,
+      S.student.schoolHomework ? loadSchool().catch(function () { return null; }) : null]).then(function (res) {
+      var weeks = res[0], book = res[1], school = res[2], blocks = [];
+      function head(icon, en, zh) { return h('h2', { class: 'section-title subject-part' }, icon + ' ' + L(en, zh)); }
+      function feat(cls, icon, title, sub, href) {
+        return h('a', { class: 'feature ' + cls, href: href }, h('span', { class: 'fico' }, icon),
+          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, title), sub ? h('span', { class: 'fsub' }, sub) : null));
+      }
+      var sheets = school ? school.sheets.filter(function (x) { return x.part === id; }) : [];
+      if (sheets.length) blocks.push(head('🏫', 'School Homework', '学校作业'), sheets.map(function (x) {
+        var d = sheetDone(x.id);
+        return feat('school', x.icon || '📄', tx(x.title), x.items.length + ' ' + L('questions', '题') + (d ? '  ·  ✅ ' + L('Done', '完成') : ''), '#/school/' + x.id);
+      }));
+      var newest = weeks[0], mine = function (w, aid) { var a = (w.activities || []).filter(function (x) { return x.id === aid; })[0]; return a && a.part === id; };
+      var hwDays = newest ? (newest.days || []).filter(function (d) { return d.kind === 'homework' && (d.activities || []).some(function (aid) { return mine(newest, aid); }); }) : [];
+      if (hwDays.length) blocks.push(head('🏠', 'Homework', '作业'), hwDays.map(function (d) {
+        return feat('homework', '🏠', L('Homework', '作业') + ': ' + dayLabel(d.date), tx(d.title), '#/w/' + newest.week + '/day/' + d.date);
+      }));
+      var revs = [];
+      weeks.forEach(function (w) { (w.reviews || []).forEach(function (r) { if (r.part === id) revs.push({ r: r, w: w }); }); });
+      if (revs.length) blocks.push(head('📋', 'Homework Review', '作业讲评'), revs.map(function (x) {
+        var sc = selfScore(x.r);
+        return feat('review', '📝', dayLabel(x.r.date) + ': ' + tx(x.r.title), reviewItems(x.r).length + ' ' + L('questions', '道题') + (sc ? '  ·  ✅ ' + sc.right + ' / ' + sc.total : ''), '#/w/' + x.w.week + '/review/' + x.r.id);
+      }));
+      var chs = book ? book.chapters.filter(function (c) { return c.part === id; }) : [];
+      if (chs.length) blocks.push(head('📖', 'Main Book', '主课本'), h('div', { class: 'card' }, chs.map(function (c) {
+        var soon = !c.slides || !c.slides.length;
+        return h(soon ? 'div' : 'a', { class: 'list-link' + (soon ? ' muted' : ''), href: soon ? null : '#/book/' + c.code },
+          h('span', null, c.code + '  ' + tx(c.title)), h('span', { class: 'small' }, soon ? L('Coming soon', '即将推出') : c.slides.length + ' ' + L('pages', '页') + ' →'));
+      })));
+      weeks.forEach(function (w, k) {
+        var acts = (w.activities || []).filter(function (a) { return a.part === id && a.type !== 'hwquiz'; });
+        if (!acts.length) return;
+        blocks.push(head(k === 0 ? '📘' : '📚', k === 0 ? 'Workbook practice' : 'Earlier practice: ' + weekLabel(w.week), k === 0 ? '练习册练习' : '以前的练习：' + weekLabel(w.week)),
+          h('div', { class: 'tiles' }, acts.map(function (a) { return actTile(w, a.id); })));
+      });
+      if (!blocks.length) blocks.push(h('div', { class: 'card empty' }, L('Nothing here yet. Roy will add it soon.', '这里还没有内容，Roy 老师很快会添加。')));
+      show(backLink(), h('h1', null, (sb.icon || '📚') + ' ' + tx(sb.title)), blocks);
+    }).catch(renderError);
   }
   function renderWeek(w) { show(backLink(), weekBlock(w)); }
 
@@ -1191,6 +1260,73 @@
   };
   VIS.formula = function (v) {
     return h('div', { class: 'formula' }, h('div', { class: 'formula-main' }, bi(v.main, true)), v.example ? h('div', { class: 'formula-ex' }, bi(v.example, true)) : null);
+  };
+  /* Layers from top to bottom (soil horizons, rock layers). Optional: side arrow (younger/older),
+     a magma "cut" going up through the layers, and a wavy "gap" line (unconformity) under one layer. */
+  VIS.layers = function (v) {
+    var Ls = v.layers || [], LH = v.height || 58, W = 640, top = 16, x0 = 20, x1 = v.side ? 470 : 620;
+    var H = top + Ls.length * LH + 16;
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'layers' });
+    Ls.forEach(function (ly, k) {
+      var y = top + k * LH;
+      svg.appendChild(sv('rect', { x: x0, y: y, width: x1 - x0, height: LH, fill: ly.color || '#e9ecef', stroke: '#1b2a6b', 'stroke-width': 2 }));
+      if (ly.dots) for (var d = 0; d < 12; d++) svg.appendChild(sv('circle', { cx: x0 + 300 + ((d * 37) % (x1 - x0 - 320)), cy: y + 12 + ((d * 17) % (LH - 22)), r: 5 + (d % 3) * 2, fill: '#868e96', stroke: '#495057' }));
+      svg.appendChild(label(x0 + 14, y + LH / 2 + 7, tx(ly.label), { anchor: 'start', size: 19, color: ly.dark ? '#fff' : '#1b2a6b' }));
+    });
+    if (v.gap != null) {
+      var gy = top + (v.gap + 1) * LH, d = '';
+      for (var x = x0; x <= x1; x += 10) d += (x === x0 ? 'M' : 'L') + x + ',' + (gy + (x / 10 % 2 ? -5 : 5)) + ' ';
+      svg.appendChild(sv('path', { d: d, fill: 'none', stroke: '#c92a2a', 'stroke-width': 4 }));
+      if (v.gapLabel) svg.appendChild(label(x1 - 8, gy - 10, tx(v.gapLabel), { anchor: 'end', size: 17, color: '#c92a2a' }));
+    }
+    if (v.cut) {
+      var cx = v.cut.x || 300;
+      svg.appendChild(sv('rect', { x: cx - 16, y: top, width: 32, height: Ls.length * LH, fill: '#f76707', stroke: '#c92a2a', 'stroke-width': 2, opacity: .9 }));
+      svg.appendChild(label(cx + 26, top + 24, tx(v.cut.label), { anchor: 'start', size: 17, color: '#c92a2a' }));
+    }
+    if (v.side) {
+      var a = arrowDefs('#1b2a6b'); svg.insertBefore(a.defs, svg.firstChild);
+      svg.appendChild(sv('line', { x1: 540, y1: H - 24, x2: 540, y2: top + 26, stroke: '#1b2a6b', 'stroke-width': 4, 'marker-end': a.url }));
+      svg.appendChild(label(540, top + 16, tx(v.side.top), { size: 17 }));
+      svg.appendChild(label(540, H - 4, tx(v.side.bottom), { size: 17 }));
+    }
+    return svg;
+  };
+  /* Ocean floor profile from the beach out to the deep ocean: shelf, slope, rise, abyssal plain (and a trench for an active margin). */
+  VIS.seafloor = function (v) {
+    var active = v.kind === 'active', W = 640, H = 300, sea = 70;
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'ocean floor' });
+    var shelfEnd = active ? 150 : 250;
+    var floor = active
+      ? 'M0,40 L60,70 L' + shelfEnd + ',95 L210,215 L250,280 L290,215 L330,235 L640,240'
+      : 'M0,40 L60,70 L' + shelfEnd + ',100 L330,205 L420,235 L640,245';
+    svg.appendChild(sv('rect', { x: 0, y: sea, width: W, height: H - sea, fill: '#d0ebff' }));
+    svg.appendChild(sv('path', { d: floor + ' L640,300 L0,300 Z', fill: '#c9a26b', stroke: '#7a5c2e', 'stroke-width': 3 }));
+    svg.appendChild(sv('line', { x1: 0, y1: sea, x2: W, y2: sea, stroke: '#1c7ed6', 'stroke-width': 3 }));
+    svg.appendChild(label(20, 30, L('land', '陆地'), { anchor: 'start', size: 17 }));
+    svg.appendChild(label(W - 10, sea - 8, L('sea level', '海平面'), { anchor: 'end', size: 16, color: '#1c7ed6' }));
+    var labs = active
+      ? [[105, 125, L('narrow shelf', '窄大陆架')], [170, 170, L('slope', '大陆坡')], [250, 268, L('trench', '海沟')], [480, 228, L('abyssal plain', '深海平原')]]
+      : [[150, 128, L('wide shelf', '宽大陆架')], [300, 165, L('slope', '大陆坡')], [390, 215, L('rise', '大陆隆')], [530, 232, L('abyssal plain', '深海平原')]];
+    labs.forEach(function (lb) { svg.appendChild(label(lb[0], lb[1], lb[2], { size: 17, color: lb[2] === L('trench', '海沟') ? '#c92a2a' : '#1b2a6b' })); });
+    if (active) svg.appendChild(label(40, 62, '🌋', { size: 26 }));
+    return svg;
+  };
+  /* Bar model picture for fraction equations, same as in Guided Answers. */
+  VIS.bar = function (v) { return barModel(v); };
+  /* A divide: rain falls on the high land and runs down one side or the other. */
+  VIS.divide = function (v) {
+    var W = 640, H = 260, a = arrowDefs('#1c7ed6');
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'divide' }, a.defs);
+    svg.appendChild(sv('path', { d: 'M40,230 L320,50 L600,230 Z', fill: '#8ce99a', stroke: '#2b8a3e', 'stroke-width': 3 }));
+    svg.appendChild(sv('line', { x1: 320, y1: 20, x2: 320, y2: 60, stroke: '#c92a2a', 'stroke-width': 4, 'stroke-dasharray': '6 5' }));
+    svg.appendChild(label(320, 16 + 0, '🌧️', { size: 22 }));
+    svg.appendChild(label(320, 85, tx(v.top || { en: 'divide (high land)', zh: '分水岭（高地）' }), { size: 17, color: '#c92a2a' }));
+    svg.appendChild(sv('path', { d: 'M300,90 L130,200', stroke: '#1c7ed6', 'stroke-width': 5, fill: 'none', 'marker-end': a.url }));
+    svg.appendChild(sv('path', { d: 'M340,90 L510,200', stroke: '#1c7ed6', 'stroke-width': 5, fill: 'none', 'marker-end': a.url }));
+    svg.appendChild(label(130, 252, tx(v.left), { size: 17 }));
+    svg.appendChild(label(510, 252, tx(v.right), { size: 17 }));
+    return svg;
   };
   /* Wave explorer: sliders for amplitude (loudness) and frequency (pitch), with a real sound. */
   VIS.explorer = function () {
