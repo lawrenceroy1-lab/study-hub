@@ -238,6 +238,28 @@ for student_dir in sorted(p for p in DATA.iterdir() if p.is_dir()):
                 if len({p["a"] for p in a["pairs"]}) != len(a["pairs"]): bad(where, "duplicate match terms")
             elif t == "flashcards":
                 if st.get("bilingual") and any(not c.get("zh") for c in a["cards"]): bad(where, "flashcard missing Chinese on the back")
+            elif t == "lesson":
+                if not a.get("slides"): bad(where, "lesson has no slides")
+            elif t == "fillblank":
+                bank = {w.lower() for w in a.get("bank", [])}
+                for i, it in enumerate(a.get("items", [])):
+                    if it["text"].count("___") != 1: bad(where, f"item {i+1} needs exactly one ___ blank")
+                    if it["answer"].lower() not in bank: bad(where, f"item {i+1} answer '{it['answer']}' is not in the word bank")
+        # workbook days and homework reviews must point at real activities and be complete
+        for day in d.get("days", []):
+            for aid in day.get("activities", []):
+                if aid not in ids: bad(f"{f.relative_to(ROOT)} day {day.get('date')}", f"activity '{aid}' does not exist")
+        for r in d.get("reviews", []):
+            rw = f"{f.relative_to(ROOT)} review {r.get('id')}"
+            for aid in r.get("practice", []):
+                if aid not in ids: bad(rw, f"practice activity '{aid}' does not exist")
+            for pg in r.get("pages", []):
+                for it in pg.get("items", []):
+                    w2 = f"{rw} {it.get('n')}"
+                    if not it.get("q") or not it.get("right"): bad(w2, "needs a question and the right answer")
+                    if "ok" not in it: bad(w2, "needs ok: true or false")
+                    if not it.get("why"): bad(w2, "needs a short WHY")
+                    if it.get("ok") is False and not it.get("whyWrong") and not it.get("check"): bad(w2, "wrong answer needs whyWrong (why it is not right)")
 
 # every HTML page must have noindex; no em dashes in site code text
 for html in SITE.rglob("*.html"):

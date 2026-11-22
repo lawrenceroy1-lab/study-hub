@@ -78,7 +78,7 @@
       accFirst: 'Get the answers right first. Then go for speed!', spellingBank: 'All my spelling words', cardsBank: 'All my key words',
       noWeek: 'Your teacher will add this week soon.', loadError: 'Sorry, this page could not load. Check your internet and try again.',
       typeHere: 'Type the word here', saved: 'Your score is saved.', week: 'Week', firstTry: 'right first time',
-      groups: 'Choose a list'
+      groups: 'Choose a list', hwReview: 'Homework Review', hwLog: 'Homework Log', workbook: 'Workbook', morePractice: 'More practice'
     },
     zh: {
       hi: '你好，{n}！', thisWeek: '本周', anytime: '随时练习', past: '以前的周', print: '打印本周',
@@ -99,7 +99,7 @@
       accFirst: '先做对，再做快！', spellingBank: '我所有的拼写词', cardsBank: '我所有的关键词',
       noWeek: '老师很快会添加本周内容。', loadError: '对不起，页面没有打开。请检查网络再试一次。',
       typeHere: '在这里输入单词', saved: '你的成绩已保存。', week: '周', firstTry: '第一次就对',
-      groups: '选择单词表'
+      groups: '选择单词表', hwReview: '作业讲评', hwLog: '作业记录', workbook: '练习册', morePractice: '更多练习'
     }
   };
   function bilingual() { return !!(S.student && S.student.bilingual); }
@@ -229,7 +229,7 @@
   }
 
   /* ---------------- frame + router ---------------- */
-  var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮' };
+  var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮', lesson: '📽️', fillblank: '✍️' };
 
   function frame() {
     document.body.appendChild(h('header', { class: 'topbar' },
@@ -263,9 +263,13 @@
     window.scrollTo(0, 0);
     if (parts[0] === 'w' && parts[1]) {
       return loadWeek(parts[1]).then(function (w) {
-        if (parts[2]) renderActivity(w, parts[2]); else renderWeek(w, false);
+        if (parts[2] === 'reviews') renderReviews(w);
+        else if (parts[2] === 'review') renderReview(w, parts[3], parts[4]);
+        else if (parts[2] === 'day') renderDay(w, parts[3]);
+        else if (parts[2]) renderActivity(w, parts[2]); else renderWeek(w, false);
       }).catch(renderError);
     }
+    if (parts[0] === 'log') return renderLog();
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
     renderHome();
@@ -275,7 +279,8 @@
   /* ---------------- home ---------------- */
   function weekBlock(w) {
     var tiles = h('div', { class: 'tiles' });
-    (w.activities || []).forEach(function (a) {
+    var inside = placedIds(w);
+    (w.activities || []).filter(function (a) { return !inside[a.id]; }).forEach(function (a) {
       var icon = a.icon || ICONS[a.type] || '⭐';
       tiles.appendChild(h('a', { class: 'tile', href: '#/w/' + w.week + '/' + a.id },
         h('span', { class: 'ico', 'aria-hidden': 'true' }, icon), h('span', null, tx(a.title)),
@@ -287,6 +292,8 @@
         h('p', { class: 'muted' }, weekLabel(w.week)),
         w.message ? h('div', { class: 'box teach' }, bi(w.message)) : null,
         h('div', { class: 'row' }, h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week, target: '_blank', rel: 'noopener' }, '🖨️ ' + T('print')))),
+      featureButtons(w),
+      tiles.childNodes.length && featureButtons(w) ? h('h3', { class: 'section-title' }, '➕ ' + T('morePractice')) : null,
       tiles);
   }
   function renderHome() {
@@ -312,7 +319,8 @@
       h('div', { class: 'tiles' },
         h('a', { class: 'tile', href: '#/tables' }, h('span', { class: 'ico' }, '✖️'), h('span', null, T('tables'))),
         h('a', { class: 'tile', href: '#/bank/spelling' }, h('span', { class: 'ico' }, '🔤'), h('span', null, T('spellingBank'))),
-        h('a', { class: 'tile', href: '#/bank/cards' }, h('span', { class: 'ico' }, '🃏'), h('span', null, T('cardsBank')))));
+        h('a', { class: 'tile', href: '#/bank/cards' }, h('span', { class: 'ico' }, '🃏'), h('span', null, T('cardsBank'))),
+        S.student.homeworkLog ? h('a', { class: 'tile', href: '#/log' }, h('span', { class: 'ico' }, '📒'), h('span', null, T('hwLog'))) : null));
     show(thisWeek, anytime, past);
   }
   function renderWeek(w) { show(backLink(), weekBlock(w)); }
@@ -324,7 +332,7 @@
   function renderActivity(w, id) {
     var a = (w.activities || []).filter(function (x) { return x.id === id; })[0];
     if (!a) return renderError();
-    var ctx = { week: w.week, name: tx(a.title), en: (typeof a.title === 'string' ? a.title : a.title.en), back: '#/' };
+    var ctx = { week: w.week, name: tx(a.title), en: (typeof a.title === 'string' ? a.title : a.title.en), back: placedIds(w)[a.id] || '#/' };
     var area = h('div');
     show(activityHeader(a, ctx.back), area);
     var fn = ACT[a.type];
@@ -804,6 +812,393 @@
       }
     }
     item();
+  };
+
+  /* =========== HOMEWORK REVIEW, WORKBOOK DAYS, HOMEWORK LOG =========== */
+  function L(en, zh) { return (bilingual() && S.lang === 'zh') ? zh : en; }
+  var DAYS_EN = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  var DAYS_ZH = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+  function dayLabel(iso) {
+    var p = iso.split('-'), d = new Date(+p[0], +p[1] - 1, +p[2]);
+    return L(DAYS_EN[d.getDay()] + ' ' + d.getDate() + ' ' + MONTHS[d.getMonth()], (d.getMonth() + 1) + '月' + d.getDate() + '日 ' + DAYS_ZH[d.getDay()]);
+  }
+  /* Which activities live inside a workbook day or a review (so they are not shown twice), and where "Back" goes. */
+  function placedIds(w) {
+    var m = {};
+    (w.days || []).forEach(function (d) { (d.activities || []).forEach(function (id) { m[id] = '#/w/' + w.week + '/day/' + d.date; }); });
+    (w.reviews || []).forEach(function (r) { (r.practice || []).forEach(function (id) { if (!m[id]) m[id] = '#/w/' + w.week + '/review/' + r.id; }); });
+    return m;
+  }
+  function reviewItems(r) { var out = []; (r.pages || []).forEach(function (pg) { (pg.items || []).forEach(function (it) { out.push({ page: pg, it: it }); }); }); return out; }
+  function reviewCount(r) {
+    var all = reviewItems(r), right = all.filter(function (x) { return x.it.ok; }).length;
+    return { right: right, total: all.length, wrong: all.length - right };
+  }
+  function starLine(c) { return '⭐ ' + L(c.right + ' of ' + c.total + ' stars', c.total + ' 颗星里得了 ' + c.right + ' 颗'); }
+  function reviewStatus(r) {
+    if (r.done === false) return L('⏳ Not done yet', '⏳ 还没做');
+    if (r.missing) return L('🟡 Part checked', '🟡 部分已批改');
+    return L('✅ Done', '✅ 完成');
+  }
+  function featureButtons(w) {
+    var out = [];
+    if (w.reviews && w.reviews.length) {
+      var t = { right: 0, total: 0 };
+      w.reviews.forEach(function (r) { var c = reviewCount(r); t.right += c.right; t.total += c.total; });
+      out.push(h('a', { class: 'feature review', href: '#/w/' + w.week + '/reviews' },
+        h('span', { class: 'fico', 'aria-hidden': 'true' }, '📋'),
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, T('hwReview')), h('span', { class: 'fsub' }, t.total ? starLine(t) : ''))));
+    }
+    (w.days || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (d) {
+      out.push(h('a', { class: 'feature workbook', href: '#/w/' + w.week + '/day/' + d.date },
+        h('span', { class: 'fico', 'aria-hidden': 'true' }, '📘'),
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, T('workbook') + ': ' + dayLabel(d.date)), d.title ? h('span', { class: 'fsub' }, tx(d.title)) : null)));
+    });
+    return out.length ? h('div', { class: 'feature-row' }, out) : null;
+  }
+  function actTile(w, id) {
+    var a = (w.activities || []).filter(function (x) { return x.id === id; })[0];
+    if (!a) return null;
+    return h('a', { class: 'tile', href: '#/w/' + w.week + '/' + a.id },
+      h('span', { class: 'ico', 'aria-hidden': 'true' }, a.icon || ICONS[a.type] || '⭐'), h('span', null, tx(a.title)),
+      a.subtitle ? h('span', { class: 'sub' }, tx(a.subtitle)) : null);
+  }
+  function renderDay(w, date) {
+    var d = (w.days || []).filter(function (x) { return x.date === date; })[0];
+    if (!d) return renderError();
+    var ids = d.activities || [];
+    var first = ids[0] && (w.activities || []).filter(function (x) { return x.id === ids[0]; })[0];
+    var start = first && first.type === 'lesson' ? h('a', { class: 'feature workbook start', href: '#/w/' + w.week + '/' + first.id },
+      h('span', { class: 'fico' }, '▶️'), h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Start here: ', '从这里开始：') + tx(first.title)),
+        h('span', { class: 'fsub' }, L('Go through this with Roy first', '先和 Roy 老师一起看')))) : null;
+    show(backLink(), h('h1', null, '📘 ' + T('workbook') + ': ' + dayLabel(date)),
+      d.title ? h('h2', null, tx(d.title)) : null,
+      d.message ? h('div', { class: 'box teach' }, bi(d.message)) : null,
+      start,
+      h('div', { class: 'tiles' }, ids.slice(start ? 1 : 0).map(function (id) { return actTile(w, id); })));
+  }
+  function logTable(rows) {
+    return h('table', { class: 'log' },
+      h('tr', null, h('th', null, L('Homework', '作业')), h('th', null, L('Status', '状态')), h('th', null, L('Stars', '星星'))),
+      rows.map(function (x) {
+        var c = reviewCount(x.r);
+        return h('tr', null,
+          h('td', null, h('a', { href: '#/w/' + x.week + '/review/' + x.r.id }, dayLabel(x.r.date)), h('div', { class: 'small muted' }, tx(x.r.title))),
+          h('td', null, reviewStatus(x.r)),
+          h('td', null, c.total ? '⭐ ' + c.right + ' / ' + c.total : ''));
+      }));
+  }
+  function renderReviews(w) {
+    var rows = (w.reviews || []).map(function (r) { return { r: r, week: w.week }; });
+    show(backLink(), h('h1', null, '📋 ' + T('hwReview')),
+      h('div', { class: 'box teach' }, bi({ en: 'Open a homework day. See your correct answers, then fix the wrong ones with Roy. Every mistake is a chance to learn!', zh: '打开一天的作业。先看做对的，再和 Roy 老师一起改错。每个错误都是学习的机会！' })),
+      h('div', { class: 'card' }, logTable(rows)),
+      rows.map(function (x) {
+        var c = reviewCount(x.r);
+        return h('a', { class: 'feature review', href: '#/w/' + w.week + '/review/' + x.r.id },
+          h('span', { class: 'fico' }, '📝'),
+          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, dayLabel(x.r.date) + ': ' + tx(x.r.title)), h('span', { class: 'fsub' }, c.total ? starLine(c) : reviewStatus(x.r))));
+      }));
+  }
+  function renderLog() {
+    show(backLink(), h('p', { class: 'muted' }, '…'));
+    Promise.all(weekIds().map(loadWeek)).then(function (weeks) {
+      var rows = [];
+      weeks.forEach(function (w) { (w.reviews || []).forEach(function (r) { rows.push({ r: r, week: w.week }); }); });
+      rows.sort(function (a, b) { return a.r.date < b.r.date ? 1 : -1; });
+      var t = { right: 0, total: 0 };
+      rows.forEach(function (x) { var c = reviewCount(x.r); t.right += c.right; t.total += c.total; });
+      show(backLink(), h('h1', null, '📒 ' + T('hwLog')),
+        h('div', { class: 'card center' }, h('div', { class: 'bigscore' }, '⭐ ' + t.right), h('p', null, L('stars collected so far', '目前一共得到的星星'))),
+        h('div', { class: 'card' }, rows.length ? logTable(rows) : h('p', null, L('No homework checked yet.', '还没有批改的作业。'))));
+    }).catch(renderError);
+  }
+  function renderReview(w, id, mode) {
+    var r = (w.reviews || []).filter(function (x) { return x.id === id; })[0];
+    if (!r) return renderError();
+    var c = reviewCount(r), base = '#/w/' + w.week + '/review/' + r.id;
+    var head = [backLink(mode ? base : '#/w/' + w.week + '/reviews'),
+      h('h1', null, '📝 ' + dayLabel(r.date)), h('h2', null, tx(r.title))];
+    var buttons = h('div', { class: 'feature-row' },
+      h('a', { class: 'feature right' + (mode === 'right' ? ' on' : ''), href: base + '/right' }, h('span', { class: 'fico' }, '✅'),
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Correct answers', '做对的题')), h('span', { class: 'fsub' }, c.right + ' ' + L('answers', '题')))),
+      h('a', { class: 'feature wrong' + (mode === 'wrong' ? ' on' : ''), href: base + '/wrong' }, h('span', { class: 'fico' }, '🔧'),
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Wrong answers', '做错的题')), h('span', { class: 'fsub' }, c.wrong + ' ' + L('to fix together', '题，一起改')))));
+    if (!mode) {
+      var practice = (r.practice || []).map(function (pid) { return actTile(w, pid); }).filter(Boolean);
+      return show(head,
+        h('div', { class: 'card center' }, h('div', { class: 'bigscore' }, '⭐ ' + c.right), h('p', { class: 'praise' }, L('stars out of ' + c.total + '. Well done for finishing!', '颗星（一共 ' + c.total + ' 颗）。完成作业，真棒！')),
+          r.message ? h('div', { class: 'box teach', style: 'text-align:left' }, bi(r.message)) : null),
+        buttons,
+        r.missing ? h('div', { class: 'box hint' }, bi(r.missing)) : null,
+        practice.length ? [h('h2', { class: 'section-title' }, '🔁 ' + L('Practise again', '再练一练')), h('div', { class: 'tiles' }, practice)] : null);
+    }
+    var list = reviewItems(r).filter(function (x) { return mode === 'right' ? x.it.ok : !x.it.ok; });
+    var lastPage = null, out = [];
+    list.forEach(function (x) {
+      if (x.page !== lastPage) { out.push(h('h3', { class: 'section-title' }, '📄 ' + tx(x.page.title))); lastPage = x.page; }
+      var it = x.it;
+      out.push(h('div', { class: 'card review-item' },
+        h('div', { class: 'muted small' }, it.n || ''),
+        h('div', { class: 'box q' }, rich(it.q)),
+        mode === 'right' ? [
+          h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Your answer: ', '你的答案：')), rich(it.her || it.right)),
+          it.why ? h('div', { class: 'box teach' }, h('b', null, L('Why it is right: ', '为什么对：')), bi(it.why, true)) : null
+        ] : [
+          it.check ? h('div', { class: 'box hint' }, h('b', null, '👀 ' + L("Let's check this one together.", '这一题我们一起看看。'))) : null,
+          h('div', { class: 'box hint' }, h('b', null, L('Your answer: ', '你的答案：')), it.her ? rich(it.her) : L('(left empty)', '（没有写）')),
+          it.whyWrong ? h('div', { class: 'box teach' }, h('b', null, '🤔 ' + L('Why it is not right: ', '为什么不对：')), bi(it.whyWrong, true)) : null,
+          h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Right answer: ', '正确答案：')), rich(it.right)),
+          it.why ? h('div', { class: 'box teach' }, h('b', null, L('Why: ', '为什么：')), bi(it.why, true)) : null
+        ]));
+    });
+    show(head, buttons, list.length ? out : h('div', { class: 'card center' }, L('Nothing here. 🎉', '这里没有题目。🎉')));
+  }
+
+  /* =========== TEACHING LESSON (slides with moving pictures) =========== */
+  var SVGNS = 'http://www.w3.org/2000/svg', svgUid = 0;
+  function sv(tag, attrs) {
+    var el = document.createElementNS(SVGNS, tag);
+    for (var k in attrs || {}) el.setAttribute(k, attrs[k]);
+    for (var i = 2; i < arguments.length; i++) { var c = arguments[i]; if (c == null) continue; el.appendChild(typeof c === 'string' ? document.createTextNode(c) : c); }
+    return el;
+  }
+  var anims = [];
+  function every(ms, fn) { var t = setInterval(fn, ms); anims.push(t); return t; }
+  function stopAnims() { anims.forEach(clearInterval); anims = []; }
+  function arrowDefs(color) {
+    var id = 'ah' + (++svgUid);
+    var defs = sv('defs', null, sv('marker', { id: id, viewBox: '0 0 10 10', refX: '8', refY: '5', markerWidth: '7', markerHeight: '7', orient: 'auto-start-reverse' },
+      sv('path', { d: 'M0,0 L10,5 L0,10 z', fill: color || '#1b2a6b' })));
+    return { defs: defs, url: 'url(#' + id + ')' };
+  }
+  function wavePath(amp, cycles, phase, x0, x1, y0) {
+    var d = '';
+    for (var x = x0; x <= x1; x += 4) {
+      var y = y0 - amp * Math.sin(2 * Math.PI * cycles * (x - x0) / (x1 - x0) + phase);
+      d += (x === x0 ? 'M' : 'L') + x.toFixed(1) + ',' + y.toFixed(1) + ' ';
+    }
+    return d;
+  }
+  function label(x, y, text, opts) {
+    opts = opts || {};
+    return sv('text', { x: x, y: y, 'text-anchor': opts.anchor || 'middle', 'font-size': opts.size || 20, 'font-weight': '700', fill: opts.color || '#1b2a6b' }, text);
+  }
+  var VIS = {};
+  /* A labelled transverse wave: crest, trough, rest position, amplitude, wavelength. Optional moving dot shows the up-and-down vibration. */
+  VIS.wave = function (v) {
+    var W = 640, H = 300, y0 = 150, amp = v.amp || 70, cyc = v.cycles || 2, x0 = 30, x1 = 610;
+    var a = arrowDefs('#c2255c');
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'wave diagram' }, a.defs);
+    svg.appendChild(sv('line', { x1: x0, y1: y0, x2: x1, y2: y0, stroke: '#8a94a8', 'stroke-dasharray': '6 6', 'stroke-width': 2 }));
+    var path = sv('path', { d: wavePath(amp, cyc, 0, x0, x1, y0), fill: 'none', stroke: v.color || '#1c7ed6', 'stroke-width': 5, 'stroke-linecap': 'round' });
+    svg.appendChild(path);
+    var crest1 = x0 + (x1 - x0) * 0.25 / cyc, crest2 = x0 + (x1 - x0) * 1.25 / cyc, trough = x0 + (x1 - x0) * 0.75 / cyc;
+    if (v.labels) {
+      svg.appendChild(label(crest1, y0 - amp - 14, L('crest', '波峰')));
+      svg.appendChild(label(trough, y0 + amp + 30, L('trough', '波谷')));
+      svg.appendChild(label(x1 - 4, y0 - 10, L('rest position', '平衡位置'), { anchor: 'end', size: 16, color: '#5c6475' }));
+      svg.appendChild(sv('line', { x1: crest2, y1: y0, x2: crest2, y2: y0 - amp + 4, stroke: '#c2255c', 'stroke-width': 3, 'marker-end': a.url, 'marker-start': a.url }));
+      svg.appendChild(label(crest2 + 12, y0 - amp / 2, L('amplitude', '振幅'), { anchor: 'start', color: '#c2255c' }));
+      var yW = Math.max(18, y0 - amp - 48);
+      svg.appendChild(sv('line', { x1: crest1, y1: yW, x2: crest2, y2: yW, stroke: '#2f9e44', 'stroke-width': 3, 'marker-end': a.url, 'marker-start': a.url }));
+      svg.appendChild(sv('line', { x1: crest1, y1: yW, x2: crest1, y2: y0 - amp, stroke: '#2f9e44', 'stroke-dasharray': '4 4' }));
+      svg.appendChild(sv('line', { x1: crest2, y1: yW, x2: crest2, y2: y0 - amp, stroke: '#2f9e44', 'stroke-dasharray': '4 4' }));
+      svg.appendChild(label((crest1 + crest2) / 2, yW - 8, L('wavelength', '波长'), { color: '#2f9e44' }));
+    }
+    if (v.animate) {
+      var phase = 0, dotX = v.dot ? 330 : null, dot = null;
+      if (dotX) {
+        dot = sv('circle', { r: 11, cx: dotX, cy: y0, fill: '#e8590c', stroke: '#fff', 'stroke-width': 3 });
+        svg.appendChild(dot);
+        svg.appendChild(label(dotX + 20, 28, L('↕ vibrates up and down', '↕ 上下振动'), { anchor: 'start', size: 17, color: '#e8590c' }));
+        svg.appendChild(sv('line', { x1: 40, y1: H - 18, x2: 220, y2: H - 18, stroke: '#1b2a6b', 'stroke-width': 3, 'marker-end': arrowUrl(svg) }));
+        svg.appendChild(label(230, H - 12, L('wave travels this way', '波向这边传播'), { anchor: 'start', size: 17 }));
+      }
+      every(40, function () {
+        phase -= 0.12;
+        path.setAttribute('d', wavePath(amp, cyc, phase, x0, x1, y0));
+        if (dot) dot.setAttribute('cy', (y0 - amp * Math.sin(2 * Math.PI * cyc * (dotX - x0) / (x1 - x0) + phase)).toFixed(1));
+      });
+    }
+    return svg;
+  };
+  function arrowUrl(svg) { var a = arrowDefs('#1b2a6b'); svg.insertBefore(a.defs, svg.firstChild); return a.url; }
+  /* Two or three small moving waves to compare (pitch or loudness). */
+  VIS.compare = function (v) {
+    var box = h('div', { class: 'compare' });
+    (v.items || []).forEach(function (it) {
+      var svg = sv('svg', { viewBox: '0 0 640 140', class: 'vis-svg small' });
+      svg.appendChild(sv('line', { x1: 20, y1: 70, x2: 620, y2: 70, stroke: '#c5cbd8', 'stroke-dasharray': '5 5' }));
+      var p = sv('path', { fill: 'none', stroke: it.color || '#1c7ed6', 'stroke-width': 5, 'stroke-linecap': 'round' });
+      svg.appendChild(p);
+      var ph = 0;
+      p.setAttribute('d', wavePath(it.amp, it.cycles, 0, 20, 620, 70));
+      every(40, function () { ph -= 0.1; p.setAttribute('d', wavePath(it.amp, it.cycles, ph, 20, 620, 70)); });
+      box.appendChild(h('div', { class: 'compare-item' }, h('div', { class: 'compare-label' }, it.icon ? it.icon + ' ' : '', bi(it.label)), svg,
+        it.sound ? h('button', { class: 'btn ghost', onclick: function () { beep(it.sound.hz, it.sound.vol); } }, '🔊 ' + L('Hear it', '听一听')) : null));
+    });
+    return box;
+  };
+  /* Longitudinal wave: coils squash together (compression) and spread out (rarefaction) as the wave moves. */
+  VIS.longitudinal = function (v) {
+    var W = 640, H = 230, n = 46, lines = [], ph = 0;
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'longitudinal wave' });
+    for (var i = 0; i < n; i++) { var l = sv('line', { y1: 40, y2: 140, stroke: '#1c7ed6', 'stroke-width': 4, 'stroke-linecap': 'round' }); lines.push(l); svg.appendChild(l); }
+    var u = arrowUrl(svg);
+    svg.appendChild(sv('line', { x1: 40, y1: 190, x2: 220, y2: 190, stroke: '#1b2a6b', 'stroke-width': 3, 'marker-end': u }));
+    svg.appendChild(label(230, 196, L('wave travels this way', '波向这边传播'), { anchor: 'start', size: 17 }));
+    svg.appendChild(label(W / 2, 222, L('↔ particles vibrate in the SAME direction', '↔ 粒子振动方向和传播方向相同'), { size: 16, color: '#e8590c' }));
+    var cLab = label(0, 28, L('compression', '密部'), { color: '#c2255c', size: 17 });
+    var rLab = label(0, 28, L('rarefaction', '疏部'), { color: '#2f9e44', size: 17 });
+    if (v.labels !== false) { svg.appendChild(cLab); svg.appendChild(rLab); }
+    function draw() {
+      var xs = [];
+      for (var i = 0; i < n; i++) { var x0 = 30 + i * (580 / (n - 1)); xs.push(x0 + 30 * Math.sin(2 * Math.PI * 2 * i / n + ph)); }
+      xs.forEach(function (x, i) { lines[i].setAttribute('x1', x.toFixed(1)); lines[i].setAttribute('x2', x.toFixed(1)); });
+      var best = 1e9, bi2 = 0, worst = -1, wi = 0;
+      for (var j = 8; j < n - 8; j++) { var gap = xs[j + 1] - xs[j - 1]; if (gap < best) { best = gap; bi2 = j; } if (gap > worst) { worst = gap; wi = j; } }
+      cLab.setAttribute('x', xs[bi2].toFixed(1)); rLab.setAttribute('x', xs[wi].toFixed(1));
+    }
+    draw();
+    every(50, function () { ph -= 0.08; draw(); });
+    return svg;
+  };
+  /* A row of people doing a stadium wave: each person only stands up and sits down, but the wave travels along. */
+  VIS.stadium = function (v) {
+    var row = h('div', { class: 'stadium' }), people = [], ph = 0;
+    for (var i = 0; i < 11; i++) { var p = h('span', { class: 'person' }, v.icon || '🧍'); people.push(p); row.appendChild(p); }
+    every(60, function () {
+      ph += 0.18;
+      people.forEach(function (p, i) { var up = Math.max(0, Math.sin(ph - i * 0.6)); p.style.transform = 'translateY(' + (-34 * up).toFixed(1) + 'px)'; });
+    });
+    return h('div', null, row, h('div', { class: 'compare-label center' }, bi(v.caption)));
+  };
+  /* Steps joined by arrows, one lights up at a time (e.g. the path of sound through the ear). */
+  VIS.flow = function (v) {
+    var chips = (v.steps || []).map(function (s) { return h('div', { class: 'flow-step' }, h('div', { class: 'flow-ico' }, s.icon), h('div', { class: 'flow-text' }, bi(s))); });
+    var row = h('div', { class: 'flow' });
+    chips.forEach(function (c, i) { row.appendChild(c); if (i < chips.length - 1) row.appendChild(h('div', { class: 'flow-arrow', 'aria-hidden': 'true' }, '➜')); });
+    var k = 0;
+    every(1100, function () { chips.forEach(function (c, i) { c.classList.toggle('lit', i === k); }); k = (k + 1) % chips.length; });
+    return row;
+  };
+  VIS.emoji = function (v) {
+    return h('div', { class: 'emoji-grid' }, (v.items || []).map(function (it) {
+      return h('div', { class: 'emoji-card' }, h('div', { class: 'emoji-big' }, it.icon), h('div', { class: 'emoji-label' }, bi(it)));
+    }));
+  };
+  VIS.formula = function (v) {
+    return h('div', { class: 'formula' }, h('div', { class: 'formula-main' }, bi(v.main, true)), v.example ? h('div', { class: 'formula-ex' }, bi(v.example, true)) : null);
+  };
+  /* Wave explorer: sliders for amplitude (loudness) and frequency (pitch), with a real sound. */
+  VIS.explorer = function () {
+    var amp = 50, cyc = 3, ph = 0;
+    var svg = sv('svg', { viewBox: '0 0 640 220', class: 'vis-svg' });
+    svg.appendChild(sv('line', { x1: 20, y1: 110, x2: 620, y2: 110, stroke: '#c5cbd8', 'stroke-dasharray': '5 5' }));
+    var p = sv('path', { fill: 'none', stroke: '#c2255c', 'stroke-width': 5, 'stroke-linecap': 'round' });
+    svg.appendChild(p);
+    var ampIn = h('input', { type: 'range', min: '10', max: '95', value: String(amp), 'aria-label': 'amplitude' });
+    var cycIn = h('input', { type: 'range', min: '1', max: '8', value: String(cyc), 'aria-label': 'frequency' });
+    var info = h('div', { class: 'explorer-info' });
+    function word(val, lo, hi, a, b, c) { return val < lo ? a : val > hi ? c : b; }
+    function paint() {
+      info.textContent = '';
+      add(info, [h('div', null, '🔊 ' + L('Loudness: ', '响度：') + word(amp, 35, 70, L('quiet', '小'), L('medium', '中'), L('loud', '大'))),
+        h('div', null, '🎵 ' + L('Pitch: ', '音调：') + word(cyc, 3, 5, L('low', '低'), L('medium', '中'), L('high', '高')))]);
+    }
+    ampIn.addEventListener('input', function () { amp = +ampIn.value; paint(); });
+    cycIn.addEventListener('input', function () { cyc = +cycIn.value; paint(); });
+    paint();
+    every(40, function () { ph -= 0.12; p.setAttribute('d', wavePath(amp, cyc, ph, 20, 620, 110)); });
+    return h('div', { class: 'explorer' }, svg,
+      h('label', { class: 'slider' }, h('span', null, L('Amplitude (taller wave)', '振幅（波更高）')), ampIn),
+      h('label', { class: 'slider' }, h('span', null, L('Frequency (more waves)', '频率（波更多）')), cycIn),
+      info,
+      h('button', { class: 'btn big', onclick: function () { beep(110 * cyc, amp / 100); } }, '🔊 ' + L('Play the sound', '播放声音')));
+  };
+  var audioCtx = null;
+  function beep(hz, vol) {
+    try {
+      audioCtx = audioCtx || new (window.AudioContext || window.webkitAudioContext)();
+      var o = audioCtx.createOscillator(), g = audioCtx.createGain(), t = audioCtx.currentTime;
+      o.frequency.value = hz; o.type = 'sine';
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(Math.max(0.01, vol * 0.4), t + 0.05);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + 1.2);
+      o.connect(g); g.connect(audioCtx.destination); o.start(t); o.stop(t + 1.25);
+    } catch (e) { /* no sound on this device */ }
+  }
+  ACT.lesson = function (a, ctx, area) {
+    var i = 0, slides = a.slides || [];
+    S.cleanup = stopAnims;
+    function show1() {
+      stopAnims();
+      clear(area);
+      var s = slides[i];
+      var dots = h('div', { class: 'dots' }, slides.map(function (_, k) { return h('span', { class: 'dot' + (k === i ? ' on' : k < i ? ' done' : '') }); }));
+      var vis = s.visual && VIS[s.visual.type] ? h('div', { class: 'vis' }, VIS[s.visual.type](s.visual)) : null;
+      var sayText = [tx({ en: s.title.en || s.title })].concat((s.points || []).map(function (p) { return p.en || p; })).join('. ');
+      add(area, h('div', { class: 'card slide pop' },
+        dots,
+        h('div', { class: 'slide-head' }, h('span', { class: 'slide-num' }, (i + 1) + ' / ' + slides.length),
+          h('button', { class: 'btn ghost', style: 'min-height:44px;padding:4px 14px', onclick: function () { say(sayText); } }, '🔊')),
+        h('h2', { class: 'slide-title' }, s.icon ? s.icon + ' ' : '', bi(s.title)),
+        vis,
+        s.points && s.points.length ? h('ul', { class: 'slide-points' }, s.points.map(function (p) { return h('li', null, bi(p, true)); })) : null,
+        s.remember ? h('div', { class: 'box hint' }, h('b', null, '⭐ ' + L('Remember: ', '记住：')), bi(s.remember, true)) : null,
+        h('div', { class: 'row', style: 'justify-content:space-between;margin-top:18px' },
+          h('button', { class: 'btn ghost big', disabled: i === 0, onclick: function () { i--; show1(); window.scrollTo(0, 0); } }, T('prev').replace(/^← /, '← ')),
+          i < slides.length - 1 ? h('button', { class: 'btn big', onclick: function () { i++; show1(); window.scrollTo(0, 0); } }, T('next'))
+            : h('a', { class: 'btn big green', href: ctx.back }, '🎉 ' + L('Done! Now the activities', '完成！现在做练习'))),
+        i === slides.length - 1 ? canNow(a) : null));
+    }
+    show1();
+  };
+
+  /* =========== FILL IN THE BLANKS (tap a word from the word bank) =========== */
+  ACT.fillblank = function (a, ctx, area) {
+    function start() {
+      var items = a.shuffle === false ? a.items.slice() : shuffle(a.items.slice());
+      var i = 0, correct = 0, missed = [], t0 = Date.now();
+      function ask() {
+        clear(area);
+        var it = items[i], answered = false;
+        var parts = String(it.text).split('___');
+        var blank = h('span', { class: 'blank' }, '?');
+        var fb = h('div', { 'aria-live': 'polite' });
+        var bank = shuffle((a.bank || []).slice());
+        var chips = bank.map(function (wd) { return h('button', { class: 'chip word', onclick: function () { choose(wd, this); } }, wd); });
+        add(area, h('div', { class: 'card' },
+          h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + items.length)),
+          h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / items.length) + '%' })),
+          h('div', { class: 'box q' }, parts[0], blank, parts.slice(1).join('___')),
+          h('div', { class: 'muted small' }, L('Tap the missing word:', '点出缺少的词：')),
+          h('div', { class: 'chips' }, chips), fb));
+        function choose(wd, el) {
+          if (answered) return;
+          answered = true;
+          var ok = wd.toLowerCase() === String(it.answer).toLowerCase();
+          blank.textContent = ok ? wd : it.answer;
+          blank.classList.add(ok ? 'filled' : 'fixed');
+          chips.forEach(function (c) { c.disabled = true; if (c.textContent.toLowerCase() === String(it.answer).toLowerCase()) c.classList.add('on'); });
+          if (ok) correct++; else missed.push(it.answer);
+          add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') },
+            h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite') + ' ' + it.answer),
+            it.why ? h('div', null, h('b', null, T('why') + ': '), bi(it.why, true)) : null),
+            h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i++; i < items.length ? ask() : end(); } }, i + 1 < items.length ? T('next') : T('finish'))));
+        }
+      }
+      function end() {
+        record(ctx.en, ctx.week, correct, items.length, (Date.now() - t0) / 1000, missed);
+        clear(area);
+        add(area, h('div', { class: 'card center' }, h('h2', null, '🏆 ' + praise()), h('div', { class: 'bigscore' }, scoreText(correct, items.length)),
+          h('p', { class: 'small muted' }, T('saved')), canNow(a),
+          h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: start }, T('again')))));
+      }
+      ask();
+    }
+    clear(area);
+    add(area, h('div', { class: 'card center' }, h('button', { class: 'btn big', onclick: start }, '▶️ ' + T('start'))));
   };
 
   /* ---------- 7. TIMES TABLES SPRINT ---------- */
