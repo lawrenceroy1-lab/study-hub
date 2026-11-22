@@ -229,7 +229,7 @@
   }
 
   /* ---------------- frame + router ---------------- */
-  var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮', lesson: '📽️', fillblank: '✍️' };
+  var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮', lesson: '📽️', fillblank: '✍️', keypoints: '🔑' };
 
   function frame() {
     document.body.appendChild(h('header', { class: 'topbar' },
@@ -849,13 +849,15 @@
         h('span', { class: 'fico', 'aria-hidden': 'true' }, '📋'),
         h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, T('hwReview')), h('span', { class: 'fsub' }, t.total ? starLine(t) : ''))));
     }
-    (w.days || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; }).forEach(function (d) {
-      out.push(h('a', { class: 'feature workbook', href: '#/w/' + w.week + '/day/' + d.date },
-        h('span', { class: 'fico', 'aria-hidden': 'true' }, '📘'),
-        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, T('workbook') + ': ' + dayLabel(d.date)), d.title ? h('span', { class: 'fsub' }, tx(d.title)) : null)));
+    (w.days || []).slice().sort(function (a, b) { return a.date > b.date ? 1 : -1; }).forEach(function (d) {
+      var hw = d.kind === 'homework';
+      out.push(h('a', { class: 'feature ' + (hw ? 'homework' : 'workbook'), href: '#/w/' + w.week + '/day/' + d.date },
+        h('span', { class: 'fico', 'aria-hidden': 'true' }, hw ? '🏠' : '📘'),
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, dayName(d) + ': ' + dayLabel(d.date)), d.title ? h('span', { class: 'fsub' }, tx(d.title)) : null)));
     });
     return out.length ? h('div', { class: 'feature-row' }, out) : null;
   }
+  function dayName(d) { return d.kind === 'homework' ? L('Homework', '作业') : T('workbook'); }
   function actTile(w, id) {
     var a = (w.activities || []).filter(function (x) { return x.id === id; })[0];
     if (!a) return null;
@@ -870,14 +872,14 @@
     var first = ids[0] && (w.activities || []).filter(function (x) { return x.id === ids[0]; })[0];
     var start = first && first.type === 'lesson' ? h('a', { class: 'feature workbook start', href: '#/w/' + w.week + '/' + first.id },
       h('span', { class: 'fico' }, '▶️'), h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Start here: ', '从这里开始：') + tx(first.title)),
-        h('span', { class: 'fsub' }, L('Go through this with Roy first', '先和 Roy 老师一起看')))) : null;
-    show(backLink(), h('h1', null, '📘 ' + T('workbook') + ': ' + dayLabel(date)),
+        h('span', { class: 'fsub' }, d.kind === 'homework' ? L('Read this first', '先读这个') : L('Go through this with Roy first', '先和 Roy 老师一起看')))) : null;
+    show(backLink(), h('h1', null, (d.kind === 'homework' ? '🏠 ' : '📘 ') + dayName(d) + ': ' + dayLabel(date)),
       d.title ? h('h2', null, tx(d.title)) : null,
       d.message ? h('div', { class: 'box teach' }, bi(d.message)) : null,
       h('div', { class: 'row' },
         start ? h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=book', target: '_blank', rel: 'noopener' }, '📖 ' + L('Main Book', '主课本')) : null,
         h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=work', target: '_blank', rel: 'noopener' }, '📝 ' + L('Workbook to print', '打印练习册')),
-        h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, T('workbook') + ': ' + dayLabel(date)); } }, '🔗 ' + L('Share', '分享'))),
+        h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, dayName(d) + ': ' + dayLabel(date)); } }, '🔗 ' + L('Share', '分享'))),
       start,
       h('div', { class: 'tiles' }, ids.slice(start ? 1 : 0).map(function (id) { return actTile(w, id); })));
   }
@@ -1087,6 +1089,25 @@
     every(1100, function () { chips.forEach(function (c, i) { c.classList.toggle('lit', i === k); }); k = (k + 1) % chips.length; });
     return row;
   };
+  var ATOM = { d: '#343a40', w: '#ffffff', r: '#e03131', b: '#1c7ed6', y: '#fab005', g: '#2f9e44' };
+  VIS.particles = function (v) {
+    return h('div', { class: 'pbox-grid' }, (v.boxes || []).map(function (bx, bi) {
+      var W = 220, H = 170, longest = Math.max.apply(null, (bx.items || ['d']).map(function (x) { return x.length; })), R = longest >= 3 ? 9.5 : 13;
+      var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg particle-box', role: 'img', 'aria-label': enText(bx.label) });
+      svg.appendChild(sv('rect', { x: 3, y: 3, width: W - 6, height: H - 6, rx: 14, fill: '#fff', stroke: '#1b2a6b', 'stroke-width': 3 }));
+      var items = bx.items || [], n = items.length, cols = bx.cols || (n <= 4 ? 2 : 3), rows = Math.ceil(n / cols);
+      items.forEach(function (it, k) {
+        var c = k % cols, r = Math.floor(k / cols);
+        var cx = 22 + ((W - 44) / cols) * (c + 0.5) + ((r % 2) && !bx.neat ? 6 : -2), cy = (H / rows) * (r + 0.5) + ((k * 7) % 3 - 1) * (bx.neat ? 0 : 5);
+        var len = it.length, start = cx - (len - 1) * R * 0.85;
+        it.split('').forEach(function (a, j) {
+          svg.appendChild(sv('circle', { cx: (start + j * R * 1.7).toFixed(1), cy: cy.toFixed(1), r: R, fill: ATOM[a] || '#888', stroke: '#1b2a6b', 'stroke-width': 2.5 }));
+        });
+      });
+      return h('div', { class: 'pbox-item' }, svg, bx.label ? h('div', { class: 'compare-label center' }, bi2(bx.label)) : null);
+    }));
+  };
+  function bi2(v) { return bi(v); }
   VIS.emoji = function (v) {
     return h('div', { class: 'emoji-grid' }, (v.items || []).map(function (it) {
       return h('div', { class: 'emoji-card' }, h('div', { class: 'emoji-big' }, it.icon), h('div', { class: 'emoji-label' }, bi(it)));
@@ -1157,6 +1178,33 @@
         i === slides.length - 1 ? canNow(a) : null));
     }
     show1();
+  };
+
+  /* =========== MY KEY POINTS (3 guided lines, saved on this device) =========== */
+  ACT.keypoints = function (a, ctx, area) {
+    var k = key('kp_' + ctx.week + '_' + a.id), saved = lsGet(k, {});
+    var rows = [
+      { id: 'words', label: { en: '3 key words', zh: '3 个关键词' }, ph: '___  ___  ___' },
+      { id: 'rule', label: { en: '1 rule in one sentence', zh: '一句话规则' }, ph: '...' },
+      { id: 'example', label: { en: '1 example', zh: '一个例子' }, ph: '...' }];
+    var inputs = {};
+    var model = h('div', { class: 'hidden' }, h('div', { class: 'box ans' }, h('b', null, L("Roy's example:", 'Roy 老师的例子：')),
+      h('div', null, '🔑 ' + a.model.words), h('div', null, '📏 ' + a.model.rule), h('div', null, '💡 ' + a.model.example)), canNow(a));
+    clear(area);
+    add(area, h('div', { class: 'card' },
+      a.topic ? h('div', { class: 'box q' }, bi(a.topic)) : null,
+      rows.map(function (r) {
+        var inp = h('input', { type: 'text', value: saved[r.id] || '', placeholder: r.ph, 'aria-label': r.label.en });
+        inp.addEventListener('input', function () { saved[r.id] = inp.value; lsSet(k, saved); });
+        inputs[r.id] = inp;
+        return h('label', { class: 'kp-row' }, h('span', { class: 'kp-label' }, bi(r.label)), inp);
+      }),
+      h('div', { class: 'row center' }, h('button', { class: 'btn big green', onclick: function () {
+        var filled = rows.filter(function (r) { return inputs[r.id].value.trim(); }).length;
+        if (filled < 3) { alert(L('Try all 3 lines first. A guess is OK!', '先试着写完 3 行。猜一猜也可以！')); return; }
+        model.classList.remove('hidden'); model.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      } }, '👀 ' + L("See Roy's example", '看 Roy 老师的例子'))),
+      model));
   };
 
   /* =========== FILL IN THE BLANKS (tap a word from the word bank) =========== */
@@ -1481,6 +1529,11 @@
         a.items.forEach(function (it, n) { add(root, [h('div', { class: 'pq' }, (n + 1) + '. ', rich(it.q)), h('div', { class: 'lines' }), h('div', { class: 'lines' })]); });
       } else if (a.type === 'spelling') {
         add(root, [title, h('table', null, a.words.map(function (x, n) { return h('tr', null, h('td', null, n + 1), h('td', null, h('b', null, x.word)), h('td'), h('td')); }))]);
+      } else if (a.type === 'keypoints') {
+        add(root, [title, a.topic ? h('div', { class: 'pq' }, enText(a.topic)) : null,
+          h('div', { class: 'pq' }, '3 key words:'), h('div', { class: 'lines' }),
+          h('div', { class: 'pq' }, '1 rule in one sentence:'), h('div', { class: 'lines' }),
+          h('div', { class: 'pq' }, '1 example:'), h('div', { class: 'lines' })]);
       }
       if (a.canNow) add(root, h('p', null, '☐ ' + enText(a.canNow)));
     });

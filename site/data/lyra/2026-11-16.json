@@ -1,12 +1,12 @@
 {
  "week": "2026-11-16",
  "title": {
-  "en": "Homework Review and Waves Begin",
-  "zh": "作业讲评和波的开始"
+  "en": "Homework Review and Atoms to Mixtures",
+  "zh": "作业讲评和从原子到混合物"
  },
  "message": {
-  "en": "Great work on your workbook, Lyra! Open Homework Review to see what you got right and what we will fix together. Then open today's workbook.",
-  "zh": "Lyra，你的练习册做得很好！打开“作业讲评”，看看哪些做对了、哪些我们一起改。然后打开今天的练习册。"
+  "en": "Today: 1. Homework Review. 2. Main Book: atoms to mixtures. 3. Today's Workbook. Mistakes are part of learning!",
+  "zh": "今天：1. 作业讲评。2. 主课本：从原子到混合物。3. 今天的练习册。犯错是学习的一部分！"
  },
  "activities": [
   {
@@ -1713,6 +1713,2082 @@
     "en": "I can now use the key words for waves and sound in sentences.",
     "zh": "我现在能在句子里用波和声音的关键词。"
    }
+  },
+  {
+   "id": "lesson-atoms",
+   "type": "lesson",
+   "icon": "📖",
+   "title": {
+    "en": "Main Book: Atoms to Mixtures (A1 to A3)",
+    "zh": "主课本：从原子到混合物（A1 到 A3）"
+   },
+   "subtitle": {
+    "en": "14 pages",
+    "zh": "14 页"
+   },
+   "intro": {
+    "en": "Go through these pages with Roy. Tap 🔊 to hear each page.",
+    "zh": "和 Roy 老师一起看。点 🔊 听朗读。"
+   },
+   "slides": [
+    {
+     "icon": "🧱",
+     "title": {
+      "en": "Everything is made of atoms",
+      "zh": "所有东西都是由原子构成的"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧱",
+        "en": "atom = one LEGO brick",
+        "zh": "原子 = 一块乐高"
+       },
+       {
+        "icon": "🧱🧱",
+        "en": "molecule = bricks clicked together",
+        "zh": "分子 = 积木扣在一起"
+       },
+       {
+        "icon": "🏠",
+        "en": "everything = built from bricks",
+        "zh": "所有东西 = 用积木搭成"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Atoms are tiny. A grain of sand has millions of millions of atoms.",
+       "zh": "原子非常小。一粒沙子里有几百万个百万个原子。"
+      },
+      {
+       "en": "Today we learn 5 words: atom, element, molecule, compound, mixture.",
+       "zh": "今天学 5 个词：原子、元素、分子、化合物、混合物。"
+      }
+     ]
+    },
+    {
+     "icon": "⚫",
+     "title": {
+      "en": "1. Atom 原子",
+      "zh": "1. 原子 atom"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "one atom",
+         "zh": "一个原子"
+        },
+        "items": [
+         "d"
+        ]
+       },
+       {
+        "label": {
+         "en": "many atoms of the SAME kind",
+         "zh": "很多同一种原子"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ],
+        "neat": true
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "An atom is the smallest particle of an element.",
+       "zh": "原子是元素的最小粒子。"
+      },
+      {
+       "en": "In pictures, one circle = one atom.",
+       "zh": "在图里，一个圆圈 = 一个原子。"
+      }
+     ],
+     "remember": {
+      "en": "Atom = smallest particle. One circle.",
+      "zh": "原子 = 最小的粒子，一个圆圈。"
+     }
+    },
+    {
+     "icon": "🟣",
+     "title": {
+      "en": "2. Element 元素",
+      "zh": "2. 元素 element"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "element (single atoms), e.g. Mg",
+         "zh": "元素（单个原子），比如 Mg"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ]
+       },
+       {
+        "label": {
+         "en": "element (molecules), e.g. O₂",
+         "zh": "元素（分子），比如 O₂"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "An element is made of only ONE type of atom. All the circles are the same colour.",
+       "zh": "元素只由一种原子构成。所有圆圈颜色一样。"
+      },
+      {
+       "en": "Examples: oxygen O₂, nitrogen N₂, hydrogen H₂, magnesium Mg, iron Fe, sulfur S.",
+       "zh": "例子：氧 O₂、氮 N₂、氢 H₂、镁 Mg、铁 Fe、硫 S。"
+      },
+      {
+       "en": "There are about 118 elements. They are all in the periodic table.",
+       "zh": "大约有 118 种元素，都在元素周期表里。"
+      }
+     ],
+     "remember": {
+      "en": "Same colour = element, even when two atoms are joined (O₂, N₂).",
+      "zh": "颜色相同 = 元素，就算两个原子连在一起（O₂、N₂）也是。"
+     }
+    },
+    {
+     "icon": "🔗",
+     "title": {
+      "en": "3. Molecule 分子",
+      "zh": "3. 分子 molecule"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "O₂: same atoms joined",
+         "zh": "O₂：相同原子结合"
+        },
+        "items": [
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "CO: different atoms joined",
+         "zh": "CO：不同原子结合"
+        },
+        "items": [
+         "dw"
+        ]
+       },
+       {
+        "label": {
+         "en": "H₂O: water",
+         "zh": "H₂O：水"
+        },
+        "items": [
+         "wdw"
+        ]
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "A molecule is 2 or more atoms chemically JOINED together (touching circles).",
+       "zh": "分子是 2 个或更多原子化学结合在一起（圆圈碰在一起）。"
+      },
+      {
+       "en": "A molecule can be an element (O₂) or a compound (H₂O).",
+       "zh": "分子可以是元素（O₂），也可以是化合物（H₂O）。"
+      }
+     ],
+     "remember": {
+      "en": "Molecule = atoms joined. Look at the colours to know: element or compound?",
+      "zh": "分子 = 原子结合。看颜色判断：元素还是化合物？"
+     }
+    },
+    {
+     "icon": "🧪",
+     "title": {
+      "en": "4. Compound 化合物",
+      "zh": "4. 化合物 compound"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "compound, e.g. CO",
+         "zh": "化合物，比如 CO"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       },
+       {
+        "label": {
+         "en": "compound, e.g. water H₂O",
+         "zh": "化合物，比如水 H₂O"
+        },
+        "items": [
+         "wdw",
+         "wdw",
+         "wdw",
+         "wdw"
+        ]
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "A compound is DIFFERENT types of atom chemically joined.",
+       "zh": "化合物是不同种类的原子化学结合在一起。"
+      },
+      {
+       "en": "Examples: water H₂O, carbon dioxide CO₂, salt NaCl, carbon monoxide CO.",
+       "zh": "例子：水 H₂O、二氧化碳 CO₂、盐 NaCl、一氧化碳 CO。"
+      },
+      {
+       "en": "A compound is a NEW substance. Sodium (a shiny metal) + chlorine (a green gas) = salt you can eat!",
+       "zh": "化合物是新物质。钠（亮亮的金属）+ 氯（绿色的气体）= 可以吃的盐！"
+      }
+     ],
+     "remember": {
+      "en": "Different colours JOINED = compound.",
+      "zh": "不同颜色结合在一起 = 化合物。"
+     }
+    },
+    {
+     "icon": "🥗",
+     "title": {
+      "en": "5. Mixture 混合物",
+      "zh": "5. 混合物 mixture"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "mixture of two elements",
+         "zh": "两种元素的混合物"
+        },
+        "items": [
+         "d",
+         "ww",
+         "d",
+         "ww",
+         "d",
+         "ww"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of an element and a compound",
+         "zh": "元素和化合物的混合物"
+        },
+        "items": [
+         "d",
+         "dw",
+         "d",
+         "dw",
+         "d",
+         "dw"
+        ]
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "A mixture is 2 or more substances mixed but NOT joined. They can be separated again.",
+       "zh": "混合物是 2 种或更多物质混在一起，但没有结合，还能再分开。"
+      },
+      {
+       "en": "Examples: air, sea water, petrol, brass (copper + zinc, an alloy).",
+       "zh": "例子：空气、海水、汽油、黄铜（铜 + 锌，一种合金）。"
+      },
+      {
+       "en": "Like a fruit salad: you can still pick out each fruit.",
+       "zh": "像水果沙拉：每种水果还能挑出来。"
+      }
+     ],
+     "remember": {
+      "en": "Not joined = mixture. Alloys (like brass) are mixtures.",
+      "zh": "没有结合 = 混合物。合金（比如黄铜）是混合物。"
+     }
+    },
+    {
+     "icon": "🧱",
+     "title": {
+      "en": "The LEGO trick",
+      "zh": "乐高小技巧"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🟥",
+        "en": "atom = one brick",
+        "zh": "原子 = 一块积木"
+       },
+       {
+        "icon": "🟥🟥",
+        "en": "element = all the same colour",
+        "zh": "元素 = 全部同一种颜色"
+       },
+       {
+        "icon": "🟥🟦",
+        "en": "compound = different colours clicked together",
+        "zh": "化合物 = 不同颜色扣在一起"
+       },
+       {
+        "icon": "🟥 🟦",
+        "en": "mixture = loose bricks in a box",
+        "zh": "混合物 = 盒子里散开的积木"
+       },
+       {
+        "icon": "🔁",
+        "en": "reaction = unclick and click again in a new way",
+        "zh": "化学反应 = 拆开再用新方法扣起来"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Use this picture in your head for every question.",
+       "zh": "做每一题时都想一想这个画面。"
+      }
+     ]
+    },
+    {
+     "icon": "❓",
+     "title": {
+      "en": "The 3 questions test",
+      "zh": "三个问题测试法"
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "1️⃣",
+        "en": "How many KINDS of particle? One = pure. Two or more = mixture.",
+        "zh": "有几种粒子？一种 = 纯净物；两种以上 = 混合物。"
+       },
+       {
+        "icon": "2️⃣",
+        "en": "Look inside ONE particle. Atoms joined?",
+        "zh": "看一个粒子：原子结合了吗？"
+       },
+       {
+        "icon": "3️⃣",
+        "en": "Same colours = element. Different colours = compound.",
+        "zh": "颜色相同 = 元素；颜色不同 = 化合物。"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Ask these 3 questions for every particle picture.",
+       "zh": "看每张粒子图都问这 3 个问题。"
+      }
+     ]
+    },
+    {
+     "icon": "🖼️",
+     "title": {
+      "en": "The 6 particle pictures (FULL names)",
+      "zh": "6 种粒子图（完整名称）"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "element (single atoms)",
+         "zh": "元素（单个原子）"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ]
+       },
+       {
+        "label": {
+         "en": "element (molecules)",
+         "zh": "元素（分子）"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "compound",
+         "zh": "化合物"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of two elements",
+         "zh": "两种元素的混合物"
+        },
+        "items": [
+         "d",
+         "ww",
+         "d",
+         "ww",
+         "d",
+         "ww"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of two compounds",
+         "zh": "两种化合物的混合物"
+        },
+        "items": [
+         "dw",
+         "wdw",
+         "dw",
+         "wdw",
+         "dw",
+         "wdw"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of an element and a compound",
+         "zh": "元素和化合物的混合物"
+        },
+        "items": [
+         "d",
+         "dw",
+         "d",
+         "dw",
+         "d",
+         "dw"
+        ]
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "In a test, always write the FULL name. \"Mixture\" alone is not enough.",
+       "zh": "考试时要写完整名称。只写 mixture 不够。"
+      }
+     ]
+    },
+    {
+     "icon": "🔤",
+     "title": {
+      "en": "The formula clue",
+      "zh": "化学式小线索"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Count the CAPITAL letters",
+       "zh": "数大写字母"
+      },
+      "example": {
+       "en": "1 capital = element: O₂, N₂, H₂, Mg.   2 or more = compound: NaCl, CO₂, H₂O.",
+       "zh": "1 个大写字母 = 元素：O₂、N₂、H₂、Mg。2 个或以上 = 化合物：NaCl、CO₂、H₂O。"
+      }
+     },
+     "points": [
+      {
+       "en": "N₂ has only N: it is an ELEMENT (a gas). Many students call it a compound. Not you!",
+       "zh": "N₂ 只有 N：是元素（气体）。很多同学说它是化合物。你不会！"
+      },
+      {
+       "en": "Careful: Co (small o) is cobalt, one element. CO (capital O) is carbon monoxide, a compound.",
+       "zh": "注意：Co（小写 o）是钴，一种元素。CO（大写 O）是一氧化碳，是化合物。"
+      }
+     ],
+     "remember": {
+      "en": "The small number does not change the answer. O₂ is still an element.",
+      "zh": "小数字不改变答案。O₂ 还是元素。"
+     }
+    },
+    {
+     "icon": "🧲",
+     "title": {
+      "en": "Iron and sulfur: mixture or compound?",
+      "zh": "铁和硫：混合物还是化合物？"
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "⚫🟡",
+        "en": "iron + sulfur mixed: a MIXTURE",
+        "zh": "铁和硫混在一起：混合物"
+       },
+       {
+        "icon": "🧲",
+        "en": "a magnet pulls the iron out",
+        "zh": "磁铁能把铁吸出来"
+       },
+       {
+        "icon": "🔥",
+        "en": "heat it: it glows",
+        "zh": "加热：会发光"
+       },
+       {
+        "icon": "⬛",
+        "en": "iron sulfide: a COMPOUND",
+        "zh": "硫化铁：化合物"
+       },
+       {
+        "icon": "🚫🧲",
+        "en": "the magnet can't pull iron out now",
+        "zh": "磁铁现在吸不出铁了"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Before heating: not joined, so a magnet can separate them.",
+       "zh": "加热前：没有结合，磁铁能分开它们。"
+      },
+      {
+       "en": "After heating: joined into a NEW substance. That is a chemical reaction.",
+       "zh": "加热后：结合成新物质。这是化学反应。"
+      }
+     ]
+    },
+    {
+     "icon": "🌡️",
+     "title": {
+      "en": "Your question 1: negative numbers and solid, liquid or gas",
+      "zh": "你的问题 1：用负数判断固体、液体、气体"
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🧊",
+        "en": "colder than the melting point = SOLID",
+        "zh": "比熔点低 = 固体"
+       },
+       {
+        "icon": "💧",
+        "en": "between melting and boiling point = LIQUID",
+        "zh": "在熔点和沸点之间 = 液体"
+       },
+       {
+        "icon": "💨",
+        "en": "hotter than the boiling point = GAS",
+        "zh": "比沸点高 = 气体"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Mercury melts at -39 °C and boils at 357 °C. At 0 °C: is 0 colder than -39? No. Is 0 hotter than 357? No. So it is in between: LIQUID.",
+       "zh": "汞的熔点是 -39 °C，沸点是 357 °C。0 °C 时：0 比 -39 冷吗？不。0 比 357 热吗？不。所以在中间：液体。"
+      },
+      {
+       "en": "On a number line, numbers further LEFT are colder. -39 is colder than 0.",
+       "zh": "在数轴上，越往左越冷。-39 比 0 冷。"
+      },
+      {
+       "en": "Answer with the element's NAME (mercury), not \"melting point\".",
+       "zh": "答案写元素的名字（mercury），不要写 melting point。"
+      }
+     ]
+    },
+    {
+     "icon": "🔑",
+     "title": {
+      "en": "Your question 2: how to write key points",
+      "zh": "你的问题 2：怎么写重点"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "3 key words + 1 rule + 1 example",
+       "zh": "3 个关键词 + 1 句规则 + 1 个例子"
+      },
+      "example": {
+       "en": "Words: element, compound, mixture. Rule: compound = different atoms joined. Example: water H₂O is a compound.",
+       "zh": "关键词：element、compound、mixture。规则：化合物 = 不同原子结合。例子：水 H₂O 是化合物。"
+      }
+     },
+     "points": [
+      {
+       "en": "Key points are SHORT. Do not copy the whole page.",
+       "zh": "重点要短，不要抄整页。"
+      },
+      {
+       "en": "Use the 🔑 My Key Points activity in today's Workbook to try it.",
+       "zh": "在今天练习册的 🔑 我的重点 里试一试。"
+      }
+     ]
+    },
+    {
+     "icon": "⭐",
+     "title": {
+      "en": "Today's big ideas",
+      "zh": "今天的重点"
+     },
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "element",
+         "zh": "元素"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "compound",
+         "zh": "化合物"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture",
+         "zh": "混合物"
+        },
+        "items": [
+         "d",
+         "ww",
+         "d",
+         "ww"
+        ]
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Element = one type of atom. Compound = different atoms joined. Mixture = not joined.",
+       "zh": "元素 = 一种原子。化合物 = 不同原子结合。混合物 = 没有结合。"
+      },
+      {
+       "en": "Now do today's Workbook.",
+       "zh": "现在做今天的练习册。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain atom, element, molecule, compound and mixture, with pictures.",
+    "zh": "我现在能用图解释原子、元素、分子、化合物和混合物。"
+   }
+  },
+  {
+   "id": "atomfill",
+   "type": "fillblank",
+   "icon": "✍️",
+   "shuffle": false,
+   "title": {
+    "en": "Fill in the Blanks: Atoms to Mixtures",
+    "zh": "填空：从原子到混合物"
+   },
+   "subtitle": {
+    "en": "10 sentences",
+    "zh": "10 个句子"
+   },
+   "intro": {
+    "en": "Read the sentence, then tap the missing word.",
+    "zh": "读句子，然后点出缺少的词。"
+   },
+   "bank": [
+    "atom",
+    "element",
+    "molecule",
+    "compound",
+    "mixture",
+    "joined",
+    "separated",
+    "capital",
+    "magnet",
+    "alloy"
+   ],
+   "items": [
+    {
+     "text": "The smallest particle of an element is an ___.",
+     "answer": "atom",
+     "why": {
+      "en": "One circle = one atom.",
+      "zh": "一个圆圈 = 一个原子。"
+     }
+    },
+    {
+     "text": "A substance made of only ONE type of atom is an ___.",
+     "answer": "element",
+     "why": {
+      "en": "Same colour = element.",
+      "zh": "颜色相同 = 元素。"
+     }
+    },
+    {
+     "text": "Two or more atoms chemically joined make a ___.",
+     "answer": "molecule",
+     "why": {
+      "en": "Touching circles = a molecule.",
+      "zh": "碰在一起的圆圈 = 分子。"
+     }
+    },
+    {
+     "text": "DIFFERENT atoms chemically joined make a ___.",
+     "answer": "compound",
+     "why": {
+      "en": "Different colours joined = compound.",
+      "zh": "不同颜色结合 = 化合物。"
+     }
+    },
+    {
+     "text": "Substances mixed but NOT joined make a ___.",
+     "answer": "mixture",
+     "why": {
+      "en": "Not joined = mixture.",
+      "zh": "没有结合 = 混合物。"
+     }
+    },
+    {
+     "text": "In a compound, the atoms are chemically ___.",
+     "answer": "joined",
+     "why": {
+      "en": "That is why a compound is a new substance.",
+      "zh": "所以化合物是新物质。"
+     }
+    },
+    {
+     "text": "A mixture can be ___ again, for example with a magnet.",
+     "answer": "separated",
+     "why": {
+      "en": "Mixtures are not joined, so they can be separated.",
+      "zh": "混合物没有结合，所以能分开。"
+     }
+    },
+    {
+     "text": "One ___ letter in a formula means one element, like O₂.",
+     "answer": "capital",
+     "why": {
+      "en": "Count the capital letters.",
+      "zh": "数大写字母。"
+     }
+    },
+    {
+     "text": "A ___ can pull iron out of an iron and sulfur mixture.",
+     "answer": "magnet",
+     "why": {
+      "en": "Iron is magnetic; in a mixture it is not joined.",
+      "zh": "铁有磁性；在混合物里没有结合。"
+     }
+    },
+    {
+     "text": "Brass is an ___, a mixture of copper and zinc.",
+     "answer": "alloy",
+     "why": {
+      "en": "Alloys are mixtures of metals.",
+      "zh": "合金是金属的混合物。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use the 5 big words in sentences.",
+    "zh": "我现在能在句子里用这 5 个重要的词。"
+   }
+  },
+  {
+   "id": "kp-atoms",
+   "type": "keypoints",
+   "icon": "🔑",
+   "title": {
+    "en": "My Key Points: Elements, Compounds, Mixtures",
+    "zh": "我的重点：元素、化合物、混合物"
+   },
+   "intro": {
+    "en": "Write 3 short lines. Then see Roy's example.",
+    "zh": "写 3 行短短的重点，然后看 Roy 老师的例子。"
+   },
+   "topic": {
+    "en": "Topic: elements, compounds and mixtures",
+    "zh": "主题：元素、化合物和混合物"
+   },
+   "model": {
+    "words": "element, compound, mixture",
+    "rule": "Element = one type of atom; compound = different atoms joined; mixture = not joined.",
+    "example": "Water (H₂O) is a compound because H and O are joined."
+   },
+   "canNow": {
+    "en": "I can now write key points: 3 words, 1 rule, 1 example.",
+    "zh": "我现在会写重点：3 个词、1 句规则、1 个例子。"
+   }
+  },
+  {
+   "id": "extrahw",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "🔁",
+   "title": {
+    "en": "Extra Practice From My Homework",
+    "zh": "作业加练"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "These are the questions that were tricky in your homework. Try again!",
+    "zh": "这些是作业里比较难的题，再试一次！"
+   },
+   "questions": [
+    {
+     "q": "Which TWO words apply to nitrogen (N₂)?",
+     "options": [
+      "gas, compound",
+      "gas, element",
+      "solid, mixture",
+      "liquid, element"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "N₂ has only N atoms: element. It is a gas in the air.",
+      "zh": "N₂ 只有 N 原子：元素。它是空气里的气体。"
+     }
+    },
+    {
+     "q": "Which statement is TRUE?",
+     "options": [
+      "Most metals are magnetic.",
+      "There are 2 liquid elements at room temperature.",
+      "Most elements are non-metals.",
+      "There are about 1000 elements."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Test every option: only mercury and bromine are liquid elements. Most metals are NOT magnetic.",
+      "zh": "每个选项都要检查：只有汞和溴是液态元素。大部分金属没有磁性。"
+     }
+    },
+    {
+     "q": "Gas → liquid is called...",
+     "options": [
+      "boiling",
+      "melting",
+      "freezing",
+      "condensing"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Cooling a gas turns it back to liquid: condensing.",
+      "zh": "气体冷却变回液体：凝结。"
+     }
+    },
+    {
+     "q": "In the metal-heating test, what is the ONE thing you change?",
+     "options": [
+      "the type of metal",
+      "the mass after heating",
+      "the colour of the flame",
+      "the change in mass"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "I Change the type of metal. I Measure the mass. I keep the Same: starting mass, time, crucible.",
+      "zh": "我改变金属种类，我测量质量，我保持起始质量、时间、坩埚不变。"
+     }
+    },
+    {
+     "q": "The mass went UP after heating. Who is right?",
+     "options": [
+      "Priestley",
+      "Lavoisier",
+      "both",
+      "neither"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Mass up = the metal gained oxygen from the air. That supports Lavoisier only.",
+      "zh": "质量增加 = 金属从空气中得到了氧。只支持 Lavoisier。"
+     }
+    },
+    {
+     "q": "Ratio of carbon : oxygen in CO₂?",
+     "options": [
+      "2 : 1",
+      "1 : 2",
+      "1 : 1",
+      "3 : 1"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Follow the word order: carbon 1, oxygen 2.",
+      "zh": "按词的顺序：碳 1，氧 2。"
+     }
+    },
+    {
+     "q": "How many OXYGEN atoms are in 6 molecules of CO₂?",
+     "options": [
+      "2",
+      "6",
+      "12",
+      "18"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "6 molecules × 2 oxygen atoms = 12.",
+      "zh": "6 个分子 × 2 个氧原子 = 12。"
+     }
+    },
+    {
+     "q": "24 + x = 40. What is x?",
+     "options": [
+      "26",
+      "64",
+      "16",
+      "14"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Take away 24: 40 - 24 = 16. Check: 24 + 16 = 40.",
+      "zh": "减去 24：40 - 24 = 16。检查：24 + 16 = 40。"
+     }
+    },
+    {
+     "q": "Simplify the ratio 6 : 9.",
+     "options": [
+      "3 : 2",
+      "2 : 3",
+      "1 : 3",
+      "6 : 3"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Divide both by 3: 2 : 3.",
+      "zh": "两个数都除以 3：2 : 3。"
+     }
+    },
+    {
+     "q": "In a results table, what goes in the FIRST column?",
+     "options": [
+      "what you change (type of metal)",
+      "change in mass (g)",
+      "mass after (g)",
+      "your name"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The first column is always what you change.",
+      "zh": "第一列永远是你改变的东西。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now fix the tricky homework questions by myself.",
+    "zh": "我现在能自己改正作业里难的题。"
+   }
+  },
+  {
+   "id": "trialquiz",
+   "type": "quiz",
+   "timed": false,
+   "count": 10,
+   "icon": "⭐",
+   "title": {
+    "en": "Trial Quiz: Part A Mix",
+    "zh": "试听课小测：A 部分综合"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "10 questions from your test topics. Read each question twice.",
+    "zh": "10 道来自考试内容的题。每题读两遍。"
+   },
+   "questions": [
+    {
+     "q": "Which of these is a compound?",
+     "options": [
+      "carbon monoxide",
+      "magnesium",
+      "bromine",
+      "brass"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Carbon monoxide (CO) has two different elements joined. Magnesium and bromine are elements. Brass is a mixture.",
+      "zh": "一氧化碳 (CO) 有两种不同的元素结合。镁和溴是元素。黄铜是混合物。"
+     }
+    },
+    {
+     "q": "Which statement is true?",
+     "options": [
+      "Most elements are non-metals",
+      "There are 2 liquid elements at room temperature",
+      "Most metals are magnetic",
+      "There are about 1000 elements"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Mercury and bromine. Most elements are metals, most metals are not magnetic, and there are about 118 elements.",
+      "zh": "汞和溴。大部分元素是金属，大部分金属没有磁性，元素大约有118种。"
+     }
+    },
+    {
+     "q": "Which two words apply to copper sulfate?",
+     "options": [
+      "gas, compound",
+      "solid, mixture",
+      "gas, element",
+      "solid, compound"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Copper sulfate is blue crystals (solid), made of copper, sulfur and oxygen joined (compound).",
+      "zh": "硫酸铜是蓝色晶体（固体），由铜、硫、氧结合而成（化合物）。"
+     }
+    },
+    {
+     "q": "Hydrogen, petrol, water: which order is right?",
+     "options": [
+      "element, compound, mixture",
+      "element, mixture, compound",
+      "mixture, compound, element",
+      "compound, element, mixture"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Hydrogen = element. Petrol = mixture of many compounds. Water = compound (H₂O).",
+      "zh": "氢气 = 元素。汽油 = 很多化合物的混合物。水 = 化合物 (H₂O)。"
+     }
+    },
+    {
+     "q": "Which of these is an element?",
+     "options": [
+      "MgS",
+      "NaCl",
+      "CoO",
+      "O₂"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Count capital letters. O₂ has only O. The others have two capitals, so two elements.",
+      "zh": "数大写字母。O₂ 只有 O。其他的都有两个大写字母，所以是两种元素。"
+     }
+    },
+    {
+     "q": "Which two words apply to nitrogen?",
+     "options": [
+      "gas, compound",
+      "liquid, compound",
+      "gas, element",
+      "solid, mixture"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Nitrogen is in the Periodic Table (element) and is a gas at room temperature.",
+      "zh": "氮在元素周期表里（元素），室温下是气体。"
+     }
+    },
+    {
+     "q": "Which reaction is: compound → two elements?",
+     "options": [
+      "zinc + sulfur → zinc sulfide",
+      "carbon dioxide + calcium hydroxide → calcium carbonate + water",
+      "oxygen + copper sulfide → copper sulfate",
+      "water → hydrogen + oxygen"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "One compound on the left (water), two elements on the right (hydrogen, oxygen). Option A is the opposite: two elements → compound.",
+      "zh": "左边一种化合物（水），右边两种元素（氢、氧）。A 正好相反：两种元素 → 化合物。"
+     }
+    },
+    {
+     "q": "What is the formula of propane? (3 carbon atoms, 8 hydrogen atoms)",
+     "options": [
+      "₃C₈H",
+      "C₃H₈",
+      "C₈H₃",
+      "C₃H₆"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Small number goes AFTER the atom: C₃ then H₈.",
+      "zh": "小数字写在原子后面：先 C₃ 再 H₈。"
+     }
+    },
+    {
+     "q": "zinc + sulfur → ?",
+     "options": [
+      "zinc sulfate",
+      "zinc sulfide",
+      "sulfur zinc",
+      "zincur"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Metal first, then sulfur → sulfide. No oxygen, so not \"-ate\".",
+      "zh": "先写金属，sulfur 变 sulfide。没有氧，所以不是 \"-ate\"。"
+     }
+    },
+    {
+     "q": "sulfur + oxygen → ?",
+     "options": [
+      "sulfur oxygen",
+      "sulfur dioxide",
+      "oxygen sulfide",
+      "sulfuric acid"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "oxygen → oxide. With two oxygens it is sulfur DIoxide, SO₂.",
+      "zh": "oxygen 变 oxide。有两个氧，所以是 sulfur DIoxide (SO₂)。"
+     }
+    },
+    {
+     "q": "Lily heated iron and sulfur. Which shows a chemical reaction happened?",
+     "options": [
+      "The mixture got warm from the burner",
+      "It glowed and a new black solid formed",
+      "The tray was metal",
+      "Sulfur is yellow"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A glow and a NEW substance are signs of a chemical reaction.",
+      "zh": "发光和产生新物质是化学反应的标志。"
+     }
+    },
+    {
+     "q": "Iron sulfide is a...",
+     "options": [
+      "metallic element",
+      "mixture",
+      "non-metallic element",
+      "compound"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Iron and sulfur are chemically joined, so iron sulfide is a compound. Sulfur by itself is a non-metallic element.",
+      "zh": "铁和硫化学结合，所以硫化亚铁是化合物。硫本身是非金属元素。"
+     }
+    },
+    {
+     "q": "James had 2.0 g iron and got 2.8 g iron sulfide. Why?",
+     "options": [
+      "The heat added mass",
+      "Sulfur atoms joined onto the iron",
+      "The scale was wrong",
+      "Iron got bigger"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The 0.8 g extra is the sulfur that joined. Atoms are never lost or made.",
+      "zh": "多出来的0.8克是结合进去的硫。原子不会消失也不会凭空出现。"
+     }
+    },
+    {
+     "q": "Aluminium melts at 660 °C, boils at 2520 °C. At 1500 °C it is...",
+     "options": [
+      "solid",
+      "liquid",
+      "gas",
+      "a compound"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "1500 is above 660 (melted) but below 2520 (not boiling). Between = liquid.",
+      "zh": "1500 高于 660（已熔化），低于 2520（没沸腾）。在中间 = 液体。"
+     }
+    },
+    {
+     "q": "What is the formula for sulfuric acid?",
+     "options": [
+      "H₂SO₄",
+      "HSO",
+      "SO₂",
+      "H₂O"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2 hydrogen, 1 sulfur, 4 oxygen: H₂SO₄.",
+      "zh": "2个氢，1个硫，4个氧：H₂SO₄。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer test questions about elements, compounds, mixtures and reactions.",
+    "zh": "我现在能回答关于元素、化合物、混合物和反应的考题。"
+   }
+  },
+  {
+   "id": "deck-partb",
+   "type": "flashcards",
+   "icon": "🌈",
+   "title": {
+    "en": "Light, Sound and EM: School Key Words (B1 to B8)",
+    "zh": "光、声音和电磁波谱：学校关键词（B1 到 B8）"
+   },
+   "subtitle": {
+    "en": "59 words",
+    "zh": "59 个词"
+   },
+   "intro": {
+    "en": "Your school's own definitions. Learn them word for word.",
+    "zh": "学校原文定义，要一字不差地记。"
+   },
+   "cards": [
+    {
+     "front": "wave",
+     "back": "A disturbance that transfers energy from one place to another.",
+     "zh": "波",
+     "zhBack": "把能量从一个地方传到另一个地方的扰动。"
+    },
+    {
+     "front": "transverse wave",
+     "back": "A wave in which vibrations are perpendicular to the direction of travel.",
+     "zh": "横波",
+     "zhBack": "振动方向和传播方向垂直的波。"
+    },
+    {
+     "front": "longitudinal wave",
+     "back": "A wave in which vibrations are parallel to the direction of travel.",
+     "zh": "纵波",
+     "zhBack": "振动方向和传播方向平行的波。"
+    },
+    {
+     "front": "amplitude",
+     "back": "The maximum distance a point on a wave moves from its resting position.",
+     "zh": "振幅",
+     "zhBack": "波上一点离开静止位置的最大距离。"
+    },
+    {
+     "front": "wavelength",
+     "back": "The distance between two corresponding points on consecutive waves, such as crest to crest.",
+     "zh": "波长",
+     "zhBack": "相邻两个波上对应点之间的距离，比如波峰到波峰。"
+    },
+    {
+     "front": "frequency",
+     "back": "The number of complete waves passing a point each second.",
+     "zh": "频率",
+     "zhBack": "每秒经过一点的完整波的数量。"
+    },
+    {
+     "front": "hertz (Hz)",
+     "back": "The unit used to measure frequency. One hertz equals one wave per second.",
+     "zh": "赫兹",
+     "zhBack": "频率的单位。1赫兹 = 每秒1个波。"
+    },
+    {
+     "front": "medium",
+     "back": "A substance or material through which a wave travels.",
+     "zh": "介质",
+     "zhBack": "波在其中传播的物质或材料。"
+    },
+    {
+     "front": "vibration",
+     "back": "A repeated movement backwards and forwards around a resting position.",
+     "zh": "振动",
+     "zhBack": "在静止位置附近来回重复的运动。"
+    },
+    {
+     "front": "vacuum",
+     "back": "A space containing no particles.",
+     "zh": "真空",
+     "zhBack": "没有任何粒子的空间。"
+    },
+    {
+     "front": "compression",
+     "back": "A region of a longitudinal wave where particles are close together.",
+     "zh": "密部",
+     "zhBack": "纵波中粒子靠得很近的区域。"
+    },
+    {
+     "front": "rarefaction",
+     "back": "A region of a longitudinal wave where particles are spread further apart.",
+     "zh": "疏部",
+     "zhBack": "纵波中粒子分得较开的区域。"
+    },
+    {
+     "front": "transparent",
+     "back": "A material that allows light to pass through clearly, so objects can be seen through it.",
+     "zh": "透明的",
+     "zhBack": "光能清楚地穿过的材料，可以看清后面的东西。"
+    },
+    {
+     "front": "translucent",
+     "back": "A material that allows light through but scatters it, so objects cannot be seen clearly through it.",
+     "zh": "半透明的",
+     "zhBack": "光能穿过但被散开的材料，看不清后面的东西。"
+    },
+    {
+     "front": "opaque",
+     "back": "A material that does not allow light to pass through it.",
+     "zh": "不透明的",
+     "zhBack": "光不能穿过的材料。"
+    },
+    {
+     "front": "luminous",
+     "back": "An object that produces its own light.",
+     "zh": "发光的",
+     "zhBack": "自己会发光的物体。"
+    },
+    {
+     "front": "non-luminous",
+     "back": "An object that does not produce its own light, but can be seen by light reflected off it.",
+     "zh": "不发光的",
+     "zhBack": "自己不发光，但能反射光而被看见的物体。"
+    },
+    {
+     "front": "light ray",
+     "back": "A straight line used to show the direction in which light travels.",
+     "zh": "光线",
+     "zhBack": "表示光传播方向的直线。"
+    },
+    {
+     "front": "plane mirror",
+     "back": "A flat mirror with a smooth, reflective surface.",
+     "zh": "平面镜",
+     "zhBack": "表面平滑、能反射的平的镜子。"
+    },
+    {
+     "front": "laterally inverted",
+     "back": "When an image appears reversed from left to right, as in a plane mirror.",
+     "zh": "左右颠倒",
+     "zhBack": "像左右反过来，就像在平面镜里一样。"
+    },
+    {
+     "front": "reflection",
+     "back": "The change in direction of light when it bounces off a surface.",
+     "zh": "反射",
+     "zhBack": "光碰到表面弹回来时方向的改变。"
+    },
+    {
+     "front": "refraction",
+     "back": "The change in direction of light when it passes between different materials because its speed changes.",
+     "zh": "折射",
+     "zhBack": "光从一种材料进入另一种材料时，因为速度改变而方向改变。"
+    },
+    {
+     "front": "incident ray",
+     "back": "The ray of light travelling towards a surface before reflection or refraction.",
+     "zh": "入射光线",
+     "zhBack": "反射或折射之前射向表面的光线。"
+    },
+    {
+     "front": "reflected ray",
+     "back": "The ray of light that bounces off a surface.",
+     "zh": "反射光线",
+     "zhBack": "从表面弹回来的光线。"
+    },
+    {
+     "front": "angle of incidence",
+     "back": "The angle between the incident ray and the normal.",
+     "zh": "入射角",
+     "zhBack": "入射光线和法线之间的角。"
+    },
+    {
+     "front": "angle of reflection",
+     "back": "The angle between the reflected ray and the normal.",
+     "zh": "反射角",
+     "zhBack": "反射光线和法线之间的角。"
+    },
+    {
+     "front": "normal",
+     "back": "An imaginary line drawn at 90° to a surface at the point where a ray hits it.",
+     "zh": "法线",
+     "zhBack": "在光线射到的点上，与表面成90°的假想线。"
+    },
+    {
+     "front": "prism",
+     "back": "A transparent object, usually made of glass or plastic, that can refract and disperse light.",
+     "zh": "棱镜",
+     "zhBack": "透明物体，通常是玻璃或塑料做的，能折射和分散光。"
+    },
+    {
+     "front": "dispersion",
+     "back": "The separation of white light into its different colours.",
+     "zh": "色散",
+     "zhBack": "白光分成不同颜色。"
+    },
+    {
+     "front": "spectrum",
+     "back": "A range of different colours or wavelengths, such as the visible spectrum.",
+     "zh": "光谱",
+     "zhBack": "一系列不同的颜色或波长，比如可见光谱。"
+    },
+    {
+     "front": "transmit",
+     "back": "To allow something, such as light, to pass through a material.",
+     "zh": "透射（传播）",
+     "zhBack": "让光等东西穿过材料。"
+    },
+    {
+     "front": "absorb",
+     "back": "To take in energy, such as light, rather than reflecting or transmitting it.",
+     "zh": "吸收",
+     "zhBack": "把光等能量吸进去，而不是反射或透射。"
+    },
+    {
+     "front": "primary colour",
+     "back": "A colour of light that can be combined with other primary colours to produce a range of colours. For light, these are red, green and blue.",
+     "zh": "原色",
+     "zhBack": "可以和其他原色混合出很多颜色的光的颜色。光的三原色：红、绿、蓝。"
+    },
+    {
+     "front": "secondary colour",
+     "back": "A colour produced by mixing two primary colours of light. These are cyan, magenta and yellow.",
+     "zh": "二次色（间色）",
+     "zhBack": "两种原色光混合产生的颜色：青、品红、黄。"
+    },
+    {
+     "front": "electromagnetic wave",
+     "back": "A transverse wave that can travel through a vacuum without needing a medium.",
+     "zh": "电磁波",
+     "zhBack": "一种横波，不需要介质，能在真空中传播。"
+    },
+    {
+     "front": "electromagnetic spectrum",
+     "back": "The complete range of electromagnetic waves, arranged according to their wavelength or frequency.",
+     "zh": "电磁波谱",
+     "zhBack": "按波长或频率排列的全部电磁波。"
+    },
+    {
+     "front": "radio wave",
+     "back": "A low-frequency electromagnetic wave used for radio and television communication.",
+     "zh": "无线电波",
+     "zhBack": "低频电磁波，用于广播和电视通信。"
+    },
+    {
+     "front": "microwave",
+     "back": "An electromagnetic wave used in cooking, radar and satellite communication.",
+     "zh": "微波",
+     "zhBack": "用于烹饪、雷达和卫星通信的电磁波。"
+    },
+    {
+     "front": "infrared",
+     "back": "Electromagnetic radiation associated with heat, used in thermal imaging and remote controls.",
+     "zh": "红外线",
+     "zhBack": "和热有关的电磁辐射，用于热成像和遥控器。"
+    },
+    {
+     "front": "visible light",
+     "back": "The part of the electromagnetic spectrum that can be detected by the human eye.",
+     "zh": "可见光",
+     "zhBack": "人眼能看到的那部分电磁波谱。"
+    },
+    {
+     "front": "ultraviolet (UV)",
+     "back": "Electromagnetic radiation with a higher frequency than visible light, which can cause sunburn and damage skin cells.",
+     "zh": "紫外线",
+     "zhBack": "频率比可见光高的电磁辐射，会晒伤皮肤、损伤皮肤细胞。"
+    },
+    {
+     "front": "X-ray",
+     "back": "High-frequency electromagnetic radiation that can pass through soft tissue and is used to produce medical images.",
+     "zh": "X射线",
+     "zhBack": "高频电磁辐射，能穿过软组织，用来拍医学影像。"
+    },
+    {
+     "front": "gamma ray",
+     "back": "Very high-frequency electromagnetic radiation that can be produced by radioactive materials and used in cancer treatment.",
+     "zh": "伽马射线",
+     "zhBack": "频率非常高的电磁辐射，可由放射性物质产生，用于治疗癌症。"
+    },
+    {
+     "front": "ionising radiation",
+     "back": "Radiation with enough energy to remove electrons from atoms, potentially damaging cells and DNA.",
+     "zh": "电离辐射",
+     "zhBack": "能量足以把电子从原子中打出来的辐射，可能损伤细胞和DNA。"
+    },
+    {
+     "front": "pitch",
+     "back": "How high or low a sound seems. It depends on the frequency of the sound wave.",
+     "zh": "音调",
+     "zhBack": "声音听起来有多高或多低，由声波的频率决定。"
+    },
+    {
+     "front": "volume / loudness",
+     "back": "How loud or quiet a sound seems. It is related to the amplitude and intensity of the sound wave.",
+     "zh": "响度（音量）",
+     "zhBack": "声音听起来有多大或多小，和声波的振幅和强度有关。"
+    },
+    {
+     "front": "decibel (dB)",
+     "back": "The unit used to measure sound level. The decibel scale is logarithmic.",
+     "zh": "分贝",
+     "zhBack": "测量声音大小的单位。分贝刻度是对数刻度。"
+    },
+    {
+     "front": "audible range",
+     "back": "The range of sound frequencies that an animal can hear. For humans, this is approximately 20 Hz to 20,000 Hz.",
+     "zh": "可听范围",
+     "zhBack": "动物能听到的声音频率范围。人类大约是20赫兹到20,000赫兹。"
+    },
+    {
+     "front": "ultrasound",
+     "back": "Sound with a frequency higher than 20,000 Hz, above the usual human hearing range.",
+     "zh": "超声波",
+     "zhBack": "频率高于20,000赫兹的声音，人耳听不到。"
+    },
+    {
+     "front": "infrasound",
+     "back": "Sound with a frequency lower than 20 Hz, below the usual human hearing range.",
+     "zh": "次声波",
+     "zhBack": "频率低于20赫兹的声音，人耳听不到。"
+    },
+    {
+     "front": "echo",
+     "back": "A sound heard again after it has reflected off a surface.",
+     "zh": "回声",
+     "zhBack": "声音碰到表面反射回来后再次被听到。"
+    },
+    {
+     "front": "echolocation",
+     "back": "The use of reflected sound waves to detect objects and determine their position or distance.",
+     "zh": "回声定位",
+     "zhBack": "利用反射的声波发现物体并判断它的位置或距离。"
+    },
+    {
+     "front": "sonar",
+     "back": "A system that uses reflected sound waves to detect objects and measure distances, commonly underwater.",
+     "zh": "声呐",
+     "zhBack": "利用反射声波探测物体、测量距离的系统，常用在水下。"
+    },
+    {
+     "front": "pinna",
+     "back": "The visible outer part of the ear that collects sound waves.",
+     "zh": "耳廓",
+     "zhBack": "耳朵外面能看到的部分，收集声波。"
+    },
+    {
+     "front": "auditory canal",
+     "back": "The tube that carries sound waves from the pinna to the eardrum.",
+     "zh": "外耳道",
+     "zhBack": "把声波从耳廓送到鼓膜的管道。"
+    },
+    {
+     "front": "eardrum",
+     "back": "A thin membrane that vibrates when sound waves reach it.",
+     "zh": "鼓膜",
+     "zhBack": "声波到达时会振动的一层薄膜。"
+    },
+    {
+     "front": "ossicles",
+     "back": "Three tiny bones in the middle ear that transmit and amplify vibrations from the eardrum to the inner ear.",
+     "zh": "听小骨",
+     "zhBack": "中耳里的三块小骨头，把鼓膜的振动放大并传到内耳。"
+    },
+    {
+     "front": "cochlea",
+     "back": "A spiral-shaped structure in the inner ear that converts vibrations into electrical signals.",
+     "zh": "耳蜗",
+     "zhBack": "内耳里螺旋形的结构，把振动变成电信号。"
+    },
+    {
+     "front": "auditory nerve",
+     "back": "The nerve that carries electrical signals from the cochlea to the brain.",
+     "zh": "听神经",
+     "zhBack": "把电信号从耳蜗送到大脑的神经。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain my school's Light, Sound and EM key words.",
+    "zh": "我现在能解释学校的光、声音和电磁波关键词。"
+   }
+  },
+  {
+   "id": "deck-big",
+   "type": "flashcards",
+   "icon": "🧩",
+   "title": {
+    "en": "A1 The Big Ideas",
+    "zh": "核心概念"
+   },
+   "subtitle": {
+    "en": "7 cards",
+    "zh": "7 张"
+   },
+   "intro": {
+    "en": "Read the front, say your answer, then tap to check.",
+    "zh": "读正面，说出答案，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "What is an atom?",
+     "back": "The smallest particle of an element. Everything is made of atoms. 💡 Think of atoms as tiny LEGO bricks.",
+     "zh": "什么是原子？",
+     "zhBack": "原子是元素的最小粒子。所有物质都是由原子构成的。"
+    },
+    {
+     "front": "What is an element?",
+     "back": "A substance made of only ONE type of atom. It cannot be split into anything simpler by a chemical reaction. 💡 There are about 118 elements. They are all in the Periodic Table.",
+     "zh": "什么是元素？",
+     "zhBack": "只由一种原子构成的物质。不能用化学反应把它分成更简单的物质。"
+    },
+    {
+     "front": "What is a molecule?",
+     "back": "Two or more atoms joined (bonded) together. 💡 O₂ is a molecule of an element. H₂O is a molecule of a compound.",
+     "zh": "什么是分子？",
+     "zhBack": "两个或更多原子连接（结合）在一起。"
+    },
+    {
+     "front": "What is a compound?",
+     "back": "Two or more DIFFERENT elements chemically joined together. 💡 A compound is NEW. It acts differently from the elements that made it. You need a chemical reaction to make it or break it.",
+     "zh": "什么是化合物？",
+     "zhBack": "两种或更多种不同的元素通过化学方式结合在一起。"
+    },
+    {
+     "front": "What is a mixture?",
+     "back": "Two or more substances mixed together but NOT chemically joined. 💡 Each part keeps its own properties. You can separate a mixture easily, e.g. with a magnet, a filter or by evaporating.",
+     "zh": "什么是混合物？",
+     "zhBack": "两种或更多种物质混在一起，但没有化学结合。"
+    },
+    {
+     "front": "What is a pure substance?",
+     "back": "Only ONE substance: either one element or one compound. 💡 Pure water = only H₂O. Salt water is a mixture.",
+     "zh": "什么是纯净物？",
+     "zhBack": "只有一种物质：一种元素或一种化合物。"
+    },
+    {
+     "front": "Compound or mixture: how do I tell?",
+     "back": "Ask: \"Are they JOINED by a reaction?\" Joined = compound. Just mixed = mixture.",
+     "zh": "化合物还是混合物：怎么分辨？",
+     "zhBack": "问自己：\"它们是通过反应结合的吗？\" 结合了 = 化合物；只是混在一起 = 混合物。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer the The Big Ideas cards.",
+    "zh": "我现在会回答“核心概念”的卡片。"
+   }
+  },
+  {
+   "id": "deck-sort",
+   "type": "flashcards",
+   "icon": "🗂️",
+   "title": {
+    "en": "A2 Element, Compound or Mixture?",
+    "zh": "元素、化合物还是混合物？"
+   },
+   "subtitle": {
+    "en": "12 cards",
+    "zh": "12 张"
+   },
+   "intro": {
+    "en": "Read the front, say your answer, then tap to check.",
+    "zh": "读正面，说出答案，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "Water (H₂O)",
+     "back": "Compound 💡 Hydrogen and oxygen are chemically joined.",
+     "zh": "水 (H₂O)",
+     "zhBack": "化合物"
+    },
+    {
+     "front": "Hydrogen (H₂)",
+     "back": "Element 💡 Only hydrogen atoms. It is in the Periodic Table.",
+     "zh": "氢气 (H₂)",
+     "zhBack": "元素"
+    },
+    {
+     "front": "Petrol",
+     "back": "Mixture 💡 Petrol is lots of different compounds mixed together.",
+     "zh": "汽油",
+     "zhBack": "混合物"
+    },
+    {
+     "front": "Air",
+     "back": "Mixture 💡 Nitrogen, oxygen, carbon dioxide and more, all mixed but not joined.",
+     "zh": "空气",
+     "zhBack": "混合物"
+    },
+    {
+     "front": "Brass",
+     "back": "Mixture (an alloy) 💡 Brass is copper and zinc mixed. Alloys are mixtures of metals.",
+     "zh": "黄铜",
+     "zhBack": "混合物（合金）"
+    },
+    {
+     "front": "Carbon monoxide (CO)",
+     "back": "Compound 💡 C and O: two different elements joined.",
+     "zh": "一氧化碳 (CO)",
+     "zhBack": "化合物"
+    },
+    {
+     "front": "Magnesium (Mg)",
+     "back": "Element (a metal) 💡 One symbol, one capital letter = one element.",
+     "zh": "镁 (Mg)",
+     "zhBack": "元素（金属）"
+    },
+    {
+     "front": "Bromine (Br₂)",
+     "back": "Element (a non-metal) 💡 Bromine is one of only 2 elements that are liquid at room temperature.",
+     "zh": "溴 (Br₂)",
+     "zhBack": "元素（非金属）"
+    },
+    {
+     "front": "Nitrogen (N₂): which two words?",
+     "back": "Gas, element 💡 Nitrogen is in the Periodic Table, so it is an element. At room temperature it is a gas.",
+     "zh": "氮气 (N₂)：哪两个词？",
+     "zhBack": "气体，元素"
+    },
+    {
+     "front": "Copper sulfate: which two words?",
+     "back": "Solid, compound 💡 Blue crystals (solid). Copper, sulfur and oxygen are joined (compound).",
+     "zh": "硫酸铜：哪两个词？",
+     "zhBack": "固体，化合物"
+    },
+    {
+     "front": "Iron filings + sulfur powder, NOT heated",
+     "back": "Mixture 💡 A magnet can still pull the iron out.",
+     "zh": "铁粉 + 硫粉，没有加热",
+     "zhBack": "混合物"
+    },
+    {
+     "front": "Iron sulfide (after heating)",
+     "back": "Compound 💡 Heating made the iron and sulfur JOIN. It is a new black solid and is not magnetic.",
+     "zh": "硫化亚铁（加热之后）",
+     "zhBack": "化合物"
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer the Element, Compound or Mixture? cards.",
+    "zh": "我现在会回答“元素、化合物还是混合物？”的卡片。"
+   }
+  },
+  {
+   "id": "deck-sym",
+   "type": "flashcards",
+   "icon": "🔤",
+   "title": {
+    "en": "A4 Symbols & Formulas",
+    "zh": "元素符号和化学式"
+   },
+   "subtitle": {
+    "en": "11 cards",
+    "zh": "11 张"
+   },
+   "intro": {
+    "en": "Read the front, say your answer, then tap to check.",
+    "zh": "读正面，说出答案，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "The capital letter trick",
+     "back": "Every element symbol starts with ONE capital letter. Count the capitals to count the elements.",
+     "zh": "大写字母小窍门",
+     "zhBack": "每个元素符号都以一个大写字母开头。数大写字母就能数出有几种元素。"
+    },
+    {
+     "front": "Fe",
+     "back": "Iron 💡 From the Latin word \"ferrum\".",
+     "zh": "Fe",
+     "zhBack": "铁"
+    },
+    {
+     "front": "Cu",
+     "back": "Copper 💡 From the Latin word \"cuprum\".",
+     "zh": "Cu",
+     "zhBack": "铜"
+    },
+    {
+     "front": "Hg",
+     "back": "Mercury 💡 A metal that is liquid at room temperature!",
+     "zh": "Hg",
+     "zhBack": "汞（水银）"
+    },
+    {
+     "front": "K",
+     "back": "Potassium 💡 Tricky one! From \"kalium\".",
+     "zh": "K",
+     "zhBack": "钾"
+    },
+    {
+     "front": "Na",
+     "back": "Sodium 💡 From \"natrium\". NaCl = sodium chloride = table salt.",
+     "zh": "Na",
+     "zhBack": "钠"
+    },
+    {
+     "front": "Al / Ar / Ca / C",
+     "back": "Al = aluminium, Ar = argon, Ca = calcium, C = carbon 💡 Watch the second letter: it is always small.",
+     "zh": "Al / Ar / Ca / C",
+     "zhBack": "Al = 铝，Ar = 氩，Ca = 钙，C = 碳"
+    },
+    {
+     "front": "Zn / Mg / S / Cl",
+     "back": "Zn = zinc, Mg = magnesium, S = sulfur, Cl = chlorine 💡 Sulfur is also spelt \"sulphur\" in some UK papers. Both are fine.",
+     "zh": "Zn / Mg / S / Cl",
+     "zhBack": "Zn = 锌，Mg = 镁，S = 硫，Cl = 氯"
+    },
+    {
+     "front": "Write the formula for this molecule",
+     "back": "C₃H₈ (propane)",
+     "zh": "写出这个分子的化学式",
+     "zhBack": "C₃H₈（丙烷）"
+    },
+    {
+     "front": "What does the small 2 in CO₂ mean?",
+     "back": "There are 2 oxygen atoms. The small number belongs to the atom just BEFORE it. 💡 CO₂ = 1 carbon + 2 oxygen = 3 atoms in total.",
+     "zh": "CO₂ 里的小 2 是什么意思？",
+     "zhBack": "有2个氧原子。小数字属于它前面的那个原子。"
+    },
+    {
+     "front": "What is the formula for sulfuric acid?",
+     "back": "H₂SO₄",
+     "zh": "硫酸的化学式是什么？",
+     "zhBack": "H₂SO₄"
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer the Symbols & Formulas cards.",
+    "zh": "我现在会回答“元素符号和化学式”的卡片。"
+   }
+  },
+  {
+   "id": "deck-name",
+   "type": "flashcards",
+   "icon": "🏷️",
+   "title": {
+    "en": "A5 Naming Compounds",
+    "zh": "化合物的命名"
+   },
+   "subtitle": {
+    "en": "7 cards",
+    "zh": "7 张"
+   },
+   "intro": {
+    "en": "Read the front, say your answer, then tap to check.",
+    "zh": "读正面，说出答案，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "Rule 1: the \"-ide\" ending",
+     "back": "Two elements join: say the metal first, then change the ending of the non-metal to \"-ide\".",
+     "zh": "规则一：\"-ide\" 结尾",
+     "zhBack": "两种元素结合：先说金属，再把非金属的结尾改成 \"-ide\"。"
+    },
+    {
+     "front": "Rule 2: the \"-ate\" ending",
+     "back": "\"-ate\" means OXYGEN is inside too.",
+     "zh": "规则二：\"-ate\" 结尾",
+     "zhBack": "\"-ate\" 表示里面还有氧。"
+    },
+    {
+     "front": "zinc + sulfur → ?",
+     "back": "zinc sulfide",
+     "zh": "锌 + 硫 → ？",
+     "zhBack": "硫化锌"
+    },
+    {
+     "front": "copper + chlorine → ?",
+     "back": "copper chloride 💡 Not \"copper chlorined\". Chlorine → chloride.",
+     "zh": "铜 + 氯 → ？",
+     "zhBack": "氯化铜"
+    },
+    {
+     "front": "magnesium + oxygen → ?",
+     "back": "magnesium oxide 💡 oxygen → oxide",
+     "zh": "镁 + 氧 → ？",
+     "zhBack": "氧化镁"
+    },
+    {
+     "front": "sulfur + oxygen → ?",
+     "back": "sulfur dioxide (SO₂) 💡 \"di\" means 2. This is the gas made when fuels with sulfur burn.",
+     "zh": "硫 + 氧 → ？",
+     "zhBack": "二氧化硫 (SO₂)"
+    },
+    {
+     "front": "iron + sulfur → ?",
+     "back": "iron sulfide 💡 Same pattern as zinc sulfide.",
+     "zh": "铁 + 硫 → ？",
+     "zhBack": "硫化亚铁"
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer the Naming Compounds cards.",
+    "zh": "我现在会回答“化合物的命名”的卡片。"
+   }
+  },
+  {
+   "id": "deck-react",
+   "type": "flashcards",
+   "icon": "🔥",
+   "title": {
+    "en": "A6 Chemical Reactions",
+    "zh": "化学反应"
+   },
+   "subtitle": {
+    "en": "7 cards",
+    "zh": "7 张"
+   },
+   "intro": {
+    "en": "Read the front, say your answer, then tap to check.",
+    "zh": "读正面，说出答案，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "What is a word equation?",
+     "back": "It shows a reaction in words: reactants → products. 💡 iron + sulfur → iron sulfide. The arrow means \"makes\".",
+     "zh": "什么是文字方程式？",
+     "zhBack": "用文字表示反应：反应物 → 生成物。"
+    },
+    {
+     "front": "How can you tell a chemical reaction happened?",
+     "back": "A NEW substance is made. Clues: colour change, glow or light, heat given out, gas bubbles. 💡 Iron + sulfur: it glowed, and a new black solid was left.",
+     "zh": "怎么知道发生了化学反应？",
+     "zhBack": "产生了新物质。线索：颜色变化、发光、放热、产生气泡。"
+    },
+    {
+     "front": "Magnet test: iron, sulfur, iron sulfide",
+     "back": "Iron: yes, magnetic. Sulfur: no. Iron sulfide: no. 💡 Iron sulfide is a new compound, so it does NOT act like iron any more.",
+     "zh": "磁铁测试：铁、硫、硫化亚铁",
+     "zhBack": "铁：有磁性。硫：没有。硫化亚铁：没有。"
+    },
+    {
+     "front": "2.0 g of iron made 2.8 g of iron sulfide. Why is it heavier?",
+     "back": "The sulfur atoms JOINED onto the iron. So the new mass includes the sulfur (0.8 g). 💡 No atoms are lost or made. Mass before = mass after.",
+     "zh": "2.0克铁生成了2.8克硫化亚铁。为什么变重了？",
+     "zhBack": "硫原子和铁结合了，所以新物质的质量包括了硫（0.8克）。"
+    },
+    {
+     "front": "What is thermal decomposition?",
+     "back": "Using HEAT to break one compound into simpler substances. 💡 calcium carbonate → calcium oxide + carbon dioxide",
+     "zh": "什么是热分解？",
+     "zhBack": "用热把一种化合物分解成更简单的物质。"
+    },
+    {
+     "front": "Which reaction is compound → two elements?",
+     "back": "water → hydrogen + oxygen",
+     "zh": "哪个反应是 化合物 → 两种元素？",
+     "zhBack": "水 → 氢 + 氧"
+    },
+    {
+     "front": "Experiments A, B, C: name one non-metal element",
+     "back": "Sulfur (or chlorine) 💡 Iron and copper are metals. Sulfur and chlorine are non-metals.",
+     "zh": "实验A、B、C：说出一种非金属元素",
+     "zhBack": "硫（或氯）"
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer the Chemical Reactions cards.",
+    "zh": "我现在会回答“化学反应”的卡片。"
+   }
+  },
+  {
+   "id": "deck-state",
+   "type": "flashcards",
+   "icon": "🌡️",
+   "title": {
+    "en": "A7 Solid, Liquid or Gas?",
+    "zh": "固体、液体还是气体？"
+   },
+   "subtitle": {
+    "en": "6 cards",
+    "zh": "6 张"
+   },
+   "intro": {
+    "en": "Read the front, say your answer, then tap to check.",
+    "zh": "读正面，说出答案，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "How do I use melting and boiling points?",
+     "back": "Compare the temperature with the two numbers.",
+     "zh": "怎么用熔点和沸点？",
+     "zhBack": "把温度和这两个数字比较。"
+    },
+    {
+     "front": "Mercury: melts −39 °C, boils 357 °C. What is it at 0 °C?",
+     "back": "Liquid",
+     "zh": "汞：熔点 −39 °C，沸点 357 °C。0 °C 时是什么？",
+     "zhBack": "液体"
+    },
+    {
+     "front": "Iron: melts 1540 °C. What is it at 1500 °C?",
+     "back": "Solid 💡 1500 is below 1540, so iron has not melted yet.",
+     "zh": "铁：熔点 1540 °C。1500 °C 时是什么？",
+     "zhBack": "固体"
+    },
+    {
+     "front": "Which TWO elements are liquid at room temperature?",
+     "back": "Mercury (a metal) and bromine (a non-metal)",
+     "zh": "哪两种元素在室温下是液体？",
+     "zhBack": "汞（金属）和溴（非金属）"
+    },
+    {
+     "front": "Are most elements metals or non-metals?",
+     "back": "Metals (about 3 out of 4)",
+     "zh": "大部分元素是金属还是非金属？",
+     "zhBack": "金属（大约四分之三）"
+    },
+    {
+     "front": "Are most metals magnetic?",
+     "back": "No! Only iron, nickel and cobalt are magnetic. 💡 Steel is magnetic because it contains iron.",
+     "zh": "大部分金属有磁性吗？",
+     "zhBack": "不是！只有铁、镍、钴有磁性。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer the Solid, Liquid or Gas? cards.",
+    "zh": "我现在会回答“固体、液体还是气体？”的卡片。"
+   }
   }
  ],
  "reviews": [
@@ -2744,16 +4820,12 @@
    "id": "hw-2026-11-21",
    "date": "2026-11-21",
    "title": {
-    "en": "Day 3: Solids, Liquids and Gases",
-    "zh": "第 3 天：固体、液体和气体"
+    "en": "Day 3: States of Matter, Fair Test, Ratio",
+    "zh": "第 3 天：物态、公平实验、比"
    },
    "message": {
-    "en": "Great particle drawings! Today: condensing, and nitrogen is an element.",
-    "zh": "粒子图画得很好！今天练习：凝结，以及氮气是元素。"
-   },
-   "missing": {
-    "en": "Pages 9 and 10 have not been checked yet. Please send photos of them to Roy.",
-    "zh": "第 9 页和第 10 页还没有批改。请把照片发给 Roy 老师。"
+    "en": "Great \"because\" answer about oxygen, and 4 equations right! Your 2 questions (negative numbers, and how to write key points) are answered in today's Main Book.",
+    "zh": "关于氧的 because 回答得很好，4 道方程也全对！你的 2 个问题（负数、怎么写重点）在今天的主课本里有答案。"
    },
    "pages": [
     {
@@ -2764,13 +4836,28 @@
      "items": [
       {
        "n": "Page 8 Part A",
-       "q": "Draw about 12 particles for solid, liquid and gas.",
-       "her": "solid tight rows, liquid close but random, gas spread out",
-       "right": "solid: neat rows; liquid: close, random; gas: far apart",
+       "q": "Draw about 12 particles for a liquid and a gas.",
+       "her": "liquid close but random, gas spread out",
+       "right": "liquid: close, random; gas: far apart",
        "ok": true,
        "why": {
-        "en": "Your drawings show the three states clearly.",
-        "zh": "你的图清楚地画出了三种状态。"
+        "en": "Your liquid and gas drawings are just right.",
+        "zh": "你的液体和气体画得很好。"
+       }
+      },
+      {
+       "n": "Page 8 Part A",
+       "q": "Draw about 12 particles for a SOLID.",
+       "her": "a squashed blob",
+       "right": "neat rows of touching particles",
+       "ok": false,
+       "why": {
+        "en": "Solid particles are close together in NEAT ROWS, like students sitting in class.",
+        "zh": "固体粒子紧紧排成整齐的行，像学生坐在教室里。"
+       },
+       "whyWrong": {
+        "en": "The particles were squashed into a blob. Draw circles touching, in tidy rows.",
+        "zh": "粒子画成了一团。要画互相接触、排成整齐行的圆圈。"
        }
       },
       {
@@ -2885,9 +4972,264 @@
        }
       }
      ]
+    },
+    {
+     "title": {
+      "en": "Page 9: Planning an Investigation (Priestley and Lavoisier)",
+      "zh": "第 9 页：设计实验（Priestley 和 Lavoisier）"
+     },
+     "items": [
+      {
+       "n": "Page 9",
+       "q": "Priestley and Lavoisier: what is the ONE thing you will change?",
+       "her": "",
+       "right": "the type of metal",
+       "ok": false,
+       "why": {
+        "en": "The independent variable is the ONE thing you change: here, the type of metal.",
+        "zh": "自变量是你改变的那一个东西：这里是金属的种类。"
+       },
+       "whyWrong": {
+        "en": "Left empty. Remember C-M-S: I Change, I Measure, I keep the Same.",
+        "zh": "没有写。记住 C-M-S：我改变、我测量、我保持不变。"
+       }
+      },
+      {
+       "n": "Page 9",
+       "q": "What will you measure?",
+       "her": "mass",
+       "right": "the mass (before and after heating)",
+       "ok": true,
+       "why": {
+        "en": "The dependent variable is what you measure: the mass.",
+        "zh": "因变量是你测量的东西：质量。"
+       }
+      },
+      {
+       "n": "Page 9",
+       "q": "What will you keep the same?",
+       "her": "volume",
+       "right": "the same starting mass of metal, the same heating time, the same crucible",
+       "ok": false,
+       "why": {
+        "en": "Control variables keep the test fair: same starting mass, same heating time, same crucible.",
+        "zh": "控制变量让实验公平：相同的起始质量、相同的加热时间、相同的坩埚。"
+       },
+       "whyWrong": {
+        "en": "Volume is hard to measure for a metal powder, and it is not what we compare. Keep the MASS and TIME the same.",
+        "zh": "金属粉末的体积很难测，也不是我们比较的东西。要保持质量和时间相同。"
+       }
+      },
+      {
+       "n": "Page 9",
+       "q": "What do you think will happen to the mass? Why?",
+       "her": "it will increase because the metal gains oxygen",
+       "right": "the mass will increase because the metal gains oxygen from the air",
+       "ok": true,
+       "why": {
+        "en": "Excellent use of \"because\"! Oxygen atoms join on, so the mass goes up.",
+        "zh": "“because” 用得很好！氧原子结合上去，质量就增加了。"
+       }
+      },
+      {
+       "n": "Page 9",
+       "q": "Draw a results table.",
+       "her": "",
+       "right": "metal | mass before (g) | mass after (g) | change in mass (g)",
+       "ok": false,
+       "why": {
+        "en": "First column = what you change. Put units (g) in the headings.",
+        "zh": "第一列 = 你改变的东西。表头里写上单位 (g)。"
+       },
+       "whyWrong": {
+        "en": "Left empty. Start with the headings; the first column is always what you change.",
+        "zh": "没有写。先写表头；第一列永远是你改变的东西。"
+       }
+      },
+      {
+       "n": "Page 9",
+       "q": "Who is right: Priestley or Lavoisier?",
+       "her": "both",
+       "right": "Lavoisier only",
+       "ok": false,
+       "why": {
+        "en": "The mass went UP after heating, so the metal gained something from the air. That is Lavoisier's idea.",
+        "zh": "加热后质量增加了，说明金属从空气中得到了东西。这是 Lavoisier 的观点。"
+       },
+       "whyWrong": {
+        "en": "They can't both be right: Priestley said metals LOSE something. The evidence (mass goes up) supports only Lavoisier.",
+        "zh": "两个人不可能都对：Priestley 说金属会失去东西。证据（质量增加）只支持 Lavoisier。"
+       }
+      },
+      {
+       "n": "Page 9",
+       "q": "Magnesium 2.4 g → magnesium oxide 4.0 g. How much oxygen joined?",
+       "her": "4.0 - 2.4 = 1.6 g",
+       "right": "1.6 g",
+       "ok": true,
+       "why": {
+        "en": "4.0 - 2.4 = 1.6 g of oxygen joined.",
+        "zh": "4.0 - 2.4 = 1.6 克氧结合上去。"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 10: Ratio and Equations",
+      "zh": "第 10 页：比和方程"
+     },
+     "items": [
+      {
+       "n": "Page 10",
+       "q": "Ratio of carbon : oxygen in CO₂?",
+       "her": "2 : 1",
+       "right": "1 : 2",
+       "ok": false,
+       "why": {
+        "en": "Follow the ORDER of the words: carbon first (1), then oxygen (2).",
+        "zh": "按词的顺序：先碳 (1)，再氧 (2)。"
+       },
+       "whyWrong": {
+        "en": "The numbers are right but the order is reversed. Carbon comes first in the question.",
+        "zh": "数字对，但顺序反了。题目里碳在前面。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "6 molecules of CO₂: how many carbon atoms?",
+       "her": "6",
+       "right": "6",
+       "ok": true,
+       "why": {
+        "en": "6 × 1 = 6.",
+        "zh": "6 × 1 = 6。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "6 molecules of CO₂: how many oxygen atoms?",
+       "her": "2",
+       "right": "12",
+       "ok": false,
+       "why": {
+        "en": "Each CO₂ has 2 oxygen atoms: 6 × 2 = 12.",
+        "zh": "每个 CO₂ 有 2 个氧原子：6 × 2 = 12。"
+       },
+       "whyWrong": {
+        "en": "2 is the oxygen in ONE molecule. There are 6 molecules, so multiply.",
+        "zh": "2 是一个分子里的氧。有 6 个分子，所以要乘。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "Simplify the ratio 4 : 2.",
+       "her": "",
+       "right": "2 : 1",
+       "ok": false,
+       "why": {
+        "en": "Divide both numbers by 2.",
+        "zh": "两个数都除以 2。"
+       },
+       "whyWrong": {
+        "en": "Left empty. Find a number that divides both.",
+        "zh": "没有写。找一个能同时整除两个数的数。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "Simplify the ratio 6 : 9.",
+       "her": "",
+       "right": "2 : 3",
+       "ok": false,
+       "why": {
+        "en": "Divide both numbers by 3.",
+        "zh": "两个数都除以 3。"
+       },
+       "whyWrong": {
+        "en": "Left empty. 3 goes into 6 and into 9.",
+        "zh": "没有写。6 和 9 都能被 3 整除。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "Ratio of Na : Al : F in Na₃AlF₆?",
+       "her": "",
+       "right": "3 : 1 : 6",
+       "ok": false,
+       "why": {
+        "en": "Read the small numbers in order: Na 3, Al 1 (no number), F 6.",
+        "zh": "按顺序读小数字：Na 3，Al 1（没有数字），F 6。"
+       },
+       "whyWrong": {
+        "en": "Left empty.",
+        "zh": "没有写。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "24 + x = 40. Find x.",
+       "her": "x = 26",
+       "right": "x = 16",
+       "ok": false,
+       "why": {
+        "en": "Do the opposite: take away 24 from both sides. 40 - 24 = 16. Check: 24 + 16 = 40 ✓",
+        "zh": "做相反的运算：两边都减 24。40 - 24 = 16。检查：24 + 16 = 40 ✓"
+       },
+       "whyWrong": {
+        "en": "Check by putting 26 back in: 24 + 26 = 50, not 40. The subtraction slipped.",
+        "zh": "把 26 放回去检查：24 + 26 = 50，不是 40。减法算错了。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "3x = 12. Find x.",
+       "her": "x = 4",
+       "right": "x = 4",
+       "ok": true,
+       "why": {
+        "en": "Divide both sides by 3.",
+        "zh": "两边都除以 3。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "x ÷ 2 = 7. Find x.",
+       "her": "x = 14",
+       "right": "x = 14",
+       "ok": true,
+       "why": {
+        "en": "Multiply both sides by 2.",
+        "zh": "两边都乘 2。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "2x + 3 = 11. Find x.",
+       "her": "x = 4",
+       "right": "x = 4",
+       "ok": true,
+       "why": {
+        "en": "Take away 3 (8), then divide by 2 (4).",
+        "zh": "先减 3（得 8），再除以 2（得 4）。"
+       }
+      },
+      {
+       "n": "Page 10",
+       "q": "5.6 + x = 8.8. Find x.",
+       "her": "x = 3.2 g",
+       "right": "x = 3.2 g",
+       "ok": true,
+       "why": {
+        "en": "8.8 - 5.6 = 3.2.",
+        "zh": "8.8 - 5.6 = 3.2。"
+       }
+      }
+     ]
     }
    ],
    "practice": [
+    "extrahw",
     "reactions"
    ]
   }
@@ -2895,6 +5237,62 @@
  "days": [
   {
    "date": "2026-11-22",
+   "kind": "workbook",
+   "title": {
+    "en": "Atoms to Mixtures (A1 to A3)",
+    "zh": "从原子到混合物（A1 到 A3）"
+   },
+   "message": {
+    "en": "1. Homework Review with Roy. 2. Main Book together. 3. Then the practice below.",
+    "zh": "1. 和 Roy 老师看作业讲评。2. 一起看主课本。3. 再做下面的练习。"
+   },
+   "activities": [
+    "lesson-atoms",
+    "deck-big",
+    "deck-sort",
+    "atomfill",
+    "kp-atoms",
+    "extrahw"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "kind": "homework",
+   "title": {
+    "en": "Symbols, Naming and Reactions (A4 to A6)",
+    "zh": "符号、命名和反应（A4 到 A6）"
+   },
+   "message": {
+    "en": "About 30 minutes. Read the Main Book again first, then the cards and the quiz.",
+    "zh": "大约 30 分钟。先再读一遍主课本，再做卡片和小测。"
+   },
+   "activities": [
+    "deck-sym",
+    "deck-name",
+    "deck-react",
+    "trialquiz"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "kind": "homework",
+   "title": {
+    "en": "States of Matter and Fix-Its (A7)",
+    "zh": "物态和改错（A7）"
+   },
+   "message": {
+    "en": "About 30 minutes. Do the cards, then the two fix-it quizzes.",
+    "zh": "大约 30 分钟。先做卡片，再做两个改错小测。"
+   },
+   "activities": [
+    "deck-state",
+    "fixit",
+    "counting"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "kind": "workbook",
    "title": {
     "en": "Waves and Sound (B1 to B3)",
     "zh": "波和声音（B1 到 B3）"
