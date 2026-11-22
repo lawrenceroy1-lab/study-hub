@@ -3506,8 +3506,8 @@
        "q": "lead + ___ → lead sulfide",
        "right": "sulfur",
        "why": {
-        "en": "Sulfide comes from sulfur. On the LEFT side, use the element name (no -ide).",
-        "zh": "sulfide 来自 sulfur。左边写元素的名字（不加 -ide）。"
+        "en": "Lead sulfide is made from lead and sulfur. On the left side, write the element's own name: sulfur. The word \"sulfide\" is only for the new compound on the right.",
+        "zh": "硫化铅是由铅和硫生成的。左边写元素本来的名字：sulfur（硫）。sulfide 这个词只用在右边生成的新化合物里。"
        }
       },
       {
