@@ -1,0 +1,3036 @@
+{
+ "sheets": [
+  {
+   "id": "m3w1-spelling",
+   "icon": "🔤",
+   "subject": {
+    "en": "English: Spelling",
+    "zh": "英语：拼写"
+   },
+   "title": {
+    "en": "M3W1 Spelling Practice: Circle the Correct Word",
+    "zh": "M3W1 拼写练习：圈出正确的词"
+   },
+   "intro": {
+    "en": "Read the sentence. Which word makes sense? Circle it on your paper.",
+    "zh": "读句子，哪个词意思对？在作业纸上圈出来。"
+   },
+   "items": [
+    {
+     "n": "1",
+     "q": "I want to eat ice cream for dessert / desert.",
+     "answer": "dessert",
+     "zh": "甜点",
+     "why": {
+      "en": "Dessert (two s) is sweet food. Tip: dessert has 2 s, like \"so sweet\".",
+      "zh": "dessert（两个 s）是甜点。记法：两个 s 像 so sweet。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🍨",
+        "en": "dessert = sweet food",
+        "zh": "甜点"
+       },
+       {
+        "icon": "🏜️",
+        "en": "desert = hot, dry land",
+        "zh": "沙漠"
+       }
+      ]
+     }
+    },
+    {
+     "n": "2",
+     "q": "The students finished all of they're / their / there homework.",
+     "answer": "their",
+     "zh": "他们的",
+     "why": {
+      "en": "Their = belongs to them.",
+      "zh": "their = 他们的。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "👦👧📚",
+        "en": "their = belongs to them",
+        "zh": "他们的"
+       }
+      ]
+     }
+    },
+    {
+     "n": "3",
+     "q": "There is very happy moral / morale in the classroom!",
+     "answer": "morale",
+     "zh": "士气、心情",
+     "why": {
+      "en": "Morale = how happy and confident a group feels.",
+      "zh": "morale = 一群人的心情和信心。"
+     }
+    },
+    {
+     "n": "4",
+     "q": "My family will immigrate / emigrate to Thailand next year.",
+     "answer": "immigrate",
+     "zh": "移入（来到一个国家）",
+     "why": {
+      "en": "Immigrate TO a new country (I = In).",
+      "zh": "immigrate = 移入新国家（I = In 进来）。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "➡️🏠",
+        "en": "immigrate = come IN",
+        "zh": "移入"
+       },
+       {
+        "icon": "🏠➡️",
+        "en": "emigrate = go OUT (Exit)",
+        "zh": "移出"
+       }
+      ]
+     }
+    },
+    {
+     "n": "5",
+     "q": "She will immigrate / emigrate from her home country to move somewhere else.",
+     "answer": "emigrate",
+     "zh": "移出（离开自己的国家）",
+     "why": {
+      "en": "Emigrate FROM your country (E = Exit).",
+      "zh": "emigrate = 离开自己的国家（E = Exit 出去）。"
+     }
+    },
+    {
+     "n": "6",
+     "q": "Can I go to / two / too the nurse?",
+     "answer": "to",
+     "zh": "去、到",
+     "why": {
+      "en": "To = going somewhere.",
+      "zh": "to = 去某个地方。"
+     }
+    },
+    {
+     "n": "7",
+     "q": "There are to / two / too students with the same birthday!",
+     "answer": "two",
+     "zh": "二",
+     "why": {
+      "en": "Two = the number 2.",
+      "zh": "two = 数字 2。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "2️⃣",
+        "en": "two = 2",
+        "zh": "二"
+       }
+      ]
+     }
+    },
+    {
+     "n": "8",
+     "q": "Please go sit over there / their / they're.",
+     "answer": "there",
+     "zh": "那里",
+     "why": {
+      "en": "There = a place. It has \"here\" inside it!",
+      "zh": "there = 地方。里面藏着 here！"
+     }
+    },
+    {
+     "n": "9",
+     "q": "It will affect / effect your grade if you don't do your homework.",
+     "answer": "affect",
+     "zh": "影响（动词）",
+     "why": {
+      "en": "Affect is the ACTION (verb). A = Action.",
+      "zh": "affect 是动作（动词）。A = Action。"
+     }
+    },
+    {
+     "n": "10",
+     "q": "The affect / effect of not doing your homework is getting a bad grade.",
+     "answer": "effect",
+     "zh": "结果、影响（名词）",
+     "why": {
+      "en": "Effect is the RESULT (noun). E = End result. Look for \"the\" before it.",
+      "zh": "effect 是结果（名词）。E = End result。前面常有 the。"
+     }
+    },
+    {
+     "n": "11",
+     "q": "Please proceed / precede to the front of the line.",
+     "answer": "proceed",
+     "zh": "前进",
+     "why": {
+      "en": "Proceed = go forward.",
+      "zh": "proceed = 往前走。"
+     }
+    },
+    {
+     "n": "12",
+     "q": "Fifth grade proceeds / precedes sixth grade.",
+     "answer": "precedes",
+     "zh": "在……之前",
+     "why": {
+      "en": "Precede = come BEFORE. Pre = before.",
+      "zh": "precede = 在前面。pre = 之前。"
+     }
+    },
+    {
+     "n": "13",
+     "q": "It is important to have respectful morals / morales.",
+     "answer": "morals",
+     "zh": "道德",
+     "why": {
+      "en": "Morals = ideas about right and wrong.",
+      "zh": "morals = 对错的道理。"
+     }
+    },
+    {
+     "n": "14",
+     "q": "The Sahara desert / dessert is very dry.",
+     "answer": "desert",
+     "zh": "沙漠",
+     "why": {
+      "en": "Desert (one s) = hot, dry sandy land.",
+      "zh": "desert（一个 s）= 又热又干的沙地。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏜️",
+        "en": "desert",
+        "zh": "沙漠"
+       }
+      ]
+     }
+    },
+    {
+     "n": "15",
+     "q": "When you are awake, you are conscience / conscious.",
+     "answer": "conscious",
+     "zh": "清醒的",
+     "why": {
+      "en": "Conscious = awake and knowing what is happening.",
+      "zh": "conscious = 醒着、知道发生了什么。"
+     }
+    },
+    {
+     "n": "16",
+     "q": "It / It's going to rain today.",
+     "answer": "It's",
+     "zh": "它将要（It is）",
+     "why": {
+      "en": "It's = it is. \"It is going to rain.\"",
+      "zh": "It's = it is（它是）。"
+     }
+    },
+    {
+     "n": "17",
+     "q": "The book has writing in its / it's pages.",
+     "answer": "its",
+     "zh": "它的",
+     "why": {
+      "en": "Its = belongs to it. No apostrophe!",
+      "zh": "its = 它的，不加撇号！"
+     }
+    },
+    {
+     "n": "18",
+     "q": "My conscience / conscious tells me that it's a good idea to listen to my mother.",
+     "answer": "conscience",
+     "zh": "良心",
+     "why": {
+      "en": "Conscience = the voice inside you about right and wrong.",
+      "zh": "conscience = 心里分辨对错的声音（良心）。"
+     }
+    },
+    {
+     "n": "19",
+     "q": "It is to / two / too loud in the classroom.",
+     "answer": "too",
+     "zh": "太",
+     "why": {
+      "en": "Too = very much (or also). It has an extra o: too much!",
+      "zh": "too = 太（或者“也”）。多一个 o：too much！"
+     }
+    },
+    {
+     "n": "20",
+     "q": "They're / Their / There wanting to eat pizza today.",
+     "answer": "They're",
+     "zh": "他们正在（They are）",
+     "why": {
+      "en": "They're = they are.",
+      "zh": "They're = they are（他们是）。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "homophones",
+   "icon": "👯",
+   "subject": {
+    "en": "English: Spelling",
+    "zh": "英语：拼写"
+   },
+   "title": {
+    "en": "Homophones: Write 4 Pairs of Sentences",
+    "zh": "同音词：写 4 组句子"
+   },
+   "intro": {
+    "en": "Homophones sound the same but have different meanings. Write one sentence for each word.",
+    "zh": "同音词读音一样，意思不同。每个词写一个句子。"
+   },
+   "items": [
+    {
+     "n": "Pair 1",
+     "q": "Homophones: dessert / desert. Write one sentence for each word.",
+     "answer": "dessert: I ate chocolate cake for dessert.\ndesert: A desert is very hot and dry.",
+     "zh": "甜点 / 沙漠",
+     "why": {
+      "en": "Show the meaning: dessert = sweet food, desert = dry sandy land.",
+      "zh": "要表达出意思：dessert 是甜点，desert 是沙漠。"
+     }
+    },
+    {
+     "n": "Pair 2",
+     "q": "Homophones: their / there. Write one sentence for each word.",
+     "answer": "their: The girls forgot their pencil cases.\nthere: Please put your bag over there.",
+     "zh": "他们的 / 那里",
+     "why": {
+      "en": "Their = belongs to them. There = a place.",
+      "zh": "their = 他们的；there = 那里。"
+     }
+    },
+    {
+     "n": "Pair 3",
+     "q": "Homophones: two / too. Write one sentence for each word.",
+     "answer": "two: I have two cats.\ntoo: This bubble tea is too sweet.",
+     "zh": "二 / 太",
+     "why": {
+      "en": "Two = the number 2. Too = very much.",
+      "zh": "two = 2；too = 太。"
+     }
+    },
+    {
+     "n": "Pair 4",
+     "q": "Homophones: affect / effect. Write one sentence for each word.",
+     "answer": "affect: The rain can affect my swimming lesson.\neffect: The effect of the rain was a wet floor.",
+     "zh": "影响（动词）/ 结果（名词）",
+     "why": {
+      "en": "Affect is the action. Effect is the result.",
+      "zh": "affect 是动作；effect 是结果。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "theme-pov",
+   "icon": "💡",
+   "subject": {
+    "en": "English: Reading",
+    "zh": "英语：阅读"
+   },
+   "title": {
+    "en": "Theme and POV Practice",
+    "zh": "主题和视角练习"
+   },
+   "intro": {
+    "en": "Use the story you read on Google Classroom.",
+    "zh": "用你在 Google Classroom 读的故事。"
+   },
+   "note": {
+    "en": "Check with Roy: which story did you read on Google Classroom? These answers are for \"Eleven\".",
+    "zh": "先问 Roy 老师：你在 Google Classroom 读的是哪个故事？这些答案是按《Eleven》写的。"
+   },
+   "items": [
+    {
+     "n": "1",
+     "q": "Summarize the story in 4 to 5 sentences: characters, setting, problem and solution.",
+     "answer": "Rachel is a girl who is turning eleven today. She is at school in Mrs. Price's class. Mrs. Price puts an ugly red sweater on Rachel's desk and says it is Rachel's, but it is not. Rachel has to wear it and she cries in front of the class. In the end, another student says the sweater is hers, but Rachel still feels sad on her birthday.",
+     "zh": "人物：Rachel、Mrs. Price。地点：学校。问题：老师说红毛衣是 Rachel 的。结果：最后发现是别人的，但 Rachel 还是很难过。",
+     "why": {
+      "en": "A summary tells WHO, WHERE, the PROBLEM and how it ENDS, in your own words.",
+      "zh": "概要要写：谁、在哪里、问题是什么、怎么结束，用自己的话写。"
+     }
+    },
+    {
+     "n": "2",
+     "q": "Which point of view is your story told from? Write a quote and the line you found it in.",
+     "answer": "Point of view: first person.\nQuote: find a sentence where Rachel says \"I\" or \"my\" and write it with its line number.",
+     "zh": "第一人称。在故事里找一句 Rachel 用 I 或 my 的句子，写下来和行号。",
+     "why": {
+      "en": "Rachel tells the story herself, so it is first person. The quote must have I, me or my.",
+      "zh": "Rachel 自己讲故事，所以是第一人称。引用的句子要有 I、me 或 my。"
+     }
+    },
+    {
+     "n": "3",
+     "q": "What are the main perspectives of the main character? What do you know about her feelings?",
+     "answer": "Rachel thinks the sweater is ugly and not hers. She feels embarrassed and sad because Mrs. Price does not believe her. She wishes she was older so she would know what to say.",
+     "zh": "Rachel 觉得毛衣很丑，也不是她的。老师不相信她，她觉得尴尬又难过。",
+     "why": {
+      "en": "Perspective = how she sees things. Use feeling words: sad, embarrassed, angry.",
+      "zh": "看法 = 她怎样看事情。用感受词：sad、embarrassed、angry。"
+     }
+    },
+    {
+     "n": "4",
+     "q": "Choose a character who is NOT the narrator. Rewrite a big moment from their perspective.",
+     "answer": "I am Mrs. Price. I found an old red sweater in the coat room. I thought it was Rachel's, so I put it on her desk. She said it was not hers, but I did not believe her. Later, Phyllis said it was hers. Maybe I should say sorry to Rachel.",
+     "zh": "用 Mrs. Price（老师）的视角，用 I 来写。",
+     "why": {
+      "en": "Use \"I\" and tell what Mrs. Price thinks and feels.",
+      "zh": "用 I，写出 Mrs. Price 的想法和感受。"
+     }
+    },
+    {
+     "n": "5",
+     "q": "What is the theme of this story? How does the author show this?",
+     "answer": "The theme is: sometimes adults make mistakes, and it is important to listen to children. The author shows this when Mrs. Price does not listen to Rachel and Rachel feels very sad.",
+     "zh": "主题：大人也会犯错，要听孩子说话。作者通过 Mrs. Price 不听 Rachel 来表现。",
+     "why": {
+      "en": "A theme is a life lesson with no names. Then say WHERE in the story it shows.",
+      "zh": "主题是不带名字的人生道理。再说明故事里哪里表现出来。"
+     }
+    },
+    {
+     "n": "6",
+     "q": "Review it! What did you like or dislike about the story?",
+     "answer": "I liked the story because I understand how Rachel feels. I did not like that Mrs. Price did not say sorry. It made me feel sad for Rachel.",
+     "zh": "我喜欢这个故事，因为我懂 Rachel 的感受。我不喜欢老师没有道歉。",
+     "why": {
+      "en": "Say what you liked AND why, using \"because\".",
+      "zh": "说出你喜欢什么，并用 because 说明原因。"
+     }
+    },
+    {
+     "n": "7",
+     "q": "Draw the climax, or another major event from your story.",
+     "answer": "Draw: Rachel at her desk, crying, wearing the big red sweater. The other students look at her.",
+     "zh": "画：Rachel 坐在桌前，穿着红毛衣在哭，同学们看着她。",
+     "why": {
+      "en": "The climax is the most exciting or upsetting moment.",
+      "zh": "高潮是故事里最紧张或最难过的时刻。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "👧😢🧥",
+        "en": "Rachel crying in the red sweater",
+        "zh": "Rachel 穿着红毛衣哭"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "eleven-journal",
+   "icon": "🧥",
+   "subject": {
+    "en": "English: Reading",
+    "zh": "英语：阅读"
+   },
+   "title": {
+    "en": "\"Eleven\" Journal Questions",
+    "zh": "《Eleven》日记问题"
+   },
+   "intro": {
+    "en": "Answer in full sentences. Start each answer with words from the question.",
+    "zh": "用完整的句子回答，开头用题目里的词。"
+   },
+   "items": [
+    {
+     "n": "1",
+     "q": "Why is Rachel so upset about the red sweater? Would you be upset? Why or why not?",
+     "answer": "Rachel is upset because the sweater is ugly and old and it is not hers, but she has to wear it on her birthday. Yes, I would be upset too because it is embarrassing in front of the class.",
+     "zh": "Rachel 很难过，因为毛衣又丑又旧，也不是她的，却要在生日穿。我也会难过，因为在全班面前很丢脸。",
+     "why": {
+      "en": "Answer both parts: why SHE is upset, and what YOU would feel.",
+      "zh": "两部分都要答：她为什么难过，你会有什么感受。"
+     }
+    },
+    {
+     "n": "2",
+     "q": "Why do you think Mrs. Price puts the red sweater on Rachel's desk? Why doesn't she believe her? What does she assume?",
+     "answer": "I think Mrs. Price puts it on Rachel's desk because she thinks she saw Rachel wear it before. She does not believe Rachel because she is the teacher and she thinks she is right. She assumes Rachel is not telling the truth.",
+     "zh": "老师以为以前见过 Rachel 穿，所以不相信她，以为 Rachel 在说谎。",
+     "why": {
+      "en": "Assume = think something is true without checking.",
+      "zh": "assume = 没有确认就以为是真的。"
+     }
+    },
+    {
+     "n": "3",
+     "q": "Rachel says that when you're eleven, you're also ten, nine, eight... What does she mean? Describe a time you felt younger than your age.",
+     "answer": "She means that inside, we still have all our younger ages. When we are sad or scared, we can feel like a little kid again. One time I felt younger when I got lost at the mall and I cried like a small child.",
+     "zh": "她的意思是：我们心里还藏着以前每一个年龄。难过或害怕时，会像小孩一样。",
+     "why": {
+      "en": "Explain the meaning, then give YOUR own example.",
+      "zh": "先解释意思，再写你自己的例子。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "eleven-notes",
+   "icon": "📝",
+   "subject": {
+    "en": "English: Reading",
+    "zh": "英语：阅读"
+   },
+   "title": {
+    "en": "\"Eleven\": Character Notes",
+    "zh": "《Eleven》：人物笔记"
+   },
+   "intro": {
+    "en": "Short notes are OK here. You do not need full sentences.",
+    "zh": "这里写简短笔记就可以，不用完整句子。"
+   },
+   "items": [
+    {
+     "n": "Box 1",
+     "q": "Jot down notes about Rachel.",
+     "answer": "Rachel is turning eleven. She is shy and does not speak up. She feels sad, angry and embarrassed about the sweater. She cries in class.",
+     "zh": "Rachel 满十一岁，很害羞，不敢说话；对毛衣感到难过、生气、尴尬；在课上哭了。",
+     "why": {
+      "en": "Notes are short facts and feelings about the character.",
+      "zh": "笔记就是关于人物的简短事实和感受。"
+     }
+    },
+    {
+     "n": "Box 2",
+     "q": "Jot down notes about Mrs. Price.",
+     "answer": "Mrs. Price is the teacher. She is sure the sweater is Rachel's. She does not listen and does not say sorry.",
+     "zh": "Mrs. Price 是老师，确定毛衣是 Rachel 的，不听解释，也没有道歉。",
+     "why": {
+      "en": "Write what she DOES and what she is LIKE.",
+      "zh": "写她做了什么、她是什么样的人。"
+     }
+    },
+    {
+     "n": "Box 3",
+     "q": "What words does Rachel use to describe the red sweater?",
+     "answer": "ugly, old, itchy, stretched out, smells like cottage cheese",
+     "zh": "丑、旧、扎人、被撑大了、有奶酪的味道",
+     "why": {
+      "en": "Rachel uses UNKIND words because she hates the sweater.",
+      "zh": "Rachel 用难听的词，因为她讨厌这件毛衣。"
+     }
+    },
+    {
+     "n": "Box 4",
+     "q": "What words does Mrs. Price use to describe the red sweater?",
+     "answer": "She just says it is Rachel's. She does not call it ugly. She thinks it is an ordinary sweater.",
+     "zh": "她只说是 Rachel 的，没说它丑，觉得只是一件普通毛衣。",
+     "why": {
+      "en": "Same sweater, different perspective!",
+      "zh": "同一件毛衣，不同的看法！"
+     }
+    }
+   ]
+  },
+  {
+   "id": "eleven-writing",
+   "icon": "✍️",
+   "subject": {
+    "en": "English: Writing",
+    "zh": "英语：写作"
+   },
+   "title": {
+    "en": "\"Eleven\": Point of View Writing Assignment",
+    "zh": "《Eleven》：视角写作"
+   },
+   "intro": {
+    "en": "Retell the story as Mrs. Price, using \"I\". Use the model, then change some words to make it yours.",
+    "zh": "用 Mrs. Price 的身份、用 I 重新讲故事。参考范文，再改一些词变成你自己的。"
+   },
+   "items": [
+    {
+     "n": "Brainstorm 1",
+     "q": "What words would Mrs. Price use to describe the red sweater?",
+     "answer": "old, red, someone's sweater, been in the coat room for a long time",
+     "zh": "旧的、红色的、某人的毛衣、在衣帽间放了很久",
+     "why": {
+      "en": "Think like the teacher: she is not upset, so her words are calm.",
+      "zh": "像老师一样想：她不难过，所以用词很平静。"
+     }
+    },
+    {
+     "n": "Brainstorm 2",
+     "q": "What words might Mrs. Price use to describe Rachel?",
+     "answer": "quiet, shy, a bit silly for crying, a student who forgets her things",
+     "zh": "安静、害羞、哭得有点小题大做、会忘记自己东西的学生",
+     "why": {
+      "en": "This is HER perspective, not the truth.",
+      "zh": "这是她的看法，不一定是真的。"
+     }
+    },
+    {
+     "n": "Review",
+     "q": "How do you punctuate and write dialogue?",
+     "answer": "Put the spoken words inside speech marks. Start with a capital letter. Put the comma or full stop INSIDE the speech marks.\nExample: \"This is yours,\" said Mrs. Price.",
+     "zh": "说的话放在引号里，开头大写，逗号或句号放在引号里面。",
+     "why": {
+      "en": "Speech marks show exactly what someone says.",
+      "zh": "引号表示某人说的原话。"
+     }
+    },
+    {
+     "n": "Story",
+     "q": "Write a 1 to 2 page story of \"Eleven\" from Mrs. Price's point of view, in first person, with dialogue.",
+     "answer": "It was a normal day in my class. I found an old red sweater in the coat room. \"Whose is this?\" I asked. Nobody answered. I thought I saw Rachel wear it once, so I put it on her desk. \"This is yours,\" I said.\n\"That's not mine,\" Rachel said very quietly. I did not believe her. \"Of course it is. Put it on,\" I told her.\nRachel put it on and started to cry. I did not know why she was so upset. Then Phyllis said, \"Oh, that's mine!\" I felt a little bad. Maybe I should have listened to Rachel. Next time I will check first.",
+     "zh": "用 Mrs. Price 的视角，用 I 写，要有对话。",
+     "why": {
+      "en": "First person = I. Dialogue = words in speech marks. Use details from the story.",
+      "zh": "第一人称 = I；对话 = 引号里的话；要用原故事的细节。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "smog-city",
+   "icon": "🏙️",
+   "subject": {
+    "en": "English: Reading",
+    "zh": "英语：阅读"
+   },
+   "title": {
+    "en": "\"Smog City\": Character Point of View",
+    "zh": "《Smog City》：人物视角"
+   },
+   "intro": {
+    "en": "The teacher wrote \"You need to finish this\". The narrator is a robot who lives in a city full of smog.",
+    "zh": "老师写了“你需要完成这个”。叙述者是一个住在烟雾城市里的机器人。"
+   },
+   "items": [
+    {
+     "n": "Part 1",
+     "q": "Based on these pictures, how do you think smog affects cities? How might smog affect people?",
+     "answer": "Smog makes the city dirty and grey, and you cannot see far. Smog can make people sick and they find it hard to breathe.",
+     "zh": "烟雾让城市又脏又灰，看不远；会让人生病，呼吸困难。",
+     "why": {
+      "en": "Smog = smoke + fog. Think about the air and people's health.",
+      "zh": "smog = 烟 + 雾。想想空气和健康。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏭💨",
+        "en": "smoke + fog = smog",
+        "zh": "烟 + 雾 = 烟雾"
+       },
+       {
+        "icon": "😷",
+        "en": "hard to breathe",
+        "zh": "呼吸困难"
+       }
+      ]
+     }
+    },
+    {
+     "n": "Part 2, 1",
+     "q": "In your own words, what shapes someone's point of view?",
+     "answer": "Someone's point of view comes from their life, their feelings, what they need and what happened to them before.",
+     "zh": "一个人的看法来自他的生活、感受、需要和以前的经历。",
+     "why": {
+      "en": "Point of view = how someone sees something, because of their own life.",
+      "zh": "看法 = 一个人因为自己的经历而怎样看一件事。"
+     }
+    },
+    {
+     "n": "Part 4, 1",
+     "q": "What is the narrator's point of view about polluted air?",
+     "answer": "B. He likes it because it feeds him.",
+     "zh": "B：他喜欢污染的空气，因为那是他的食物。",
+     "why": {
+      "en": "The narrator is a robot. He breathes in the smoke like food.",
+      "zh": "叙述者是机器人，他把烟当食物吸进去。"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🤖🍽️💨",
+        "en": "the robot eats smog",
+        "zh": "机器人吃烟雾"
+       }
+      ]
+     }
+    },
+    {
+     "n": "Part 4, 2",
+     "q": "Based on your answer to question 1, why is this the narrator's point of view?",
+     "answer": "Because he is a robot. Robots eat the polluted air, so pollution is good for him.",
+     "zh": "因为他是机器人，机器人吃污染的空气，所以污染对他有好处。",
+     "why": {
+      "en": "His point of view comes from what HE needs.",
+      "zh": "他的看法来自他自己的需要。"
+     }
+    },
+    {
+     "n": "Part 4, 3",
+     "q": "How does Emily feel about the city and the ocean?",
+     "answer": "Emily misses the city and loves the ocean. She wanted to see it again, but the dirty air makes her sick.",
+     "zh": "Emily 想念这个城市，喜欢大海，想再看一次，但脏空气让她生病。",
+     "why": {
+      "en": "Look at paragraph 11 for her feelings.",
+      "zh": "看第 11 段找她的感受。"
+     }
+    },
+    {
+     "n": "Part 4, 4",
+     "q": "What does paragraph 15 show about Emily's parents' point of view about the city?",
+     "answer": "Her parents think the city is dangerous for Emily. They want to move farther north and sell the house.",
+     "zh": "她的父母觉得城市对 Emily 很危险，想搬到更北边，把房子卖掉。",
+     "why": {
+      "en": "Look at what the parents SAY in paragraph 15.",
+      "zh": "看第 15 段父母说了什么。"
+     }
+    },
+    {
+     "n": "Part 5, 1",
+     "q": "Does the narrator's point of view about pollution change by the end of the story?",
+     "answer": "B. No, because the narrator still needs to feed off the pollution.",
+     "zh": "B：没有，因为叙述者还要靠污染来吃饭。",
+     "why": {
+      "en": "At the end he still goes looking for smog for dinner.",
+      "zh": "故事最后他还去找烟雾当晚饭。"
+     }
+    },
+    {
+     "n": "Part 5, 2",
+     "q": "In your opinion, does this story have a happy ending? Why or why not?",
+     "answer": "I think the ending is happy and sad. It is happy because Emily is safe with her parents. It is sad because the city is still polluted and Emily cannot come back to the beach.",
+     "zh": "我觉得结局有开心也有难过。开心是 Emily 安全了；难过是城市还是很脏，她不能再回海边。",
+     "why": {
+      "en": "Give your opinion, then use \"because\" to explain.",
+      "zh": "先说你的看法，再用 because 解释。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "l3-reteach",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths",
+    "zh": "数学"
+   },
+   "title": {
+    "en": "Lesson 3 Reteach: Multiply Decimals by Whole Numbers",
+    "zh": "第 3 课复习：小数乘整数"
+   },
+   "intro": {
+    "en": "Hide the decimal points, multiply, then count the decimal places and put the point back. Check with an estimate.",
+    "zh": "先不看小数点相乘，再数小数位数，点回小数点。最后用估算检查。"
+   },
+   "note": {
+    "en": "Textbook page 39. Write the working, not just the answer.",
+    "zh": "课本第 39 页。要写算式，不能只写答案。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "8.03 × 3 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "8 × 3 = 24"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "803 × 3 = 2409"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "24.09"
+      }
+     ],
+     "answer": "24.09",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "8.03 × 3",
+      "value": "24.09"
+     }
+    },
+    {
+     "n": "Question 2",
+     "q": "6 × 12.6 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "6 × 13 = 78"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "6 × 126 = 756"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "75.6"
+      }
+     ],
+     "answer": "75.6",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "6 × 12.6",
+      "value": "75.6"
+     }
+    },
+    {
+     "n": "Question 3",
+     "q": "2 × 0.012 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "2 × 12 = 24"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.024"
+      }
+     ],
+     "answer": "0.024",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2 × 0.012",
+      "value": "0.024"
+     }
+    },
+    {
+     "n": "Question 4",
+     "q": "0.0008 × 9 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "8 × 9 = 72"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.0072"
+      }
+     ],
+     "answer": "0.0072",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.0008 × 9",
+      "value": "0.0072"
+     }
+    },
+    {
+     "n": "Question 5",
+     "q": "2.32 × 5 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "2 × 5 = 10"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "232 × 5 = 1160"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "11.60"
+      },
+      {
+       "en": "Zeros at the END after the point can be dropped.",
+       "zh": "小数点后面末尾的 0 可以去掉。",
+       "math": "11.60 = 11.6"
+      }
+     ],
+     "answer": "11.6",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.32 × 5",
+      "value": "11.6"
+     }
+    },
+    {
+     "n": "Question 6",
+     "q": "6.8 × 7 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "7 × 7 = 49"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "68 × 7 = 476"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "47.6"
+      }
+     ],
+     "answer": "47.6",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "6.8 × 7",
+      "value": "47.6"
+     }
+    },
+    {
+     "n": "Question 7",
+     "q": "5.2 × 4 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "5 × 4 = 20"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "52 × 4 = 208"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "20.8"
+      }
+     ],
+     "answer": "20.8",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "5.2 × 4",
+      "value": "20.8"
+     }
+    },
+    {
+     "n": "Question 8",
+     "q": "1.412 × 3 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "1412 × 3 = 4236"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "4.236"
+      }
+     ],
+     "answer": "4.236",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "1.412 × 3",
+      "value": "4.236"
+     }
+    }
+   ]
+  },
+  {
+   "id": "l3-skills",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths",
+    "zh": "数学"
+   },
+   "title": {
+    "en": "Lesson 3 Skills Practice: Multiply Decimals by Whole Numbers",
+    "zh": "第 3 课练习：小数乘整数"
+   },
+   "intro": {
+    "en": "Hide the decimal points, multiply, then count the decimal places and put the point back. Check with an estimate.",
+    "zh": "先不看小数点相乘，再数小数位数，点回小数点。最后用估算检查。"
+   },
+   "note": {
+    "en": "Textbook page 40. Write the working, not just the answer.",
+    "zh": "课本第 40 页。要写算式，不能只写答案。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "1.5 × 3 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "2 × 3 = 6"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "15 × 3 = 45"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "4.5"
+      }
+     ],
+     "answer": "4.5",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "1.5 × 3",
+      "value": "4.5"
+     }
+    },
+    {
+     "n": "Question 2",
+     "q": "0.9 × 6 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "9 × 6 = 54"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "5.4"
+      }
+     ],
+     "answer": "5.4",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.9 × 6",
+      "value": "5.4"
+     }
+    },
+    {
+     "n": "Question 3",
+     "q": "0.45 × 5 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "45 × 5 = 225"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "2.25"
+      }
+     ],
+     "answer": "2.25",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.45 × 5",
+      "value": "2.25"
+     }
+    },
+    {
+     "n": "Question 4",
+     "q": "3.12 × 8 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 8 = 24"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "312 × 8 = 2496"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "24.96"
+      }
+     ],
+     "answer": "24.96",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "3.12 × 8",
+      "value": "24.96"
+     }
+    },
+    {
+     "n": "Question 5",
+     "q": "3.47 × 5 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 5 = 15"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "347 × 5 = 1735"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "17.35"
+      }
+     ],
+     "answer": "17.35",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "3.47 × 5",
+      "value": "17.35"
+     }
+    },
+    {
+     "n": "Question 6",
+     "q": "2.08 × 6 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "2 × 6 = 12"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "208 × 6 = 1248"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "12.48"
+      }
+     ],
+     "answer": "12.48",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.08 × 6",
+      "value": "12.48"
+     }
+    },
+    {
+     "n": "Question 7",
+     "q": "9.14 × 2 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "9 × 2 = 18"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "914 × 2 = 1828"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "18.28"
+      }
+     ],
+     "answer": "18.28",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "9.14 × 2",
+      "value": "18.28"
+     }
+    },
+    {
+     "n": "Question 8",
+     "q": "0.82 × 9 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "82 × 9 = 738"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "7.38"
+      }
+     ],
+     "answer": "7.38",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.82 × 9",
+      "value": "7.38"
+     }
+    },
+    {
+     "n": "Question 9",
+     "q": "6.3 × 9 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "6 × 9 = 54"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "63 × 9 = 567"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "56.7"
+      }
+     ],
+     "answer": "56.7",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "6.3 × 9",
+      "value": "56.7"
+     }
+    },
+    {
+     "n": "Question 10",
+     "q": "0.02 × 3 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "2 × 3 = 6"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.06"
+      }
+     ],
+     "answer": "0.06",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.02 × 3",
+      "value": "0.06"
+     }
+    },
+    {
+     "n": "Question 11",
+     "q": "9.12 × 4 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "9 × 4 = 36"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "912 × 4 = 3648"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "36.48"
+      }
+     ],
+     "answer": "36.48",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "9.12 × 4",
+      "value": "36.48"
+     }
+    },
+    {
+     "n": "Question 12",
+     "q": "27.3 × 8 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "27 × 8 = 216"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "273 × 8 = 2184"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "218.4"
+      }
+     ],
+     "answer": "218.4",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "27.3 × 8",
+      "value": "218.4"
+     }
+    },
+    {
+     "n": "Question 13",
+     "q": "4.007 × 4 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "4 × 4 = 16"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "4007 × 4 = 16028"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "16.028"
+      }
+     ],
+     "answer": "16.028",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "4.007 × 4",
+      "value": "16.028"
+     }
+    },
+    {
+     "n": "Question 14",
+     "q": "3.13 × 3 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 3 = 9"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "313 × 3 = 939"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "9.39"
+      }
+     ],
+     "answer": "9.39",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "3.13 × 3",
+      "value": "9.39"
+     }
+    },
+    {
+     "n": "Question 15",
+     "q": "5.02 × 8 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "5 × 8 = 40"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "502 × 8 = 4016"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "40.16"
+      }
+     ],
+     "answer": "40.16",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "5.02 × 8",
+      "value": "40.16"
+     }
+    },
+    {
+     "n": "Question 16",
+     "q": "6.31 × 6 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "6 × 6 = 36"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "631 × 6 = 3786"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "37.86"
+      }
+     ],
+     "answer": "37.86",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "6.31 × 6",
+      "value": "37.86"
+     }
+    },
+    {
+     "n": "Question 17",
+     "q": "8.01 × 5 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "8 × 5 = 40"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "801 × 5 = 4005"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "40.05"
+      }
+     ],
+     "answer": "40.05",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "8.01 × 5",
+      "value": "40.05"
+     }
+    },
+    {
+     "n": "Question 18",
+     "q": "4.325 × 7 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "4 × 7 = 28"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "4325 × 7 = 30275"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "30.275"
+      }
+     ],
+     "answer": "30.275",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "4.325 × 7",
+      "value": "30.275"
+     }
+    },
+    {
+     "n": "Question 19",
+     "q": "0.762 × 2 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "762 × 2 = 1524"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "1.524"
+      }
+     ],
+     "answer": "1.524",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.762 × 2",
+      "value": "1.524"
+     }
+    },
+    {
+     "n": "Question 20",
+     "q": "0.08 × 8 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "8 × 8 = 64"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.64"
+      }
+     ],
+     "answer": "0.64",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.08 × 8",
+      "value": "0.64"
+     }
+    },
+    {
+     "n": "Question 21",
+     "q": "6 × 3.04 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "6 × 3 = 18"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "6 × 304 = 1824"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "18.24"
+      }
+     ],
+     "answer": "18.24",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "6 × 3.04",
+      "value": "18.24"
+     }
+    },
+    {
+     "n": "Question 22",
+     "q": "2.6 × 9 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 9 = 27"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "26 × 9 = 234"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "23.4"
+      }
+     ],
+     "answer": "23.4",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.6 × 9",
+      "value": "23.4"
+     }
+    },
+    {
+     "n": "Question 23",
+     "q": "13 × 2.5 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "13 × 3 = 39"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "13 × 25 = 325"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1"
+      },
+      {
+       "en": "Put the point back: 1 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 1 位，点上小数点。位数不够就在左边补 0。",
+       "math": "32.5"
+      }
+     ],
+     "answer": "32.5",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "13 × 2.5",
+      "value": "32.5"
+     }
+    },
+    {
+     "n": "Question 24",
+     "q": "1.006 × 4 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "1 × 4 = 4"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "1006 × 4 = 4024"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "4.024"
+      }
+     ],
+     "answer": "4.024",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "1.006 × 4",
+      "value": "4.024"
+     }
+    }
+   ]
+  },
+  {
+   "id": "l4-reteach",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths",
+    "zh": "数学"
+   },
+   "title": {
+    "en": "Lesson 4 Reteach: Multiply Decimals by Decimals",
+    "zh": "第 4 课复习：小数乘小数"
+   },
+   "intro": {
+    "en": "Hide the decimal points, multiply, then count the decimal places and put the point back. Check with an estimate.",
+    "zh": "先不看小数点相乘，再数小数位数，点回小数点。最后用估算检查。"
+   },
+   "note": {
+    "en": "Textbook page 41. Write the working, not just the answer.",
+    "zh": "课本第 41 页。要写算式，不能只写答案。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "7.2 × 2.1 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "7 × 2 = 14"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "72 × 21 = 1512"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "15.12"
+      }
+     ],
+     "answer": "15.12",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "7.2 × 2.1",
+      "value": "15.12"
+     }
+    },
+    {
+     "n": "Question 2",
+     "q": "4.3 × 8.5 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "4 × 9 = 36"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "43 × 85 = 3655"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "36.55"
+      }
+     ],
+     "answer": "36.55",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "4.3 × 8.5",
+      "value": "36.55"
+     }
+    },
+    {
+     "n": "Question 3",
+     "q": "2.64 × 1.4 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 1 = 3"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "264 × 14 = 3696"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "3.696"
+      }
+     ],
+     "answer": "3.696",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.64 × 1.4",
+      "value": "3.696"
+     }
+    },
+    {
+     "n": "Question 4",
+     "q": "14.23 × 8.21 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "14 × 8 = 112"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "1423 × 821 = 1168283"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 2 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "116.8283"
+      }
+     ],
+     "answer": "116.8283",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "14.23 × 8.21",
+      "value": "116.8283"
+     }
+    },
+    {
+     "n": "Question 5",
+     "q": "5.01 × 11.6 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "5 × 12 = 60"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "501 × 116 = 58116"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "58.116"
+      }
+     ],
+     "answer": "58.116",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "5.01 × 11.6",
+      "value": "58.116"
+     }
+    },
+    {
+     "n": "Question 6",
+     "q": "9.001 × 4.2 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "9 × 4 = 36"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "9001 × 42 = 378042"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3 + 1 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "37.8042"
+      }
+     ],
+     "answer": "37.8042",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "9.001 × 4.2",
+      "value": "37.8042"
+     }
+    },
+    {
+     "n": "Question 7",
+     "q": "3.24 × 0.008 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "324 × 8 = 2592"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 3 = 5"
+      },
+      {
+       "en": "Put the point back: 5 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 5 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.02592"
+      }
+     ],
+     "answer": "0.02592",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "3.24 × 0.008",
+      "value": "0.02592"
+     }
+    },
+    {
+     "n": "Question 8",
+     "q": "0.012 × 2.9 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "12 × 29 = 348"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3 + 1 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.0348"
+      }
+     ],
+     "answer": "0.0348",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.012 × 2.9",
+      "value": "0.0348"
+     }
+    },
+    {
+     "n": "Question 9",
+     "q": "0.9 × 11.2 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "9 × 112 = 1008"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "10.08"
+      }
+     ],
+     "answer": "10.08",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.9 × 11.2",
+      "value": "10.08"
+     }
+    },
+    {
+     "n": "Question 10",
+     "q": "0.03 × 4.5 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "3 × 45 = 135"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.135"
+      }
+     ],
+     "answer": "0.135",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.03 × 4.5",
+      "value": "0.135"
+     }
+    },
+    {
+     "n": "Question 11",
+     "q": "27.8 × 0.023 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "278 × 23 = 6394"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 3 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.6394"
+      }
+     ],
+     "answer": "0.6394",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "27.8 × 0.023",
+      "value": "0.6394"
+     }
+    },
+    {
+     "n": "Question 12",
+     "q": "1.54 × 7.01 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "2 × 7 = 14"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "154 × 701 = 107954"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 2 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "10.7954"
+      }
+     ],
+     "answer": "10.7954",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "1.54 × 7.01",
+      "value": "10.7954"
+     }
+    }
+   ]
+  },
+  {
+   "id": "l4-skills",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths",
+    "zh": "数学"
+   },
+   "title": {
+    "en": "Lesson 4 Skills Practice: Multiply Decimals by Decimals",
+    "zh": "第 4 课练习：小数乘小数"
+   },
+   "intro": {
+    "en": "Hide the decimal points, multiply, then count the decimal places and put the point back. Check with an estimate.",
+    "zh": "先不看小数点相乘，再数小数位数，点回小数点。最后用估算检查。"
+   },
+   "note": {
+    "en": "Textbook page 42. Write the working, not just the answer.",
+    "zh": "课本第 42 页。要写算式，不能只写答案。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "0.3 × 0.5 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "3 × 5 = 15"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.15"
+      }
+     ],
+     "answer": "0.15",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.3 × 0.5",
+      "value": "0.15"
+     }
+    },
+    {
+     "n": "Question 2",
+     "q": "1.2 × 2.1 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "1 × 2 = 2"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "12 × 21 = 252"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "2.52"
+      }
+     ],
+     "answer": "2.52",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "1.2 × 2.1",
+      "value": "2.52"
+     }
+    },
+    {
+     "n": "Question 3",
+     "q": "2.5 × 6.7 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 7 = 21"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "25 × 67 = 1675"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "16.75"
+      }
+     ],
+     "answer": "16.75",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.5 × 6.7",
+      "value": "16.75"
+     }
+    },
+    {
+     "n": "Question 4",
+     "q": "0.4 × 8.3 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "4 × 83 = 332"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 1 = 2"
+      },
+      {
+       "en": "Put the point back: 2 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 2 位，点上小数点。位数不够就在左边补 0。",
+       "math": "3.32"
+      }
+     ],
+     "answer": "3.32",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.4 × 8.3",
+      "value": "3.32"
+     }
+    },
+    {
+     "n": "Question 5",
+     "q": "2.3 × 1.21 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "2 × 1 = 2"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "23 × 121 = 2783"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "2.783"
+      }
+     ],
+     "answer": "2.783",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.3 × 1.21",
+      "value": "2.783"
+     }
+    },
+    {
+     "n": "Question 6",
+     "q": "0.6 × 0.91 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "6 × 91 = 546"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.546"
+      }
+     ],
+     "answer": "0.546",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.6 × 0.91",
+      "value": "0.546"
+     }
+    },
+    {
+     "n": "Question 7",
+     "q": "6.5 × 0.04 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "65 × 4 = 260"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.260"
+      },
+      {
+       "en": "Zeros at the END after the point can be dropped.",
+       "zh": "小数点后面末尾的 0 可以去掉。",
+       "math": "0.260 = 0.26"
+      }
+     ],
+     "answer": "0.26",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "6.5 × 0.04",
+      "value": "0.26"
+     }
+    },
+    {
+     "n": "Question 8",
+     "q": "8.54 × 3.27 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "9 × 3 = 27"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "854 × 327 = 279258"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 2 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "27.9258"
+      }
+     ],
+     "answer": "27.9258",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "8.54 × 3.27",
+      "value": "27.9258"
+     }
+    },
+    {
+     "n": "Question 9",
+     "q": "5.02 × 1.07 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "5 × 1 = 5"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "502 × 107 = 53714"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 2 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "5.3714"
+      }
+     ],
+     "answer": "5.3714",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "5.02 × 1.07",
+      "value": "5.3714"
+     }
+    },
+    {
+     "n": "Question 10",
+     "q": "0.003 × 2.9 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "3 × 29 = 87"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3 + 1 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.0087"
+      }
+     ],
+     "answer": "0.0087",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.003 × 2.9",
+      "value": "0.0087"
+     }
+    },
+    {
+     "n": "Question 11",
+     "q": "0.93 × 6.8 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "93 × 68 = 6324"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "6.324"
+      }
+     ],
+     "answer": "6.324",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.93 × 6.8",
+      "value": "6.324"
+     }
+    },
+    {
+     "n": "Question 12",
+     "q": "7.1 × 0.004 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "71 × 4 = 284"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 3 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.0284"
+      }
+     ],
+     "answer": "0.0284",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "7.1 × 0.004",
+      "value": "0.0284"
+     }
+    },
+    {
+     "n": "Question 13",
+     "q": "3.007 × 6.1 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 6 = 18"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "3007 × 61 = 183427"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3 + 1 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "18.3427"
+      }
+     ],
+     "answer": "18.3427",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "3.007 × 6.1",
+      "value": "18.3427"
+     }
+    },
+    {
+     "n": "Question 14",
+     "q": "2.52 × 0.15 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "252 × 15 = 3780"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 2 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.3780"
+      },
+      {
+       "en": "Zeros at the END after the point can be dropped.",
+       "zh": "小数点后面末尾的 0 可以去掉。",
+       "math": "0.3780 = 0.378"
+      }
+     ],
+     "answer": "0.378",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.52 × 0.15",
+      "value": "0.378"
+     }
+    },
+    {
+     "n": "Question 15",
+     "q": "2.6 × 5.46 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "3 × 5 = 15"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "26 × 546 = 14196"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "14.196"
+      }
+     ],
+     "answer": "14.196",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "2.6 × 5.46",
+      "value": "14.196"
+     }
+    },
+    {
+     "n": "Question 16",
+     "q": "16.25 × 1.3 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "16 × 1 = 16"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "1625 × 13 = 21125"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "21.125"
+      }
+     ],
+     "answer": "21.125",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "16.25 × 1.3",
+      "value": "21.125"
+     }
+    },
+    {
+     "n": "Question 17",
+     "q": "3.5 × 24.09 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "4 × 24 = 96"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "35 × 2409 = 84315"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "84.315"
+      }
+     ],
+     "answer": "84.315",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "3.5 × 24.09",
+      "value": "84.315"
+     }
+    },
+    {
+     "n": "Question 18",
+     "q": "0.025 × 17.1 = ?",
+     "steps": [
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "25 × 171 = 4275"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "3 + 1 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "0.4275"
+      }
+     ],
+     "answer": "0.4275",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "0.025 × 17.1",
+      "value": "0.4275"
+     }
+    },
+    {
+     "n": "Question 19",
+     "q": "11.04 × 6.18 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "11 × 6 = 66"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "1104 × 618 = 682272"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 2 = 4"
+      },
+      {
+       "en": "Put the point back: 4 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 4 位，点上小数点。位数不够就在左边补 0。",
+       "math": "68.2272"
+      }
+     ],
+     "answer": "68.2272",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "11.04 × 6.18",
+      "value": "68.2272"
+     }
+    },
+    {
+     "n": "Question 20",
+     "q": "14.83 × 16.7 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "15 × 17 = 255"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "1483 × 167 = 247661"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "247.661"
+      }
+     ],
+     "answer": "247.661",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "14.83 × 16.7",
+      "value": "247.661"
+     }
+    },
+    {
+     "n": "Question 21",
+     "q": "27.1 × 10.15 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "27 × 10 = 270"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "271 × 1015 = 275065"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "275.065"
+      }
+     ],
+     "answer": "275.065",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "27.1 × 10.15",
+      "value": "275.065"
+     }
+    },
+    {
+     "n": "Question 22",
+     "q": "41.2 × 10.34 = ?",
+     "steps": [
+      {
+       "en": "Estimate first: round each number to the nearest whole number.",
+       "zh": "先估算：把每个数四舍五入成整数。",
+       "math": "41 × 10 = 410"
+      },
+      {
+       "en": "Hide the decimal points. Multiply like whole numbers.",
+       "zh": "先不看小数点，像整数一样相乘。",
+       "math": "412 × 1034 = 426008"
+      },
+      {
+       "en": "Count the decimal places in BOTH numbers and add them.",
+       "zh": "数两个数的小数位数，再相加。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Put the point back: 3 place(s) from the right. Add zeros on the left if needed.",
+       "zh": "从右往左数 3 位，点上小数点。位数不够就在左边补 0。",
+       "math": "426.008"
+      }
+     ],
+     "answer": "426.008",
+     "why": {
+      "en": "Same digits as the whole-number answer. The decimal places decide where the point goes.",
+      "zh": "数字和整数乘法一样，小数位数决定小数点的位置。"
+     },
+     "check": {
+      "expr": "41.2 × 10.34",
+      "value": "426.008"
+     }
+    }
+   ]
+  }
+ ]
+}

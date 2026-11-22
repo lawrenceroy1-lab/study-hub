@@ -271,6 +271,7 @@
     }
     if (parts[0] === 'log') return renderLog();
     if (parts[0] === 'book') return renderBook(parts[1]);
+    if (parts[0] === 'school') return renderSchool(parts[1]);
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
     renderHome();
@@ -324,7 +325,9 @@
         S.student.homeworkLog ? h('a', { class: 'tile', href: '#/log' }, h('span', { class: 'ico' }, '📒'), h('span', null, T('hwLog'))) : null));
     var bookBtn = S.student.mainBook ? h('a', { class: 'feature book', href: '#/book' }, h('span', { class: 'fico' }, '📖'),
       h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Main Book', '主课本')), h('span', { class: 'fsub' }, L('Learn every key word, step by step', '一步一步学会每个关键词')))) : null;
-    show(bookBtn, thisWeek, anytime, past);
+    var schoolBtn = S.student.schoolHomework ? h('a', { class: 'feature school', href: '#/school' }, h('span', { class: 'fico' }, '🏫'),
+      h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('School Homework', '学校作业')), h('span', { class: 'fsub' }, L('Learn it together, then copy onto paper', '一起学，再抄到作业纸上')))) : null;
+    show(h('div', { class: 'feature-row' }, bookBtn, schoolBtn), thisWeek, anytime, past);
   }
   function renderWeek(w) { show(backLink(), weekBlock(w)); }
 
@@ -1278,6 +1281,76 @@
                 h('span', null, c.code + '  ' + tx(c.title)), h('span', { class: 'small' }, soon ? L('Coming soon', '即将推出') : c.slides.length + ' ' + L('pages', '页') + ' →'));
             }));
         }));
+    }).catch(renderError);
+  }
+
+  /* =========== SCHOOL HOMEWORK: learn each question together, then copy the answer onto the school sheet =========== */
+  var SCHOOL = null;
+  function loadSchool() { return SCHOOL ? Promise.resolve(SCHOOL) : getJSON(DATA + 'school.json').then(function (b) { SCHOOL = b; return b; }); }
+  function sheetDone(id) { return lsGet(key('sch_' + id), null); }
+  function renderSchool(id) {
+    show(backLink(), h('p', { class: 'muted' }, '…'));
+    loadSchool().then(function (b) {
+      if (!id) {
+        var done = b.sheets.filter(function (x) { return sheetDone(x.id); }).length;
+        return show(backLink(), h('h1', null, '🏫 ' + L('School Homework', '学校作业')),
+          h('div', { class: 'box teach' }, bi({ en: 'Open a sheet. Go through each question with Roy: learn HOW, then copy the answer onto your school paper. Press Done when the paper is finished.', zh: '打开一份作业。和 Roy 老师一题一题看：先学怎么做，再把答案抄到学校的作业纸上。写完后按“完成”。' })),
+          h('div', { class: 'card center' }, h('div', { class: 'bigscore' }, done + ' / ' + b.sheets.length), h('p', null, L('sheets done', '份已完成'))),
+          b.sheets.map(function (x) {
+            var d = sheetDone(x.id);
+            return h('a', { class: 'list-link', href: '#/school/' + x.id },
+              h('span', null, (x.icon || '📄') + ' ' + tx(x.title), h('div', { class: 'small muted' }, tx(x.subject) + ' · ' + x.items.length + ' ' + L('questions', '题'))),
+              h('span', { class: 'small' }, d ? '✅ ' + L('Done', '完成') : '⏳ ' + L('To do', '待完成')));
+          }));
+      }
+      var sh = b.sheets.filter(function (x) { return x.id === id; })[0];
+      if (!sh) return renderError();
+      var i = 0, area = h('div'), doneBox = h('div');
+      function paintDone() {
+        clear(doneBox);
+        var d = sheetDone(sh.id);
+        add(doneBox, h('div', { class: 'row center' }, d
+          ? h('button', { class: 'btn ghost', onclick: function () { lsSet(key('sch_' + sh.id), null); paintDone(); } }, '✅ ' + L('Done on ', '完成于 ') + d.when + ' (' + L('tap to undo', '点击撤销') + ')')
+          : h('button', { class: 'btn big green', onclick: function () {
+              lsSet(key('sch_' + sh.id), { when: localTime() }); record('School homework done: ' + enText(sh.title), 'school', 1, 1, 0, []); paintDone();
+            } }, '✅ ' + L('Done: I copied it onto my paper', '完成：我已经抄到作业纸上了'))));
+      }
+      paintDone();
+      show(backLink('#/school'), h('h1', null, (sh.icon || '📄') + ' ' + tx(sh.title)),
+        sh.intro ? h('div', { class: 'box teach' }, bi(sh.intro, true)) : null,
+        sh.note ? h('div', { class: 'box hint' }, bi(sh.note)) : null, area, doneBox);
+      function one() {
+        clear(area);
+        var it = sh.items[i], steps = h('div'), ans = h('div');
+        add(area, h('div', { class: 'card' },
+          h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + sh.items.length), it.n ? h('span', { class: 'small' }, it.n) : null),
+          h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / sh.items.length) + '%' })),
+          h('div', { class: 'box q' }, rich(it.q)),
+          it.visual && it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
+          h('div', { class: 'row center' },
+            it.steps || it.help ? h('button', { class: 'btn yellow', onclick: function () {
+              if (steps.firstChild) return;
+              if (it.help) add(steps, h('div', { class: 'box hint pop' }, h('b', null, '💡 '), bi(it.help, true)));
+              (it.steps || []).forEach(function (s, k) {
+                add(steps, h('div', { class: 'box teach step' }, h('b', null, L('Step ', '第 ') + (k + 1) + L(': ', ' 步：')), bi(s, true),
+                  (s.math == null ? [] : [].concat(s.math)).map(function (m) { return h('div', { class: 'math' }, rich(m)); })));
+              });
+            } }, '💡 ' + L('How to do it', '怎么做')) : null,
+            h('button', { class: 'btn big', onclick: function () {
+              if (ans.firstChild) return;
+              add(ans, h('div', { class: 'box ans pop' }, h('div', { class: 'small muted' }, '✍️ ' + L('Answer to copy onto your paper:', '抄到作业纸上的答案：')),
+                h('div', { class: 'final', style: 'white-space:pre-line' }, rich(it.answer)),
+                it.zh ? h('div', { class: 'zh-sub', lang: 'zh' }, it.zh) : null,
+                it.visual && !it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
+                it.why ? h('div', { style: 'margin-top:8px' }, h('b', null, T('why') + ': '), bi(it.why, true)) : null));
+            } }, '✍️ ' + L('Answer to copy', '要抄的答案'))),
+          steps, ans,
+          h('div', { class: 'row', style: 'justify-content:space-between;margin-top:16px' },
+            h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { i--; one(); window.scrollTo(0, 0); } }, T('prev')),
+            i + 1 < sh.items.length ? h('button', { class: 'btn ghost', onclick: function () { i++; one(); window.scrollTo(0, 0); } }, T('next'))
+              : h('span', { class: 'praise' }, '🏁 ' + L('Last question!', '最后一题！')))));
+      }
+      one();
     }).catch(renderError);
   }
 

@@ -202,6 +202,11 @@ for student_dir in sorted(p for p in DATA.iterdir() if p.is_dir()):
             bad(str(f), f"JSON error: {e}"); continue
         for p, s in walk_strings(d):
             text_rules(f"{f.relative_to(ROOT)}{p}", s)
+        if f.name == "school.json":
+            if st.get("bilingual"): check_zh(str(f.relative_to(ROOT)), d)
+            for sh in d.get("sheets", []):
+                if sh.get("math"): check_guided(f"{f.relative_to(ROOT)} [{sh['id']}]", sh)
+            continue
         if f.name == "mainbook.json":
             if st.get("bilingual"): check_zh(str(f.relative_to(ROOT)), d)
             continue

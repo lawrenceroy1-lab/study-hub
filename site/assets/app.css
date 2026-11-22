@@ -228,6 +228,7 @@ input[type=text]:focus, input[type=number]:focus, textarea:focus { outline: none
 .feature.review { background: linear-gradient(135deg, #f08c00, #e8590c); }
 .feature.workbook { background: linear-gradient(135deg, var(--accent), #5f3dc4); }
 .feature.book { background: linear-gradient(135deg, #1b2a6b, #3b5bdb); }
+.feature.school { background: linear-gradient(135deg, #e8590c, #c2255c); }
 .feature.homework { background: linear-gradient(135deg, #12b886, #0b7285); }
 .pbox-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; }
 .pbox-item { background: #fff; border-radius: 14px; padding: 6px; }
