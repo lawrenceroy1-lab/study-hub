@@ -299,7 +299,11 @@ table.log th { color: var(--title); }
 .print-page .math { color: #000; }
 .print-page .barmodel { display: none; }
 .print-page td, .print-page th { border: 1px solid #000; padding: 6px 8px; text-align: left; vertical-align: top; }
+.print-page .book-slide { border: 2px solid #000; border-radius: 14px; padding: 12px 16px; margin: 14px 0; break-inside: avoid; }
+.print-page .book-slide .vis { background: #fff; border: 1px solid #ccc; }
+.print-page .book-slide li { margin: 6px 0; }
 @media print {
+  .print-page .book-slide, .print-page .vis, .print-page svg { filter: grayscale(1); }
   .noprint { display: none !important; }
   .print-page { font-size: 13pt; }
   @page { margin: 14mm; }

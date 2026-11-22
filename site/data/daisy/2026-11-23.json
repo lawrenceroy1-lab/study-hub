@@ -1576,6 +1576,1495 @@
     "en": "I can now multiply fractions and simplify the answer.",
     "zh": "我现在可以做分数乘法并约分。"
    }
+  },
+  {
+   "id": "wordproblems",
+   "type": "guided",
+   "icon": "🧮",
+   "title": {
+    "en": "Fraction Café 3: Word Problems",
+    "zh": "分数咖啡馆 3：应用题"
+   },
+   "subtitle": {
+    "en": "6 questions",
+    "zh": "6 道题"
+   },
+   "intro": {
+    "en": "\"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+    "zh": "“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Daisy has 3/4 of a bubble tea. She drinks 1/2 of it. What fraction of the whole tea does she drink?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key word: \"of\" means multiply (×).",
+       "zh": "圈出关键词：“of” 的意思是乘（×）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "1/2 × 3/4"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "2 × 4 = 8"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "1/2 × 3/4 = 3/8"
+      },
+      {
+       "en": "Can we simplify 3/8? No number except 1 divides both 3 and 8, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 3 和 8，所以已经是最简分数。",
+       "math": "3/8"
+      }
+     ],
+     "answer": "3/8 of the whole tea",
+     "why": {
+      "en": "She drinks half OF the 3/4 she has, and \"of\" means ×.",
+      "zh": "她喝的是 3/4 的一半，“of” 就是乘。"
+     },
+     "check": {
+      "expr": "1/2 × 3/4",
+      "value": "3/8"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Lily has 6 metres of ribbon. Each bow needs 3/4 of a metre. How many bows can she make?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"How many ... ?\" from a total means divide (÷).",
+       "zh": "圈出关键词：“能做/分几个？” 用除法（÷）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "6 ÷ 3/4"
+      },
+      {
+       "en": "Write the whole number 6 as a fraction over 1.",
+       "zh": "把整数 6 写成分母是 1 的分数。",
+       "math": "6 = 6/1"
+      },
+      {
+       "en": "Keep, Change, Flip.",
+       "zh": "不变、变号、倒过来。",
+       "math": "6/1 ÷ 3/4 = 6/1 × 4/3"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "6 × 4 = 24"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "6/1 × 4/3 = 24/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 24 ÷ 3 = 8.",
+       "zh": "分子能被分母整除：24 ÷ 3 = 8。",
+       "math": "24/3 = 24 ÷ 3 = 8"
+      }
+     ],
+     "answer": "8 bows",
+     "why": {
+      "en": "We want to know how many 3/4 m pieces fit into 6 m, so we divide.",
+      "zh": "我们要知道 6 米里能剪出几段 3/4 米，所以用除法。"
+     },
+     "check": {
+      "expr": "6 ÷ 3/4",
+      "value": "8"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Emma swims 3/5 of a kilometre every day. How far does she swim in 4 days?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"every day ... in 4 days\" means the same amount 4 times, so multiply (×).",
+       "zh": "圈出关键词：“每天……4 天一共” 就是同样的量 4 次，用乘法（×）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "4 × 3/5"
+      },
+      {
+       "en": "Write the whole number 4 as a fraction over 1.",
+       "zh": "把整数 4 写成分母是 1 的分数。",
+       "math": "4 = 4/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "4 × 3 = 12"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 5 = 5"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "4/1 × 3/5 = 12/5"
+      },
+      {
+       "en": "Can we simplify 12/5? No number except 1 divides both 12 and 5, so it is already in simplest form.",
+       "zh": "能约分吗？除了 1，没有数能同时整除 12 和 5，所以已经是最简分数。",
+       "math": "12/5"
+      },
+      {
+       "en": "The top is bigger than the bottom, so change it to a mixed number: 12 ÷ 5 = 2 with 2 left over.",
+       "zh": "分子比分母大，变成带分数：12 ÷ 5 = 2 余 2。",
+       "math": [
+        "5 × 2 = 10",
+        "12 − 10 = 2",
+        "12/5 = 2 2/5"
+       ]
+      }
+     ],
+     "answer": "2 2/5 km",
+     "why": {
+      "en": "She swims the same distance 4 times, so 4 × 3/5.",
+      "zh": "同样的距离游 4 次，所以是 4 × 3/5。"
+     },
+     "check": {
+      "expr": "4 × 3/5",
+      "value": "2 2/5"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "4 friends share 2/3 kg of nuts equally. How much does each friend get?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"share equally\" means divide (÷).",
+       "zh": "圈出关键词：“平均分” 用除法（÷）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "2/3 ÷ 4"
+      },
+      {
+       "en": "Write the whole number 4 as a fraction over 1.",
+       "zh": "把整数 4 写成分母是 1 的分数。",
+       "math": "4 = 4/1"
+      },
+      {
+       "en": "Keep, Change, Flip.",
+       "zh": "不变、变号、倒过来。",
+       "math": "2/3 ÷ 4/1 = 2/3 × 1/4"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 1 = 2"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "3 × 4 = 12"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/3 × 1/4 = 2/12"
+      },
+      {
+       "en": "Simplify. The biggest number that divides both 2 and 12 is 2.",
+       "zh": "约分。能同时整除 2 和 12 的最大的数是 2。",
+       "math": [
+        "2 ÷ 2 = 1",
+        "12 ÷ 2 = 6",
+        "2/12 = 1/6"
+       ]
+      }
+     ],
+     "answer": "1/6 kg",
+     "why": {
+      "en": "Sharing 2/3 kg between 4 friends makes each share smaller, so we divide by 4.",
+      "zh": "把 2/3 千克分给 4 个人，每人分得更少，所以除以 4。"
+     },
+     "check": {
+      "expr": "2/3 ÷ 4",
+      "value": "1/6"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "Sophie has 150 baht. She spends 2/5 of it on gel pens. How much does she spend?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key word: \"of\" means multiply (×).",
+       "zh": "圈出关键词：“of” 的意思是乘（×）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "2/5 × 150"
+      },
+      {
+       "en": "Write the whole number 150 as a fraction over 1.",
+       "zh": "把整数 150 写成分母是 1 的分数。",
+       "math": "150 = 150/1"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "2 × 150 = 300"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "5 × 1 = 5"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "2/5 × 150/1 = 300/5"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 300 ÷ 5 = 60.",
+       "zh": "分子能被分母整除：300 ÷ 5 = 60。",
+       "math": "300/5 = 300 ÷ 5 = 60"
+      }
+     ],
+     "answer": "60 baht",
+     "why": {
+      "en": "She spends 2/5 OF her money, and \"of\" means ×.",
+      "zh": "她花了钱的 2/5，“of” 就是乘。"
+     },
+     "check": {
+      "expr": "2/5 × 150",
+      "value": "60"
+     }
+    },
+    {
+     "section": {
+      "en": "Café word problems",
+      "zh": "咖啡馆应用题"
+     },
+     "q": "James has 3 loaves of bread for the class feast. Each child gets 3/8 of a loaf. How many children get bread?",
+     "hint": {
+      "en": "Find the key words. \"of\" or \"each day ... in 4 days\" means ×. \"How many ... in\" or \"shared equally\" means ÷.",
+      "zh": "找关键词。“of” 或 “每天……几天一共” 用乘法。“能分成几份” 或 “平均分” 用除法。"
+     },
+     "steps": [
+      {
+       "en": "Circle the key words: \"How many ... ?\" from a total means divide (÷).",
+       "zh": "圈出关键词：“能做/分几个？” 用除法（÷）。"
+      },
+      {
+       "en": "Write the number sentence.",
+       "zh": "写出算式。",
+       "math": "3 ÷ 3/8"
+      },
+      {
+       "en": "Write the whole number 3 as a fraction over 1.",
+       "zh": "把整数 3 写成分母是 1 的分数。",
+       "math": "3 = 3/1"
+      },
+      {
+       "en": "Keep, Change, Flip.",
+       "zh": "不变、变号、倒过来。",
+       "math": "3/1 ÷ 3/8 = 3/1 × 8/3"
+      },
+      {
+       "en": "Multiply the tops (numerators).",
+       "zh": "分子乘分子。",
+       "math": "3 × 8 = 24"
+      },
+      {
+       "en": "Multiply the bottoms (denominators).",
+       "zh": "分母乘分母。",
+       "math": "1 × 3 = 3"
+      },
+      {
+       "en": "Write the new fraction.",
+       "zh": "写出新的分数。",
+       "math": "3/1 × 8/3 = 24/3"
+      },
+      {
+       "en": "The top divides exactly by the bottom: 24 ÷ 3 = 8.",
+       "zh": "分子能被分母整除：24 ÷ 3 = 8。",
+       "math": "24/3 = 24 ÷ 3 = 8"
+      }
+     ],
+     "answer": "8 children",
+     "why": {
+      "en": "We want to know how many 3/8 pieces fit into 3 loaves, so we divide.",
+      "zh": "我们要知道 3 个面包能分出几份 3/8，所以用除法。"
+     },
+     "check": {
+      "expr": "3 ÷ 3/8",
+      "value": "8"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose × or ÷ in fraction word problems.",
+    "zh": "我现在可以在分数应用题里选择乘或除。"
+   }
+  },
+  {
+   "id": "runons",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "✏️",
+   "title": {
+    "en": "Run-ons and Speech Parts",
+    "zh": "连写句和演讲结构"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "A run-on is two complete sentences joined with nothing, or only a comma. Fix 1: full stop + capital letter. Fix 2: comma + and / but / so.",
+    "zh": "连写句是两个完整的句子连在一起，中间没有标点或只有逗号。改法 1：句号 + 大写。改法 2：逗号 + and / but / so。"
+   },
+   "questions": [
+    {
+     "q": "Which one is a RUN-ON sentence?",
+     "options": [
+      "I like bread.",
+      "I like bread it is soft.",
+      "I like soft bread.",
+      "Soft bread is nice."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "\"I like bread\" and \"it is soft\" are two complete sentences joined with nothing between them.",
+      "zh": "“I like bread” 和 “it is soft” 是两个完整的句子，中间什么都没有。"
+     }
+    },
+    {
+     "q": "Which one is a RUN-ON sentence?",
+     "options": [
+      "Tom ran, but he was late.",
+      "Tom ran fast.",
+      "Tom ran fast, he was late.",
+      "Tom was late."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Two complete sentences joined with only a comma is still a run-on. It needs \"but\" or a full stop.",
+      "zh": "两个完整的句子只用逗号连起来，还是连写句。需要加 but 或句号。"
+     }
+    },
+    {
+     "q": "Choose the best fix: Emma loves K-pop she dances every day.",
+     "options": [
+      "Emma loves K-pop, she dances every day.",
+      "Emma loves K-pop. She dances every day.",
+      "Emma loves K-pop she. Dances every day.",
+      "emma loves K-pop. she dances every day."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Fix 1: full stop + capital letter. \"She\" starts the new sentence with a capital S.",
+      "zh": "改法 1：句号 + 大写字母。新句子 She 要大写。"
+     }
+    },
+    {
+     "q": "Choose the best fix: My grandma smiled she gave me a big hug.",
+     "options": [
+      "My grandma smiled, she gave me a big hug.",
+      "My grandma smiled and, she gave me a big hug.",
+      "My grandma smiled, and she gave me a big hug.",
+      "my grandma smiled. she gave me a big hug."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Fix 2: comma + and. \"My grandma smiled, and she gave me a big hug.\"",
+      "zh": "改法 2：逗号 + and。"
+     }
+    },
+    {
+     "q": "Choose the best fix: I dropped my phone, the screen cracked.",
+     "options": [
+      "I dropped my phone, so the screen cracked.",
+      "I dropped my phone the screen cracked.",
+      "I dropped, my phone the screen cracked.",
+      "I dropped my phone, the Screen cracked."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A comma alone is not enough. Comma + so joins the two ideas and shows the reason.",
+      "zh": "只有逗号不够。逗号 + so 把两个意思连起来，还说明了原因。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"Have you ever tried to cook something and made a big mess?\"",
+     "options": [
+      "Introduction",
+      "Beginning",
+      "Middle",
+      "End"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A question to grab attention is an introduction.",
+      "zh": "用问题吸引听众，这是开场。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"It was Chinese New Year, and I was in Grandma's kitchen.\"",
+     "options": [
+      "Introduction",
+      "Beginning",
+      "Middle",
+      "Conclusion"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It tells WHEN and WHERE. That is the beginning.",
+      "zh": "它讲了时间和地点，这是开始。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"Then, something unexpected happened: my first dumpling burst open in the pot!\"",
+     "options": [
+      "Beginning",
+      "Middle",
+      "End",
+      "Conclusion"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A problem or surprise is the exciting middle part.",
+      "zh": "问题或惊喜是最精彩的中间部分。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"Finally, Grandma tasted my dumplings and said they were perfect.\"",
+     "options": [
+      "Introduction",
+      "Middle",
+      "End",
+      "Conclusion"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "It tells how the story ended. That is the end.",
+      "zh": "它讲了故事的结果，这是结尾。"
+     }
+    },
+    {
+     "q": "Which part of a speech is this?\n\"I learned that making mistakes is part of learning something new.\"",
+     "options": [
+      "Beginning",
+      "Middle",
+      "End",
+      "Conclusion"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "It tells what I learned, not the story again. That is the conclusion.",
+      "zh": "它讲了我学到什么，不是再讲故事，这是总结。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now fix run-on sentences and name the 5 parts of a speech.",
+    "zh": "我现在可以改正连写句，并说出演讲的 5 个部分。"
+   }
+  }
+ ],
+ "reviews": [
+  {
+   "id": "hw-2026-11-19",
+   "date": "2026-11-19",
+   "title": {
+    "en": "Day 1: Story Detective (Reading Test review)",
+    "zh": "第 1 天：故事侦探（阅读考试复习）"
+   },
+   "message": {
+    "en": "Brilliant: almost every test word and every first/second/third person answer was right! Tonight: limited vs omniscient, and perspective vs point of view.",
+    "zh": "太棒了：考试词汇和第一、二、三人称几乎全对！今晚练习：有限和全知，以及看法和视角的区别。"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Page 1: The 10 Test Words + Which Person?",
+      "zh": "第 1 页：10 个考试词汇 + 第几人称？"
+     },
+     "items": [
+      {
+       "n": "Page 1 Part A, 1",
+       "q": "Match: Point of View",
+       "her": "D",
+       "right": "D: WHO is telling the story",
+       "ok": true,
+       "why": {
+        "en": "Point of View = WHO is telling the story.",
+        "zh": "Point of View = 谁在讲故事。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 2",
+       "q": "Match: Perspective",
+       "her": "I",
+       "right": "I: HOW a character sees something, from their own life",
+       "ok": true,
+       "why": {
+        "en": "Perspective = HOW a character sees something, from their own life.",
+        "zh": "Perspective = 人物怎样看一件事。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 3",
+       "q": "Match: First Person",
+       "her": "B",
+       "right": "B: the narrator is IN the story: I, me, my, we",
+       "ok": true,
+       "why": {
+        "en": "First Person = the narrator is IN the story: I, me, my, we.",
+        "zh": "First Person = 叙述者在故事里：I、me、my、we。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 4",
+       "q": "Match: Second Person",
+       "her": "B or G? (hard to read)",
+       "right": "G: the narrator talks straight to the reader: you, your",
+       "ok": false,
+       "why": {
+        "en": "Second person = the narrator talks to YOU, the reader.",
+        "zh": "第二人称 = 叙述者直接对“你”（读者）说话。"
+       },
+       "check": true
+      },
+      {
+       "n": "Page 1 Part A, 5",
+       "q": "Match: Third Person Objective",
+       "her": "J",
+       "right": "J: outside narrator, knows NOBODY's feelings (a camera)",
+       "ok": true,
+       "why": {
+        "en": "Objective = like a camera.",
+        "zh": "客观 = 像摄像机。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 6",
+       "q": "Match: Third Person Limited",
+       "her": "E",
+       "right": "E: outside narrator, knows ONE character's feelings",
+       "ok": true,
+       "why": {
+        "en": "Limited = one mind.",
+        "zh": "有限 = 一个人的想法。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 7",
+       "q": "Match: Third Person Omniscient",
+       "her": "H",
+       "right": "H: outside narrator, knows ALL characters' feelings",
+       "ok": true,
+       "why": {
+        "en": "Omni = all.",
+        "zh": "omni = 全部。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 8",
+       "q": "Match: Narrator",
+       "her": "A",
+       "right": "A: the one who is telling the story",
+       "ok": true,
+       "why": {
+        "en": "The narrator is the storyteller.",
+        "zh": "叙述者就是讲故事的人。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 9",
+       "q": "Match: Dialogue",
+       "her": "F",
+       "right": "F: the words characters say, inside \" \"",
+       "ok": true,
+       "why": {
+        "en": "Dialogue is inside speech marks.",
+        "zh": "对话在引号里。"
+       }
+      },
+      {
+       "n": "Page 1 Part A, 10",
+       "q": "Match: Theme",
+       "her": "C",
+       "right": "C: the life lesson of the story (NOT a summary)",
+       "ok": true,
+       "why": {
+        "en": "Theme = the lesson.",
+        "zh": "主题 = 道理。"
+       }
+      },
+      {
+       "n": "Page 1 Part B, 1",
+       "q": "We packed our swimming bags and ran to catch the school bus.",
+       "her": "A) First person",
+       "right": "A) First person",
+       "ok": true,
+       "why": {
+        "en": "Clue words: we, our.",
+        "zh": "线索词：we、our。"
+       }
+      },
+      {
+       "n": "Page 1 Part B, 2",
+       "q": "Have you ever eaten durian? You will never forget the smell!",
+       "her": "B) Second person",
+       "right": "B) Second person",
+       "ok": true,
+       "why": {
+        "en": "Clue words: you.",
+        "zh": "线索词：you。"
+       }
+      },
+      {
+       "n": "Page 1 Part B, 3",
+       "q": "Sophie bought a photo card of her favourite singer. She smiled all the way home.",
+       "her": "C) Third person",
+       "right": "C) Third person",
+       "ok": true,
+       "why": {
+        "en": "Clue words: Sophie, her, she.",
+        "zh": "线索词：Sophie、her、she。"
+       }
+      },
+      {
+       "n": "Page 1 Part B, 4",
+       "q": "\"You are my best friend!\" Lily told Emma. Then they hugged.",
+       "her": "C) Third person",
+       "right": "C) Third person",
+       "ok": true,
+       "why": {
+        "en": "You covered the dialogue! \"You\" is inside the speech marks, so it does not count.",
+        "zh": "你遮住了对话！“You” 在引号里，不算。"
+       }
+      },
+      {
+       "n": "Page 1 Part B, 5",
+       "q": "\"I won, I won!\" Tom shouted. He held his gold medal high.",
+       "her": "C) Third person",
+       "right": "C) Third person",
+       "ok": true,
+       "why": {
+        "en": "Cover \"I won\". Clue words left: Tom, he.",
+        "zh": "遮住 “I won”。剩下的线索词：Tom、he。"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 2: Whose Feelings Do I Know? + Perspective",
+      "zh": "第 2 页：我知道谁的感受？+ 看法"
+     },
+     "items": [
+      {
+       "n": "Page 2 Part A, 1",
+       "q": "James and Tom carried the bread to the hall. They put it on the long table.",
+       "her": "A) Objective",
+       "right": "A) Objective",
+       "ok": true,
+       "why": {
+        "en": "Only actions, no feelings: like a camera.",
+        "zh": "只有动作，没有感受：像摄像机。"
+       }
+      },
+      {
+       "n": "Page 2 Part A, 2",
+       "q": "Lily wanted to sing on stage, but she was scared her voice would shake.",
+       "her": "C) Omniscient",
+       "right": "B) Limited",
+       "ok": false,
+       "why": {
+        "en": "We only know what ONE person thinks or feels. One person = limited.",
+        "zh": "我们只知道一个人的想法或感受。一个人 = 有限。"
+       },
+       "whyWrong": {
+        "en": "Omniscient means we know EVERYONE's feelings. Here there is only one person: Lily.",
+        "zh": "全知是知道所有人的感受。这里只有一个人：Lily。"
+       }
+      },
+      {
+       "n": "Page 2 Part A, 3",
+       "q": "Daisy felt proud of her drawing. Emma felt a little jealous, and the teacher was delighted.",
+       "her": "C) Omniscient",
+       "right": "C) Omniscient",
+       "ok": true,
+       "why": {
+        "en": "We know the feelings of Daisy, Emma AND the teacher: everyone.",
+        "zh": "我们知道 Daisy、Emma 和老师的感受：所有人。"
+       }
+      },
+      {
+       "n": "Page 2 Part A, 4",
+       "q": "The swimmers dived into the pool. The crowd clapped and cheered.",
+       "her": "A) Objective",
+       "right": "A) Objective",
+       "ok": true,
+       "why": {
+        "en": "Only actions. No thoughts or feelings.",
+        "zh": "只有动作，没有想法或感受。"
+       }
+      },
+      {
+       "n": "Page 2 Part A, 5",
+       "q": "Sophie was nervous about the test, and Lily was worried about her too. Their teacher felt sure they would both do well.",
+       "her": "C) Omniscient",
+       "right": "C) Omniscient",
+       "ok": true,
+       "why": {
+        "en": "Three people's feelings: everyone.",
+        "zh": "三个人的感受：所有人。"
+       }
+      },
+      {
+       "n": "Page 2 Part A, 6",
+       "q": "Tom smiled at the new girl. He hoped she would sit next to him at lunch.",
+       "her": "C) Omniscient",
+       "right": "B) Limited",
+       "ok": false,
+       "why": {
+        "en": "We only know what ONE person thinks or feels. One person = limited.",
+        "zh": "我们只知道一个人的想法或感受。一个人 = 有限。"
+       },
+       "whyWrong": {
+        "en": "We know what Tom hopes, but we do NOT know what the new girl thinks. Only one mind = limited.",
+        "zh": "我们知道 Tom 的想法，但不知道新同学怎么想。只有一个人 = 有限。"
+       }
+      },
+      {
+       "n": "Page 2 Part B, 7",
+       "q": "Why does Daisy feel sad about the rain?",
+       "her": "B) Her swimming lesson is cancelled.",
+       "right": "B) Her swimming lesson is cancelled.",
+       "ok": true,
+       "why": {
+        "en": "The story says so.",
+        "zh": "故事里写的。"
+       }
+      },
+      {
+       "n": "Page 2 Part B, 8",
+       "q": "Why does Farmer Tom feel happy about the same rain?",
+       "her": "C) His plants need water.",
+       "right": "C) His plants need water.",
+       "ok": true,
+       "why": {
+        "en": "His rice plants are thirsty.",
+        "zh": "他的稻田需要水。"
+       }
+      },
+      {
+       "n": "Page 2 Part B, 9",
+       "q": "What is \"perspective\"?",
+       "her": "A) who is telling the story",
+       "right": "D) how a character sees something",
+       "ok": false,
+       "why": {
+        "en": "Perspective = HOW a character sees something, because of their own life.",
+        "zh": "看法 = 人物怎样看一件事，因为他们自己的经历。"
+       },
+       "whyWrong": {
+        "en": "\"Who is telling the story\" is POINT OF VIEW. Point of view = WHO. Perspective = HOW.",
+        "zh": "“谁在讲故事”是视角。视角 = 谁；看法 = 怎样看。"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 3: The Lost Photo Card + Theme",
+      "zh": "第 3 页：丢失的小卡 + 主题"
+     },
+     "items": [
+      {
+       "n": "Page 3, 1",
+       "q": "What is the point of view of \"The Lost Photo Card\"?",
+       "her": "A) First person",
+       "right": "A) First person",
+       "ok": true,
+       "why": {
+        "en": "My, I, me: the narrator is in the story.",
+        "zh": "My、I、me：叙述者在故事里。"
+       }
+      },
+      {
+       "n": "Page 3, 2",
+       "q": "Who is the narrator?",
+       "her": "B) Emma",
+       "right": "B) Emma",
+       "ok": true,
+       "why": {
+        "en": "\"My name is Emma.\"",
+        "zh": "“My name is Emma.”"
+       }
+      },
+      {
+       "n": "Page 3, 3",
+       "q": "How did Emma feel when she FIRST found the card?",
+       "her": "C) excited",
+       "right": "C) excited",
+       "ok": true,
+       "why": {
+        "en": "\"I was so excited.\"",
+        "zh": "“I was so excited.”"
+       }
+      },
+      {
+       "n": "Page 3, 4",
+       "q": "Why was the card so special to Sophie?",
+       "her": "A) It was a gift from her sister.",
+       "right": "A) It was a gift from her sister.",
+       "ok": true,
+       "why": {
+        "en": "\"My sister gave it to me for my birthday.\"",
+        "zh": "“My sister gave it to me for my birthday.”"
+       }
+      },
+      {
+       "n": "Page 3, 5",
+       "q": "Which is the BEST theme of the story?",
+       "her": "B) K-pop cards are rare.",
+       "right": "D) Doing the right thing feels better than keeping what is not yours.",
+       "ok": false,
+       "why": {
+        "en": "A theme is a life lesson for EVERYONE.",
+        "zh": "主题是给每个人的人生道理。"
+       },
+       "whyWrong": {
+        "en": "\"K-pop cards are rare\" is a fact from the story, not a lesson. Ask: what did Emma LEARN?",
+        "zh": "“K-pop 小卡很稀有”是故事里的事实，不是道理。问自己：Emma 学到了什么？"
+       }
+      },
+      {
+       "n": "Page 3, 6",
+       "q": "\"Emma gave the card back to Sophie.\" Theme or summary?",
+       "her": "B) Summary",
+       "right": "B) Summary",
+       "ok": true,
+       "why": {
+        "en": "It tells what happened and has names.",
+        "zh": "讲发生了什么，还有名字。"
+       }
+      },
+      {
+       "n": "Page 3, 7",
+       "q": "\"Be honest, even when nobody is watching.\" Theme or summary?",
+       "her": "A) Theme",
+       "right": "A) Theme",
+       "ok": true,
+       "why": {
+        "en": "A lesson for everyone, no names.",
+        "zh": "给每个人的道理，没有名字。"
+       }
+      }
+     ]
+    }
+   ],
+   "practice": [
+    "speed",
+    "povfill"
+   ]
+  },
+  {
+   "id": "hw-2026-11-20",
+   "date": "2026-11-20",
+   "title": {
+    "en": "Day 2: Fraction Café",
+    "zh": "第 2 天：分数咖啡馆"
+   },
+   "message": {
+    "en": "Every multiply and divide sum is RIGHT! Only the word problems need work: choose × or ÷, then check the answer makes sense.",
+    "zh": "乘法和除法计算全对！只有应用题要练：选对乘或除，再检查答案合不合理。"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Page 4: Multiply Fractions",
+      "zh": "第 4 页：分数乘法"
+     },
+     "items": [
+      {
+       "n": "Page 4",
+       "q": "1/2 × 1/3 = ?",
+       "her": "1/6",
+       "right": "1/6",
+       "ok": true,
+       "why": {
+        "en": "1 × 1 = 1, 2 × 3 = 6. Well done!",
+        "zh": "1 × 1 = 1, 2 × 3 = 6。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "2/5 × 1/4 = ?",
+       "her": "1/10",
+       "right": "1/10",
+       "ok": true,
+       "why": {
+        "en": "2/20 simplifies to 1/10. Well done!",
+        "zh": "2/20 simplifies to 1/10。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "3/4 × 2/3 = ?",
+       "her": "1/2",
+       "right": "1/2",
+       "ok": true,
+       "why": {
+        "en": "6/12 simplifies to 1/2. Well done!",
+        "zh": "6/12 simplifies to 1/2。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "5/6 × 3/5 = ?",
+       "her": "1/2",
+       "right": "1/2",
+       "ok": true,
+       "why": {
+        "en": "15/30 simplifies to 1/2. Well done!",
+        "zh": "15/30 simplifies to 1/2。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "4/7 × 1/2 = ?",
+       "her": "2/7",
+       "right": "2/7",
+       "ok": true,
+       "why": {
+        "en": "4/14 simplifies to 2/7. Well done!",
+        "zh": "4/14 simplifies to 2/7。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "2/3 × 6 = ?",
+       "her": "4",
+       "right": "4",
+       "ok": true,
+       "why": {
+        "en": "12/3 = 4. Well done!",
+        "zh": "12/3 = 4。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "3/8 × 4/9 = ?",
+       "her": "1/6",
+       "right": "1/6",
+       "ok": true,
+       "why": {
+        "en": "12/72 simplifies to 1/6. Well done!",
+        "zh": "12/72 simplifies to 1/6。做得好！"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "3 × 2/5 = ?",
+       "her": "6/5",
+       "right": "6/5 = 1 1/5",
+       "ok": true,
+       "why": {
+        "en": "3/1 × 2/5 = 6/5. Even better: change it to a mixed number, 1 1/5.",
+        "zh": "3/1 × 2/5 = 6/5。更好：写成带分数 1 1/5。"
+       }
+      },
+      {
+       "n": "Page 4",
+       "q": "5 × 3/4 = ?",
+       "her": "15/4",
+       "right": "15/4 = 3 3/4",
+       "ok": true,
+       "why": {
+        "en": "5/1 × 3/4 = 15/4. Even better: 3 3/4.",
+        "zh": "5/1 × 3/4 = 15/4。更好：写成 3 3/4。"
+       }
+      },
+      {
+       "n": "Page 4, 10",
+       "q": "2/3 × 3/5 = ?",
+       "her": "B) 2/5",
+       "right": "B) 2/5",
+       "ok": true,
+       "why": {
+        "en": "6/15 simplifies to 2/5.",
+        "zh": "6/15 约分是 2/5。"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 5: Divide Fractions (Keep, Change, Flip)",
+      "zh": "第 5 页：分数除法"
+     },
+     "items": [
+      {
+       "n": "Page 5",
+       "q": "1/2 ÷ 1/6 = ?",
+       "her": "3",
+       "right": "3",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "3 ÷ 1/2 = ?",
+       "her": "6",
+       "right": "6",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "2/3 ÷ 1/3 = ?",
+       "her": "2",
+       "right": "2",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "3/4 ÷ 1/8 = ?",
+       "her": "6",
+       "right": "6",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "4/5 ÷ 2 = ?",
+       "her": "2/5",
+       "right": "2/5",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "5/6 ÷ 1/3 = ?",
+       "her": "2 1/2",
+       "right": "2 1/2",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "2/5 ÷ 3/4 = ?",
+       "her": "8/15",
+       "right": "8/15",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5",
+       "q": "6 ÷ 2/3 = ?",
+       "her": "9",
+       "right": "9",
+       "ok": true,
+       "why": {
+        "en": "Keep, Change, Flip, then multiply. Perfect!",
+        "zh": "不变、变号、倒过来，再相乘。全对！"
+       }
+      },
+      {
+       "n": "Page 5, 9",
+       "q": "For 2/3 ÷ 4/5, what do you do FIRST?",
+       "her": "B) Keep 2/3 the same",
+       "right": "B) Keep 2/3 the same",
+       "ok": true,
+       "why": {
+        "en": "KEEP comes first.",
+        "zh": "第一步是“不变”。"
+       }
+      },
+      {
+       "n": "Page 5, 10",
+       "q": "3/4 ÷ 1/2 = ?",
+       "her": "C) 1 1/2",
+       "right": "C) 1 1/2",
+       "ok": true,
+       "why": {
+        "en": "3/4 × 2/1 = 6/4 = 1 1/2.",
+        "zh": "3/4 × 2/1 = 6/4 = 1 1/2。"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 6: Café Word Problems",
+      "zh": "第 6 页：咖啡馆应用题"
+     },
+     "items": [
+      {
+       "n": "Page 6, 1",
+       "q": "Daisy has 3/4 of a bubble tea. She drinks 1/2 of it. What fraction of the whole tea does she drink?",
+       "her": "B) 1 1/2",
+       "right": "C) 3/8",
+       "ok": false,
+       "why": {
+        "en": "\"Of\" means ×: 1/2 × 3/4 = 3/8.",
+        "zh": "“of” 就是乘：1/2 × 3/4 = 3/8。"
+       },
+       "whyWrong": {
+        "en": "1 1/2 is MORE than one whole tea, but she only had 3/4! That came from dividing. \"Of\" means multiply.",
+        "zh": "1 1/2 比一整杯还多，可她只有 3/4 杯！那是用了除法。“of” 要用乘法。"
+       }
+      },
+      {
+       "n": "Page 6, 2",
+       "q": "Lily has 6 metres of ribbon. Each bow needs 3/4 of a metre. How many bows?",
+       "her": "B) 8",
+       "right": "B) 8",
+       "ok": true,
+       "why": {
+        "en": "How many ... in? = divide: 6 ÷ 3/4 = 8.",
+        "zh": "能做几个 = 除法：6 ÷ 3/4 = 8。"
+       }
+      },
+      {
+       "n": "Page 6, 3",
+       "q": "Emma swims 3/5 km every day. How far in 4 days?",
+       "her": "D) 2 2/5 km",
+       "right": "D) 2 2/5 km",
+       "ok": true,
+       "why": {
+        "en": "4 × 3/5 = 12/5 = 2 2/5 km.",
+        "zh": "4 × 3/5 = 12/5 = 2 2/5 千米。"
+       }
+      },
+      {
+       "n": "Page 6, 4",
+       "q": "4 friends share 2/3 kg of nuts equally. How much does each friend get?",
+       "her": "C) 2 2/3 kg",
+       "right": "B) 1/6 kg",
+       "ok": false,
+       "why": {
+        "en": "Share equally = divide: 2/3 ÷ 4 = 2/3 × 1/4 = 2/12 = 1/6 kg.",
+        "zh": "平均分 = 除法：2/3 ÷ 4 = 2/3 × 1/4 = 2/12 = 1/6 千克。"
+       },
+       "whyWrong": {
+        "en": "2 2/3 kg is MORE than the whole bag (2/3 kg)! Each friend must get LESS. That was 2/3 + 2, not ÷ 4.",
+        "zh": "2 2/3 千克比整袋（2/3 千克）还多！每人分到的一定更少。"
+       }
+      },
+      {
+       "n": "Page 6, 5",
+       "q": "Sophie has 150 baht. She spends 2/5 of it on gel pens. How much?",
+       "her": "A) 60 baht",
+       "right": "A) 60 baht",
+       "ok": true,
+       "why": {
+        "en": "2/5 of 150 = 60.",
+        "zh": "150 的 2/5 = 60。"
+       }
+      },
+      {
+       "n": "Page 6, 6",
+       "q": "James has 3 loaves. Each child gets 3/8 of a loaf. How many children get bread?",
+       "her": "B) 1 1/8",
+       "right": "C) 8",
+       "ok": false,
+       "why": {
+        "en": "How many ... ? = divide: 3 ÷ 3/8 = 3/1 × 8/3 = 24/3 = 8 children.",
+        "zh": "多少个孩子 = 除法：3 ÷ 3/8 = 3/1 × 8/3 = 24/3 = 8 个。"
+       },
+       "whyWrong": {
+        "en": "1 1/8 children doesn't make sense: children come in whole numbers! 1 1/8 is 3 × 3/8 (multiplying). We need to divide.",
+        "zh": "1 1/8 个孩子说不通！那是 3 × 3/8（乘法）。这里要用除法。"
+       }
+      }
+     ]
+    }
+   ],
+   "practice": [
+    "wordproblems"
+   ]
+  },
+  {
+   "id": "hw-2026-11-21",
+   "date": "2026-11-21",
+   "title": {
+    "en": "Day 3: Speech Star",
+    "zh": "第 3 天：演讲明星"
+   },
+   "message": {
+    "en": "You named all 5 speech parts perfectly! Tonight we write the rest of your speech and fix run-on sentences.",
+    "zh": "演讲的 5 个部分全答对了！今晚我们写完演讲稿，并改正连写句。"
+   },
+   "missing": {
+    "en": "Page 2 (writing the rest of the speech) is not done yet. We will do it together.",
+    "zh": "第 2 页（写完演讲稿）还没做，我们一起完成。"
+   },
+   "pages": [
+    {
+     "title": {
+      "en": "Page 1: The 5 Parts of a Speech",
+      "zh": "第 1 页：演讲的 5 个部分"
+     },
+     "items": [
+      {
+       "n": "Page 7, 1",
+       "q": "Which part of the speech? \"Finally, Grandma tasted my dumplings and said they were perfect.\"",
+       "her": "End",
+       "right": "End",
+       "ok": true,
+       "why": {
+        "en": "How it ended. Perfect!",
+        "zh": "结果。全对！"
+       }
+      },
+      {
+       "n": "Page 7, 2",
+       "q": "Which part of the speech? \"I learned that making mistakes is part of learning something new.\"",
+       "her": "Conclusion",
+       "right": "Conclusion",
+       "ok": true,
+       "why": {
+        "en": "What I learned. Perfect!",
+        "zh": "学到了什么。全对！"
+       }
+      },
+      {
+       "n": "Page 7, 3",
+       "q": "Which part of the speech? \"It was Chinese New Year, and I was in Grandma's kitchen.\"",
+       "her": "Beginning",
+       "right": "Beginning",
+       "ok": true,
+       "why": {
+        "en": "When and where. Perfect!",
+        "zh": "时间和地点。全对！"
+       }
+      },
+      {
+       "n": "Page 7, 4",
+       "q": "Which part of the speech? \"Have you ever tried to cook something and made a big mess?\"",
+       "her": "Introduction",
+       "right": "Introduction",
+       "ok": true,
+       "why": {
+        "en": "A question to grab attention. Perfect!",
+        "zh": "用问题吸引听众。全对！"
+       }
+      },
+      {
+       "n": "Page 7, 5",
+       "q": "Which part of the speech? \"Then, something unexpected happened: my first dumpling burst open in the pot!\"",
+       "her": "Middle",
+       "right": "Middle",
+       "ok": true,
+       "why": {
+        "en": "The problem or surprise. Perfect!",
+        "zh": "问题或惊喜。全对！"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 2: Write the Rest of MY Speech",
+      "zh": "第 2 页：写完我的演讲稿"
+     },
+     "items": [
+      {
+       "n": "Page 8",
+       "q": "Write the Middle, End and Conclusion of MY speech.",
+       "her": "",
+       "right": "2 to 4 sentences for each part, using the starters: Suddenly... / In the end... / This experience taught me that...",
+       "ok": false,
+       "why": {
+        "en": "Your speech needs all 5 parts. We will finish it together.",
+        "zh": "你的演讲需要 5 个部分。我们一起写完。"
+       },
+       "whyWrong": {
+        "en": "This page was left empty, but the checklist was ticked. Let's write it together tonight.",
+        "zh": "这一页没有写，但检查表打了勾。今晚我们一起写。"
+       }
+      }
+     ]
+    },
+    {
+     "title": {
+      "en": "Page 3: Fix the Run-on Sentences",
+      "zh": "第 3 页：改正连写句"
+     },
+     "items": [
+      {
+       "n": "Page 9, 1",
+       "q": "Fix: My grandma smiled she gave me a big hug.",
+       "her": "My grandma smiled and she give me a big hug.",
+       "right": "My grandma smiled, and she gave me a big hug.",
+       "ok": false,
+       "why": {
+        "en": "Comma + and joins the two ideas.",
+        "zh": "逗号 + and 把两个意思连起来。"
+       },
+       "whyWrong": {
+        "en": "Good idea using \"and\"! But \"give\" should stay \"gave\" (it already happened), and add a comma before and.",
+        "zh": "用 and 很好！但 give 要写 gave（已经发生了），and 前面加逗号。"
+       }
+      },
+      {
+       "n": "Page 9, 2",
+       "q": "Fix: It was my first concert, I felt very excited.",
+       "her": "It was my first concert, I felt very excited!",
+       "right": "It was my first concert, so I felt very excited. (or: ...concert. I felt...)",
+       "ok": false,
+       "why": {
+        "en": "Fix 1: full stop + capital letter. Fix 2: comma + and / but / so.",
+        "zh": "改法 1：句号 + 大写。改法 2：逗号 + and / but / so。"
+       },
+       "whyWrong": {
+        "en": "A comma alone cannot join two sentences. It needs \"so\" after the comma, or a full stop.",
+        "zh": "只用逗号不能连接两个句子。逗号后面要加 so，或者用句号。"
+       }
+      },
+      {
+       "n": "Page 9, 3",
+       "q": "Fix: We got lost in the market we asked a kind lady for help.",
+       "her": "We got lost in the market and we asked a kind lady for help.",
+       "right": "We got lost in the market, so we asked a kind lady for help.",
+       "ok": true,
+       "why": {
+        "en": "Joining with \"and\" fixes it. Even better: add a comma before and.",
+        "zh": "用 and 连起来就改好了。更好：and 前面加逗号。"
+       }
+      },
+      {
+       "n": "Page 9, 4",
+       "q": "Fix: I dropped my phone, the screen cracked.",
+       "her": "I dropped my phone, the screen cracked.",
+       "right": "I dropped my phone, and the screen cracked.",
+       "ok": false,
+       "why": {
+        "en": "Comma + and: \"I dropped my phone, and the screen cracked.\"",
+        "zh": "逗号 + and：I dropped my phone, and the screen cracked."
+       },
+       "whyWrong": {
+        "en": "This was copied without a change. A comma alone is still a run-on.",
+        "zh": "这句是照抄的，没有改。只有逗号还是连写句。"
+       }
+      },
+      {
+       "n": "Page 9, 5",
+       "q": "Fix: The show was over everyone clapped loudly.",
+       "her": "The show was over everyone clapped loudly.",
+       "right": "The show was over. Everyone clapped loudly.",
+       "ok": false,
+       "why": {
+        "en": "Full stop after \"over\", then a capital E.",
+        "zh": "在 over 后面加句号，Everyone 大写。"
+       },
+       "whyWrong": {
+        "en": "This was copied without a change. Find where the first idea ends: after \"over\".",
+        "zh": "这句是照抄的。找第一个意思在哪里结束：在 over 后面。"
+       }
+      },
+      {
+       "n": "Page 9, 6",
+       "q": "Copy one sentence from YOUR speech that you fixed or improved.",
+       "her": "Now check Your speech. Copy one sentence you fixed or improved.",
+       "right": "one sentence from your own speech",
+       "ok": false,
+       "why": {
+        "en": "This line is for a sentence from your own speech.",
+        "zh": "这一行要写你自己演讲稿里的一句话。"
+       },
+       "whyWrong": {
+        "en": "The instruction was copied instead. Read the question twice: it asks for a sentence from YOUR speech.",
+        "zh": "照抄了题目。题目要读两遍：它要的是你演讲稿里的一句话。"
+       }
+      }
+     ]
+    }
+   ],
+   "practice": [
+    "runons"
+   ]
   }
  ]
 }

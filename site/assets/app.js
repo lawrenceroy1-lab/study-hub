@@ -874,6 +874,10 @@
     show(backLink(), h('h1', null, '📘 ' + T('workbook') + ': ' + dayLabel(date)),
       d.title ? h('h2', null, tx(d.title)) : null,
       d.message ? h('div', { class: 'box teach' }, bi(d.message)) : null,
+      h('div', { class: 'row' },
+        start ? h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=book', target: '_blank', rel: 'noopener' }, '📖 ' + L('Main Book', '主课本')) : null,
+        h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=work', target: '_blank', rel: 'noopener' }, '📝 ' + L('Workbook to print', '打印练习册')),
+        h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, T('workbook') + ': ' + dayLabel(date)); } }, '🔗 ' + L('Share', '分享'))),
       start,
       h('div', { class: 'tiles' }, ids.slice(start ? 1 : 0).map(function (id) { return actTile(w, id); })));
   }
@@ -1417,15 +1421,83 @@
     }).catch(function () { add(root, h('p', null, 'Could not load this week.')); });
   }
 
+  /* Share a link: the iPad/phone share menu (LINE etc.), or copy it. */
+  function shareLink(url, title) {
+    if (navigator.share) { navigator.share({ title: title, url: url }).catch(function () {}); return; }
+    var done = function () { alert(L('Link copied. Paste it into LINE.', '链接已复制，粘贴到 LINE 里。')); };
+    if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () { prompt('Copy this link:', url); });
+    else prompt('Copy this link:', url);
+  }
+  /* Main Book (the lesson as pages) or Workbook (the practice as a worksheet) for one day. */
+  function printDay(w, date, part, root, lang) {
+    var d = (w.days || []).filter(function (x) { return x.date === date; })[0];
+    if (!d) { add(root, h('p', null, 'Could not find this day.')); return; }
+    var acts = (d.activities || []).map(function (aid) { return (w.activities || []).filter(function (x) { return x.id === aid; })[0]; }).filter(Boolean);
+    var book = part === 'book';
+    S.lang = 'en';
+    add(root, [
+      h('div', { class: 'noprint row' }, h('button', { class: 'btn', onclick: function () { window.print(); } }, '🖨️ Print or save as PDF'),
+        h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, document.title); } }, '🔗 Share'),
+        h('span', { class: 'muted small' }, book ? 'Colour on screen, black and white on paper.' : 'Prints in black and white.')),
+      h('h1', null, (book ? '📖 Main Book: ' : '📝 Workbook: ') + S.student.name),
+      h('h2', null, dayLabel(date) + (d.title ? ': ' + (d.title.en || d.title) : '')), printZh(d.title),
+      book ? null : h('p', null, 'Name: ______________________    Date: ______________')
+    ]);
+    if (book) {
+      acts.filter(function (a) { return a.type === 'lesson'; }).forEach(function (a) {
+        (a.slides || []).forEach(function (sl, n) {
+          var vis = sl.visual && VIS[sl.visual.type] && sl.visual.type !== 'explorer' ? h('div', { class: 'vis' }, VIS[sl.visual.type](sl.visual)) : null;
+          add(root, h('div', { class: 'book-slide' },
+            h('h3', null, (n + 1) + '. ' + (sl.icon ? sl.icon + ' ' : '') + enText(sl.title)), printZh(sl.title),
+            vis,
+            h('ul', null, (sl.points || []).map(function (pt) { return h('li', null, rich(enText(pt)), printZh(pt)); })),
+            sl.remember ? h('div', { class: 'pbox' }, h('b', null, '⭐ Remember: '), rich(enText(sl.remember)), printZh(sl.remember)) : null));
+        });
+      });
+      stopAnims();
+      S.lang = lang; return;
+    }
+    acts.filter(function (a) { return a.type !== 'lesson'; }).forEach(function (a) {
+      var title = [h('h2', null, (a.icon ? a.icon + ' ' : '') + enText(a.title)), printZh(a.title), printIntro(a.intro)];
+      if (a.type === 'fillblank') {
+        add(root, [title, h('div', { class: 'pbox' }, h('b', null, 'Word bank: '), (a.bank || []).join('   ·   ')),
+          a.items.map(function (it, n) { return h('div', { class: 'pq' }, (n + 1) + '. ' + it.text.replace('___', '______________')); })]);
+      } else if (a.type === 'match') {
+        var left = a.pairs.map(function (p) { return p.a; }), right = a.pairs.map(function (p) { return p.b; }).slice().sort();
+        add(root, [title, h('p', null, 'Write the letter of the meaning next to each word.'),
+          h('table', null, left.map(function (l, n) { return h('tr', null, h('td', null, (n + 1) + '. ' + l), h('td', null, '____'), h('td', null, String.fromCharCode(65 + n) + ') ' + right[n])); }))]);
+      } else if (a.type === 'flashcards') {
+        add(root, [title, h('p', null, 'Read the word. Cover the meaning. Say it. Check.'),
+          h('table', null, a.cards.map(function (c) { return h('tr', null, h('td', null, h('b', null, c.front)), h('td', null, c.back, bilingual() && (c.zh || c.zhBack) ? h('div', { class: 'pzh' }, [c.zh, c.zhBack].filter(Boolean).join('：')) : null)); }))]);
+      } else if (a.type === 'quiz' || a.type === 'reading') {
+        if (a.type === 'reading') add(root, [h('div', { class: 'newpage' }), title, h('h3', null, a.storyTitle || ''), a.paragraphs.map(function (p, n) { return h('p', null, (n + 1) + '  ' + p); })]);
+        else add(root, title);
+        a.questions.forEach(function (q, n) {
+          add(root, [h('div', { class: 'pq' }, (n + 1) + '. ', q.context ? h('div', { style: 'font-weight:400' }, rich(q.context)) : null, rich(q.q)),
+            h('div', { class: 'opts' }, q.options.map(function (o, k) { return h('div', null, '☐ ' + String.fromCharCode(65 + k) + ')  ', rich(o)); }))]);
+        });
+      } else if (a.type === 'guided') {
+        add(root, [title, h('p', null, 'Show your working.')]);
+        a.items.forEach(function (it, n) { add(root, [h('div', { class: 'pq' }, (n + 1) + '. ', rich(it.q)), h('div', { class: 'lines' }), h('div', { class: 'lines' })]); });
+      } else if (a.type === 'spelling') {
+        add(root, [title, h('table', null, a.words.map(function (x, n) { return h('tr', null, h('td', null, n + 1), h('td', null, h('b', null, x.word)), h('td'), h('td')); }))]);
+      }
+      if (a.canNow) add(root, h('p', null, '☐ ' + enText(a.canNow)));
+    });
+    S.lang = lang;
+  }
+
   function renderPrint() {
     document.body.className = 'print-page';
     var m = /[?&]w=([0-9-]+)/.exec(location.search);
     var id = m ? m[1] : weekIds()[0];
+    var dm = /[?&]d=([0-9-]+)/.exec(location.search), pm = /[?&]part=(book|work)/.exec(location.search);
     var root = h('div', { class: 'wrap' });
     document.body.appendChild(root);
     var lang = S.lang; S.lang = 'en';
     loadWeek(id).then(function (w) {
       var answers = [];
+      if (dm) return printDay(w, dm[1], pm ? pm[1] : 'work', root, lang);
       add(root, [
         h('div', { class: 'noprint row' }, h('button', { class: 'btn', onclick: function () { window.print(); } }, '🖨️ Print'), h('span', { class: 'muted small' }, 'Prints in black and white.')),
         h('h1', null, S.student.name + ': ' + (w.title.en || w.title)),
