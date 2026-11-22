@@ -1,0 +1,3892 @@
+{
+ "intro": {
+  "en": "Your Main Book. Learn one chapter at a time with Roy. Every new word is explained first.",
+  "zh": "你的主课本。和 Roy 老师一章一章地学。每个新词都先解释。"
+ },
+ "parts": [
+  {
+   "id": "A",
+   "title": {
+    "en": "Part A: Atoms, Elements, Compounds and Mixtures",
+    "zh": "A 部分：原子、元素、化合物和混合物"
+   }
+  },
+  {
+   "id": "B",
+   "title": {
+    "en": "Part B: Light, Sound and the Electromagnetic Spectrum",
+    "zh": "B 部分：光、声音和电磁波谱"
+   }
+  }
+ ],
+ "chapters": [
+  {
+   "code": "A1",
+   "part": "A",
+   "title": {
+    "en": "Atoms, Elements and Molecules",
+    "zh": "原子、元素和分子"
+   },
+   "slides": [
+    {
+     "icon": "🔬",
+     "title": {
+      "en": "Everything is made of tiny particles",
+      "zh": "所有东西都由很小的粒子组成"
+     },
+     "points": [
+      {
+       "en": "A particle is a very, very tiny piece of something. Too small to see, even with a normal microscope.",
+       "zh": "粒子是非常非常小的一块东西，小到连普通显微镜都看不见。"
+      },
+      {
+       "en": "Your desk, the air, water, and even you are all made of particles.",
+       "zh": "你的桌子、空气、水，甚至你自己，都是由粒子组成的。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🪑",
+        "en": "desk",
+        "zh": "桌子"
+       },
+       {
+        "icon": "💧",
+        "en": "water",
+        "zh": "水"
+       },
+       {
+        "icon": "💨",
+        "en": "air",
+        "zh": "空气"
+       },
+       {
+        "icon": "🙋‍♀️",
+        "en": "you",
+        "zh": "你"
+       }
+      ]
+     },
+     "remember": {
+      "en": "particle 粒子 = a very tiny piece",
+      "zh": "particle 粒子 = 非常小的一块"
+     }
+    },
+    {
+     "icon": "⚫",
+     "title": {
+      "en": "Atom 原子",
+      "zh": "原子 atom"
+     },
+     "points": [
+      {
+       "en": "An atom is the smallest particle of an element. (We learn \"element\" on the next page.)",
+       "zh": "原子是元素的最小粒子。（下一页学“元素”。）"
+      },
+      {
+       "en": "Think of an atom as one LEGO brick. In pictures, we draw one atom as one circle.",
+       "zh": "把原子想成一块乐高积木。在图里，一个原子画成一个圆圈。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "one atom",
+         "zh": "一个原子"
+        },
+        "items": [
+         "d"
+        ]
+       },
+       {
+        "label": {
+         "en": "six atoms of the same kind",
+         "zh": "六个同一种原子"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ],
+        "neat": true
+       }
+      ]
+     },
+     "remember": {
+      "en": "atom = smallest particle = one circle",
+      "zh": "原子 = 最小的粒子 = 一个圆圈"
+     }
+    },
+    {
+     "icon": "🟣",
+     "title": {
+      "en": "Element 元素",
+      "zh": "元素 element"
+     },
+     "points": [
+      {
+       "en": "An element is a substance made of only ONE type of atom. A substance just means \"a kind of stuff\".",
+       "zh": "元素是只由一种原子组成的物质。物质的意思就是“一种东西”。"
+      },
+      {
+       "en": "Gold is an element: only gold atoms. Oxygen is an element: only oxygen atoms.",
+       "zh": "金是元素：只有金原子。氧是元素：只有氧原子。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "element: all atoms the same",
+         "zh": "元素：所有原子都一样"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ]
+       }
+      ]
+     },
+     "remember": {
+      "en": "element = only ONE type of atom",
+      "zh": "元素 = 只有一种原子"
+     }
+    },
+    {
+     "icon": "📋",
+     "title": {
+      "en": "The periodic table 元素周期表",
+      "zh": "元素周期表 periodic table"
+     },
+     "points": [
+      {
+       "en": "The periodic table is a big chart that lists ALL the elements. There are about 118.",
+       "zh": "元素周期表是一张列出所有元素的大表，大约有 118 种。"
+      },
+      {
+       "en": "Each element has a symbol: 1 or 2 letters. The first letter is always a CAPITAL.",
+       "zh": "每种元素有一个符号：1 或 2 个字母。第一个字母永远大写。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "H",
+        "en": "hydrogen 氢",
+        "zh": "氢 hydrogen"
+       },
+       {
+        "icon": "O",
+        "en": "oxygen 氧",
+        "zh": "氧 oxygen"
+       },
+       {
+        "icon": "C",
+        "en": "carbon 碳",
+        "zh": "碳 carbon"
+       },
+       {
+        "icon": "N",
+        "en": "nitrogen 氮",
+        "zh": "氮 nitrogen"
+       },
+       {
+        "icon": "Fe",
+        "en": "iron 铁",
+        "zh": "铁 iron"
+       },
+       {
+        "icon": "Mg",
+        "en": "magnesium 镁",
+        "zh": "镁 magnesium"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔩",
+     "title": {
+      "en": "Metals 金属 and non-metals 非金属",
+      "zh": "金属和非金属"
+     },
+     "points": [
+      {
+       "en": "Metals: usually shiny, hard, and let heat and electricity pass through. Examples: iron, copper, gold, magnesium.",
+       "zh": "金属：通常有光泽、很硬，能导热导电。例子：铁、铜、金、镁。"
+      },
+      {
+       "en": "Non-metals: usually dull, and many are gases. Examples: oxygen, nitrogen, sulfur, carbon.",
+       "zh": "非金属：通常没有光泽，很多是气体。例子：氧、氮、硫、碳。"
+      },
+      {
+       "en": "MOST elements are metals.",
+       "zh": "大部分元素是金属。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🔩✨",
+        "en": "metal: shiny, conducts",
+        "zh": "金属：有光泽、导电"
+       },
+       {
+        "icon": "💨🟡",
+        "en": "non-metal: often gas or dull",
+        "zh": "非金属：常是气体或没光泽"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🧲",
+     "title": {
+      "en": "Magnetic 有磁性的",
+      "zh": "有磁性的 magnetic"
+     },
+     "points": [
+      {
+       "en": "Magnetic means a magnet can pull it.",
+       "zh": "有磁性的意思是磁铁能吸住它。"
+      },
+      {
+       "en": "Only a FEW metals are magnetic: iron, nickel and cobalt. Most metals are NOT magnetic.",
+       "zh": "只有少数金属有磁性：铁、镍、钴。大部分金属没有磁性。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧲✅",
+        "en": "iron, nickel, cobalt",
+        "zh": "铁、镍、钴"
+       },
+       {
+        "icon": "🧲❌",
+        "en": "copper, gold, aluminium...",
+        "zh": "铜、金、铝……"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Most metals are NOT magnetic.",
+      "zh": "大部分金属没有磁性。"
+     }
+    },
+    {
+     "icon": "🌡️",
+     "title": {
+      "en": "Room temperature and liquid elements",
+      "zh": "室温和液态元素"
+     },
+     "points": [
+      {
+       "en": "Room temperature means the normal temperature inside a room, about 20 °C.",
+       "zh": "室温就是房间里平常的温度，大约 20 °C。"
+      },
+      {
+       "en": "At room temperature, only TWO elements are liquid: mercury and bromine. Most elements are solid.",
+       "zh": "在室温下，只有两种元素是液体：汞和溴。大部分元素是固体。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🪞💧",
+        "en": "mercury 汞: a liquid metal",
+        "zh": "汞：液态金属"
+       },
+       {
+        "icon": "🟤💧",
+        "en": "bromine 溴: a liquid non-metal",
+        "zh": "溴：液态非金属"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Only 2 liquid elements: mercury and bromine.",
+      "zh": "只有 2 种液态元素：汞和溴。"
+     }
+    },
+    {
+     "icon": "🔗",
+     "title": {
+      "en": "Molecule 分子",
+      "zh": "分子 molecule"
+     },
+     "points": [
+      {
+       "en": "A molecule is 2 or more atoms chemically joined together.",
+       "zh": "分子是 2 个或更多原子化学结合在一起。"
+      },
+      {
+       "en": "Chemically joined means stuck together by a strong link called a bond. In pictures, the circles TOUCH.",
+       "zh": "化学结合的意思是用一种叫“化学键”的牢固连接粘在一起。在图里，圆圈是碰在一起的。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "2 atoms joined",
+         "zh": "2 个原子结合"
+        },
+        "items": [
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "3 atoms joined",
+         "zh": "3 个原子结合"
+        },
+        "items": [
+         "wdw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🎈",
+     "title": {
+      "en": "Molecules can be elements too",
+      "zh": "分子也可以是元素"
+     },
+     "points": [
+      {
+       "en": "Oxygen in the air is O₂: two oxygen atoms joined. Both atoms are the same, so it is still an ELEMENT.",
+       "zh": "空气里的氧是 O₂：两个氧原子结合。两个原子一样，所以还是元素。"
+      },
+      {
+       "en": "Same for H₂ (hydrogen) and N₂ (nitrogen). They are elements AND molecules.",
+       "zh": "H₂（氢）和 N₂（氮）也一样。它们既是元素，也是分子。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "O₂, H₂, N₂: element (molecules)",
+         "zh": "O₂、H₂、N₂：元素（分子）"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       }
+      ]
+     },
+     "remember": {
+      "en": "Same colour joined = still an element.",
+      "zh": "相同颜色结合 = 还是元素。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A1.",
+    "zh": "我现在能解释 A1 的关键词。"
+   }
+  },
+  {
+   "code": "A2",
+   "part": "A",
+   "title": {
+    "en": "Elements, Compounds and Mixtures",
+    "zh": "元素、化合物和混合物"
+   },
+   "slides": [
+    {
+     "icon": "💎",
+     "title": {
+      "en": "Pure substance 纯净物",
+      "zh": "纯净物 pure substance"
+     },
+     "points": [
+      {
+       "en": "A pure substance has only ONE kind of particle all the way through.",
+       "zh": "纯净物从头到尾只有一种粒子。"
+      },
+      {
+       "en": "Elements are pure. Compounds are pure too (next page). Mixtures are NOT pure.",
+       "zh": "元素是纯净物，化合物也是纯净物（下一页）。混合物不是纯净物。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "pure: one kind of particle",
+         "zh": "纯净物：一种粒子"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🧪",
+     "title": {
+      "en": "Compound 化合物",
+      "zh": "化合物 compound"
+     },
+     "points": [
+      {
+       "en": "A compound is 2 or more DIFFERENT types of atom chemically joined.",
+       "zh": "化合物是 2 种或更多不同的原子化学结合在一起。"
+      },
+      {
+       "en": "Water (H₂O): hydrogen and oxygen joined. Carbon dioxide (CO₂): carbon and oxygen joined.",
+       "zh": "水 (H₂O)：氢和氧结合。二氧化碳 (CO₂)：碳和氧结合。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "compound, e.g. CO",
+         "zh": "化合物，比如 CO"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       },
+       {
+        "label": {
+         "en": "compound, e.g. water H₂O",
+         "zh": "化合物，比如水 H₂O"
+        },
+        "items": [
+         "wdw",
+         "wdw",
+         "wdw",
+         "wdw"
+        ]
+       }
+      ]
+     },
+     "remember": {
+      "en": "Different colours JOINED = compound.",
+      "zh": "不同颜色结合 = 化合物。"
+     }
+    },
+    {
+     "icon": "🧂",
+     "title": {
+      "en": "A compound is a NEW substance",
+      "zh": "化合物是新物质"
+     },
+     "points": [
+      {
+       "en": "A compound is very different from the elements it is made from.",
+       "zh": "化合物和组成它的元素非常不一样。"
+      },
+      {
+       "en": "Sodium (a soft shiny metal) + chlorine (a poisonous green gas) = sodium chloride, the salt we eat!",
+       "zh": "钠（软软的亮金属）+ 氯（有毒的绿色气体）= 氯化钠，就是我们吃的盐！"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔩",
+        "en": "sodium (metal)",
+        "zh": "钠（金属）"
+       },
+       {
+        "icon": "💨",
+        "en": "chlorine (gas)",
+        "zh": "氯（气体）"
+       },
+       {
+        "icon": "🧂",
+        "en": "salt: a new substance",
+        "zh": "盐：新物质"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🥗",
+     "title": {
+      "en": "Mixture 混合物",
+      "zh": "混合物 mixture"
+     },
+     "points": [
+      {
+       "en": "A mixture is 2 or more substances mixed together but NOT chemically joined.",
+       "zh": "混合物是 2 种或更多物质混在一起，但没有化学结合。"
+      },
+      {
+       "en": "Like a fruit salad: each fruit is still there and you can pick it out.",
+       "zh": "像水果沙拉：每种水果还在，可以挑出来。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "mixture of two elements",
+         "zh": "两种元素的混合物"
+        },
+        "items": [
+         "d",
+         "ww",
+         "d",
+         "ww",
+         "d",
+         "ww"
+        ]
+       }
+      ]
+     },
+     "remember": {
+      "en": "Not joined = mixture.",
+      "zh": "没有结合 = 混合物。"
+     }
+    },
+    {
+     "icon": "🧲",
+     "title": {
+      "en": "Separate 分离",
+      "zh": "分离 separate"
+     },
+     "points": [
+      {
+       "en": "Separate means pull apart. Mixtures can be separated because they are not joined.",
+       "zh": "分离就是分开。混合物能分离，因为它们没有结合。"
+      },
+      {
+       "en": "Ways to separate: a magnet (for iron), a filter (for sand and water), evaporating (for salt water).",
+       "zh": "分离方法：磁铁（分出铁）、过滤（分开沙和水）、蒸发（从盐水里得到盐）。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧲",
+        "en": "magnet",
+        "zh": "磁铁"
+       },
+       {
+        "icon": "☕",
+        "en": "filter",
+        "zh": "过滤"
+       },
+       {
+        "icon": "♨️",
+        "en": "evaporate",
+        "zh": "蒸发"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🎺",
+     "title": {
+      "en": "Alloy 合金",
+      "zh": "合金 alloy"
+     },
+     "points": [
+      {
+       "en": "An alloy is a mixture of metals (melted and mixed).",
+       "zh": "合金是几种金属熔化后混在一起。"
+      },
+      {
+       "en": "Brass = copper + zinc. It is a MIXTURE, not a compound, because the metals are not chemically joined.",
+       "zh": "黄铜 = 铜 + 锌。它是混合物，不是化合物，因为金属没有化学结合。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🎺",
+        "en": "brass = copper + zinc",
+        "zh": "黄铜 = 铜 + 锌"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Alloys are mixtures.",
+      "zh": "合金是混合物。"
+     }
+    },
+    {
+     "icon": "📦",
+     "title": {
+      "en": "Sort them!",
+      "zh": "分一分！"
+     },
+     "points": [
+      {
+       "en": "Mixtures: air, sea water, petrol, brass.",
+       "zh": "混合物：空气、海水、汽油、黄铜。"
+      },
+      {
+       "en": "Compounds: water, salt (sodium chloride), carbon dioxide, carbon monoxide, copper sulfate.",
+       "zh": "化合物：水、盐（氯化钠）、二氧化碳、一氧化碳、硫酸铜。"
+      },
+      {
+       "en": "Elements: oxygen, hydrogen, nitrogen, magnesium, sulfur, bromine, iron.",
+       "zh": "元素：氧、氢、氮、镁、硫、溴、铁。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "💨🌊⛽🎺",
+        "en": "mixtures",
+        "zh": "混合物"
+       },
+       {
+        "icon": "💧🧂",
+        "en": "compounds",
+        "zh": "化合物"
+       },
+       {
+        "icon": "🟣",
+        "en": "elements",
+        "zh": "元素"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔤",
+     "title": {
+      "en": "Formula 化学式 and the capital-letter clue",
+      "zh": "化学式和大写字母线索"
+     },
+     "points": [
+      {
+       "en": "A formula shows which atoms are in ONE particle, using symbols. H₂O = 2 hydrogen atoms + 1 oxygen atom.",
+       "zh": "化学式用符号表示一个粒子里有哪些原子。H₂O = 2 个氢原子 + 1 个氧原子。"
+      },
+      {
+       "en": "Count the CAPITAL letters: 1 capital = element (O₂, N₂, Mg). 2 or more = compound (NaCl, CO₂).",
+       "zh": "数大写字母：1 个 = 元素（O₂、N₂、Mg）；2 个或以上 = 化合物（NaCl、CO₂）。"
+      },
+      {
+       "en": "Careful: Co (small o) is cobalt, an element. CO (capital O) is carbon monoxide, a compound.",
+       "zh": "注意：Co（小写 o）是钴，元素。CO（大写 O）是一氧化碳，化合物。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "1 capital = element.  2+ capitals = compound.",
+       "zh": "1 个大写 = 元素。2 个以上 = 化合物。"
+      }
+     }
+    },
+    {
+     "icon": "❓",
+     "title": {
+      "en": "The 3 questions test",
+      "zh": "三个问题测试法"
+     },
+     "points": [
+      {
+       "en": "Ask these every time.",
+       "zh": "每次都问这三个问题。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "1️⃣",
+        "en": "One type of atom only? → element",
+        "zh": "只有一种原子？→ 元素"
+       },
+       {
+        "icon": "2️⃣",
+        "en": "Different atoms joined? → compound",
+        "zh": "不同原子结合？→ 化合物"
+       },
+       {
+        "icon": "3️⃣",
+        "en": "Not joined, can be separated? → mixture",
+        "zh": "没有结合，可以分开？→ 混合物"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A2.",
+    "zh": "我现在能解释 A2 的关键词。"
+   }
+  },
+  {
+   "code": "A3",
+   "part": "A",
+   "title": {
+    "en": "Particle Diagrams",
+    "zh": "粒子图"
+   },
+   "slides": [
+    {
+     "icon": "🖼️",
+     "title": {
+      "en": "What is a particle diagram? 粒子图",
+      "zh": "什么是粒子图？"
+     },
+     "points": [
+      {
+       "en": "A particle diagram is a box that shows the particles inside a substance.",
+       "zh": "粒子图是一个方框，画出物质里面的粒子。"
+      },
+      {
+       "en": "1 circle = 1 atom. Touching circles = joined (a molecule). Different colours = different kinds of atom.",
+       "zh": "1 个圆圈 = 1 个原子。碰在一起 = 结合（分子）。颜色不同 = 原子种类不同。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "a particle diagram",
+         "zh": "一张粒子图"
+        },
+        "items": [
+         "d",
+         "dw",
+         "ww",
+         "d"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "1️⃣",
+     "title": {
+      "en": "Step 1: how many KINDS of particle?",
+      "zh": "第一步：有几种粒子？"
+     },
+     "points": [
+      {
+       "en": "Look at the whole box. Are all the particles the same?",
+       "zh": "看整个方框。所有粒子都一样吗？"
+      },
+      {
+       "en": "One kind = pure substance. Two or more kinds = mixture.",
+       "zh": "一种 = 纯净物。两种或以上 = 混合物。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "one kind: pure",
+         "zh": "一种：纯净物"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "two kinds: mixture",
+         "zh": "两种：混合物"
+        },
+        "items": [
+         "dd",
+         "w",
+         "dd",
+         "w"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "2️⃣",
+     "title": {
+      "en": "Step 2: look INSIDE one particle",
+      "zh": "第二步：看一个粒子里面"
+     },
+     "points": [
+      {
+       "en": "Same colour atoms = element. Different colours joined = compound.",
+       "zh": "颜色相同的原子 = 元素。不同颜色结合 = 化合物。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "same colours: element",
+         "zh": "颜色相同：元素"
+        },
+        "items": [
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "different colours: compound",
+         "zh": "颜色不同：化合物"
+        },
+        "items": [
+         "dw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🟣",
+     "title": {
+      "en": "Box 1 and 2: elements",
+      "zh": "方框 1 和 2：元素"
+     },
+     "points": [
+      {
+       "en": "Single atoms, all the same: element (single atoms), e.g. magnesium.",
+       "zh": "单个原子，全部一样：元素（单个原子），比如镁。"
+      },
+      {
+       "en": "Pairs of the same atoms: element (molecules), e.g. oxygen O₂.",
+       "zh": "相同原子成对：元素（分子），比如氧 O₂。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "element (single atoms)",
+         "zh": "元素（单个原子）"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ]
+       },
+       {
+        "label": {
+         "en": "element (molecules)",
+         "zh": "元素（分子）"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🧪",
+     "title": {
+      "en": "Box 3: compound",
+      "zh": "方框 3：化合物"
+     },
+     "points": [
+      {
+       "en": "Every particle is the same, and each one has different atoms joined.",
+       "zh": "每个粒子都一样，每个里面都是不同原子结合。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "compound",
+         "zh": "化合物"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🥗",
+     "title": {
+      "en": "Box 4: mixture of two elements",
+      "zh": "方框 4：两种元素的混合物"
+     },
+     "points": [
+      {
+       "en": "Two kinds of particle, and each kind has only one colour.",
+       "zh": "两种粒子，每种只有一种颜色。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "mixture of two elements",
+         "zh": "两种元素的混合物"
+        },
+        "items": [
+         "d",
+         "ww",
+         "d",
+         "ww",
+         "d",
+         "ww"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🥗",
+     "title": {
+      "en": "Box 5: mixture of two compounds",
+      "zh": "方框 5：两种化合物的混合物"
+     },
+     "points": [
+      {
+       "en": "Two kinds of particle, and each kind has different colours joined.",
+       "zh": "两种粒子，每种都是不同颜色结合。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "mixture of two compounds",
+         "zh": "两种化合物的混合物"
+        },
+        "items": [
+         "dw",
+         "wdw",
+         "dw",
+         "wdw",
+         "dw",
+         "wdw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🥗",
+     "title": {
+      "en": "Box 6: mixture of an element and a compound",
+      "zh": "方框 6：元素和化合物的混合物"
+     },
+     "points": [
+      {
+       "en": "One kind is one colour (element). The other kind is different colours joined (compound).",
+       "zh": "一种粒子只有一种颜色（元素），另一种是不同颜色结合（化合物）。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "mixture of an element and a compound",
+         "zh": "元素和化合物的混合物"
+        },
+        "items": [
+         "d",
+         "dw",
+         "d",
+         "dw",
+         "d",
+         "dw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "📝",
+     "title": {
+      "en": "Always write the FULL name",
+      "zh": "一定要写完整名称"
+     },
+     "points": [
+      {
+       "en": "\"Mixture\" alone is not enough. Say WHAT is mixed: two elements? two compounds? an element and a compound?",
+       "zh": "只写 mixture 不够。要说明是什么混在一起：两种元素？两种化合物？元素和化合物？"
+      },
+      {
+       "en": "\"Molecules\" alone is not enough. Write \"element (molecules)\".",
+       "zh": "只写 molecules 不够。要写 element (molecules)。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "element (single atoms)",
+         "zh": "元素（单个原子）"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ]
+       },
+       {
+        "label": {
+         "en": "element (molecules)",
+         "zh": "元素（分子）"
+        },
+        "items": [
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd",
+         "dd"
+        ]
+       },
+       {
+        "label": {
+         "en": "compound",
+         "zh": "化合物"
+        },
+        "items": [
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw",
+         "dw"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of two elements",
+         "zh": "两种元素的混合物"
+        },
+        "items": [
+         "d",
+         "ww",
+         "d",
+         "ww",
+         "d",
+         "ww"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of two compounds",
+         "zh": "两种化合物的混合物"
+        },
+        "items": [
+         "dw",
+         "wdw",
+         "dw",
+         "wdw",
+         "dw",
+         "wdw"
+        ]
+       },
+       {
+        "label": {
+         "en": "mixture of an element and a compound",
+         "zh": "元素和化合物的混合物"
+        },
+        "items": [
+         "d",
+         "dw",
+         "d",
+         "dw",
+         "d",
+         "dw"
+        ]
+       }
+      ]
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Drawing tip: count carefully",
+      "zh": "画图小技巧：数清楚"
+     },
+     "points": [
+      {
+       "en": "\"Draw THREE water molecules\" means 3 groups, each 1 oxygen joined to 2 hydrogen. That is 9 atoms.",
+       "zh": "“画三个水分子”就是画 3 组，每组 1 个氧连着 2 个氢，一共 9 个原子。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "3 water molecules (H₂O)",
+         "zh": "3 个水分子 (H₂O)"
+        },
+        "items": [
+         "wdw",
+         "wdw",
+         "wdw"
+        ]
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A3.",
+    "zh": "我现在能解释 A3 的关键词。"
+   }
+  },
+  {
+   "code": "A4",
+   "part": "A",
+   "title": {
+    "en": "Chemical Symbols and Formulae",
+    "zh": "化学符号和化学式"
+   },
+   "slides": [
+    {
+     "icon": "🔣",
+     "title": {
+      "en": "Chemical symbols 化学符号",
+      "zh": "化学符号"
+     },
+     "points": [
+      {
+       "en": "A symbol is a short name for an element: 1 or 2 letters, first letter CAPITAL, second letter small.",
+       "zh": "符号是元素的简称：1 或 2 个字母，第一个大写，第二个小写。"
+      },
+      {
+       "en": "Some come from Latin: Na (sodium), K (potassium), Fe (iron), Cu (copper), Pb (lead).",
+       "zh": "有些来自拉丁文：Na（钠）、K（钾）、Fe（铁）、Cu（铜）、Pb（铅）。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "H",
+        "en": "hydrogen 氢",
+        "zh": "氢"
+       },
+       {
+        "icon": "He",
+        "en": "helium 氦",
+        "zh": "氦"
+       },
+       {
+        "icon": "C",
+        "en": "carbon 碳",
+        "zh": "碳"
+       },
+       {
+        "icon": "N",
+        "en": "nitrogen 氮",
+        "zh": "氮"
+       },
+       {
+        "icon": "O",
+        "en": "oxygen 氧",
+        "zh": "氧"
+       },
+       {
+        "icon": "Na",
+        "en": "sodium 钠",
+        "zh": "钠"
+       },
+       {
+        "icon": "Mg",
+        "en": "magnesium 镁",
+        "zh": "镁"
+       },
+       {
+        "icon": "Al",
+        "en": "aluminium 铝",
+        "zh": "铝"
+       },
+       {
+        "icon": "S",
+        "en": "sulfur 硫",
+        "zh": "硫"
+       },
+       {
+        "icon": "Cl",
+        "en": "chlorine 氯",
+        "zh": "氯"
+       },
+       {
+        "icon": "Fe",
+        "en": "iron 铁",
+        "zh": "铁"
+       },
+       {
+        "icon": "Cu",
+        "en": "copper 铜",
+        "zh": "铜"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔢",
+     "title": {
+      "en": "The small number 下标",
+      "zh": "小数字（下标）"
+     },
+     "points": [
+      {
+       "en": "The small number belongs to the symbol BEFORE it. It tells how many of that atom.",
+       "zh": "小数字属于它前面的符号，表示那种原子有几个。"
+      },
+      {
+       "en": "No small number = 1 atom. CO₂ = 1 carbon + 2 oxygen.",
+       "zh": "没有小数字 = 1 个原子。CO₂ = 1 个碳 + 2 个氧。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "H₂O = H H O",
+       "zh": "H₂O = H H O"
+      },
+      "example": {
+       "en": "2 hydrogen + 1 oxygen = 3 atoms",
+       "zh": "2 个氢 + 1 个氧 = 3 个原子"
+      }
+     }
+    },
+    {
+     "icon": "🧮",
+     "title": {
+      "en": "Counting atoms in ONE molecule",
+      "zh": "数一个分子里的原子"
+     },
+     "points": [
+      {
+       "en": "Add the numbers: CH₄ = 1 + 4 = 5. C₃H₈ = 3 + 8 = 11. H₂SO₄ = 2 + 1 + 4 = 7.",
+       "zh": "把数字加起来：CH₄ = 1 + 4 = 5。C₃H₈ = 3 + 8 = 11。H₂SO₄ = 2 + 1 + 4 = 7。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "count = add all the small numbers (no number = 1)",
+       "zh": "原子数 = 所有小数字相加（没写 = 1）"
+      }
+     }
+    },
+    {
+     "icon": "✖️",
+     "title": {
+      "en": "Counting atoms in MANY molecules",
+      "zh": "数很多分子里的原子"
+     },
+     "points": [
+      {
+       "en": "Number of molecules × atoms in ONE molecule. Write it ONCE, then stop.",
+       "zh": "分子个数 × 一个分子的原子数。只写一次，然后停。"
+      },
+      {
+       "en": "4 molecules of H₂O: 4 × 3 = 12 atoms.",
+       "zh": "4 个 H₂O 分子：4 × 3 = 12 个原子。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "total = molecules × atoms in one",
+       "zh": "总数 = 分子数 × 一个分子的原子数"
+      },
+      "example": {
+       "en": "4 × 3 = 12   (do not multiply again!)",
+       "zh": "4 × 3 = 12（不要再乘！）"
+      }
+     }
+    },
+    {
+     "icon": "⚖️",
+     "title": {
+      "en": "Ratio 比 from a formula",
+      "zh": "从化学式看比"
+     },
+     "points": [
+      {
+       "en": "A ratio compares amounts. Follow the ORDER of the words in the question.",
+       "zh": "比是用来比较数量的。按题目里词的顺序写。"
+      },
+      {
+       "en": "CO₂ carbon : oxygen = 1 : 2.  H₂O hydrogen : oxygen = 2 : 1.",
+       "zh": "CO₂ 碳 : 氧 = 1 : 2。H₂O 氢 : 氧 = 2 : 1。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A4.",
+    "zh": "我现在能解释 A4 的关键词。"
+   }
+  },
+  {
+   "code": "A5",
+   "part": "A",
+   "title": {
+    "en": "Word Equations and Naming Compounds",
+    "zh": "文字方程式和化合物命名"
+   },
+   "slides": [
+    {
+     "icon": "🔁",
+     "title": {
+      "en": "Chemical reaction 化学反应",
+      "zh": "化学反应 chemical reaction"
+     },
+     "points": [
+      {
+       "en": "In a chemical reaction, atoms unclick and click together in a NEW way. A new substance is made.",
+       "zh": "化学反应中，原子拆开再用新的方式结合，生成新物质。"
+      },
+      {
+       "en": "Like LEGO: take bricks apart and build something new.",
+       "zh": "像乐高：把积木拆开，再搭成新东西。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🟥🟦",
+        "en": "start",
+        "zh": "开始"
+       },
+       {
+        "icon": "🔨",
+        "en": "unclick",
+        "zh": "拆开"
+       },
+       {
+        "icon": "🟦🟥",
+        "en": "new way",
+        "zh": "新组合"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "➡️",
+     "title": {
+      "en": "Reactants 反应物 → products 生成物",
+      "zh": "反应物 → 生成物"
+     },
+     "points": [
+      {
+       "en": "Reactants are what you START with (left). Products are what is MADE (right). The arrow means \"makes\".",
+       "zh": "反应物是开始的东西（左边）。生成物是生成的东西（右边）。箭头表示“生成”。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "reactants → products",
+       "zh": "反应物 → 生成物"
+      },
+      "example": {
+       "en": "magnesium + oxygen → magnesium oxide",
+       "zh": "镁 + 氧 → 氧化镁"
+      }
+     }
+    },
+    {
+     "icon": "🏷️",
+     "title": {
+      "en": "Naming compounds: the -ide rule",
+      "zh": "化合物命名：-ide 规则"
+     },
+     "points": [
+      {
+       "en": "Keep the metal name. Change the end of the non-metal: oxygen → oxide, chlorine → chloride, sulfur → sulfide.",
+       "zh": "金属名不变。非金属改结尾：oxygen → oxide，chlorine → chloride，sulfur → sulfide。"
+      },
+      {
+       "en": "Elements on the LEFT never end in -ide.",
+       "zh": "左边的元素名字永远不加 -ide。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔩",
+        "en": "metal: keep the name",
+        "zh": "金属：名字不变"
+       },
+       {
+        "icon": "✂️",
+        "en": "non-metal: -ide ending",
+        "zh": "非金属：改成 -ide"
+       },
+       {
+        "icon": "🏷️",
+        "en": "iron sulfide",
+        "zh": "硫化铁"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "2️⃣",
+     "title": {
+      "en": "mono = 1, di = 2",
+      "zh": "mono = 1，di = 2"
+     },
+     "points": [
+      {
+       "en": "Two non-metals use number words: carbon MONoxide CO (1 oxygen), carbon DIoxide CO₂ (2 oxygen), sulfur dioxide SO₂.",
+       "zh": "两个非金属用数字词：一氧化碳 CO（1 个氧）、二氧化碳 CO₂（2 个氧）、二氧化硫 SO₂。"
+      },
+      {
+       "en": "-ate means oxygen is in it too: copper sulfate, calcium carbonate.",
+       "zh": "-ate 表示里面还有氧：硫酸铜、碳酸钙。"
+      }
+     ]
+    },
+    {
+     "icon": "📜",
+     "title": {
+      "en": "Must-know word equations",
+      "zh": "必会的文字方程式"
+     },
+     "points": [
+      {
+       "en": "magnesium + oxygen → magnesium oxide",
+       "zh": "镁 + 氧 → 氧化镁"
+      },
+      {
+       "en": "iron + sulfur → iron sulfide",
+       "zh": "铁 + 硫 → 硫化铁"
+      },
+      {
+       "en": "sodium + chlorine → sodium chloride",
+       "zh": "钠 + 氯 → 氯化钠"
+      },
+      {
+       "en": "calcium carbonate → calcium oxide + carbon dioxide",
+       "zh": "碳酸钙 → 氧化钙 + 二氧化碳"
+      },
+      {
+       "en": "water → hydrogen + oxygen  (one compound → two elements)",
+       "zh": "水 → 氢 + 氧（一种化合物 → 两种元素）"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A5.",
+    "zh": "我现在能解释 A5 的关键词。"
+   }
+  },
+  {
+   "code": "A6",
+   "part": "A",
+   "title": {
+    "en": "Chemical and Physical Changes",
+    "zh": "化学变化和物理变化"
+   },
+   "slides": [
+    {
+     "icon": "🧊",
+     "title": {
+      "en": "Physical change 物理变化",
+      "zh": "物理变化 physical change"
+     },
+     "points": [
+      {
+       "en": "Same substance, new look. Usually you can change it back.",
+       "zh": "物质不变，样子变了。通常可以变回去。"
+      },
+      {
+       "en": "Examples: ice melting, water boiling, sugar dissolving in water.",
+       "zh": "例子：冰融化、水沸腾、糖溶在水里。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧊➡️💧",
+        "en": "melting",
+        "zh": "融化"
+       },
+       {
+        "icon": "🍬➡️🥤",
+        "en": "dissolving",
+        "zh": "溶解"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔥",
+     "title": {
+      "en": "Chemical change 化学变化",
+      "zh": "化学变化 chemical change"
+     },
+     "points": [
+      {
+       "en": "A NEW substance is made. Very hard to change back.",
+       "zh": "生成了新物质，很难变回去。"
+      },
+      {
+       "en": "Examples: burning paper, rusting iron, cooking an egg, baking a cake.",
+       "zh": "例子：烧纸、铁生锈、煮鸡蛋、烤蛋糕。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "📄🔥",
+        "en": "burning",
+        "zh": "燃烧"
+       },
+       {
+        "icon": "🔩🟤",
+        "en": "rusting",
+        "zh": "生锈"
+       },
+       {
+        "icon": "🥚🍳",
+        "en": "cooking an egg",
+        "zh": "煮鸡蛋"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔍",
+     "title": {
+      "en": "Signs of a chemical reaction",
+      "zh": "化学反应的迹象"
+     },
+     "points": [
+      {
+       "en": "Look for any of these:",
+       "zh": "看看有没有这些："
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "💡",
+        "en": "light or glowing",
+        "zh": "发光"
+       },
+       {
+        "icon": "🌡️",
+        "en": "heat given out",
+        "zh": "放热"
+       },
+       {
+        "icon": "🎨",
+        "en": "colour change",
+        "zh": "颜色改变"
+       },
+       {
+        "icon": "🫧",
+        "en": "gas (bubbles)",
+        "zh": "产生气体（气泡）"
+       },
+       {
+        "icon": "✨",
+        "en": "a new substance",
+        "zh": "新物质"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🧲",
+     "title": {
+      "en": "The iron and sulfur story",
+      "zh": "铁和硫的故事"
+     },
+     "points": [
+      {
+       "en": "Before heating: iron + sulfur is a MIXTURE. A magnet pulls the iron out.",
+       "zh": "加热前：铁 + 硫是混合物，磁铁能把铁吸出来。"
+      },
+      {
+       "en": "Heat it: it glows (a sign of reaction). After: iron sulfide, a COMPOUND. The magnet can't pull the iron out.",
+       "zh": "加热：发光（反应的迹象）。之后：硫化铁，是化合物，磁铁吸不出铁。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "⚫🟡",
+        "en": "mixture",
+        "zh": "混合物"
+       },
+       {
+        "icon": "🔥",
+        "en": "heat: glows",
+        "zh": "加热：发光"
+       },
+       {
+        "icon": "⬛",
+        "en": "iron sulfide: compound",
+        "zh": "硫化铁：化合物"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "⚖️",
+     "title": {
+      "en": "Mass 质量 and conservation of mass 质量守恒",
+      "zh": "质量和质量守恒"
+     },
+     "points": [
+      {
+       "en": "Mass = how much stuff something has. We measure it in grams (g).",
+       "zh": "质量 = 东西有多少，用克 (g) 来量。"
+      },
+      {
+       "en": "Atoms are never lost or made. 2.0 g iron + 0.8 g sulfur = 2.8 g iron sulfide.",
+       "zh": "原子不会消失，也不会凭空出现。2.0 克铁 + 0.8 克硫 = 2.8 克硫化铁。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "mass before = mass after",
+       "zh": "反应前质量 = 反应后质量"
+      },
+      "example": {
+       "en": "2.8 - 2.0 = 0.8 g of sulfur joined",
+       "zh": "2.8 - 2.0 = 0.8 克硫结合上去"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A6.",
+    "zh": "我现在能解释 A6 的关键词。"
+   }
+  },
+  {
+   "code": "A7",
+   "part": "A",
+   "title": {
+    "en": "States of Matter, Melting and Boiling Points",
+    "zh": "物质的状态、熔点和沸点"
+   },
+   "slides": [
+    {
+     "icon": "🧊",
+     "title": {
+      "en": "Solid 固体, liquid 液体, gas 气体",
+      "zh": "固体、液体、气体"
+     },
+     "points": [
+      {
+       "en": "Solid: particles touching in NEAT rows, only wiggle. Fixed shape.",
+       "zh": "固体：粒子紧挨着排成整齐的行，只能轻轻振动。形状固定。"
+      },
+      {
+       "en": "Liquid: particles touching but RANDOM, they slide. Takes the shape of its container.",
+       "zh": "液体：粒子挨着但无序，会滑动。形状随容器变。"
+      },
+      {
+       "en": "Gas: particles FAR apart, moving fast everywhere.",
+       "zh": "气体：粒子离得很远，到处快速运动。"
+      }
+     ],
+     "visual": {
+      "type": "particles",
+      "boxes": [
+       {
+        "label": {
+         "en": "solid",
+         "zh": "固体"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ],
+        "neat": true,
+        "cols": 3
+       },
+       {
+        "label": {
+         "en": "liquid",
+         "zh": "液体"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d",
+         "d"
+        ],
+        "cols": 4
+       },
+       {
+        "label": {
+         "en": "gas",
+         "zh": "气体"
+        },
+        "items": [
+         "d",
+         "d",
+         "d",
+         "d"
+        ],
+        "cols": 2
+       }
+      ]
+     },
+     "remember": {
+      "en": "Classroom (solid), corridor (liquid), playground (gas).",
+      "zh": "教室（固体）、走廊（液体）、操场（气体）。"
+     }
+    },
+    {
+     "icon": "🌡️",
+     "title": {
+      "en": "Temperature 温度 and °C",
+      "zh": "温度和摄氏度"
+     },
+     "points": [
+      {
+       "en": "Temperature tells how hot or cold something is. We measure it in degrees Celsius (°C).",
+       "zh": "温度表示东西有多热或多冷，单位是摄氏度 (°C)。"
+      },
+      {
+       "en": "Water freezes at 0 °C. Colder than 0 is written with a minus: -10 °C is very cold.",
+       "zh": "水在 0 °C 结冰。比 0 冷的温度写负号：-10 °C 非常冷。"
+      }
+     ]
+    },
+    {
+     "icon": "🔥",
+     "title": {
+      "en": "Heating: melting and boiling",
+      "zh": "加热：熔化和沸腾"
+     },
+     "points": [
+      {
+       "en": "Melting 熔化: solid → liquid (ice → water).",
+       "zh": "熔化：固体 → 液体（冰 → 水）。"
+      },
+      {
+       "en": "Boiling 沸腾 or evaporating 蒸发: liquid → gas (water → steam).",
+       "zh": "沸腾或蒸发：液体 → 气体（水 → 水蒸气）。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🧊",
+        "en": "solid",
+        "zh": "固体"
+       },
+       {
+        "icon": "🔥",
+        "en": "melting",
+        "zh": "熔化"
+       },
+       {
+        "icon": "💧",
+        "en": "liquid",
+        "zh": "液体"
+       },
+       {
+        "icon": "🔥",
+        "en": "boiling",
+        "zh": "沸腾"
+       },
+       {
+        "icon": "💨",
+        "en": "gas",
+        "zh": "气体"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "❄️",
+     "title": {
+      "en": "Cooling: condensing and freezing",
+      "zh": "冷却：凝结和凝固"
+     },
+     "points": [
+      {
+       "en": "Condensing 凝结: gas → liquid (drops on a cold glass).",
+       "zh": "凝结：气体 → 液体（冷杯子外的水珠）。"
+      },
+      {
+       "en": "Freezing 凝固: liquid → solid (water → ice).",
+       "zh": "凝固：液体 → 固体（水 → 冰）。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "💨",
+        "en": "gas",
+        "zh": "气体"
+       },
+       {
+        "icon": "❄️",
+        "en": "condensing",
+        "zh": "凝结"
+       },
+       {
+        "icon": "💧",
+        "en": "liquid",
+        "zh": "液体"
+       },
+       {
+        "icon": "❄️",
+        "en": "freezing",
+        "zh": "凝固"
+       },
+       {
+        "icon": "🧊",
+        "en": "solid",
+        "zh": "固体"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Gas → liquid is condensing, NOT boiling.",
+      "zh": "气体 → 液体是凝结，不是沸腾。"
+     }
+    },
+    {
+     "icon": "🌡️",
+     "title": {
+      "en": "Melting point 熔点",
+      "zh": "熔点 melting point"
+     },
+     "points": [
+      {
+       "en": "The melting point is the temperature where a solid turns into a liquid.",
+       "zh": "熔点是固体变成液体的温度。"
+      },
+      {
+       "en": "Ice melts at 0 °C. Iron melts at 1540 °C. Mercury melts at -39 °C!",
+       "zh": "冰在 0 °C 熔化。铁在 1540 °C 熔化。汞在 -39 °C 就熔化了！"
+      }
+     ]
+    },
+    {
+     "icon": "♨️",
+     "title": {
+      "en": "Boiling point 沸点",
+      "zh": "沸点 boiling point"
+     },
+     "points": [
+      {
+       "en": "The boiling point is the temperature where a liquid turns into a gas.",
+       "zh": "沸点是液体变成气体的温度。"
+      },
+      {
+       "en": "Water boils at 100 °C. Mercury boils at 357 °C.",
+       "zh": "水在 100 °C 沸腾。汞在 357 °C 沸腾。"
+      }
+     ]
+    },
+    {
+     "icon": "📏",
+     "title": {
+      "en": "Negative numbers on a number line",
+      "zh": "数轴上的负数"
+     },
+     "points": [
+      {
+       "en": "On a number line, numbers to the LEFT are smaller (colder). -100 < -39 < -5 < 0 < 12.",
+       "zh": "数轴上越往左越小（越冷）。-100 < -39 < -5 < 0 < 12。"
+      },
+      {
+       "en": "-39 is colder than 0. The bigger the number after the minus, the colder it is.",
+       "zh": "-39 比 0 冷。负号后面的数越大，越冷。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "-100   -39   -5   0   12",
+       "zh": "-100   -39   -5   0   12"
+      },
+      "example": {
+       "en": "colder ⬅️        ➡️ hotter",
+       "zh": "更冷 ⬅️        ➡️ 更热"
+      }
+     }
+    },
+    {
+     "icon": "🧭",
+     "title": {
+      "en": "Solid, liquid or gas? The rule",
+      "zh": "固体、液体还是气体？规则"
+     },
+     "points": [
+      {
+       "en": "Colder than the melting point = solid. Between melting and boiling point = liquid. Hotter than the boiling point = gas.",
+       "zh": "比熔点低 = 固体。在熔点和沸点之间 = 液体。比沸点高 = 气体。"
+      },
+      {
+       "en": "Mercury at 0 °C: 0 is hotter than -39 but colder than 357, so it is between: LIQUID.",
+       "zh": "0 °C 时的汞：0 比 -39 热，但比 357 冷，所以在中间：液体。"
+      },
+      {
+       "en": "Answer with the element's NAME (mercury), not \"melting point\".",
+       "zh": "答案写元素名字（mercury），不要写 melting point。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🧊",
+        "en": "below melting point: solid",
+        "zh": "低于熔点：固体"
+       },
+       {
+        "icon": "💧",
+        "en": "in between: liquid",
+        "zh": "中间：液体"
+       },
+       {
+        "icon": "💨",
+        "en": "above boiling point: gas",
+        "zh": "高于沸点：气体"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A7.",
+    "zh": "我现在能解释 A7 的关键词。"
+   }
+  },
+  {
+   "code": "A8",
+   "part": "A",
+   "title": {
+    "en": "Planning an Investigation",
+    "zh": "设计实验"
+   },
+   "slides": [
+    {
+     "icon": "🔬",
+     "title": {
+      "en": "Investigation 实验 and fair test 公平测试",
+      "zh": "实验和公平测试"
+     },
+     "points": [
+      {
+       "en": "An investigation is a test to find an answer to a question.",
+       "zh": "实验是为了回答一个问题而做的测试。"
+      },
+      {
+       "en": "A fair test changes only ONE thing, so we know what caused the result.",
+       "zh": "公平测试只改变一个因素，这样我们才知道结果是什么造成的。"
+      }
+     ]
+    },
+    {
+     "icon": "🅲",
+     "title": {
+      "en": "Variables: C-M-S",
+      "zh": "变量：C-M-S"
+     },
+     "points": [
+      {
+       "en": "Independent variable 自变量: the ONE thing I Change.",
+       "zh": "自变量：我改变的那一个因素。"
+      },
+      {
+       "en": "Dependent variable 因变量: what I Measure.",
+       "zh": "因变量：我测量的东西。"
+      },
+      {
+       "en": "Control variables 控制变量: what I keep the Same.",
+       "zh": "控制变量：我保持不变的东西。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔄",
+        "en": "I Change",
+        "zh": "我改变"
+       },
+       {
+        "icon": "📏",
+        "en": "I Measure",
+        "zh": "我测量"
+       },
+       {
+        "icon": "🔒",
+        "en": "I keep the Same",
+        "zh": "我保持不变"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🍬",
+     "title": {
+      "en": "Example: Emma's sugar test",
+      "zh": "例子：Emma 的糖实验"
+     },
+     "points": [
+      {
+       "en": "Change: the temperature of the water. Measure: the time for sugar to dissolve. Same: mass of sugar, volume of water.",
+       "zh": "改变：水温。测量：糖溶解的时间。不变：糖的质量、水的体积。"
+      },
+      {
+       "en": "Evidence 证据 = results that show an idea is right: sugar dissolves faster in hot water.",
+       "zh": "证据 = 证明想法正确的结果：糖在热水里溶解得更快。"
+      }
+     ]
+    },
+    {
+     "icon": "👨‍🔬",
+     "title": {
+      "en": "Priestley or Lavoisier?",
+      "zh": "Priestley 还是 Lavoisier？"
+     },
+     "points": [
+      {
+       "en": "Priestley said: metals LOSE something to the air when they burn. Lavoisier said: metals GAIN something from the air.",
+       "zh": "Priestley 说：金属燃烧时失去东西给空气。Lavoisier 说：金属从空气中得到东西。"
+      },
+      {
+       "en": "Evidence: the mass goes UP after heating (2.4 g → 4.0 g). So Lavoisier is right. The metal gains oxygen.",
+       "zh": "证据：加热后质量增加（2.4 克 → 4.0 克）。所以 Lavoisier 对，金属得到了氧。"
+      }
+     ],
+     "visual": [
+      "Pick ONE side and give the evidence.",
+      "选一边，并说出证据。"
+     ]
+    },
+    {
+     "icon": "📊",
+     "title": {
+      "en": "Results table 结果记录表",
+      "zh": "结果记录表"
+     },
+     "points": [
+      {
+       "en": "First column = what you change. Put units (g) in the headings.",
+       "zh": "第一列 = 你改变的东西。表头写单位 (g)。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "metal | mass before (g) | mass after (g) | change in mass (g)",
+       "zh": "金属 | 加热前质量 (g) | 加热后质量 (g) | 质量变化 (g)"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in A8.",
+    "zh": "我现在能解释 A8 的关键词。"
+   }
+  },
+  {
+   "code": "A9",
+   "part": "A",
+   "title": {
+    "en": "Separating Mixtures",
+    "zh": "分离混合物"
+   },
+   "slides": [],
+   "canNow": {
+    "en": "I can now explain the key words in A9.",
+    "zh": "我现在能解释 A9 的关键词。"
+   }
+  },
+  {
+   "code": "B1",
+   "part": "B",
+   "title": {
+    "en": "Waves: The Basics",
+    "zh": "波的基础知识"
+   },
+   "slides": [
+    {
+     "icon": "🌊",
+     "title": {
+      "en": "What is a wave?",
+      "zh": "什么是波？"
+     },
+     "visual": {
+      "type": "stadium",
+      "caption": {
+       "en": "A stadium wave: each person only stands up and sits down, but the wave travels all the way along!",
+       "zh": "体育场人浪：每个人只是站起来再坐下，但“浪”一直往前走！"
+      }
+     },
+     "points": [
+      {
+       "en": "A wave is a disturbance that transfers ENERGY from one place to another.",
+       "zh": "波是一种扰动，把能量从一个地方传到另一个地方。"
+      },
+      {
+       "en": "The wave moves along, but the stuff it travels through stays in the same place.",
+       "zh": "波向前走，但它经过的东西留在原地。"
+      }
+     ],
+     "remember": {
+      "en": "Waves move energy, not matter.",
+      "zh": "波传递的是能量，不是物质。"
+     }
+    },
+    {
+     "icon": "〰️",
+     "title": {
+      "en": "Transverse waves",
+      "zh": "横波"
+     },
+     "visual": {
+      "type": "wave",
+      "animate": true,
+      "dot": true,
+      "amp": 60,
+      "cycles": 2
+     },
+     "points": [
+      {
+       "en": "In a transverse wave, the vibrations are PERPENDICULAR (at 90°) to the direction the wave travels.",
+       "zh": "横波的振动方向和传播方向垂直（成 90°）。"
+      },
+      {
+       "en": "Watch the orange dot: it only goes up and down, while the wave moves sideways.",
+       "zh": "看橙色的点：它只是上下动，而波在横着走。"
+      },
+      {
+       "en": "Examples: light, all electromagnetic waves, ripples on water.",
+       "zh": "例子：光、所有电磁波、水面的波纹。"
+      }
+     ]
+    },
+    {
+     "icon": "📏",
+     "title": {
+      "en": "The parts of a wave",
+      "zh": "波的各部分"
+     },
+     "visual": {
+      "type": "wave",
+      "labels": true,
+      "amp": 75,
+      "cycles": 2
+     },
+     "points": [
+      {
+       "en": "Crest = the top. Trough = the bottom. The dashed line is the rest position.",
+       "zh": "波峰 = 最高点。波谷 = 最低点。虚线是平衡位置。"
+      },
+      {
+       "en": "Amplitude = from the REST position to the crest.",
+       "zh": "振幅 = 从平衡位置到波峰。"
+      },
+      {
+       "en": "Wavelength = from one crest to the next crest.",
+       "zh": "波长 = 从一个波峰到下一个波峰。"
+      }
+     ],
+     "remember": {
+      "en": "Amplitude is NOT crest to trough. It is rest position to crest.",
+      "zh": "振幅不是波峰到波谷，而是平衡位置到波峰。"
+     }
+    },
+    {
+     "icon": "🔉",
+     "title": {
+      "en": "Longitudinal waves",
+      "zh": "纵波"
+     },
+     "visual": {
+      "type": "longitudinal"
+     },
+     "points": [
+      {
+       "en": "In a longitudinal wave, the vibrations are PARALLEL to the direction the wave travels.",
+       "zh": "纵波的振动方向和传播方向平行。"
+      },
+      {
+       "en": "Compression = particles squashed close together. Rarefaction = particles spread further apart.",
+       "zh": "密部 = 粒子挤得很近。疏部 = 粒子分得更开。"
+      },
+      {
+       "en": "Sound is a longitudinal wave. Think of pushing and pulling a slinky.",
+       "zh": "声音是纵波。想一想推拉弹簧玩具。"
+      }
+     ]
+    },
+    {
+     "icon": "⏱️",
+     "title": {
+      "en": "Frequency and hertz",
+      "zh": "频率和赫兹"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "frequency = number of waves ÷ time",
+       "zh": "频率 = 波的数量 ÷ 时间"
+      },
+      "example": {
+       "en": "50 waves in 2 seconds: 50 ÷ 2 = 25 Hz",
+       "zh": "2 秒内 50 个波：50 ÷ 2 = 25 赫兹"
+      }
+     },
+     "points": [
+      {
+       "en": "Frequency = the number of complete waves passing a point each second.",
+       "zh": "频率 = 每秒通过某一点的完整波的数量。"
+      },
+      {
+       "en": "It is measured in hertz (Hz). 1 Hz = one wave per second.",
+       "zh": "单位是赫兹 (Hz)。1 赫兹 = 每秒 1 个波。"
+      }
+     ]
+    },
+    {
+     "icon": "🚀",
+     "title": {
+      "en": "Medium and vacuum",
+      "zh": "介质和真空"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🗣️💨",
+        "en": "Sound needs a medium: air, water or a solid.",
+        "zh": "声音需要介质：空气、水或固体。"
+       },
+       {
+        "icon": "🚀🔇",
+        "en": "Space is a vacuum: no particles, so no sound.",
+        "zh": "太空是真空：没有粒子，所以没有声音。"
+       },
+       {
+        "icon": "☀️➡️🌍",
+        "en": "Light CAN travel through a vacuum.",
+        "zh": "光可以在真空中传播。"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Medium = a substance or material that a wave travels through.",
+       "zh": "介质 = 波传播时经过的物质。"
+      },
+      {
+       "en": "Vacuum = a space containing no particles.",
+       "zh": "真空 = 没有任何粒子的空间。"
+      },
+      {
+       "en": "Sound in air: about 340 m/s. In water: about 1500 m/s. Light: about 300,000 km/s!",
+       "zh": "声音在空气中约 340 米/秒，在水中约 1500 米/秒。光约 300,000 公里/秒！"
+      }
+     ]
+    },
+    {
+     "icon": "🌊",
+     "title": {
+      "en": "wave  波",
+      "zh": "波  wave"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A disturbance that transfers energy from one place to another.",
+       "zh": "把能量从一个地方传到另一个地方的扰动。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "〰️",
+     "title": {
+      "en": "transverse wave  横波",
+      "zh": "横波  transverse wave"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A wave in which vibrations are perpendicular to the direction of travel.",
+       "zh": "振动方向和传播方向垂直的波。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔉",
+     "title": {
+      "en": "longitudinal wave  纵波",
+      "zh": "纵波  longitudinal wave"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A wave in which vibrations are parallel to the direction of travel.",
+       "zh": "振动方向和传播方向平行的波。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "📏",
+     "title": {
+      "en": "amplitude  振幅",
+      "zh": "振幅  amplitude"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The maximum distance a point on a wave moves from its resting position.",
+       "zh": "波上一点离开静止位置的最大距离。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "↔️",
+     "title": {
+      "en": "wavelength  波长",
+      "zh": "波长  wavelength"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The distance between two corresponding points on consecutive waves, such as crest to crest.",
+       "zh": "相邻两个波上对应点之间的距离，比如波峰到波峰。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "⏱️",
+     "title": {
+      "en": "frequency  频率",
+      "zh": "频率  frequency"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The number of complete waves passing a point each second.",
+       "zh": "每秒经过一点的完整波的数量。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔢",
+     "title": {
+      "en": "hertz (Hz)  赫兹",
+      "zh": "赫兹  hertz (Hz)"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The unit used to measure frequency. One hertz equals one wave per second.",
+       "zh": "频率的单位。1赫兹 = 每秒1个波。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🪨",
+     "title": {
+      "en": "medium  介质",
+      "zh": "介质  medium"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A substance or material through which a wave travels.",
+       "zh": "波在其中传播的物质或材料。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "📳",
+     "title": {
+      "en": "vibration  振动",
+      "zh": "振动  vibration"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A repeated movement backwards and forwards around a resting position.",
+       "zh": "在静止位置附近来回重复的运动。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🚀",
+     "title": {
+      "en": "vacuum  真空",
+      "zh": "真空  vacuum"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A space containing no particles.",
+       "zh": "没有任何粒子的空间。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "⏩",
+     "title": {
+      "en": "compression  密部",
+      "zh": "密部  compression"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A region of a longitudinal wave where particles are close together.",
+       "zh": "纵波中粒子靠得很近的区域。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "⏪",
+     "title": {
+      "en": "rarefaction  疏部",
+      "zh": "疏部  rarefaction"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A region of a longitudinal wave where particles are spread further apart.",
+       "zh": "纵波中粒子分得较开的区域。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B1.",
+    "zh": "我现在能解释 B1 的关键词。"
+   }
+  },
+  {
+   "code": "B2",
+   "part": "B",
+   "title": {
+    "en": "Sound: Pitch and Loudness",
+    "zh": "声音：音调和响度"
+   },
+   "slides": [
+    {
+     "icon": "🎵",
+     "title": {
+      "en": "Pitch = frequency",
+      "zh": "音调 = 频率"
+     },
+     "visual": {
+      "type": "compare",
+      "items": [
+       {
+        "icon": "🐻",
+        "label": {
+         "en": "Low pitch: few waves each second",
+         "zh": "低音调：每秒波少"
+        },
+        "amp": 40,
+        "cycles": 2,
+        "color": "#1c7ed6",
+        "sound": {
+         "hz": 180,
+         "vol": 0.5
+        }
+       },
+       {
+        "icon": "🐦",
+        "label": {
+         "en": "High pitch: many waves each second",
+         "zh": "高音调：每秒波多"
+        },
+        "amp": 40,
+        "cycles": 7,
+        "color": "#c2255c",
+        "sound": {
+         "hz": 900,
+         "vol": 0.5
+        }
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Pitch = how high or low a sound seems. It depends on FREQUENCY only.",
+       "zh": "音调 = 声音听起来有多高或多低，只由频率决定。"
+      },
+      {
+       "en": "More waves squeezed in = higher frequency = higher pitch.",
+       "zh": "波越密 = 频率越高 = 音调越高。"
+      }
+     ]
+    },
+    {
+     "icon": "📢",
+     "title": {
+      "en": "Loudness = amplitude",
+      "zh": "响度 = 振幅"
+     },
+     "visual": {
+      "type": "compare",
+      "items": [
+       {
+        "icon": "🤫",
+        "label": {
+         "en": "Quiet: small amplitude",
+         "zh": "小声：振幅小"
+        },
+        "amp": 15,
+        "cycles": 4,
+        "color": "#2f9e44",
+        "sound": {
+         "hz": 440,
+         "vol": 0.12
+        }
+       },
+       {
+        "icon": "📣",
+        "label": {
+         "en": "Loud: big amplitude",
+         "zh": "大声：振幅大"
+        },
+        "amp": 58,
+        "cycles": 4,
+        "color": "#e8590c",
+        "sound": {
+         "hz": 440,
+         "vol": 0.9
+        }
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Loudness (volume) = how loud or quiet a sound seems. It depends on AMPLITUDE.",
+       "zh": "响度 = 声音听起来有多大或多小，由振幅决定。"
+      },
+      {
+       "en": "Taller wave = bigger amplitude = louder sound. Sound level is measured in decibels (dB).",
+       "zh": "波越高 = 振幅越大 = 声音越大。声音大小的单位是分贝 (dB)。"
+      }
+     ],
+     "remember": {
+      "en": "Pitch = frequency ONLY. Loudness = amplitude ONLY.",
+      "zh": "音调只看频率，响度只看振幅。"
+     }
+    },
+    {
+     "icon": "🎛️",
+     "title": {
+      "en": "Try it yourself!",
+      "zh": "自己试一试！"
+     },
+     "visual": {
+      "type": "explorer"
+     },
+     "points": [
+      {
+       "en": "Move the amplitude slider: the wave gets taller and the sound gets louder.",
+       "zh": "拖动振幅滑块：波变高，声音变大。"
+      },
+      {
+       "en": "Move the frequency slider: more waves and a higher pitch.",
+       "zh": "拖动频率滑块：波变多，音调变高。"
+      }
+     ]
+    },
+    {
+     "icon": "🦇",
+     "title": {
+      "en": "What can we hear?",
+      "zh": "我们能听到什么？"
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🐘",
+        "en": "Infrasound: below 20 Hz",
+        "zh": "次声波：低于 20 赫兹"
+       },
+       {
+        "icon": "👂",
+        "en": "Humans hear 20 Hz to 20,000 Hz",
+        "zh": "人类能听到 20 到 20,000 赫兹"
+       },
+       {
+        "icon": "🦇🐬",
+        "en": "Ultrasound: above 20,000 Hz",
+        "zh": "超声波：高于 20,000 赫兹"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "Audible range = the range of frequencies an animal can hear.",
+       "zh": "可听范围 = 动物能听到的频率范围。"
+      },
+      {
+       "en": "Echo = a sound heard again after it reflects off a surface. Bats and dolphins use echolocation; ships use sonar.",
+       "zh": "回声 = 声音反射后再次被听到。蝙蝠和海豚用回声定位，船用声呐。"
+      }
+     ]
+    },
+    {
+     "icon": "🎵",
+     "title": {
+      "en": "pitch  音调",
+      "zh": "音调  pitch"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "How high or low a sound seems. It depends on the frequency of the sound wave.",
+       "zh": "声音听起来有多高或多低，由声波的频率决定。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔑",
+     "title": {
+      "en": "volume / loudness  响度（音量）",
+      "zh": "响度（音量）  volume / loudness"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "How loud or quiet a sound seems. It is related to the amplitude and intensity of the sound wave.",
+       "zh": "声音听起来有多大或多小，和声波的振幅和强度有关。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔊",
+     "title": {
+      "en": "decibel (dB)  分贝",
+      "zh": "分贝  decibel (dB)"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The unit used to measure sound level. The decibel scale is logarithmic.",
+       "zh": "测量声音大小的单位。分贝刻度是对数刻度。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "👂",
+     "title": {
+      "en": "audible range  可听范围",
+      "zh": "可听范围  audible range"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The range of sound frequencies that an animal can hear. For humans, this is approximately 20 Hz to 20,000 Hz.",
+       "zh": "动物能听到的声音频率范围。人类大约是20赫兹到20,000赫兹。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🦇",
+     "title": {
+      "en": "ultrasound  超声波",
+      "zh": "超声波  ultrasound"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Sound with a frequency higher than 20,000 Hz, above the usual human hearing range.",
+       "zh": "频率高于20,000赫兹的声音，人耳听不到。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🐘",
+     "title": {
+      "en": "infrasound  次声波",
+      "zh": "次声波  infrasound"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Sound with a frequency lower than 20 Hz, below the usual human hearing range.",
+       "zh": "频率低于20赫兹的声音，人耳听不到。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🗣️",
+     "title": {
+      "en": "echo  回声",
+      "zh": "回声  echo"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A sound heard again after it has reflected off a surface.",
+       "zh": "声音碰到表面反射回来后再次被听到。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🦇",
+     "title": {
+      "en": "echolocation  回声定位",
+      "zh": "回声定位  echolocation"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The use of reflected sound waves to detect objects and determine their position or distance.",
+       "zh": "利用反射的声波发现物体并判断它的位置或距离。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🚢",
+     "title": {
+      "en": "sonar  声呐",
+      "zh": "声呐  sonar"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A system that uses reflected sound waves to detect objects and measure distances, commonly underwater.",
+       "zh": "利用反射声波探测物体、测量距离的系统，常用在水下。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B2.",
+    "zh": "我现在能解释 B2 的关键词。"
+   }
+  },
+  {
+   "code": "B3",
+   "part": "B",
+   "title": {
+    "en": "The Ear and Hearing",
+    "zh": "耳朵和听觉"
+   },
+   "slides": [
+    {
+     "icon": "👂",
+     "title": {
+      "en": "How we hear",
+      "zh": "我们怎样听到声音"
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "👂",
+        "en": "pinna",
+        "zh": "耳廓"
+       },
+       {
+        "icon": "🕳️",
+        "en": "auditory canal",
+        "zh": "外耳道"
+       },
+       {
+        "icon": "🥁",
+        "en": "eardrum",
+        "zh": "鼓膜"
+       },
+       {
+        "icon": "🦴",
+        "en": "ossicles",
+        "zh": "听小骨"
+       },
+       {
+        "icon": "🐌",
+        "en": "cochlea",
+        "zh": "耳蜗"
+       },
+       {
+        "icon": "⚡",
+        "en": "auditory nerve",
+        "zh": "听神经"
+       },
+       {
+        "icon": "🧠",
+        "en": "brain",
+        "zh": "大脑"
+       }
+      ]
+     },
+     "points": [
+      {
+       "en": "The pinna collects sound. The eardrum vibrates. The ossicles (3 tiny bones) make the vibrations bigger.",
+       "zh": "耳廓收集声音，鼓膜振动，听小骨（3 块小骨头）把振动放大。"
+      },
+      {
+       "en": "The cochlea turns vibrations into electrical signals. The auditory nerve carries them to the brain.",
+       "zh": "耳蜗把振动变成电信号，听神经把信号传到大脑。"
+      },
+      {
+       "en": "Very loud sounds can damage the tiny hair cells in the cochlea forever.",
+       "zh": "很大的声音会永久损伤耳蜗里的毛细胞。"
+      }
+     ]
+    },
+    {
+     "icon": "👂",
+     "title": {
+      "en": "pinna  耳廓",
+      "zh": "耳廓  pinna"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The visible outer part of the ear that collects sound waves.",
+       "zh": "耳朵外面能看到的部分，收集声波。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🕳️",
+     "title": {
+      "en": "auditory canal  外耳道",
+      "zh": "外耳道  auditory canal"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The tube that carries sound waves from the pinna to the eardrum.",
+       "zh": "把声波从耳廓送到鼓膜的管道。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🥁",
+     "title": {
+      "en": "eardrum  鼓膜",
+      "zh": "鼓膜  eardrum"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A thin membrane that vibrates when sound waves reach it.",
+       "zh": "声波到达时会振动的一层薄膜。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🦴",
+     "title": {
+      "en": "ossicles  听小骨",
+      "zh": "听小骨  ossicles"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Three tiny bones in the middle ear that transmit and amplify vibrations from the eardrum to the inner ear.",
+       "zh": "中耳里的三块小骨头，把鼓膜的振动放大并传到内耳。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🐌",
+     "title": {
+      "en": "cochlea  耳蜗",
+      "zh": "耳蜗  cochlea"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A spiral-shaped structure in the inner ear that converts vibrations into electrical signals.",
+       "zh": "内耳里螺旋形的结构，把振动变成电信号。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "⚡",
+     "title": {
+      "en": "auditory nerve  听神经",
+      "zh": "听神经  auditory nerve"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The nerve that carries electrical signals from the cochlea to the brain.",
+       "zh": "把电信号从耳蜗送到大脑的神经。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B3.",
+    "zh": "我现在能解释 B3 的关键词。"
+   }
+  },
+  {
+   "code": "B4",
+   "part": "B",
+   "title": {
+    "en": "Light: Sources and Materials",
+    "zh": "光：光源和材料"
+   },
+   "slides": [
+    {
+     "icon": "🪟",
+     "title": {
+      "en": "transparent  透明的",
+      "zh": "透明的  transparent"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A material that allows light to pass through clearly, so objects can be seen through it.",
+       "zh": "光能清楚地穿过的材料，可以看清后面的东西。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🌫️",
+     "title": {
+      "en": "translucent  半透明的",
+      "zh": "半透明的  translucent"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A material that allows light through but scatters it, so objects cannot be seen clearly through it.",
+       "zh": "光能穿过但被散开的材料，看不清后面的东西。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🧱",
+     "title": {
+      "en": "opaque  不透明的",
+      "zh": "不透明的  opaque"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A material that does not allow light to pass through it.",
+       "zh": "光不能穿过的材料。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "☀️",
+     "title": {
+      "en": "luminous  发光的",
+      "zh": "发光的  luminous"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "An object that produces its own light.",
+       "zh": "自己会发光的物体。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🌙",
+     "title": {
+      "en": "non-luminous  不发光的",
+      "zh": "不发光的  non-luminous"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "An object that does not produce its own light, but can be seen by light reflected off it.",
+       "zh": "自己不发光，但能反射光而被看见的物体。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "➡️",
+     "title": {
+      "en": "light ray  光线",
+      "zh": "光线  light ray"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A straight line used to show the direction in which light travels.",
+       "zh": "表示光传播方向的直线。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "➡️",
+     "title": {
+      "en": "transmit  透射（传播）",
+      "zh": "透射（传播）  transmit"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "To allow something, such as light, to pass through a material.",
+       "zh": "让光等东西穿过材料。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🧽",
+     "title": {
+      "en": "absorb  吸收",
+      "zh": "吸收  absorb"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "To take in energy, such as light, rather than reflecting or transmitting it.",
+       "zh": "把光等能量吸进去，而不是反射或透射。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B4.",
+    "zh": "我现在能解释 B4 的关键词。"
+   }
+  },
+  {
+   "code": "B5",
+   "part": "B",
+   "title": {
+    "en": "Reflection",
+    "zh": "反射"
+   },
+   "slides": [
+    {
+     "icon": "🪞",
+     "title": {
+      "en": "plane mirror  平面镜",
+      "zh": "平面镜  plane mirror"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A flat mirror with a smooth, reflective surface.",
+       "zh": "表面平滑、能反射的平的镜子。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔄",
+     "title": {
+      "en": "laterally inverted  左右颠倒",
+      "zh": "左右颠倒  laterally inverted"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "When an image appears reversed from left to right, as in a plane mirror.",
+       "zh": "像左右反过来，就像在平面镜里一样。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🪞",
+     "title": {
+      "en": "reflection  反射",
+      "zh": "反射  reflection"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The change in direction of light when it bounces off a surface.",
+       "zh": "光碰到表面弹回来时方向的改变。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "↘️",
+     "title": {
+      "en": "incident ray  入射光线",
+      "zh": "入射光线  incident ray"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The ray of light travelling towards a surface before reflection or refraction.",
+       "zh": "反射或折射之前射向表面的光线。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "↗️",
+     "title": {
+      "en": "reflected ray  反射光线",
+      "zh": "反射光线  reflected ray"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The ray of light that bounces off a surface.",
+       "zh": "从表面弹回来的光线。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "📐",
+     "title": {
+      "en": "angle of incidence  入射角",
+      "zh": "入射角  angle of incidence"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The angle between the incident ray and the normal.",
+       "zh": "入射光线和法线之间的角。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "📐",
+     "title": {
+      "en": "angle of reflection  反射角",
+      "zh": "反射角  angle of reflection"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The angle between the reflected ray and the normal.",
+       "zh": "反射光线和法线之间的角。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "⊥",
+     "title": {
+      "en": "normal  法线",
+      "zh": "法线  normal"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "An imaginary line drawn at 90° to a surface at the point where a ray hits it.",
+       "zh": "在光线射到的点上，与表面成90°的假想线。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B5.",
+    "zh": "我现在能解释 B5 的关键词。"
+   }
+  },
+  {
+   "code": "B6",
+   "part": "B",
+   "title": {
+    "en": "Refraction",
+    "zh": "折射"
+   },
+   "slides": [
+    {
+     "icon": "🥤",
+     "title": {
+      "en": "refraction  折射",
+      "zh": "折射  refraction"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The change in direction of light when it passes between different materials because its speed changes.",
+       "zh": "光从一种材料进入另一种材料时，因为速度改变而方向改变。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B6.",
+    "zh": "我现在能解释 B6 的关键词。"
+   }
+  },
+  {
+   "code": "B7",
+   "part": "B",
+   "title": {
+    "en": "Colour",
+    "zh": "颜色"
+   },
+   "slides": [
+    {
+     "icon": "🔺",
+     "title": {
+      "en": "prism  棱镜",
+      "zh": "棱镜  prism"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A transparent object, usually made of glass or plastic, that can refract and disperse light.",
+       "zh": "透明物体，通常是玻璃或塑料做的，能折射和分散光。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🌈",
+     "title": {
+      "en": "dispersion  色散",
+      "zh": "色散  dispersion"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The separation of white light into its different colours.",
+       "zh": "白光分成不同颜色。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🌈",
+     "title": {
+      "en": "spectrum  光谱",
+      "zh": "光谱  spectrum"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A range of different colours or wavelengths, such as the visible spectrum.",
+       "zh": "一系列不同的颜色或波长，比如可见光谱。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔴",
+     "title": {
+      "en": "primary colour  原色",
+      "zh": "原色  primary colour"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A colour of light that can be combined with other primary colours to produce a range of colours. For light, these are red, green and blue.",
+       "zh": "可以和其他原色混合出很多颜色的光的颜色。光的三原色：红、绿、蓝。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🟡",
+     "title": {
+      "en": "secondary colour  二次色（间色）",
+      "zh": "二次色（间色）  secondary colour"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A colour produced by mixing two primary colours of light. These are cyan, magenta and yellow.",
+       "zh": "两种原色光混合产生的颜色：青、品红、黄。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B7.",
+    "zh": "我现在能解释 B7 的关键词。"
+   }
+  },
+  {
+   "code": "B8",
+   "part": "B",
+   "title": {
+    "en": "The Electromagnetic Spectrum",
+    "zh": "电磁波谱"
+   },
+   "slides": [
+    {
+     "icon": "📡",
+     "title": {
+      "en": "electromagnetic wave  电磁波",
+      "zh": "电磁波  electromagnetic wave"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A transverse wave that can travel through a vacuum without needing a medium.",
+       "zh": "一种横波，不需要介质，能在真空中传播。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🌈",
+     "title": {
+      "en": "electromagnetic spectrum  电磁波谱",
+      "zh": "电磁波谱  electromagnetic spectrum"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The complete range of electromagnetic waves, arranged according to their wavelength or frequency.",
+       "zh": "按波长或频率排列的全部电磁波。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "📻",
+     "title": {
+      "en": "radio wave  无线电波",
+      "zh": "无线电波  radio wave"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "A low-frequency electromagnetic wave used for radio and television communication.",
+       "zh": "低频电磁波，用于广播和电视通信。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "♨️",
+     "title": {
+      "en": "microwave  微波",
+      "zh": "微波  microwave"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "An electromagnetic wave used in cooking, radar and satellite communication.",
+       "zh": "用于烹饪、雷达和卫星通信的电磁波。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🌡️",
+     "title": {
+      "en": "infrared  红外线",
+      "zh": "红外线  infrared"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Electromagnetic radiation associated with heat, used in thermal imaging and remote controls.",
+       "zh": "和热有关的电磁辐射，用于热成像和遥控器。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "👁️",
+     "title": {
+      "en": "visible light  可见光",
+      "zh": "可见光  visible light"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The part of the electromagnetic spectrum that can be detected by the human eye.",
+       "zh": "人眼能看到的那部分电磁波谱。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔑",
+     "title": {
+      "en": "ultraviolet (UV)  紫外线",
+      "zh": "紫外线  ultraviolet (UV)"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Electromagnetic radiation with a higher frequency than visible light, which can cause sunburn and damage skin cells.",
+       "zh": "频率比可见光高的电磁辐射，会晒伤皮肤、损伤皮肤细胞。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "🔑",
+     "title": {
+      "en": "X-ray  X射线",
+      "zh": "X射线  X-ray"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "High-frequency electromagnetic radiation that can pass through soft tissue and is used to produce medical images.",
+       "zh": "高频电磁辐射，能穿过软组织，用来拍医学影像。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "☢️",
+     "title": {
+      "en": "gamma ray  伽马射线",
+      "zh": "伽马射线  gamma ray"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Very high-frequency electromagnetic radiation that can be produced by radioactive materials and used in cancer treatment.",
+       "zh": "频率非常高的电磁辐射，可由放射性物质产生，用于治疗癌症。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    },
+    {
+     "icon": "⚠️",
+     "title": {
+      "en": "ionising radiation  电离辐射",
+      "zh": "电离辐射  ionising radiation"
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Radiation with enough energy to remove electrons from atoms, potentially damaging cells and DNA.",
+       "zh": "能量足以把电子从原子中打出来的辐射，可能损伤细胞和DNA。"
+      }
+     },
+     "points": [
+      {
+       "en": "This is your school's definition. Learn it word for word.",
+       "zh": "这是学校的定义，要一字不差地记住。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in B8.",
+    "zh": "我现在能解释 B8 的关键词。"
+   }
+  }
+ ]
+}

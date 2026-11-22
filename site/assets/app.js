@@ -229,7 +229,7 @@
   }
 
   /* ---------------- frame + router ---------------- */
-  var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮', lesson: '📽️', fillblank: '✍️', keypoints: '🔑' };
+  var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮', lesson: '📽️', fillblank: '✍️', keypoints: '🔑', hwquiz: '🏠' };
 
   function frame() {
     document.body.appendChild(h('header', { class: 'topbar' },
@@ -264,12 +264,13 @@
     if (parts[0] === 'w' && parts[1]) {
       return loadWeek(parts[1]).then(function (w) {
         if (parts[2] === 'reviews') renderReviews(w);
-        else if (parts[2] === 'review') renderReview(w, parts[3], parts[4]);
+        else if (parts[2] === 'review') renderReview(w, parts[3]);
         else if (parts[2] === 'day') renderDay(w, parts[3]);
         else if (parts[2]) renderActivity(w, parts[2]); else renderWeek(w, false);
       }).catch(renderError);
     }
     if (parts[0] === 'log') return renderLog();
+    if (parts[0] === 'book') return renderBook(parts[1]);
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
     renderHome();
@@ -321,7 +322,9 @@
         h('a', { class: 'tile', href: '#/bank/spelling' }, h('span', { class: 'ico' }, '🔤'), h('span', null, T('spellingBank'))),
         h('a', { class: 'tile', href: '#/bank/cards' }, h('span', { class: 'ico' }, '🃏'), h('span', null, T('cardsBank'))),
         S.student.homeworkLog ? h('a', { class: 'tile', href: '#/log' }, h('span', { class: 'ico' }, '📒'), h('span', null, T('hwLog'))) : null));
-    show(thisWeek, anytime, past);
+    var bookBtn = S.student.mainBook ? h('a', { class: 'feature book', href: '#/book' }, h('span', { class: 'fico' }, '📖'),
+      h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Main Book', '主课本')), h('span', { class: 'fsub' }, L('Learn every key word, step by step', '一步一步学会每个关键词')))) : null;
+    show(bookBtn, thisWeek, anytime, past);
   }
   function renderWeek(w) { show(backLink(), weekBlock(w)); }
 
@@ -843,11 +846,9 @@
   function featureButtons(w) {
     var out = [];
     if (w.reviews && w.reviews.length) {
-      var t = { right: 0, total: 0 };
-      w.reviews.forEach(function (r) { var c = reviewCount(r); t.right += c.right; t.total += c.total; });
       out.push(h('a', { class: 'feature review', href: '#/w/' + w.week + '/reviews' },
         h('span', { class: 'fico', 'aria-hidden': 'true' }, '📋'),
-        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, T('hwReview')), h('span', { class: 'fsub' }, t.total ? starLine(t) : ''))));
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, T('hwReview')), h('span', { class: 'fsub' }, L('Go through each question together', '一题一题一起看')))));
     }
     (w.days || []).slice().sort(function (a, b) { return a.date > b.date ? 1 : -1; }).forEach(function (d) {
       var hw = d.kind === 'homework';
@@ -883,27 +884,29 @@
       start,
       h('div', { class: 'tiles' }, ids.slice(start ? 1 : 0).map(function (id) { return actTile(w, id); })));
   }
+  function selfScore(r) { return lsGet(key('rv_' + r.id), null); }
   function logTable(rows) {
     return h('table', { class: 'log' },
-      h('tr', null, h('th', null, L('Homework', '作业')), h('th', null, L('Status', '状态')), h('th', null, L('Stars', '星星'))),
+      h('tr', null, h('th', null, L('Homework', '作业')), h('th', null, L('Status', '状态')), h('th', null, L('Reviewed together', '一起讲评'))),
       rows.map(function (x) {
-        var c = reviewCount(x.r);
+        var sc = selfScore(x.r);
         return h('tr', null,
           h('td', null, h('a', { href: '#/w/' + x.week + '/review/' + x.r.id }, dayLabel(x.r.date)), h('div', { class: 'small muted' }, tx(x.r.title))),
           h('td', null, reviewStatus(x.r)),
-          h('td', null, c.total ? '⭐ ' + c.right + ' / ' + c.total : ''));
+          h('td', null, sc ? '✅ ' + sc.right + ' / ' + sc.total : L('not yet', '还没有')));
       }));
   }
   function renderReviews(w) {
     var rows = (w.reviews || []).map(function (r) { return { r: r, week: w.week }; });
     show(backLink(), h('h1', null, '📋 ' + T('hwReview')),
-      h('div', { class: 'box teach' }, bi({ en: 'Open a homework day. See your correct answers, then fix the wrong ones with Roy. Every mistake is a chance to learn!', zh: '打开一天的作业。先看做对的，再和 Roy 老师一起改错。每个错误都是学习的机会！' })),
+      h('div', { class: 'box teach' }, bi({ en: 'Open a homework day and go through it with Roy, one question at a time. Answer first, then check the answer and score yourself.', zh: '打开一天的作业，和 Roy 老师一题一题地看。先自己回答，再看答案，然后给自己打分。' })),
       h('div', { class: 'card' }, logTable(rows)),
       rows.map(function (x) {
-        var c = reviewCount(x.r);
+        var sc = selfScore(x.r), n = reviewItems(x.r).length;
         return h('a', { class: 'feature review', href: '#/w/' + w.week + '/review/' + x.r.id },
           h('span', { class: 'fico' }, '📝'),
-          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, dayLabel(x.r.date) + ': ' + tx(x.r.title)), h('span', { class: 'fsub' }, c.total ? starLine(c) : reviewStatus(x.r))));
+          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, dayLabel(x.r.date) + ': ' + tx(x.r.title)),
+            h('span', { class: 'fsub' }, n + ' ' + L('questions', '道题') + (sc ? '  ·  ✅ ' + sc.right + ' / ' + sc.total : ''))));
       }));
   }
   function renderLog() {
@@ -912,54 +915,122 @@
       var rows = [];
       weeks.forEach(function (w) { (w.reviews || []).forEach(function (r) { rows.push({ r: r, week: w.week }); }); });
       rows.sort(function (a, b) { return a.r.date < b.r.date ? 1 : -1; });
-      var t = { right: 0, total: 0 };
-      rows.forEach(function (x) { var c = reviewCount(x.r); t.right += c.right; t.total += c.total; });
       show(backLink(), h('h1', null, '📒 ' + T('hwLog')),
-        h('div', { class: 'card center' }, h('div', { class: 'bigscore' }, '⭐ ' + t.right), h('p', null, L('stars collected so far', '目前一共得到的星星'))),
-        h('div', { class: 'card' }, rows.length ? logTable(rows) : h('p', null, L('No homework checked yet.', '还没有批改的作业。'))));
+        h('div', { class: 'card' }, rows.length ? logTable(rows) : h('p', null, L('No homework yet.', '还没有作业。'))));
     }).catch(renderError);
   }
-  function renderReview(w, id, mode) {
+  /* Homework Review: go through each question together. Answer first, then reveal the answer and why, then score yourself. */
+  function renderReview(w, id) {
     var r = (w.reviews || []).filter(function (x) { return x.id === id; })[0];
     if (!r) return renderError();
-    var c = reviewCount(r), base = '#/w/' + w.week + '/review/' + r.id;
-    var head = [backLink(mode ? base : '#/w/' + w.week + '/reviews'),
-      h('h1', null, '📝 ' + dayLabel(r.date)), h('h2', null, tx(r.title))];
-    var buttons = h('div', { class: 'feature-row' },
-      h('a', { class: 'feature right' + (mode === 'right' ? ' on' : ''), href: base + '/right' }, h('span', { class: 'fico' }, '✅'),
-        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Correct answers', '做对的题')), h('span', { class: 'fsub' }, c.right + ' ' + L('answers', '题')))),
-      h('a', { class: 'feature wrong' + (mode === 'wrong' ? ' on' : ''), href: base + '/wrong' }, h('span', { class: 'fico' }, '🔧'),
-        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Wrong answers', '做错的题')), h('span', { class: 'fsub' }, c.wrong + ' ' + L('to fix together', '题，一起改')))));
-    if (!mode) {
-      var practice = (r.practice || []).map(function (pid) { return actTile(w, pid); }).filter(Boolean);
-      return show(head,
-        h('div', { class: 'card center' }, h('div', { class: 'bigscore' }, '⭐ ' + c.right), h('p', { class: 'praise' }, L('stars out of ' + c.total + '. Well done for finishing!', '颗星（一共 ' + c.total + ' 颗）。完成作业，真棒！')),
-          r.message ? h('div', { class: 'box teach', style: 'text-align:left' }, bi(r.message)) : null),
-        buttons,
-        r.missing ? h('div', { class: 'box hint' }, bi(r.missing)) : null,
-        practice.length ? [h('h2', { class: 'section-title' }, '🔁 ' + L('Practise again', '再练一练')), h('div', { class: 'tiles' }, practice)] : null);
-    }
-    var list = reviewItems(r).filter(function (x) { return mode === 'right' ? x.it.ok : !x.it.ok; });
-    var lastPage = null, out = [];
-    list.forEach(function (x) {
-      if (x.page !== lastPage) { out.push(h('h3', { class: 'section-title' }, '📄 ' + tx(x.page.title))); lastPage = x.page; }
-      var it = x.it;
-      out.push(h('div', { class: 'card review-item' },
-        h('div', { class: 'muted small' }, it.n || ''),
+    var items = reviewItems(r), i = 0, marks = {}, t0 = Date.now();
+    var head = [backLink('#/w/' + w.week + '/reviews'), h('h1', null, '📝 ' + dayLabel(r.date)), h('h2', null, tx(r.title))];
+    var area = h('div');
+    show(head, r.message ? h('div', { class: 'box teach' }, bi(r.message)) : null, area);
+    function one() {
+      clear(area);
+      var x = items[i], it = x.it, shown = false, picked = null;
+      var fb = h('div');
+      var opts = it.options ? it.options.map(function (o, k) {
+        return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { if (shown) return; picked = k; reveal(); } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(o)));
+      }) : null;
+      function reveal() {
+        shown = true; clear(fb);
+        var auto = opts && picked != null;
+        if (auto) {
+          var ok = picked === it.answer; marks[i] = ok;
+          opts.forEach(function (b, j) { b.disabled = true; b.classList.add(j === it.answer ? 'right' : j === picked ? 'picked-wrong' : 'faded'); });
+          add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite'))));
+        }
+        add(fb, h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Answer: ', '答案：')), rich(it.right)),
+          it.why ? h('div', { class: 'box teach' }, h('b', null, T('why') + ': '), bi(it.why, true)) : null,
+          it.whyWrong ? h('div', { class: 'box hint' }, h('b', null, '🤔 ' + L('Common mistake: ', '常见错误：')), bi(it.whyWrong, true)) : null);
+        if (!auto) add(fb, h('div', { class: 'row center' },
+          h('button', { class: 'btn big green', onclick: function () { marks[i] = true; go(1); } }, '✅ ' + L('I got it right', '我答对了')),
+          h('button', { class: 'btn big yellow', onclick: function () { marks[i] = false; go(1); } }, '🔁 ' + L('Not yet', '还没对'))));
+        else add(fb, h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { go(1); } }, i + 1 < items.length ? T('next') : T('finish'))));
+      }
+      add(area, h('div', { class: 'card' },
+        h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + items.length), h('span', { class: 'small' }, tx(x.page.title))),
+        h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / items.length) + '%' })),
+        it.n ? h('div', { class: 'muted small' }, it.n) : null,
         h('div', { class: 'box q' }, rich(it.q)),
-        mode === 'right' ? [
-          h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Your answer: ', '你的答案：')), rich(it.her || it.right)),
-          it.why ? h('div', { class: 'box teach' }, h('b', null, L('Why it is right: ', '为什么对：')), bi(it.why, true)) : null
-        ] : [
-          it.check ? h('div', { class: 'box hint' }, h('b', null, '👀 ' + L("Let's check this one together.", '这一题我们一起看看。'))) : null,
-          h('div', { class: 'box hint' }, h('b', null, L('Your answer: ', '你的答案：')), it.her ? rich(it.her) : L('(left empty)', '（没有写）')),
-          it.whyWrong ? h('div', { class: 'box teach' }, h('b', null, '🤔 ' + L('Why it is not right: ', '为什么不对：')), bi(it.whyWrong, true)) : null,
-          h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Right answer: ', '正确答案：')), rich(it.right)),
-          it.why ? h('div', { class: 'box teach' }, h('b', null, L('Why: ', '为什么：')), bi(it.why, true)) : null
-        ]));
-    });
-    show(head, buttons, list.length ? out : h('div', { class: 'card center' }, L('Nothing here. 🎉', '这里没有题目。🎉')));
+        opts ? h('div', { class: 'answers' }, opts) : h('div', { class: 'muted' }, L('Say or write your answer first.', '先说出或写下你的答案。')),
+        opts ? null : h('div', { class: 'row center' }, h('button', { class: 'btn big blue', onclick: function () { if (!shown) reveal(); } }, '👀 ' + L('Show the answer', '看答案'))),
+        fb,
+        h('div', { class: 'row', style: 'justify-content:space-between;margin-top:16px' },
+          h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { go(-1); } }, T('prev')),
+          h('button', { class: 'btn ghost', onclick: function () { go(1); } }, L('Skip →', '跳过 →')))));
+    }
+    function go(d) { i += d; window.scrollTo(0, 0); if (i >= items.length) return end(); if (i < 0) i = 0; one(); }
+    function end() {
+      var right = Object.keys(marks).filter(function (k) { return marks[k]; }).length, done = Object.keys(marks).length;
+      lsSet(key('rv_' + r.id), { right: right, total: items.length, when: localTime() });
+      record('Homework review ' + r.date, w.week, right, items.length, (Date.now() - t0) / 1000, Object.keys(marks).filter(function (k) { return !marks[k]; }).map(function (k) { return 'Q' + (+k + 1); }));
+      clear(area);
+      add(area, h('div', { class: 'card center' }, h('h2', null, '🎉 ' + L('Review finished!', '讲评完成！')),
+        h('div', { class: 'bigscore' }, right + ' / ' + items.length), h('p', null, L('You scored yourself. Well done for checking every question!', '这是你给自己打的分。每题都认真检查了，真棒！')),
+        done < items.length ? h('p', { class: 'muted' }, L('Skipped: ', '跳过：') + (items.length - done)) : null,
+        (r.practice || []).length ? [h('h3', null, '🔁 ' + L('Practise again', '再练一练')), h('div', { class: 'tiles' }, r.practice.map(function (pid) { return actTile(w, pid); }))] : null,
+        h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i = 0; marks = {}; one(); } }, L('Go through again', '再看一遍')))));
+    }
+    one();
   }
+
+  /* =========== HOMEWORK QUIZ: one try only, time per question, notes going back =========== */
+  ACT.hwquiz = function (a, ctx, area) {
+    var k = key('hw_' + ctx.week + '_' + a.id), st = lsGet(k, null) || { ans: {}, time: {}, backs: 0, submitted: false };
+    var qs = a.questions, i = 0, tStart = 0, tick = null;
+    function save() { lsSet(k, st); }
+    function stopClock() { if (tStart) { st.time[i] = Math.round((st.time[i] || 0) + (Date.now() - tStart) / 1000); tStart = 0; save(); } clearInterval(tick); }
+    S.cleanup = stopClock;
+    if (st.submitted) return done();
+    clear(area);
+    add(area, h('div', { class: 'card center' },
+      h('div', { class: 'box teach', style: 'text-align:left' }, bi({ en: 'You can do this homework ONCE. Each question is timed. Take your time, read every question twice, then press Submit at the end.', zh: '这份作业只能做一次。每道题都会计时。慢慢来，每题读两遍，最后按“提交”。' })),
+      h('button', { class: 'btn big', onclick: ask }, '▶️ ' + T('start'))));
+    function ask() {
+      clear(area); clearInterval(tick);
+      var q = qs[i], clock = h('span', null, '⏱️ 0:00');
+      tStart = Date.now();
+      tick = setInterval(function () { clock.textContent = '⏱️ ' + fmtTime((st.time[i] || 0) + (Date.now() - tStart) / 1000); }, 500);
+      var btns = q.options.map(function (o, j) {
+        return h('button', { class: 'ansbtn c' + (j % 4) + (st.ans[i] === j ? ' right' : ''), onclick: function () {
+          st.ans[i] = j; save(); btns.forEach(function (b, n) { b.classList.toggle('right', n === j); });
+        } }, h('span', { class: 'shape' }, SHAPES[j % 4]), h('span', null, rich(o)));
+      });
+      var answered = Object.keys(st.ans).length;
+      add(area, h('div', { class: 'card' },
+        h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + qs.length), clock, h('span', null, '✏️ ' + answered + ' ' + L('answered', '已答'))),
+        h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / qs.length) + '%' })),
+        q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
+        h('div', { class: 'box q' }, rich(q.q)),
+        h('div', { class: 'answers' }, btns),
+        h('div', { class: 'row', style: 'justify-content:space-between;margin-top:16px' },
+          h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { stopClock(); st.backs++; save(); i--; ask(); } }, T('prev')),
+          i + 1 < qs.length ? h('button', { class: 'btn big', onclick: function () { stopClock(); i++; ask(); } }, T('next'))
+            : h('button', { class: 'btn big green', onclick: submit }, '📨 ' + L('Submit', '提交')))));
+    }
+    function submit() {
+      var left = qs.length - Object.keys(st.ans).length;
+      if (left && !confirm(L(left + ' question(s) have no answer. Submit anyway?', '还有 ' + left + ' 题没答。确定提交吗？'))) return;
+      if (!left && !confirm(L('Submit now? You cannot change your answers after this.', '现在提交吗？提交后不能再改答案。'))) return;
+      stopClock();
+      st.submitted = true; st.when = localTime(); save();
+      var right = qs.filter(function (q, n) { return st.ans[n] === q.answer; }).length;
+      var total = Object.keys(st.time).reduce(function (s, n) { return s + st.time[n]; }, 0);
+      var detail = qs.map(function (q, n) { return 'Q' + (n + 1) + ':' + (st.ans[n] == null ? '-' : String.fromCharCode(65 + st.ans[n])) + (st.ans[n] === q.answer ? 'ok' : 'x') + ' ' + (st.time[n] || 0) + 's'; });
+      if (st.backs) detail.push('went back ' + st.backs + 'x');
+      record('Homework: ' + ctx.en, ctx.week, right, qs.length, total, detail);
+      done();
+    }
+    function done() {
+      clear(area);
+      add(area, h('div', { class: 'card center' }, h('h2', null, '📨 ' + L('Submitted!', '已提交！')),
+        h('p', { class: 'praise' }, L('Great work. Roy will go through it with you in class.', '做得好！Roy 老师上课时会和你一起看。')),
+        st.when ? h('p', { class: 'muted small' }, st.when) : null, canNow(a)));
+    }
+  };
 
   /* =========== TEACHING LESSON (slides with moving pictures) =========== */
   var SVGNS = 'http://www.w3.org/2000/svg', svgUid = 0;
@@ -1179,6 +1250,34 @@
     }
     show1();
   };
+
+  /* =========== MAIN BOOK: one book, chapters by code, not dated =========== */
+  var BOOK = null;
+  function loadBook() { return BOOK ? Promise.resolve(BOOK) : getJSON(DATA + 'mainbook.json').then(function (b) { BOOK = b; return b; }); }
+  function renderBook(code) {
+    show(backLink(), h('p', { class: 'muted' }, '…'));
+    loadBook().then(function (b) {
+      if (code) {
+        var ch = b.chapters.filter(function (c) { return c.code === code; })[0];
+        if (!ch) return renderError();
+        var area = h('div');
+        show(backLink('#/book'), h('h1', null, '📖 ' + ch.code + ' ' + tx(ch.title)),
+          h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享')),
+            h('a', { class: 'btn ghost', href: 'print.html?book=' + ch.code, target: '_blank', rel: 'noopener' }, '🖨️ ' + L('Print', '打印'))), area);
+        return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: '#/book', week: 'book', en: 'Main Book ' + ch.code }, area);
+      }
+      show(backLink(), h('h1', null, '📖 ' + L('Main Book', '主课本')),
+        h('div', { class: 'box teach' }, bi(b.intro || { en: 'Learn one chapter at a time with Roy.', zh: '和 Roy 老师一章一章地学。' })),
+        b.parts.map(function (pt) {
+          return h('div', null, h('h2', { class: 'section-title' }, tx(pt.title)),
+            b.chapters.filter(function (c) { return c.part === pt.id; }).map(function (c) {
+              var soon = !c.slides || !c.slides.length;
+              return h(soon ? 'div' : 'a', { class: 'list-link' + (soon ? ' muted' : ''), href: soon ? null : '#/book/' + c.code },
+                h('span', null, c.code + '  ' + tx(c.title)), h('span', { class: 'small' }, soon ? L('Coming soon', '即将推出') : c.slides.length + ' ' + L('pages', '页') + ' →'));
+            }));
+        }));
+    }).catch(renderError);
+  }
 
   /* =========== MY KEY POINTS (3 guided lines, saved on this device) =========== */
   ACT.keypoints = function (a, ctx, area) {
@@ -1545,9 +1644,17 @@
     var m = /[?&]w=([0-9-]+)/.exec(location.search);
     var id = m ? m[1] : weekIds()[0];
     var dm = /[?&]d=([0-9-]+)/.exec(location.search), pm = /[?&]part=(book|work)/.exec(location.search);
+    var bm = /[?&]book=([A-Za-z0-9.]+)/.exec(location.search);
     var root = h('div', { class: 'wrap' });
     document.body.appendChild(root);
     var lang = S.lang; S.lang = 'en';
+    if (bm) {
+      return loadBook().then(function (b) {
+        var ch = b.chapters.filter(function (c) { return c.code === bm[1]; })[0];
+        printDay({ days: [{ date: '2026-01-01', title: ch.title, activities: ['x'] }], activities: [{ id: 'x', type: 'lesson', slides: ch.slides }] }, '2026-01-01', 'book', root, S.lang);
+        var h2 = root.querySelector('h2'); if (h2) h2.textContent = ch.code + ' ' + enText(ch.title);
+      });
+    }
     loadWeek(id).then(function (w) {
       var answers = [];
       if (dm) return printDay(w, dm[1], pm ? pm[1] : 'work', root, lang);

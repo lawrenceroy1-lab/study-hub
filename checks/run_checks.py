@@ -202,6 +202,9 @@ for student_dir in sorted(p for p in DATA.iterdir() if p.is_dir()):
             bad(str(f), f"JSON error: {e}"); continue
         for p, s in walk_strings(d):
             text_rules(f"{f.relative_to(ROOT)}{p}", s)
+        if f.name == "mainbook.json":
+            if st.get("bilingual"): check_zh(str(f.relative_to(ROOT)), d)
+            continue
         if f.name == "student.json":
             for wk in d.get("weeks", []):
                 if not (student_dir / f"{wk}.json").exists():
@@ -228,7 +231,7 @@ for student_dir in sorted(p for p in DATA.iterdir() if p.is_dir()):
             shown = len(a.get("questions") or a.get("items") or [])
             if t == "quiz" and a.get("count"):
                 shown = min(shown, a["count"])
-            if shown > 10:
+            if shown > (25 if t == "hwquiz" else 10):
                 bad(where, f"{shown} questions shown. Keep it to 10 or fewer (split it, or set count).")
             if t == "spelling": check_spelling(where, sid, f.stem, a)
             elif t == "quiz": check_mcq(where, a["questions"])
@@ -257,9 +260,6 @@ for student_dir in sorted(p for p in DATA.iterdir() if p.is_dir()):
                 for it in pg.get("items", []):
                     w2 = f"{rw} {it.get('n')}"
                     if not it.get("q") or not it.get("right"): bad(w2, "needs a question and the right answer")
-                    if "ok" not in it: bad(w2, "needs ok: true or false")
-                    if not it.get("why"): bad(w2, "needs a short WHY")
-                    if it.get("ok") is False and not it.get("whyWrong") and not it.get("check"): bad(w2, "wrong answer needs whyWrong (why it is not right)")
 
 # every HTML page must have noindex; no em dashes in site code text
 for html in SITE.rglob("*.html"):
