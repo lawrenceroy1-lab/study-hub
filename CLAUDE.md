@@ -52,6 +52,9 @@ One website with a separate private page for each tutoring student. Each week I 
 ## Weekly routine (commands I will type)
 
 - **"New week for Daisy"** (or any student): read everything in `inbox/<student>/`. Show me a short list of what you found (spelling words, topics, questions, due dates) and which activities you plan to build. Wait for my OK. Then build, run the checks, show me the preview. After I approve, ask before moving the files to archive.
+- **Homework review** (Lawrence uploads photos of finished homework): mark every question from the photos. In the week file add a `reviews` entry per homework day: each item has the question, her answer, the right answer, `ok` true/false, a short `why` (EN + 中文), and for wrong ones a `whyWrong`. Unsure items get `check: true` (go through together), never a guess. Link fix-it practice in `practice`. This shows as the orange 📋 Homework Review button (Correct answers / Wrong answers buttons, stars) and fills the 📒 Homework Log. Set `homeworkLog: true` in the student's `student.json`.
+- **Workbook for a lesson day** (e.g. "Sunday 22 November"): add a `days` entry with the date and its activity ids. The FIRST activity is a `lesson` (teaching slides Lawrence goes through with the student: pictures, moving diagrams, 🔊 read aloud), then the practice (flashcards, `fillblank`, match, quiz...). Shows as the purple 📘 Workbook button. Lyra's week 2026-11-16 is the model.
+- After any change to `site/assets/`, bump the `?v=` number in every `site/*/index.html` and `print.html` so iPads load the new files.
 - **"Parent report for Daisy"** (or any student): read the newest CSV in `scores/` and draft a short, warm, specific weekly report for the parents in one code block: Chinese first, then English for reference.
 - **"Publish my changes"**: update the live site. The links stay the same.
 
