@@ -2253,75 +2253,75 @@
    },
    "cards": [
     {
-     "front": "Water (H₂O)",
+     "front": "Water (H₂O): element, compound or mixture?",
      "back": "Compound 💡 Hydrogen and oxygen are chemically joined.",
-     "zh": "水 (H₂O)",
+     "zh": "水 (H₂O)：元素、化合物还是混合物？",
      "zhBack": "化合物"
     },
     {
-     "front": "Hydrogen (H₂)",
+     "front": "Hydrogen (H₂): element, compound or mixture?",
      "back": "Element 💡 Only hydrogen atoms. It is in the Periodic Table.",
-     "zh": "氢气 (H₂)",
+     "zh": "氢气 (H₂)：元素、化合物还是混合物？",
      "zhBack": "元素"
     },
     {
-     "front": "Petrol",
+     "front": "Petrol: element, compound or mixture?",
      "back": "Mixture 💡 Petrol is lots of different compounds mixed together.",
-     "zh": "汽油",
+     "zh": "汽油：元素、化合物还是混合物？",
      "zhBack": "混合物"
     },
     {
-     "front": "Air",
+     "front": "Air: element, compound or mixture?",
      "back": "Mixture 💡 Nitrogen, oxygen, carbon dioxide and more, all mixed but not joined.",
-     "zh": "空气",
+     "zh": "空气：元素、化合物还是混合物？",
      "zhBack": "混合物"
     },
     {
-     "front": "Brass",
+     "front": "Brass: element, compound or mixture?",
      "back": "Mixture (an alloy) 💡 Brass is copper and zinc mixed. Alloys are mixtures of metals.",
-     "zh": "黄铜",
+     "zh": "黄铜：元素、化合物还是混合物？",
      "zhBack": "混合物（合金）"
     },
     {
-     "front": "Carbon monoxide (CO)",
+     "front": "Carbon monoxide (CO): element, compound or mixture?",
      "back": "Compound 💡 C and O: two different elements joined.",
-     "zh": "一氧化碳 (CO)",
+     "zh": "一氧化碳 (CO)：元素、化合物还是混合物？",
      "zhBack": "化合物"
     },
     {
-     "front": "Magnesium (Mg)",
+     "front": "Magnesium (Mg): element, compound or mixture?",
      "back": "Element (a metal) 💡 One symbol, one capital letter = one element.",
-     "zh": "镁 (Mg)",
+     "zh": "镁 (Mg)：元素、化合物还是混合物？",
      "zhBack": "元素（金属）"
     },
     {
-     "front": "Bromine (Br₂)",
+     "front": "Bromine (Br₂): element, compound or mixture?",
      "back": "Element (a non-metal) 💡 Bromine is one of only 2 elements that are liquid at room temperature.",
-     "zh": "溴 (Br₂)",
+     "zh": "溴 (Br₂)：元素、化合物还是混合物？",
      "zhBack": "元素（非金属）"
     },
     {
-     "front": "Nitrogen (N₂): which two words?",
-     "back": "Gas, element 💡 Nitrogen is in the Periodic Table, so it is an element. At room temperature it is a gas.",
-     "zh": "氮气 (N₂)：哪两个词？",
-     "zhBack": "气体，元素"
+     "front": "Nitrogen (N₂): element, compound or mixture?",
+     "back": "Element (a gas) 💡 Nitrogen is in the Periodic Table, so it is an element. At room temperature it is a gas.",
+     "zh": "氮气 (N₂)：元素、化合物还是混合物？",
+     "zhBack": "元素（气体）"
     },
     {
-     "front": "Copper sulfate: which two words?",
-     "back": "Solid, compound 💡 Blue crystals (solid). Copper, sulfur and oxygen are joined (compound).",
-     "zh": "硫酸铜：哪两个词？",
-     "zhBack": "固体，化合物"
+     "front": "Copper sulfate: element, compound or mixture?",
+     "back": "Compound (a solid) 💡 Blue crystals (solid). Copper, sulfur and oxygen are joined (compound).",
+     "zh": "硫酸铜：元素、化合物还是混合物？",
+     "zhBack": "化合物（固体）"
     },
     {
-     "front": "Iron filings + sulfur powder, NOT heated",
+     "front": "Iron filings + sulfur powder, NOT heated: element, compound or mixture?",
      "back": "Mixture 💡 A magnet can still pull the iron out.",
-     "zh": "铁粉 + 硫粉，没有加热",
+     "zh": "铁粉 + 硫粉，没有加热：元素、化合物还是混合物？",
      "zhBack": "混合物"
     },
     {
-     "front": "Iron sulfide (after heating)",
+     "front": "Iron sulfide (after heating): element, compound or mixture?",
      "back": "Compound 💡 Heating made the iron and sulfur JOIN. It is a new black solid and is not magnetic.",
-     "zh": "硫化亚铁（加热之后）",
+     "zh": "硫化亚铁（加热之后）：元素、化合物还是混合物？",
      "zhBack": "化合物"
     }
    ],
