@@ -1,0 +1,23 @@
+{
+ "id": "lyra",
+ "name": "Lyra",
+ "accent": "#c2255c",
+ "accentSoft": "#fdeef4",
+ "bilingual": true,
+ "voice": "en-GB",
+ "stars": true,
+ "separateKey": true,
+ "ui": {
+  "en": {
+   "notQuite": "Not quite, and that's OK! The answer is:",
+   "wordIs": "Not quite, and that's OK! The word is:"
+  },
+  "zh": {
+   "notQuite": "没关系！正确答案是：",
+   "wordIs": "没关系！这个词是："
+  }
+ },
+ "weeks": [
+  "2026-11-16"
+ ]
+}

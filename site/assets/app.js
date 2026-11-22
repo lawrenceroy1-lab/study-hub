@@ -103,7 +103,14 @@
     }
   };
   function bilingual() { return !!(S.student && S.student.bilingual); }
-  function T(k) { var L = (bilingual() && S.lang === 'zh') ? UI.zh : UI.en; return L[k] != null ? L[k] : UI.en[k]; }
+  function T(k) {
+    var lang = (bilingual() && S.lang === 'zh') ? 'zh' : 'en';
+    var own = S.student && S.student.ui && S.student.ui[lang];   /* per-student wording, e.g. gentler feedback */
+    if (own && own[k] != null) return own[k];
+    var L = UI[lang]; return L[k] != null ? L[k] : UI.en[k];
+  }
+  /* Stars instead of marks for students who should not see scores. */
+  function scoreText(c, t) { return (S.student && S.student.stars) ? (c ? new Array(Math.min(c, 10) + 1).join('⭐') : '🌱') : c + ' / ' + t; }
   /* Pick text for a value that may be "string" or {en, zh}. */
   function tx(v) {
     if (v == null) return '';
@@ -637,7 +644,7 @@
         add(area, h('div', { class: 'card center' },
           h('h2', null, '🏁 ' + (correct === qs.length ? praise() : T('yourScore'))),
           timed ? h('div', { class: 'bigscore' }, points + ' ' + T('points')) : null,
-          h('div', { class: timed ? 'praise' : 'bigscore' }, correct + ' / ' + qs.length + (timed ? ' ' + T('correctOf') : '')),
+          h('div', { class: timed ? 'praise' : 'bigscore' }, scoreText(correct, qs.length) + (timed ? ' ' + T('correctOf') : '')),
           h('p', { class: 'small muted' }, T('saved')), canNow(a),
           h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: start }, T('again')))));
       }
@@ -733,7 +740,7 @@
     function done(correct) {
       clear(area);
       add(area, h('div', { class: 'card center' }, h('h2', null, '🏆 ' + praise()),
-        h('div', { class: 'bigscore' }, correct + ' / ' + a.questions.length),
+        h('div', { class: 'bigscore' }, scoreText(correct, a.questions.length)),
         h('p', { class: 'small muted' }, T('saved')), canNow(a),
         h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: keywords }, T('again')))));
     }

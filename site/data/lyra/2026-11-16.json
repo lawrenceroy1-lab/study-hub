@@ -1,0 +1,1139 @@
+{
+ "week": "2026-11-16",
+ "title": {
+  "en": "Fix-It Day and Waves Begin",
+  "zh": "改错日和波的开始"
+ },
+ "message": {
+  "en": "Great work on your workbook, Lyra! Today we fix a few small mistakes, then start our new unit: waves and sound. Mistakes are part of learning.",
+  "zh": "Lyra，你的练习册做得很好！今天我们先改几个小错误，然后开始新单元：波和声音。犯错是学习的一部分。"
+ },
+ "activities": [
+  {
+   "id": "fixit",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "🧪",
+   "title": {
+    "en": "A2 and A3 Fix-It: Element, Compound or Mixture?",
+    "zh": "A2 和 A3 改错：元素、化合物还是混合物？"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Ask 3 questions: (1) How many kinds of particle? One = pure, two or more = mixture. (2) Are the atoms joined? (3) Same atoms = element, different atoms joined = compound.",
+    "zh": "问 3 个问题：(1) 有几种粒子？一种 = 纯净物，两种或以上 = 混合物。(2) 原子结合了吗？(3) 相同原子 = 元素，不同原子结合 = 化合物。"
+   },
+   "questions": [
+    {
+     "q": "Air is a...",
+     "options": [
+      "element",
+      "compound",
+      "mixture",
+      "molecule"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Air is many gases (nitrogen, oxygen and more) mixed together, NOT joined.",
+      "zh": "空气是很多种气体混在一起，没有结合。"
+     }
+    },
+    {
+     "q": "Sodium chloride (NaCl) is a...",
+     "options": [
+      "element",
+      "compound",
+      "mixture",
+      "molecule"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Two capital letters, Na and Cl, chemically joined. That is a compound.",
+      "zh": "两个大写字母 Na 和 Cl 结合在一起，是化合物。"
+     }
+    },
+    {
+     "q": "Brass is a...",
+     "options": [
+      "element",
+      "compound",
+      "mixture",
+      "molecule"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Brass is an alloy: copper and zinc mixed, not joined. Alloys are mixtures.",
+      "zh": "黄铜是合金：铜和锌混在一起，没有结合。合金是混合物。"
+     }
+    },
+    {
+     "q": "Which TWO words describe nitrogen (N₂) at room temperature?",
+     "options": [
+      "gas, element",
+      "gas, compound",
+      "solid, mixture",
+      "liquid, element"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "N₂ has only one kind of atom (N), so it is an element. Nitrogen is a gas in the air.",
+      "zh": "N₂ 只有一种原子，所以是元素。氮气是空气里的气体。"
+     }
+    },
+    {
+     "q": "Bromine (Br₂) is a...",
+     "options": [
+      "element",
+      "compound",
+      "mixture",
+      "molecule"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "One capital letter (Br), one kind of atom: element. Bromine is one of the two liquid elements.",
+      "zh": "只有一个大写字母 Br，一种原子：元素。溴是两种液态元素之一。"
+     }
+    },
+    {
+     "q": "Iron sulfide is a...",
+     "options": [
+      "element",
+      "compound",
+      "mixture",
+      "molecule"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "After heating, iron and sulfur are chemically joined. A magnet cannot pull the iron out. It is a compound.",
+      "zh": "加热后铁和硫化学结合，磁铁吸不出铁，所以是化合物。"
+     }
+    },
+    {
+     "q": "Petrol is a...",
+     "options": [
+      "element",
+      "compound",
+      "mixture",
+      "molecule"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Petrol has no single formula. It is many things mixed together: a mixture.",
+      "zh": "汽油没有一个化学式，是很多东西混在一起：混合物。"
+     }
+    },
+    {
+     "q": "Which formula is an ELEMENT?",
+     "options": [
+      "NaCl",
+      "H₂O",
+      "O₂",
+      "CO₂"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "O₂ has one capital letter, so only one kind of atom.",
+      "zh": "O₂ 只有一个大写字母，只有一种原子。"
+     }
+    },
+    {
+     "q": "A box has blue-blue molecules and single red atoms, not joined to each other. What is the FULL name?",
+     "options": [
+      "mixture",
+      "mixture of two elements",
+      "mixture of two compounds",
+      "compound"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Blue-blue = an element (same atoms). Red atoms = another element. Two elements, not joined. Always write the FULL name in a test.",
+      "zh": "蓝蓝 = 一种元素，红原子 = 另一种元素，没有结合。考试要写完整的名称。"
+     }
+    },
+    {
+     "q": "A box has only blue-blue molecules. What is the FULL name?",
+     "options": [
+      "molecules",
+      "element (molecules)",
+      "compound",
+      "mixture"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Every particle is the same, and each one is the same atoms joined. Write \"element (molecules)\", not just \"molecules\".",
+      "zh": "每个粒子都一样，都是相同的原子结合。要写 element (molecules)，不能只写 molecules。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now tell an element, a compound and a mixture apart, and use the full name.",
+    "zh": "我现在能分辨元素、化合物和混合物，并写出完整名称。"
+   }
+  },
+  {
+   "id": "counting",
+   "type": "guided",
+   "icon": "🔢",
+   "title": {
+    "en": "M1.1 Counting Atoms: Write It Once",
+    "zh": "M1.1 数原子：算式只写一次"
+   },
+   "subtitle": {
+    "en": "6 questions",
+    "zh": "6 道题"
+   },
+   "intro": {
+    "en": "Atoms in many molecules = number of molecules × atoms in ONE molecule. Write that working once, then stop.",
+    "zh": "很多分子里的原子 = 分子个数 × 一个分子里的原子数。只写一次算式，然后停。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Counting atoms",
+      "zh": "数原子"
+     },
+     "q": "How many atoms are in 4 molecules of CO₂?",
+     "hint": {
+      "en": "Find the atoms in ONE molecule first. Then multiply by the number of molecules. Write the working only ONCE.",
+      "zh": "先算一个分子里有几个原子，再乘分子的个数。算式只写一次。"
+     },
+     "steps": [
+      {
+       "en": "One CO₂ has 1 C + 2 O.",
+       "zh": "一个 CO₂ 有 1 个 C 和 2 个 O。",
+       "math": "1 + 2 = 3"
+      },
+      {
+       "en": "Multiply by the number of molecules. Stop here: do not multiply again!",
+       "zh": "乘以分子的个数。到这里就停：不要再乘一次！",
+       "math": "4 × 3 = 12"
+      }
+     ],
+     "answer": "12 atoms",
+     "why": {
+      "en": "Total = number of molecules × atoms in one molecule.",
+      "zh": "总数 = 分子个数 × 一个分子里的原子数。"
+     },
+     "check": {
+      "expr": "4 × 3",
+      "value": "12"
+     }
+    },
+    {
+     "section": {
+      "en": "Counting atoms",
+      "zh": "数原子"
+     },
+     "q": "How many HYDROGEN atoms are in 5 molecules of CH₄?",
+     "hint": {
+      "en": "Find the atoms in ONE molecule first. Then multiply by the number of molecules. Write the working only ONCE.",
+      "zh": "先算一个分子里有几个原子，再乘分子的个数。算式只写一次。"
+     },
+     "steps": [
+      {
+       "en": "One CH₄ has 4 hydrogen atoms. (We only count H.)",
+       "zh": "一个 CH₄ 有 4 个氢原子（只数 H）。",
+       "math": "4"
+      },
+      {
+       "en": "Multiply by the number of molecules. Stop here: do not multiply again!",
+       "zh": "乘以分子的个数。到这里就停：不要再乘一次！",
+       "math": "5 × 4 = 20"
+      }
+     ],
+     "answer": "20 hydrogen atoms",
+     "why": {
+      "en": "Total = number of molecules × atoms in one molecule.",
+      "zh": "总数 = 分子个数 × 一个分子里的原子数。"
+     },
+     "check": {
+      "expr": "5 × 4",
+      "value": "20"
+     }
+    },
+    {
+     "section": {
+      "en": "Counting atoms",
+      "zh": "数原子"
+     },
+     "q": "How many atoms are in 3 molecules of H₂O?",
+     "hint": {
+      "en": "Find the atoms in ONE molecule first. Then multiply by the number of molecules. Write the working only ONCE.",
+      "zh": "先算一个分子里有几个原子，再乘分子的个数。算式只写一次。"
+     },
+     "steps": [
+      {
+       "en": "One H₂O has 2 H + 1 O.",
+       "zh": "一个 H₂O 有 2 个 H 和 1 个 O。",
+       "math": "2 + 1 = 3"
+      },
+      {
+       "en": "Multiply by the number of molecules. Stop here: do not multiply again!",
+       "zh": "乘以分子的个数。到这里就停：不要再乘一次！",
+       "math": "3 × 3 = 9"
+      }
+     ],
+     "answer": "9 atoms",
+     "why": {
+      "en": "Total = number of molecules × atoms in one molecule.",
+      "zh": "总数 = 分子个数 × 一个分子里的原子数。"
+     },
+     "check": {
+      "expr": "3 × 3",
+      "value": "9"
+     }
+    },
+    {
+     "section": {
+      "en": "Counting atoms",
+      "zh": "数原子"
+     },
+     "q": "How many atoms are in 2 molecules of H₂SO₄?",
+     "hint": {
+      "en": "Find the atoms in ONE molecule first. Then multiply by the number of molecules. Write the working only ONCE.",
+      "zh": "先算一个分子里有几个原子，再乘分子的个数。算式只写一次。"
+     },
+     "steps": [
+      {
+       "en": "One H₂SO₄ has 2 H + 1 S + 4 O.",
+       "zh": "一个 H₂SO₄ 有 2 个 H、1 个 S 和 4 个 O。",
+       "math": "2 + 1 + 4 = 7"
+      },
+      {
+       "en": "Multiply by the number of molecules. Stop here: do not multiply again!",
+       "zh": "乘以分子的个数。到这里就停：不要再乘一次！",
+       "math": "2 × 7 = 14"
+      }
+     ],
+     "answer": "14 atoms",
+     "why": {
+      "en": "Total = number of molecules × atoms in one molecule.",
+      "zh": "总数 = 分子个数 × 一个分子里的原子数。"
+     },
+     "check": {
+      "expr": "2 × 7",
+      "value": "14"
+     }
+    },
+    {
+     "section": {
+      "en": "Counting atoms",
+      "zh": "数原子"
+     },
+     "q": "How many OXYGEN atoms are in 3 molecules of CO₂?",
+     "hint": {
+      "en": "Find the atoms in ONE molecule first. Then multiply by the number of molecules. Write the working only ONCE.",
+      "zh": "先算一个分子里有几个原子，再乘分子的个数。算式只写一次。"
+     },
+     "steps": [
+      {
+       "en": "One CO₂ has 2 oxygen atoms. (We only count O.)",
+       "zh": "一个 CO₂ 有 2 个氧原子（只数 O）。",
+       "math": "2"
+      },
+      {
+       "en": "Multiply by the number of molecules. Stop here: do not multiply again!",
+       "zh": "乘以分子的个数。到这里就停：不要再乘一次！",
+       "math": "3 × 2 = 6"
+      }
+     ],
+     "answer": "6 oxygen atoms",
+     "why": {
+      "en": "Total = number of molecules × atoms in one molecule.",
+      "zh": "总数 = 分子个数 × 一个分子里的原子数。"
+     },
+     "check": {
+      "expr": "3 × 2",
+      "value": "6"
+     }
+    },
+    {
+     "section": {
+      "en": "Counting atoms",
+      "zh": "数原子"
+     },
+     "q": "How many atoms are in 2 molecules of C₃H₈?",
+     "hint": {
+      "en": "Find the atoms in ONE molecule first. Then multiply by the number of molecules. Write the working only ONCE.",
+      "zh": "先算一个分子里有几个原子，再乘分子的个数。算式只写一次。"
+     },
+     "steps": [
+      {
+       "en": "One C₃H₈ has 3 C + 8 H.",
+       "zh": "一个 C₃H₈ 有 3 个 C 和 8 个 H。",
+       "math": "3 + 8 = 11"
+      },
+      {
+       "en": "Multiply by the number of molecules. Stop here: do not multiply again!",
+       "zh": "乘以分子的个数。到这里就停：不要再乘一次！",
+       "math": "2 × 11 = 22"
+      }
+     ],
+     "answer": "22 atoms",
+     "why": {
+      "en": "Total = number of molecules × atoms in one molecule.",
+      "zh": "总数 = 分子个数 × 一个分子里的原子数。"
+     },
+     "check": {
+      "expr": "2 × 11",
+      "value": "22"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now count the atoms in many molecules with one multiplication.",
+    "zh": "我现在能用一次乘法数出很多分子里的原子。"
+   }
+  },
+  {
+   "id": "reactions",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "⚗️",
+   "title": {
+    "en": "A5 to A7 Fix-It: Reactions, Changes and States",
+    "zh": "A5 到 A7 改错：反应、变化和物态"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Naming rule: keep the metal name, change the non-metal ending: oxygen → oxide, chlorine → chloride, sulfur → sulfide. 2 oxygens = dioxide.",
+    "zh": "命名规则：金属名字不变，非金属结尾改成 -ide：oxygen → oxide，chlorine → chloride，sulfur → sulfide。2 个氧 = dioxide。"
+   },
+   "questions": [
+    {
+     "q": "Which reaction is: compound → two elements?",
+     "options": [
+      "zinc + sulfur → zinc sulfide",
+      "carbon dioxide + calcium hydroxide → calcium carbonate + water",
+      "oxygen + copper sulfide → copper sulfate",
+      "water → hydrogen + oxygen"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Water is ONE compound. It splits into TWO elements: hydrogen and oxygen.",
+      "zh": "水是一种化合物，分解成两种元素：氢和氧。"
+     }
+    },
+    {
+     "q": "Which reaction is: element + element → compound?",
+     "options": [
+      "water → hydrogen + oxygen",
+      "zinc + sulfur → zinc sulfide",
+      "calcium carbonate → calcium oxide + carbon dioxide",
+      "salt + water → salt water"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Zinc and sulfur are both elements. They join to make one compound, zinc sulfide.",
+      "zh": "锌和硫都是元素，结合成一种化合物：硫化锌。"
+     }
+    },
+    {
+     "q": "Zinc is heated with sulfur. Name the solid that forms.",
+     "options": [
+      "zinc sulfur",
+      "heated sulfide",
+      "zinc sulfide",
+      "zinc oxide"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Keep the metal name (zinc). Change sulfur to sulfide.",
+      "zh": "金属名字不变（zinc），sulfur 改成 sulfide。"
+     }
+    },
+    {
+     "q": "sulfur + oxygen → ? (the product is SO₂)",
+     "options": [
+      "sulfur oxide",
+      "sulfur dioxide",
+      "sulfide oxygen",
+      "sulfur oxygen"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "SO₂ has 2 oxygen atoms. 2 = di, so it is sulfur DIoxide.",
+      "zh": "SO₂ 有 2 个氧原子，2 = di，所以是 sulfur dioxide。"
+     }
+    },
+    {
+     "q": "Cooking an egg is a...",
+     "options": [
+      "physical change",
+      "chemical change"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A new substance forms and you cannot uncook the egg. That is a chemical change.",
+      "zh": "生成了新物质，鸡蛋煮熟后变不回去，是化学变化。"
+     }
+    },
+    {
+     "q": "Gas → liquid is called...",
+     "options": [
+      "boiling",
+      "melting",
+      "condensing",
+      "freezing"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Gas turns back into liquid: condensing. (Think of water drops on a cold glass.)",
+      "zh": "气体变回液体叫凝结（像冷杯子外面的小水珠）。"
+     }
+    },
+    {
+     "q": "Which statement is TRUE?",
+     "options": [
+      "Most elements are non-metals.",
+      "There are 2 liquid elements at room temperature.",
+      "Most metals are magnetic.",
+      "There are about 1000 elements."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Mercury and bromine are the 2 liquid elements. Most elements are metals, most metals are NOT magnetic, and there are about 118 elements.",
+      "zh": "汞和溴是两种液态元素。大部分元素是金属，大部分金属没有磁性，元素大约有 118 种。"
+     }
+    },
+    {
+     "q": "Which TWO elements are liquids at 1000 °C?",
+     "options": [
+      "aluminium and magnesium",
+      "aluminium and aluminium",
+      "iron and mercury",
+      "mercury and magnesium"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Liquid = hotter than the melting point but colder than the boiling point. Aluminium: 660 to 2520. Magnesium: 650 to 1100. 1000 is inside both.",
+      "zh": "液体 = 比熔点高、比沸点低。铝：660 到 2520。镁：650 到 1100。1000 在两个范围里面。"
+     },
+     "context": "Melting point / boiling point (°C): aluminium 660 / 2520, iron 1540 / 2760, magnesium 650 / 1100, mercury -39 / 357"
+    },
+    {
+     "q": "Put in order, smallest first: 12, -39, 0, -100, -5",
+     "options": [
+      "-100, -39, -5, 0, 12",
+      "-100, 0, -39, -5, 12",
+      "0, -5, -39, -100, 12",
+      "-5, -39, -100, 0, 12"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Negative numbers are smaller than 0. The bigger the number after the minus sign, the SMALLER it is: -100 < -39 < -5 < 0 < 12.",
+      "zh": "负数比 0 小。负号后面的数越大，这个数越小：-100 < -39 < -5 < 0 < 12。"
+     }
+    },
+    {
+     "q": "What does a magnet show about the iron + sulfur MIXTURE and iron SULFIDE?",
+     "options": [
+      "It pulls iron out of both.",
+      "It pulls iron out of the mixture, but not out of iron sulfide.",
+      "It cannot pull iron out of either.",
+      "It pulls the sulfur out."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In the mixture the iron is not joined, so the magnet pulls it out. In iron sulfide the iron is joined to sulfur, so it is a new substance.",
+      "zh": "混合物里的铁没有结合，磁铁能吸出来。硫化铁里的铁和硫结合了，是新物质，吸不出来。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now name compounds, spot chemical changes and use melting and boiling points.",
+    "zh": "我现在能给化合物命名、认出化学变化，并会用熔点和沸点。"
+   }
+  },
+  {
+   "id": "temps",
+   "type": "guided",
+   "icon": "🌡️",
+   "title": {
+    "en": "M1.2 Negative Numbers, Temperature and Mass",
+    "zh": "M1.2 负数、温度和质量"
+   },
+   "subtitle": {
+    "en": "4 questions",
+    "zh": "4 道题"
+   },
+   "intro": {
+    "en": "A number line helps: count up to 0, then count on from 0. Mass change = mass after - mass before.",
+    "zh": "数轴能帮你：先数到 0，再从 0 往后数。质量变化 = 反应后 - 反应前。"
+   },
+   "items": [
+    {
+     "section": {
+      "en": "Negative numbers and temperature",
+      "zh": "负数和温度"
+     },
+     "q": "The temperature goes from -5 °C to 8 °C. How many degrees did it go up?",
+     "hint": {
+      "en": "Draw a number line or a thermometer. Count the gap.",
+      "zh": "画一条数轴或温度计，数一数中间的距离。"
+     },
+     "steps": [
+      {
+       "en": "From -5 up to 0 is 5 degrees.",
+       "zh": "从 -5 升到 0 是 5 度。",
+       "math": "5"
+      },
+      {
+       "en": "From 0 up to 8 is 8 degrees. Add the two parts.",
+       "zh": "从 0 升到 8 是 8 度。把两段加起来。",
+       "math": "5 + 8 = 13"
+      }
+     ],
+     "answer": "13 °C",
+     "why": {
+      "en": "Count the jump to 0, then the jump from 0. Same as 8 - (-5) = 8 + 5.",
+      "zh": "先数到 0，再从 0 往上数。和 8 - (-5) = 8 + 5 一样。"
+     },
+     "check": {
+      "expr": "5 + 8",
+      "value": "13"
+     }
+    },
+    {
+     "section": {
+      "en": "Negative numbers and temperature",
+      "zh": "负数和温度"
+     },
+     "q": "Mercury melts at -39 °C and boils at 357 °C. How many degrees are between them?",
+     "hint": {
+      "en": "Draw a number line or a thermometer. Count the gap.",
+      "zh": "画一条数轴或温度计，数一数中间的距离。"
+     },
+     "steps": [
+      {
+       "en": "From -39 up to 0 is 39 degrees.",
+       "zh": "从 -39 到 0 是 39 度。",
+       "math": "39"
+      },
+      {
+       "en": "From 0 up to 357 is 357 degrees. Add them. (Subtracting a negative = adding.)",
+       "zh": "从 0 到 357 是 357 度，加起来。（减负数 = 加正数）",
+       "math": "357 + 39 = 396"
+      }
+     ],
+     "answer": "396 °C",
+     "why": {
+      "en": "357 - (-39) is the same as 357 + 39.",
+      "zh": "357 - (-39) 等于 357 + 39。"
+     },
+     "check": {
+      "expr": "357 + 39",
+      "value": "396"
+     }
+    },
+    {
+     "section": {
+      "en": "Decimals and mass",
+      "zh": "小数和质量"
+     },
+     "q": "Iron filings weighed 2.0 g. After the reaction, the iron sulfide weighed 2.8 g. How much did the mass increase?",
+     "hint": {
+      "en": "Draw a number line or a thermometer. Count the gap.",
+      "zh": "画一条数轴或温度计，数一数中间的距离。"
+     },
+     "steps": [
+      {
+       "en": "Mass increase = mass after - mass before.",
+       "zh": "增加的质量 = 反应后 - 反应前。",
+       "math": "2.8 - 2.0 = 0.8"
+      }
+     ],
+     "answer": "0.8 g",
+     "why": {
+      "en": "The mass went up because 0.8 g of sulfur joined the iron. Atoms are never lost or made.",
+      "zh": "质量增加是因为 0.8 克硫和铁结合了。原子不会消失，也不会凭空出现。"
+     },
+     "check": {
+      "expr": "2.8 - 2.0",
+      "value": "0.8"
+     }
+    },
+    {
+     "section": {
+      "en": "Decimals and mass",
+      "zh": "小数和质量"
+     },
+     "q": "5.0 g of magnesium is heated in air. It makes 8.3 g of magnesium oxide. How much oxygen joined the magnesium?",
+     "hint": {
+      "en": "Draw a number line or a thermometer. Count the gap.",
+      "zh": "画一条数轴或温度计，数一数中间的距离。"
+     },
+     "steps": [
+      {
+       "en": "Oxygen that joined = mass after - mass before.",
+       "zh": "结合的氧 = 反应后 - 反应前。",
+       "math": "8.3 - 5.0 = 3.3"
+      }
+     ],
+     "answer": "3.3 g",
+     "why": {
+      "en": "Oxygen from the air joined the magnesium, so the mass went up by 3.3 g.",
+      "zh": "空气里的氧和镁结合了，所以质量增加了 3.3 克。"
+     },
+     "check": {
+      "expr": "8.3 - 5.0",
+      "value": "3.3"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now find temperature gaps with negative numbers and work out mass changes.",
+    "zh": "我现在能用负数算温差，也能算出质量变化。"
+   }
+  },
+  {
+   "id": "wavecards",
+   "type": "flashcards",
+   "icon": "🌊",
+   "title": {
+    "en": "B1 Waves: Key Words",
+    "zh": "B1 波：关键词"
+   },
+   "subtitle": {
+    "en": "12 words",
+    "zh": "12 个词"
+   },
+   "intro": {
+    "en": "These are your school's keyword definitions. Say each word out loud, then flip the card.",
+    "zh": "这些是学校关键词表里的定义。大声读出单词，再翻卡片。"
+   },
+   "cards": [
+    {
+     "front": "wave",
+     "back": "A disturbance that transfers energy from one place to another.",
+     "zh": "波",
+     "zhBack": "把能量从一个地方传到另一个地方的扰动。"
+    },
+    {
+     "front": "transverse wave",
+     "back": "A wave in which vibrations are perpendicular to the direction of travel.",
+     "zh": "横波",
+     "zhBack": "振动方向和传播方向垂直的波。"
+    },
+    {
+     "front": "longitudinal wave",
+     "back": "A wave in which vibrations are parallel to the direction of travel.",
+     "zh": "纵波",
+     "zhBack": "振动方向和传播方向平行的波。"
+    },
+    {
+     "front": "amplitude",
+     "back": "The maximum distance a point on a wave moves from its resting position.",
+     "zh": "振幅",
+     "zhBack": "波上一点离开平衡位置的最大距离。"
+    },
+    {
+     "front": "wavelength",
+     "back": "The distance between two corresponding points on consecutive waves, such as crest to crest.",
+     "zh": "波长",
+     "zhBack": "相邻两个波上对应点之间的距离，比如波峰到波峰。"
+    },
+    {
+     "front": "frequency",
+     "back": "The number of complete waves passing a point each second.",
+     "zh": "频率",
+     "zhBack": "每秒通过某一点的完整波的数量。"
+    },
+    {
+     "front": "hertz (Hz)",
+     "back": "The unit used to measure frequency. One hertz equals one wave per second.",
+     "zh": "赫兹",
+     "zhBack": "频率的单位。1 赫兹 = 每秒 1 个波。"
+    },
+    {
+     "front": "medium",
+     "back": "A substance or material through which a wave travels.",
+     "zh": "介质",
+     "zhBack": "波传播时经过的物质。"
+    },
+    {
+     "front": "vibration",
+     "back": "A repeated movement backwards and forwards around a resting position.",
+     "zh": "振动",
+     "zhBack": "在平衡位置附近来回重复的运动。"
+    },
+    {
+     "front": "vacuum",
+     "back": "A space containing no particles.",
+     "zh": "真空",
+     "zhBack": "没有任何粒子的空间。"
+    },
+    {
+     "front": "compression",
+     "back": "A region of a longitudinal wave where particles are close together.",
+     "zh": "密部",
+     "zhBack": "纵波中粒子靠得很近的区域。"
+    },
+    {
+     "front": "rarefaction",
+     "back": "A region of a longitudinal wave where particles are spread further apart.",
+     "zh": "疏部",
+     "zhBack": "纵波中粒子分得更开的区域。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the 12 key words for waves.",
+    "zh": "我现在能解释 12 个关于波的关键词。"
+   }
+  },
+  {
+   "id": "wavematch",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "B1 Waves: Match Game",
+    "zh": "B1 波：配对游戏"
+   },
+   "intro": {
+    "en": "Tap a word, then tap its meaning. Take your time.",
+    "zh": "先点一个词，再点它的意思。慢慢来。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "wave",
+     "b": "moves energy from place to place"
+    },
+    {
+     "a": "transverse wave",
+     "b": "vibrations at 90° to travel"
+    },
+    {
+     "a": "longitudinal wave",
+     "b": "vibrations parallel to travel"
+    },
+    {
+     "a": "amplitude",
+     "b": "rest position to the top"
+    },
+    {
+     "a": "wavelength",
+     "b": "crest to crest"
+    },
+    {
+     "a": "frequency",
+     "b": "waves passing each second"
+    },
+    {
+     "a": "hertz (Hz)",
+     "b": "unit of frequency"
+    },
+    {
+     "a": "medium",
+     "b": "material a wave travels through"
+    },
+    {
+     "a": "vibration",
+     "b": "moving back and forth again and again"
+    },
+    {
+     "a": "vacuum",
+     "b": "space with no particles"
+    },
+    {
+     "a": "compression",
+     "b": "particles squashed close"
+    },
+    {
+     "a": "rarefaction",
+     "b": "particles spread apart"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match the wave words to their meanings.",
+    "zh": "我现在能把波的词汇和意思配对。"
+   }
+  },
+  {
+   "id": "soundcards",
+   "type": "flashcards",
+   "icon": "👂",
+   "title": {
+    "en": "B2 and B3 Sound and Hearing: Key Words",
+    "zh": "B2 和 B3 声音和听觉：关键词"
+   },
+   "subtitle": {
+    "en": "15 words",
+    "zh": "15 个词"
+   },
+   "intro": {
+    "en": "Sound words first, then the ear from outside to inside: pinna, auditory canal, eardrum, ossicles, cochlea, auditory nerve.",
+    "zh": "先学声音的词，再学耳朵从外到内：耳廓、外耳道、鼓膜、听小骨、耳蜗、听神经。"
+   },
+   "cards": [
+    {
+     "front": "pitch",
+     "back": "How high or low a sound seems. It depends on the frequency of the sound wave.",
+     "zh": "音调",
+     "zhBack": "声音听起来有多高或多低，由频率决定。"
+    },
+    {
+     "front": "volume / loudness",
+     "back": "How loud or quiet a sound seems. It is related to the amplitude and intensity of the sound wave.",
+     "zh": "响度",
+     "zhBack": "声音听起来有多大或多小，和振幅有关。"
+    },
+    {
+     "front": "decibel (dB)",
+     "back": "The unit used to measure sound level. The decibel scale is logarithmic.",
+     "zh": "分贝",
+     "zhBack": "测量声音大小的单位。"
+    },
+    {
+     "front": "audible range",
+     "back": "The range of sound frequencies that an animal can hear. For humans, this is approximately 20 Hz to 20,000 Hz.",
+     "zh": "可听范围",
+     "zhBack": "能听到的声音频率范围，人类大约是 20 到 20,000 赫兹。"
+    },
+    {
+     "front": "ultrasound",
+     "back": "Sound with a frequency higher than 20,000 Hz, above the usual human hearing range.",
+     "zh": "超声波",
+     "zhBack": "频率高于 20,000 赫兹的声音。"
+    },
+    {
+     "front": "infrasound",
+     "back": "Sound with a frequency lower than 20 Hz, below the usual human hearing range.",
+     "zh": "次声波",
+     "zhBack": "频率低于 20 赫兹的声音。"
+    },
+    {
+     "front": "echo",
+     "back": "A sound heard again after it has reflected off a surface.",
+     "zh": "回声",
+     "zhBack": "声音碰到表面反射回来后，又被听到。"
+    },
+    {
+     "front": "echolocation",
+     "back": "The use of reflected sound waves to detect objects and determine their position or distance.",
+     "zh": "回声定位",
+     "zhBack": "用反射回来的声波找到物体，判断位置或距离。"
+    },
+    {
+     "front": "sonar",
+     "back": "A system that uses reflected sound waves to detect objects and measure distances, commonly underwater.",
+     "zh": "声呐",
+     "zhBack": "用反射声波探测物体、测量距离的系统，常用在水下。"
+    },
+    {
+     "front": "pinna",
+     "back": "The visible outer part of the ear that collects sound waves.",
+     "zh": "耳廓",
+     "zhBack": "耳朵外面看得到的部分，收集声波。"
+    },
+    {
+     "front": "auditory canal",
+     "back": "The tube that carries sound waves from the pinna to the eardrum.",
+     "zh": "外耳道",
+     "zhBack": "把声波从耳廓传到鼓膜的管道。"
+    },
+    {
+     "front": "eardrum",
+     "back": "A thin membrane that vibrates when sound waves reach it.",
+     "zh": "鼓膜",
+     "zhBack": "声波到达时会振动的一层薄膜。"
+    },
+    {
+     "front": "ossicles",
+     "back": "Three tiny bones in the middle ear that transmit and amplify vibrations from the eardrum to the inner ear.",
+     "zh": "听小骨",
+     "zhBack": "中耳里的三块小骨头，把振动传到内耳并放大。"
+    },
+    {
+     "front": "cochlea",
+     "back": "A spiral-shaped structure in the inner ear that converts vibrations into electrical signals.",
+     "zh": "耳蜗",
+     "zhBack": "内耳里螺旋形的结构，把振动变成电信号。"
+    },
+    {
+     "front": "auditory nerve",
+     "back": "The nerve that carries electrical signals from the cochlea to the brain.",
+     "zh": "听神经",
+     "zhBack": "把电信号从耳蜗传到大脑的神经。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words for sound and the parts of the ear.",
+    "zh": "我现在能解释声音的关键词和耳朵的各个部分。"
+   }
+  },
+  {
+   "id": "wavequiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "🔊",
+   "title": {
+    "en": "B1 to B3 Quiz: Waves and Sound",
+    "zh": "B1 到 B3 小测：波和声音"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "The big rule: pitch = frequency ONLY, loudness = amplitude ONLY.",
+    "zh": "最重要的规则：音调只看频率，响度只看振幅。"
+   },
+   "questions": [
+    {
+     "q": "Which kind of wave is SOUND?",
+     "options": [
+      "transverse",
+      "longitudinal",
+      "electromagnetic",
+      "light"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "In sound, particles vibrate backwards and forwards in the SAME direction the wave travels: longitudinal.",
+      "zh": "声音里粒子来回振动的方向和波传播方向相同：纵波。"
+     }
+    },
+    {
+     "q": "PITCH depends on...",
+     "options": [
+      "frequency",
+      "amplitude",
+      "speed",
+      "the medium"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Pitch = frequency ONLY. More waves each second = higher pitch.",
+      "zh": "音调只看频率。每秒波越多，音调越高。"
+     }
+    },
+    {
+     "q": "LOUDNESS depends on...",
+     "options": [
+      "frequency",
+      "amplitude",
+      "wavelength",
+      "pitch"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Loudness = amplitude ONLY. Taller wave = louder sound.",
+      "zh": "响度只看振幅。波越高，声音越大。"
+     }
+    },
+    {
+     "q": "50 waves pass a point in 2 seconds. What is the frequency?",
+     "options": [
+      "25 Hz",
+      "100 Hz",
+      "52 Hz",
+      "48 Hz"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Frequency = number of waves ÷ time = 50 ÷ 2 = 25 Hz.",
+      "zh": "频率 = 波的数量 ÷ 时间 = 50 ÷ 2 = 25 赫兹。"
+     }
+    },
+    {
+     "q": "Why can sound NOT travel through space?",
+     "options": [
+      "Space is too cold.",
+      "Space is a vacuum with no particles.",
+      "Sound is too slow.",
+      "Space is too dark."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Sound needs a medium (particles) to vibrate. A vacuum has no particles.",
+      "zh": "声音需要介质（粒子）来振动。真空里没有粒子。"
+     }
+    },
+    {
+     "q": "Humans can hear about...",
+     "options": [
+      "20 Hz to 20,000 Hz",
+      "2 Hz to 200 Hz",
+      "200 Hz to 2,000 Hz",
+      "20,000 Hz to 200,000 Hz"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The human audible range is about 20 Hz to 20,000 Hz.",
+      "zh": "人类的可听范围大约是 20 到 20,000 赫兹。"
+     }
+    },
+    {
+     "q": "Sound with a frequency HIGHER than 20,000 Hz is called...",
+     "options": [
+      "infrasound",
+      "ultrasound",
+      "an echo",
+      "sonar"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Ultra = beyond. Ultrasound is above human hearing. Infrasound is below 20 Hz.",
+      "zh": "ultra = 超过。超声波高于人类听力范围，次声波低于 20 赫兹。"
+     }
+    },
+    {
+     "q": "Which order is correct for sound going into the ear?",
+     "options": [
+      "pinna → auditory canal → eardrum → ossicles → cochlea",
+      "eardrum → pinna → cochlea → ossicles → auditory canal",
+      "cochlea → ossicles → eardrum → auditory canal → pinna",
+      "pinna → eardrum → auditory canal → cochlea → ossicles"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Outside to inside: pinna, auditory canal, eardrum, ossicles, cochlea, then the auditory nerve to the brain.",
+      "zh": "从外到内：耳廓、外耳道、鼓膜、听小骨、耳蜗，再由听神经传到大脑。"
+     }
+    },
+    {
+     "q": "Amplitude is measured from...",
+     "options": [
+      "crest to trough",
+      "the rest position to the crest",
+      "crest to crest",
+      "trough to trough"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Amplitude = the biggest distance from the resting position. Crest to crest is the wavelength.",
+      "zh": "振幅 = 离开平衡位置的最大距离。波峰到波峰是波长。"
+     }
+    },
+    {
+     "q": "You see lightning BEFORE you hear thunder because...",
+     "options": [
+      "light travels much faster than sound",
+      "sound is louder than light",
+      "thunder happens first",
+      "light is a longitudinal wave"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Light travels about 300,000 km every second. Sound in air is only about 340 m every second.",
+      "zh": "光每秒大约走 300,000 公里，空气中的声音每秒只走大约 340 米。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain pitch, loudness, frequency and how we hear.",
+    "zh": "我现在能解释音调、响度、频率，以及我们怎样听到声音。"
+   }
+  }
+ ]
+}
