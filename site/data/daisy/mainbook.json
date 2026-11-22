@@ -1,0 +1,932 @@
+{
+ "intro": {
+  "en": "Your Main Book. Learn one chapter at a time with Roy. Every new word is explained first.",
+  "zh": "你的主课本。和 Roy 老师一章一章地学。每个新词都先解释。"
+ },
+ "parts": [
+  {
+   "id": "R",
+   "title": {
+    "en": "Reading: Point of View, Perspective and Theme",
+    "zh": "阅读：视角、看法和主题"
+   }
+  },
+  {
+   "id": "M",
+   "title": {
+    "en": "Maths: Fractions (Chapter 4)",
+    "zh": "数学：分数（第 4 章）"
+   }
+  },
+  {
+   "id": "E",
+   "title": {
+    "en": "English: Sentences, Spelling and Speech",
+    "zh": "英语：句子、拼写和演讲"
+   }
+  }
+ ],
+ "chapters": [
+  {
+   "code": "R1",
+   "part": "R",
+   "title": {
+    "en": "Narrator and Dialogue",
+    "zh": "叙述者和对话"
+   },
+   "slides": [
+    {
+     "icon": "📖",
+     "title": {
+      "en": "Every story has a narrator",
+      "zh": "每个故事都有叙述者"
+     },
+     "points": [
+      {
+       "en": "The narrator is the person who TELLS the story.",
+       "zh": "叙述者就是讲故事的人。"
+      },
+      {
+       "en": "Sometimes the narrator is in the story. Sometimes the narrator is outside the story.",
+       "zh": "有时叙述者在故事里，有时在故事外面。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🗣️📖",
+        "en": "narrator = the storyteller",
+        "zh": "叙述者 = 讲故事的人"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "💬",
+     "title": {
+      "en": "Dialogue 对话",
+      "zh": "对话 dialogue"
+     },
+     "points": [
+      {
+       "en": "Dialogue = the words the characters SAY. They are inside speech marks \" \".",
+       "zh": "对话 = 人物说的话，写在引号 \" \" 里。"
+      },
+      {
+       "en": "\"I love swimming!\" shouted James. The dialogue is: I love swimming!",
+       "zh": "\"I love swimming!\" shouted James. 对话是：I love swimming!"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "\"words inside speech marks\" = dialogue",
+       "zh": "\"引号里的话\" = 对话"
+      }
+     },
+     "remember": {
+      "en": "Dialogue is a trap for clue words. Cover it!",
+      "zh": "对话是找线索词的陷阱，要遮住！"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in R1.",
+    "zh": "我现在能解释 R1 的重点。"
+   }
+  },
+  {
+   "code": "R2",
+   "part": "R",
+   "title": {
+    "en": "Point of View: First, Second, Third",
+    "zh": "视角：第一、第二、第三人称"
+   },
+   "slides": [
+    {
+     "icon": "🔍",
+     "title": {
+      "en": "Point of view = WHO tells the story",
+      "zh": "视角 = 谁在讲故事"
+     },
+     "points": [
+      {
+       "en": "Point of view tells us WHO the narrator is. We find it with clue words.",
+       "zh": "视角告诉我们叙述者是谁。我们用线索词来找。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "✋",
+        "en": "1. Cover the dialogue",
+        "zh": "1. 遮住对话"
+       },
+       {
+        "icon": "🔍",
+        "en": "2. Find clue words",
+        "zh": "2. 找线索词"
+       },
+       {
+        "icon": "✅",
+        "en": "3. Choose first, second or third",
+        "zh": "3. 选第一、第二或第三人称"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🙋‍♀️",
+     "title": {
+      "en": "First person 第一人称",
+      "zh": "第一人称 first person"
+     },
+     "points": [
+      {
+       "en": "The narrator is IN the story and tells it. Clue words: I, me, my, we, us, our.",
+       "zh": "叙述者在故事里面讲故事。线索词：I、me、my、we、us、our。"
+      },
+      {
+       "en": "Example: We packed our bags and ran to the bus.",
+       "zh": "例子：We packed our bags and ran to the bus."
+      }
+     ]
+    },
+    {
+     "icon": "👉",
+     "title": {
+      "en": "Second person 第二人称",
+      "zh": "第二人称 second person"
+     },
+     "points": [
+      {
+       "en": "The narrator talks straight to YOU, the reader. Clue words: you, your.",
+       "zh": "叙述者直接对你（读者）说话。线索词：you、your。"
+      },
+      {
+       "en": "Example: Have you ever eaten durian? You will never forget the smell!",
+       "zh": "例子：Have you ever eaten durian? You will never forget the smell!"
+      }
+     ]
+    },
+    {
+     "icon": "👥",
+     "title": {
+      "en": "Third person 第三人称",
+      "zh": "第三人称 third person"
+     },
+     "points": [
+      {
+       "en": "The narrator is OUTSIDE the story. Clue words: he, she, they, him, her, names.",
+       "zh": "叙述者在故事外面。线索词：he、she、they、him、her、名字。"
+      },
+      {
+       "en": "Example: Sophie bought a photo card. She smiled all the way home.",
+       "zh": "例子：Sophie bought a photo card. She smiled all the way home."
+      }
+     ]
+    },
+    {
+     "icon": "✋",
+     "title": {
+      "en": "Careful: cover the dialogue!",
+      "zh": "小心：遮住对话！"
+     },
+     "points": [
+      {
+       "en": "\"You are my best friend!\" Lily told Emma. Then they hugged.",
+       "zh": "\"You are my best friend!\" Lily told Emma. Then they hugged."
+      },
+      {
+       "en": "\"You\" is inside the speech marks, so it does not count. Clue words left: Lily, Emma, they. Third person!",
+       "zh": "“You” 在引号里，不算。剩下的线索词：Lily、Emma、they。第三人称！"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in R2.",
+    "zh": "我现在能解释 R2 的重点。"
+   }
+  },
+  {
+   "code": "R3",
+   "part": "R",
+   "title": {
+    "en": "Objective, Limited, Omniscient",
+    "zh": "客观、有限、全知"
+   },
+   "slides": [
+    {
+     "icon": "🧠",
+     "title": {
+      "en": "Third person has 3 kinds",
+      "zh": "第三人称有 3 种"
+     },
+     "points": [
+      {
+       "en": "Ask: whose FEELINGS or THOUGHTS do I know?",
+       "zh": "问：我知道谁的感受或想法？"
+      },
+      {
+       "en": "Feelings words: felt, wished, hoped, was scared, was happy, wanted.",
+       "zh": "感受词：felt、wished、hoped、was scared、was happy、wanted。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "📷",
+        "en": "nobody's: objective",
+        "zh": "没有人：客观"
+       },
+       {
+        "icon": "1️⃣",
+        "en": "one person's: limited",
+        "zh": "一个人：有限"
+       },
+       {
+        "icon": "🌍",
+        "en": "everyone's: omniscient",
+        "zh": "所有人：全知"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "📷",
+     "title": {
+      "en": "Objective 客观: like a camera",
+      "zh": "客观：像摄像机"
+     },
+     "points": [
+      {
+       "en": "We only SEE what people do. We know nobody's feelings.",
+       "zh": "我们只看到人们做什么，不知道任何人的感受。"
+      },
+      {
+       "en": "Example: The swimmers dived into the pool. The crowd clapped.",
+       "zh": "例子：The swimmers dived into the pool. The crowd clapped."
+      }
+     ]
+    },
+    {
+     "icon": "1️⃣",
+     "title": {
+      "en": "Limited 有限: one mind",
+      "zh": "有限：一个人的想法"
+     },
+     "points": [
+      {
+       "en": "We know the feelings of ONLY ONE person.",
+       "zh": "我们只知道一个人的感受。"
+      },
+      {
+       "en": "Example: Tom smiled at the new girl. He hoped she would sit next to him. (Only Tom's feelings.)",
+       "zh": "例子：Tom smiled at the new girl. He hoped she would sit next to him.（只有 Tom 的感受。）"
+      }
+     ]
+    },
+    {
+     "icon": "🌍",
+     "title": {
+      "en": "Omniscient 全知: every mind",
+      "zh": "全知：所有人的想法"
+     },
+     "points": [
+      {
+       "en": "We know the feelings of EVERYONE. \"Omni\" means all.",
+       "zh": "我们知道所有人的感受。omni 的意思是“全部”。"
+      },
+      {
+       "en": "Example: Daisy felt proud. Emma felt jealous. The teacher was delighted.",
+       "zh": "例子：Daisy felt proud. Emma felt jealous. The teacher was delighted."
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in R3.",
+    "zh": "我现在能解释 R3 的重点。"
+   }
+  },
+  {
+   "code": "R4",
+   "part": "R",
+   "title": {
+    "en": "Perspective",
+    "zh": "看法"
+   },
+   "slides": [
+    {
+     "icon": "👓",
+     "title": {
+      "en": "Perspective 看法",
+      "zh": "看法 perspective"
+     },
+     "points": [
+      {
+       "en": "Perspective = HOW a character sees something, because of their own life, beliefs and opinions.",
+       "zh": "看法 = 人物怎样看一件事，因为他们自己的经历、想法和观点。"
+      },
+      {
+       "en": "Point of view = WHO tells the story. Perspective = HOW someone sees it. They are different!",
+       "zh": "视角 = 谁讲故事。看法 = 怎样看。它们不一样！"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏊‍♀️😢",
+        "en": "Daisy: sad, no swimming in the rain",
+        "zh": "Daisy：难过，下雨不能游泳"
+       },
+       {
+        "icon": "🌾😊",
+        "en": "Farmer Tom: happy, plants need rain",
+        "zh": "农民 Tom：开心，庄稼需要雨"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Point of view = WHO. Perspective = HOW.",
+      "zh": "视角 = 谁；看法 = 怎样看。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in R4.",
+    "zh": "我现在能解释 R4 的重点。"
+   }
+  },
+  {
+   "code": "R5",
+   "part": "R",
+   "title": {
+    "en": "Theme and Summary",
+    "zh": "主题和概要"
+   },
+   "slides": [
+    {
+     "icon": "📝",
+     "title": {
+      "en": "Summary 概要",
+      "zh": "概要 summary"
+     },
+     "points": [
+      {
+       "en": "A summary tells WHAT HAPPENED in the story, in a few sentences. It uses names.",
+       "zh": "概要用几句话说故事里发生了什么，会用到名字。"
+      },
+      {
+       "en": "Example: Emma found a photo card and gave it back to Sophie.",
+       "zh": "例子：Emma found a photo card and gave it back to Sophie."
+      }
+     ]
+    },
+    {
+     "icon": "💡",
+     "title": {
+      "en": "Theme 主题",
+      "zh": "主题 theme"
+     },
+     "points": [
+      {
+       "en": "The theme is the LIFE LESSON of the story. It is for everyone, so it has NO names.",
+       "zh": "主题是故事的人生道理，适用于每个人，所以没有名字。"
+      },
+      {
+       "en": "Example: Doing the right thing feels better than keeping what is not yours.",
+       "zh": "例子：Doing the right thing feels better than keeping what is not yours."
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "📝",
+        "en": "What happened? = summary",
+        "zh": "发生了什么？= 概要"
+       },
+       {
+        "icon": "🤔",
+        "en": "What did they learn?",
+        "zh": "他们学到了什么？"
+       },
+       {
+        "icon": "💡",
+        "en": "Lesson for everyone = theme",
+        "zh": "给所有人的道理 = 主题"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Has a name? Probably NOT the theme.",
+      "zh": "有名字？多半不是主题。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in R5.",
+    "zh": "我现在能解释 R5 的重点。"
+   }
+  },
+  {
+   "code": "M1",
+   "part": "M",
+   "title": {
+    "en": "Fraction Basics",
+    "zh": "分数基础"
+   },
+   "slides": [
+    {
+     "icon": "🍕",
+     "title": {
+      "en": "What is a fraction? 分数",
+      "zh": "什么是分数？"
+     },
+     "points": [
+      {
+       "en": "A fraction is a PART of a whole. 1/4 of a pizza = 1 piece out of 4 equal pieces.",
+       "zh": "分数是整体的一部分。1/4 个披萨 = 平均分成 4 块中的 1 块。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "1/4",
+       "zh": "1/4"
+      },
+      "example": {
+       "en": "top = parts we have, bottom = equal parts in the whole",
+       "zh": "上面 = 我们有的份数，下面 = 整体平均分成几份"
+      }
+     }
+    },
+    {
+     "icon": "🔢",
+     "title": {
+      "en": "Numerator 分子 and denominator 分母",
+      "zh": "分子和分母"
+     },
+     "points": [
+      {
+       "en": "Numerator = the TOP number. Denominator = the BOTTOM number.",
+       "zh": "分子 = 上面的数。分母 = 下面的数。"
+      },
+      {
+       "en": "In 3/4: numerator 3, denominator 4.",
+       "zh": "在 3/4 里：分子 3，分母 4。"
+      }
+     ]
+    },
+    {
+     "icon": "✂️",
+     "title": {
+      "en": "Simplify 约分",
+      "zh": "约分 simplify"
+     },
+     "points": [
+      {
+       "en": "Simplify = make the numbers smaller but keep the same amount. Divide top AND bottom by the same number.",
+       "zh": "约分 = 让数字变小，但大小不变。分子和分母同时除以同一个数。"
+      },
+      {
+       "en": "6/12: divide both by 6 → 1/2.",
+       "zh": "6/12：两个都除以 6 → 1/2。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "6/12 = 1/2",
+       "zh": "6/12 = 1/2"
+      },
+      "example": {
+       "en": "÷ 6 on top and bottom",
+       "zh": "上下都 ÷ 6"
+      }
+     }
+    },
+    {
+     "icon": "🧁",
+     "title": {
+      "en": "Improper fractions and mixed numbers",
+      "zh": "假分数和带分数"
+     },
+     "points": [
+      {
+       "en": "Improper fraction 假分数: top is BIGGER than the bottom, like 6/5.",
+       "zh": "假分数：分子比分母大，比如 6/5。"
+      },
+      {
+       "en": "Mixed number 带分数: a whole number and a fraction, like 1 1/5. 6/5 = 1 1/5 because 6 ÷ 5 = 1 remainder 1.",
+       "zh": "带分数：整数加分数，比如 1 1/5。6/5 = 1 1/5，因为 6 ÷ 5 = 1 余 1。"
+      }
+     ]
+    },
+    {
+     "icon": "1️⃣",
+     "title": {
+      "en": "A whole number as a fraction",
+      "zh": "整数写成分数"
+     },
+     "points": [
+      {
+       "en": "Any whole number can go over 1: 3 = 3/1, 6 = 6/1.",
+       "zh": "任何整数都可以写成分母是 1 的分数：3 = 3/1，6 = 6/1。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in M1.",
+    "zh": "我现在能解释 M1 的重点。"
+   }
+  },
+  {
+   "code": "M2",
+   "part": "M",
+   "title": {
+    "en": "Multiply Fractions",
+    "zh": "分数乘法"
+   },
+   "slides": [
+    {
+     "icon": "✖️",
+     "title": {
+      "en": "Multiply fractions",
+      "zh": "分数乘法"
+     },
+     "points": [
+      {
+       "en": "Multiply the tops. Multiply the bottoms. Then simplify.",
+       "zh": "分子乘分子，分母乘分母，再约分。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "2/3 × 3/4 = 6/12 = 1/2",
+       "zh": "2/3 × 3/4 = 6/12 = 1/2"
+      },
+      "example": {
+       "en": "top × top, bottom × bottom, simplify",
+       "zh": "分子乘分子，分母乘分母，约分"
+      }
+     }
+    },
+    {
+     "icon": "1️⃣",
+     "title": {
+      "en": "Multiply with a whole number",
+      "zh": "整数乘分数"
+     },
+     "points": [
+      {
+       "en": "Put the whole number over 1 first: 3 × 2/5 = 3/1 × 2/5 = 6/5 = 1 1/5.",
+       "zh": "先把整数写成分母是 1：3 × 2/5 = 3/1 × 2/5 = 6/5 = 1 1/5。"
+      }
+     ]
+    },
+    {
+     "icon": "🧋",
+     "title": {
+      "en": "\"of\" means ×",
+      "zh": "“of” 就是乘"
+     },
+     "points": [
+      {
+       "en": "1/2 of 8 = 1/2 × 8 = 4. Half of the bubble tea = 1/2 × the tea.",
+       "zh": "8 的 1/2 = 1/2 × 8 = 4。奶茶的一半 = 1/2 × 奶茶。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in M2.",
+    "zh": "我现在能解释 M2 的重点。"
+   }
+  },
+  {
+   "code": "M3",
+   "part": "M",
+   "title": {
+    "en": "Divide Fractions",
+    "zh": "分数除法"
+   },
+   "slides": [
+    {
+     "icon": "🔄",
+     "title": {
+      "en": "Divide fractions: Keep, Change, Flip",
+      "zh": "分数除法：不变、变号、倒过来"
+     },
+     "points": [
+      {
+       "en": "KEEP the first fraction. CHANGE ÷ to ×. FLIP the second fraction. Then multiply.",
+       "zh": "第一个分数不变。÷ 变 ×。第二个分数倒过来。再相乘。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔒",
+        "en": "KEEP 3/4",
+        "zh": "不变 3/4"
+       },
+       {
+        "icon": "✖️",
+        "en": "CHANGE ÷ to ×",
+        "zh": "÷ 变 ×"
+       },
+       {
+        "icon": "🔃",
+        "en": "FLIP 1/2 → 2/1",
+        "zh": "倒过来 1/2 → 2/1"
+       },
+       {
+        "icon": "✅",
+        "en": "3/4 × 2/1 = 6/4 = 1 1/2",
+        "zh": "3/4 × 2/1 = 6/4 = 1 1/2"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🍞",
+     "title": {
+      "en": "Why does it work?",
+      "zh": "为什么可以这样？"
+     },
+     "points": [
+      {
+       "en": "3 ÷ 1/2 asks: how many halves fit in 3? Each whole has 2 halves, so 3 × 2 = 6 halves.",
+       "zh": "3 ÷ 1/2 问的是：3 里面有几个一半？每个 1 有 2 个一半，所以 3 × 2 = 6 个。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in M3.",
+    "zh": "我现在能解释 M3 的重点。"
+   }
+  },
+  {
+   "code": "M4",
+   "part": "M",
+   "title": {
+    "en": "Fraction Word Problems",
+    "zh": "分数应用题"
+   },
+   "slides": [
+    {
+     "icon": "🤔",
+     "title": {
+      "en": "Word problems: × or ÷?",
+      "zh": "应用题：乘还是除？"
+     },
+     "points": [
+      {
+       "en": "× : \"of\", \"each day ... in 4 days\" (the same amount many times).",
+       "zh": "乘：“of”，“每天……4 天一共”（同样的量很多次）。"
+      },
+      {
+       "en": "÷ : \"How many ... in ...?\", \"shared equally\", \"each gets\".",
+       "zh": "除：“……里有几个？”，“平均分”，“每人分到”。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔍",
+        "en": "circle the key words",
+        "zh": "圈关键词"
+       },
+       {
+        "icon": "✍️",
+        "en": "write the number sentence",
+        "zh": "写算式"
+       },
+       {
+        "icon": "✅",
+        "en": "check: does it make sense?",
+        "zh": "检查：合理吗？"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "✅",
+     "title": {
+      "en": "Check: does my answer make sense?",
+      "zh": "检查：答案合理吗？"
+     },
+     "points": [
+      {
+       "en": "Sharing makes each part SMALLER. If 4 friends share 2/3 kg, each gets LESS than 2/3 kg.",
+       "zh": "平均分会让每份变小。4 个人分 2/3 千克，每人分到的比 2/3 千克少。"
+      },
+      {
+       "en": "Children come in whole numbers: 1 1/8 children is not possible!",
+       "zh": "孩子的个数是整数：1 1/8 个孩子是不可能的！"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in M4.",
+    "zh": "我现在能解释 M4 的重点。"
+   }
+  },
+  {
+   "code": "E1",
+   "part": "E",
+   "title": {
+    "en": "Complete Sentences and Run-ons",
+    "zh": "完整句子和连写句"
+   },
+   "slides": [
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "A complete sentence",
+      "zh": "完整的句子"
+     },
+     "points": [
+      {
+       "en": "A complete sentence has WHO (subject) + DOES WHAT (verb). It starts with a capital letter and ends with a full stop.",
+       "zh": "完整的句子有“谁”（主语）+“做什么”（动词），以大写字母开头，以句号结尾。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "Daisy swims.",
+       "zh": "Daisy swims."
+      },
+      "example": {
+       "en": "who: Daisy · does what: swims",
+       "zh": "谁：Daisy · 做什么：swims"
+      }
+     }
+    },
+    {
+     "icon": "🚫",
+     "title": {
+      "en": "Run-on sentence 连写句",
+      "zh": "连写句 run-on sentence"
+     },
+     "points": [
+      {
+       "en": "A run-on = two complete sentences joined with nothing, or with only a comma.",
+       "zh": "连写句 = 两个完整的句子连在一起，中间没有东西，或者只有逗号。"
+      },
+      {
+       "en": "Fix 1: full stop + capital letter. Fix 2: comma + and / but / so.",
+       "zh": "改法 1：句号 + 大写。改法 2：逗号 + and / but / so。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "The pool was cold I jumped in.",
+       "zh": "The pool was cold I jumped in."
+      },
+      "example": {
+       "en": "→ The pool was cold, but I jumped in.",
+       "zh": "→ The pool was cold, but I jumped in."
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in E1.",
+    "zh": "我现在能解释 E1 的重点。"
+   }
+  },
+  {
+   "code": "E2",
+   "part": "E",
+   "title": {
+    "en": "Spelling: Adding -ion",
+    "zh": "拼写：加 -ion"
+   },
+   "slides": [
+    {
+     "icon": "🔤",
+     "title": {
+      "en": "Spelling: adding -ion",
+      "zh": "拼写：加 -ion"
+     },
+     "points": [
+      {
+       "en": "Add -ion to a verb (doing word) to make a noun (thing word): discuss → discussion.",
+       "zh": "在动词后加 -ion 变成名词：discuss → discussion。"
+      },
+      {
+       "en": "Ends in e? Drop the e first: evaluate → evaluation, operate → operation.",
+       "zh": "以 e 结尾？先去掉 e：evaluate → evaluation，operate → operation。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🗣️",
+        "en": "discuss → discussion",
+        "zh": "讨论"
+       },
+       {
+        "icon": "📋",
+        "en": "instruct → instruction",
+        "zh": "指示"
+       },
+       {
+        "icon": "🔎",
+        "en": "investigate → investigation",
+        "zh": "调查"
+       },
+       {
+        "icon": "✍️",
+        "en": "punctuate → punctuation",
+        "zh": "标点"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in E2.",
+    "zh": "我现在能解释 E2 的重点。"
+   }
+  },
+  {
+   "code": "E3",
+   "part": "E",
+   "title": {
+    "en": "My Narrative Speech",
+    "zh": "我的个人经历演讲"
+   },
+   "slides": [
+    {
+     "icon": "🎤",
+     "title": {
+      "en": "The 5 parts of a narrative speech",
+      "zh": "个人经历演讲的 5 个部分"
+     },
+     "points": [
+      {
+       "en": "1 Introduction: grab attention (Have you ever...?). 2 Beginning: when, where, who. 3 Middle: the problem or surprise.",
+       "zh": "1 开场：吸引听众。2 开始：时间、地点、人物。3 中间：问题或惊喜。"
+      },
+      {
+       "en": "4 End: how it ended and how you felt. 5 Conclusion: what you learned (This experience taught me that...).",
+       "zh": "4 结尾：结果和感受。5 总结：学到了什么。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "❓",
+        "en": "Introduction",
+        "zh": "开场"
+       },
+       {
+        "icon": "📍",
+        "en": "Beginning",
+        "zh": "开始"
+       },
+       {
+        "icon": "⚡",
+        "en": "Middle",
+        "zh": "中间"
+       },
+       {
+        "icon": "🏁",
+        "en": "End",
+        "zh": "结尾"
+       },
+       {
+        "icon": "💡",
+        "en": "Conclusion",
+        "zh": "总结"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key ideas in E3.",
+    "zh": "我现在能解释 E3 的重点。"
+   }
+  }
+ ]
+}
