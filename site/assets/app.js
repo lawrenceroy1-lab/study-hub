@@ -942,7 +942,8 @@
           opts.forEach(function (b, j) { b.disabled = true; b.classList.add(j === it.answer ? 'right' : j === picked ? 'picked-wrong' : 'faded'); });
           add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite'))));
         }
-        add(fb, h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Answer: ', '答案：')), rich(it.right)),
+        add(fb, h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Answer: ', '答案：')), rich(it.right),
+            it.visual && !it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null),
           it.why ? h('div', { class: 'box teach' }, h('b', null, T('why') + ': '), bi(it.why, true)) : null,
           it.whyWrong ? h('div', { class: 'box hint' }, h('b', null, '🤔 ' + L('Common mistake: ', '常见错误：')), bi(it.whyWrong, true)) : null);
         if (!auto) add(fb, h('div', { class: 'row center' },
@@ -955,6 +956,7 @@
         h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / items.length) + '%' })),
         it.n ? h('div', { class: 'muted small' }, it.n) : null,
         h('div', { class: 'box q' }, rich(it.q)),
+        it.visual && it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
         opts ? h('div', { class: 'answers' }, opts) : h('div', { class: 'muted' }, L('Say or write your answer first.', '先说出或写下你的答案。')),
         opts ? null : h('div', { class: 'row center' }, h('button', { class: 'btn big blue', onclick: function () { if (!shown) reveal(); } }, '👀 ' + L('Show the answer', '看答案'))),
         fb,

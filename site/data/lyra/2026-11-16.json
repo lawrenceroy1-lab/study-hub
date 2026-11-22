@@ -3271,6 +3271,20 @@
        "why": {
         "en": "Same colour = same kind of atom, so it is an element (a molecule of an element, like O₂).",
         "zh": "颜色相同 = 同一种原子，所以是元素（元素的分子，比如 O₂）。"
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "sample: 2 same atoms joined = element",
+           "zh": "样例：2 个相同原子结合 = 元素"
+          },
+          "items": [
+           "rr"
+          ]
+         }
+        ]
        }
       },
       {
@@ -3280,6 +3294,20 @@
        "why": {
         "en": "Different colours joined = different atoms chemically joined = compound.",
         "zh": "不同颜色结合 = 不同原子化学结合 = 化合物。"
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "sample: 2 different atoms joined = compound",
+           "zh": "样例：2 个不同原子结合 = 化合物"
+          },
+          "items": [
+           "rb"
+          ]
+         }
+        ]
        }
       }
      ]
@@ -3297,7 +3325,27 @@
        "why": {
         "en": "Red-blue pairs = different atoms joined = compound. Single blue atoms = element. Together: a mixture of an element and a compound.",
         "zh": "红蓝一对 = 不同原子结合 = 化合物。单个蓝原子 = 元素。合起来：元素和化合物的混合物。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "box A",
+           "zh": "方框 A"
+          },
+          "items": [
+           "rb",
+           "b",
+           "rb",
+           "b",
+           "rb",
+           "b"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 3 Part A, box B",
@@ -3306,7 +3354,27 @@
        "why": {
         "en": "Every particle is the same: two blue atoms joined. Same atoms = element; joined = molecules.",
         "zh": "每个粒子都一样：两个蓝原子结合。相同原子 = 元素；结合 = 分子。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "box B",
+           "zh": "方框 B"
+          },
+          "items": [
+           "bb",
+           "bb",
+           "bb",
+           "bb",
+           "bb",
+           "bb"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 3 Part A, box C",
@@ -3315,7 +3383,27 @@
        "why": {
         "en": "Blue-blue = an element. Single red atoms = another element. Not joined to each other: a mixture of two elements.",
         "zh": "蓝蓝 = 一种元素，单个红原子 = 另一种元素，彼此没有结合：两种元素的混合物。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "box C",
+           "zh": "方框 C"
+          },
+          "items": [
+           "bb",
+           "r",
+           "bb",
+           "r",
+           "bb",
+           "r"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 3 Part A, box D",
@@ -3324,7 +3412,27 @@
        "why": {
         "en": "One kind of atom, not joined: an element made of single atoms.",
         "zh": "只有一种原子，没有结合：由单个原子组成的元素。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "box D",
+           "zh": "方框 D"
+          },
+          "items": [
+           "y",
+           "y",
+           "y",
+           "y",
+           "y",
+           "y"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 3 Part A, box E",
@@ -3333,7 +3441,27 @@
        "why": {
         "en": "All particles the same (pure), and each has different atoms joined: compound.",
         "zh": "所有粒子都一样（纯净物），每个粒子里不同原子结合：化合物。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "box E",
+           "zh": "方框 E"
+          },
+          "items": [
+           "yry",
+           "yry",
+           "yry",
+           "yry",
+           "yry",
+           "yry"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 3 Part A, box F",
@@ -3342,12 +3470,51 @@
        "why": {
         "en": "Yellow-red-yellow = compound. Blue-blue = same atoms = element. So: a mixture of an element and a compound.",
         "zh": "黄红黄 = 化合物。蓝蓝 = 相同原子 = 元素。所以是元素和化合物的混合物。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "box F",
+           "zh": "方框 F"
+          },
+          "items": [
+           "yry",
+           "bb",
+           "yry",
+           "bb",
+           "yry",
+           "bb"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 3 Part B, 1",
        "q": "Draw a mixture of two elements.",
-       "right": "two kinds of element particle, not joined to each other"
+       "right": "two kinds of element particle, not joined to each other",
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "sample: mixture of two elements",
+           "zh": "样例：两种元素的混合物"
+          },
+          "items": [
+           "r",
+           "bb",
+           "r",
+           "bb",
+           "r",
+           "bb"
+          ]
+         }
+        ]
+       }
       },
       {
        "n": "Page 3 Part B, 2",
@@ -3356,6 +3523,22 @@
        "why": {
         "en": "H₂O = 1 oxygen + 2 hydrogen joined. Three molecules = three of these groups (9 atoms).",
         "zh": "H₂O = 1 个氧 + 2 个氢结合。三个分子 = 三组（一共 9 个原子）。"
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "sample: 3 water molecules (H₂O)",
+           "zh": "样例：3 个水分子 (H₂O)"
+          },
+          "items": [
+           "wdw",
+           "wdw",
+           "wdw"
+          ]
+         }
+        ]
        }
       },
       {
@@ -3365,6 +3548,25 @@
        "why": {
         "en": "You need both kinds: same-colour particles for the element and different-colour joined particles for the compound.",
         "zh": "两种都要有：颜色相同的粒子是元素，颜色不同结合的粒子是化合物。"
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "sample: element + compound",
+           "zh": "样例：元素 + 化合物"
+          },
+          "items": [
+           "rr",
+           "rb",
+           "rr",
+           "rb",
+           "rr",
+           "rb"
+          ]
+         }
+        ]
        }
       },
       {
@@ -3374,7 +3576,27 @@
        "why": {
         "en": "Not touching = not joined = mixture.",
         "zh": "没有碰在一起 = 没有结合 = 混合物。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "not touching = mixture",
+           "zh": "没有碰在一起 = 混合物"
+          },
+          "items": [
+           "r",
+           "b",
+           "r",
+           "b",
+           "r",
+           "b"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       }
      ]
     },
@@ -3472,7 +3694,22 @@
        "why": {
         "en": "2 hydrogen + 2 oxygen atoms = H₂O₂.",
         "zh": "2 个氢 + 2 个氧 = H₂O₂。"
-       }
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "H₂O₂: H, O, O, H joined",
+           "zh": "H₂O₂：H、O、O、H 连在一起"
+          },
+          "items": [
+           "wddw"
+          ]
+         }
+        ]
+       },
+       "visualFirst": true
       },
       {
        "n": "Page 4 Part C, 5",
@@ -3920,7 +4157,42 @@
       {
        "n": "Page 8 Part A",
        "q": "Draw about 12 particles for a liquid and a gas.",
-       "right": "liquid: close, random; gas: far apart"
+       "right": "liquid: close, random; gas: far apart",
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "liquid: close, random",
+           "zh": "液体：靠近、无序"
+          },
+          "items": [
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d"
+          ],
+          "cols": 4
+         },
+         {
+          "label": {
+           "en": "gas: far apart",
+           "zh": "气体：离得很远"
+          },
+          "items": [
+           "d",
+           "d",
+           "d",
+           "d"
+          ],
+          "cols": 2
+         }
+        ]
+       }
       },
       {
        "n": "Page 8 Part A",
@@ -3929,6 +4201,30 @@
        "why": {
         "en": "Solid particles are close together in NEAT ROWS, like students sitting in class.",
         "zh": "固体粒子紧紧排成整齐的行，像学生坐在教室里。"
+       },
+       "visual": {
+        "type": "particles",
+        "boxes": [
+         {
+          "label": {
+           "en": "solid: touching, neat rows",
+           "zh": "固体：挨着，排整齐"
+          },
+          "items": [
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d",
+           "d"
+          ],
+          "neat": true,
+          "cols": 3
+         }
+        ]
        }
       },
       {
@@ -4059,6 +4355,17 @@
        "why": {
         "en": "First column = what you change. Put units (g) in the headings.",
         "zh": "第一列 = 你改变的东西。表头里写上单位 (g)。"
+       },
+       "visual": {
+        "type": "formula",
+        "main": {
+         "en": "metal | mass before (g) | mass after (g) | change in mass (g)",
+         "zh": "金属 | 加热前质量 (g) | 加热后质量 (g) | 质量变化 (g)"
+        },
+        "example": {
+         "en": "one row for each of the 3 metals",
+         "zh": "3 种金属，每种一行"
+        }
        }
       },
       {
