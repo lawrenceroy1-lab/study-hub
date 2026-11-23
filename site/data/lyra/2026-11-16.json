@@ -4520,6 +4520,11 @@
     "atomfill",
     "kp-atoms",
     "extrahw"
+   ],
+   "book": [
+    "A1",
+    "A2",
+    "A3"
    ]
   },
   {
@@ -4538,6 +4543,11 @@
     "deck-name",
     "deck-react",
     "hw-mon"
+   ],
+   "book": [
+    "A4",
+    "A5",
+    "A6"
    ]
   },
   {
@@ -4554,6 +4564,10 @@
    "activities": [
     "deck-state",
     "hw-tue"
+   ],
+   "book": [
+    "A7",
+    "A8"
    ]
   },
   {
@@ -4573,6 +4587,11 @@
     "wavematch",
     "soundcards",
     "wavequiz"
+   ],
+   "book": [
+    "B1",
+    "B2",
+    "B3"
    ]
   }
  ]

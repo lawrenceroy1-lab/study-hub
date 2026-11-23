@@ -930,6 +930,21 @@
     });
     return out.length ? h('div', { class: 'feature-row' }, out) : null;
   }
+  /* Today's Main Book: the chapters taught on this day, copied as buttons into the day page. */
+  function dayBook(d) {
+    if (!d.book || !d.book.length) return null;
+    var row = h('div', { class: 'feature-row' });
+    loadBook().then(function (b) {
+      d.book.forEach(function (code) {
+        var ch = b.chapters.filter(function (c) { return c.code === code; })[0];
+        if (!ch) return;
+        row.appendChild(h('a', { class: 'feature book', href: '#/book/' + code }, h('span', { class: 'fico' }, '📖'),
+          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L("Today's Main Book: ", '今天的主课本：') + code), h('span', { class: 'fsub' }, tx(ch.title)))));
+      });
+    }).catch(function () {});
+    return h('div', null, h('h2', { class: 'section-title' }, '📖 ' + L("Today's Main Book (teach this first)", '今天的主课本（先讲这个）')), row,
+      h('h2', { class: 'section-title' }, '✏️ ' + L("Today's practice", '今天的练习')));
+  }
   function dayName(d) { return d.kind === 'homework' ? L('Homework', '作业') : T('workbook'); }
   function actTile(w, id) {
     var a = (w.activities || []).filter(function (x) { return x.id === id; })[0];
@@ -949,6 +964,7 @@
     show(backLink(), h('h1', null, (d.kind === 'homework' ? '🏠 ' : '📘 ') + dayName(d) + ': ' + dayLabel(date)),
       d.title ? h('h2', null, tx(d.title)) : null,
       d.message ? h('div', { class: 'box teach' }, bi(d.message)) : null,
+      dayBook(d),
       h('div', { class: 'row' },
         start ? h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=book', target: '_blank', rel: 'noopener' }, '📖 ' + L('Main Book', '主课本')) : null,
         h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=work', target: '_blank', rel: 'noopener' }, '📝 ' + L('Workbook to print', '打印练习册')),

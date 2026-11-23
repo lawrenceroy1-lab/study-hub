@@ -25,6 +25,12 @@
     "s-match1",
     "s-quiz1",
     "e-fill"
+   ],
+   "book": [
+    "S1",
+    "S2",
+    "S3",
+    "E1"
    ]
   },
   {
@@ -40,6 +46,11 @@
    },
    "activities": [
     "hw-tue"
+   ],
+   "book": [
+    "S1",
+    "S2",
+    "S3"
    ]
   },
   {
@@ -55,6 +66,9 @@
    },
    "activities": [
     "hw-wed"
+   ],
+   "book": [
+    "E1"
    ]
   },
   {
@@ -70,6 +84,11 @@
    },
    "activities": [
     "hw-thu"
+   ],
+   "book": [
+    "S4",
+    "S5",
+    "S6"
    ]
   },
   {
@@ -88,6 +107,12 @@
     "s-match2",
     "s-quiz2",
     "e-proof"
+   ],
+   "book": [
+    "S4",
+    "S5",
+    "S6",
+    "E2"
    ]
   }
  ],

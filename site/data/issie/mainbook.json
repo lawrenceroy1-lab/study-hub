@@ -12,6 +12,13 @@
    }
   },
   {
+   "id": "W",
+   "title": {
+    "en": "Science: Weather and Climate (book pages 219 to 230)",
+    "zh": "科学：天气和气候（课本第 219 到 230 页）"
+   }
+  },
+  {
    "id": "E",
    "title": {
     "en": "English: Usage and Writing",
@@ -2325,6 +2332,1221 @@
    "canNow": {
     "en": "I can now solve fraction equations with a bar model.",
     "zh": "我现在可以用线段图解分数方程。"
+   }
+  },
+  {
+   "code": "W1",
+   "part": "W",
+   "title": {
+    "en": "Weather and Climate",
+    "zh": "天气和气候"
+   },
+   "slides": [
+    {
+     "icon": "👕",
+     "title": {
+      "en": "Weather and climate: outfit vs wardrobe",
+      "zh": "天气和气候：今天的衣服 vs 整个衣柜"
+     },
+     "points": [
+      {
+       "en": "Weather 天气 = what the air is like TODAY: hot or cold, wet or dry, windy or calm.",
+       "zh": "天气 = 今天空气的样子：热还是冷、湿还是干、有风还是没风。"
+      },
+      {
+       "en": "Climate 气候 = the usual weather of a place over MANY years.",
+       "zh": "气候 = 一个地方很多年来通常的天气。"
+      },
+      {
+       "en": "Weather is your outfit today. Climate is everything in your wardrobe.",
+       "zh": "天气就像你今天穿的衣服。气候就像你整个衣柜。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "👕",
+        "en": "weather = today's outfit",
+        "zh": "天气 = 今天的衣服"
+       },
+       {
+        "icon": "🗄️",
+        "en": "climate = the whole wardrobe",
+        "zh": "气候 = 整个衣柜"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Weather = today. Climate = many years.",
+      "zh": "天气 = 今天；气候 = 很多年。"
+     }
+    },
+    {
+     "icon": "🌍",
+     "title": {
+      "en": "Where weather happens",
+      "zh": "天气在哪里发生"
+     },
+     "points": [
+      {
+       "en": "The atmosphere 大气层 is the layer of air around Earth.",
+       "zh": "大气层是包围地球的一层空气。"
+      },
+      {
+       "en": "Weather happens in the lowest part, called the troposphere 对流层. Clouds, rain and wind are all here.",
+       "zh": "天气发生在最下面一层，叫对流层。云、雨和风都在这里。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W1.",
+    "zh": "我现在能解释 W1 的关键词。"
+   }
+  },
+  {
+   "code": "W2",
+   "part": "W",
+   "title": {
+    "en": "Air Masses",
+    "zh": "气团"
+   },
+   "slides": [
+    {
+     "icon": "🧽",
+     "title": {
+      "en": "Air mass 气团: a giant sponge",
+      "zh": "气团：一块巨大的海绵"
+     },
+     "points": [
+      {
+       "en": "An air mass is a HUGE body of air that has the same temperature and wetness all the way through.",
+       "zh": "气团是一大团空气，里面的温度和湿度都差不多。"
+      },
+      {
+       "en": "Like a giant sponge, it soaks up the temperature and water of the place it sits over.",
+       "zh": "它像一块巨大的海绵，吸收它所停留地方的温度和水分。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧽🌊",
+        "en": "over the ocean → wet",
+        "zh": "在海洋上 → 湿"
+       },
+       {
+        "icon": "🧽🏜️",
+        "en": "over land → dry",
+        "zh": "在陆地上 → 干"
+       },
+       {
+        "icon": "🧽☀️",
+        "en": "near the equator → warm",
+        "zh": "靠近赤道 → 暖"
+       },
+       {
+        "icon": "🧽❄️",
+        "en": "near the poles → cold",
+        "zh": "靠近两极 → 冷"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "📖",
+     "title": {
+      "en": "The 4 air mass words",
+      "zh": "4 个气团词"
+     },
+     "points": [
+      {
+       "en": "Tropical 热带的: HOT, made near the equator where the sun shines straight down.",
+       "zh": "热带的：热，在赤道附近形成，太阳直射。"
+      },
+      {
+       "en": "Polar 极地的: COLD, made near the poles over ice and snow.",
+       "zh": "极地的：冷，在两极附近的冰雪上形成。"
+      },
+      {
+       "en": "Maritime 海洋的: WET, the sponge sat over the ocean, like a wet towel.",
+       "zh": "海洋的：湿，海绵停在海洋上，像湿毛巾。"
+      },
+      {
+       "en": "Continental 大陆的: DRY, the sponge sat over land, like a dry towel.",
+       "zh": "大陆的：干，海绵停在陆地上，像干毛巾。"
+      }
+     ]
+    },
+    {
+     "icon": "🧩",
+     "title": {
+      "en": "Two words = one air mass",
+      "zh": "两个词 = 一种气团"
+     },
+     "points": [
+      {
+       "en": "First word = WHERE the sponge sat (maritime = wet, continental = dry).",
+       "zh": "第一个词 = 海绵停在哪里（maritime = 湿，continental = 干）。"
+      },
+      {
+       "en": "Second word = HOW WARM (tropical = hot, polar = cold).",
+       "zh": "第二个词 = 有多暖（tropical = 热，polar = 冷）。"
+      },
+      {
+       "en": "Maritime polar = wet + cold.",
+       "zh": "Maritime polar（海洋极地气团）= 湿 + 冷。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "maritime + polar = wet + cold",
+       "zh": "海洋的 + 极地的 = 湿 + 冷"
+      }
+     }
+    },
+    {
+     "icon": "🗺️",
+     "title": {
+      "en": "The 4 types of air mass",
+      "zh": "四种气团"
+     },
+     "points": [
+      {
+       "en": "Maritime tropical: warm and wet (over the ocean near the equator).",
+       "zh": "海洋热带气团：暖、湿（在赤道附近的海洋上）。"
+      },
+      {
+       "en": "Maritime polar: cool and wet (over cold northern oceans).",
+       "zh": "海洋极地气团：凉、湿（在北边寒冷的海洋上）。"
+      },
+      {
+       "en": "Continental tropical: hot and dry (over hot land).",
+       "zh": "大陆热带气团：热、干（在炎热的陆地上）。"
+      },
+      {
+       "en": "Continental polar: cold and dry (over cold land, in winter).",
+       "zh": "大陆极地气团：冷、干（冬天在寒冷的陆地上）。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🌊☀️",
+        "en": "maritime tropical = wet + hot",
+        "zh": "湿 + 热"
+       },
+       {
+        "icon": "🌊❄️",
+        "en": "maritime polar = wet + cold",
+        "zh": "湿 + 冷"
+       },
+       {
+        "icon": "🏜️☀️",
+        "en": "continental tropical = dry + hot",
+        "zh": "干 + 热"
+       },
+       {
+        "icon": "🏔️❄️",
+        "en": "continental polar = dry + cold",
+        "zh": "干 + 冷"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W2.",
+    "zh": "我现在能解释 W2 的关键词。"
+   }
+  },
+  {
+   "code": "W3",
+   "part": "W",
+   "title": {
+    "en": "Weather Fronts",
+    "zh": "锋"
+   },
+   "slides": [
+    {
+     "icon": "⚖️",
+     "title": {
+      "en": "Warm air and cold air",
+      "zh": "暖空气和冷空气"
+     },
+     "points": [
+      {
+       "en": "Cold air is HEAVY and sinks, like the cold air that falls on your feet when you open the freezer.",
+       "zh": "冷空气重，会下沉，就像打开冰箱冷冻室时落到脚上的冷气。"
+      },
+      {
+       "en": "Warm air is LIGHT and rises, like a hot air balloon.",
+       "zh": "暖空气轻，会上升，就像热气球。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "❄️⬇️",
+        "en": "cold air: heavy, sinks",
+        "zh": "冷空气：重，下沉"
+       },
+       {
+        "icon": "🎈⬆️",
+        "en": "warm air: light, rises",
+        "zh": "暖空气：轻，上升"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🚧",
+     "title": {
+      "en": "Front 锋: where two air masses meet",
+      "zh": "锋：两种气团相遇的地方"
+     },
+     "points": [
+      {
+       "en": "A front is the leading edge (the front line) of a moving air mass.",
+       "zh": "锋是移动气团最前面的边。"
+      },
+      {
+       "en": "When two different air masses meet, the weather changes. There are 4 kinds of front.",
+       "zh": "两种不同的气团相遇，天气就会变化。锋有 4 种。"
+      }
+     ]
+    },
+    {
+     "icon": "🚜",
+     "title": {
+      "en": "Cold front 冷锋: the bulldozer",
+      "zh": "冷锋：推土机"
+     },
+     "points": [
+      {
+       "en": "Heavy cold air pushes UNDER the warm air and shoves it up FAST and STEEP, like a bulldozer.",
+       "zh": "重的冷空气钻到暖空气下面，把它又快又陡地推上去，像推土机。"
+      },
+      {
+       "en": "Result: tall storm clouds, short heavy rain or thunderstorms, then cooler, clear weather.",
+       "zh": "结果：高高的积雨云，短时大雨或雷暴，然后天气变凉、变晴。"
+      },
+      {
+       "en": "Map symbol: a line with blue triangles.",
+       "zh": "天气图符号：带蓝色三角形的线。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "❄️🚜",
+        "en": "cold air pushes",
+        "zh": "冷空气推"
+       },
+       {
+        "icon": "⬆️💨",
+        "en": "warm air shoved up fast",
+        "zh": "暖空气被快速推上去"
+       },
+       {
+        "icon": "⛈️",
+        "en": "sudden storms",
+        "zh": "突然的暴风雨"
+       },
+       {
+        "icon": "🌤️",
+        "en": "then cool and clear",
+        "zh": "然后凉爽晴朗"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Cold front = bulldozer = sudden storms.",
+      "zh": "冷锋 = 推土机 = 突然的暴风雨。"
+     }
+    },
+    {
+     "icon": "🛝",
+     "title": {
+      "en": "Warm front 暖锋: the ramp",
+      "zh": "暖锋：斜坡"
+     },
+     "points": [
+      {
+       "en": "Light warm air slides SLOWLY up over the cold air, like walking up a gentle ramp.",
+       "zh": "轻的暖空气慢慢滑到冷空气上面，像走上一个缓缓的斜坡。"
+      },
+      {
+       "en": "Result: flat grey layers of cloud, gentle rain for a long time, then warmer, more humid weather.",
+       "zh": "结果：平平的灰色云层，长时间的小雨，然后变暖、更潮湿。"
+      },
+      {
+       "en": "Map symbol: a line with red half circles.",
+       "zh": "天气图符号：带红色半圆的线。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🛝",
+        "en": "warm air slides up slowly",
+        "zh": "暖空气慢慢滑上去"
+       },
+       {
+        "icon": "☁️☁️",
+        "en": "grey flat clouds",
+        "zh": "灰色平云层"
+       },
+       {
+        "icon": "🌧️",
+        "en": "gentle rain all day",
+        "zh": "一整天小雨"
+       },
+       {
+        "icon": "🌡️",
+        "en": "then warmer",
+        "zh": "然后变暖"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Warm front = ramp = gentle rain all day.",
+      "zh": "暖锋 = 斜坡 = 一整天小雨。"
+     }
+    },
+    {
+     "icon": "🏃",
+     "title": {
+      "en": "Occluded and stationary fronts",
+      "zh": "锢囚锋和静止锋"
+     },
+     "points": [
+      {
+       "en": "Occluded front 锢囚锋: a fast runner (cold front) catches a slow walker (warm front) and lifts the warm air right off the ground. Usually light rain.",
+       "zh": "锢囚锋：跑得快的人（冷锋）追上走得慢的人（暖锋），把暖空气整个抬离地面。通常是小雨。"
+      },
+      {
+       "en": "Stationary front 静止锋: a tug of war where nobody wins, so the same rainy weather stays for days.",
+       "zh": "静止锋：拔河谁也拉不动，所以同样的雨天会持续好几天。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏃💨🚶",
+        "en": "occluded: runner catches walker",
+        "zh": "锢囚锋：追上了"
+       },
+       {
+        "icon": "🪢",
+        "en": "stationary: tug of war",
+        "zh": "静止锋：拔河"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W3.",
+    "zh": "我现在能解释 W3 的关键词。"
+   }
+  },
+  {
+   "code": "W4",
+   "part": "W",
+   "title": {
+    "en": "Clouds, Condensation and Rain",
+    "zh": "云、凝结和降水"
+   },
+   "slides": [
+    {
+     "icon": "🥤",
+     "title": {
+      "en": "The cold drink trick: condensation 凝结",
+      "zh": "冰饮料小技巧：凝结"
+     },
+     "points": [
+      {
+       "en": "Water vapour 水蒸气 is water as an invisible gas in the air.",
+       "zh": "水蒸气是空气里看不见的气态的水。"
+      },
+      {
+       "en": "On a hot day, water drops appear on a cold drink. The air touching the glass cools, and the water vapour turns back into liquid drops.",
+       "zh": "热天，冰饮料外面会出现小水珠。碰到杯子的空气变冷，水蒸气变回小水滴。"
+      },
+      {
+       "en": "Turning from gas into liquid is called condensation.",
+       "zh": "从气体变回液体叫凝结。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🥤💧",
+        "en": "drops on a cold glass",
+        "zh": "冷杯子外的水珠"
+       },
+       {
+        "icon": "💨➡️💧",
+        "en": "gas → liquid = condensation",
+        "zh": "气体 → 液体 = 凝结"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "☁️",
+     "title": {
+      "en": "How a cloud is made",
+      "zh": "云是怎么形成的"
+     },
+     "points": [
+      {
+       "en": "Step 1: Warm, wet air rises.",
+       "zh": "第一步：暖湿空气上升。"
+      },
+      {
+       "en": "Step 2: High up, the sky is very cold, so the air cools quickly.",
+       "zh": "第二步：高空很冷，空气很快变冷。"
+      },
+      {
+       "en": "Step 3: Like drops on a cold drink, the water vapour turns into tiny drops. Millions of drops = a cloud.",
+       "zh": "第三步：像冰饮料外的水珠，水蒸气变成小水滴。数百万个水滴 = 一朵云。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "💨⬆️",
+        "en": "warm wet air rises",
+        "zh": "暖湿空气上升"
+       },
+       {
+        "icon": "🥶",
+        "en": "it cools high up",
+        "zh": "在高空变冷"
+       },
+       {
+        "icon": "💧",
+        "en": "vapour → tiny drops",
+        "zh": "水蒸气 → 小水滴"
+       },
+       {
+        "icon": "☁️",
+        "en": "a cloud!",
+        "zh": "形成云！"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌧️",
+     "title": {
+      "en": "Precipitation 降水",
+      "zh": "降水 precipitation"
+     },
+     "points": [
+      {
+       "en": "Precipitation = any water that falls from clouds: rain, snow, sleet or hail.",
+       "zh": "降水 = 从云里落下来的水：雨、雪、雨夹雪或冰雹。"
+      },
+      {
+       "en": "Drops join together and grow. When they are too heavy, they fall.",
+       "zh": "小水滴合在一起变大，太重了就落下来。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🌧️",
+        "en": "rain",
+        "zh": "雨"
+       },
+       {
+        "icon": "❄️",
+        "en": "snow",
+        "zh": "雪"
+       },
+       {
+        "icon": "🧊",
+        "en": "hail",
+        "zh": "冰雹"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌥️",
+     "title": {
+      "en": "Cloud names",
+      "zh": "云的名字"
+     },
+     "points": [
+      {
+       "en": "Cirrus 卷云: high, wispy, feathery clouds made of ice crystals.",
+       "zh": "卷云：很高、细细的像羽毛，由冰晶组成。"
+      },
+      {
+       "en": "Cumulus 积云: puffy, cotton-ball clouds; fair weather.",
+       "zh": "积云：蓬松像棉花团，好天气。"
+      },
+      {
+       "en": "Stratus 层云: low, flat grey sheets; an overcast (cloudy all over) day.",
+       "zh": "层云：低低的灰色平层，阴天。"
+      },
+      {
+       "en": "Nimbo- or -nimbus = a rain cloud. Cumulonimbus 积雨云 = a tall thunderstorm cloud. Alto- = middle height.",
+       "zh": "nimbo- 或 -nimbus = 下雨的云。积雨云 = 高大的雷暴云。alto- = 中等高度。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🪶",
+        "en": "cirrus: high, wispy",
+        "zh": "卷云：高、细"
+       },
+       {
+        "icon": "☁️",
+        "en": "cumulus: puffy",
+        "zh": "积云：蓬松"
+       },
+       {
+        "icon": "🌫️",
+        "en": "stratus: flat grey",
+        "zh": "层云：平、灰"
+       },
+       {
+        "icon": "⛈️",
+        "en": "cumulonimbus: thunderstorm",
+        "zh": "积雨云：雷暴"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W4.",
+    "zh": "我现在能解释 W4 的关键词。"
+   }
+  },
+  {
+   "code": "W5",
+   "part": "W",
+   "title": {
+    "en": "Air Pressure, Wind and Isobars",
+    "zh": "气压、风和等压线"
+   },
+   "slides": [
+    {
+     "icon": "🎈",
+     "title": {
+      "en": "Air pressure 气压",
+      "zh": "气压 air pressure"
+     },
+     "points": [
+      {
+       "en": "Air pressure = how hard the air pushes down on Earth.",
+       "zh": "气压 = 空气往下压地面的力量。"
+      },
+      {
+       "en": "High pressure 高压: heavy cold air sinks and presses down. Usually clear, sunny skies.",
+       "zh": "高压：重的冷空气下沉往下压。通常晴天。"
+      },
+      {
+       "en": "Low pressure 低压: light warm air rises. Usually clouds and rain.",
+       "zh": "低压：轻的暖空气上升。通常多云下雨。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "⬇️☀️",
+        "en": "High (H): sinking air, clear",
+        "zh": "高压 H：下沉，晴"
+       },
+       {
+        "icon": "⬆️🌧️",
+        "en": "Low (L): rising air, rain",
+        "zh": "低压 L：上升，下雨"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "💨",
+     "title": {
+      "en": "Wind 风: from high to low",
+      "zh": "风：从高压吹向低压"
+     },
+     "points": [
+      {
+       "en": "Wind blows from HIGH pressure to LOW pressure, like air rushing out of a squeezed balloon.",
+       "zh": "风从高压吹向低压，就像空气从被挤的气球里冲出来。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "H",
+        "en": "high pressure",
+        "zh": "高压"
+       },
+       {
+        "icon": "💨",
+        "en": "wind",
+        "zh": "风"
+       },
+       {
+        "icon": "L",
+        "en": "low pressure",
+        "zh": "低压"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "〰️",
+     "title": {
+      "en": "Isobars 等压线",
+      "zh": "等压线 isobars"
+     },
+     "points": [
+      {
+       "en": "Isobars are lines on a weather map that join places with the SAME air pressure.",
+       "zh": "等压线是天气图上把气压相同的地方连起来的线。"
+      },
+      {
+       "en": "Lines close together = strong wind. Like lines on a hill map: close lines = steep = fast.",
+       "zh": "线挨得近 = 风大。像山的地图：线近 = 陡 = 快。"
+      },
+      {
+       "en": "Lines far apart = gentle wind.",
+       "zh": "线离得远 = 风小。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "≡💨💨",
+        "en": "close lines: strong wind",
+        "zh": "线近：风大"
+       },
+       {
+        "icon": "〰  〰",
+        "en": "far apart: gentle wind",
+        "zh": "线远：风小"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Isobar = same pressure line.",
+      "zh": "等压线 = 气压相同的线。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W5.",
+    "zh": "我现在能解释 W5 的关键词。"
+   }
+  },
+  {
+   "code": "W6",
+   "part": "W",
+   "title": {
+    "en": "Station Models and Weather Maps",
+    "zh": "气象站模型和天气图"
+   },
+   "slides": [
+    {
+     "icon": "📸",
+     "title": {
+      "en": "Station model 气象站模型: a weather selfie",
+      "zh": "气象站模型：天气自拍"
+     },
+     "points": [
+      {
+       "en": "A weather station measures the weather at one place.",
+       "zh": "气象站测量一个地方的天气。"
+      },
+      {
+       "en": "A station model draws all its data as ONE small symbol, like a weather selfie of that place.",
+       "zh": "气象站模型把所有数据画成一个小符号，就像这个地方的天气自拍。"
+      }
+     ]
+    },
+    {
+     "icon": "🔎",
+     "title": {
+      "en": "Reading a station model",
+      "zh": "怎么看气象站模型"
+     },
+     "points": [
+      {
+       "en": "Circle in the middle: how much of the sky is covered by cloud (cloud cover 云量). More shaded = more cloud.",
+       "zh": "中间的圆：天空被云遮住多少（云量）。涂得越多 = 云越多。"
+      },
+      {
+       "en": "Number on the left: temperature (°F/°C).",
+       "zh": "左边的数字：温度。"
+      },
+      {
+       "en": "Number on the right: air pressure (mb).",
+       "zh": "右边的数字：气压（毫巴）。"
+      },
+      {
+       "en": "The line (stick) shows wind direction. The feathers show wind speed.",
+       "zh": "线（杆）表示风向，上面的“羽毛”表示风速。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "◐",
+        "en": "circle = cloud cover",
+        "zh": "圆圈 = 云量"
+       },
+       {
+        "icon": "🌡️",
+        "en": "left = temperature",
+        "zh": "左边 = 温度"
+       },
+       {
+        "icon": "🎈",
+        "en": "right = air pressure",
+        "zh": "右边 = 气压"
+       },
+       {
+        "icon": "🚩",
+        "en": "stick = wind",
+        "zh": "杆 = 风"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🗺️",
+     "title": {
+      "en": "Weather map 天气图: the group photo",
+      "zh": "天气图：大合照"
+     },
+     "points": [
+      {
+       "en": "A weather map puts many station models together, like a big group photo of all the selfies.",
+       "zh": "天气图把很多气象站模型放在一起，就像所有自拍拼成一张大合照。"
+      },
+      {
+       "en": "It also shows H and L (high and low pressure), fronts, isobars and areas of precipitation.",
+       "zh": "上面还有 H 和 L（高压和低压）、锋、等压线和降水区。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "H L",
+        "en": "high and low pressure",
+        "zh": "高压和低压"
+       },
+       {
+        "icon": "🔺",
+        "en": "cold front (triangles)",
+        "zh": "冷锋（三角）"
+       },
+       {
+        "icon": "🔴",
+        "en": "warm front (half circles)",
+        "zh": "暖锋（半圆）"
+       },
+       {
+        "icon": "〰️",
+        "en": "isobars",
+        "zh": "等压线"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W6.",
+    "zh": "我现在能解释 W6 的关键词。"
+   }
+  },
+  {
+   "code": "W7",
+   "part": "W",
+   "title": {
+    "en": "Humidity and Dew Point",
+    "zh": "湿度和露点"
+   },
+   "slides": [
+    {
+     "icon": "🧽",
+     "title": {
+      "en": "Humidity 湿度 and relative humidity 相对湿度",
+      "zh": "湿度和相对湿度"
+     },
+     "points": [
+      {
+       "en": "Humidity = how much water vapour is in the air.",
+       "zh": "湿度 = 空气里有多少水蒸气。"
+      },
+      {
+       "en": "Relative humidity = how FULL the air is of water vapour, as a percent (%). Like how full a sponge is.",
+       "zh": "相对湿度 = 空气装了多满的水蒸气，用百分比表示。就像海绵吸了多满的水。"
+      },
+      {
+       "en": "100% = completely full, so water starts to come out: rain or dew.",
+       "zh": "100% = 完全满了，水就开始出来：下雨或结露。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧽20%",
+        "en": "dry air: a dry sponge",
+        "zh": "干空气：干海绵"
+       },
+       {
+        "icon": "🧽100%",
+        "en": "full: water comes out",
+        "zh": "满了：水出来"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌿",
+     "title": {
+      "en": "Dew 露水 and dew point 露点",
+      "zh": "露水和露点"
+     },
+     "points": [
+      {
+       "en": "Dew = water drops on grass in the early morning. It is water vapour that condensed on a cool surface.",
+       "zh": "露水 = 清晨草上的小水珠，是水蒸气在凉的表面上凝结成的。"
+      },
+      {
+       "en": "Dew point = the temperature where the air is full and water vapour starts turning into drops.",
+       "zh": "露点 = 空气装满、水蒸气开始变成水滴时的温度。"
+      },
+      {
+       "en": "The bottom of a cloud is the height where the air has cooled to its dew point.",
+       "zh": "云底就是空气冷到露点的高度。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🌿💧",
+        "en": "dew on grass",
+        "zh": "草上的露水"
+       },
+       {
+        "icon": "🥤💧",
+        "en": "same as the cold drink trick!",
+        "zh": "和冰饮料小技巧一样！"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W7.",
+    "zh": "我现在能解释 W7 的关键词。"
+   }
+  },
+  {
+   "code": "W8",
+   "part": "W",
+   "title": {
+    "en": "Climate Factors",
+    "zh": "气候因素"
+   },
+   "slides": [
+    {
+     "icon": "🌐",
+     "title": {
+      "en": "Climate factors 1: latitude 纬度",
+      "zh": "气候因素 1：纬度"
+     },
+     "points": [
+      {
+       "en": "Latitude = how far north or south of the equator a place is, in degrees (°).",
+       "zh": "纬度 = 一个地方离赤道往北或往南多远，用度 (°) 表示。"
+      },
+      {
+       "en": "Near the equator (0°) the sun shines straight down: hot. Near the poles (90°) the sun is low: cold.",
+       "zh": "靠近赤道（0°）太阳直射：热。靠近两极（90°）太阳斜照：冷。"
+      }
+     ]
+    },
+    {
+     "icon": "🌊",
+     "title": {
+      "en": "Climate factors 2: distance from water",
+      "zh": "气候因素 2：离水的远近"
+     },
+     "points": [
+      {
+       "en": "Water warms up and cools down much more SLOWLY than land.",
+       "zh": "水变热、变冷都比陆地慢得多。"
+      },
+      {
+       "en": "So places on the coast have milder (gentler) weather. San Diego (by the ocean): summer 24°C, winter 9°C.",
+       "zh": "所以海边的地方天气更温和。圣地亚哥（海边）：夏天 24°C，冬天 9°C。"
+      },
+      {
+       "en": "Places far inland change more. Phoenix (inland): summer 41°C, winter 5°C.",
+       "zh": "离海远的内陆地方变化更大。凤凰城（内陆）：夏天 41°C，冬天 5°C。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏖️",
+        "en": "San Diego: 9°C to 24°C (mild)",
+        "zh": "圣地亚哥：9°C 到 24°C（温和）"
+       },
+       {
+        "icon": "🌵",
+        "en": "Phoenix: 5°C to 41°C (big change)",
+        "zh": "凤凰城：5°C 到 41°C（变化大）"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "⛰️",
+     "title": {
+      "en": "Climate factors 3: mountains and rain shadow 雨影区",
+      "zh": "气候因素 3：山和雨影区"
+     },
+     "points": [
+      {
+       "en": "A mountain is like a wall. Wet air climbs up one side, cools, and drops its rain there.",
+       "zh": "山像一堵墙。湿空气爬上一边，变冷，就在那边下雨。"
+      },
+      {
+       "en": "The other side gets dry air and very little rain. This dry side is the rain shadow.",
+       "zh": "另一边只剩干空气，几乎不下雨。这个干的一边叫雨影区。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🌊💨",
+        "en": "wet air from the ocean",
+        "zh": "海上来的湿空气"
+       },
+       {
+        "icon": "⛰️🌧️",
+        "en": "rains on this side",
+        "zh": "这边下雨"
+       },
+       {
+        "icon": "🏜️",
+        "en": "dry rain shadow",
+        "zh": "干燥的雨影区"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌬️",
+     "title": {
+      "en": "Climate factors 4: global winds 全球风带",
+      "zh": "气候因素 4：全球风带"
+     },
+     "points": [
+      {
+       "en": "Global winds blow steadily in the same direction over large parts of Earth.",
+       "zh": "全球风带在地球的大片地方一直朝同一个方向吹。"
+      },
+      {
+       "en": "Winds from a warm sea carry warm, wet air over the land.",
+       "zh": "从温暖海洋吹来的风，把暖湿空气带到陆地上。"
+      }
+     ]
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W8.",
+    "zh": "我现在能解释 W8 的关键词。"
+   }
+  },
+  {
+   "code": "W9",
+   "part": "W",
+   "title": {
+    "en": "Climate Zones and Biomes",
+    "zh": "气候带和生物群系"
+   },
+   "slides": [
+    {
+     "icon": "🧭",
+     "title": {
+      "en": "The lines on the globe",
+      "zh": "地球上的线"
+     },
+     "points": [
+      {
+       "en": "Equator 赤道 0°. Tropic of Cancer 北回归线 23.5°N. Tropic of Capricorn 南回归线 23.5°S.",
+       "zh": "赤道 0°。北回归线 23.5°N。南回归线 23.5°S。"
+      },
+      {
+       "en": "Arctic Circle 北极圈 66.5°N. Antarctic Circle 南极圈 66.5°S.",
+       "zh": "北极圈 66.5°N。南极圈 66.5°S。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "❄️",
+        "en": "Arctic Circle 66.5°N",
+        "zh": "北极圈 66.5°N"
+       },
+       {
+        "icon": "🌤️",
+        "en": "Tropic of Cancer 23.5°N",
+        "zh": "北回归线 23.5°N"
+       },
+       {
+        "icon": "☀️",
+        "en": "Equator 0°",
+        "zh": "赤道 0°"
+       },
+       {
+        "icon": "🌤️",
+        "en": "Tropic of Capricorn 23.5°S",
+        "zh": "南回归线 23.5°S"
+       },
+       {
+        "icon": "❄️",
+        "en": "Antarctic Circle 66.5°S",
+        "zh": "南极圈 66.5°S"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🗄️",
+     "title": {
+      "en": "3 climate zones: Earth's wardrobe drawers",
+      "zh": "3 个气候带：地球衣柜的抽屉"
+     },
+     "points": [
+      {
+       "en": "Tropical 热带: between the two tropics. Warm and wet.",
+       "zh": "热带：在两条回归线之间。温暖潮湿。"
+      },
+      {
+       "en": "Temperate 温带: between the tropics and the polar circles. Moderate (not too hot, not too cold).",
+       "zh": "温带：在回归线和极圈之间。温和（不太热也不太冷）。"
+      },
+      {
+       "en": "Polar 极地: inside the Arctic and Antarctic Circles. Cold and dry.",
+       "zh": "极地：在北极圈和南极圈里面。寒冷干燥。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🌴",
+        "en": "tropical: warm and wet",
+        "zh": "热带：暖湿"
+       },
+       {
+        "icon": "🍂",
+        "en": "temperate: moderate",
+        "zh": "温带：温和"
+       },
+       {
+        "icon": "🐧",
+        "en": "polar: cold and dry",
+        "zh": "极地：冷干"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌳",
+     "title": {
+      "en": "Biomes 生物群系",
+      "zh": "生物群系 biomes"
+     },
+     "points": [
+      {
+       "en": "A biome is a big area with its own climate, plants and animals.",
+       "zh": "生物群系是一大片有自己的气候、植物和动物的地区。"
+      },
+      {
+       "en": "Biomes: polar ice, tundra 苔原, coniferous forest 针叶林, deciduous forest 落叶林, grassland 草原, savanna 稀树草原, chaparral, desert 沙漠, tropical rain forest 热带雨林, mountains.",
+       "zh": "生物群系：极地冰原、苔原、针叶林、落叶林、草原、稀树草原、灌木丛、沙漠、热带雨林、山地。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧊",
+        "en": "polar ice",
+        "zh": "极地冰原"
+       },
+       {
+        "icon": "🌲",
+        "en": "coniferous forest",
+        "zh": "针叶林"
+       },
+       {
+        "icon": "🍁",
+        "en": "deciduous forest",
+        "zh": "落叶林"
+       },
+       {
+        "icon": "🦒",
+        "en": "savanna",
+        "zh": "稀树草原"
+       },
+       {
+        "icon": "🏜️",
+        "en": "desert",
+        "zh": "沙漠"
+       },
+       {
+        "icon": "🌴",
+        "en": "tropical rain forest",
+        "zh": "热带雨林"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the key words in W9.",
+    "zh": "我现在能解释 W9 的关键词。"
    }
   }
  ]

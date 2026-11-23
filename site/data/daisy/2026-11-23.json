@@ -25,6 +25,13 @@
     "povfill",
     "speed",
     "reading"
+   ],
+   "book": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5"
    ]
   },
   {
@@ -41,6 +48,11 @@
    "activities": [
     "multiply",
     "hw-mon"
+   ],
+   "book": [
+    "M1",
+    "M2",
+    "M3"
    ]
   },
   {
@@ -57,6 +69,9 @@
    "activities": [
     "spelling",
     "hw-wed"
+   ],
+   "book": [
+    "E2"
    ]
   }
  ],
