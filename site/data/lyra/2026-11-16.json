@@ -4669,6 +4669,651 @@
     "en": "I can now answer keyword questions by myself.",
     "zh": "我现在能自己回答关键词的问题。"
    }
+  },
+  {
+   "id": "lightquiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "💡",
+   "title": {
+    "en": "B4 and B5 Quiz: Light and Reflection",
+    "zh": "B4 和 B5 小测：光和反射"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "The big rule: angle of incidence = angle of reflection, both measured from the normal.",
+    "zh": "最重要的规则：入射角 = 反射角，都从法线量起。"
+   },
+   "questions": [
+    {
+     "q": "Window glass is...",
+     "options": [
+      "translucent",
+      "transparent",
+      "opaque",
+      "luminous"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Light passes clearly: transparent.",
+      "zh": "光清楚地通过：透明。"
+     }
+    },
+    {
+     "q": "Frosted bathroom glass is...",
+     "options": [
+      "transparent",
+      "opaque",
+      "non-luminous only",
+      "translucent"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Light passes but scatters: translucent.",
+      "zh": "光能通过但会散开：半透明。"
+     }
+    },
+    {
+     "q": "A wooden door is...",
+     "options": [
+      "opaque",
+      "transparent",
+      "translucent",
+      "luminous"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "No light passes: opaque.",
+      "zh": "光不能通过：不透明。"
+     }
+    },
+    {
+     "q": "Which is LUMINOUS?",
+     "options": [
+      "the Moon",
+      "a mirror",
+      "a lit torch",
+      "a white wall"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "It makes its own light.",
+      "zh": "它自己发光。"
+     }
+    },
+    {
+     "q": "We see a book because...",
+     "options": [
+      "it makes its own light",
+      "light reflects off it into our eyes",
+      "our eyes send out light",
+      "it is opaque"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Non-luminous objects are seen by reflected light.",
+      "zh": "不发光的物体靠反射光被看见。"
+     }
+    },
+    {
+     "q": "Light rays are drawn as...",
+     "options": [
+      "straight lines with arrows",
+      "wavy lines",
+      "circles",
+      "dotted curves"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Light travels in straight lines. The arrow shows the direction.",
+      "zh": "光沿直线传播，箭头表示方向。"
+     }
+    },
+    {
+     "q": "The angle of incidence is 30°. The angle of reflection is...",
+     "options": [
+      "60°",
+      "90°",
+      "150°",
+      "30°"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Angle of incidence = angle of reflection.",
+      "zh": "入射角 = 反射角。"
+     }
+    },
+    {
+     "q": "Angles in a ray diagram are measured from the...",
+     "options": [
+      "mirror surface",
+      "top of the page",
+      "normal",
+      "light source"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Always from the normal, the 90° line.",
+      "zh": "总是从法线（90° 的线）开始量。"
+     }
+    },
+    {
+     "q": "The ray that bounces OFF the mirror is the...",
+     "options": [
+      "reflected ray",
+      "incident ray",
+      "normal",
+      "refracted ray"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Incident = going in. Reflected = bouncing off.",
+      "zh": "入射 = 射进来；反射 = 弹出去。"
+     }
+    },
+    {
+     "q": "In a plane mirror, your right hand looks like a left hand. This is called...",
+     "options": [
+      "refraction",
+      "laterally inverted",
+      "dispersion",
+      "absorption"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Laterally inverted = reversed left to right.",
+      "zh": "左右颠倒 = 左右反过来。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now sort materials and use the law of reflection.",
+    "zh": "我现在会给材料分类，并会用反射定律。"
+   }
+  },
+  {
+   "id": "mirrorfill",
+   "type": "fillblank",
+   "icon": "🪞",
+   "shuffle": false,
+   "title": {
+    "en": "Fill in: Mirrors and Materials",
+    "zh": "填空：镜子和材料"
+   },
+   "subtitle": {
+    "en": "8 sentences",
+    "zh": "8 个句子"
+   },
+   "intro": {
+    "en": "Read the sentence, then tap the missing word.",
+    "zh": "读句子，然后点出缺少的词。"
+   },
+   "bank": [
+    "incident",
+    "reflected",
+    "normal",
+    "equal",
+    "plane",
+    "inverted",
+    "transparent",
+    "opaque"
+   ],
+   "items": [
+    {
+     "text": "The ___ ray travels towards the mirror.",
+     "answer": "incident",
+     "why": {
+      "en": "Incident = coming in.",
+      "zh": "入射 = 射进来。"
+     }
+    },
+    {
+     "text": "The ___ ray bounces off the mirror.",
+     "answer": "reflected",
+     "why": {
+      "en": "Reflected = bounced off.",
+      "zh": "反射 = 弹出去。"
+     }
+    },
+    {
+     "text": "The ___ is a dashed line at 90° to the mirror.",
+     "answer": "normal",
+     "why": {
+      "en": "Draw the normal first.",
+      "zh": "先画法线。"
+     }
+    },
+    {
+     "text": "The angle of incidence is ___ to the angle of reflection.",
+     "answer": "equal",
+     "why": {
+      "en": "Law of reflection.",
+      "zh": "反射定律。"
+     }
+    },
+    {
+     "text": "A flat mirror is called a ___ mirror.",
+     "answer": "plane",
+     "why": {
+      "en": "Plane = flat.",
+      "zh": "plane = 平的。"
+     }
+    },
+    {
+     "text": "Mirror writing looks back to front because the image is laterally ___.",
+     "answer": "inverted",
+     "why": {
+      "en": "Reversed left to right.",
+      "zh": "左右反过来。"
+     }
+    },
+    {
+     "text": "A material that lets light through clearly is ___.",
+     "answer": "transparent",
+     "why": {
+      "en": "You can see through it clearly.",
+      "zh": "可以清楚地看过去。"
+     }
+    },
+    {
+     "text": "A material that lets NO light through is ___.",
+     "answer": "opaque",
+     "why": {
+      "en": "Opaque blocks light and makes shadows.",
+      "zh": "不透明的物体挡住光，形成影子。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now label a ray diagram.",
+    "zh": "我现在会标注光路图。"
+   }
+  },
+  {
+   "id": "hw-sat",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Saturday Homework: Chemistry Review (A1 to A8)",
+    "zh": "星期六作业：化学复习（A1 到 A8）"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Keep the chemistry fresh! Look at your Main Book if you need to. One try only.",
+    "zh": "别忘了化学！需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Which is a MIXTURE?",
+     "options": [
+      "water (H₂O)",
+      "air",
+      "oxygen (O₂)",
+      "carbon dioxide (CO₂)"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Air is many gases mixed, not joined.",
+      "zh": "空气是很多气体混在一起，没有结合。"
+     }
+    },
+    {
+     "q": "Which is an ELEMENT?",
+     "options": [
+      "MgO",
+      "CO",
+      "NaCl",
+      "Mg"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "One capital letter = one element.",
+      "zh": "一个大写字母 = 一种元素。"
+     }
+    },
+    {
+     "q": "Which is a COMPOUND?",
+     "options": [
+      "CO₂",
+      "O₂",
+      "N₂",
+      "Cu"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Two capital letters, C and O, joined = compound.",
+      "zh": "两个大写字母 C 和 O 结合 = 化合物。"
+     }
+    },
+    {
+     "q": "How many atoms are in ONE molecule of CH₄?",
+     "options": [
+      "4",
+      "2",
+      "5",
+      "1"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "1 carbon + 4 hydrogen = 5 atoms.",
+      "zh": "1 个碳 + 4 个氢 = 5 个原子。"
+     }
+    },
+    {
+     "q": "How many oxygen atoms are in 2H₂O?",
+     "options": [
+      "4",
+      "2",
+      "1",
+      "6"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Each H₂O has 1 oxygen. 2 molecules × 1 = 2.",
+      "zh": "每个 H₂O 有 1 个氧。2 个分子 × 1 = 2。"
+     }
+    },
+    {
+     "q": "magnesium + oxygen → ?",
+     "options": [
+      "magnesium oxide",
+      "magnesium oxygenide",
+      "magnesium dioxide",
+      "oxygen magnesium"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Oxygen → oxide. Metal name first.",
+      "zh": "oxygen → oxide，金属名字在前。"
+     }
+    },
+    {
+     "q": "In a word equation, the substances on the LEFT of the arrow are the...",
+     "options": [
+      "products",
+      "elements",
+      "mixtures",
+      "reactants"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Reactants → products.",
+      "zh": "反应物 → 生成物。"
+     }
+    },
+    {
+     "q": "Which is a CHEMICAL change?",
+     "options": [
+      "melting ice",
+      "dissolving sugar",
+      "burning paper",
+      "cutting paper"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Burning makes new substances (ash, smoke, gases).",
+      "zh": "燃烧会产生新物质（灰、烟、气体）。"
+     }
+    },
+    {
+     "q": "Mass before a reaction = 10 g. Mass after (nothing escapes) = ?",
+     "options": [
+      "10 g",
+      "less than 10 g",
+      "more than 10 g",
+      "0 g"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Conservation of mass: atoms are not made or lost.",
+      "zh": "质量守恒：原子不会增加也不会消失。"
+     }
+    },
+    {
+     "q": "Liquid → solid is called...",
+     "options": [
+      "melting",
+      "freezing",
+      "boiling",
+      "condensing"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Cooling a liquid until it turns solid: freezing.",
+      "zh": "液体冷却变成固体：凝固。"
+     }
+    },
+    {
+     "q": "A substance melts at -10 °C and boils at 80 °C. At 20 °C it is a...",
+     "options": [
+      "solid",
+      "gas",
+      "liquid",
+      "mixture"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "20 is above -10 (melted) and below 80 (not boiled): liquid.",
+      "zh": "20 高于 -10（已熔化），低于 80（没沸腾）：液体。"
+     }
+    },
+    {
+     "q": "In a fair test, the variables you keep the SAME are the...",
+     "options": [
+      "independent variable",
+      "dependent variable",
+      "results",
+      "control variables"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "C-M-S: Change one, Measure one, keep the rest the Same (control).",
+      "zh": "C-M-S：改变一个，测量一个，其他保持不变（控制变量）。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can still answer the chemistry questions by myself.",
+    "zh": "我仍然能自己回答化学题。"
+   }
+  },
+  {
+   "id": "hw-mon30",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Monday Homework: Refraction and Colour (B6, B7)",
+    "zh": "星期一作业：折射和颜色（B6、B7）"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read Main Book B6 and B7 first. One try only.",
+    "zh": "先读主课本 B6 和 B7。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Refraction is when light changes direction because its ___ changes.",
+     "options": [
+      "colour",
+      "amplitude",
+      "speed",
+      "source"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Different material, different speed, new direction.",
+      "zh": "材料不同，速度不同，方向就变。"
+     }
+    },
+    {
+     "q": "A straw in a glass of water looks bent. This is caused by...",
+     "options": [
+      "reflection",
+      "dispersion",
+      "absorption",
+      "refraction"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Light bends as it leaves the water.",
+      "zh": "光离开水时会弯折。"
+     }
+    },
+    {
+     "q": "A prism splits white light into colours. This is...",
+     "options": [
+      "reflection",
+      "dispersion",
+      "lateral inversion",
+      "absorption"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Dispersion = separating white light into colours.",
+      "zh": "色散 = 白光分成各种颜色。"
+     }
+    },
+    {
+     "q": "A prism is usually made of...",
+     "options": [
+      "wood",
+      "metal",
+      "paper",
+      "glass or plastic"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A prism is a transparent object, usually glass or plastic.",
+      "zh": "棱镜是透明物体，通常用玻璃或塑料做。"
+     }
+    },
+    {
+     "q": "The visible spectrum is a range of...",
+     "options": [
+      "colours",
+      "sounds",
+      "temperatures",
+      "mirrors"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Red, orange, yellow, green, blue, indigo, violet.",
+      "zh": "红、橙、黄、绿、蓝、靛、紫。"
+     }
+    },
+    {
+     "q": "The primary colours of light are...",
+     "options": [
+      "red, yellow and blue",
+      "cyan, magenta and yellow",
+      "red, green and blue",
+      "black and white"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "For light: red, green, blue.",
+      "zh": "光的三原色：红、绿、蓝。"
+     }
+    },
+    {
+     "q": "Green light + blue light = ?",
+     "options": [
+      "magenta",
+      "cyan",
+      "yellow",
+      "white"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Green + blue = cyan.",
+      "zh": "绿 + 蓝 = 青。"
+     }
+    },
+    {
+     "q": "Red light + green light + blue light = ?",
+     "options": [
+      "white",
+      "black",
+      "brown",
+      "yellow"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "All three primary colours of light make white.",
+      "zh": "三种原色光加在一起是白光。"
+     }
+    },
+    {
+     "q": "A green leaf looks green because it...",
+     "options": [
+      "absorbs green light",
+      "makes green light",
+      "transmits all light",
+      "reflects green light and absorbs the rest"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "We see the colour that is reflected.",
+      "zh": "我们看到的是被反射的颜色。"
+     }
+    },
+    {
+     "q": "A white T-shirt looks white because it...",
+     "options": [
+      "absorbs all colours",
+      "makes its own light",
+      "reflects all colours",
+      "is transparent"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "White reflects every colour.",
+      "zh": "白色反射所有颜色。"
+     }
+    },
+    {
+     "q": "A black T-shirt looks black because it...",
+     "options": [
+      "absorbs all colours",
+      "reflects all colours",
+      "reflects only black light",
+      "is luminous"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Black absorbs every colour, so no light reaches your eye.",
+      "zh": "黑色吸收所有颜色，没有光进入眼睛。"
+     }
+    },
+    {
+     "q": "To transmit light means to...",
+     "options": [
+      "bounce it back",
+      "let it pass through",
+      "take it in",
+      "split it into colours"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Transmit = allow light to pass through a material.",
+      "zh": "透射 = 让光穿过材料。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain refraction, dispersion and why objects have colours.",
+    "zh": "我现在能解释折射、色散，以及物体为什么有颜色。"
+   }
   }
  ],
  "reviews": [
@@ -6169,6 +6814,67 @@
     "B6",
     "B7",
     "B8"
+   ]
+  },
+  {
+   "date": "2026-11-28",
+   "kind": "homework",
+   "title": {
+    "en": "Chemistry Review (A1 to A8)",
+    "zh": "化学复习（A1 到 A8）"
+   },
+   "message": {
+    "en": "About 30 minutes. Flip through Main Book A2, A5 and A7, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。翻看主课本 A2、A5、A7，然后做一次小测。"
+   },
+   "activities": [
+    "deck-sort",
+    "hw-sat"
+   ],
+   "book": [
+    "A2",
+    "A5",
+    "A7"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "title": {
+    "en": "Light and Reflection (B4, B5)",
+    "zh": "光和反射（B4、B5）"
+   },
+   "message": {
+    "en": "Class with Roy. Main Book B4 and B5 first, then the practice.",
+    "zh": "和 Roy 老师上课。先学主课本 B4 和 B5，再做练习。"
+   },
+   "activities": [
+    "kw-light",
+    "mirrorfill",
+    "kw-match2",
+    "lightquiz"
+   ],
+   "book": [
+    "B4",
+    "B5"
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "kind": "homework",
+   "title": {
+    "en": "Refraction and Colour (B6, B7)",
+    "zh": "折射和颜色（B6、B7）"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book B6 and B7, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。读主课本 B6 和 B7，然后做一次小测。"
+   },
+   "activities": [
+    "hw-mon30"
+   ],
+   "book": [
+    "B6",
+    "B7"
    ]
   }
  ]

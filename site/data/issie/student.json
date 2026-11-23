@@ -1,54 +1,58 @@
 {
-  "id": "issie",
-  "name": "Issie",
-  "accent": "#0b7a75",
-  "accentSoft": "#e0f4f2",
-  "bilingual": true,
-  "voice": "en-US",
-  "separateKey": true,
-  "mainBook": true,
-  "schoolHomework": true,
-  "homeworkLog": true,
-  "subjects": [
-    {
-      "id": "S",
-      "icon": "🌍",
-      "title": {
-        "en": "Science",
-        "zh": "科学"
-      },
-      "sub": {
-        "en": "Earth Science: soil, rocks, ocean floor",
-        "zh": "地球科学：土壤、岩石、海底"
-      }
-    },
-    {
-      "id": "E",
-      "icon": "📝",
-      "title": {
-        "en": "English",
-        "zh": "英语"
-      },
-      "sub": {
-        "en": "Usage words, grammar, writing",
-        "zh": "用法词、语法、写作"
-      }
-    },
-    {
-      "id": "M",
-      "icon": "🧮",
-      "title": {
-        "en": "Maths",
-        "zh": "数学"
-      },
-      "sub": {
-        "en": "Equations (Chapter 8)",
-        "zh": "方程（第 8 章）"
-      }
-    }
-  ],
-  "weeks": [
-    "2026-11-16",
-    "2026-11-23"
-  ]
+ "id": "issie",
+ "name": "Issie",
+ "accent": "#0b7a75",
+ "accentSoft": "#e0f4f2",
+ "bilingual": true,
+ "voice": "en-US",
+ "separateKey": true,
+ "mainBook": true,
+ "schoolHomework": true,
+ "homeworkLog": true,
+ "subjects": [
+  {
+   "id": "S",
+   "icon": "🌍",
+   "title": {
+    "en": "Science",
+    "zh": "科学"
+   },
+   "sub": {
+    "en": "Earth Science: soil, rocks, ocean floor, weather",
+    "zh": "地球科学：土壤、岩石、海底、天气"
+   },
+   "parts": [
+    "S",
+    "W"
+   ]
+  },
+  {
+   "id": "E",
+   "icon": "📝",
+   "title": {
+    "en": "English",
+    "zh": "英语"
+   },
+   "sub": {
+    "en": "Usage words, grammar, writing",
+    "zh": "用法词、语法、写作"
+   }
+  },
+  {
+   "id": "M",
+   "icon": "🧮",
+   "title": {
+    "en": "Maths",
+    "zh": "数学"
+   },
+   "sub": {
+    "en": "Equations (Chapter 8)",
+    "zh": "方程（第 8 章）"
+   }
+  }
+ ],
+ "weeks": [
+  "2026-11-16",
+  "2026-11-23"
+ ]
 }

@@ -114,6 +114,73 @@
     "S6",
     "E2"
    ]
+  },
+  {
+   "date": "2026-11-28",
+   "kind": "homework",
+   "title": {
+    "en": "Equations and Proofreading",
+    "zh": "方程和校对"
+   },
+   "message": {
+    "en": "About 30 minutes. Look at Main Book M1, M2 and E2, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。看主课本 M1、M2、E2，然后做一次小测。"
+   },
+   "activities": [
+    "hw-sat"
+   ],
+   "book": [
+    "M1",
+    "M2",
+    "E2"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "kind": "homework",
+   "title": {
+    "en": "Earth Science Review",
+    "zh": "地球科学复习"
+   },
+   "message": {
+    "en": "About 30 minutes. Flip through Main Book S1 to S6, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。翻看主课本 S1 到 S6，然后做一次小测。"
+   },
+   "activities": [
+    "s-cards1",
+    "s-cards2",
+    "hw-sun"
+   ],
+   "book": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "title": {
+    "en": "Weather: Air Masses, Fronts and Clouds",
+    "zh": "天气：气团、锋和云"
+   },
+   "message": {
+    "en": "Class with Roy. Main Book W1 to W4 first, then the practice.",
+    "zh": "和 Roy 老师上课。先学主课本 W1 到 W4，再做练习。"
+   },
+   "activities": [
+    "w-cards",
+    "w-match",
+    "w-quiz"
+   ],
+   "book": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ]
   }
  ],
  "activities": [
@@ -1525,6 +1592,657 @@
      }
     }
    ]
+  },
+  {
+   "id": "w-cards",
+   "type": "flashcards",
+   "icon": "🌦️",
+   "title": {
+    "en": "Weather Words (W1 to W4)",
+    "zh": "天气词汇（W1 到 W4）"
+   },
+   "subtitle": {
+    "en": "12 cards",
+    "zh": "12 张"
+   },
+   "intro": {
+    "en": "Read the word, say what it means, then tap to check.",
+    "zh": "读词，说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "weather",
+     "back": "What the air is like today: hot or cold, wet or dry, windy or calm.",
+     "zh": "天气",
+     "zhBack": "今天空气的样子：冷热、干湿、有没有风。"
+    },
+    {
+     "front": "climate",
+     "back": "The usual weather of a place over many years.",
+     "zh": "气候",
+     "zhBack": "一个地方很多年来通常的天气。"
+    },
+    {
+     "front": "atmosphere",
+     "back": "The layer of air around Earth.",
+     "zh": "大气层",
+     "zhBack": "包围地球的一层空气。"
+    },
+    {
+     "front": "air mass",
+     "back": "A huge body of air with the same temperature and wetness all through.",
+     "zh": "气团",
+     "zhBack": "温度和湿度都差不多的一大团空气。"
+    },
+    {
+     "front": "tropical",
+     "back": "Hot: made near the equator.",
+     "zh": "热带的",
+     "zhBack": "热：在赤道附近形成。"
+    },
+    {
+     "front": "polar",
+     "back": "Cold: made near the poles.",
+     "zh": "极地的",
+     "zhBack": "冷：在两极附近形成。"
+    },
+    {
+     "front": "maritime",
+     "back": "Wet: made over the ocean.",
+     "zh": "海洋的",
+     "zhBack": "湿：在海洋上形成。"
+    },
+    {
+     "front": "continental",
+     "back": "Dry: made over land.",
+     "zh": "大陆的",
+     "zhBack": "干：在陆地上形成。"
+    },
+    {
+     "front": "front",
+     "back": "The line where two different air masses meet.",
+     "zh": "锋",
+     "zhBack": "两种不同气团相遇的地方。"
+    },
+    {
+     "front": "cold front",
+     "back": "Cold air pushes under warm air fast, like a bulldozer: sudden storms.",
+     "zh": "冷锋",
+     "zhBack": "冷空气像推土机一样快速钻到暖空气下面：突然的暴风雨。"
+    },
+    {
+     "front": "warm front",
+     "back": "Warm air slides slowly up over cold air, like a ramp: gentle rain for a long time.",
+     "zh": "暖锋",
+     "zhBack": "暖空气像走斜坡一样慢慢滑到冷空气上面：长时间小雨。"
+    },
+    {
+     "front": "condensation",
+     "back": "Water vapour (a gas) turning back into liquid drops.",
+     "zh": "凝结",
+     "zhBack": "水蒸气（气体）变回小水滴。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain 12 weather words.",
+    "zh": "我现在能解释 12 个天气词汇。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "w-match",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "Weather Match Game",
+    "zh": "天气配对游戏"
+   },
+   "intro": {
+    "en": "Tap a word, then tap its meaning.",
+    "zh": "先点词，再点意思。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "weather",
+     "b": "today"
+    },
+    {
+     "a": "climate",
+     "b": "many years"
+    },
+    {
+     "a": "maritime",
+     "b": "wet, over the ocean"
+    },
+    {
+     "a": "continental",
+     "b": "dry, over land"
+    },
+    {
+     "a": "tropical",
+     "b": "hot, near the equator"
+    },
+    {
+     "a": "polar",
+     "b": "cold, near the poles"
+    },
+    {
+     "a": "cold front",
+     "b": "the bulldozer: sudden storms"
+    },
+    {
+     "a": "warm front",
+     "b": "the ramp: gentle rain"
+    },
+    {
+     "a": "condensation",
+     "b": "gas turns into liquid drops"
+    },
+    {
+     "a": "cumulus",
+     "b": "puffy cotton-ball clouds"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match the weather words.",
+    "zh": "我现在能配对天气词汇。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "w-quiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "⛅",
+   "title": {
+    "en": "Weather Quiz (W1 to W4)",
+    "zh": "天气小测（W1 到 W4）"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Remember the pictures: the sponge, the bulldozer, the ramp and the cold drink.",
+    "zh": "记住这些画面：海绵、推土机、斜坡和冰饮料。"
+   },
+   "questions": [
+    {
+     "q": "\"It is raining in Bangkok today.\" This is...",
+     "options": [
+      "weather",
+      "climate",
+      "an air mass",
+      "a front"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Today = weather.",
+      "zh": "今天 = 天气。"
+     }
+    },
+    {
+     "q": "\"Deserts get very little rain every year.\" This is...",
+     "options": [
+      "weather",
+      "climate",
+      "a front",
+      "condensation"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Many years = climate.",
+      "zh": "很多年 = 气候。"
+     }
+    },
+    {
+     "q": "An air mass that formed over a warm ocean is...",
+     "options": [
+      "continental polar",
+      "maritime polar",
+      "maritime tropical",
+      "continental tropical"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Ocean = maritime (wet). Warm = tropical.",
+      "zh": "海洋 = maritime（湿）；暖 = tropical。"
+     }
+    },
+    {
+     "q": "Continental polar air is...",
+     "options": [
+      "warm and wet",
+      "hot and dry",
+      "cool and wet",
+      "cold and dry"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Continental = dry. Polar = cold.",
+      "zh": "大陆的 = 干；极地的 = 冷。"
+     }
+    },
+    {
+     "q": "Which air sinks?",
+     "options": [
+      "warm air",
+      "cold air",
+      "both",
+      "neither"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Cold air is heavy, so it sinks.",
+      "zh": "冷空气重，所以下沉。"
+     }
+    },
+    {
+     "q": "A cold front is like a...",
+     "options": [
+      "ramp",
+      "sponge",
+      "camera",
+      "bulldozer"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Cold air shoves warm air up fast.",
+      "zh": "冷空气把暖空气快速推上去。"
+     }
+    },
+    {
+     "q": "Gentle rain for a long time usually comes with a...",
+     "options": [
+      "warm front",
+      "cold front",
+      "high pressure area",
+      "rain shadow"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Warm air slides up slowly: flat clouds, gentle rain.",
+      "zh": "暖空气慢慢滑上去：平平的云，小雨。"
+     }
+    },
+    {
+     "q": "Water drops on the outside of a cold drink are caused by...",
+     "options": [
+      "evaporation",
+      "melting",
+      "condensation",
+      "erosion"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Water vapour in the air cools and turns into liquid.",
+      "zh": "空气里的水蒸气变冷，变成液体。"
+     }
+    },
+    {
+     "q": "Clouds form when warm, wet air...",
+     "options": [
+      "sinks and warms",
+      "rises and cools",
+      "stops moving",
+      "turns into ice at once"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "High up it is cold, so water vapour condenses into tiny drops.",
+      "zh": "高空很冷，水蒸气凝结成小水滴。"
+     }
+    },
+    {
+     "q": "Puffy, cotton-ball clouds are...",
+     "options": [
+      "cumulus",
+      "stratus",
+      "cirrus",
+      "nimbus"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Cumulus = puffy. Stratus = flat. Cirrus = wispy.",
+      "zh": "积云 = 蓬松；层云 = 平；卷云 = 细丝。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain air masses, fronts and how clouds form.",
+    "zh": "我现在能解释气团、锋和云的形成。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "hw-sat",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Saturday Homework: Equations and Proofreading",
+    "zh": "星期六作业：方程和校对"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Maths first: undo it, then check. Then the sound-alike words. One try only.",
+    "zh": "先做数学：抵消，再检查。然后做发音相似的词。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "7r = 56. What is r?",
+     "options": [
+      "49",
+      "8",
+      "63",
+      "392"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Undo × 7 with ÷ 7: r = 56 ÷ 7 = 8. Check: 7 × 8 = 56.",
+      "zh": "用 ÷ 7 抵消 × 7：r = 56 ÷ 7 = 8。检查：7 × 8 = 56。"
+     }
+    },
+    {
+     "q": "n ÷ 4 = 9. What is n?",
+     "options": [
+      "5",
+      "13",
+      "2 1/4",
+      "36"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Undo ÷ 4 with × 4: n = 9 × 4 = 36. Check: 36 ÷ 4 = 9.",
+      "zh": "用 × 4 抵消 ÷ 4：n = 9 × 4 = 36。检查：36 ÷ 4 = 9。"
+     }
+    },
+    {
+     "q": "6x = 42. What is x?",
+     "options": [
+      "7",
+      "36",
+      "48",
+      "252"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "x = 42 ÷ 6 = 7. Check: 6 × 7 = 42.",
+      "zh": "x = 42 ÷ 6 = 7。检查：6 × 7 = 42。"
+     }
+    },
+    {
+     "q": "y ÷ 5 = 12. What is y?",
+     "options": [
+      "7",
+      "17",
+      "60",
+      "2 2/5"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "y = 12 × 5 = 60. Check: 60 ÷ 5 = 12.",
+      "zh": "y = 12 × 5 = 60。检查：60 ÷ 5 = 12。"
+     }
+    },
+    {
+     "q": "3/5 s = 9. What is s?",
+     "options": [
+      "5 2/5",
+      "15",
+      "3",
+      "45"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "3 parts = 9, so 1 part = 3. All 5 parts: s = 5 × 3 = 15. Check: 3/5 of 15 = 9.",
+      "zh": "3 份 = 9，1 份 = 3。5 份：s = 5 × 3 = 15。检查：15 的 3/5 = 9。"
+     }
+    },
+    {
+     "q": "2/3 m = 10. What is m?",
+     "options": [
+      "15",
+      "6 2/3",
+      "5",
+      "20"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2 parts = 10, so 1 part = 5. All 3 parts: m = 3 × 5 = 15.",
+      "zh": "2 份 = 10，1 份 = 5。3 份：m = 3 × 5 = 15。"
+     }
+    },
+    {
+     "q": "Choose the correct word: ___ going to the park later.",
+     "options": [
+      "Were",
+      "Where",
+      "Wear",
+      "We're"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "We are going: we're.",
+      "zh": "We are going：we're。"
+     }
+    },
+    {
+     "q": "Choose the correct word: I can't find ___ shoes.",
+     "options": [
+      "mine",
+      "me",
+      "my",
+      "I"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "My comes before a noun: my shoes.",
+      "zh": "名词前用 my：my shoes。"
+     }
+    },
+    {
+     "q": "Choose the correct word: The team lost ___ match.",
+     "options": [
+      "its",
+      "it's",
+      "its'",
+      "it is"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Belongs to it: its. It's = it is.",
+      "zh": "属于它：its。it's = it is。"
+     }
+    },
+    {
+     "q": "Choose the correct word: ___ is your bag? It's over ___.",
+     "options": [
+      "Were ... their",
+      "Where ... there",
+      "Wear ... they're",
+      "We're ... there"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Where = which place. There = that place.",
+      "zh": "where = 哪里；there = 那里。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve × and ÷ equations and pick the right sound-alike word.",
+    "zh": "我现在会解乘除方程，并会选对发音相似的词。"
+   },
+   "part": "M"
+  },
+  {
+   "id": "hw-sun",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Sunday Homework: Earth Science Review (S1 to S6)",
+    "zh": "星期天作业：地球科学复习（S1 到 S6）"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look at your Main Book if you need to. One try only.",
+    "zh": "需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Soil is a mixture of...",
+     "options": [
+      "only sand",
+      "only rock",
+      "rock pieces, minerals, organic matter, water and air",
+      "only water and air"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Soil is a mixture of all of these.",
+      "zh": "土壤是这些东西的混合物。"
+     }
+    },
+    {
+     "q": "The top layer of leaves and twigs is Horizon...",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "O"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "O = organic layer on top.",
+      "zh": "O 层 = 最上面的有机层。"
+     }
+    },
+    {
+     "q": "Erosion means...",
+     "options": [
+      "dropping rock and soil",
+      "carrying rock and soil away",
+      "making new rock",
+      "melting rock"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Erosion takes away. Deposition drops.",
+      "zh": "侵蚀是带走，沉积是放下。"
+     }
+    },
+    {
+     "q": "A delta forms where a river...",
+     "options": [
+      "starts in the mountains",
+      "freezes",
+      "flows uphill",
+      "meets the ocean and drops its sediment"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "The river slows down at the ocean and drops sediment.",
+      "zh": "河流到海边变慢，放下沉积物。"
+     }
+    },
+    {
+     "q": "A divide is...",
+     "options": [
+      "high land where water runs down one side or the other",
+      "a deep ocean trench",
+      "a type of soil",
+      "a river mouth"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Rain on a divide flows one way or the other.",
+      "zh": "落在分水岭上的雨会流向一边或另一边。"
+     }
+    },
+    {
+     "q": "Superposition: in undisturbed rock layers, the OLDEST layer is...",
+     "options": [
+      "at the top",
+      "in the middle",
+      "at the bottom",
+      "always missing"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "It was laid down first.",
+      "zh": "它最先形成。"
+     }
+    },
+    {
+     "q": "Magma cuts through rock layers. The magma is...",
+     "options": [
+      "older than the layers",
+      "younger than the layers",
+      "the same age",
+      "a fossil"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Cross-cutting: the layers had to be there first.",
+      "zh": "交切：岩层必须先存在。"
+     }
+    },
+    {
+     "q": "An unconformity shows that...",
+     "options": [
+      "some rock layers are missing",
+      "the rocks are new",
+      "there was a volcano",
+      "the layers are upside down"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Erosion removed some layers.",
+      "zh": "侵蚀磨掉了一些岩层。"
+     }
+    },
+    {
+     "q": "Going out from the beach, the order is...",
+     "options": [
+      "slope, shelf, rise, abyssal plain",
+      "abyssal plain, rise, slope, shelf",
+      "rise, shelf, slope, abyssal plain",
+      "shelf, slope, rise, abyssal plain"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Shelf first (shallow), then down the slope, the rise and the flat abyssal plain.",
+      "zh": "先是大陆架（浅），然后大陆坡、大陆隆和平坦的深海平原。"
+     }
+    },
+    {
+     "q": "Mid-ocean ridges form where plates...",
+     "options": [
+      "come together",
+      "slide past each other",
+      "move apart",
+      "do not move"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Divergent boundary = plates move apart.",
+      "zh": "离散边界 = 板块分开。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now remember soil, erosion, rock layers and the ocean floor.",
+    "zh": "我现在记得土壤、侵蚀、岩层和海底。"
+   },
+   "part": "S"
   }
  ],
  "reviews": [

@@ -383,6 +383,7 @@
   function renderSubject(id) {
     var sb = (S.student.subjects || []).filter(function (x) { return x.id === id; })[0];
     if (!sb) return renderError();
+    var parts = sb.parts || [sb.id], inP = function (p) { return parts.indexOf(p) >= 0; };   /* a subject can hold several Main Book parts */
     show(backLink(), h('p', { class: 'muted' }, '…'));
     var ids = weekIds();
     Promise.all([Promise.all(ids.map(loadWeek)),
@@ -394,30 +395,30 @@
         return h('a', { class: 'feature ' + cls, href: href }, h('span', { class: 'fico' }, icon),
           h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, title), sub ? h('span', { class: 'fsub' }, sub) : null));
       }
-      var sheets = school ? school.sheets.filter(function (x) { return x.part === id; }) : [];
+      var sheets = school ? school.sheets.filter(function (x) { return inP(x.part); }) : [];
       if (sheets.length) blocks.push(head('🏫', 'School Homework', '学校作业'), sheets.map(function (x) {
         var d = sheetDone(x.id);
         return feat('school', x.icon || '📄', tx(x.title), x.items.length + ' ' + L('questions', '题') + (d ? '  ·  ✅ ' + L('Done', '完成') : ''), '#/school/' + x.id);
       }));
-      var newest = weeks[0], mine = function (w, aid) { var a = (w.activities || []).filter(function (x) { return x.id === aid; })[0]; return a && a.part === id; };
+      var newest = weeks[0], mine = function (w, aid) { var a = (w.activities || []).filter(function (x) { return x.id === aid; })[0]; return a && inP(a.part); };
       var hwDays = newest ? (newest.days || []).filter(function (d) { return d.kind === 'homework' && (d.activities || []).some(function (aid) { return mine(newest, aid); }); }) : [];
       if (hwDays.length) blocks.push(head('🏠', 'Homework', '作业'), hwDays.map(function (d) {
         return feat('homework', '🏠', L('Homework', '作业') + ': ' + dayLabel(d.date), tx(d.title), '#/w/' + newest.week + '/day/' + d.date);
       }));
       var revs = [];
-      weeks.forEach(function (w) { (w.reviews || []).forEach(function (r) { if (r.part === id) revs.push({ r: r, w: w }); }); });
+      weeks.forEach(function (w) { (w.reviews || []).forEach(function (r) { if (inP(r.part)) revs.push({ r: r, w: w }); }); });
       if (revs.length) blocks.push(head('📋', 'Homework Review', '作业讲评'), revs.map(function (x) {
         var sc = selfScore(x.r);
         return feat('review', '📝', dayLabel(x.r.date) + ': ' + tx(x.r.title), reviewItems(x.r).length + ' ' + L('questions', '道题') + (sc ? '  ·  ✅ ' + sc.right + ' / ' + sc.total : ''), '#/w/' + x.w.week + '/review/' + x.r.id);
       }));
-      var chs = book ? book.chapters.filter(function (c) { return c.part === id; }) : [];
+      var chs = book ? book.chapters.filter(function (c) { return inP(c.part); }) : [];
       if (chs.length) blocks.push(head('📖', 'Main Book', '主课本'), h('div', { class: 'card' }, chs.map(function (c) {
         var soon = !c.slides || !c.slides.length;
         return h(soon ? 'div' : 'a', { class: 'list-link' + (soon ? ' muted' : ''), href: soon ? null : '#/book/' + c.code },
           h('span', null, c.code + '  ' + tx(c.title)), h('span', { class: 'small' }, soon ? L('Coming soon', '即将推出') : c.slides.length + ' ' + L('pages', '页') + ' →'));
       })));
       weeks.forEach(function (w, k) {
-        var acts = (w.activities || []).filter(function (a) { return a.part === id && a.type !== 'hwquiz'; });
+        var acts = (w.activities || []).filter(function (a) { return inP(a.part) && a.type !== 'hwquiz'; });
         if (!acts.length) return;
         blocks.push(head(k === 0 ? '📘' : '📚', k === 0 ? 'Workbook practice' : 'Earlier practice: ' + weekLabel(w.week), k === 0 ? '练习册练习' : '以前的练习：' + weekLabel(w.week)),
           h('div', { class: 'tiles' }, acts.map(function (a) { return actTile(w, a.id); })));

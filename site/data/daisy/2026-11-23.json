@@ -133,6 +133,67 @@
     "E5",
     "M2"
    ]
+  },
+  {
+   "date": "2026-11-28",
+   "kind": "homework",
+   "title": {
+    "en": "Fraction Word Problems",
+    "zh": "分数应用题"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book M2 to M4, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。读主课本 M2 到 M4，然后做一次小测。"
+   },
+   "activities": [
+    "fracquiz",
+    "hw-sat"
+   ],
+   "book": [
+    "M2",
+    "M3",
+    "M4"
+   ]
+  },
+  {
+   "date": "2026-11-29",
+   "title": {
+    "en": "Reading with Context Clues, and Story Writing",
+    "zh": "用上下文线索阅读，写故事"
+   },
+   "message": {
+    "en": "Class with Roy. Main Book R6 and E6 first, then the reading and the story quiz.",
+    "zh": "和 Roy 老师上课。先学主课本 R6 和 E6，再做阅读和故事小测。"
+   },
+   "activities": [
+    "read-prize",
+    "storyquiz"
+   ],
+   "book": [
+    "R6",
+    "E6"
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "kind": "homework",
+   "title": {
+    "en": "Week Review",
+    "zh": "一周复习"
+   },
+   "message": {
+    "en": "About 30 minutes. Look at Main Book R6, E4, E5 and E6 again, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。再看一遍主课本 R6、E4、E5、E6，然后做一次小测。"
+   },
+   "activities": [
+    "hw-mon30"
+   ],
+   "book": [
+    "R6",
+    "E4",
+    "E5",
+    "E6"
+   ]
   }
  ],
  "activities": [
@@ -2911,6 +2972,611 @@
    "canNow": {
     "en": "I can now use this week's words, joining words and fractions by myself.",
     "zh": "我现在能自己用本周的词、连词和分数。"
+   }
+  },
+  {
+   "id": "read-prize",
+   "type": "reading",
+   "icon": "📖",
+   "title": {
+    "en": "Reading: Eyes on the Prize",
+    "zh": "阅读：盯住目标"
+   },
+   "intro": {
+    "en": "Learn the key words, read the story, use context clues, then write one sentence.",
+    "zh": "先学关键词，再读故事，用上下文线索答题，最后写一句话。"
+   },
+   "storyTitle": "Eyes on the Prize",
+   "keywords": [
+    {
+     "word": "eyes on the prize",
+     "meaning": "keep thinking about your goal and do not give up",
+     "zh": "盯住目标，不放弃"
+    },
+    {
+     "word": "determined",
+     "meaning": "you have decided to do something and you will not stop",
+     "zh": "下定决心的"
+    },
+    {
+     "word": "exhausted",
+     "meaning": "very, very tired",
+     "zh": "筋疲力尽的"
+    },
+    {
+     "word": "gala",
+     "meaning": "a big swimming competition",
+     "zh": "游泳比赛（大型）"
+    },
+    {
+     "word": "beamed",
+     "meaning": "smiled a very big, happy smile",
+     "zh": "笑得很开心"
+    }
+   ],
+   "paragraphs": [
+    "Emma wanted to swim in the city gala. Her coach said she needed to swim 50 metres in under 40 seconds. Emma was determined. She decided she would practise every morning before school, even when it was cold.",
+    "Every day, Emma's arms ached and her legs felt like jelly. By Friday she was exhausted, so tired that she fell asleep on the bus. Her friend Sophie said, \"Keep your eyes on the prize. Think about the gala!\"",
+    "On the day of the gala, the pool was packed with people, and there was no empty seat anywhere. Emma's heart was pounding. The whistle blew and she dived in.",
+    "She touched the wall and looked at the clock: 38 seconds! Emma beamed. Her smile was so big that her cheeks hurt. All those cold mornings had been worth it."
+   ],
+   "questions": [
+    {
+     "q": "DETERMINED means...",
+     "options": [
+      "she was scared",
+      "she had decided and would not stop",
+      "she was bored",
+      "she was lost"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Clue: she decided she would practise every morning, even when it was cold.",
+      "zh": "线索：她决定每天早上练习，即使很冷。"
+     }
+    },
+    {
+     "q": "Which words are the context clue for EXHAUSTED?",
+     "options": [
+      "her friend Sophie",
+      "on the day of the gala",
+      "the whistle blew",
+      "so tired that she fell asleep on the bus"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "The meaning comes right after: so tired.",
+      "zh": "意思紧跟在后面：so tired（非常累）。"
+     }
+    },
+    {
+     "q": "\"The pool was PACKED.\" Which clue helps?",
+     "options": [
+      "there was no empty seat anywhere",
+      "the whistle blew",
+      "she dived in",
+      "38 seconds"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "No empty seat = very full.",
+      "zh": "没有空座位 = 非常满。"
+     }
+    },
+    {
+     "q": "What does Sophie mean by \"Keep your eyes on the prize\"?",
+     "options": [
+      "Look at the medals.",
+      "Close your eyes.",
+      "Think about your goal and do not give up.",
+      "Buy a prize."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "It is an idiom. Sophie wants Emma to remember her goal.",
+      "zh": "这是习语。Sophie 想让 Emma 记住目标。"
+     }
+    },
+    {
+     "q": "Did Emma reach her goal?",
+     "options": [
+      "No: she was too slow.",
+      "Yes: 38 seconds is under 40 seconds.",
+      "No: she did not swim.",
+      "We do not know."
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Her goal was under 40 seconds. 38 is less than 40.",
+      "zh": "目标是 40 秒以内。38 比 40 少。"
+     }
+    },
+    {
+     "q": "Which is the best THEME?",
+     "options": [
+      "Hard work helps you reach your goals.",
+      "Emma swam in a gala.",
+      "Pools are cold in the morning.",
+      "Sophie is Emma's friend."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A theme is a life lesson for everyone, with no names.",
+      "zh": "主题是给每个人的道理，不写名字。"
+     }
+    }
+   ],
+   "write": {
+    "prompt": {
+     "en": "Write ONE sentence about a goal you have. Use the word \"determined\".",
+     "zh": "写一句关于你自己目标的话，要用到 determined 这个词。"
+    },
+    "model": "I am determined to swim 100 metres without stopping."
+   },
+   "canNow": {
+    "en": "I can now use context clues while I read a story.",
+    "zh": "我现在读故事时会用上下文线索。"
+   }
+  },
+  {
+   "id": "storyquiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "🧩",
+   "title": {
+    "en": "Story Parts Quiz",
+    "zh": "故事部分小测"
+   },
+   "subtitle": {
+    "en": "8 questions",
+    "zh": "8 道题"
+   },
+   "intro": {
+    "en": "Characters, setting, problem, events, solution: which one is it?",
+    "zh": "人物、背景、问题、事件、解决：是哪一个？"
+   },
+   "questions": [
+    {
+     "q": "\"Tom and his little sister Lily\" are the...",
+     "options": [
+      "setting",
+      "problem",
+      "solution",
+      "characters"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Who = characters.",
+      "zh": "谁 = 人物。"
+     }
+    },
+    {
+     "q": "\"On a snowy morning in the mountains\" is the...",
+     "options": [
+      "characters",
+      "solution",
+      "setting",
+      "events"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Where and when = setting.",
+      "zh": "在哪里、什么时候 = 背景。"
+     }
+    },
+    {
+     "q": "\"Their puppy ran away into the forest.\" This is the...",
+     "options": [
+      "problem",
+      "setting",
+      "solution",
+      "characters"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Something goes wrong = problem.",
+      "zh": "出了问题 = 问题。"
+     }
+    },
+    {
+     "q": "\"They followed the paw prints and called his name.\" These are the...",
+     "options": [
+      "setting",
+      "events",
+      "problem",
+      "theme"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "What the characters do, step by step = events.",
+      "zh": "人物一步一步做的事 = 事件。"
+     }
+    },
+    {
+     "q": "\"They found the puppy asleep under a tree and carried him home.\" This is the...",
+     "options": [
+      "problem",
+      "setting",
+      "solution",
+      "characters"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "The problem is fixed = solution.",
+      "zh": "问题解决了 = 解决。"
+     }
+    },
+    {
+     "q": "Which sentence SHOWS a feeling best?",
+     "options": [
+      "She was scared.",
+      "She was a girl.",
+      "It was Monday.",
+      "Her hands shook as she opened the letter."
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Showing (shaking hands) paints a picture. Telling (\"scared\") does not.",
+      "zh": "“手在发抖”能让人看到画面，只说“害怕”不行。"
+     }
+    },
+    {
+     "q": "A draft is...",
+     "options": [
+      "the final perfect copy",
+      "a first try that you will improve",
+      "a list of spelling words",
+      "a picture"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Draft = first try. You check and improve it later.",
+      "zh": "草稿 = 第一次尝试，之后再检查、修改。"
+     }
+    },
+    {
+     "q": "Which is a FICTION story?",
+     "options": [
+      "How to make fried rice",
+      "My trip to the dentist yesterday",
+      "The life of a real scientist",
+      "A dragon who is scared of the dark"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Fiction = made up. Dragons are not real!",
+      "zh": "虚构 = 编的。龙不是真的！"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now name the 5 parts of a story.",
+    "zh": "我现在能说出故事的 5 个部分。"
+   }
+  },
+  {
+   "id": "hw-sat",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Saturday Homework: Fraction Word Problems",
+    "zh": "星期六作业：分数应用题"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look for the key words: \"of\" and \"each day\" mean ×, \"how many in\" and \"share\" mean ÷. One try only.",
+    "zh": "找关键词：of 和“每天”是 ×，“……里有几个”和“平均分”是 ÷。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Lily has 3/4 of a pizza. She eats 1/3 of it. What fraction of the WHOLE pizza does she eat?",
+     "options": [
+      "1/4",
+      "4/7",
+      "3/7",
+      "1 1/4"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Of means ×: 3/4 × 1/3 = 3/12 = 1/4.",
+      "zh": "of 就是 ×：3/4 × 1/3 = 3/12 = 1/4。"
+     }
+    },
+    {
+     "q": "Tom has 4 m of ribbon. Each bow needs 1/2 m. How many bows can he make?",
+     "options": [
+      "2",
+      "4 1/2",
+      "8",
+      "6"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "How many ... in ... = divide: 4 ÷ 1/2 = 4 × 2 = 8 bows.",
+      "zh": "“……里有几个” = 除法：4 ÷ 1/2 = 4 × 2 = 8 个。"
+     }
+    },
+    {
+     "q": "Emma swims 2/5 km every day. How far does she swim in 5 days?",
+     "options": [
+      "2/25 km",
+      "2 km",
+      "7/5 km",
+      "10 km"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Same amount each day = multiply: 2/5 × 5 = 10/5 = 2 km.",
+      "zh": "每天一样多 = 乘法：2/5 × 5 = 10/5 = 2 千米。"
+     }
+    },
+    {
+     "q": "3 friends share 3/4 kg of sweets equally. How much does each get?",
+     "options": [
+      "1/4 kg",
+      "9/4 kg",
+      "1/3 kg",
+      "1 kg"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Shared equally = divide: 3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4 kg.",
+      "zh": "平均分 = 除法：3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4 千克。"
+     }
+    },
+    {
+     "q": "Sophie has 200 baht. She spends 3/4 of it on a phone case. How much does she spend?",
+     "options": [
+      "50 baht",
+      "75 baht",
+      "800 baht",
+      "150 baht"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "3/4 of 200: 200 ÷ 4 = 50, then 50 × 3 = 150 baht.",
+      "zh": "200 的 3/4：200 ÷ 4 = 50，再 50 × 3 = 150 泰铢。"
+     }
+    },
+    {
+     "q": "A bottle holds 2 litres. Each glass holds 1/4 litre. How many glasses can you fill?",
+     "options": [
+      "1/2",
+      "6",
+      "8",
+      "4"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "2 ÷ 1/4 = 2 × 4 = 8 glasses.",
+      "zh": "2 ÷ 1/4 = 2 × 4 = 8 杯。"
+     }
+    },
+    {
+     "q": "Which word problem needs DIVIDING?",
+     "options": [
+      "How many 1/3 cups are in 2 cups?",
+      "What is 1/2 of 6?",
+      "She runs 1/4 km each day for 3 days.",
+      "What is 2/3 of 9?"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "\"How many ... in ...\" = divide. \"Of\" and \"each day for\" = multiply.",
+      "zh": "“……里有几个” = 除法；of 和“每天……共几天” = 乘法。"
+     }
+    },
+    {
+     "q": "1/2 ÷ 1/4 = ?",
+     "options": [
+      "1/8",
+      "2",
+      "1/2",
+      "4"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Keep, Change, Flip: 1/2 × 4/1 = 4/2 = 2.",
+      "zh": "不变、变号、倒过来：1/2 × 4/1 = 4/2 = 2。"
+     }
+    },
+    {
+     "q": "2/3 × 3/8 = ?",
+     "options": [
+      "5/11",
+      "6/11",
+      "1/4",
+      "1/3"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "2 × 3 = 6 and 3 × 8 = 24, so 6/24 = 1/4.",
+      "zh": "2 × 3 = 6，3 × 8 = 24，得 6/24 = 1/4。"
+     }
+    },
+    {
+     "q": "Does the answer make sense? James eats 1/2 of 1/2 of a cake. He says he ate 1 whole cake.",
+     "options": [
+      "Yes: 1/2 + 1/2 = 1",
+      "No: 1/2 of 1/2 is 1/4, less than half"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Of means ×: 1/2 × 1/2 = 1/4. Half of a half must be smaller than a half.",
+      "zh": "of 就是 ×：1/2 × 1/2 = 1/4。一半的一半一定比一半小。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose × or ÷ in fraction word problems.",
+    "zh": "我现在会在分数应用题里选 × 或 ÷。"
+   }
+  },
+  {
+   "id": "hw-mon30",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Monday Homework: Week Review",
+    "zh": "星期一作业：一周复习"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Context clues, joining words, -er and -or, story parts and fractions. One try only.",
+    "zh": "上下文线索、连词、-er 和 -or、故事部分和分数。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "\"The library was SILENT, so quiet that I could hear the clock.\" SILENT means...",
+     "options": [
+      "very quiet",
+      "very busy",
+      "very dark",
+      "very cold"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue: so quiet.",
+      "zh": "线索：so quiet。"
+     }
+    },
+    {
+     "q": "\"Unlike her ANXIOUS brother, Emma felt calm before the test.\" ANXIOUS means...",
+     "options": [
+      "calm",
+      "happy",
+      "worried and nervous",
+      "hungry"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Unlike = opposite of calm.",
+      "zh": "unlike = 和 calm 相反。"
+     }
+    },
+    {
+     "q": "\"We went to the beach ___ it was sunny.\"",
+     "options": [
+      "or",
+      "because",
+      "until",
+      "but"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It gives the reason: because.",
+      "zh": "说原因：because。"
+     }
+    },
+    {
+     "q": "\"I wanted to buy the photo card, ___ I did not have enough money.\"",
+     "options": [
+      "but",
+      "so",
+      "because",
+      "or"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Something different from what she wanted: but.",
+      "zh": "和想要的不一样：but。"
+     }
+    },
+    {
+     "q": "A person who visits is a...",
+     "options": [
+      "visiter",
+      "visittor",
+      "visitar",
+      "visitor"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Visit + -or = visitor.",
+      "zh": "visit + -or = visitor。"
+     }
+    },
+    {
+     "q": "A person who bakes bread is a...",
+     "options": [
+      "bakor",
+      "bakeer",
+      "baker",
+      "bakker"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Bake ends in e: drop the e, add -er.",
+      "zh": "bake 以 e 结尾：去掉 e，加 -er。"
+     }
+    },
+    {
+     "q": "\"In a castle long ago\" is the story's...",
+     "options": [
+      "setting",
+      "problem",
+      "solution",
+      "characters"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Where and when = setting.",
+      "zh": "在哪里、什么时候 = 背景。"
+     }
+    },
+    {
+     "q": "In a story, the part where the problem is fixed is the...",
+     "options": [
+      "setting",
+      "solution",
+      "problem",
+      "draft"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Solution = how the problem is fixed.",
+      "zh": "解决 = 问题怎样解决。"
+     }
+    },
+    {
+     "q": "2/3 of 12 stickers = ?",
+     "options": [
+      "4 stickers",
+      "18 stickers",
+      "8 stickers",
+      "6 stickers"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "12 ÷ 3 = 4, then 4 × 2 = 8.",
+      "zh": "12 ÷ 3 = 4，再 4 × 2 = 8。"
+     }
+    },
+    {
+     "q": "Which spelling is correct?",
+     "options": [
+      "congradulation",
+      "congratualtion",
+      "congratulasion",
+      "congratulation"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Congratulate: drop the e, add -ion.",
+      "zh": "congratulate 去掉 e，加 -ion。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use everything from this week by myself.",
+    "zh": "我现在能自己用上本周学的所有内容。"
    }
   }
  ],

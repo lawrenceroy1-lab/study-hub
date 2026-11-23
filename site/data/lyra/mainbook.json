@@ -3925,6 +3925,63 @@
        "zh": "在不同材料之间速度改变，光就改变方向。"
       }
      }
+    },
+    {
+     "icon": "🥤",
+     "title": {
+      "en": "Why does light bend?",
+      "zh": "光为什么会弯折？"
+     },
+     "points": [
+      {
+       "en": "Light travels at different speeds in different materials: fastest in air, slower in water, slower again in glass.",
+       "zh": "光在不同材料里速度不同：在空气中最快，在水中慢一些，在玻璃中更慢。"
+      },
+      {
+       "en": "When light goes from one material into another, its speed changes, so its direction changes. That is refraction.",
+       "zh": "光从一种材料进入另一种材料时，速度改变，方向也改变。这就是折射。"
+      },
+      {
+       "en": "That is why a straw in a glass of water looks bent.",
+       "zh": "所以水杯里的吸管看起来是弯的。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "💨",
+        "en": "air: fast",
+        "zh": "空气：快"
+       },
+       {
+        "icon": "💧",
+        "en": "water: slower",
+        "zh": "水：慢一些"
+       },
+       {
+        "icon": "🔷",
+        "en": "glass: slower again",
+        "zh": "玻璃：更慢"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Speed changes → direction changes = refraction.",
+      "zh": "速度变 → 方向变 = 折射。"
+     },
+     "quick": {
+      "q": "A straw in water looks bent because of...",
+      "options": [
+       "reflection",
+       "refraction"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Light changes speed as it leaves the water, so it bends.",
+       "zh": "光离开水时速度改变，所以会弯折。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -4061,6 +4118,154 @@
       "why": {
        "en": "Red + blue = magenta. Green + blue = cyan.",
        "zh": "红 + 蓝 = 品红；绿 + 蓝 = 青。"
+      }
+     }
+    },
+    {
+     "icon": "🌈",
+     "title": {
+      "en": "The colours of the spectrum",
+      "zh": "光谱的颜色"
+     },
+     "points": [
+      {
+       "en": "White light is a mix of colours. A prism splits it: red, orange, yellow, green, blue, indigo, violet.",
+       "zh": "白光是很多颜色混在一起的。棱镜把它分开：红、橙、黄、绿、蓝、靛、紫。"
+      },
+      {
+       "en": "Remember the order with the name: ROY G BIV.",
+       "zh": "用名字 ROY G BIV 记住顺序。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "⚪",
+        "en": "white light",
+        "zh": "白光"
+       },
+       {
+        "icon": "🔺",
+        "en": "prism",
+        "zh": "棱镜"
+       },
+       {
+        "icon": "🌈",
+        "en": "red to violet",
+        "zh": "红到紫"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🔦",
+     "title": {
+      "en": "Mixing coloured LIGHT",
+      "zh": "混合色光"
+     },
+     "points": [
+      {
+       "en": "Red + green = yellow. Red + blue = magenta. Green + blue = cyan.",
+       "zh": "红 + 绿 = 黄；红 + 蓝 = 品红；绿 + 蓝 = 青。"
+      },
+      {
+       "en": "Red + green + blue = white light.",
+       "zh": "红 + 绿 + 蓝 = 白光。"
+      },
+      {
+       "en": "Careful: this is for LIGHT. Paint mixes differently.",
+       "zh": "注意：这是光的混合，颜料不一样。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🟡",
+        "en": "red + green = yellow",
+        "zh": "红 + 绿 = 黄"
+       },
+       {
+        "icon": "🟣",
+        "en": "red + blue = magenta",
+        "zh": "红 + 蓝 = 品红"
+       },
+       {
+        "icon": "🔵",
+        "en": "green + blue = cyan",
+        "zh": "绿 + 蓝 = 青"
+       },
+       {
+        "icon": "⚪",
+        "en": "all three = white",
+        "zh": "三种都加 = 白"
+       }
+      ]
+     },
+     "quick": {
+      "q": "Red light + green light + blue light = ?",
+      "options": [
+       "black",
+       "white"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "All three primary colours of light make white.",
+       "zh": "三种原色光加起来是白光。"
+      }
+     }
+    },
+    {
+     "icon": "🍎",
+     "title": {
+      "en": "Why things have colours",
+      "zh": "物体为什么有颜色"
+     },
+     "points": [
+      {
+       "en": "Absorb means take in. Reflect means bounce back.",
+       "zh": "absorb（吸收）= 吸进去；reflect（反射）= 弹回来。"
+      },
+      {
+       "en": "A red apple REFLECTS red light into your eyes and ABSORBS all the other colours.",
+       "zh": "红苹果把红光反射进你的眼睛，把其他颜色都吸收了。"
+      },
+      {
+       "en": "White objects reflect ALL colours. Black objects absorb ALL colours.",
+       "zh": "白色物体反射所有颜色；黑色物体吸收所有颜色。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🍎",
+        "en": "red: reflects red",
+        "zh": "红：反射红光"
+       },
+       {
+        "icon": "👕",
+        "en": "white: reflects all",
+        "zh": "白：反射所有"
+       },
+       {
+        "icon": "🖤",
+        "en": "black: absorbs all",
+        "zh": "黑：吸收所有"
+       }
+      ]
+     },
+     "quick": {
+      "q": "A black T-shirt...",
+      "options": [
+       "absorbs all colours",
+       "reflects all colours"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "No light is reflected, so it looks black.",
+       "zh": "没有光被反射，所以看起来是黑的。"
       }
      }
     }

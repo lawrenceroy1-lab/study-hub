@@ -1640,6 +1640,145 @@
     "en": "I can now choose -er or -or and explain \"go out on a limb\".",
     "zh": "我现在会选 -er 或 -or，并能解释 go out on a limb。"
    }
+  },
+  {
+   "code": "E6",
+   "part": "E",
+   "title": {
+    "en": "Writing a Fictional Narrative",
+    "zh": "写虚构故事"
+   },
+   "slides": [
+    {
+     "icon": "📚",
+     "title": {
+      "en": "Fiction and narrative",
+      "zh": "虚构和记叙"
+     },
+     "points": [
+      {
+       "en": "Fiction means a made-up story. It did not really happen.",
+       "zh": "fiction（虚构）就是编出来的故事，不是真的发生过。"
+      },
+      {
+       "en": "A narrative is a story told in order: beginning, middle, end.",
+       "zh": "narrative（记叙文）就是按顺序讲的故事：开头、中间、结尾。"
+      }
+     ],
+     "quick": {
+      "q": "A fictional narrative is...",
+      "options": [
+       "a true diary",
+       "a made-up story"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Fiction = made up.",
+       "zh": "fiction = 编出来的。"
+      }
+     }
+    },
+    {
+     "icon": "🧩",
+     "title": {
+      "en": "The 5 story parts",
+      "zh": "故事的 5 个部分"
+     },
+     "points": [
+      {
+       "en": "Characters: WHO is in the story.",
+       "zh": "人物（characters）：故事里有谁。"
+      },
+      {
+       "en": "Setting: WHERE and WHEN it happens.",
+       "zh": "背景（setting）：在哪里、什么时候发生。"
+      },
+      {
+       "en": "Problem: what goes wrong.",
+       "zh": "问题（problem）：出了什么问题。"
+      },
+      {
+       "en": "Events: what the characters do, step by step.",
+       "zh": "事件（events）：人物一步一步做了什么。"
+      },
+      {
+       "en": "Solution: how the problem is fixed at the end.",
+       "zh": "解决（solution）：最后问题怎样解决。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🧒",
+        "en": "characters",
+        "zh": "人物"
+       },
+       {
+        "icon": "🏙️",
+        "en": "setting",
+        "zh": "背景"
+       },
+       {
+        "icon": "⚠️",
+        "en": "problem",
+        "zh": "问题"
+       },
+       {
+        "icon": "👣",
+        "en": "events",
+        "zh": "事件"
+       },
+       {
+        "icon": "✅",
+        "en": "solution",
+        "zh": "解决"
+       }
+      ]
+     },
+     "quick": {
+      "q": "\"At a busy night market in winter\" is the...",
+      "options": [
+       "problem",
+       "setting"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Where and when = setting.",
+       "zh": "在哪里、什么时候 = 背景。"
+      }
+     }
+    },
+    {
+     "icon": "✍️",
+     "title": {
+      "en": "Drafting: get it down first",
+      "zh": "打草稿：先写下来"
+     },
+     "points": [
+      {
+       "en": "A draft is a first try. It does not have to be perfect.",
+       "zh": "草稿（draft）是第一次尝试，不用完美。"
+      },
+      {
+       "en": "Plan the 5 parts in short notes, then write one paragraph for each.",
+       "zh": "先用短短的笔记计划 5 个部分，再每部分写一段。"
+      },
+      {
+       "en": "Show feelings: \"Her hands shook\" is better than \"She was scared\".",
+       "zh": "写出感受：“她的手在发抖”比“她很害怕”更好。"
+      }
+     ],
+     "remember": {
+      "en": "Plan, draft, then check capitals and full stops.",
+      "zh": "先计划，再打草稿，最后检查大写和句号。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now plan and draft a story with all 5 parts.",
+    "zh": "我现在会计划并写出有 5 个部分的故事草稿。"
+   }
   }
  ]
 }
