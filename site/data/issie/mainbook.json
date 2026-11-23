@@ -2141,6 +2141,18 @@
         "zh": "活动项目"
        }
       ]
+     },
+     "quick": {
+      "q": "A flyer must say WHAT, WHEN, WHERE and the...",
+      "options": [
+       "writer's age",
+       "activities"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "What, when, where and the activities, so people want to come.",
+       "zh": "什么活动、什么时候、在哪里、有哪些项目，让人想来参加。"
+      }
      }
     },
     {
@@ -2326,6 +2338,18 @@
      "remember": {
       "en": "divide by the TOP number, then multiply by the BOTTOM number",
       "zh": "先除以分子，再乘以分母"
+     },
+     "quick": {
+      "q": "3/4 of a number is 12. One part (1/4) is...",
+      "options": [
+       "4",
+       "3"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "3 parts = 12, so 1 part = 12 ÷ 3 = 4.",
+       "zh": "3 份 = 12，所以 1 份 = 12 ÷ 3 = 4。"
+      }
      }
     }
    ],
@@ -2380,6 +2404,18 @@
      "remember": {
       "en": "Weather = today. Climate = many years.",
       "zh": "天气 = 今天；气候 = 很多年。"
+     },
+     "quick": {
+      "q": "\"It is sunny and 30 °C today.\" Is this weather or climate?",
+      "options": [
+       "climate",
+       "weather"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Today = weather. Many years = climate.",
+       "zh": "今天 = 天气；很多年 = 气候。"
+      }
      }
     },
     {
@@ -2397,7 +2433,19 @@
        "en": "Weather happens in the lowest part, called the troposphere 对流层. Clouds, rain and wind are all here.",
        "zh": "天气发生在最下面一层，叫对流层。云、雨和风都在这里。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Weather happens in the...",
+      "options": [
+       "ocean",
+       "troposphere"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "The lowest layer of the atmosphere.",
+       "zh": "大气层最下面的一层。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -2478,7 +2526,19 @@
        "en": "Continental 大陆的: DRY, the sponge sat over land, like a dry towel.",
        "zh": "大陆的：干，海绵停在陆地上，像干毛巾。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "A maritime air mass is...",
+      "options": [
+       "wet",
+       "dry"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Maritime = the sponge sat over the ocean.",
+       "zh": "海洋的 = 海绵停在海洋上。"
+      }
+     }
     },
     {
      "icon": "🧩",
@@ -2556,6 +2616,18 @@
         "zh": "干 + 冷"
        }
       ]
+     },
+     "quick": {
+      "q": "Continental polar air is...",
+      "options": [
+       "cold and dry",
+       "warm and wet"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Continental = dry (land). Polar = cold.",
+       "zh": "大陆的 = 干；极地的 = 冷。"
+      }
      }
     }
    ],
@@ -2602,6 +2674,18 @@
         "zh": "暖空气：轻，上升"
        }
       ]
+     },
+     "quick": {
+      "q": "Cold air...",
+      "options": [
+       "rises",
+       "sinks"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Cold air is heavy, so it sinks.",
+       "zh": "冷空气重，所以下沉。"
+      }
      }
     },
     {
@@ -2669,6 +2753,18 @@
      "remember": {
       "en": "Cold front = bulldozer = sudden storms.",
       "zh": "冷锋 = 推土机 = 突然的暴风雨。"
+     },
+     "quick": {
+      "q": "A cold front usually brings...",
+      "options": [
+       "sudden storms",
+       "gentle rain all day"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "The bulldozer shoves warm air up fast: tall storm clouds.",
+       "zh": "推土机把暖空气快速推上去：高高的雷暴云。"
+      }
      }
     },
     {
@@ -2719,6 +2815,18 @@
      "remember": {
       "en": "Warm front = ramp = gentle rain all day.",
       "zh": "暖锋 = 斜坡 = 一整天小雨。"
+     },
+     "quick": {
+      "q": "A warm front usually brings...",
+      "options": [
+       "sudden thunderstorms",
+       "gentle rain for a long time"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "The ramp: warm air slides up slowly.",
+       "zh": "斜坡：暖空气慢慢滑上去。"
+      }
      }
     },
     {
@@ -2801,6 +2909,18 @@
         "zh": "气体 → 液体 = 凝结"
        }
       ]
+     },
+     "quick": {
+      "q": "Water drops on the outside of a cold drink come from...",
+      "options": [
+       "water vapour in the air",
+       "inside the glass"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Vapour in the air cools on the glass and condenses.",
+       "zh": "空气里的水蒸气碰到冷杯子凝结。"
+      }
      }
     },
     {
@@ -2934,6 +3054,18 @@
         "zh": "积雨云：雷暴"
        }
       ]
+     },
+     "quick": {
+      "q": "Puffy, cotton-ball clouds are...",
+      "options": [
+       "cumulus",
+       "stratus"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Cumulus = puffy. Stratus = flat grey sheets.",
+       "zh": "积云 = 蓬松；层云 = 平平的灰色层。"
+      }
      }
     }
    ],
@@ -2984,6 +3116,18 @@
         "zh": "低压 L：上升，下雨"
        }
       ]
+     },
+     "quick": {
+      "q": "High pressure usually brings...",
+      "options": [
+       "rain",
+       "clear skies"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Sinking air: clear and sunny.",
+       "zh": "下沉气流：晴朗。"
+      }
      }
     },
     {
@@ -3017,6 +3161,18 @@
         "zh": "低压"
        }
       ]
+     },
+     "quick": {
+      "q": "Wind blows from...",
+      "options": [
+       "high to low pressure",
+       "low to high pressure"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Like air rushing out of a squeezed balloon.",
+       "zh": "就像空气从被挤的气球里冲出来。"
+      }
      }
     },
     {
@@ -3057,6 +3213,18 @@
      "remember": {
       "en": "Isobar = same pressure line.",
       "zh": "等压线 = 气压相同的线。"
+     },
+     "quick": {
+      "q": "Isobars close together mean...",
+      "options": [
+       "no wind",
+       "strong wind"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Close lines = steep = fast wind.",
+       "zh": "线近 = 陡 = 风大。"
+      }
      }
     }
    ],
@@ -3138,6 +3306,18 @@
         "zh": "杆 = 风"
        }
       ]
+     },
+     "quick": {
+      "q": "On a station model, the circle shows...",
+      "options": [
+       "wind speed",
+       "cloud cover"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "More shading = more cloud.",
+       "zh": "涂得越多 = 云越多。"
+      }
      }
     },
     {
@@ -3230,6 +3410,18 @@
         "zh": "满了：水出来"
        }
       ]
+     },
+     "quick": {
+      "q": "Relative humidity 100% means the air is...",
+      "options": [
+       "completely dry",
+       "completely full of water vapour"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Full sponge: water starts to come out.",
+       "zh": "海绵满了：水开始出来。"
+      }
      }
     },
     {
@@ -3333,6 +3525,18 @@
         "zh": "凤凰城：5°C 到 41°C（变化大）"
        }
       ]
+     },
+     "quick": {
+      "q": "Which city has the smaller temperature change?",
+      "options": [
+       "San Diego (by the ocean)",
+       "Phoenix (inland)"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "San Diego: 9 °C to 24 °C = 15 °C change. Phoenix: 5 °C to 41 °C = 36 °C change.",
+       "zh": "圣地亚哥：9 °C 到 24 °C，相差 15 °C；凤凰城：5 °C 到 41 °C，相差 36 °C。"
+      }
      }
     },
     {
@@ -3370,6 +3574,18 @@
         "zh": "干燥的雨影区"
        }
       ]
+     },
+     "quick": {
+      "q": "The dry side of a mountain is the...",
+      "options": [
+       "rain shadow",
+       "rain forest"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "The rain falls on the other side.",
+       "zh": "雨都下在另一边了。"
+      }
      }
     },
     {
@@ -3448,6 +3664,18 @@
         "zh": "南极圈 66.5°S"
        }
       ]
+     },
+     "quick": {
+      "q": "The equator is at...",
+      "options": [
+       "23.5°",
+       "0°"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Equator 0°. Tropics 23.5°. Polar circles 66.5°.",
+       "zh": "赤道 0°；回归线 23.5°；极圈 66.5°。"
+      }
      }
     },
     {
@@ -3489,6 +3717,18 @@
         "zh": "极地：冷干"
        }
       ]
+     },
+     "quick": {
+      "q": "The zone between the two tropics is...",
+      "options": [
+       "tropical",
+       "polar"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Between 23.5°N and 23.5°S: tropical, warm and wet.",
+       "zh": "在北纬 23.5° 和南纬 23.5° 之间：热带，温暖潮湿。"
+      }
      }
     },
     {

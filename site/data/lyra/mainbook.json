@@ -162,6 +162,18 @@
      "remember": {
       "en": "element = only ONE type of atom",
       "zh": "元素 = 只有一种原子"
+     },
+     "quick": {
+      "q": "A substance made of only ONE type of atom is...",
+      "options": [
+       "an element",
+       "a mixture"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "One type of atom = element.",
+       "zh": "只有一种原子 = 元素。"
+      }
      }
     },
     {
@@ -286,6 +298,18 @@
      "remember": {
       "en": "Most metals are NOT magnetic.",
       "zh": "大部分金属没有磁性。"
+     },
+     "quick": {
+      "q": "Which metal is magnetic?",
+      "options": [
+       "copper",
+       "iron"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Only iron, nickel and cobalt are magnetic. Copper is not.",
+       "zh": "只有铁、镍、钴有磁性，铜没有。"
+      }
      }
     },
     {
@@ -402,6 +426,18 @@
      "remember": {
       "en": "Same colour joined = still an element.",
       "zh": "相同颜色结合 = 还是元素。"
+     },
+     "quick": {
+      "q": "O₂ is...",
+      "options": [
+       "a compound",
+       "an element"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Both atoms are oxygen, so it is still an element.",
+       "zh": "两个原子都是氧，所以还是元素。"
+      }
      }
     }
    ],
@@ -581,6 +617,18 @@
      "remember": {
       "en": "Not joined = mixture.",
       "zh": "没有结合 = 混合物。"
+     },
+     "quick": {
+      "q": "Sand and water stirred together is a...",
+      "options": [
+       "compound",
+       "mixture"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Not chemically joined, so a mixture.",
+       "zh": "没有化学结合，所以是混合物。"
+      }
      }
     },
     {
@@ -649,6 +697,18 @@
      "remember": {
       "en": "Alloys are mixtures.",
       "zh": "合金是混合物。"
+     },
+     "quick": {
+      "q": "Brass (copper + zinc) is...",
+      "options": [
+       "a mixture",
+       "a compound"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "An alloy is a mixture of metals.",
+       "zh": "合金是金属的混合物。"
+      }
      }
     },
     {
@@ -717,6 +777,18 @@
       "main": {
        "en": "1 capital = element.  2+ capitals = compound.",
        "zh": "1 个大写 = 元素。2 个以上 = 化合物。"
+      }
+     },
+     "quick": {
+      "q": "Co (small o) is...",
+      "options": [
+       "cobalt, an element",
+       "carbon monoxide, a compound"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "One capital letter = one element: cobalt.",
+       "zh": "一个大写字母 = 一种元素：钴。"
       }
      }
     },
@@ -881,6 +953,18 @@
         ]
        }
       ]
+     },
+     "quick": {
+      "q": "Particles made of different coloured atoms joined, all the same: this is...",
+      "options": [
+       "a mixture",
+       "a compound"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "One kind of particle with different atoms joined = compound.",
+       "zh": "只有一种粒子，里面是不同原子结合 = 化合物。"
+      }
      }
     },
     {
@@ -1165,6 +1249,18 @@
         ]
        }
       ]
+     },
+     "quick": {
+      "q": "Two kinds of particle, each only one colour: write...",
+      "options": [
+       "mixture of two elements",
+       "mixture"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Always write the FULL name.",
+       "zh": "一定要写完整的名称。"
+      }
      }
     },
     {
@@ -1338,6 +1434,18 @@
        "en": "count = add all the small numbers (no number = 1)",
        "zh": "原子数 = 所有小数字相加（没写 = 1）"
       }
+     },
+     "quick": {
+      "q": "How many atoms are in ONE molecule of H₂O?",
+      "options": [
+       "2",
+       "3"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "2 hydrogen + 1 oxygen = 3 atoms.",
+       "zh": "2 个氢 + 1 个氧 = 3 个原子。"
+      }
      }
     },
     {
@@ -1365,6 +1473,18 @@
       "example": {
        "en": "4 × 3 = 12   (do not multiply again!)",
        "zh": "4 × 3 = 12（不要再乘！）"
+      }
+     },
+     "quick": {
+      "q": "How many hydrogen atoms are in 3H₂O?",
+      "options": [
+       "6",
+       "5"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "3 molecules × 2 hydrogen = 6.",
+       "zh": "3 个分子 × 2 个氢 = 6。"
       }
      }
     },
@@ -1458,6 +1578,18 @@
        "en": "magnesium + oxygen → magnesium oxide",
        "zh": "镁 + 氧 → 氧化镁"
       }
+     },
+     "quick": {
+      "q": "In magnesium + oxygen → magnesium oxide, the product is...",
+      "options": [
+       "magnesium oxide",
+       "oxygen"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Products are on the RIGHT of the arrow.",
+       "zh": "生成物在箭头右边。"
+      }
      }
     },
     {
@@ -1512,7 +1644,19 @@
        "en": "-ate means oxygen is in it too: copper sulfate, calcium carbonate.",
        "zh": "-ate 表示里面还有氧：硫酸铜、碳酸钙。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "CO₂ is called carbon...",
+      "options": [
+       "monoxide",
+       "dioxide"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "di = 2 oxygens.",
+       "zh": "di = 2 个氧。"
+      }
+     }
     },
     {
      "icon": "📜",
@@ -1587,6 +1731,18 @@
         "zh": "溶解"
        }
       ]
+     },
+     "quick": {
+      "q": "Melting ice is a...",
+      "options": [
+       "physical change",
+       "chemical change"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "No new substance: it is still water.",
+       "zh": "没有新物质，还是水。"
+      }
      }
     },
     {
@@ -1667,6 +1823,18 @@
         "zh": "新物质"
        }
       ]
+     },
+     "quick": {
+      "q": "Bubbles of a new gas appear. This is a sign of a...",
+      "options": [
+       "physical change",
+       "chemical change"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "A new substance (gas) is made.",
+       "zh": "产生了新物质（气体）。"
+      }
      }
     },
     {
@@ -1940,6 +2108,18 @@
      "remember": {
       "en": "Gas → liquid is condensing, NOT boiling.",
       "zh": "气体 → 液体是凝结，不是沸腾。"
+     },
+     "quick": {
+      "q": "Gas turning into liquid is called...",
+      "options": [
+       "boiling",
+       "condensing"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Cooling a gas turns it back to liquid: condensing.",
+       "zh": "气体冷却变回液体：凝结。"
+      }
      }
     },
     {
@@ -2043,6 +2223,18 @@
         "zh": "高于沸点：气体"
        }
       ]
+     },
+     "quick": {
+      "q": "Room temperature is 20 °C. Melting point 50 °C. At room temperature it is a...",
+      "options": [
+       "liquid",
+       "solid"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "20 °C is below the melting point, so it has not melted: solid.",
+       "zh": "20 °C 低于熔点，还没熔化：固体。"
+      }
      }
     }
    ],
@@ -2115,6 +2307,18 @@
         "zh": "我保持不变"
        }
       ]
+     },
+     "quick": {
+      "q": "In a fair test, the thing you CHANGE is the...",
+      "options": [
+       "independent variable",
+       "control variable"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "C-M-S: Change, Measure, keep the Same.",
+       "zh": "C-M-S：改变、测量、保持不变。"
+      }
      }
     },
     {
@@ -2172,6 +2376,18 @@
       "main": {
        "en": "metal | mass before (g) | mass after (g) | change in mass (g)",
        "zh": "金属 | 加热前质量 (g) | 加热后质量 (g) | 质量变化 (g)"
+      }
+     },
+     "quick": {
+      "q": "The first column of a results table is...",
+      "options": [
+       "what you change",
+       "what you measure"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "First column = what you change.",
+       "zh": "第一列 = 你改变的东西。"
       }
      }
     }
@@ -2256,7 +2472,19 @@
        "en": "Examples: light, all electromagnetic waves, ripples on water.",
        "zh": "例子：光、所有电磁波、水面的波纹。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Water waves on a pond are...",
+      "options": [
+       "longitudinal",
+       "transverse"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "The water moves up and down, at 90° to the way the wave travels.",
+       "zh": "水上下运动，和波传播方向成 90°。"
+      }
+     }
     },
     {
      "icon": "📏",
@@ -2311,7 +2539,19 @@
        "en": "Sound is a longitudinal wave. Think of pushing and pulling a slinky.",
        "zh": "声音是纵波。想一想推拉弹簧玩具。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Sound waves are...",
+      "options": [
+       "longitudinal",
+       "transverse"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Particles vibrate parallel to the direction of travel.",
+       "zh": "粒子振动方向和传播方向平行。"
+      }
+     }
     },
     {
      "icon": "⏱️",
@@ -2380,7 +2620,19 @@
        "en": "Sound in air: about 340 m/s. In water: about 1500 m/s. Light: about 300,000 km/s!",
        "zh": "声音在空气中约 340 米/秒，在水中约 1500 米/秒。光约 300,000 公里/秒！"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Can sound travel through a vacuum?",
+      "options": [
+       "Yes",
+       "No"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Sound needs particles (a medium). A vacuum has none.",
+       "zh": "声音需要粒子（介质），真空里没有。"
+      }
+     }
     },
     {
      "icon": "🌊",
@@ -2684,7 +2936,19 @@
        "en": "More waves squeezed in = higher frequency = higher pitch.",
        "zh": "波越密 = 频率越高 = 音调越高。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "A higher frequency gives a...",
+      "options": [
+       "higher pitch",
+       "louder sound"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Pitch = frequency. Loudness = amplitude.",
+       "zh": "音调看频率，响度看振幅。"
+      }
+     }
     },
     {
      "icon": "📢",
@@ -2738,6 +3002,18 @@
      "remember": {
       "en": "Pitch = frequency ONLY. Loudness = amplitude ONLY.",
       "zh": "音调只看频率，响度只看振幅。"
+     },
+     "quick": {
+      "q": "A bigger amplitude gives a...",
+      "options": [
+       "louder sound",
+       "higher pitch"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Loudness = amplitude.",
+       "zh": "响度看振幅。"
+      }
      }
     },
     {
@@ -2895,7 +3171,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Sound above 20,000 Hz is...",
+      "options": [
+       "infrasound",
+       "ultrasound"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Ultra = beyond (above). Infra = below.",
+       "zh": "ultra = 超过；infra = 低于。"
+      }
+     }
     },
     {
      "icon": "🐘",
@@ -3050,7 +3338,19 @@
        "en": "Very loud sounds can damage the tiny hair cells in the cochlea forever.",
        "zh": "很大的声音会永久损伤耳蜗里的毛细胞。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Which comes FIRST when sound enters the ear?",
+      "options": [
+       "pinna",
+       "cochlea"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Pinna → canal → eardrum → ossicles → cochlea → nerve.",
+       "zh": "耳廓 → 外耳道 → 鼓膜 → 听小骨 → 耳蜗 → 听神经。"
+      }
+     }
     },
     {
      "icon": "👂",
@@ -3130,7 +3430,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "The ossicles are...",
+      "options": [
+       "a spiral tube",
+       "three tiny bones"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Three tiny bones that pass on and amplify the vibrations.",
+       "zh": "三块小骨头，传递并放大振动。"
+      }
+     }
     },
     {
      "icon": "🐌",
@@ -3244,7 +3556,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "A brick wall is...",
+      "options": [
+       "translucent",
+       "opaque"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "No light passes through a brick wall.",
+       "zh": "光不能穿过砖墙。"
+      }
+     }
     },
     {
      "icon": "☀️",
@@ -3284,7 +3608,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "The Moon is...",
+      "options": [
+       "luminous",
+       "non-luminous"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "It reflects sunlight. It does not make its own light.",
+       "zh": "它反射太阳光，自己不发光。"
+      }
+     }
     },
     {
      "icon": "➡️",
@@ -3478,7 +3814,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Angle of incidence = 40°. Angle of reflection = ?",
+      "options": [
+       "40°",
+       "50°"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "They are always equal.",
+       "zh": "它们总是相等。"
+      }
+     }
     },
     {
      "icon": "📐",
@@ -3518,7 +3866,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "The normal is at ___ to the surface.",
+      "options": [
+       "90°",
+       "45°"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Normal = a line at 90°.",
+       "zh": "法线和表面成 90°。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -3552,7 +3912,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Refraction happens because light changes...",
+      "options": [
+       "colour",
+       "speed"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Changing speed between materials makes light change direction.",
+       "zh": "在不同材料之间速度改变，光就改变方向。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -3646,7 +4018,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "The primary colours of LIGHT are red, green and...",
+      "options": [
+       "blue",
+       "yellow"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Light: red, green, blue. (Paint is different.)",
+       "zh": "光的三原色：红、绿、蓝。（颜料不一样。）"
+      }
+     }
     },
     {
      "icon": "🟡",
@@ -3666,7 +4050,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Red light + blue light = ?",
+      "options": [
+       "cyan",
+       "magenta"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Red + blue = magenta. Green + blue = cyan.",
+       "zh": "红 + 蓝 = 品红；绿 + 蓝 = 青。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -3740,7 +4136,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "Which has the LOWER frequency?",
+      "options": [
+       "radio waves",
+       "gamma rays"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Radio is at the low-frequency end. Gamma is at the high end.",
+       "zh": "无线电波在低频端，伽马射线在高频端。"
+      }
+     }
     },
     {
      "icon": "♨️",
@@ -3820,7 +4228,19 @@
        "en": "This is your school's definition. Learn it word for word.",
        "zh": "这是学校的定义，要一字不差地记住。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "UV can cause...",
+      "options": [
+       "sunburn",
+       "echoes"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "UV damages skin cells.",
+       "zh": "紫外线会伤害皮肤细胞。"
+      }
+     }
     },
     {
      "icon": "🔑",

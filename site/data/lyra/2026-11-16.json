@@ -3143,6 +3143,1532 @@
     "en": "I can now fix the tricky questions by myself.",
     "zh": "我现在能自己改正难题。"
    }
+  },
+  {
+   "id": "kw-waves",
+   "type": "flashcards",
+   "icon": "🌊",
+   "title": {
+    "en": "Keywords 1: Waves",
+    "zh": "关键词 1：波"
+   },
+   "subtitle": {
+    "en": "12 keywords",
+    "zh": "12 个关键词"
+   },
+   "intro": {
+    "en": "Read the keyword, say the meaning in your own words, then tap to check.",
+    "zh": "读关键词，用自己的话说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "wave",
+     "back": "A disturbance that transfers energy from one place to another.",
+     "zh": "波",
+     "zhBack": "把能量从一个地方传到另一个地方的扰动。"
+    },
+    {
+     "front": "transverse wave",
+     "back": "A wave in which vibrations are perpendicular to the direction of travel.",
+     "zh": "横波",
+     "zhBack": "振动方向和传播方向垂直的波。"
+    },
+    {
+     "front": "longitudinal wave",
+     "back": "A wave in which vibrations are parallel to the direction of travel.",
+     "zh": "纵波",
+     "zhBack": "振动方向和传播方向平行的波。"
+    },
+    {
+     "front": "amplitude",
+     "back": "The maximum distance a point on a wave moves from its resting position.",
+     "zh": "振幅",
+     "zhBack": "波上一点离开静止位置的最大距离。"
+    },
+    {
+     "front": "wavelength",
+     "back": "The distance between two corresponding points on consecutive waves, such as crest to crest.",
+     "zh": "波长",
+     "zhBack": "相邻两个波上对应两点之间的距离，例如波峰到波峰。"
+    },
+    {
+     "front": "frequency",
+     "back": "The number of complete waves passing a point each second.",
+     "zh": "频率",
+     "zhBack": "每秒经过某一点的完整波的数量。"
+    },
+    {
+     "front": "hertz (Hz)",
+     "back": "The unit used to measure frequency. One hertz equals one wave per second.",
+     "zh": "赫兹 (Hz)",
+     "zhBack": "频率的单位。1 赫兹 = 每秒 1 个波。"
+    },
+    {
+     "front": "medium",
+     "back": "A substance or material through which a wave travels.",
+     "zh": "介质",
+     "zhBack": "波在其中传播的物质或材料。"
+    },
+    {
+     "front": "vibration",
+     "back": "A repeated movement backwards and forwards around a resting position.",
+     "zh": "振动",
+     "zhBack": "在静止位置附近来回重复的运动。"
+    },
+    {
+     "front": "vacuum",
+     "back": "A space containing no particles.",
+     "zh": "真空",
+     "zhBack": "没有任何粒子的空间。"
+    },
+    {
+     "front": "compression",
+     "back": "A region of a longitudinal wave where particles are close together.",
+     "zh": "密部",
+     "zhBack": "纵波中粒子挤在一起的区域。"
+    },
+    {
+     "front": "rarefaction",
+     "back": "A region of a longitudinal wave where particles are spread further apart.",
+     "zh": "疏部",
+     "zhBack": "纵波中粒子分得更开的区域。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the 12 wave keywords.",
+    "zh": "我现在能解释 12 个关于波的关键词。"
+   }
+  },
+  {
+   "id": "kw-sound",
+   "type": "flashcards",
+   "icon": "👂",
+   "title": {
+    "en": "Keywords 4: Sound and Hearing",
+    "zh": "关键词 4：声音和听觉"
+   },
+   "subtitle": {
+    "en": "15 keywords",
+    "zh": "15 个关键词"
+   },
+   "intro": {
+    "en": "Read the keyword, say the meaning in your own words, then tap to check.",
+    "zh": "读关键词，用自己的话说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "pitch",
+     "back": "How high or low a sound seems. It depends on the frequency of the sound wave.",
+     "zh": "音调",
+     "zhBack": "声音听起来有多高或多低，取决于声波的频率。"
+    },
+    {
+     "front": "volume / loudness",
+     "back": "How loud or quiet a sound seems. It is related to the amplitude and intensity of the sound wave.",
+     "zh": "响度（音量）",
+     "zhBack": "声音听起来有多响或多轻，和声波的振幅、强度有关。"
+    },
+    {
+     "front": "decibel (dB)",
+     "back": "The unit used to measure sound level. The decibel scale is logarithmic.",
+     "zh": "分贝 (dB)",
+     "zhBack": "测量声音大小的单位。分贝是对数刻度。"
+    },
+    {
+     "front": "audible range",
+     "back": "The range of sound frequencies that an animal can hear. For humans, this is approximately 20 Hz to 20,000 Hz.",
+     "zh": "可听范围",
+     "zhBack": "动物能听到的声音频率范围。人大约是 20 Hz 到 20,000 Hz。"
+    },
+    {
+     "front": "ultrasound",
+     "back": "Sound with a frequency higher than 20,000 Hz, above the usual human hearing range.",
+     "zh": "超声波",
+     "zhBack": "频率高于 20,000 Hz 的声音，高过人的听觉范围。"
+    },
+    {
+     "front": "infrasound",
+     "back": "Sound with a frequency lower than 20 Hz, below the usual human hearing range.",
+     "zh": "次声波",
+     "zhBack": "频率低于 20 Hz 的声音，低过人的听觉范围。"
+    },
+    {
+     "front": "echo",
+     "back": "A sound heard again after it has reflected off a surface.",
+     "zh": "回声",
+     "zhBack": "声音碰到表面反射回来后再次被听到。"
+    },
+    {
+     "front": "echolocation",
+     "back": "The use of reflected sound waves to detect objects and determine their position or distance.",
+     "zh": "回声定位",
+     "zhBack": "利用反射回来的声波发现物体，并判断它的位置或距离。"
+    },
+    {
+     "front": "sonar",
+     "back": "A system that uses reflected sound waves to detect objects and measure distances, commonly underwater.",
+     "zh": "声呐",
+     "zhBack": "利用反射声波发现物体、测量距离的系统，常用于水下。"
+    },
+    {
+     "front": "pinna",
+     "back": "The visible outer part of the ear that collects sound waves.",
+     "zh": "耳廓",
+     "zhBack": "耳朵外面看得见的部分，用来收集声波。"
+    },
+    {
+     "front": "auditory canal",
+     "back": "The tube that carries sound waves from the pinna to the eardrum.",
+     "zh": "外耳道",
+     "zhBack": "把声波从耳廓送到鼓膜的管道。"
+    },
+    {
+     "front": "eardrum",
+     "back": "A thin membrane that vibrates when sound waves reach it.",
+     "zh": "鼓膜",
+     "zhBack": "声波到达时会振动的一层薄膜。"
+    },
+    {
+     "front": "ossicles",
+     "back": "Three tiny bones in the middle ear that transmit and amplify vibrations from the eardrum to the inner ear.",
+     "zh": "听小骨",
+     "zhBack": "中耳里的三块小骨头，把鼓膜的振动传到内耳并放大。"
+    },
+    {
+     "front": "cochlea",
+     "back": "A spiral-shaped structure in the inner ear that converts vibrations into electrical signals.",
+     "zh": "耳蜗",
+     "zhBack": "内耳里螺旋形的结构，把振动变成电信号。"
+    },
+    {
+     "front": "auditory nerve",
+     "back": "The nerve that carries electrical signals from the cochlea to the brain.",
+     "zh": "听神经",
+     "zhBack": "把电信号从耳蜗送到大脑的神经。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the 15 sound and hearing keywords.",
+    "zh": "我现在能解释 15 个关于声音和听觉的关键词。"
+   }
+  },
+  {
+   "id": "kw-light",
+   "type": "flashcards",
+   "icon": "💡",
+   "title": {
+    "en": "Keywords 2: Light and Optics",
+    "zh": "关键词 2：光和光学"
+   },
+   "subtitle": {
+    "en": "22 keywords",
+    "zh": "22 个关键词"
+   },
+   "intro": {
+    "en": "Read the keyword, say the meaning in your own words, then tap to check.",
+    "zh": "读关键词，用自己的话说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "transparent",
+     "back": "A material that allows light to pass through clearly, so objects can be seen through it.",
+     "zh": "透明的",
+     "zhBack": "能让光清楚地通过的材料，可以看清后面的东西。"
+    },
+    {
+     "front": "translucent",
+     "back": "A material that allows light through but scatters it, so objects cannot be seen clearly through it.",
+     "zh": "半透明的",
+     "zhBack": "能让光通过但会把光散开的材料，看不清后面的东西。"
+    },
+    {
+     "front": "opaque",
+     "back": "A material that does not allow light to pass through it.",
+     "zh": "不透明的",
+     "zhBack": "不让光通过的材料。"
+    },
+    {
+     "front": "luminous",
+     "back": "An object that produces its own light.",
+     "zh": "发光的",
+     "zhBack": "自己能发光的物体。"
+    },
+    {
+     "front": "non-luminous",
+     "back": "An object that does not produce its own light, but can be seen by light reflected off it.",
+     "zh": "不发光的",
+     "zhBack": "自己不发光，但能靠反射的光被看见的物体。"
+    },
+    {
+     "front": "light ray",
+     "back": "A straight line used to show the direction in which light travels.",
+     "zh": "光线",
+     "zhBack": "表示光传播方向的直线。"
+    },
+    {
+     "front": "plane mirror",
+     "back": "A flat mirror with a smooth, reflective surface.",
+     "zh": "平面镜",
+     "zhBack": "表面平滑、能反光的平的镜子。"
+    },
+    {
+     "front": "laterally inverted",
+     "back": "When an image appears reversed from left to right, as in a plane mirror.",
+     "zh": "左右颠倒",
+     "zhBack": "像的左右反过来，就像在平面镜里一样。"
+    },
+    {
+     "front": "reflection",
+     "back": "The change in direction of light when it bounces off a surface.",
+     "zh": "反射",
+     "zhBack": "光碰到表面弹回来时方向的改变。"
+    },
+    {
+     "front": "refraction",
+     "back": "The change in direction of light when it passes between different materials because its speed changes.",
+     "zh": "折射",
+     "zhBack": "光从一种材料进入另一种材料时，因为速度改变而改变方向。"
+    },
+    {
+     "front": "incident ray",
+     "back": "The ray of light travelling towards a surface before reflection or refraction.",
+     "zh": "入射光线",
+     "zhBack": "反射或折射之前，射向表面的光线。"
+    },
+    {
+     "front": "reflected ray",
+     "back": "The ray of light that bounces off a surface.",
+     "zh": "反射光线",
+     "zhBack": "从表面弹回来的光线。"
+    },
+    {
+     "front": "angle of incidence",
+     "back": "The angle between the incident ray and the normal.",
+     "zh": "入射角",
+     "zhBack": "入射光线和法线之间的夹角。"
+    },
+    {
+     "front": "angle of reflection",
+     "back": "The angle between the reflected ray and the normal.",
+     "zh": "反射角",
+     "zhBack": "反射光线和法线之间的夹角。"
+    },
+    {
+     "front": "normal",
+     "back": "An imaginary line drawn at 90° to a surface at the point where a ray hits it.",
+     "zh": "法线",
+     "zhBack": "在光线射到表面的那一点，画一条和表面成 90° 的假想线。"
+    },
+    {
+     "front": "prism",
+     "back": "A transparent object, usually made of glass or plastic, that can refract and disperse light.",
+     "zh": "棱镜",
+     "zhBack": "通常用玻璃或塑料做的透明物体，能折射光并把光分散开。"
+    },
+    {
+     "front": "dispersion",
+     "back": "The separation of white light into its different colours.",
+     "zh": "色散",
+     "zhBack": "白光分成各种颜色。"
+    },
+    {
+     "front": "spectrum",
+     "back": "A range of different colours or wavelengths, such as the visible spectrum.",
+     "zh": "光谱",
+     "zhBack": "一系列不同的颜色或波长，例如可见光谱。"
+    },
+    {
+     "front": "transmit",
+     "back": "To allow something, such as light, to pass through a material.",
+     "zh": "透射（传播）",
+     "zhBack": "让光等东西穿过一种材料。"
+    },
+    {
+     "front": "absorb",
+     "back": "To take in energy, such as light, rather than reflecting or transmitting it.",
+     "zh": "吸收",
+     "zhBack": "把光等能量吸进去，而不是反射或透射。"
+    },
+    {
+     "front": "primary colour",
+     "back": "A colour of light that can be combined with other primary colours to produce a range of colours. For light, these are red, green and blue.",
+     "zh": "原色",
+     "zhBack": "能和其他原色混合出很多颜色的色光。光的三原色是红、绿、蓝。"
+    },
+    {
+     "front": "secondary colour",
+     "back": "A colour produced by mixing two primary colours of light. These are cyan, magenta and yellow.",
+     "zh": "二次色（间色）",
+     "zhBack": "两种原色光混合得到的颜色：青色、品红色和黄色。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the 22 light keywords.",
+    "zh": "我现在能解释 22 个关于光的关键词。"
+   }
+  },
+  {
+   "id": "kw-em",
+   "type": "flashcards",
+   "icon": "📡",
+   "title": {
+    "en": "Keywords 3: The EM Spectrum",
+    "zh": "关键词 3：电磁波谱"
+   },
+   "subtitle": {
+    "en": "10 keywords",
+    "zh": "10 个关键词"
+   },
+   "intro": {
+    "en": "Read the keyword, say the meaning in your own words, then tap to check.",
+    "zh": "读关键词，用自己的话说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "electromagnetic wave",
+     "back": "A transverse wave that can travel through a vacuum without needing a medium.",
+     "zh": "电磁波",
+     "zhBack": "不需要介质、能在真空中传播的横波。"
+    },
+    {
+     "front": "electromagnetic spectrum",
+     "back": "The complete range of electromagnetic waves, arranged according to their wavelength or frequency.",
+     "zh": "电磁波谱",
+     "zhBack": "按波长或频率排列的全部电磁波。"
+    },
+    {
+     "front": "radio wave",
+     "back": "A low-frequency electromagnetic wave used for radio and television communication.",
+     "zh": "无线电波",
+     "zhBack": "低频电磁波，用于广播和电视通信。"
+    },
+    {
+     "front": "microwave",
+     "back": "An electromagnetic wave used in cooking, radar and satellite communication.",
+     "zh": "微波",
+     "zhBack": "用于烹饪、雷达和卫星通信的电磁波。"
+    },
+    {
+     "front": "infrared",
+     "back": "Electromagnetic radiation associated with heat, used in thermal imaging and remote controls.",
+     "zh": "红外线",
+     "zhBack": "和热有关的电磁辐射，用于热成像和遥控器。"
+    },
+    {
+     "front": "visible light",
+     "back": "The part of the electromagnetic spectrum that can be detected by the human eye.",
+     "zh": "可见光",
+     "zhBack": "电磁波谱中人眼能看见的部分。"
+    },
+    {
+     "front": "ultraviolet (uv)",
+     "back": "Electromagnetic radiation with a higher frequency than visible light, which can cause sunburn and damage skin cells.",
+     "zh": "紫外线",
+     "zhBack": "频率比可见光高的电磁辐射，会晒伤皮肤、伤害皮肤细胞。"
+    },
+    {
+     "front": "x-ray",
+     "back": "High-frequency electromagnetic radiation that can pass through soft tissue and is used to produce medical images.",
+     "zh": "X 射线",
+     "zhBack": "高频电磁辐射，能穿过软组织，用来拍医学影像。"
+    },
+    {
+     "front": "gamma ray",
+     "back": "Very high-frequency electromagnetic radiation that can be produced by radioactive materials and used in cancer treatment.",
+     "zh": "伽马射线",
+     "zhBack": "频率非常高的电磁辐射，可由放射性物质产生，用于治疗癌症。"
+    },
+    {
+     "front": "ionising radiation",
+     "back": "Radiation with enough energy to remove electrons from atoms, potentially damaging cells and DNA.",
+     "zh": "电离辐射",
+     "zhBack": "能量大到能把电子从原子中打出来的辐射，可能伤害细胞和 DNA。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the 10 EM spectrum keywords.",
+    "zh": "我现在能解释 10 个关于电磁波谱的关键词。"
+   }
+  },
+  {
+   "id": "kw-match1",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "Match: Waves and Sound Keywords",
+    "zh": "配对：波和声音关键词"
+   },
+   "intro": {
+    "en": "Tap a keyword, then tap its meaning. Beat your best time!",
+    "zh": "先点关键词，再点它的意思。挑战你的最好成绩！"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "amplitude",
+     "b": "biggest distance from the resting position"
+    },
+    {
+     "a": "wavelength",
+     "b": "crest to crest distance"
+    },
+    {
+     "a": "frequency",
+     "b": "waves passing a point each second"
+    },
+    {
+     "a": "medium",
+     "b": "the material a wave travels through"
+    },
+    {
+     "a": "vacuum",
+     "b": "a space with no particles"
+    },
+    {
+     "a": "compression",
+     "b": "particles close together"
+    },
+    {
+     "a": "rarefaction",
+     "b": "particles spread apart"
+    },
+    {
+     "a": "pitch",
+     "b": "how high or low a sound is"
+    },
+    {
+     "a": "ultrasound",
+     "b": "above 20,000 Hz"
+    },
+    {
+     "a": "infrasound",
+     "b": "below 20 Hz"
+    },
+    {
+     "a": "cochlea",
+     "b": "spiral part that makes electrical signals"
+    },
+    {
+     "a": "ossicles",
+     "b": "three tiny bones in the middle ear"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match the wave and sound keywords quickly.",
+    "zh": "我现在能很快地配对波和声音的关键词。"
+   }
+  },
+  {
+   "id": "kw-match2",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "Match: Light and EM Keywords",
+    "zh": "配对：光和电磁波关键词"
+   },
+   "intro": {
+    "en": "Tap a keyword, then tap its meaning.",
+    "zh": "先点关键词，再点它的意思。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "transparent",
+     "b": "light passes through clearly"
+    },
+    {
+     "a": "translucent",
+     "b": "light passes through but scatters"
+    },
+    {
+     "a": "opaque",
+     "b": "no light passes through"
+    },
+    {
+     "a": "luminous",
+     "b": "makes its own light"
+    },
+    {
+     "a": "normal",
+     "b": "line at 90° to the surface"
+    },
+    {
+     "a": "dispersion",
+     "b": "white light splits into colours"
+    },
+    {
+     "a": "absorb",
+     "b": "take in the light energy"
+    },
+    {
+     "a": "infrared",
+     "b": "heat, remote controls"
+    },
+    {
+     "a": "microwave",
+     "b": "cooking, radar, satellites"
+    },
+    {
+     "a": "x-ray",
+     "b": "medical images through soft tissue"
+    },
+    {
+     "a": "gamma ray",
+     "b": "cancer treatment"
+    },
+    {
+     "a": "ultraviolet (uv)",
+     "b": "causes sunburn"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match the light and EM keywords.",
+    "zh": "我现在能配对光和电磁波的关键词。"
+   }
+  },
+  {
+   "id": "kw-fill1",
+   "type": "fillblank",
+   "icon": "✍️",
+   "shuffle": false,
+   "title": {
+    "en": "Fill in the Keyword: Waves and Sound",
+    "zh": "填关键词：波和声音"
+   },
+   "subtitle": {
+    "en": "10 sentences",
+    "zh": "10 个句子"
+   },
+   "intro": {
+    "en": "Read the sentence, then tap the missing keyword.",
+    "zh": "读句子，然后点出缺少的关键词。"
+   },
+   "bank": [
+    "perpendicular",
+    "parallel",
+    "hertz",
+    "vacuum",
+    "compression",
+    "pitch",
+    "decibels",
+    "audible",
+    "echolocation",
+    "eardrum"
+   ],
+   "items": [
+    {
+     "text": "A transverse wave vibrates ___ to the direction of travel.",
+     "answer": "perpendicular",
+     "why": {
+      "en": "Transverse = at 90° (perpendicular).",
+      "zh": "横波 = 垂直（90°）。"
+     }
+    },
+    {
+     "text": "A longitudinal wave vibrates ___ to the direction of travel.",
+     "answer": "parallel",
+     "why": {
+      "en": "Longitudinal = along the same line (parallel).",
+      "zh": "纵波 = 在同一条线上（平行）。"
+     }
+    },
+    {
+     "text": "Frequency is measured in ___.",
+     "answer": "hertz",
+     "why": {
+      "en": "1 Hz = one wave per second.",
+      "zh": "1 Hz = 每秒一个波。"
+     }
+    },
+    {
+     "text": "Sound cannot travel through a ___ because there are no particles.",
+     "answer": "vacuum",
+     "why": {
+      "en": "Sound needs a medium. A vacuum has no particles.",
+      "zh": "声音需要介质，真空里没有粒子。"
+     }
+    },
+    {
+     "text": "In a longitudinal wave, a ___ is where the particles are close together.",
+     "answer": "compression",
+     "why": {
+      "en": "Compression = squashed together.",
+      "zh": "密部 = 挤在一起。"
+     }
+    },
+    {
+     "text": "The ___ of a sound depends on its frequency.",
+     "answer": "pitch",
+     "why": {
+      "en": "High frequency = high pitch.",
+      "zh": "频率高 = 音调高。"
+     }
+    },
+    {
+     "text": "Sound level is measured in ___.",
+     "answer": "decibels",
+     "why": {
+      "en": "The unit is the decibel (dB).",
+      "zh": "单位是分贝 (dB)。"
+     }
+    },
+    {
+     "text": "Humans can hear from about 20 Hz to 20,000 Hz. This is the ___ range.",
+     "answer": "audible",
+     "why": {
+      "en": "Audible = can be heard.",
+      "zh": "audible = 能听到。"
+     }
+    },
+    {
+     "text": "Bats find food using ___: they listen for reflected sound.",
+     "answer": "echolocation",
+     "why": {
+      "en": "Echo + location: using echoes to find where things are.",
+      "zh": "回声 + 定位：用回声找到东西在哪里。"
+     }
+    },
+    {
+     "text": "The ___ is a thin membrane that vibrates when sound reaches it.",
+     "answer": "eardrum",
+     "why": {
+      "en": "The eardrum passes the vibrations to the ossicles.",
+      "zh": "鼓膜把振动传给听小骨。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use the wave and sound keywords in sentences.",
+    "zh": "我现在能在句子里用波和声音的关键词。"
+   }
+  },
+  {
+   "id": "kw-fill2",
+   "type": "fillblank",
+   "icon": "✍️",
+   "shuffle": false,
+   "title": {
+    "en": "Fill in the Keyword: Light and EM",
+    "zh": "填关键词：光和电磁波"
+   },
+   "subtitle": {
+    "en": "10 sentences",
+    "zh": "10 个句子"
+   },
+   "intro": {
+    "en": "Read the sentence, then tap the missing keyword.",
+    "zh": "读句子，然后点出缺少的关键词。"
+   },
+   "bank": [
+    "translucent",
+    "luminous",
+    "non-luminous",
+    "inverted",
+    "normal",
+    "refraction",
+    "dispersion",
+    "absorbs",
+    "infrared",
+    "Ionising"
+   ],
+   "items": [
+    {
+     "text": "Frosted glass is ___: light gets through, but you cannot see clearly.",
+     "answer": "translucent",
+     "why": {
+      "en": "Light passes but scatters: translucent.",
+      "zh": "光能通过但会散开：半透明。"
+     }
+    },
+    {
+     "text": "The Sun is ___ because it makes its own light.",
+     "answer": "luminous",
+     "why": {
+      "en": "Luminous = produces its own light.",
+      "zh": "发光的 = 自己发光。"
+     }
+    },
+    {
+     "text": "The Moon is ___: we see it because it reflects the Sun's light.",
+     "answer": "non-luminous",
+     "why": {
+      "en": "It does not make its own light.",
+      "zh": "它自己不发光。"
+     }
+    },
+    {
+     "text": "In a plane mirror, your writing looks back to front. The image is laterally ___.",
+     "answer": "inverted",
+     "why": {
+      "en": "Laterally inverted = reversed left to right.",
+      "zh": "左右颠倒 = 左右反过来。"
+     }
+    },
+    {
+     "text": "The angle of incidence and the angle of reflection are both measured from the ___.",
+     "answer": "normal",
+     "why": {
+      "en": "Always measure from the normal, the 90° line.",
+      "zh": "总是从法线（90° 的线）开始量。"
+     }
+    },
+    {
+     "text": "Light bends when it goes from air into water. This is called ___.",
+     "answer": "refraction",
+     "why": {
+      "en": "Its speed changes, so its direction changes.",
+      "zh": "速度改变，所以方向改变。"
+     }
+    },
+    {
+     "text": "A prism splits white light into colours. This is called ___.",
+     "answer": "dispersion",
+     "why": {
+      "en": "Dispersion = separating white light into colours.",
+      "zh": "色散 = 白光分成各种颜色。"
+     }
+    },
+    {
+     "text": "A black T-shirt gets hot in the sun because it ___ all the colours of light.",
+     "answer": "absorbs",
+     "why": {
+      "en": "Black takes in all the light energy.",
+      "zh": "黑色把所有光能吸进去。"
+     }
+    },
+    {
+     "text": "Remote controls and thermal cameras use ___.",
+     "answer": "infrared",
+     "why": {
+      "en": "Infrared is linked to heat.",
+      "zh": "红外线和热有关。"
+     }
+    },
+    {
+     "text": "___ radiation has enough energy to remove electrons from atoms.",
+     "answer": "Ionising",
+     "why": {
+      "en": "Ionising radiation can damage cells and DNA.",
+      "zh": "电离辐射可能伤害细胞和 DNA。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use the light and EM keywords in sentences.",
+    "zh": "我现在能在句子里用光和电磁波的关键词。"
+   }
+  },
+  {
+   "id": "kw-speed",
+   "type": "quiz",
+   "timed": true,
+   "count": 10,
+   "seconds": 20,
+   "icon": "⚡",
+   "title": {
+    "en": "Keyword Speed Quiz",
+    "zh": "关键词抢答"
+   },
+   "intro": {
+    "en": "10 questions, 20 seconds each. Faster answers win more points!",
+    "zh": "10 道题，每题 20 秒。答得越快分越高！"
+   },
+   "questions": [
+    {
+     "q": "Which wave vibrates at 90° to the way it travels?",
+     "options": [
+      "longitudinal wave",
+      "transverse wave",
+      "sound wave",
+      "echo"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Transverse = perpendicular (90°).",
+      "zh": "横波 = 垂直（90°）。"
+     }
+    },
+    {
+     "q": "Sound is a...",
+     "options": [
+      "transverse wave",
+      "electromagnetic wave",
+      "light ray",
+      "longitudinal wave"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Sound particles vibrate parallel to the direction of travel.",
+      "zh": "声音的粒子振动方向和传播方向平行。"
+     }
+    },
+    {
+     "q": "A louder sound has a bigger...",
+     "options": [
+      "amplitude",
+      "frequency",
+      "wavelength",
+      "pitch"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Loudness = amplitude. Pitch = frequency.",
+      "zh": "响度看振幅，音调看频率。"
+     }
+    },
+    {
+     "q": "A higher pitch means a higher...",
+     "options": [
+      "amplitude",
+      "decibel",
+      "frequency",
+      "medium"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Pitch depends on frequency.",
+      "zh": "音调取决于频率。"
+     }
+    },
+    {
+     "q": "A dog whistle at 30,000 Hz is...",
+     "options": [
+      "infrasound",
+      "ultrasound",
+      "audible to humans",
+      "an echo"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Above 20,000 Hz = ultrasound.",
+      "zh": "高于 20,000 Hz = 超声波。"
+     }
+    },
+    {
+     "q": "Elephants talk with sounds below 20 Hz. This is...",
+     "options": [
+      "infrasound",
+      "ultrasound",
+      "a decibel",
+      "an echo"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Below 20 Hz = infrasound.",
+      "zh": "低于 20 Hz = 次声波。"
+     }
+    },
+    {
+     "q": "Ships find the sea floor using...",
+     "options": [
+      "x-rays",
+      "a prism",
+      "infrared",
+      "sonar"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Sonar uses reflected sound underwater.",
+      "zh": "声呐在水下利用反射的声音。"
+     }
+    },
+    {
+     "q": "Which part of the ear turns vibrations into electrical signals?",
+     "options": [
+      "pinna",
+      "eardrum",
+      "cochlea",
+      "auditory canal"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Cochlea: the spiral in the inner ear.",
+      "zh": "耳蜗：内耳里的螺旋。"
+     }
+    },
+    {
+     "q": "Which material lets NO light through?",
+     "options": [
+      "opaque",
+      "transparent",
+      "translucent",
+      "luminous"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Opaque = no light passes.",
+      "zh": "不透明 = 光不能通过。"
+     }
+    },
+    {
+     "q": "Which of these is luminous?",
+     "options": [
+      "the Moon",
+      "a candle flame",
+      "a mirror",
+      "a book"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A flame makes its own light. The Moon only reflects light.",
+      "zh": "火焰自己发光，月亮只反射光。"
+     }
+    },
+    {
+     "q": "The normal is drawn at...",
+     "options": [
+      "45° to the surface",
+      "along the surface",
+      "90° to the surface",
+      "180° to the surface"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Normal = a line at 90° to the surface.",
+      "zh": "法线 = 和表面成 90° 的线。"
+     }
+    },
+    {
+     "q": "The three primary colours of light are...",
+     "options": [
+      "red, yellow, blue",
+      "cyan, magenta, yellow",
+      "red, orange, yellow",
+      "red, green, blue"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "For LIGHT: red, green, blue. (Red, yellow, blue is for paint.)",
+      "zh": "光的三原色：红、绿、蓝。（红、黄、蓝是颜料的。）"
+     }
+    },
+    {
+     "q": "Red light + green light = ?",
+     "options": [
+      "cyan",
+      "yellow",
+      "magenta",
+      "white"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Red + green = yellow (a secondary colour of light).",
+      "zh": "红 + 绿 = 黄（光的二次色）。"
+     }
+    },
+    {
+     "q": "Which EM wave is used to cook food?",
+     "options": [
+      "radio wave",
+      "gamma ray",
+      "ultraviolet",
+      "microwave"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Microwaves: cooking, radar and satellites.",
+      "zh": "微波：烹饪、雷达和卫星。"
+     }
+    },
+    {
+     "q": "Which EM wave causes sunburn?",
+     "options": [
+      "ultraviolet",
+      "infrared",
+      "radio wave",
+      "visible light"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "UV has a higher frequency than visible light and damages skin cells.",
+      "zh": "紫外线频率比可见光高，会伤害皮肤细胞。"
+     }
+    },
+    {
+     "q": "Which EM waves can travel through a vacuum?",
+     "options": [
+      "only light",
+      "only radio waves",
+      "all of them",
+      "none of them"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "All EM waves are transverse and need no medium.",
+      "zh": "所有电磁波都是横波，不需要介质。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use the keywords fast!",
+    "zh": "我现在能很快地用这些关键词！"
+   }
+  },
+  {
+   "id": "hw-thu",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Thursday Homework: Waves and Sound Keywords",
+    "zh": "星期四作业：波和声音关键词"
+   },
+   "subtitle": {
+    "en": "15 questions, one try",
+    "zh": "15 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Study the keyword cards first. Then answer every question. You can only submit once.",
+    "zh": "先学关键词卡片，再回答每道题。只能提交一次。"
+   },
+   "questions": [
+    {
+     "q": "A wave transfers...",
+     "options": [
+      "particles",
+      "energy",
+      "water",
+      "air"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Wave: a disturbance that transfers energy from one place to another.",
+      "zh": "波：把能量从一处传到另一处的扰动。"
+     }
+    },
+    {
+     "q": "In a transverse wave, vibrations are ___ to the direction of travel.",
+     "options": [
+      "perpendicular",
+      "parallel",
+      "opposite",
+      "equal"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Transverse = perpendicular.",
+      "zh": "横波 = 垂直。"
+     }
+    },
+    {
+     "q": "In a longitudinal wave, vibrations are ___ to the direction of travel.",
+     "options": [
+      "perpendicular",
+      "at 45°",
+      "random",
+      "parallel"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Longitudinal = parallel.",
+      "zh": "纵波 = 平行。"
+     }
+    },
+    {
+     "q": "The distance from one crest to the next crest is the...",
+     "options": [
+      "amplitude",
+      "frequency",
+      "wavelength",
+      "pitch"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Wavelength: crest to crest.",
+      "zh": "波长：波峰到波峰。"
+     }
+    },
+    {
+     "q": "The maximum distance a point moves from its resting position is the...",
+     "options": [
+      "amplitude",
+      "wavelength",
+      "frequency",
+      "medium"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "That is the exact meaning of amplitude.",
+      "zh": "这就是振幅的意思。"
+     }
+    },
+    {
+     "q": "5 complete waves pass a point every second. The frequency is...",
+     "options": [
+      "1/5 Hz",
+      "5 Hz",
+      "5 dB",
+      "50 Hz"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Frequency = waves per second. 5 per second = 5 Hz.",
+      "zh": "频率 = 每秒的波数。每秒 5 个 = 5 Hz。"
+     }
+    },
+    {
+     "q": "A space containing no particles is a...",
+     "options": [
+      "medium",
+      "compression",
+      "vacuum",
+      "spectrum"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "No particles = vacuum. Sound cannot travel there.",
+      "zh": "没有粒子 = 真空，声音不能在那里传播。"
+     }
+    },
+    {
+     "q": "In a longitudinal wave, where particles are spread further apart is a...",
+     "options": [
+      "compression",
+      "crest",
+      "vacuum",
+      "rarefaction"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Spread apart = rarefaction. Close together = compression.",
+      "zh": "分开 = 疏部；挤在一起 = 密部。"
+     }
+    },
+    {
+     "q": "Pitch depends on the...",
+     "options": [
+      "amplitude",
+      "frequency",
+      "decibels",
+      "medium"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Pitch = frequency ONLY.",
+      "zh": "音调只看频率。"
+     }
+    },
+    {
+     "q": "Loudness is related to the...",
+     "options": [
+      "frequency",
+      "wavelength",
+      "pitch",
+      "amplitude"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Loudness = amplitude.",
+      "zh": "响度看振幅。"
+     }
+    },
+    {
+     "q": "The human audible range is about...",
+     "options": [
+      "20 Hz to 20,000 Hz",
+      "0 Hz to 100 Hz",
+      "20 dB to 200 dB",
+      "200 Hz to 2,000 Hz"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Copied from the keyword list: about 20 Hz to 20,000 Hz.",
+      "zh": "关键词表：大约 20 Hz 到 20,000 Hz。"
+     }
+    },
+    {
+     "q": "Sound heard again after reflecting off a surface is an...",
+     "options": [
+      "ultrasound",
+      "eardrum",
+      "echo",
+      "infrasound"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Echo = reflected sound.",
+      "zh": "回声 = 反射回来的声音。"
+     }
+    },
+    {
+     "q": "Which part collects sound waves on the outside of the ear?",
+     "options": [
+      "cochlea",
+      "pinna",
+      "ossicles",
+      "auditory nerve"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Pinna: the visible outer part of the ear.",
+      "zh": "耳廓：耳朵外面看得见的部分。"
+     }
+    },
+    {
+     "q": "Put the ear in order: pinna → auditory canal → ___ → ossicles → cochlea → auditory nerve",
+     "options": [
+      "eardrum",
+      "brain",
+      "sonar",
+      "pinna"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sound goes down the canal and hits the eardrum, which vibrates.",
+      "zh": "声音沿外耳道到达鼓膜，鼓膜振动。"
+     }
+    },
+    {
+     "q": "What carries electrical signals from the cochlea to the brain?",
+     "options": [
+      "auditory canal",
+      "eardrum",
+      "pinna",
+      "auditory nerve"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Nerve = carries signals to the brain.",
+      "zh": "神经 = 把信号送到大脑。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer keyword questions by myself.",
+    "zh": "我现在能自己回答关键词的问题。"
+   }
+  },
+  {
+   "id": "hw-fri",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Friday Homework: Light and EM Keywords",
+    "zh": "星期五作业：光和电磁波关键词"
+   },
+   "subtitle": {
+    "en": "15 questions, one try",
+    "zh": "15 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read Main Book B4 to B8 and study the cards first. Then answer every question. You can only submit once.",
+    "zh": "先读主课本 B4 到 B8，学卡片，再回答每道题。只能提交一次。"
+   },
+   "questions": [
+    {
+     "q": "A material that lets light pass through clearly is...",
+     "options": [
+      "translucent",
+      "opaque",
+      "transparent",
+      "luminous"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Clearly through = transparent (like window glass).",
+      "zh": "能看清 = 透明（像窗玻璃）。"
+     }
+    },
+    {
+     "q": "Tracing paper lets light through, but you cannot see clearly through it. It is...",
+     "options": [
+      "translucent",
+      "transparent",
+      "opaque",
+      "non-luminous"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Light gets through but scatters: translucent.",
+      "zh": "光能通过但会散开：半透明。"
+     }
+    },
+    {
+     "q": "Which is NON-luminous?",
+     "options": [
+      "the Sun",
+      "the Moon",
+      "a torch that is on",
+      "a candle flame"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The Moon does not make light. We see it by reflected sunlight.",
+      "zh": "月亮不发光，我们看到的是它反射的太阳光。"
+     }
+    },
+    {
+     "q": "The angle between the incident ray and the normal is the...",
+     "options": [
+      "angle of reflection",
+      "right angle",
+      "angle of incidence",
+      "angle of refraction"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Incident ray + normal = angle of incidence.",
+      "zh": "入射光线和法线 = 入射角。"
+     }
+    },
+    {
+     "q": "The angle of incidence is 35°. The angle of reflection is...",
+     "options": [
+      "55°",
+      "90°",
+      "145°",
+      "35°"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Law of reflection: angle of incidence = angle of reflection.",
+      "zh": "反射定律：入射角 = 反射角。"
+     }
+    },
+    {
+     "q": "Light bends when it goes from air into glass because its ___ changes.",
+     "options": [
+      "colour",
+      "speed",
+      "amplitude",
+      "brightness"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Refraction: direction changes because the speed changes.",
+      "zh": "折射：速度改变，所以方向改变。"
+     }
+    },
+    {
+     "q": "White light splitting into colours is called...",
+     "options": [
+      "reflection",
+      "absorption",
+      "inversion",
+      "dispersion"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Dispersion = separating white light into its colours.",
+      "zh": "色散 = 白光分成各种颜色。"
+     }
+    },
+    {
+     "q": "The secondary colours of light are...",
+     "options": [
+      "cyan, magenta, yellow",
+      "red, green, blue",
+      "red, yellow, blue",
+      "orange, green, purple"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Mix two primary colours of light: cyan, magenta, yellow.",
+      "zh": "两种原色光混合：青、品红、黄。"
+     }
+    },
+    {
+     "q": "A red apple looks red because it...",
+     "options": [
+      "absorbs red light",
+      "makes its own red light",
+      "reflects red light and absorbs the other colours",
+      "transmits all colours"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "We see the colour that is reflected into our eyes.",
+      "zh": "我们看到的是反射进眼睛的颜色。"
+     }
+    },
+    {
+     "q": "Electromagnetic waves are...",
+     "options": [
+      "longitudinal, and need a medium",
+      "transverse, and can travel through a vacuum",
+      "sound waves",
+      "only visible light"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "EM wave: a transverse wave that can travel through a vacuum.",
+      "zh": "电磁波：能在真空中传播的横波。"
+     }
+    },
+    {
+     "q": "Which EM wave has the LOWEST frequency?",
+     "options": [
+      "radio wave",
+      "gamma ray",
+      "x-ray",
+      "ultraviolet"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Radio waves are low-frequency. Gamma rays are very high-frequency.",
+      "zh": "无线电波频率低；伽马射线频率非常高。"
+     }
+    },
+    {
+     "q": "Which EM wave is used in thermal imaging and remote controls?",
+     "options": [
+      "microwave",
+      "x-ray",
+      "gamma ray",
+      "infrared"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Infrared is linked to heat.",
+      "zh": "红外线和热有关。"
+     }
+    },
+    {
+     "q": "X-rays are used for medical images because they...",
+     "options": [
+      "cook food",
+      "cause sunburn",
+      "pass through soft tissue",
+      "carry radio shows"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "X-rays pass through soft tissue but not bone.",
+      "zh": "X 射线能穿过软组织，但穿不过骨头。"
+     }
+    },
+    {
+     "q": "Which EM wave is used in cancer treatment?",
+     "options": [
+      "gamma ray",
+      "radio wave",
+      "infrared",
+      "visible light"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gamma rays: very high-frequency, used in cancer treatment.",
+      "zh": "伽马射线：频率非常高，用于治疗癌症。"
+     }
+    },
+    {
+     "q": "Ionising radiation is dangerous because it can...",
+     "options": [
+      "make things invisible",
+      "damage cells and DNA",
+      "stop sound",
+      "cool things down"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "It has enough energy to remove electrons from atoms.",
+      "zh": "它的能量大到能把电子从原子中打出来。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now answer keyword questions by myself.",
+    "zh": "我现在能自己回答关键词的问题。"
+   }
   }
  ],
  "reviews": [
@@ -4592,6 +6118,57 @@
     "B1",
     "B2",
     "B3"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "kind": "homework",
+   "title": {
+    "en": "Waves and Sound Keywords (B1 to B3)",
+    "zh": "波和声音关键词（B1 到 B3）"
+   },
+   "message": {
+    "en": "About 40 minutes. Main Book B1 to B3, keyword cards, match game, fill in the blanks, then the homework quiz ONCE.",
+    "zh": "大约 40 分钟。主课本 B1 到 B3、关键词卡片、配对游戏、填空，最后做一次作业小测。"
+   },
+   "activities": [
+    "kw-waves",
+    "kw-sound",
+    "kw-match1",
+    "kw-fill1",
+    "hw-thu"
+   ],
+   "book": [
+    "B1",
+    "B2",
+    "B3"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "kind": "homework",
+   "title": {
+    "en": "Light and EM Spectrum Keywords (B4 to B8)",
+    "zh": "光和电磁波谱关键词（B4 到 B8）"
+   },
+   "message": {
+    "en": "About 45 minutes. Read Main Book B4 to B8 first. Then cards, match game, fill in the blanks, the speed quiz for fun, and the homework quiz ONCE.",
+    "zh": "大约 45 分钟。先读主课本 B4 到 B8。然后卡片、配对、填空、抢答游戏，最后做一次作业小测。"
+   },
+   "activities": [
+    "kw-light",
+    "kw-em",
+    "kw-match2",
+    "kw-fill2",
+    "kw-speed",
+    "hw-fri"
+   ],
+   "book": [
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
    ]
   }
  ]

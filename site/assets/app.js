@@ -760,7 +760,7 @@
         var left = nextFree(st.qs.length, i, function (n) { return st.ans[n] != null; });
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
           h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() + (gained ? '  +' + gained : '') : (k < 0 ? '⏰ ' + T('timeUp') + ' ' : '') + T('notQuite')),
-          !ok ? h('div', { class: 'q-text' }, L('The right answer is: ', '正确答案是：'), rich(q.options[q.answer])) : null,
+          !ok ? h('div', { class: 'q-text' }, '✅ ', rich(q.options[q.answer])) : null,
           q.why ? h('div', { style: 'margin-top:6px' }, h('b', null, T('why') + ': '), bi(q.why, true)) : null),
           h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: nextQ }, left >= 0 ? T('next') : T('finish'))));
       }
@@ -1509,7 +1509,7 @@
         var ok = k === q.answer;
         allColour(btns, ok);
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '✅ ' + praise() : '❌ ' + T('notQuite')),
-          !ok ? h('div', { class: 'q-text' }, L('The right answer is: ', '正确答案是：') + q.options[q.answer]) : null,
+          !ok ? h('div', { class: 'q-text' }, '✅ ', rich(q.options[q.answer])) : null,
           q.why ? h('div', null, h('b', null, T('why') + ': '), bi(q.why, true)) : null));
       } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(q.options[k])));
     });

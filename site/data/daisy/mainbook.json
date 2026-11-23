@@ -88,6 +88,18 @@
      "remember": {
       "en": "Dialogue is a trap for clue words. Cover it!",
       "zh": "对话是找线索词的陷阱，要遮住！"
+     },
+     "quick": {
+      "q": "In a story, words inside speech marks \" \" are...",
+      "options": [
+       "dialogue",
+       "the narrator"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Dialogue = what the characters SAY, inside speech marks.",
+       "zh": "对话 = 人物说的话，在引号里。"
+      }
      }
     }
    ],
@@ -152,7 +164,19 @@
        "en": "Example: We packed our bags and ran to the bus.",
        "zh": "例子：We packed our bags and ran to the bus."
       }
-     ]
+     ],
+     "quick": {
+      "q": "\"I ran to the bus.\" Which point of view?",
+      "options": [
+       "first person",
+       "third person"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "I, me, my, we = first person.",
+       "zh": "I、me、my、we = 第一人称。"
+      }
+     }
     },
     {
      "icon": "👉",
@@ -186,7 +210,19 @@
        "en": "Example: Sophie bought a photo card. She smiled all the way home.",
        "zh": "例子：Sophie bought a photo card. She smiled all the way home."
       }
-     ]
+     ],
+     "quick": {
+      "q": "\"She smiled at her friends.\" Which point of view?",
+      "options": [
+       "second person",
+       "third person"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "He, she, they and names = third person.",
+       "zh": "he、she、they 和名字 = 第三人称。"
+      }
+     }
     },
     {
      "icon": "✋",
@@ -271,7 +307,19 @@
        "en": "Example: The swimmers dived into the pool. The crowd clapped.",
        "zh": "例子：The swimmers dived into the pool. The crowd clapped."
       }
-     ]
+     ],
+     "quick": {
+      "q": "We only see actions, like a camera. That is...",
+      "options": [
+       "limited",
+       "objective"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "A camera shows actions, not feelings: objective.",
+       "zh": "摄像机只拍动作，不拍感受：客观。"
+      }
+     }
     },
     {
      "icon": "1️⃣",
@@ -288,7 +336,19 @@
        "en": "Example: Tom smiled at the new girl. He hoped she would sit next to him. (Only Tom's feelings.)",
        "zh": "例子：Tom smiled at the new girl. He hoped she would sit next to him.（只有 Tom 的感受。）"
       }
-     ]
+     ],
+     "quick": {
+      "q": "We know the feelings of only ONE character. That is...",
+      "options": [
+       "limited",
+       "omniscient"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "One mind = limited. Every mind = omniscient.",
+       "zh": "一个人的想法 = 有限；所有人的想法 = 全知。"
+      }
+     }
     },
     {
      "icon": "🌍",
@@ -355,6 +415,18 @@
      "remember": {
       "en": "Point of view = WHO. Perspective = HOW.",
       "zh": "视角 = 谁；看法 = 怎样看。"
+     },
+     "quick": {
+      "q": "Two characters see the same rain in different ways. They have different...",
+      "options": [
+       "narrators",
+       "perspectives"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "How a character sees something = perspective.",
+       "zh": "人物怎样看一件事 = 看法。"
+      }
      }
     }
    ],
@@ -427,12 +499,233 @@
      "remember": {
       "en": "Has a name? Probably NOT the theme.",
       "zh": "有名字？多半不是主题。"
+     },
+     "quick": {
+      "q": "A theme has...",
+      "options": [
+       "the main character's name",
+       "no names"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "A theme is a life lesson for everyone, so no names.",
+       "zh": "主题是给每个人的道理，所以不写名字。"
+      }
      }
     }
    ],
    "canNow": {
     "en": "I can now explain the key ideas in R5.",
     "zh": "我现在能解释 R5 的重点。"
+   }
+  },
+  {
+   "code": "R6",
+   "part": "R",
+   "title": {
+    "en": "Context Clues",
+    "zh": "上下文线索"
+   },
+   "slides": [
+    {
+     "icon": "🔍",
+     "title": {
+      "en": "What is a context clue?",
+      "zh": "什么是上下文线索？"
+     },
+     "points": [
+      {
+       "en": "Context means the words and sentences AROUND a word.",
+       "zh": "上下文（context）就是一个词前后的词和句子。"
+      },
+      {
+       "en": "A context clue is a hint near a new word. It helps you work out what the word means, with no dictionary.",
+       "zh": "上下文线索是新词附近的提示，帮你猜出这个词的意思，不用查字典。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "📖",
+        "en": "new word",
+        "zh": "新词"
+       },
+       {
+        "icon": "👀",
+        "en": "look around it",
+        "zh": "看看它的前后"
+       },
+       {
+        "icon": "💡",
+        "en": "find the hint",
+        "zh": "找到提示"
+       }
+      ]
+     },
+     "quick": {
+      "q": "A context clue is...",
+      "options": [
+       "a page at the back of a dictionary",
+       "a hint in the words around a new word"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Context = the words around it. The clue is right there in the sentence.",
+       "zh": "上下文就是词的前后。线索就在句子里。"
+      }
+     }
+    },
+    {
+     "icon": "📝",
+     "title": {
+      "en": "Clue 1: the meaning is told",
+      "zh": "线索 1：句子直接告诉你意思"
+     },
+     "points": [
+      {
+       "en": "Sometimes the sentence just tells you. Look for: is, means, which means, or words between commas.",
+       "zh": "有时句子直接告诉你意思。找这些词：is、means、which means，或者两个逗号中间的话。"
+      },
+      {
+       "en": "Lily was famished, which means very hungry, after swimming.",
+       "zh": "Lily 游完泳 famished，which means（意思是）非常饿。"
+      }
+     ],
+     "remember": {
+      "en": "which means = the meaning is coming!",
+      "zh": "which means = 意思马上就来！"
+     }
+    },
+    {
+     "icon": "👯",
+     "title": {
+      "en": "Clue 2: same meaning (synonym)",
+      "zh": "线索 2：意思相同（同义词）"
+     },
+     "points": [
+      {
+       "en": "A word nearby means the SAME thing.",
+       "zh": "附近有一个词意思一样。"
+      },
+      {
+       "en": "The puppy was tiny. It was so small it fit in my hand. (tiny = small)",
+       "zh": "The puppy was tiny. It was so small it fit in my hand.（tiny = small，很小）"
+      }
+     ],
+     "quick": {
+      "q": "\"The room was silent. It was so quiet you could hear a pin drop.\" Silent means...",
+      "options": [
+       "very messy",
+       "very quiet"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "The next sentence says \"so quiet\": that is the same meaning.",
+       "zh": "下一句说 so quiet（很安静），意思一样。"
+      }
+     }
+    },
+    {
+     "icon": "↔️",
+     "title": {
+      "en": "Clue 3: opposite (antonym)",
+      "zh": "线索 3：意思相反（反义词）"
+     },
+     "points": [
+      {
+       "en": "Words like but, unlike and however tell you an OPPOSITE is coming.",
+       "zh": "but、unlike、however 这些词告诉你：后面是相反的意思。"
+      },
+      {
+       "en": "Tom was timid, but his sister was brave. Timid is the opposite of brave: shy and easily scared.",
+       "zh": "Tom was timid, but his sister was brave。timid 和 brave（勇敢）相反：胆小、容易害怕。"
+      }
+     ],
+     "quick": {
+      "q": "Which clue word tells you an opposite is coming?",
+      "options": [
+       "but",
+       "such as"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "But = opposite. Such as = examples.",
+       "zh": "but = 相反；such as = 举例。"
+      }
+     }
+    },
+    {
+     "icon": "🛍️",
+     "title": {
+      "en": "Clue 4: examples",
+      "zh": "线索 4：举例"
+     },
+     "points": [
+      {
+       "en": "Words like such as, for example and like give you examples.",
+       "zh": "such as、for example、like 这些词后面是例子。"
+      },
+      {
+       "en": "Emma loves stationery, such as gel pens, stickers and notebooks. So stationery = things for writing.",
+       "zh": "Emma loves stationery, such as gel pens, stickers and notebooks。所以 stationery = 文具（写字用的东西）。"
+      }
+     ]
+    },
+    {
+     "icon": "🪜",
+     "title": {
+      "en": "4 steps every time",
+      "zh": "每次都用这 4 步"
+     },
+     "points": [
+      {
+       "en": "1. Read the WHOLE sentence, and the one after it.",
+       "zh": "1. 读完整个句子，还有下一句。"
+      },
+      {
+       "en": "2. Find the clue words: which means, but, such as, so.",
+       "zh": "2. 找线索词：which means、but、such as、so。"
+      },
+      {
+       "en": "3. Make a guess.",
+       "zh": "3. 猜一个意思。"
+      },
+      {
+       "en": "4. Put your guess in the sentence. Does it make sense?",
+       "zh": "4. 把你猜的意思放进句子里，说得通吗？"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "📖",
+        "en": "read it all",
+        "zh": "全部读完"
+       },
+       {
+        "icon": "🔍",
+        "en": "find the clue",
+        "zh": "找线索"
+       },
+       {
+        "icon": "💭",
+        "en": "guess",
+        "zh": "猜"
+       },
+       {
+        "icon": "✅",
+        "en": "check it fits",
+        "zh": "检查是否通顺"
+       }
+      ]
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use context clues to work out a new word.",
+    "zh": "我现在会用上下文线索猜出新词的意思。"
    }
   },
   {
@@ -482,7 +775,19 @@
        "en": "In 3/4: numerator 3, denominator 4.",
        "zh": "在 3/4 里：分子 3，分母 4。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "In 3/4, the 4 is the...",
+      "options": [
+       "denominator",
+       "numerator"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Bottom = denominator: how many equal parts.",
+       "zh": "下面是分母：分成几等份。"
+      }
+     }
     },
     {
      "icon": "✂️",
@@ -509,6 +814,18 @@
       "example": {
        "en": "÷ 6 on top and bottom",
        "zh": "上下都 ÷ 6"
+      }
+     },
+     "quick": {
+      "q": "Simplify 4/8.",
+      "options": [
+       "1/2",
+       "2/8"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Divide top and bottom by 4: 4 ÷ 4 = 1, 8 ÷ 4 = 2, so 1/2.",
+       "zh": "上下都除以 4：4 ÷ 4 = 1，8 ÷ 4 = 2，所以是 1/2。"
       }
      }
     },
@@ -578,6 +895,18 @@
        "en": "top × top, bottom × bottom, simplify",
        "zh": "分子乘分子，分母乘分母，约分"
       }
+     },
+     "quick": {
+      "q": "1/2 × 1/3 = ?",
+      "options": [
+       "2/5",
+       "1/6"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Top × top: 1 × 1 = 1. Bottom × bottom: 2 × 3 = 6. So 1/6.",
+       "zh": "分子乘分子：1 × 1 = 1；分母乘分母：2 × 3 = 6。所以是 1/6。"
+      }
      }
     },
     {
@@ -604,7 +933,19 @@
        "en": "1/2 of 8 = 1/2 × 8 = 4. Half of the bubble tea = 1/2 × the tea.",
        "zh": "8 的 1/2 = 1/2 × 8 = 4。奶茶的一半 = 1/2 × 奶茶。"
       }
-     ]
+     ],
+     "quick": {
+      "q": "\"1/2 of 10\" means...",
+      "options": [
+       "1/2 × 10",
+       "1/2 + 10"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Of means ×. 1/2 × 10 = 5.",
+       "zh": "of 就是 ×。1/2 × 10 = 5。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -656,6 +997,18 @@
         "zh": "3/4 × 2/1 = 6/4 = 1 1/2"
        }
       ]
+     },
+     "quick": {
+      "q": "Keep, Change, Flip: 1/2 ÷ 1/4 becomes...",
+      "options": [
+       "2/1 × 1/4",
+       "1/2 × 4/1"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Keep 1/2, change ÷ to ×, flip 1/4 to 4/1.",
+       "zh": "保留 1/2，把 ÷ 变成 ×，把 1/4 倒过来变成 4/1。"
+      }
      }
     },
     {
@@ -720,6 +1073,18 @@
         "zh": "检查：合理吗？"
        }
       ]
+     },
+     "quick": {
+      "q": "\"How many 1/4 cups are in 3 cups?\" Do you × or ÷?",
+      "options": [
+       "÷",
+       "×"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "How many ___ in ___ = divide: 3 ÷ 1/4 = 12.",
+       "zh": "“……里有几个……” = 除法：3 ÷ 1/4 = 12。"
+      }
      }
     },
     {
@@ -803,6 +1168,18 @@
        "en": "→ The pool was cold, but I jumped in.",
        "zh": "→ The pool was cold, but I jumped in."
       }
+     },
+     "quick": {
+      "q": "\"I love swimming I go every day.\" This is...",
+      "options": [
+       "a run-on sentence",
+       "a complete sentence"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Two sentences squashed with no full stop or joining word. Fix: I love swimming, so I go every day.",
+       "zh": "两个句子挤在一起，没有句号也没有连词。改正：I love swimming, so I go every day."
+      }
      }
     }
    ],
@@ -859,6 +1236,18 @@
         "zh": "标点"
        }
       ]
+     },
+     "quick": {
+      "q": "Evaluate + -ion = ?",
+      "options": [
+       "evaluateion",
+       "evaluation"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Drop the e, then add -ion.",
+       "zh": "先去掉 e，再加 -ion。"
+      }
      }
     }
    ],
@@ -920,12 +1309,336 @@
         "zh": "总结"
        }
       ]
+     },
+     "quick": {
+      "q": "A narrative speech tells...",
+      "options": [
+       "a story",
+       "a list of facts"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Narrative = a story, with a beginning, middle and end.",
+       "zh": "narrative = 故事，有开头、中间和结尾。"
+      }
      }
     }
    ],
    "canNow": {
     "en": "I can now explain the key ideas in E3.",
     "zh": "我现在能解释 E3 的重点。"
+   }
+  },
+  {
+   "code": "E4",
+   "part": "E",
+   "title": {
+    "en": "Conjunctions: Joining Words",
+    "zh": "连词：连接的词"
+   },
+   "slides": [
+    {
+     "icon": "🔗",
+     "title": {
+      "en": "What is a conjunction?",
+      "zh": "什么是连词？"
+     },
+     "points": [
+      {
+       "en": "A conjunction is a JOINING word. It joins two words, or two sentences, into one.",
+       "zh": "连词（conjunction）是用来连接的词。它把两个词或两个句子连成一个。"
+      },
+      {
+       "en": "Daisy likes K-pop. Daisy likes swimming. → Daisy likes K-pop AND swimming.",
+       "zh": "Daisy likes K-pop. Daisy likes swimming. → Daisy likes K-pop AND swimming."
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🧩",
+        "en": "sentence 1",
+        "zh": "句子 1"
+       },
+       {
+        "icon": "🔗",
+        "en": "conjunction",
+        "zh": "连词"
+       },
+       {
+        "icon": "🧩",
+        "en": "sentence 2",
+        "zh": "句子 2"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🌟",
+     "title": {
+      "en": "FANBOYS: the 7 short ones",
+      "zh": "FANBOYS：7 个短连词"
+     },
+     "points": [
+      {
+       "en": "For, And, Nor, But, Or, Yet, So. The first letters spell FANBOYS.",
+       "zh": "For、And、Nor、But、Or、Yet、So。首字母拼成 FANBOYS。"
+      },
+      {
+       "en": "and = adds more. but = something different or a surprise. or = a choice. so = what happened next (a result).",
+       "zh": "and = 再加上；but = 不一样或意外；or = 选择；so = 所以（结果）。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "➕",
+        "en": "and: adds",
+        "zh": "and：加上"
+       },
+       {
+        "icon": "↔️",
+        "en": "but: different",
+        "zh": "but：不同"
+       },
+       {
+        "icon": "🤔",
+        "en": "or: choose",
+        "zh": "or：选择"
+       },
+       {
+        "icon": "➡️",
+        "en": "so: result",
+        "zh": "so：结果"
+       }
+      ]
+     },
+     "quick": {
+      "q": "\"It was raining, ___ we stayed inside.\" Which one?",
+      "options": [
+       "so",
+       "or"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Staying inside is the RESULT of the rain: so.",
+       "zh": "待在室内是下雨的结果：so（所以）。"
+      }
+     }
+    },
+    {
+     "icon": "⏰",
+     "title": {
+      "en": "Why, when and if words",
+      "zh": "表示原因、时间、条件的词"
+     },
+     "points": [
+      {
+       "en": "because = gives the reason (why).",
+       "zh": "because = 说原因（为什么）。"
+      },
+      {
+       "en": "when, before, after, until = tell you WHEN.",
+       "zh": "when、before、after、until = 说什么时候。"
+      },
+      {
+       "en": "if = a condition. although = even though, a surprise.",
+       "zh": "if = 如果（条件）；although = 虽然（让人意外）。"
+      },
+      {
+       "en": "Tom was hungry because he missed breakfast.",
+       "zh": "Tom was hungry because he missed breakfast.（因为他没吃早饭）"
+      }
+     ],
+     "quick": {
+      "q": "\"Wash your hands ___ you eat.\" Which one?",
+      "options": [
+       "because",
+       "before"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "It tells you WHEN: first wash, then eat.",
+       "zh": "它说的是时间：先洗手，再吃饭。"
+      }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "The comma rule",
+      "zh": "逗号规则"
+     },
+     "points": [
+      {
+       "en": "When and, but or so joins TWO full sentences, put a comma before it.",
+       "zh": "当 and、but 或 so 连接两个完整的句子时，在它前面加逗号。"
+      },
+      {
+       "en": "I love K-pop, so I bought a photo card.",
+       "zh": "I love K-pop, so I bought a photo card."
+      },
+      {
+       "en": "No comma for two words: pens and pencils.",
+       "zh": "只连两个词时不用逗号：pens and pencils。"
+      }
+     ],
+     "remember": {
+      "en": "Two full sentences + and/but/so = comma first.",
+      "zh": "两个完整句子 + and/but/so = 前面加逗号。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now join sentences with the right conjunction.",
+    "zh": "我现在会用正确的连词连接句子。"
+   }
+  },
+  {
+   "code": "E5",
+   "part": "E",
+   "title": {
+    "en": "Suffixes -er and -or, and an Idiom",
+    "zh": "后缀 -er 和 -or，还有一个习语"
+   },
+   "slides": [
+    {
+     "icon": "🧑‍🏫",
+     "title": {
+      "en": "Suffix -er / -or = a person who...",
+      "zh": "后缀 -er / -or = 做……的人"
+     },
+     "points": [
+      {
+       "en": "A suffix is a group of letters added at the END of a word.",
+       "zh": "后缀（suffix）是加在词尾的几个字母。"
+      },
+      {
+       "en": "-er and -or both mean \"a person who does it\": teach → teacher, act → actor.",
+       "zh": "-er 和 -or 都表示“做这件事的人”：teach → teacher（老师），act → actor（演员）。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🏊",
+        "en": "swim → swimmer",
+        "zh": "swim → swimmer 游泳的人"
+       },
+       {
+        "icon": "🎤",
+        "en": "sing → singer",
+        "zh": "sing → singer 歌手"
+       },
+       {
+        "icon": "🎬",
+        "en": "act → actor",
+        "zh": "act → actor 演员"
+       },
+       {
+        "icon": "🕵️",
+        "en": "investigate → investigator",
+        "zh": "investigate → investigator 调查员"
+       }
+      ]
+     }
+    },
+    {
+     "icon": "🤔",
+     "title": {
+      "en": "-er or -or? The tips",
+      "zh": "-er 还是 -or？小技巧"
+     },
+     "points": [
+      {
+       "en": "Most everyday words use -er: teacher, singer, painter, baker.",
+       "zh": "大多数日常的词用 -er：teacher、singer、painter、baker。"
+      },
+      {
+       "en": "Words ending in -ate drop the e and add -or: investigate → investigator, operate → operator.",
+       "zh": "以 -ate 结尾的词去掉 e 加 -or：investigate → investigator，operate → operator。"
+      },
+      {
+       "en": "Words ending in -ct add -or: act → actor, instruct → instructor.",
+       "zh": "以 -ct 结尾的词加 -or：act → actor，instruct → instructor。"
+      },
+      {
+       "en": "Watch the spelling: swim → swimmer (double m), bake → baker (drop the e).",
+       "zh": "注意拼写：swim → swimmer（双写 m），bake → baker（去掉 e）。"
+      }
+     ],
+     "quick": {
+      "q": "A person who instructs is an...",
+      "options": [
+       "instructor",
+       "instructer"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Instruct ends in -ct, so add -or: instructor.",
+       "zh": "instruct 以 -ct 结尾，所以加 -or：instructor。"
+      }
+     }
+    },
+    {
+     "icon": "🌳",
+     "title": {
+      "en": "Idiom: go out on a limb",
+      "zh": "习语：go out on a limb"
+     },
+     "points": [
+      {
+       "en": "An idiom is a group of words with a meaning different from the single words.",
+       "zh": "习语（idiom）是一组词，整体意思和单个词的意思不一样。"
+      },
+      {
+       "en": "A limb is a big branch of a tree. Out on a thin branch, it might break!",
+       "zh": "limb 是树的大树枝。爬到细树枝的末端，树枝可能会断！"
+      },
+      {
+       "en": "Go out on a limb = take a risk by saying or doing something others may not agree with.",
+       "zh": "go out on a limb = 冒险说或做一件别人可能不同意的事。"
+      },
+      {
+       "en": "Sophie went out on a limb and said her favourite group would win the award.",
+       "zh": "Sophie went out on a limb（冒险说）她最喜欢的组合会得奖。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🌳",
+        "en": "limb = big branch",
+        "zh": "limb = 大树枝"
+       },
+       {
+        "icon": "😬",
+        "en": "might break = a risk",
+        "zh": "可能会断 = 有风险"
+       }
+      ]
+     },
+     "quick": {
+      "q": "\"Go out on a limb\" means...",
+      "options": [
+       "climb a real tree",
+       "take a risk"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "It is an idiom. It is about taking a risk, not about real trees.",
+       "zh": "这是习语，意思是冒险，不是真的爬树。"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose -er or -or and explain \"go out on a limb\".",
+    "zh": "我现在会选 -er 或 -or，并能解释 go out on a limb。"
    }
   }
  ]

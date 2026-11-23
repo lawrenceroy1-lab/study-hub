@@ -56,6 +56,25 @@
    ]
   },
   {
+   "date": "2026-11-24",
+   "title": {
+    "en": "Context Clues and Conjunctions",
+    "zh": "上下文线索和连词"
+   },
+   "message": {
+    "en": "Class with Roy. Main Book R6 and E4 first, then the practice.",
+    "zh": "和 Roy 老师上课。先学主课本 R6 和 E4，再做练习。"
+   },
+   "activities": [
+    "ctxquiz",
+    "conjfill"
+   ],
+   "book": [
+    "R6",
+    "E4"
+   ]
+  },
+  {
    "date": "2026-11-25",
    "kind": "homework",
    "title": {
@@ -72,6 +91,47 @@
    ],
    "book": [
     "E2"
+   ]
+  },
+  {
+   "date": "2026-11-26",
+   "title": {
+    "en": "-er and -or, Fractions, Spelling Test Practice",
+    "zh": "-er 和 -or、分数、拼写测试练习"
+   },
+   "message": {
+    "en": "Class with Roy. Main Book E5 and M2 first. Spelling quiz at school tomorrow: use Test mode!",
+    "zh": "和 Roy 老师上课。先学主课本 E5 和 M2。明天学校有拼写小测：用测试模式练习！"
+   },
+   "activities": [
+    "ermatch",
+    "fracquiz",
+    "spelling"
+   ],
+   "book": [
+    "E5",
+    "M2"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "kind": "homework",
+   "title": {
+    "en": "Friday Homework: This Week's Review",
+    "zh": "星期五作业：本周复习"
+   },
+   "message": {
+    "en": "About 30 minutes. Look at Main Book R6, E4 and E5 again, then do the quiz ONCE.",
+    "zh": "大约 30 分钟。再看一遍主课本 R6、E4 和 E5，然后做一次小测。"
+   },
+   "activities": [
+    "hw-fri"
+   ],
+   "book": [
+    "R6",
+    "E4",
+    "E5",
+    "M2"
    ]
   }
  ],
@@ -2182,6 +2242,675 @@
    "canNow": {
     "en": "I can now spell -ion words.",
     "zh": "我现在会拼 -ion 单词。"
+   }
+  },
+  {
+   "id": "ctxquiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "🔍",
+   "title": {
+    "en": "Context Clues Quiz",
+    "zh": "上下文线索小测"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Find the clue in the sentence, then choose the meaning.",
+    "zh": "在句子里找到线索，再选意思。"
+   },
+   "questions": [
+    {
+     "q": "After two hours of swimming, Lily was FAMISHED. She ate three bowls of noodles!\nFAMISHED means...",
+     "options": [
+      "very tired",
+      "very cold",
+      "very happy",
+      "very hungry"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Clue: she ate three bowls of noodles.",
+      "zh": "线索：她吃了三碗面。"
+     }
+    },
+    {
+     "q": "Tom is usually TIMID, but on stage he was brave and loud.\nTIMID means...",
+     "options": [
+      "very loud",
+      "shy and easily scared",
+      "very tall",
+      "angry"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Clue word \"but\": timid is the opposite of brave and loud.",
+      "zh": "线索词 but：timid 和 brave、loud 相反。"
+     }
+    },
+    {
+     "q": "Emma loves STATIONERY, such as gel pens, stickers and notebooks.\nSTATIONERY means...",
+     "options": [
+      "clothes",
+      "snacks",
+      "toys for babies",
+      "things for writing and school"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Clue words \"such as\" give examples: pens, stickers, notebooks.",
+      "zh": "线索词 such as 后面是例子：笔、贴纸、本子。"
+     }
+    },
+    {
+     "q": "The singer's voice was so FAINT that we could hardly hear it.\nFAINT means...",
+     "options": [
+      "very quiet and weak",
+      "very loud",
+      "very high",
+      "very fast"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue: we could hardly hear it.",
+      "zh": "线索：我们几乎听不见。"
+     }
+    },
+    {
+     "q": "The puppy was RAVENOUS, so it gobbled up all its food in seconds.\nRAVENOUS means...",
+     "options": [
+      "very sleepy",
+      "frightened",
+      "extremely hungry",
+      "dirty"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Clue: it gobbled up its food in seconds.",
+      "zh": "线索：它几秒钟就把食物吃光了。"
+     }
+    },
+    {
+     "q": "Unlike her TIDY sister, Sophie had a very messy room.\nTIDY means...",
+     "options": [
+      "messy",
+      "neat and clean",
+      "noisy",
+      "small"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Clue word \"unlike\": tidy is the opposite of messy.",
+      "zh": "线索词 unlike：tidy 和 messy 相反。"
+     }
+    },
+    {
+     "q": "At the festival, the streets were PACKED. There was no room to move.\nPACKED means...",
+     "options": [
+      "very full of people",
+      "empty",
+      "wet",
+      "quiet"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue: there was no room to move.",
+      "zh": "线索：没有地方可以动。"
+     }
+    },
+    {
+     "q": "James was ELATED when his team won the swimming gala. He jumped and cheered.\nELATED means...",
+     "options": [
+      "very sad",
+      "bored",
+      "worried",
+      "very happy"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Clue: he jumped and cheered.",
+      "zh": "线索：他跳起来欢呼。"
+     }
+    },
+    {
+     "q": "The old map was FRAGILE, so we held it carefully so it would not tear.\nFRAGILE means...",
+     "options": [
+      "very heavy",
+      "brand new",
+      "easy to break or damage",
+      "colourful"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Clue: held it carefully so it would not tear.",
+      "zh": "线索：小心拿着，免得撕破。"
+     }
+    },
+    {
+     "q": "Which clue word tells you that an OPPOSITE is coming?",
+     "options": [
+      "but",
+      "such as",
+      "which means",
+      "for example"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "But and unlike = opposite. Such as and for example = examples. Which means = the meaning.",
+      "zh": "but、unlike = 相反；such as、for example = 举例；which means = 意思。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now work out new words from context clues.",
+    "zh": "我现在会用上下文线索猜词义。"
+   }
+  },
+  {
+   "id": "conjfill",
+   "type": "fillblank",
+   "icon": "🔗",
+   "shuffle": false,
+   "title": {
+    "en": "Fill in the Conjunction",
+    "zh": "填连词"
+   },
+   "subtitle": {
+    "en": "10 sentences",
+    "zh": "10 个句子"
+   },
+   "intro": {
+    "en": "Read the sentence, then tap the best joining word.",
+    "zh": "读句子，然后点出最合适的连词。"
+   },
+   "bank": [
+    "and",
+    "but",
+    "or",
+    "so",
+    "because",
+    "Although",
+    "if",
+    "until",
+    "before",
+    "when"
+   ],
+   "items": [
+    {
+     "text": "Emma ___ Sophie both love K-pop.",
+     "answer": "and",
+     "why": {
+      "en": "Both ... and: it adds them together.",
+      "zh": "both ... and：把两个人加在一起。"
+     }
+    },
+    {
+     "text": "Daisy wanted to swim, ___ the pool was closed.",
+     "answer": "but",
+     "why": {
+      "en": "Something different from what she wanted: but.",
+      "zh": "和她想要的不一样：but。"
+     }
+    },
+    {
+     "text": "You can pick the red pen ___ the blue pen, but not both.",
+     "answer": "or",
+     "why": {
+      "en": "A choice: or.",
+      "zh": "选择：or。"
+     }
+    },
+    {
+     "text": "It started to rain, ___ we ran inside.",
+     "answer": "so",
+     "why": {
+      "en": "Running inside is the result: so.",
+      "zh": "跑进屋是结果：so。"
+     }
+    },
+    {
+     "text": "Tom was hungry ___ he did not eat breakfast.",
+     "answer": "because",
+     "why": {
+      "en": "It gives the reason: because.",
+      "zh": "说原因：because。"
+     }
+    },
+    {
+     "text": "___ it was raining, we still went to the festival.",
+     "answer": "Although",
+     "why": {
+      "en": "A surprise: even though it rained, we went.",
+      "zh": "意外：虽然下雨，我们还是去了。"
+     }
+    },
+    {
+     "text": "You will get a sticker ___ you finish your work.",
+     "answer": "if",
+     "why": {
+      "en": "A condition: if.",
+      "zh": "条件：if。"
+     }
+    },
+    {
+     "text": "We waited at the bus stop ___ the bus came.",
+     "answer": "until",
+     "why": {
+      "en": "We waited up to that time: until.",
+      "zh": "一直等到那个时候：until。"
+     }
+    },
+    {
+     "text": "Wash your hands ___ you eat.",
+     "answer": "before",
+     "why": {
+      "en": "First wash, then eat: before.",
+      "zh": "先洗手，再吃饭：before。"
+     }
+    },
+    {
+     "text": "My phone beeps ___ I get a message.",
+     "answer": "when",
+     "why": {
+      "en": "It tells you the time it happens: when.",
+      "zh": "说明什么时候发生：when。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose the right conjunction.",
+    "zh": "我现在会选对连词。"
+   }
+  },
+  {
+   "id": "ermatch",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "-er or -or? Match Game",
+    "zh": "-er 还是 -or？配对游戏"
+   },
+   "intro": {
+    "en": "Tap the meaning, then tap the person word.",
+    "zh": "先点意思，再点表示人的词。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "a person who teaches",
+     "b": "teacher"
+    },
+    {
+     "a": "a person who acts",
+     "b": "actor"
+    },
+    {
+     "a": "a person who swims",
+     "b": "swimmer"
+    },
+    {
+     "a": "a person who instructs",
+     "b": "instructor"
+    },
+    {
+     "a": "a person who investigates",
+     "b": "investigator"
+    },
+    {
+     "a": "a person who bakes",
+     "b": "baker"
+    },
+    {
+     "a": "a person who visits",
+     "b": "visitor"
+    },
+    {
+     "a": "a person who sings",
+     "b": "singer"
+    },
+    {
+     "a": "a person who operates a machine",
+     "b": "operator"
+    },
+    {
+     "a": "a person who paints",
+     "b": "painter"
+    }
+   ],
+   "canNow": {
+    "en": "I can now spell -er and -or person words.",
+    "zh": "我现在会拼写以 -er 和 -or 结尾的表示人的词。"
+   }
+  },
+  {
+   "id": "fracquiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "✖️",
+   "title": {
+    "en": "Multiplying Fractions Quiz",
+    "zh": "分数乘法小测"
+   },
+   "subtitle": {
+    "en": "8 questions",
+    "zh": "8 道题"
+   },
+   "intro": {
+    "en": "Top × top, bottom × bottom, then simplify.",
+    "zh": "分子乘分子，分母乘分母，再约分。"
+   },
+   "questions": [
+    {
+     "q": "1/2 × 1/3 = ?",
+     "options": [
+      "2/5",
+      "1/6",
+      "2/6",
+      "1/5"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Top × top: 1 × 1 = 1. Bottom × bottom: 2 × 3 = 6. So 1/6.",
+      "zh": "分子乘分子：1 × 1 = 1；分母乘分母：2 × 3 = 6。所以是 1/6。"
+     }
+    },
+    {
+     "q": "2/3 × 3/4 = ?",
+     "options": [
+      "5/7",
+      "6/7",
+      "1/2",
+      "5/12"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "2 × 3 = 6 and 3 × 4 = 12, so 6/12. Simplify: 6/12 = 1/2.",
+      "zh": "2 × 3 = 6，3 × 4 = 12，得 6/12。约分：6/12 = 1/2。"
+     }
+    },
+    {
+     "q": "3/5 × 2 = ?",
+     "options": [
+      "6/10",
+      "3/10",
+      "5/5",
+      "6/5 = 1 1/5"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "2 = 2/1. 3 × 2 = 6 and 5 × 1 = 5, so 6/5 = 1 1/5.",
+      "zh": "2 = 2/1。3 × 2 = 6，5 × 1 = 5，得 6/5 = 1 1/5。"
+     }
+    },
+    {
+     "q": "4 × 1/8 = ?",
+     "options": [
+      "4/32",
+      "1/2",
+      "5/8",
+      "1/32"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "4 = 4/1. 4 × 1 = 4 and 1 × 8 = 8, so 4/8 = 1/2.",
+      "zh": "4 = 4/1。4 × 1 = 4，1 × 8 = 8，得 4/8 = 1/2。"
+     }
+    },
+    {
+     "q": "2/5 × 5/6 = ?",
+     "options": [
+      "7/11",
+      "10/11",
+      "2/6",
+      "1/3"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "2 × 5 = 10 and 5 × 6 = 30, so 10/30. Simplify: 10/30 = 1/3.",
+      "zh": "2 × 5 = 10，5 × 6 = 30，得 10/30。约分：10/30 = 1/3。"
+     }
+    },
+    {
+     "q": "Lily drinks 3/4 of a 1/2 litre bottle of juice. How much does she drink?",
+     "options": [
+      "3/8 L",
+      "4/6 L",
+      "1/4 L",
+      "5/4 L"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Of means ×: 3/4 × 1/2 = 3/8 L.",
+      "zh": "of 就是 ×：3/4 × 1/2 = 3/8 升。"
+     }
+    },
+    {
+     "q": "What is 2/3 of 9 stickers?",
+     "options": [
+      "3 stickers",
+      "18 stickers",
+      "6 stickers",
+      "27 stickers"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "2/3 × 9: 9 ÷ 3 = 3, then 3 × 2 = 6 stickers.",
+      "zh": "2/3 × 9：9 ÷ 3 = 3，再 3 × 2 = 6 张贴纸。"
+     }
+    },
+    {
+     "q": "How do you multiply two fractions?",
+     "options": [
+      "add the tops",
+      "top × top, bottom × bottom",
+      "find a common denominator first",
+      "flip the second fraction"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Multiply straight across. No common denominator needed. Flipping is for DIVIDING.",
+      "zh": "直接横着乘，不用通分。倒过来是除法才用的。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now multiply fractions and simplify the answer.",
+    "zh": "我现在会做分数乘法并约分。"
+   }
+  },
+  {
+   "id": "hw-fri",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Friday Homework Quiz",
+    "zh": "星期五作业小测"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read each question twice. You can only submit once. Roy will go through it with you on Sunday.",
+    "zh": "每道题读两遍。只能提交一次。Roy 老师星期天会和你一起看。"
+   },
+   "questions": [
+    {
+     "q": "\"The kitten was so DROWSY that it fell asleep in my lap.\" DROWSY means...",
+     "options": [
+      "sleepy",
+      "hungry",
+      "noisy",
+      "brave"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clue: it fell asleep.",
+      "zh": "线索：它睡着了。"
+     }
+    },
+    {
+     "q": "\"Unlike the CALM lake, the sea was wild and stormy.\" CALM means...",
+     "options": [
+      "wild",
+      "deep",
+      "cold",
+      "still and peaceful"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Clue word \"unlike\": calm is the opposite of wild and stormy.",
+      "zh": "线索词 unlike：calm 和 wild、stormy 相反。"
+     }
+    },
+    {
+     "q": "\"We ate lots of DESSERTS, such as ice cream, mango sticky rice and cake.\" DESSERTS are...",
+     "options": [
+      "drinks",
+      "vegetables",
+      "sweet foods after a meal",
+      "breakfast foods"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Clue words \"such as\": ice cream, cake. All sweet foods.",
+      "zh": "线索词 such as：冰淇淋、蛋糕，都是甜食。"
+     }
+    },
+    {
+     "q": "\"I was tired, ___ I went to bed early.\"",
+     "options": [
+      "so",
+      "but",
+      "or",
+      "until"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Going to bed early is the result: so.",
+      "zh": "早睡是结果：so。"
+     }
+    },
+    {
+     "q": "\"Do you want to swim ___ play badminton?\"",
+     "options": [
+      "so",
+      "or",
+      "because",
+      "although"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A choice between two things: or.",
+      "zh": "两个里选一个：or。"
+     }
+    },
+    {
+     "q": "Which sentence has the comma in the right place?",
+     "options": [
+      "I love K-pop so, I bought a photo card.",
+      "I love, K-pop so I bought a photo card.",
+      "I love K-pop, so I bought a photo card.",
+      "I love K-pop so I, bought a photo card."
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Two full sentences joined by so: the comma goes BEFORE so.",
+      "zh": "两个完整句子用 so 连接：逗号放在 so 前面。"
+     }
+    },
+    {
+     "q": "A person who acts in films is an...",
+     "options": [
+      "acter",
+      "actour",
+      "actar",
+      "actor"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Act ends in -ct, so add -or: actor.",
+      "zh": "act 以 -ct 结尾，加 -or：actor。"
+     }
+    },
+    {
+     "q": "A person who swims is a...",
+     "options": [
+      "swimer",
+      "swimmer",
+      "swimor",
+      "swimmor"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Short vowel + one m: double the m, then add -er.",
+      "zh": "短元音加一个 m：双写 m，再加 -er。"
+     }
+    },
+    {
+     "q": "\"Emma went out on a limb and told the class her own idea.\" This means Emma...",
+     "options": [
+      "climbed a tree",
+      "broke her arm",
+      "left the room",
+      "took a risk"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Go out on a limb = take a risk by saying something others may not agree with.",
+      "zh": "go out on a limb = 冒险说别人可能不同意的话。"
+     }
+    },
+    {
+     "q": "3/4 × 2/3 = ?",
+     "options": [
+      "1/2",
+      "5/7",
+      "6/7",
+      "5/12"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "3 × 2 = 6 and 4 × 3 = 12, so 6/12 = 1/2.",
+      "zh": "3 × 2 = 6，4 × 3 = 12，得 6/12 = 1/2。"
+     }
+    },
+    {
+     "q": "What is 1/4 of 20 sweets?",
+     "options": [
+      "4 sweets",
+      "16 sweets",
+      "5 sweets",
+      "80 sweets"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "1/4 × 20 = 20 ÷ 4 = 5 sweets.",
+      "zh": "1/4 × 20 = 20 ÷ 4 = 5 颗糖。"
+     }
+    },
+    {
+     "q": "Which spelling is correct?",
+     "options": [
+      "investigasion",
+      "investigation",
+      "investegation",
+      "investigtion"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Investigate: drop the e, add -ion: investigation.",
+      "zh": "investigate 去掉 e，加 -ion：investigation。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now use this week's words, joining words and fractions by myself.",
+    "zh": "我现在能自己用本周的词、连词和分数。"
    }
   }
  ],
