@@ -6,7 +6,7 @@
 
   var STUDENT_ID = window.STUDENT_ID;
   var DATA = '../data/' + STUDENT_ID + '/';
-  var S = { student: null, weeks: {}, lang: 'en', cleanup: null };
+  var S = { student: null, weeks: {}, lang: 'en', cleanup: null, pos: {}, relang: null };
   var main;
 
   /* ---------------- helpers ---------------- */
@@ -210,6 +210,7 @@
   }
   function flush() {
     var ready = window.SCORE_URL || (window.SCORE_FORM && window.SCORE_FORM.url);
+    if (/^(localhost|127\.0\.0\.1)$/.test(location.hostname)) return;   /* preview on this computer: never send test scores */
     if (!ready || flushing || navigator.onLine === false) return;
     var q = lsGet(QKEY, []);
     if (!q.length) return;
@@ -262,7 +263,30 @@
       document.getElementById('lang-zh').className = S.lang === 'zh' ? 'on' : '';
     }
   }
-  function setLang(l) { S.lang = l; lsSet(key('lang'), l); paintFrame(); route(); }
+  function setLang(l) { S.lang = l; lsSet(key('lang'), l); paintFrame(); S.relang = location.hash; var y = window.scrollY; route(); setTimeout(function () { window.scrollTo(0, y); }, 300); }
+  /* Remember where she is (page, question, answers) so changing language does not start again. */
+  function keep(name, fresh, force) {
+    var pk = location.hash + '|' + name;
+    if (!force && S.relang === location.hash && S.pos[pk]) return S.pos[pk];
+    if (!fresh) return null;
+    return (S.pos[pk] = fresh());
+  }
+  /* The next question or card not done yet, after the one on screen (wraps round). -1 = all done. */
+  function nextFree(n, i, isDone) {
+    for (var s = 1; s < n; s++) { var k = (i + s) % n; if (!isDone(k)) return k; }
+    return isDone(i) ? -1 : i;
+  }
+  /* Number buttons 1, 2, 3 ... to jump to any question or card. */
+  function numStrip(n, cur, stateFn, pick) {
+    if (n < 2) return null;
+    var d = h('div', { class: 'numstrip', role: 'navigation', 'aria-label': 'Jump to' });
+    for (var k = 0; k < n; k++) (function (k) {
+      var s = stateFn(k);
+      d.appendChild(h('button', { class: 'num' + (s ? ' ' + s : '') + (k === cur ? ' on' : ''), onclick: function () { if (k !== cur) pick(k); } }, String(k + 1)));
+    })(k);
+    setTimeout(function () { var on = d.querySelector('.on'); if (on && d.scrollWidth > d.clientWidth) d.scrollLeft = on.offsetLeft - d.offsetLeft - d.clientWidth / 2 + 21; }, 0);
+    return d;
+  }
 
   function show() {
     clear(main);
@@ -542,53 +566,57 @@
 
   /* ---------- 2. FLASHCARDS ---------- */
   ACT.flashcards = function (a, ctx, area) {
+    var st = keep('cards');
     function round(cards) {
-      var deck = shuffle(cards.slice()), i = 0, know = [], learning = [], flipped = false;
-      clear(area);
-      var stats = h('div', { class: 'stats' });
-      var prog = h('div', { class: 'progress' }, h('div'));
-      var card = h('div', { class: 'flash', role: 'button', tabindex: '0', onclick: flip, onkeydown: function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } } });
-      var btns = h('div', { class: 'row center' },
-        h('button', { class: 'btn big red', onclick: function () { mark(false); } }, T('learning')),
-        h('button', { class: 'btn big green', onclick: function () { mark(true); } }, T('know')));
-      add(area, h('div', { class: 'card' }, prog, stats, card, btns,
-        h('div', { class: 'row center' }, h('button', { class: 'btn ghost', onclick: function () { round(cards); } }, T('shuffle')))));
-      function paint() {
-        var c = deck[i];
-        prog.firstChild.style.width = (100 * i / deck.length) + '%';
-        stats.textContent = (i + 1) + ' / ' + deck.length + '   ✅ ' + know.length + '   😅 ' + learning.length;
-        clear(card);
-        card.className = 'flash' + (flipped ? ' back' : '');
-        if (!flipped) {
-          add(card, [h('div', { class: 'front' }, c.front),
-            h('button', { class: 'btn ghost', style: 'margin-top:14px', onclick: function (e) { e.stopPropagation(); say(c.front); } }, T('hear')),
-            h('div', { class: 'tap' }, T('tapFlip'))]);
-        } else {
-          add(card, [h('div', { class: 'meaning' }, c.back),
-            bilingual() && (c.zh || c.zhBack) ? h('div', { class: 'zh', lang: 'zh' }, [c.zh, c.zhBack].filter(Boolean).join('：')) : null,
-            h('div', { class: 'tap' }, T('tapFlip'))]);
-        }
-      }
-      function flip() { flipped = !flipped; paint(); }
-      function mark(k) {
-        (k ? know : learning).push(deck[i]);
-        i++; flipped = false;
-        if (i >= deck.length) return end();
-        paint();
-      }
-      function end() {
-        clear(area);
-        add(area, h('div', { class: 'card center' },
-          h('h2', null, learning.length ? '👍 ' + know.length + ' / ' + deck.length : '🏆 ' + T('knowAll')),
-          h('p', { class: 'praise' }, praise()), canNow(a),
-          learning.length ? h('div', { class: 'box hint' }, h('b', null, T('learning') + ': '), learning.map(function (c) { return c.front; }).join(', ')) : null,
-          h('div', { class: 'row center' },
-            learning.length ? h('button', { class: 'btn big', onclick: function () { round(learning); } }, T('practiseLearning')) : null,
-            h('button', { class: 'btn big ghost', onclick: function () { round(cards); } }, T('again')))));
-      }
+      st = keep('cards', function () { return { deck: shuffle(cards.slice()), i: 0, marks: {}, flipped: false }; }, true);
       paint();
     }
-    round(a.cards);
+    function nextOpen() { return nextFree(st.deck.length, st.i, function (k) { return st.marks[k] != null; }); }
+    function paint() {
+      if (st.ended) return end();
+      var deck = st.deck, i = st.i, c = deck[i];
+      var know = Object.keys(st.marks).filter(function (k) { return st.marks[k]; }).length;
+      var learning = Object.keys(st.marks).length - know;
+      clear(area);
+      var card = h('div', { class: 'flash' + (st.flipped ? ' back' : ''), role: 'button', tabindex: '0', onclick: flip, onkeydown: function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); flip(); } } });
+      if (!st.flipped) {
+        add(card, [h('div', { class: 'front' }, c.front),
+          h('button', { class: 'btn ghost', style: 'margin-top:14px', onclick: function (e) { e.stopPropagation(); say(c.front); } }, T('hear')),
+          h('div', { class: 'tap' }, T('tapFlip'))]);
+      } else {
+        add(card, [h('div', { class: 'meaning' }, c.back),
+          bilingual() && (c.zh || c.zhBack) ? h('div', { class: 'zh', lang: 'zh' }, [c.zh, c.zhBack].filter(Boolean).join('：')) : null,
+          h('div', { class: 'tap' }, T('tapFlip'))]);
+      }
+      add(area, h('div', { class: 'card' },
+        numStrip(deck.length, i, function (k) { return st.marks[k] == null ? '' : st.marks[k] ? 'ok' : 'warn'; }, function (k) { st.i = k; st.flipped = false; paint(); }),
+        h('div', { class: 'stats' }, (i + 1) + ' / ' + deck.length + '   ✅ ' + know + '   😅 ' + learning),
+        card,
+        h('div', { class: 'row center' },
+          h('button', { class: 'btn big red', onclick: function () { mark(false); } }, T('learning')),
+          h('button', { class: 'btn big green', onclick: function () { mark(true); } }, T('know'))),
+        h('div', { class: 'row center' }, h('button', { class: 'btn ghost', onclick: function () { round(a.cards); } }, T('shuffle')))));
+    }
+    function flip() { st.flipped = !st.flipped; paint(); }
+    function mark(k) {
+      st.marks[st.i] = k; st.flipped = false;
+      var n = nextOpen();
+      if (n < 0) { st.ended = true; return end(); }
+      st.i = n; paint();
+    }
+    function end() {
+      var deck = st.deck, learnList = deck.filter(function (_, k) { return st.marks[k] === false; });
+      var know = deck.length - learnList.length;
+      clear(area);
+      add(area, h('div', { class: 'card center' },
+        h('h2', null, learnList.length ? '👍 ' + know + ' / ' + deck.length : '🏆 ' + T('knowAll')),
+        h('p', { class: 'praise' }, praise()), canNow(a),
+        learnList.length ? h('div', { class: 'box hint' }, h('b', null, T('learning') + ': '), learnList.map(function (c) { return c.front; }).join(', ')) : null,
+        h('div', { class: 'row center' },
+          learnList.length ? h('button', { class: 'btn big', onclick: function () { round(learnList); } }, T('practiseLearning')) : null,
+          h('button', { class: 'btn big ghost', onclick: function () { round(a.cards); } }, T('again')))));
+    }
+    if (st) paint(); else round(a.cards);
   };
 
   /* ---------- 3. MATCH GAME ---------- */
@@ -663,76 +691,95 @@
   /* ---------- 4. QUIZ (speed quiz when timed) ---------- */
   var SHAPES = ['▲', '◆', '●', '■'];
   ACT.quiz = function (a, ctx, area) {
-    var timed = a.timed !== false, SECS = a.seconds || 20;
+    var timed = a.timed !== false, SECS = a.seconds || 20, timer = null;
+    var st = keep('quiz');
+    /* time used on the question on screen is added up when she leaves it */
+    function leave() { clearInterval(timer); if (st && st.qStart) { st.used[st.i] = (st.used[st.i] || 0) + (Date.now() - st.qStart) / 1000; st.qStart = 0; } }
+    S.cleanup = leave;
     function start() {
-      var pool = a.shuffle === false ? a.questions.slice() : shuffle(a.questions.slice());
-      var qs = pool.slice(0, Math.min(a.count || pool.length, pool.length));
-      var i = 0, points = 0, streak = 0, correct = 0, missed = [], t0 = Date.now(), timer = null;
-      S.cleanup = function () { clearInterval(timer); };
-      function ask() {
-        clearInterval(timer);
-        var q = qs[i], answered = false, qStart = Date.now();
-        clear(area);
-        var bar = h('div', { class: 'progress timerbar' }, h('div', { style: 'width:100%' }));
-        var fb = h('div', { 'aria-live': 'polite' });
-        var order = shuffle(q.options.map(function (_, j) { return j; }));
-        var right = order.indexOf(q.answer);
-        var btns = order.map(function (oi, k) {
-          return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { choose(k); } },
-            h('span', { class: 'shape', 'aria-hidden': 'true' }, SHAPES[k % 4]), h('span', null, rich(q.options[oi])));
-        });
-        add(area, h('div', { class: 'card' },
-          h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + qs.length),
-            timed ? h('span', null, '⭐ ' + points + ' ' + T('points')) : h('span', null, '✅ ' + correct),
-            timed && streak > 1 ? h('span', null, '🔥 ' + T('streak') + ' ' + streak) : null),
-          timed ? bar : h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / qs.length) + '%' })),
-          q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
-          h('div', { class: 'box q' }, rich(q.q)),
-          h('div', { class: 'answers' }, btns), fb));
-        if (timed) {
-          timer = setInterval(function () {
-            var left = SECS - (Date.now() - qStart) / 1000;
-            bar.firstChild.style.width = Math.max(0, 100 * left / SECS) + '%';
-            if (left <= 0) { clearInterval(timer); choose(-1); }
-          }, 100);
-        }
-        function choose(k) {
-          if (answered) return;
-          answered = true; clearInterval(timer);
-          var ok = k === right, el = (Date.now() - qStart) / 1000;
-          btns.forEach(function (b, j) {
-            b.disabled = true;
-            if (j === right) b.classList.add('right');
-            else if (j === k) b.classList.add('picked-wrong');
-            else b.classList.add('faded');
-          });
-          var gained = 0;
-          if (ok) {
-            correct++; streak++;
-            if (timed) { gained = Math.round(1000 * (1 - Math.min(el, SECS) / SECS / 2)) + Math.min(streak - 1, 5) * 100; points += gained; }
-          } else { streak = 0; missed.push('Q' + (i + 1) + ' ' + String(q.q).slice(0, 40)); }
-          add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
-            h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() + (gained ? '  +' + gained : '') : (k < 0 ? '⏰ ' + T('timeUp') + ' ' : '') + T('notQuite')),
-            !ok ? h('div', { class: 'q-text' }, rich(q.options[q.answer])) : null,
-            q.why ? h('div', { style: 'margin-top:6px' }, h('b', null, T('why') + ': '), bi(q.why, true)) : null),
-            h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i++; i < qs.length ? ask() : end(); } }, i + 1 < qs.length ? T('next') : T('finish'))));
-          fb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-        }
-      }
-      function end() {
-        clearInterval(timer);
-        var secs = (Date.now() - t0) / 1000;
-        record(ctx.en, ctx.week, correct, qs.length, secs, missed);
-        clear(area);
-        add(area, h('div', { class: 'card center' },
-          h('h2', null, '🏁 ' + (correct === qs.length ? praise() : T('yourScore'))),
-          timed ? h('div', { class: 'bigscore' }, points + ' ' + T('points')) : null,
-          h('div', { class: timed ? 'praise' : 'bigscore' }, scoreText(correct, qs.length) + (timed ? ' ' + T('correctOf') : '')),
-          h('p', { class: 'small muted' }, T('saved')), canNow(a),
-          h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: start }, T('again')))));
-      }
+      st = keep('quiz', function () {
+        var pool = a.shuffle === false ? a.questions.slice() : shuffle(a.questions.slice());
+        var qs = pool.slice(0, Math.min(a.count || pool.length, pool.length));
+        return { qs: qs, i: 0, points: 0, streak: 0, correct: 0, ans: {}, gain: {}, order: {}, used: {}, t0: Date.now() };
+      }, true);
       ask();
     }
+    function go(k) { leave(); st.i = k; ask(); window.scrollTo(0, 0); }
+    function nextQ() { leave(); var n = nextFree(st.qs.length, st.i, function (k) { return st.ans[k] != null; }); if (n < 0) end(); else go(n); }
+    function ask() {
+      if (st.ended) return end();
+      clearInterval(timer);
+      var i = st.i, q = st.qs[i];
+      if (!st.order[i]) st.order[i] = shuffle(q.options.map(function (_, j) { return j; }));
+      var order = st.order[i], right = order.indexOf(q.answer);
+      clear(area);
+      var bar = h('div', { class: 'progress timerbar' }, h('div', { style: 'width:100%' }));
+      var fb = h('div', { 'aria-live': 'polite' });
+      var btns = order.map(function (oi, k) {
+        return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { choose(k); } },
+          h('span', { class: 'shape', 'aria-hidden': 'true' }, SHAPES[k % 4]), h('span', null, rich(q.options[oi])));
+      });
+      add(area, h('div', { class: 'card' },
+        numStrip(st.qs.length, i, function (k) { return st.ans[k] == null ? '' : st.ans[k] === st.order[k].indexOf(st.qs[k].answer) ? 'ok' : 'bad'; }, go),
+        h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + st.qs.length),
+          timed ? h('span', null, '⭐ ' + st.points + ' ' + T('points')) : h('span', null, '✅ ' + st.correct),
+          timed && st.streak > 1 ? h('span', null, '🔥 ' + T('streak') + ' ' + st.streak) : null),
+        timed ? bar : h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * Object.keys(st.ans).length / st.qs.length) + '%' })),
+        q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
+        h('div', { class: 'box q' }, rich(q.q)),
+        h('div', { class: 'answers' }, btns), fb));
+      if (st.ans[i] != null) return result(st.ans[i]);
+      st.qStart = Date.now();
+      if (timed) {
+        timer = setInterval(function () {
+          var left = SECS - (st.used[i] || 0) - (Date.now() - st.qStart) / 1000;
+          bar.firstChild.style.width = Math.max(0, 100 * left / SECS) + '%';
+          if (left <= 0) choose(-1);
+        }, 100);
+      }
+      function choose(k) {
+        if (st.ans[i] != null) return;
+        leave();
+        st.ans[i] = k;
+        var ok = k === right, el = st.used[i] || 0;
+        if (ok) {
+          st.correct++; st.streak++;
+          if (timed) { st.gain[i] = Math.round(1000 * (1 - Math.min(el, SECS) / SECS / 2)) + Math.min(st.streak - 1, 5) * 100; st.points += st.gain[i]; }
+        } else st.streak = 0;
+        result(k);
+        fb.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+      function result(k) {
+        var ok = k === right, gained = st.gain[i] || 0;
+        bar.firstChild.style.width = '0%';
+        btns.forEach(function (b, j) {
+          b.disabled = true;
+          if (j === right) b.classList.add('right');
+          else if (j === k) b.classList.add('picked-wrong');
+          else b.classList.add('faded');
+        });
+        var left = nextFree(st.qs.length, i, function (n) { return st.ans[n] != null; });
+        add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
+          h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() + (gained ? '  +' + gained : '') : (k < 0 ? '⏰ ' + T('timeUp') + ' ' : '') + T('notQuite')),
+          !ok ? h('div', { class: 'q-text' }, rich(q.options[q.answer])) : null,
+          q.why ? h('div', { style: 'margin-top:6px' }, h('b', null, T('why') + ': '), bi(q.why, true)) : null),
+          h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: nextQ }, left >= 0 ? T('next') : T('finish'))));
+      }
+    }
+    function end() {
+      leave();
+      var qs = st.qs, missed = [];
+      qs.forEach(function (q, k) { if (st.ans[k] !== st.order[k].indexOf(q.answer)) missed.push('Q' + (k + 1) + ' ' + String(q.q).slice(0, 40)); });
+      if (!st.ended) { st.ended = true; record(ctx.en, ctx.week, st.correct, qs.length, (Date.now() - st.t0) / 1000, missed); }
+      clear(area);
+      add(area, h('div', { class: 'card center' },
+        h('h2', null, '🏁 ' + (st.correct === qs.length ? praise() : T('yourScore'))),
+        timed ? h('div', { class: 'bigscore' }, st.points + ' ' + T('points')) : null,
+        h('div', { class: timed ? 'praise' : 'bigscore' }, scoreText(st.correct, qs.length) + (timed ? ' ' + T('correctOf') : '')),
+        h('p', { class: 'small muted' }, T('saved')), canNow(a),
+        h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: start }, T('again')))));
+    }
+    if (st) return ask();
     clear(area);
     add(area, h('div', { class: 'card center' }, h('button', { class: 'btn big', onclick: start }, '▶️ ' + T('start'))));
   };
@@ -1011,13 +1058,15 @@
   function renderReview(w, id) {
     var r = (w.reviews || []).filter(function (x) { return x.id === id; })[0];
     if (!r) return renderError();
-    var items = reviewItems(r), i = 0, marks = {}, t0 = Date.now();
+    var items = reviewItems(r);
+    var st = keep('review', function () { return { i: 0, marks: {}, t0: Date.now() }; });
     var head = [backLink('#/w/' + w.week + '/reviews'), h('h1', null, '📝 ' + dayLabel(r.date)), h('h2', null, tx(r.title))];
     var area = h('div');
     show(head, r.message ? h('div', { class: 'box teach' }, bi(r.message)) : null, area);
     function one() {
+      if (st.ended) return end();
       clear(area);
-      var x = items[i], it = x.it, shown = false, picked = null;
+      var i = st.i, x = items[i], it = x.it, shown = false, picked = null;
       var fb = h('div');
       var opts = it.options ? it.options.map(function (o, k) {
         return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { if (shown) return; picked = k; reveal(); } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(o)));
@@ -1026,7 +1075,7 @@
         shown = true; clear(fb);
         var auto = opts && picked != null;
         if (auto) {
-          var ok = picked === it.answer; marks[i] = ok;
+          var ok = picked === it.answer; st.marks[i] = ok;
           opts.forEach(function (b, j) { b.disabled = true; b.classList.add(j === it.answer ? 'right' : j === picked ? 'picked-wrong' : 'faded'); });
           add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite'))));
         }
@@ -1035,13 +1084,13 @@
           it.why ? h('div', { class: 'box teach' }, h('b', null, T('why') + ': '), bi(it.why, true)) : null,
           it.whyWrong ? h('div', { class: 'box hint' }, h('b', null, '🤔 ' + L('Common mistake: ', '常见错误：')), bi(it.whyWrong, true)) : null);
         if (!auto) add(fb, h('div', { class: 'row center' },
-          h('button', { class: 'btn big green', onclick: function () { marks[i] = true; go(1); } }, '✅ ' + L('I got it right', '我答对了')),
-          h('button', { class: 'btn big yellow', onclick: function () { marks[i] = false; go(1); } }, '🔁 ' + L('Not yet', '还没对'))));
+          h('button', { class: 'btn big green', onclick: function () { st.marks[i] = true; go(1); } }, '✅ ' + L('I got it right', '我答对了')),
+          h('button', { class: 'btn big yellow', onclick: function () { st.marks[i] = false; go(1); } }, '🔁 ' + L('Not yet', '还没对'))));
         else add(fb, h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { go(1); } }, i + 1 < items.length ? T('next') : T('finish'))));
       }
       add(area, h('div', { class: 'card' },
+        numStrip(items.length, i, function (k) { return st.marks[k] == null ? '' : st.marks[k] ? 'ok' : 'warn'; }, function (k) { st.i = k; window.scrollTo(0, 0); one(); }),
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + items.length), h('span', { class: 'small' }, tx(x.page.title))),
-        h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / items.length) + '%' })),
         it.n ? h('div', { class: 'muted small' }, it.n) : null,
         h('div', { class: 'box q' }, rich(it.q)),
         it.visual && it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
@@ -1052,17 +1101,21 @@
           h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { go(-1); } }, T('prev')),
           h('button', { class: 'btn ghost', onclick: function () { go(1); } }, L('Skip →', '跳过 →')))));
     }
-    function go(d) { i += d; window.scrollTo(0, 0); if (i >= items.length) return end(); if (i < 0) i = 0; one(); }
+    function go(d) { st.i += d; window.scrollTo(0, 0); if (st.i >= items.length) { st.i = items.length - 1; st.ended = true; return end(); } if (st.i < 0) st.i = 0; one(); }
     function end() {
+      var marks = st.marks;
       var right = Object.keys(marks).filter(function (k) { return marks[k]; }).length, done = Object.keys(marks).length;
-      lsSet(key('rv_' + r.id), { right: right, total: items.length, when: localTime() });
-      record('Homework review ' + r.date, w.week, right, items.length, (Date.now() - t0) / 1000, Object.keys(marks).filter(function (k) { return !marks[k]; }).map(function (k) { return 'Q' + (+k + 1); }));
+      if (!st.recorded) {
+        st.recorded = true;
+        lsSet(key('rv_' + r.id), { right: right, total: items.length, when: localTime() });
+        record('Homework review ' + r.date, w.week, right, items.length, (Date.now() - st.t0) / 1000, Object.keys(marks).filter(function (k) { return !marks[k]; }).map(function (k) { return 'Q' + (+k + 1); }));
+      }
       clear(area);
       add(area, h('div', { class: 'card center' }, h('h2', null, '🎉 ' + L('Review finished!', '讲评完成！')),
         h('div', { class: 'bigscore' }, right + ' / ' + items.length), h('p', null, L('You scored yourself. Well done for checking every question!', '这是你给自己打的分。每题都认真检查了，真棒！')),
         done < items.length ? h('p', { class: 'muted' }, L('Skipped: ', '跳过：') + (items.length - done)) : null,
         (r.practice || []).length ? [h('h3', null, '🔁 ' + L('Practise again', '再练一练')), h('div', { class: 'tiles' }, r.practice.map(function (pid) { return actTile(w, pid); }))] : null,
-        h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i = 0; marks = {}; one(); } }, L('Go through again', '再看一遍')))));
+        h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { st = keep('review', function () { return { i: 0, marks: {}, t0: Date.now() }; }, true); one(); } }, L('Go through again', '再看一遍')))));
     }
     one();
   }
@@ -1070,35 +1123,40 @@
   /* =========== HOMEWORK QUIZ: one try only, time per question, notes going back =========== */
   ACT.hwquiz = function (a, ctx, area) {
     var k = key('hw_' + ctx.week + '_' + a.id), st = lsGet(k, null) || { ans: {}, time: {}, backs: 0, submitted: false };
-    var qs = a.questions, i = 0, tStart = 0, tick = null;
+    var qs = a.questions, tStart = 0, tick = null;
+    var pos = keep('hw');   /* which question is on screen (kept when the language changes) */
     function save() { lsSet(k, st); }
-    function stopClock() { if (tStart) { st.time[i] = Math.round((st.time[i] || 0) + (Date.now() - tStart) / 1000); tStart = 0; save(); } clearInterval(tick); }
+    function stopClock() { if (tStart) { st.time[pos.i] = Math.round((st.time[pos.i] || 0) + (Date.now() - tStart) / 1000); tStart = 0; save(); } clearInterval(tick); }
+    function go(n) { stopClock(); if (n < pos.i) { st.backs++; save(); } pos.i = n; ask(); window.scrollTo(0, 0); }
     S.cleanup = stopClock;
     if (st.submitted) return done();
+    if (pos) return ask();
     clear(area);
     add(area, h('div', { class: 'card center' },
       h('div', { class: 'box teach', style: 'text-align:left' }, bi({ en: 'You can do this homework ONCE. Each question is timed. Take your time, read every question twice, then press Submit at the end.', zh: '这份作业只能做一次。每道题都会计时。慢慢来，每题读两遍，最后按“提交”。' })),
-      h('button', { class: 'btn big', onclick: ask }, '▶️ ' + T('start'))));
+      h('button', { class: 'btn big', onclick: function () { pos = keep('hw', function () { return { i: 0 }; }, true); ask(); } }, '▶️ ' + T('start'))));
     function ask() {
       clear(area); clearInterval(tick);
-      var q = qs[i], clock = h('span', null, '⏱️ 0:00');
+      var i = pos.i, q = qs[i], clock = h('span', null, '⏱️ 0:00');
       tStart = Date.now();
       tick = setInterval(function () { clock.textContent = '⏱️ ' + fmtTime((st.time[i] || 0) + (Date.now() - tStart) / 1000); }, 500);
       var btns = q.options.map(function (o, j) {
         return h('button', { class: 'ansbtn c' + (j % 4) + (st.ans[i] === j ? ' right' : ''), onclick: function () {
           st.ans[i] = j; save(); btns.forEach(function (b, n) { b.classList.toggle('right', n === j); });
+          var cell = strip.children[i]; if (cell) cell.classList.add('done');
         } }, h('span', { class: 'shape' }, SHAPES[j % 4]), h('span', null, rich(o)));
       });
       var answered = Object.keys(st.ans).length;
+      var strip = numStrip(qs.length, i, function (n) { return st.ans[n] != null ? 'done' : ''; }, go);
       add(area, h('div', { class: 'card' },
+        strip,
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + qs.length), clock, h('span', null, '✏️ ' + answered + ' ' + L('answered', '已答'))),
-        h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / qs.length) + '%' })),
         q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
         h('div', { class: 'box q' }, rich(q.q)),
         h('div', { class: 'answers' }, btns),
         h('div', { class: 'row', style: 'justify-content:space-between;margin-top:16px' },
-          h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { stopClock(); st.backs++; save(); i--; ask(); } }, T('prev')),
-          i + 1 < qs.length ? h('button', { class: 'btn big', onclick: function () { stopClock(); i++; ask(); } }, T('next'))
+          h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { go(i - 1); } }, T('prev')),
+          i + 1 < qs.length ? h('button', { class: 'btn big', onclick: function () { go(i + 1); } }, T('next'))
             : h('button', { class: 'btn big green', onclick: submit }, '📨 ' + L('Submit', '提交')))));
     }
     function submit() {
@@ -1501,18 +1559,32 @@
       ex ? h('div', { class: 'row center' }, h('button', { class: 'btn blue', onclick: function () { ex.classList.toggle('hidden'); } }, '👀 ' + L('Compare with the book picture', '和课本图比一比'))) : null, ex);
   }
   ACT.lesson = function (a, ctx, area) {
-    var i = 0, slides = a.slides || [];
+    var slides = a.slides || [];
+    var st = keep('lesson', function () { return { i: 0 }; });
+    var open = false;
     S.cleanup = stopAnims;
+    function go(k) { st.i = Math.max(0, Math.min(slides.length - 1, k)); open = false; show1(); window.scrollTo(0, 0); }
     function show1() {
       stopAnims();
       clear(area);
-      var s = slides[i];
-      var dots = h('div', { class: 'dots' }, slides.map(function (_, k) { return h('span', { class: 'dot' + (k === i ? ' on' : k < i ? ' done' : '') }); }));
+      var i = st.i, s = slides[i];
+      var dots = h('div', { class: 'dots' }, slides.map(function (_, k) { return h('button', { class: 'dot' + (k === i ? ' on' : k < i ? ' done' : ''), 'aria-label': 'Page ' + (k + 1), onclick: function () { go(k); } }); }));
       var vis = s.visual && VIS[s.visual.type] ? h('div', { class: 'vis' }, VIS[s.visual.type](s.visual)) : null;
       var pad = s.draw ? drawPad(key('draw_' + (ctx.en || ctx.week) + '_' + i), s.draw, vis) : null;
       if (pad) vis = null;
       var sayText = [tx({ en: s.title.en || s.title })].concat((s.points || []).map(function (p) { return p.en || p; })).join('. ');
-      add(area, h('div', { class: 'card slide pop' },
+      /* the page list: on the right on big screens, a slide-out panel on iPad and phone */
+      var panel = h('nav', { class: 'pagepanel' + (open ? ' open' : ''), 'aria-label': 'Pages' },
+        h('div', { class: 'pp-head' }, h('span', null, '📑 ' + L('Pages', '页面') + ' (' + slides.length + ')'),
+          h('button', { class: 'pp-close', 'aria-label': 'Close', onclick: function () { open = false; panel.classList.remove('open'); } }, '✕')),
+        h('ol', { class: 'pp-list' }, slides.map(function (p, k) {
+          return h('li', null, h('button', { class: 'pp-item' + (k === i ? ' on' : k < i ? ' done' : ''), onclick: function () { go(k); } },
+            h('span', { class: 'pp-n' }, String(k + 1)), h('span', { class: 'pp-t' }, (p.icon ? p.icon + ' ' : '') + tx(p.title))));
+        })),
+        ctx.panelExtra ? ctx.panelExtra() : null);
+      var toggle = h('button', { class: 'pp-toggle', onclick: function () { open = !open; panel.classList.toggle('open', open); } },
+        '📑 ' + L('Page ', '第 ') + (i + 1) + ' / ' + slides.length + L('', ' 页'));
+      var card = h('div', { class: 'card slide pop' },
         dots,
         h('div', { class: 'slide-head' }, h('span', { class: 'slide-num' }, (i + 1) + ' / ' + slides.length),
           h('button', { class: 'btn ghost', style: 'min-height:44px;padding:4px 14px', onclick: function () { say(sayText); } }, '🔊')),
@@ -1523,10 +1595,11 @@
         pad,
         s.quick ? quickBox(s.quick) : null,
         h('div', { class: 'row', style: 'justify-content:space-between;margin-top:18px' },
-          h('button', { class: 'btn ghost big', disabled: i === 0, onclick: function () { i--; show1(); window.scrollTo(0, 0); } }, T('prev').replace(/^← /, '← ')),
-          i < slides.length - 1 ? h('button', { class: 'btn big', onclick: function () { i++; show1(); window.scrollTo(0, 0); } }, T('next'))
-            : h('a', { class: 'btn big green', href: ctx.back }, '🎉 ' + L('Done! Now the activities', '完成！现在做练习'))),
-        i === slides.length - 1 ? canNow(a) : null));
+          h('button', { class: 'btn ghost big', disabled: i === 0, onclick: function () { go(i - 1); } }, T('prev')),
+          i < slides.length - 1 ? h('button', { class: 'btn big', onclick: function () { go(i + 1); } }, T('next'))
+            : h('a', { class: 'btn big green', href: ctx.back }, '🎉 ' + (ctx.doneText ? tx(ctx.doneText) : L('Done! Now the activities', '完成！现在做练习')))),
+        i === slides.length - 1 ? canNow(a) : null);
+      add(area, h('div', { class: 'lesson-wrap' }, h('div', { class: 'lesson-main' }, card), panel), toggle);
     }
     show1();
   };
@@ -1544,7 +1617,16 @@
         show(backLink('#/book'), h('h1', null, '📖 ' + ch.code + ' ' + tx(ch.title)),
           h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享')),
             h('a', { class: 'btn ghost', href: 'print.html?book=' + ch.code, target: '_blank', rel: 'noopener' }, '🖨️ ' + L('Print', '打印'))), area);
-        return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: '#/book', week: 'book', en: 'Main Book ' + ch.code }, area);
+        var ready = b.chapters.filter(function (c) { return c.slides && c.slides.length; }), at = ready.indexOf(ch);
+        var pv = ready[at - 1], nx = ready[at + 1];
+        return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: nx ? '#/book/' + nx.code : '#/book', week: 'book', en: 'Main Book ' + ch.code,
+          doneText: nx ? { en: 'Done! Next chapter: ' + nx.code, zh: '完成！下一章：' + nx.code } : { en: 'Done! Back to the Main Book', zh: '完成！回到主课本' },
+          panelExtra: function () {
+            return h('div', { class: 'pp-chapters' },
+              pv ? h('a', { class: 'pp-ch', href: '#/book/' + pv.code }, '← ' + pv.code + ' ' + tx(pv.title)) : null,
+              nx ? h('a', { class: 'pp-ch', href: '#/book/' + nx.code }, nx.code + ' ' + tx(nx.title) + ' →') : null,
+              h('a', { class: 'pp-ch', href: '#/book' }, '📖 ' + L('All chapters', '全部章节')));
+          } }, area);
       }
       show(backLink(), h('h1', null, '📖 ' + L('Main Book', '主课本')),
         h('div', { class: 'box teach' }, bi(b.intro || { en: 'Learn one chapter at a time with Roy.', zh: '和 Roy 老师一章一章地学。' })),
@@ -1658,46 +1740,56 @@
 
   /* =========== FILL IN THE BLANKS (tap a word from the word bank) =========== */
   ACT.fillblank = function (a, ctx, area) {
+    var st = keep('fill');
     function start() {
-      var items = a.shuffle === false ? a.items.slice() : shuffle(a.items.slice());
-      var i = 0, correct = 0, missed = [], t0 = Date.now();
-      function ask() {
-        clear(area);
-        var it = items[i], answered = false;
-        var parts = String(it.text).split('___');
-        var blank = h('span', { class: 'blank' }, '?');
-        var fb = h('div', { 'aria-live': 'polite' });
-        var bank = shuffle((a.bank || []).slice());
-        var chips = bank.map(function (wd) { return h('button', { class: 'chip word', onclick: function () { choose(wd, this); } }, wd); });
-        add(area, h('div', { class: 'card' },
-          h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + items.length)),
-          h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / items.length) + '%' })),
-          h('div', { class: 'box q' }, parts[0], blank, parts.slice(1).join('___')),
-          h('div', { class: 'muted small' }, L('Tap the missing word:', '点出缺少的词：')),
-          h('div', { class: 'chips' }, chips), fb));
-        function choose(wd, el) {
-          if (answered) return;
-          answered = true;
-          var ok = wd.toLowerCase() === String(it.answer).toLowerCase();
-          blank.textContent = ok ? wd : it.answer;
-          blank.classList.add(ok ? 'filled' : 'fixed');
-          chips.forEach(function (c) { c.disabled = true; if (c.textContent.toLowerCase() === String(it.answer).toLowerCase()) c.classList.add('on'); });
-          if (ok) correct++; else missed.push(it.answer);
-          add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') },
-            h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite') + ' ' + it.answer),
-            it.why ? h('div', null, h('b', null, T('why') + ': '), bi(it.why, true)) : null),
-            h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i++; i < items.length ? ask() : end(); } }, i + 1 < items.length ? T('next') : T('finish'))));
-        }
-      }
-      function end() {
-        record(ctx.en, ctx.week, correct, items.length, (Date.now() - t0) / 1000, missed);
-        clear(area);
-        add(area, h('div', { class: 'card center' }, h('h2', null, '🏆 ' + praise()), h('div', { class: 'bigscore' }, scoreText(correct, items.length)),
-          h('p', { class: 'small muted' }, T('saved')), canNow(a),
-          h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: start }, T('again')))));
-      }
+      st = keep('fill', function () { return { items: a.shuffle === false ? a.items.slice() : shuffle(a.items.slice()), i: 0, ans: {}, banks: {}, correct: 0, t0: Date.now() }; }, true);
       ask();
     }
+    function isOk(k) { return String(st.ans[k]).toLowerCase() === String(st.items[k].answer).toLowerCase(); }
+    function go(k) { st.i = k; ask(); window.scrollTo(0, 0); }
+    function ask() {
+      if (st.ended) return end();
+      clear(area);
+      var i = st.i, it = st.items[i];
+      var parts = String(it.text).split('___');
+      var blank = h('span', { class: 'blank' }, '?');
+      var fb = h('div', { 'aria-live': 'polite' });
+      if (!st.banks[i]) st.banks[i] = shuffle((a.bank || []).slice());
+      var chips = st.banks[i].map(function (wd) { return h('button', { class: 'chip word', onclick: function () { choose(wd); } }, wd); });
+      add(area, h('div', { class: 'card' },
+        numStrip(st.items.length, i, function (k) { return st.ans[k] == null ? '' : isOk(k) ? 'ok' : 'bad'; }, go),
+        h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + st.items.length)),
+        h('div', { class: 'box q' }, parts[0], blank, parts.slice(1).join('___')),
+        h('div', { class: 'muted small' }, L('Tap the missing word:', '点出缺少的词：')),
+        h('div', { class: 'chips' }, chips), fb));
+      if (st.ans[i] != null) result();
+      function choose(wd) {
+        if (st.ans[i] != null) return;
+        st.ans[i] = wd;
+        if (isOk(i)) st.correct++;
+        result();
+      }
+      function result() {
+        var ok = isOk(i);
+        blank.textContent = ok ? st.ans[i] : it.answer;
+        blank.classList.add(ok ? 'filled' : 'fixed');
+        chips.forEach(function (c) { c.disabled = true; if (c.textContent.toLowerCase() === String(it.answer).toLowerCase()) c.classList.add('on'); });
+        var left = nextFree(st.items.length, i, function (n) { return st.ans[n] != null; });
+        add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') },
+          h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite') + ' ' + it.answer),
+          it.why ? h('div', null, h('b', null, T('why') + ': '), bi(it.why, true)) : null),
+          h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { left < 0 ? end() : go(left); } }, left >= 0 ? T('next') : T('finish'))));
+      }
+    }
+    function end() {
+      var missed = st.items.filter(function (_, k) { return !isOk(k); }).map(function (x) { return x.answer; });
+      if (!st.ended) { st.ended = true; record(ctx.en, ctx.week, st.correct, st.items.length, (Date.now() - st.t0) / 1000, missed); }
+      clear(area);
+      add(area, h('div', { class: 'card center' }, h('h2', null, '🏆 ' + praise()), h('div', { class: 'bigscore' }, scoreText(st.correct, st.items.length)),
+        h('p', { class: 'small muted' }, T('saved')), canNow(a),
+        h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: start }, T('again')))));
+    }
+    if (st) return ask();
     clear(area);
     add(area, h('div', { class: 'card center' }, h('button', { class: 'btn big', onclick: start }, '▶️ ' + T('start'))));
   };
@@ -2063,7 +2155,7 @@
     if (window.TEACHER_MODE) return renderTeacher();
     if (window.PRINT_MODE) return renderPrint();
     frame();
-    window.addEventListener('hashchange', route);
+    window.addEventListener('hashchange', function () { S.relang = null; route(); });
     route();
     flush();
   }).catch(function () {
