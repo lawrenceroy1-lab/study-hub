@@ -544,7 +544,7 @@
      "answer": 1,
      "why": {
       "en": "In the mixture the iron is not joined, so the magnet pulls it out. In iron sulfide the iron is joined to sulfur, so it is a new substance.",
-      "zh": "混合物里的铁没有结合，磁铁能吸出来。硫化铁里的铁和硫结合了，是新物质，吸不出来。"
+      "zh": "混合物里的铁没有结合，磁铁能吸出来。硫化亚铁里的铁和硫结合了，是新物质，吸不出来。"
      }
     }
    ],
@@ -1346,11 +1346,11 @@
      }
     },
     {
-     "text": "A ___ can pull iron out of an iron and sulfur mixture.",
+     "text": "A ___ can pull iron filings out of a mixture of iron and sand.",
      "answer": "magnet",
      "why": {
-      "en": "Iron is magnetic; in a mixture it is not joined.",
-      "zh": "铁有磁性；在混合物里没有结合。"
+      "en": "Iron is magnetic. In a mixture it is not joined, so the magnet pulls it out.",
+      "zh": "铁有磁性。在混合物里铁没有结合，所以磁铁能把它吸出来。"
      }
     },
     {
@@ -2195,9 +2195,9 @@
     },
     {
      "front": "What is an element?",
-     "back": "A substance made of only ONE type of atom. It cannot be split into anything simpler by a chemical reaction. 💡 There are about 118 elements. They are all in the Periodic Table.",
+     "back": "A substance made of only ONE type of atom. 💡 There are about 118 elements. They are all in the Periodic Table.",
      "zh": "什么是元素？",
-     "zhBack": "只由一种原子构成的物质。不能用化学反应把它分成更简单的物质。"
+     "zhBack": "只由一种原子构成的物质。"
     },
     {
      "front": "What is a molecule?",
@@ -2207,9 +2207,9 @@
     },
     {
      "front": "What is a compound?",
-     "back": "Two or more DIFFERENT elements chemically joined together. 💡 A compound is NEW. It acts differently from the elements that made it. You need a chemical reaction to make it or break it.",
+     "back": "Two or more DIFFERENT types of atom chemically joined together. 💡 A compound is a NEW substance. It is very different from the elements it is made from.",
      "zh": "什么是化合物？",
-     "zhBack": "两种或更多种不同的元素通过化学方式结合在一起。"
+     "zhBack": "两种或更多种不同的原子通过化学方式结合在一起。"
     },
     {
      "front": "What is a mixture?",
@@ -2225,9 +2225,9 @@
     },
     {
      "front": "Compound or mixture: how do I tell?",
-     "back": "Ask: \"Are they JOINED by a reaction?\" Joined = compound. Just mixed = mixture.",
+     "back": "Ask: \"Are the different atoms chemically JOINED?\" Joined = compound. Just mixed = mixture.",
      "zh": "化合物还是混合物：怎么分辨？",
-     "zhBack": "问自己：\"它们是通过反应结合的吗？\" 结合了 = 化合物；只是混在一起 = 混合物。"
+     "zhBack": "问自己：\"不同的原子是化学结合在一起的吗？\" 结合了 = 化合物；只是混在一起 = 混合物。"
     }
    ],
    "canNow": {
@@ -2313,15 +2313,15 @@
      "zhBack": "化合物（固体）"
     },
     {
-     "front": "Iron filings + sulfur powder, NOT heated: element, compound or mixture?",
-     "back": "Mixture 💡 A magnet can still pull the iron out.",
-     "zh": "铁粉 + 硫粉，没有加热：元素、化合物还是混合物？",
+     "front": "Sea water: element, compound or mixture?",
+     "back": "Mixture 💡 Salt and water mixed, not joined. Evaporating the water leaves the salt behind.",
+     "zh": "海水：元素、化合物还是混合物？",
      "zhBack": "混合物"
     },
     {
-     "front": "Iron sulfide (after heating): element, compound or mixture?",
-     "back": "Compound 💡 Heating made the iron and sulfur JOIN. It is a new black solid and is not magnetic.",
-     "zh": "硫化亚铁（加热之后）：元素、化合物还是混合物？",
+     "front": "Salt (sodium chloride): element, compound or mixture?",
+     "back": "Compound 💡 Sodium and chlorine chemically joined. A new substance we can eat!",
+     "zh": "盐（氯化钠）：元素、化合物还是混合物？",
      "zhBack": "化合物"
     }
    ],
@@ -3914,7 +3914,7 @@
        "right": "no",
        "why": {
         "en": "Iron sulfide is a NEW substance with new properties. It is not magnetic.",
-        "zh": "硫化铁是新物质，有新的性质，没有磁性。"
+        "zh": "硫化亚铁是新物质，有新的性质，没有磁性。"
        }
       },
       {
@@ -4518,8 +4518,7 @@
     "deck-big",
     "deck-sort",
     "atomfill",
-    "kp-atoms",
-    "extrahw"
+    "kp-atoms"
    ],
    "book": [
     "A1",
@@ -4563,6 +4562,7 @@
    },
    "activities": [
     "deck-state",
+    "extrahw",
     "hw-tue"
    ],
    "book": [

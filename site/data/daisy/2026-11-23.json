@@ -279,14 +279,14 @@
    "type": "quiz",
    "timed": true,
    "count": 10,
-   "seconds": 20,
+   "seconds": 30,
    "title": {
     "en": "Speed Quiz: Point of View",
     "zh": "抢答：叙述视角"
    },
    "intro": {
-    "en": "10 questions, 20 seconds each. Faster answers win more points. Tip: cover the dialogue first!",
-    "zh": "10 道题，每题 20 秒。答得越快分越高。小技巧：先遮住对话！"
+    "en": "10 questions, 30 seconds each. Faster answers win more points. Tip: cover the dialogue first!",
+    "zh": "10 道题，每题 30 秒。答得越快分越高。小技巧：先遮住对话！"
    },
    "questions": [
     {
@@ -294,8 +294,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 0,
      "why": {
@@ -308,8 +307,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 1,
      "why": {
@@ -322,8 +320,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 2,
      "why": {
@@ -336,8 +333,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 2,
      "why": {
@@ -350,8 +346,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 2,
      "why": {
@@ -364,8 +359,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 1,
      "why": {
@@ -378,8 +372,7 @@
      "options": [
       "Third person objective",
       "Third person limited",
-      "Third person omniscient",
-      "First person"
+      "Third person omniscient"
      ],
      "answer": 0,
      "why": {
@@ -392,8 +385,7 @@
      "options": [
       "Third person objective",
       "Third person limited",
-      "Third person omniscient",
-      "First person"
+      "Third person omniscient"
      ],
      "answer": 1,
      "why": {
@@ -406,8 +398,7 @@
      "options": [
       "Third person objective",
       "Third person limited",
-      "Third person omniscient",
-      "First person"
+      "Third person omniscient"
      ],
      "answer": 2,
      "why": {
@@ -420,8 +411,7 @@
      "options": [
       "Third person objective",
       "Third person limited",
-      "Third person omniscient",
-      "First person"
+      "Third person omniscient"
      ],
      "answer": 0,
      "why": {
@@ -434,8 +424,7 @@
      "options": [
       "Third person objective",
       "Third person limited",
-      "Third person omniscient",
-      "First person"
+      "Third person omniscient"
      ],
      "answer": 2,
      "why": {
@@ -448,8 +437,7 @@
      "options": [
       "Third person objective",
       "Third person limited",
-      "Third person omniscient",
-      "First person"
+      "Third person omniscient"
      ],
      "answer": 1,
      "why": {
@@ -475,9 +463,7 @@
      "q": "\"Emma gave the card back to Sophie.\"\nIs this a theme or a summary?",
      "options": [
       "Theme",
-      "Summary",
-      "Dialogue",
-      "Narrator"
+      "Summary"
      ],
      "answer": 1,
      "why": {
@@ -489,9 +475,7 @@
      "q": "\"Be honest, even when nobody is watching.\"\nIs this a theme or a summary?",
      "options": [
       "Theme",
-      "Summary",
-      "Dialogue",
-      "Narrator"
+      "Summary"
      ],
      "answer": 0,
      "why": {
@@ -556,8 +540,7 @@
      "options": [
       "First person",
       "Second person",
-      "Third person",
-      "No narrator"
+      "Third person"
      ],
      "answer": 0,
      "why": {
@@ -622,27 +605,31 @@
      }
     },
     {
-     "q": "\"Emma gave the card back to Sophie.\" Is this a theme or a summary?",
+     "q": "Which sentence is the best SUMMARY of the story?",
      "options": [
-      "Theme",
-      "Summary"
-     ],
-     "answer": 1,
-     "why": {
-      "en": "It tells what happened and uses names, so it is a summary.",
-      "zh": "它讲发生了什么，还有名字，所以是概要。"
-     }
-    },
-    {
-     "q": "\"Be honest, even when nobody is watching.\" Is this a theme or a summary?",
-     "options": [
-      "Theme",
-      "Summary"
+      "Emma found a rare photo card on the bus and gave it back to Sophie.",
+      "Be kind to other people.",
+      "K-pop is very popular.",
+      "Sophie's sister likes birthdays."
      ],
      "answer": 0,
      "why": {
-      "en": "It is a lesson for everyone with no names, so it is a theme.",
-      "zh": "这是给每个人的道理，没有名字，所以是主题。"
+      "en": "A summary tells WHAT HAPPENED, with names. \"Be kind\" is a theme, not a summary.",
+      "zh": "概要讲发生了什么，有名字。“Be kind” 是主题，不是概要。"
+     }
+    },
+    {
+     "q": "Why did Emma's heart feel heavy?",
+     "options": [
+      "She saw Sophie crying and looking for the card.",
+      "She lost her own photo card.",
+      "The bus was late.",
+      "She did not like K-pop any more."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Paragraphs 2 and 3: she saw the girl crying and looking under every seat, so she felt sad and worried.",
+      "zh": "第 2、3 段：她看到女孩在哭、在每个座位下面找，所以心里难过、担心。"
      }
     }
    ],

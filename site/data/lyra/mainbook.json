@@ -1492,7 +1492,7 @@
        {
         "icon": "🏷️",
         "en": "iron sulfide",
-        "zh": "硫化铁"
+        "zh": "硫化亚铁"
        }
       ]
      }
@@ -1527,7 +1527,7 @@
       },
       {
        "en": "iron + sulfur → iron sulfide",
-       "zh": "铁 + 硫 → 硫化铁"
+       "zh": "铁 + 硫 → 硫化亚铁"
       },
       {
        "en": "sodium + chlorine → sodium chloride",
@@ -1682,7 +1682,7 @@
       },
       {
        "en": "Heat it: it glows (a sign of reaction). After: iron sulfide, a COMPOUND. The magnet can't pull the iron out.",
-       "zh": "加热：发光（反应的迹象）。之后：硫化铁，是化合物，磁铁吸不出铁。"
+       "zh": "加热：发光（反应的迹象）。之后：硫化亚铁，是化合物，磁铁吸不出铁。"
       }
      ],
      "visual": {
@@ -1701,7 +1701,7 @@
        {
         "icon": "⬛",
         "en": "iron sulfide: compound",
-        "zh": "硫化铁：化合物"
+        "zh": "硫化亚铁：化合物"
        }
       ]
      }
@@ -1719,7 +1719,7 @@
       },
       {
        "en": "Atoms are never lost or made. 2.0 g iron + 0.8 g sulfur = 2.8 g iron sulfide.",
-       "zh": "原子不会消失，也不会凭空出现。2.0 克铁 + 0.8 克硫 = 2.8 克硫化铁。"
+       "zh": "原子不会消失，也不会凭空出现。2.0 克铁 + 0.8 克硫 = 2.8 克硫化亚铁。"
       }
      ],
      "visual": {
