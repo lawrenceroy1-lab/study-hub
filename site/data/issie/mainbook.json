@@ -88,6 +88,18 @@
      "remember": {
       "en": "soil = rock pieces + minerals + organic matter (+ water and air)",
       "zh": "土壤 = 岩石碎块 + 矿物 + 有机物（+ 水和空气）"
+     },
+     "quick": {
+      "q": "Is soil only made of rock?",
+      "options": [
+       "No, it is a mixture",
+       "Yes, only rock"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Soil is a mixture: rock pieces, minerals, organic matter, water and air.",
+       "zh": "土壤是混合物：岩石碎块、矿物、有机物、水和空气。"
+      }
      }
     },
     {
@@ -133,6 +145,18 @@
      "remember": {
       "en": "humus = organic material from decaying plants and animals",
       "zh": "腐殖质 = 腐烂的植物和动物形成的有机物"
+     },
+     "quick": {
+      "q": "A dead leaf is...",
+      "options": [
+       "organic",
+       "inorganic"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "A leaf came from a living thing, so it is organic.",
+       "zh": "树叶来自生物，所以是有机的。"
+      }
      }
     },
     {
@@ -156,44 +180,141 @@
       }
      ],
      "visual": {
-      "type": "layers",
+      "type": "soil",
       "layers": [
        {
         "label": {
-         "en": "O: decaying leaves and twigs",
-         "zh": "O 层：腐烂的树叶和树枝"
+         "en": "O: leaves and twigs",
+         "zh": "O 层：落叶和树枝"
         },
-        "color": "#5c3d1e",
-        "dark": true
+        "note": {
+         "en": "decaying, organic",
+         "zh": "正在腐烂，有机"
+        }
        },
        {
         "label": {
-         "en": "A: topsoil, rich in humus",
-         "zh": "A 层：表土，富含腐殖质"
+         "en": "A: topsoil",
+         "zh": "A 层：表土"
         },
-        "color": "#8b5a2b",
-        "dark": true
+        "note": {
+         "en": "rich in humus, roots",
+         "zh": "富含腐殖质，有根"
+        }
        },
        {
         "label": {
-         "en": "B: subsoil, minerals and clay",
-         "zh": "B 层：底土，矿物和黏土"
+         "en": "B: subsoil",
+         "zh": "B 层：底土"
         },
-        "color": "#d9a066"
+        "note": {
+         "en": "minerals and clay",
+         "zh": "矿物和黏土"
+        }
        },
        {
         "label": {
-         "en": "C: pieces of weathered rock",
-         "zh": "C 层：风化的岩石碎块"
+         "en": "C: weathered rock",
+         "zh": "C 层：风化岩石"
         },
-        "color": "#ced4da",
-        "dots": true
+        "note": {
+         "en": "broken pieces of rock",
+         "zh": "碎岩石块"
+        }
        }
       ]
      },
      "remember": {
       "en": "O, A, B, C from top to bottom",
       "zh": "从上到下是 O、A、B、C"
+     },
+     "quick": {
+      "q": "Which layer is at the very TOP?",
+      "options": [
+       "Horizon O",
+       "Horizon C"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "O is the leaf layer on top. C is weathered rock at the bottom.",
+       "zh": "O 层是最上面的落叶层，C 层是最下面的风化岩石。"
+      }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: the soil layers",
+      "zh": "画一画：土壤的层"
+     },
+     "points": [
+      {
+       "en": "Draw a big box. Split it into 4 layers. Add grass on top.",
+       "zh": "画一个大方框，分成 4 层，上面画上草。"
+      },
+      {
+       "en": "Colour them: dark brown, brown, orange-brown, grey. Draw leaves, roots, a worm and some rocks.",
+       "zh": "涂颜色：深棕、棕、橙棕、灰。画上树叶、根、一条蚯蚓和一些石头。"
+      }
+     ],
+     "visual": {
+      "type": "soil",
+      "layers": [
+       {
+        "label": {
+         "en": "O: leaves and twigs",
+         "zh": "O 层：落叶和树枝"
+        },
+        "note": {
+         "en": "decaying, organic",
+         "zh": "正在腐烂，有机"
+        }
+       },
+       {
+        "label": {
+         "en": "A: topsoil",
+         "zh": "A 层：表土"
+        },
+        "note": {
+         "en": "rich in humus, roots",
+         "zh": "富含腐殖质，有根"
+        }
+       },
+       {
+        "label": {
+         "en": "B: subsoil",
+         "zh": "B 层：底土"
+        },
+        "note": {
+         "en": "minerals and clay",
+         "zh": "矿物和黏土"
+        }
+       },
+       {
+        "label": {
+         "en": "C: weathered rock",
+         "zh": "C 层：风化岩石"
+        },
+        "note": {
+         "en": "broken pieces of rock",
+         "zh": "碎岩石块"
+        }
+       }
+      ]
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw the 4 soil layers and label each one.",
+       "zh": "画出 4 个土层，并给每一层写上标签。"
+      },
+      "labels": [
+       "O",
+       "A: topsoil",
+       "B: subsoil",
+       "C: weathered rock",
+       "humus",
+       "roots"
+      ]
      }
     },
     {
@@ -220,9 +341,66 @@
        "zh": "C 层：主要是风化的岩石碎块。"
       }
      ],
+     "visual": {
+      "type": "soil",
+      "layers": [
+       {
+        "label": {
+         "en": "O: leaves and twigs",
+         "zh": "O 层：落叶和树枝"
+        },
+        "note": {
+         "en": "decaying, organic",
+         "zh": "正在腐烂，有机"
+        }
+       },
+       {
+        "label": {
+         "en": "A: topsoil",
+         "zh": "A 层：表土"
+        },
+        "note": {
+         "en": "rich in humus, roots",
+         "zh": "富含腐殖质，有根"
+        }
+       },
+       {
+        "label": {
+         "en": "B: subsoil",
+         "zh": "B 层：底土"
+        },
+        "note": {
+         "en": "minerals and clay",
+         "zh": "矿物和黏土"
+        }
+       },
+       {
+        "label": {
+         "en": "C: weathered rock",
+         "zh": "C 层：风化岩石"
+        },
+        "note": {
+         "en": "broken pieces of rock",
+         "zh": "碎岩石块"
+        }
+       }
+      ]
+     },
      "remember": {
       "en": "topsoil = A, subsoil = B",
       "zh": "表土 = A 层，底土 = B 层"
+     },
+     "quick": {
+      "q": "Topsoil is Horizon...",
+      "options": [
+       "A",
+       "B"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Topsoil = A. Subsoil = B.",
+       "zh": "表土 = A 层，底土 = B 层。"
+      }
      }
     }
    ],
@@ -282,6 +460,18 @@
      "remember": {
       "en": "erosion takes away, deposition drops",
       "zh": "侵蚀是带走，沉积是放下"
+     },
+     "quick": {
+      "q": "Erosion...",
+      "options": [
+       "takes sediment away",
+       "drops sediment"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Erosion takes away. Deposition drops.",
+       "zh": "侵蚀是带走，沉积是放下。"
+      }
      }
     },
     {
@@ -336,6 +526,18 @@
      "remember": {
       "en": "delta = sediment a river drops where it meets the ocean",
       "zh": "三角洲 = 河流入海时放下的沉积物"
+     },
+     "quick": {
+      "q": "A river drops its sediment at the ocean. This makes a...",
+      "options": [
+       "delta",
+       "glacier"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Delta: the sediment fans out at the river mouth.",
+       "zh": "三角洲：沉积物在河口散开。"
+      }
      }
     },
     {
@@ -381,6 +583,18 @@
         "zh": "风变慢：沙丘"
        }
       ]
+     },
+     "quick": {
+      "q": "Sand dunes are built when the wind...",
+      "options": [
+       "slows down",
+       "speeds up"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Slow wind cannot carry the sand, so it drops it.",
+       "zh": "风变慢带不动沙子，就把沙子放下。"
+      }
      }
     },
     {
@@ -431,6 +645,70 @@
      "remember": {
       "en": "4 movers of sediment: water, ice, wind, gravity",
       "zh": "搬运沉积物的 4 个力量：水、冰、风、重力"
+     },
+     "quick": {
+      "q": "Which force is under ALL erosion and deposition?",
+      "options": [
+       "gravity",
+       "sunlight"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Gravity pulls water, ice and sediment downhill.",
+       "zh": "重力把水、冰和沉积物往下拉。"
+      }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: from rain to delta",
+      "zh": "画一画：从雨到三角洲"
+     },
+     "points": [
+      {
+       "en": "Draw rain on a hill, a gully, a river, and a delta where the river meets the sea.",
+       "zh": "画山上的雨、冲沟、河流，以及河流入海处的三角洲。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🌧️",
+        "en": "rain",
+        "zh": "雨"
+       },
+       {
+        "icon": "〰️",
+        "en": "gully",
+        "zh": "冲沟"
+       },
+       {
+        "icon": "🏞️",
+        "en": "stream or river",
+        "zh": "溪流或河"
+       },
+       {
+        "icon": "🔺",
+        "en": "delta at the ocean",
+        "zh": "入海口的三角洲"
+       }
+      ]
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw how water moves sediment from a hill to the sea. Label each part.",
+       "zh": "画出水如何把沉积物从山上带到海里，给每部分写标签。"
+      },
+      "labels": [
+       "rain",
+       "gully",
+       "river",
+       "delta",
+       "erosion",
+       "deposition"
+      ]
      }
     }
    ],
@@ -477,6 +755,18 @@
      "remember": {
       "en": "divide = high land that splits where the water goes",
       "zh": "分水岭 = 把水分开流向不同方向的高地"
+     },
+     "quick": {
+      "q": "A divide is a line of...",
+      "options": [
+       "high land",
+       "low land"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Water runs DOWN from high land on each side.",
+       "zh": "水从高地两边往下流。"
+      }
      }
     },
     {
@@ -522,6 +812,18 @@
      "remember": {
       "en": "drainage basin = watershed",
       "zh": "drainage basin = watershed = 流域"
+     },
+     "quick": {
+      "q": "Drainage basin means the same as...",
+      "options": [
+       "watershed",
+       "waterfall"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Drainage basin = watershed.",
+       "zh": "drainage basin = watershed。"
+      }
      }
     },
     {
@@ -566,6 +868,59 @@
      "remember": {
       "en": "Rockies: west to the Pacific, east to the Gulf of Mexico",
       "zh": "落基山脉：西边流向太平洋，东边流向墨西哥湾"
+     },
+     "quick": {
+      "q": "Rain on the EAST side of the Rockies flows to the...",
+      "options": [
+       "Gulf of Mexico",
+       "Pacific Ocean"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "East slopes: Gulf of Mexico. West slopes: Pacific Ocean.",
+       "zh": "东坡流向墨西哥湾，西坡流向太平洋。"
+      }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: a divide",
+      "zh": "画一画：分水岭"
+     },
+     "points": [
+      {
+       "en": "Draw a mountain with rain on top. Draw arrows to show the water running down BOTH sides into two rivers.",
+       "zh": "画一座山，山顶下雨。画箭头表示水从两边流下，流进两条河。"
+      }
+     ],
+     "visual": {
+      "type": "divide",
+      "top": {
+       "en": "divide",
+       "zh": "分水岭"
+      },
+      "left": {
+       "en": "river 1",
+       "zh": "河 1"
+      },
+      "right": {
+       "en": "river 2",
+       "zh": "河 2"
+      }
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw a divide and two drainage basins. Label them.",
+       "zh": "画出分水岭和两个流域，并写上标签。"
+      },
+      "labels": [
+       "divide",
+       "rain",
+       "drainage basin 1",
+       "drainage basin 2",
+       "river"
+      ]
      }
     }
    ],
@@ -630,6 +985,18 @@
      "remember": {
       "en": "Earth formed about 4.6 billion years ago",
       "zh": "地球大约在 46 亿年前形成"
+     },
+     "quick": {
+      "q": "Earth formed about 4.6 ___ years ago.",
+      "options": [
+       "billion",
+       "million"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Billion: 4,600,000,000 years.",
+       "zh": "十亿：4,600,000,000 年。"
+      }
      }
     },
     {
@@ -684,6 +1051,18 @@
      "remember": {
       "en": "uniformitarianism = same processes, then and now",
       "zh": "均变论 = 过去和现在是同样的过程"
+     },
+     "quick": {
+      "q": "Uniform means...",
+      "options": [
+       "same",
+       "different"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Uniform = same, like a school uniform: everyone looks the same.",
+       "zh": "uniform = 相同，就像校服：大家穿得一样。"
+      }
      }
     },
     {
@@ -760,28 +1139,32 @@
          "en": "layer 4",
          "zh": "第 4 层"
         },
-        "color": "#ffe8cc"
+        "color": "#ffe8cc",
+        "texture": "dots"
        },
        {
         "label": {
          "en": "layer 3",
          "zh": "第 3 层"
         },
-        "color": "#ffd8a8"
+        "color": "#f1f3f5",
+        "texture": "bricks"
        },
        {
         "label": {
          "en": "layer 2",
          "zh": "第 2 层"
         },
-        "color": "#e9c46a"
+        "color": "#adb5bd",
+        "texture": "stripes"
        },
        {
         "label": {
          "en": "layer 1",
          "zh": "第 1 层"
         },
-        "color": "#c9a26b"
+        "color": "#c9a26b",
+        "texture": "speckle"
        }
       ],
       "side": {
@@ -798,6 +1181,91 @@
      "remember": {
       "en": "bottom layer = oldest, top layer = youngest",
       "zh": "最下层 = 最老，最上层 = 最年轻"
+     },
+     "quick": {
+      "q": "In a pile of rock layers, the BOTTOM layer is usually the...",
+      "options": [
+       "oldest",
+       "youngest"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "It was laid down first.",
+       "zh": "它最先形成。"
+      }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: rock layers",
+      "zh": "画一画：岩层"
+     },
+     "points": [
+      {
+       "en": "Draw 4 rock layers in different colours and patterns: bricks, dots, stripes, speckles.",
+       "zh": "用不同颜色和花纹画 4 层岩石：砖块、点点、条纹、斑点。"
+      }
+     ],
+     "visual": {
+      "type": "layers",
+      "layers": [
+       {
+        "label": {
+         "en": "4: youngest",
+         "zh": "4：最年轻"
+        },
+        "color": "#f1f3f5",
+        "texture": "bricks"
+       },
+       {
+        "label": {
+         "en": "3",
+         "zh": "3"
+        },
+        "color": "#ffe8cc",
+        "texture": "dots"
+       },
+       {
+        "label": {
+         "en": "2",
+         "zh": "2"
+        },
+        "color": "#adb5bd",
+        "texture": "stripes"
+       },
+       {
+        "label": {
+         "en": "1: oldest",
+         "zh": "1：最老"
+        },
+        "color": "#dee2e6",
+        "texture": "speckle"
+       }
+      ],
+      "side": {
+       "top": {
+        "en": "youngest",
+        "zh": "最年轻"
+       },
+       "bottom": {
+        "en": "oldest",
+        "zh": "最老"
+       }
+      }
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw 4 rock layers. Number them 1 (oldest) to 4 (youngest).",
+       "zh": "画 4 层岩石，从 1（最老）到 4（最年轻）编号。"
+      },
+      "labels": [
+       "1 oldest",
+       "2",
+       "3",
+       "4 youngest",
+       "superposition"
+      ]
      }
     }
    ],
@@ -878,14 +1346,16 @@
          "en": "limestone",
          "zh": "石灰岩"
         },
-        "color": "#f1f3f5"
+        "color": "#f1f3f5",
+        "texture": "bricks"
        },
        {
         "label": {
          "en": "sandstone",
          "zh": "砂岩"
         },
-        "color": "#ffe8cc"
+        "color": "#ffe8cc",
+        "texture": "dots"
        },
        {
         "label": {
@@ -893,7 +1363,8 @@
          "zh": "页岩"
         },
         "color": "#868e96",
-        "dark": true
+        "dark": true,
+        "texture": "stripes"
        },
        {
         "label": {
@@ -901,7 +1372,7 @@
          "zh": "最老的岩石"
         },
         "color": "#dee2e6",
-        "dots": true
+        "texture": "speckle"
        }
       ],
       "cut": {
@@ -915,6 +1386,18 @@
      "remember": {
       "en": "the cutter is younger than what it cuts",
       "zh": "切穿别人的比被切穿的年轻"
+     },
+     "quick": {
+      "q": "Magma cuts through 3 rock layers. The magma is...",
+      "options": [
+       "younger",
+       "older"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "The layers had to be there first.",
+       "zh": "岩层必须先存在。"
+      }
      }
     },
     {
@@ -972,6 +1455,18 @@
      "remember": {
       "en": "unconformity = missing layers (a wavy line in diagrams)",
       "zh": "不整合 = 缺失的岩层（图里常画成波浪线）"
+     },
+     "quick": {
+      "q": "At an unconformity, rock layers are...",
+      "options": [
+       "missing",
+       "melted"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Erosion wore them away.",
+       "zh": "侵蚀把它们磨掉了。"
+      }
      }
     },
     {
@@ -1036,6 +1531,18 @@
         "zh": "岩浆"
        }
       }
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw your own cross-section: 3 layers, magma cutting through, and a wavy line. Label oldest, youngest, magma, unconformity.",
+       "zh": "画你自己的剖面：3 层岩石、切穿的岩浆和一条波浪线。标出最老、最年轻、岩浆、不整合。"
+      },
+      "labels": [
+       "oldest",
+       "youngest",
+       "magma",
+       "unconformity"
+      ]
      }
     }
    ],
@@ -1079,6 +1586,18 @@
      "remember": {
       "en": "shelf, slope, rise, then the abyssal plain",
       "zh": "大陆架、大陆坡、大陆隆，然后是深海平原"
+     },
+     "quick": {
+      "q": "Going out from the beach, what comes FIRST?",
+      "options": [
+       "continental shelf",
+       "abyssal plain"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Shelf first, then slope, rise and the abyssal plain.",
+       "zh": "先是大陆架，再是大陆坡、大陆隆和深海平原。"
+      }
      }
     },
     {
@@ -1105,9 +1624,26 @@
        "zh": "深海平原：大陆隆之后又深又平的海底。"
       }
      ],
+     "visual": {
+      "type": "seafloor",
+      "kind": "passive"
+     },
      "remember": {
       "en": "shelf = gentle, slope = steep, rise = sediment",
       "zh": "大陆架 = 平缓，大陆坡 = 陡峭，大陆隆 = 沉积物"
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw the ocean floor from the beach to the deep ocean. Label each part.",
+       "zh": "画出从海滩到深海的海底，给每部分写标签。"
+      },
+      "labels": [
+       "sea level",
+       "continental shelf",
+       "continental slope",
+       "continental rise",
+       "abyssal plain"
+      ]
      }
     },
     {
@@ -1133,6 +1669,18 @@
      "remember": {
       "en": "passive = no plate boundary = wide shelf",
       "zh": "被动 = 没有板块边界 = 宽大陆架"
+     },
+     "quick": {
+      "q": "A passive margin has a ___ shelf.",
+      "options": [
+       "wide",
+       "narrow"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "No plate boundary, so the shelf is wide (100 km or more).",
+       "zh": "没有板块边界，所以大陆架宽（100 千米或更多）。"
+      }
      }
     },
     {
@@ -1166,6 +1714,18 @@
      "remember": {
       "en": "active = plate boundary = narrow shelf + trench + volcanoes",
       "zh": "主动 = 有板块边界 = 窄大陆架 + 海沟 + 火山"
+     },
+     "quick": {
+      "q": "Deep-sea trenches form where plates...",
+      "options": [
+       "come together",
+       "move apart"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Trenches: convergent (come together). Ridges: divergent (move apart).",
+       "zh": "海沟：汇聚（靠拢）。洋中脊：离散（分开）。"
+      }
      }
     },
     {
@@ -1206,6 +1766,18 @@
      "remember": {
       "en": "trench = convergent, ridge = divergent",
       "zh": "海沟 = 汇聚，洋中脊 = 离散"
+     },
+     "quick": {
+      "q": "Mid-ocean ridges are about 60,000...",
+      "options": [
+       "kilometers",
+       "meters"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "60,000 km: Earth's longest mountain range.",
+       "zh": "60,000 千米：地球上最长的山脉。"
+      }
      }
     }
    ],
@@ -1256,6 +1828,18 @@
      "remember": {
       "en": "bring = here, take = there",
       "zh": "bring = 拿来这里，take = 拿去那里"
+     },
+     "quick": {
+      "q": "Please ___ me your book.",
+      "options": [
+       "bring",
+       "take"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "To me = bring.",
+       "zh": "拿给我 = bring。"
+      }
      }
     },
     {
@@ -1277,6 +1861,18 @@
      "remember": {
       "en": "count it = fewer; compare = than",
       "zh": "能数 = fewer；比较 = than"
+     },
+     "quick": {
+      "q": "There were ___ cars on the road.",
+      "options": [
+       "fewer",
+       "less"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Cars can be counted: fewer.",
+       "zh": "车可以数：fewer。"
+      }
      }
     },
     {
@@ -1302,6 +1898,18 @@
      "remember": {
       "en": "between 2, among 3 or more",
       "zh": "between 两者之间，among 三者以上"
+     },
+     "quick": {
+      "q": "Everyone came ___ Tom.",
+      "options": [
+       "except",
+       "accept"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "But not Tom: except.",
+       "zh": "除了 Tom：except。"
+      }
      }
     },
     {
@@ -1335,6 +1943,18 @@
      "remember": {
       "en": "If it sounds like chatting, check it before you write it.",
       "zh": "听起来像聊天的说法，写之前先检查。"
+     },
+     "quick": {
+      "q": "Which is correct?",
+      "options": [
+       "would have",
+       "would of"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Would of is never correct.",
+       "zh": "would of 永远是错的。"
+      }
      }
     },
     {
@@ -1410,6 +2030,18 @@
      "remember": {
       "en": "If \"it is\" fits, write it's. If not, write its.",
       "zh": "能换成 it is 就写 it's，不能就写 its。"
+     },
+     "quick": {
+      "q": "___ coat is red.",
+      "options": [
+       "Your",
+       "You're"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Say it in full: \"You are coat\" makes no sense, so Your.",
+       "zh": "展开说：You are coat 说不通，所以用 Your。"
+      }
      }
     },
     {
@@ -1625,6 +2257,18 @@
      "remember": {
       "en": "Always finish: m = 7, not 42 ÷ 6",
       "zh": "答案要写完整：m = 7，不是 42 ÷ 6"
+     },
+     "quick": {
+      "q": "7r = 56. What do you do to both sides?",
+      "options": [
+       "÷ 7",
+       "× 7"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "The opposite of × 7 is ÷ 7, so r = 8.",
+       "zh": "× 7 的相反是 ÷ 7，所以 r = 8。"
+      }
      }
     }
    ],

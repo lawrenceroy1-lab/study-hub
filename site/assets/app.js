@@ -1261,6 +1261,65 @@
   VIS.formula = function (v) {
     return h('div', { class: 'formula' }, h('div', { class: 'formula-main' }, bi(v.main, true)), v.example ? h('div', { class: 'formula-ex' }, bi(v.example, true)) : null);
   };
+  /* Picture-book textures for rock layers, drawn on top of the layer colour.
+     bricks = limestone, dots = sandstone, stripes = shale, speckle = granite or old rock. Same pattern every time. */
+  function rockTexture(svg, kind, x, y, w, hgt) {
+    if (!kind) return;
+    var g = sv('g', { opacity: .55 }), k, n = 0;
+    if (kind === 'bricks') {
+      for (var row = 0; row * 22 < hgt; row++) {
+        g.appendChild(sv('line', { x1: x, y1: y + row * 22, x2: x + w, y2: y + row * 22, stroke: '#868e96', 'stroke-width': 2 }));
+        for (k = (row % 2) * 30; k < w; k += 60) g.appendChild(sv('line', { x1: x + k, y1: y + row * 22, x2: x + k, y2: Math.min(y + hgt, y + row * 22 + 22), stroke: '#868e96', 'stroke-width': 2 }));
+      }
+    } else if (kind === 'dots') {
+      for (k = 0; k < w * hgt / 260; k++) { n = (k * 7919) % 10007; g.appendChild(sv('circle', { cx: x + 6 + n % (w - 12), cy: y + 5 + (n * 31) % (hgt - 10), r: 1.8, fill: '#7a5c2e' })); }
+    } else if (kind === 'stripes') {
+      for (k = 8; k < hgt; k += 9) g.appendChild(sv('path', { d: 'M' + x + ',' + (y + k) + ' q ' + w / 4 + ',-4 ' + w / 2 + ',0 t ' + w / 2 + ',0', fill: 'none', stroke: '#212529', 'stroke-width': 1.5 }));
+    } else if (kind === 'speckle') {
+      var cols = ['#495057', '#f8f9fa', '#e599f7', '#343a40'];
+      for (k = 0; k < w * hgt / 120; k++) { n = (k * 6151) % 9973; g.appendChild(sv('rect', { x: x + 4 + n % (w - 10), y: y + 4 + (n * 17) % (hgt - 9), width: 5, height: 4, fill: cols[k % 4] })); }
+    }
+    svg.appendChild(g);
+  }
+  /* A picture-book soil profile: grass on top, leaf litter, dark topsoil with roots and a worm,
+     subsoil with specks, weathered rock at the bottom. Labels on the right with lines pointing in. */
+  VIS.soil = function (v) {
+    var W = 640, H = 470, bx = 30, bw = 300, top = 60, Ls = v.layers || [], hs = v.heights || [40, 110, 110, 120];
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'soil profile' });
+    var fills = ['#4a2f17', '#6b4423', '#c98b4f', '#adb5bd'], y = top, mids = [];
+    hs.forEach(function (hh, k) {
+      svg.appendChild(sv('rect', { x: bx, y: y, width: bw, height: hh, fill: (Ls[k] && Ls[k].color) || fills[k] }));
+      mids.push(y + hh / 2); y += hh;
+    });
+    var yO = top, yA = top + hs[0], yB = yA + hs[1], yC = yB + hs[2], i, n;
+    // O: leaf litter
+    for (i = 0; i < 18; i++) { n = (i * 53) % 280; svg.appendChild(sv('ellipse', { cx: bx + 12 + n, cy: yO + 10 + (i * 7) % (hs[0] - 16), rx: 9, ry: 4, fill: i % 3 ? '#a0522d' : '#d9a441', transform: 'rotate(' + ((i * 37) % 60 - 30) + ' ' + (bx + 12 + n) + ' ' + (yO + 10 + (i * 7) % (hs[0] - 16)) + ')' })); }
+    // A: roots and a worm
+    for (i = 0; i < 6; i++) { var rx = bx + 30 + i * 48; svg.appendChild(sv('path', { d: 'M' + rx + ',' + yA + ' q 8,25 -4,50 q -6,20 6,' + (30 + (i % 3) * 10), fill: 'none', stroke: '#e9d8a6', 'stroke-width': 2 })); }
+    svg.appendChild(sv('path', { d: 'M' + (bx + 180) + ',' + (yA + 70) + ' q 15,-14 30,0 t 30,0', fill: 'none', stroke: '#f783ac', 'stroke-width': 8, 'stroke-linecap': 'round' }));
+    var seed = 12345;
+    function rnd() { seed = (seed * 16807) % 2147483647; return seed / 2147483647; }
+    for (i = 0; i < 40; i++) svg.appendChild(sv('circle', { cx: bx + 5 + rnd() * (bw - 10), cy: yA + 5 + rnd() * (hs[1] - 10), r: 1.6, fill: '#3b2412' }));
+    // B: specks and small stones
+    for (i = 0; i < 70; i++) svg.appendChild(sv('circle', { cx: bx + 5 + rnd() * (bw - 10), cy: yB + 5 + rnd() * (hs[2] - 10), r: i % 9 ? 1.8 : 5, fill: i % 9 ? '#8a5a2b' : '#868e96' }));
+    // C: weathered rock pieces, in a loose grid so they fill the layer
+    for (i = 0; i < 15; i++) {
+      var cxr = bx + 26 + (i % 5) * ((bw - 52) / 4) + (rnd() - .5) * 16, cyr = yC + 22 + Math.floor(i / 5) * ((hs[3] - 40) / 2) + (rnd() - .5) * 10;
+      svg.appendChild(sv('ellipse', { cx: cxr, cy: cyr, rx: 16 + rnd() * 8, ry: 11 + rnd() * 5, fill: i % 2 ? '#868e96' : '#ced4da', stroke: '#495057', 'stroke-width': 2 }));
+    }
+    // grass on top
+    for (i = 0; i < 40; i++) { var gx = bx + 4 + i * 7.4; svg.appendChild(sv('path', { d: 'M' + gx + ',' + top + ' q ' + (i % 2 ? 4 : -4) + ',-' + (18 + (i * 7) % 16) + ' ' + (i % 2 ? 8 : -2) + ',-' + (26 + (i * 5) % 18), fill: 'none', stroke: i % 3 ? '#2f9e44' : '#40c057', 'stroke-width': 3, 'stroke-linecap': 'round' })); }
+    svg.appendChild(sv('rect', { x: bx, y: top, width: bw, height: y - top, fill: 'none', stroke: '#1b2a6b', 'stroke-width': 3 }));
+    // labels
+    mids.forEach(function (my, k) {
+      var ly = Ls[k] || {}, lyY = my - (ly.note ? 10 : 0);
+      svg.appendChild(sv('line', { x1: bx + bw - 20, y1: my, x2: bx + bw + 30, y2: my, stroke: '#1b2a6b', 'stroke-width': 2 }));
+      svg.appendChild(sv('circle', { cx: bx + bw - 20, cy: my, r: 4, fill: '#1b2a6b' }));
+      svg.appendChild(label(bx + bw + 36, lyY + 6, tx(ly.label), { anchor: 'start', size: 20 }));
+      if (ly.note) svg.appendChild(label(bx + bw + 36, lyY + 28, tx(ly.note), { anchor: 'start', size: 15, color: '#5c6475' }));
+    });
+    return svg;
+  };
   /* Layers from top to bottom (soil horizons, rock layers). Optional: side arrow (younger/older),
      a magma "cut" going up through the layers, and a wavy "gap" line (unconformity) under one layer. */
   VIS.layers = function (v) {
@@ -1270,6 +1329,7 @@
     Ls.forEach(function (ly, k) {
       var y = top + k * LH;
       svg.appendChild(sv('rect', { x: x0, y: y, width: x1 - x0, height: LH, fill: ly.color || '#e9ecef', stroke: '#1b2a6b', 'stroke-width': 2 }));
+      rockTexture(svg, ly.texture, x0, y, x1 - x0, LH);
       if (ly.dots) for (var d = 0; d < 12; d++) svg.appendChild(sv('circle', { cx: x0 + 300 + ((d * 37) % (x1 - x0 - 320)), cy: y + 12 + ((d * 17) % (LH - 22)), r: 5 + (d % 3) * 2, fill: '#868e96', stroke: '#495057' }));
       svg.appendChild(label(x0 + 14, y + LH / 2 + 7, tx(ly.label), { anchor: 'start', size: 19, color: ly.dark ? '#fff' : '#1b2a6b' }));
     });
@@ -1365,6 +1425,65 @@
       o.connect(g); g.connect(audioCtx.destination); o.start(t); o.stop(t + 1.25);
     } catch (e) { /* no sound on this device */ }
   }
+  /* ⚡ Quick question in the middle of a lesson page: tap A or B, see right away. Not scored. */
+  function quickBox(q) {
+    var fb = h('div'), done = false;
+    var btns = q.options.map(function (o, k) {
+      return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () {
+        if (done) return; done = true;
+        var ok = k === q.answer;
+        btns.forEach(function (b, j) { b.disabled = true; b.classList.add(j === q.answer ? 'right' : j === k ? 'picked-wrong' : 'faded'); });
+        add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite') + ' ' + q.options[q.answer]),
+          q.why ? h('div', null, h('b', null, T('why') + ': '), bi(q.why, true)) : null));
+      } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(q.options[k])));
+    });
+    return h('div', { class: 'quick' }, h('div', { class: 'quick-head' }, '⚡ ' + L('Quick question!', '快问快答！')),
+      h('div', { class: 'box q' }, bi(q.q, true)), h('div', { class: 'answers two' }, btns), fb);
+  }
+  /* ✏️ Drawing pad for Apple Pencil, finger or mouse. Saved on this device. The book picture stays hidden until she has tried. */
+  function drawPad(store, d, example) {
+    var W = 1000, Hh = 680, strokes = lsGet(store, null), color = '#212529', size = 6, erasing = false, cur = null;
+    if (!Array.isArray(strokes)) strokes = [];
+    var cv = h('canvas', { class: 'drawpad', width: W, height: Hh, 'aria-label': 'drawing area' });
+    var ctx2 = cv.getContext('2d');
+    function paint() {
+      ctx2.fillStyle = '#fff'; ctx2.fillRect(0, 0, W, Hh);
+      strokes.forEach(function (st) {
+        ctx2.strokeStyle = st.e ? '#fff' : st.c; ctx2.lineWidth = st.s; ctx2.lineCap = 'round'; ctx2.lineJoin = 'round';
+        ctx2.beginPath(); st.p.forEach(function (pt, k) { k ? ctx2.lineTo(pt[0], pt[1]) : ctx2.moveTo(pt[0], pt[1]); });
+        if (st.p.length === 1) ctx2.lineTo(st.p[0][0] + .1, st.p[0][1]);
+        ctx2.stroke();
+      });
+    }
+    function pos(e) { var r = cv.getBoundingClientRect(); return [Math.round((e.clientX - r.left) * W / r.width), Math.round((e.clientY - r.top) * Hh / r.height)]; }
+    cv.addEventListener('pointerdown', function (e) { e.preventDefault(); cv.setPointerCapture(e.pointerId); cur = { c: color, s: erasing ? 40 : size, e: erasing, p: [pos(e)] }; strokes.push(cur); paint(); });
+    cv.addEventListener('pointermove', function (e) { if (!cur) return; e.preventDefault(); cur.p.push(pos(e)); paint(); });
+    function end() { if (!cur) return; cur = null; lsSet(store, strokes); }
+    cv.addEventListener('pointerup', end); cv.addEventListener('pointercancel', end); cv.addEventListener('pointerleave', end);
+    var swatches = h('div', { class: 'chips' });
+    var COLS = [['#212529', L('black', '黑')], ['#6b4423', L('brown', '棕')], ['#e8590c', L('orange', '橙')], ['#868e96', L('grey', '灰')], ['#2f9e44', L('green', '绿')], ['#1c7ed6', L('blue', '蓝')], ['#c92a2a', L('red', '红')]];
+    function tools() {
+      clear(swatches);
+      COLS.forEach(function (c) {
+        add(swatches, h('button', { class: 'chip swatch' + (!erasing && color === c[0] ? ' on' : ''), style: 'border-color:' + c[0] + ';color:' + c[0], 'aria-label': c[1], onclick: function () { color = c[0]; erasing = false; tools(); } }, '●'));
+      });
+      add(swatches, [
+        h('button', { class: 'chip' + (size === 4 && !erasing ? ' on' : ''), onclick: function () { size = 4; erasing = false; tools(); } }, L('thin', '细')),
+        h('button', { class: 'chip' + (size === 10 && !erasing ? ' on' : ''), onclick: function () { size = 10; erasing = false; tools(); } }, L('thick', '粗')),
+        h('button', { class: 'chip' + (erasing ? ' on' : ''), onclick: function () { erasing = true; tools(); } }, '🧽 ' + L('eraser', '橡皮')),
+        h('button', { class: 'chip', onclick: function () { strokes.pop(); lsSet(store, strokes); paint(); } }, '↩️ ' + L('undo', '撤销')),
+        h('button', { class: 'chip', onclick: function () { if (confirm(L('Clear your whole drawing?', '清除整幅画吗？'))) { strokes = []; lsSet(store, strokes); paint(); } } }, '🗑️ ' + L('clear', '清除'))]);
+    }
+    tools(); paint();
+    var ex = example ? h('div', { class: 'hidden' }, example) : null;
+    return h('div', { class: 'draw' },
+      h('div', { class: 'quick-head' }, '✏️ ' + L('Your turn to draw!', '轮到你画了！')),
+      h('div', { class: 'box q' }, bi(d.prompt, true)),
+      d.labels ? h('div', { class: 'box hint' }, h('b', null, '🏷️ ' + L('Labels to write: ', '要写的标签：')), d.labels.join('  ·  ')) : null,
+      swatches, cv,
+      h('div', { class: 'small muted' }, L('Your drawing is saved on this iPad. Show it to Roy!', '你的画保存在这台 iPad 上，给 Roy 老师看看！')),
+      ex ? h('div', { class: 'row center' }, h('button', { class: 'btn blue', onclick: function () { ex.classList.toggle('hidden'); } }, '👀 ' + L('Compare with the book picture', '和课本图比一比'))) : null, ex);
+  }
   ACT.lesson = function (a, ctx, area) {
     var i = 0, slides = a.slides || [];
     S.cleanup = stopAnims;
@@ -1374,6 +1493,8 @@
       var s = slides[i];
       var dots = h('div', { class: 'dots' }, slides.map(function (_, k) { return h('span', { class: 'dot' + (k === i ? ' on' : k < i ? ' done' : '') }); }));
       var vis = s.visual && VIS[s.visual.type] ? h('div', { class: 'vis' }, VIS[s.visual.type](s.visual)) : null;
+      var pad = s.draw ? drawPad(key('draw_' + (ctx.en || ctx.week) + '_' + i), s.draw, vis) : null;
+      if (pad) vis = null;
       var sayText = [tx({ en: s.title.en || s.title })].concat((s.points || []).map(function (p) { return p.en || p; })).join('. ');
       add(area, h('div', { class: 'card slide pop' },
         dots,
@@ -1383,6 +1504,8 @@
         vis,
         s.points && s.points.length ? h('ul', { class: 'slide-points' }, s.points.map(function (p) { return h('li', null, bi(p, true)); })) : null,
         s.remember ? h('div', { class: 'box hint' }, h('b', null, '⭐ ' + L('Remember: ', '记住：')), bi(s.remember, true)) : null,
+        pad,
+        s.quick ? quickBox(s.quick) : null,
         h('div', { class: 'row', style: 'justify-content:space-between;margin-top:18px' },
           h('button', { class: 'btn ghost big', disabled: i === 0, onclick: function () { i--; show1(); window.scrollTo(0, 0); } }, T('prev').replace(/^← /, '← ')),
           i < slides.length - 1 ? h('button', { class: 'btn big', onclick: function () { i++; show1(); window.scrollTo(0, 0); } }, T('next'))
