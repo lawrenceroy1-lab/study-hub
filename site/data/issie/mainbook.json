@@ -159,7 +159,7 @@
        "organic",
        "inorganic"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "A leaf came from a living thing, so it is organic.",
        "zh": "树叶来自生物，所以是有机的。"
@@ -474,7 +474,7 @@
        "takes sediment away",
        "drops sediment"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Erosion takes away. Deposition drops.",
        "zh": "侵蚀是带走，沉积是放下。"
@@ -597,7 +597,7 @@
        "slows down",
        "speeds up"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Slow wind cannot carry the sand, so it drops it.",
        "zh": "风变慢带不动沙子，就把沙子放下。"
@@ -769,7 +769,7 @@
        "high land",
        "low land"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Water runs DOWN from high land on each side.",
        "zh": "水从高地两边往下流。"
@@ -882,7 +882,7 @@
        "Gulf of Mexico",
        "Pacific Ocean"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "East slopes: Gulf of Mexico. West slopes: Pacific Ocean.",
        "zh": "东坡流向墨西哥湾，西坡流向太平洋。"
@@ -1065,7 +1065,7 @@
        "same",
        "different"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Uniform = same, like a school uniform: everyone looks the same.",
        "zh": "uniform = 相同，就像校服：大家穿得一样。"
@@ -1469,7 +1469,7 @@
        "missing",
        "melted"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Erosion wore them away.",
        "zh": "侵蚀把它们磨掉了。"
@@ -1600,7 +1600,7 @@
        "continental shelf",
        "abyssal plain"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Shelf first, then slope, rise and the abyssal plain.",
        "zh": "先是大陆架，再是大陆坡、大陆隆和深海平原。"
@@ -1728,7 +1728,7 @@
        "come together",
        "move apart"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Trenches: convergent (come together). Ridges: divergent (move apart).",
        "zh": "海沟：汇聚（靠拢）。洋中脊：离散（分开）。"
@@ -1875,7 +1875,7 @@
        "fewer",
        "less"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Cars can be counted: fewer.",
        "zh": "车可以数：fewer。"
@@ -2044,7 +2044,7 @@
        "Your",
        "You're"
       ],
-      "answer": 1,
+      "answer": 0,
       "why": {
        "en": "Say it in full: \"You are coat\" makes no sense, so Your.",
        "zh": "展开说：You are coat 说不通，所以用 Your。"

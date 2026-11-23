@@ -756,16 +756,11 @@
       function result(k) {
         var ok = k === right, gained = st.gain[i] || 0;
         bar.firstChild.style.width = '0%';
-        btns.forEach(function (b, j) {
-          b.disabled = true;
-          if (j === right) b.classList.add('right');
-          else if (j === k) b.classList.add('picked-wrong');
-          else b.classList.add('faded');
-        });
+        allColour(btns, ok);
         var left = nextFree(st.qs.length, i, function (n) { return st.ans[n] != null; });
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
           h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() + (gained ? '  +' + gained : '') : (k < 0 ? '⏰ ' + T('timeUp') + ' ' : '') + T('notQuite')),
-          !ok ? h('div', { class: 'q-text' }, rich(q.options[q.answer])) : null,
+          !ok ? h('div', { class: 'q-text' }, L('The right answer is: ', '正确答案是：'), rich(q.options[q.answer])) : null,
           q.why ? h('div', { style: 'margin-top:6px' }, h('b', null, T('why') + ': '), bi(q.why, true)) : null),
           h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: nextQ }, left >= 0 ? T('next') : T('finish'))));
       }
@@ -1080,8 +1075,8 @@
         var auto = opts && picked != null;
         if (auto) {
           var ok = picked === it.answer; st.marks[i] = ok;
-          opts.forEach(function (b, j) { b.disabled = true; b.classList.add(j === it.answer ? 'right' : j === picked ? 'picked-wrong' : 'faded'); });
-          add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite'))));
+          allColour(opts, ok);
+          add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '✅ ' + praise() : '❌ ' + T('notQuite'))));
         }
         add(fb, h('div', { class: 'box ans' }, h('b', null, '✅ ' + L('Answer: ', '答案：')), rich(it.right),
             it.visual && !it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null),
@@ -1145,8 +1140,8 @@
       tStart = Date.now();
       tick = setInterval(function () { clock.textContent = '⏱️ ' + fmtTime((st.time[i] || 0) + (Date.now() - tStart) / 1000); }, 500);
       var btns = q.options.map(function (o, j) {
-        return h('button', { class: 'ansbtn c' + (j % 4) + (st.ans[i] === j ? ' right' : ''), onclick: function () {
-          st.ans[i] = j; save(); btns.forEach(function (b, n) { b.classList.toggle('right', n === j); });
+        return h('button', { class: 'ansbtn c' + (j % 4) + (st.ans[i] === j ? ' chosen' : ''), onclick: function () {
+          st.ans[i] = j; save(); btns.forEach(function (b, n) { b.classList.toggle('chosen', n === j); });
           var cell = strip.children[i]; if (cell) cell.classList.add('done');
         } }, h('span', { class: 'shape' }, SHAPES[j % 4]), h('span', null, rich(o)));
       });
@@ -1504,14 +1499,17 @@
     } catch (e) { /* no sound on this device */ }
   }
   /* ⚡ Quick question in the middle of a lesson page: tap A or B, see right away. Not scored. */
+  /* Right = every button turns green. Wrong = every button turns red. No mixed colours. */
+  function allColour(btns, ok) { btns.forEach(function (b) { b.disabled = true; b.classList.add(ok ? 'right' : 'picked-wrong'); }); }
   function quickBox(q) {
     var fb = h('div'), done = false;
     var btns = q.options.map(function (o, k) {
       return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () {
         if (done) return; done = true;
         var ok = k === q.answer;
-        btns.forEach(function (b, j) { b.disabled = true; b.classList.add(j === q.answer ? 'right' : j === k ? 'picked-wrong' : 'faded'); });
-        add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'hint') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite') + ' ' + q.options[q.answer]),
+        allColour(btns, ok);
+        add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '✅ ' + praise() : '❌ ' + T('notQuite')),
+          !ok ? h('div', { class: 'q-text' }, L('The right answer is: ', '正确答案是：') + q.options[q.answer]) : null,
           q.why ? h('div', null, h('b', null, T('why') + ': '), bi(q.why, true)) : null));
       } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(q.options[k])));
     });
