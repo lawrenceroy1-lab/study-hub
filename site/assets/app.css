@@ -368,13 +368,13 @@ button.dot { border: 0; padding: 0; cursor: pointer; }
 .pp-ch { display: block; padding: 8px 6px; border-radius: 10px; font-size: 17px; font-weight: 700; color: var(--accent); text-decoration: none; }
 .pp-ch:hover { background: var(--bg); }
 .pp-toggle { display: none; }
-@media (min-width: 1000px) {
+@media (min-width: 700px) {
   .wrap:has(.lesson-wrap) { max-width: 1240px; }
-  .lesson-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 18px; align-items: start; }
+  .lesson-wrap { display: grid; grid-template-columns: minmax(0, 1fr) 240px; gap: 18px; align-items: start; }
   .pagepanel { position: sticky; top: 12px; max-height: calc(100vh - 24px); overflow: auto; }
   .pp-close { display: none; }
 }
-@media (max-width: 999px) {
+@media (max-width: 699px) {
   .pagepanel { position: fixed; top: 0; right: 0; bottom: 0; width: min(340px, 86vw); z-index: 60; overflow: auto; border-radius: 18px 0 0 18px;
     transform: translateX(110%); transition: transform .2s ease; box-shadow: -6px 0 24px rgba(27, 42, 107, .25); }
   .pagepanel.open { transform: none; }
@@ -386,3 +386,6 @@ button.dot { border: 0; padding: 0; cursor: pointer; }
   .numstrip { flex-wrap: nowrap; overflow-x: auto; padding: 4px 2px 8px; -webkit-overflow-scrolling: touch; }
   .numstrip .num { flex: 0 0 auto; }
 }
+
+@media (min-width: 1000px) { .lesson-wrap { grid-template-columns: minmax(0, 1fr) 300px; } }
+.pp-item .pp-t { overflow-wrap: anywhere; }

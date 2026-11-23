@@ -103,25 +103,35 @@
     }
   };
   function bilingual() { return !!(S.student && S.student.bilingual); }
-  function T(k) {
-    var lang = (bilingual() && S.lang === 'zh') ? 'zh' : 'en';
+  /* Every page shows English AND Chinese together (no language switch). S.lang is 'both' on pages, 'en' while printing. */
+  function dual() { return bilingual() && S.lang === 'both'; }
+  /* Join English and Chinese into one line: "Next / 下一个 →", "← Back / 返回". */
+  function both(en, zh) {
+    en = en == null ? '' : String(en); zh = zh == null ? '' : String(zh);
+    if (!zh || zh === en) return en;
+    if (/^← /.test(en) && /^← /.test(zh)) zh = zh.slice(2);
+    if (/ →$/.test(en) && / →$/.test(zh)) en = en.slice(0, -2);
+    return en + ' / ' + zh;
+  }
+  function T1(k, lang) {
     var own = S.student && S.student.ui && S.student.ui[lang];   /* per-student wording, e.g. gentler feedback */
     if (own && own[k] != null) return own[k];
     var L = UI[lang]; return L[k] != null ? L[k] : UI.en[k];
   }
+  function T(k) { return dual() ? both(T1(k, 'en'), T1(k, 'zh')) : T1(k, 'en'); }
   /* Stars instead of marks for students who should not see scores. */
   function scoreText(c, t) { return (S.student && S.student.stars) ? (c ? new Array(Math.min(c, 10) + 1).join('⭐') : '🌱') : c + ' / ' + t; }
   /* Pick text for a value that may be "string" or {en, zh}. */
   function tx(v) {
     if (v == null) return '';
     if (typeof v === 'string') return v;
-    return (bilingual() && S.lang === 'zh' && v.zh) ? v.zh : (v.en || '');
+    return (dual() && v.zh) ? both(v.en || '', v.zh) : (v.en || '');
   }
   /* Instructions, hints and explanations: in 中文 mode show English with Chinese underneath. */
   function bi(v, isRich) {
     if (v == null) return null;
     if (typeof v === 'string') return isRich ? rich(v) : v;
-    if (bilingual() && S.lang === 'zh' && v.zh) {
+    if (dual() && v.zh) {
       return h('span', null, isRich ? rich(v.en) : v.en, h('span', { class: 'zh-sub', lang: 'zh' }, isRich ? rich(v.zh) : v.zh));   /* English first, Chinese underneath */
     }
     return isRich ? rich(v.en) : v.en;
@@ -130,7 +140,7 @@
     var en = ['Great job!', 'Well done!', 'Brilliant!', 'You got it!', 'Super!', 'Amazing work!', 'Fantastic!', 'Yes! Keep going!'];
     var zh = ['太棒了！', '做得好！', '真厉害！', '答对了！', '非常好！', '了不起！', '好极了！', '对了！继续加油！'];
     var i = Math.floor(Math.random() * en.length);
-    return (bilingual() && S.lang === 'zh') ? zh[i] + ' ' + en[i] : en[i];
+    return dual() ? en[i] + ' ' + zh[i] : en[i];
   }
 
   /* "By completing this I can now..." line at the end of every activity */
@@ -156,7 +166,7 @@
       stopBar = h('button', { class: 'stopbar hidden', 'aria-label': 'Stop audio', onclick: function () { stopSpeech(); } });
       document.body.appendChild(stopBar);
     }
-    stopBar.textContent = '⏹ ' + ((bilingual() && S.lang === 'zh') ? '停止 Stop' : 'Stop');
+    stopBar.textContent = '⏹ ' + (dual() ? 'Stop / 停止' : 'Stop');
     stopBar.classList.toggle('hidden', !on);
   }
   function say(text, slow) {
@@ -237,10 +247,9 @@
   var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
   function weekLabel(id) {
     var p = id.split('-'), a = new Date(+p[0], +p[1] - 1, +p[2]), b = new Date(a.getTime() + 6 * 864e5);
-    if (bilingual() && S.lang === 'zh') {
-      return (a.getMonth() + 1) + '月' + a.getDate() + '日至' + (b.getMonth() === a.getMonth() ? '' : (b.getMonth() + 1) + '月') + b.getDate() + '日';
-    }
-    return a.getDate() + (a.getMonth() === b.getMonth() ? '' : ' ' + MONTHS[a.getMonth()]) + ' to ' + b.getDate() + ' ' + MONTHS[b.getMonth()];
+    var en = a.getDate() + (a.getMonth() === b.getMonth() ? '' : ' ' + MONTHS[a.getMonth()]) + ' to ' + b.getDate() + ' ' + MONTHS[b.getMonth()];
+    if (dual()) return both(en, (a.getMonth() + 1) + '月' + a.getDate() + '日至' + (b.getMonth() === a.getMonth() ? '' : (b.getMonth() + 1) + '月') + b.getDate() + '日');
+    return en;
   }
 
   /* ---------------- frame + router ---------------- */
@@ -249,19 +258,14 @@
   function frame() {
     document.body.appendChild(h('header', { class: 'topbar' },
       h('div', { class: 'hello', id: 'hello' }),
-      bilingual() ? h('div', { class: 'lang', role: 'group', 'aria-label': 'Language' },
-        h('button', { id: 'lang-en', onclick: function () { setLang('en'); } }, 'EN'),
-        h('button', { id: 'lang-zh', onclick: function () { setLang('zh'); } }, '中文')) : null));
+      null));
     main = h('main', { class: 'wrap', id: 'main' });
     document.body.appendChild(main);
     paintFrame();
   }
   function paintFrame() {
-    document.getElementById('hello').textContent = T('hi').replace('{n}', S.student.name);
-    if (bilingual()) {
-      document.getElementById('lang-en').className = S.lang === 'en' ? 'on' : '';
-      document.getElementById('lang-zh').className = S.lang === 'zh' ? 'on' : '';
-    }
+    document.getElementById('hello').textContent = T('hi').replace(/\{n\}/g, S.student.name);
+
   }
   function setLang(l) { S.lang = l; lsSet(key('lang'), l); paintFrame(); S.relang = location.hash; var y = window.scrollY; route(); setTimeout(function () { window.scrollTo(0, y); }, 300); }
   /* Remember where she is (page, question, answers) so changing language does not start again. */
@@ -917,7 +921,7 @@
         if (shown < it.steps.length) {
           var s = it.steps[shown];
           var maths = s.math == null ? [] : [].concat(s.math);
-          add(steps, h('div', { class: 'box teach step' }, h('b', null, (S.lang === 'zh' && bilingual() ? '第 ' + (shown + 1) + ' 步' : 'Step ' + (shown + 1)) + ': '), bi(s, true),
+          add(steps, h('div', { class: 'box teach step' }, h('b', null, (dual() ? 'Step ' + (shown + 1) + ' / 第 ' + (shown + 1) + ' 步' : 'Step ' + (shown + 1)) + ': '), bi(s, true),
             s.bar ? barModel(s.bar) : null,
             maths.map(function (m) { return h('div', { class: 'math' }, rich(m)); })));
           shown++;
@@ -937,7 +941,7 @@
   };
 
   /* =========== HOMEWORK REVIEW, WORKBOOK DAYS, HOMEWORK LOG =========== */
-  function L(en, zh) { return (bilingual() && S.lang === 'zh') ? zh : en; }
+  function L(en, zh) { return dual() ? both(en, zh) : en; }
   var DAYS_EN = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   var DAYS_ZH = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
   function dayLabel(iso) {
@@ -2148,7 +2152,7 @@
   /* ---------------- start ---------------- */
   getJSON(DATA + 'student.json').then(function (st) {
     S.student = st;
-    S.lang = lsGet(key('lang'), 'en');
+    S.lang = 'both';
     document.title = 'Hi ' + st.name + '!';
     if (st.accent) document.documentElement.style.setProperty('--accent', st.accent);
     if (st.accentSoft) document.documentElement.style.setProperty('--accent-soft', st.accentSoft);
