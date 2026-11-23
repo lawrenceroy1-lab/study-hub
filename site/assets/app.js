@@ -117,12 +117,12 @@
     if (typeof v === 'string') return v;
     return (bilingual() && S.lang === 'zh' && v.zh) ? v.zh : (v.en || '');
   }
-  /* Instructions, hints and explanations: in 中文 mode show Chinese with English underneath. */
+  /* Instructions, hints and explanations: in 中文 mode show English with Chinese underneath. */
   function bi(v, isRich) {
     if (v == null) return null;
     if (typeof v === 'string') return isRich ? rich(v) : v;
     if (bilingual() && S.lang === 'zh' && v.zh) {
-      return h('span', null, isRich ? rich(v.zh) : v.zh, h('span', { class: 'zh-sub', lang: 'en' }, isRich ? rich(v.en) : v.en));
+      return h('span', null, isRich ? rich(v.en) : v.en, h('span', { class: 'zh-sub', lang: 'zh' }, isRich ? rich(v.zh) : v.zh));   /* English first, Chinese underneath */
     }
     return isRich ? rich(v.en) : v.en;
   }
