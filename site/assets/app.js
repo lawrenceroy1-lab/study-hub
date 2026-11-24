@@ -336,8 +336,7 @@
       h('div', { class: 'card week-head' },
         h('h2', null, tx(w.title)),
         h('p', { class: 'muted' }, weekLabel(w.week)),
-        w.message ? h('div', { class: 'box teach' }, bi(w.message)) : null,
-        h('div', { class: 'row' }, h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week, target: '_blank', rel: 'noopener' }, '🖨️ ' + T('print')))),
+        w.message ? h('div', { class: 'box teach' }, bi(w.message)) : null),
       featureButtons(w),
       tiles.childNodes.length && featureButtons(w) ? h('h3', { class: 'section-title' }, '➕ ' + T('morePractice')) : null,
       tiles);
@@ -1016,8 +1015,6 @@
       d.message ? h('div', { class: 'box teach' }, bi(d.message)) : null,
       dayBook(d),
       h('div', { class: 'row' },
-        start ? h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=book', target: '_blank', rel: 'noopener' }, '📖 ' + L('Main Book', '主课本')) : null,
-        h('a', { class: 'btn ghost', href: 'print.html?w=' + w.week + '&d=' + date + '&part=work', target: '_blank', rel: 'noopener' }, '📝 ' + L('Workbook to print', '打印练习册')),
         h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, dayName(d) + ': ' + dayLabel(date)); } }, '🔗 ' + L('Share', '分享'))),
       start,
       h('div', { class: 'tiles' }, ids.slice(start ? 1 : 0).map(function (id) { return actTile(w, id); })));
@@ -1637,7 +1634,8 @@
       S.student.mainBook ? loadBook().catch(function () { return null; }) : null]).then(function (res) {
       var files = (res[0].files || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
       var days = [];
-      res[1].forEach(function (w) { if (w) (w.days || []).forEach(function (d) { days.push({ w: w, d: d }); }); });
+      var weeksAll = res[1].filter(Boolean);
+      weeksAll.forEach(function (w) { (w.days || []).forEach(function (d) { days.push({ w: w, d: d }); }); });
       days.sort(function (a, b) { return a.d.date < b.d.date ? 1 : -1; });
       var book = res[2];
       function row(icon, title, sub, href, btn, dl) {
@@ -1651,6 +1649,10 @@
         files.length ? h('div', { class: 'lib-list' }, files.map(function (f) {
           return row('📄', tx(f.title), dayLabel(f.date) + (f.from ? '  ·  ' + tx(f.from) : '') + (f.size ? '  ·  ' + f.size : ''), '../' + f.file, '⬇️ ' + L('Download', '下载'), true);
         })) : h('p', { class: 'muted' }, L('No files yet.', '还没有文件。')),
+        weeksAll.length ? [h('h2', { class: 'section-title' }, '🗓️ ' + L('Whole weeks (print or save as PDF)', '整周内容（打印或存为 PDF）')),
+          h('div', { class: 'lib-list' }, weeksAll.map(function (w) {
+            return row('🗓️', tx(w.title), weekLabel(w.week), 'print.html?w=' + w.week, '🖨️ ' + L('Open', '打开'));
+          }))] : null,
         days.length ? [h('h2', { class: 'section-title' }, '🖨️ ' + L("Every day's work (print or save as PDF)", '每天的功课（打印或存为 PDF）')),
           h('div', { class: 'lib-list' }, days.map(function (x) {
             return row(x.d.kind === 'homework' ? '🏠' : '📘', dayName(x.d) + ': ' + dayLabel(x.d.date), x.d.title ? tx(x.d.title) : null,
@@ -1674,8 +1676,7 @@
         if (!ch) return renderError();
         var area = h('div');
         show(backLink('#/book'), h('h1', null, '📖 ' + ch.code + ' ' + tx(ch.title)),
-          h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享')),
-            h('a', { class: 'btn ghost', href: 'print.html?book=' + ch.code, target: '_blank', rel: 'noopener' }, '🖨️ ' + L('Print', '打印'))), area);
+          h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享'))), area);
         var ready = b.chapters.filter(function (c) { return c.slides && c.slides.length; }), at = ready.indexOf(ch);
         var pv = ready[at - 1], nx = ready[at + 1];
         return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: nx ? '#/book/' + nx.code : '#/book', week: 'book', en: 'Main Book ' + ch.code,
