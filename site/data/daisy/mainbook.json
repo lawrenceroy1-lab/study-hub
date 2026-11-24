@@ -428,6 +428,137 @@
        "zh": "人物怎样看一件事 = 看法。"
       }
      }
+    },
+    {
+     "icon": "🧠",
+     "title": {
+      "en": "What makes a perspective?",
+      "zh": "是什么形成了看法？"
+     },
+     "points": [
+      {
+       "en": "A character's perspective comes from their past experiences, their feelings and what they believe.",
+       "zh": "人物的看法来自他们过去的经历、感受和相信的事情。"
+      },
+      {
+       "en": "Emma loves dogs, so a new puppy makes her excited. James was bitten by a dog once, so the same puppy makes him scared.",
+       "zh": "Emma 喜欢狗，所以新小狗让她很兴奋。James 以前被狗咬过，所以同一只小狗让他害怕。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🐶😍",
+        "en": "Emma: excited, she loves dogs",
+        "zh": "Emma：兴奋，她喜欢狗"
+       },
+       {
+        "icon": "🐶😨",
+        "en": "James: scared, a dog bit him once",
+        "zh": "James：害怕，以前被狗咬过"
+       }
+      ]
+     },
+     "quick": {
+      "q": "James was bitten by a dog once. Now he is scared of the new puppy. What shapes his perspective?",
+      "options": [
+       "his past experience",
+       "the weather"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Something that happened to him before changes how he sees dogs now.",
+       "zh": "他以前的经历改变了他现在怎样看狗。"
+      }
+     }
+    },
+    {
+     "icon": "🔎",
+     "title": {
+      "en": "How to find a character's perspective",
+      "zh": "怎样找到人物的看法"
+     },
+     "points": [
+      {
+       "en": "Look at what the character SAYS, DOES, THINKS and FEELS. Then ask: WHY do they feel this way?",
+       "zh": "看人物说了什么、做了什么、想了什么、感觉怎样。再问：他们为什么这样想？"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "💬",
+        "en": "what they say",
+        "zh": "说什么"
+       },
+       {
+        "icon": "🏃",
+        "en": "what they do",
+        "zh": "做什么"
+       },
+       {
+        "icon": "💭",
+        "en": "what they think and feel",
+        "zh": "想什么、感觉怎样"
+       },
+       {
+        "icon": "❓",
+        "en": "ask: why?",
+        "zh": "问：为什么？"
+       }
+      ]
+     },
+     "quick": {
+      "q": "Sophie says, \"Shopping for new pens is the best day ever!\" What is her perspective on stationery shopping?",
+      "options": [
+       "She thinks it is boring.",
+       "She loves it."
+      ],
+      "answer": 1,
+      "why": {
+       "en": "\"The best day ever\" shows she loves it.",
+       "zh": "\"The best day ever\"（最棒的一天）说明她很喜欢。"
+      }
+     }
+    },
+    {
+     "icon": "🎆",
+     "title": {
+      "en": "Same event, two perspectives",
+      "zh": "同一件事，两种看法"
+     },
+     "points": [
+      {
+       "en": "At the festival, Lily loves the loud fireworks. Her dog Max hides under the bed. Same fireworks, different perspectives!",
+       "zh": "在节日里，Lily 喜欢响亮的烟花。她的狗 Max 躲到床底下。同样的烟花，不同的看法！"
+      },
+      {
+       "en": "Sentence frame: From ___'s perspective, ___ because ___.",
+       "zh": "句子模板：From ___'s perspective（从……的看法），___ because（因为）___。"
+      },
+      {
+       "en": "Example: From Max's perspective, the fireworks are scary because the bangs hurt his ears.",
+       "zh": "例子：从 Max 的看法，烟花很可怕，因为爆炸声让他的耳朵难受。"
+      }
+     ],
+     "remember": {
+      "en": "Point of view = WHO tells the story. Perspective = HOW someone sees it.",
+      "zh": "视角 = 谁讲故事；看法 = 怎样看。"
+     },
+     "quick": {
+      "q": "\"The story is told by Tom, using I and me.\" This sentence is about...",
+      "options": [
+       "point of view",
+       "perspective"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Who tells the story (Tom, using I) = point of view.",
+       "zh": "谁讲故事（Tom，用 I）= 视角。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -1023,6 +1154,145 @@
        "zh": "3 ÷ 1/2 问的是：3 里面有几个一半？每个 1 有 2 个一半，所以 3 × 2 = 6 个。"
       }
      ]
+    },
+    {
+     "icon": "🍕",
+     "title": {
+      "en": "A fraction ÷ a whole number",
+      "zh": "分数 ÷ 整数"
+     },
+     "points": [
+      {
+       "en": "A whole number can be written as a fraction: 4 = 4/1.",
+       "zh": "整数可以写成分数：4 = 4/1。"
+      },
+      {
+       "en": "2/3 ÷ 4: Keep 2/3, change ÷ to ×, flip 4/1 to 1/4. 2/3 × 1/4 = 2/12 = 1/6.",
+       "zh": "2/3 ÷ 4：保留 2/3，÷ 变 ×，4/1 倒过来变成 1/4。2/3 × 1/4 = 2/12 = 1/6。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "2/3 ÷ 4 = 2/3 × 1/4 = 2/12 = 1/6",
+       "zh": "2/3 ÷ 4 = 2/3 × 1/4 = 2/12 = 1/6"
+      },
+      "example": {
+       "en": "2/12: ÷ 2 on top and bottom = 1/6",
+       "zh": "2/12：上下都 ÷ 2 = 1/6"
+      }
+     },
+     "quick": {
+      "q": "3/5 ÷ 3 = ?",
+      "options": [
+       "1/5",
+       "9/5"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "3/5 × 1/3 = 3/15 = 1/5. (9/5 is 3/5 × 3, that is multiplying, not dividing.)",
+       "zh": "3/5 × 1/3 = 3/15 = 1/5。（9/5 是 3/5 × 3，那是乘法，不是除法。）"
+      }
+     }
+    },
+    {
+     "icon": "🧁",
+     "title": {
+      "en": "A whole number ÷ a fraction",
+      "zh": "整数 ÷ 分数"
+     },
+     "points": [
+      {
+       "en": "4 ÷ 2/3: write 4 as 4/1. Keep 4/1, change ÷ to ×, flip 2/3 to 3/2.",
+       "zh": "4 ÷ 2/3：把 4 写成 4/1。保留 4/1，÷ 变 ×，2/3 倒过来变成 3/2。"
+      },
+      {
+       "en": "4/1 × 3/2 = 12/2 = 6.",
+       "zh": "4/1 × 3/2 = 12/2 = 6。"
+      },
+      {
+       "en": "Dividing by a fraction smaller than 1 gives a BIGGER answer.",
+       "zh": "除以一个小于 1 的分数，答案会变大。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "4 ÷ 2/3 = 4/1 × 3/2 = 12/2 = 6",
+       "zh": "4 ÷ 2/3 = 4/1 × 3/2 = 12/2 = 6"
+      }
+     },
+     "quick": {
+      "q": "2 ÷ 1/3 = ?",
+      "options": [
+       "2/3",
+       "6"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "2/1 × 3/1 = 6/1 = 6. There are 3 thirds in each whole, so 2 wholes have 6 thirds.",
+       "zh": "2/1 × 3/1 = 6/1 = 6。每个 1 有 3 个三分之一，所以 2 有 6 个。"
+      }
+     }
+    },
+    {
+     "icon": "✅",
+     "title": {
+      "en": "Divide, simplify, check",
+      "zh": "除、约分、检查"
+     },
+     "points": [
+      {
+       "en": "5/6 ÷ 5/12 = 5/6 × 12/5 = 60/30 = 2.",
+       "zh": "5/6 ÷ 5/12 = 5/6 × 12/5 = 60/30 = 2。"
+      },
+      {
+       "en": "Check: 5/12 is about half of 5/6, so 2 of them fit. It makes sense!",
+       "zh": "检查：5/12 大约是 5/6 的一半，所以能放进 2 个。答案合理！"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔒",
+        "en": "KEEP",
+        "zh": "不变"
+       },
+       {
+        "icon": "✖️",
+        "en": "CHANGE",
+        "zh": "变号"
+       },
+       {
+        "icon": "🔃",
+        "en": "FLIP",
+        "zh": "倒过来"
+       },
+       {
+        "icon": "✂️",
+        "en": "SIMPLIFY",
+        "zh": "约分"
+       },
+       {
+        "icon": "👀",
+        "en": "CHECK",
+        "zh": "检查"
+       }
+      ]
+     },
+     "quick": {
+      "q": "3/4 ÷ 3/8 = ?",
+      "options": [
+       "2",
+       "9/32"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "3/4 × 8/3 = 24/12 = 2. (9/32 comes from forgetting to flip.)",
+       "zh": "3/4 × 8/3 = 24/12 = 2。（9/32 是忘了把第二个分数倒过来。）"
+      }
+     }
     }
    ],
    "canNow": {
@@ -1103,6 +1373,126 @@
        "zh": "孩子的个数是整数：1 1/8 个孩子是不可能的！"
       }
      ]
+    },
+    {
+     "icon": "🏊‍♀️",
+     "title": {
+      "en": "Multiply: the same amount many times",
+      "zh": "乘法：同样的量很多次"
+     },
+     "points": [
+      {
+       "en": "Daisy swims 3/4 km each day. How far does she swim in 4 days?",
+       "zh": "Daisy 每天游 3/4 千米。4 天一共游多远？"
+      },
+      {
+       "en": "Same amount, 4 times: 3/4 × 4 = 12/4 = 3. Answer: 3 km.",
+       "zh": "同样的量，4 次：3/4 × 4 = 12/4 = 3。答案：3 千米。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "3/4 × 4 = 12/4 = 3 km",
+       "zh": "3/4 × 4 = 12/4 = 3 km"
+      }
+     },
+     "quick": {
+      "q": "A puppy eats 2/3 cup of food each day. How much does it eat in 6 days?",
+      "options": [
+       "1/9 cup",
+       "4 cups"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Same amount 6 times: 2/3 × 6 = 12/3 = 4 cups.",
+       "zh": "同样的量 6 次：2/3 × 6 = 12/3 = 4 杯。"
+      }
+     }
+    },
+    {
+     "icon": "🎀",
+     "title": {
+      "en": "Divide: how many fit, or share equally",
+      "zh": "除法：能放几个，或平均分"
+     },
+     "points": [
+      {
+       "en": "Emma has 2 m of ribbon. Each bow needs 1/3 m. How many bows? 2 ÷ 1/3 = 2/1 × 3/1 = 6. Answer: 6 bows.",
+       "zh": "Emma 有 2 米丝带。每个蝴蝶结要 1/3 米。能做几个？2 ÷ 1/3 = 2/1 × 3/1 = 6。答案：6 个。"
+      },
+      {
+       "en": "3 friends share 3/4 of a pizza equally. 3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4. Answer: 1/4 of a pizza each.",
+       "zh": "3 个朋友平均分 3/4 个披萨。3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4。答案：每人 1/4 个披萨。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🎀",
+        "en": "how many 1/3 m in 2 m?",
+        "zh": "2 米里有几个 1/3 米？"
+       },
+       {
+        "icon": "🍕",
+        "en": "share 3/4 between 3",
+        "zh": "3/4 分给 3 人"
+       }
+      ]
+     },
+     "quick": {
+      "q": "A shop has 3 kg of sweets. It puts them in bags of 1/4 kg. How many bags?",
+      "options": [
+       "12 bags",
+       "3/4 bag"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "How many 1/4 in 3? 3 ÷ 1/4 = 3/1 × 4/1 = 12 bags.",
+       "zh": "3 里有几个 1/4？3 ÷ 1/4 = 3/1 × 4/1 = 12 袋。"
+      }
+     }
+    },
+    {
+     "icon": "🃏",
+     "title": {
+      "en": "\"of\" means multiply",
+      "zh": "\"of\" 表示乘"
+     },
+     "points": [
+      {
+       "en": "2/5 of 20 stickers = 2/5 × 20 = 40/5 = 8 stickers.",
+       "zh": "20 张贴纸的 2/5 = 2/5 × 20 = 40/5 = 8 张。"
+      },
+      {
+       "en": "Check: a fraction of something is LESS than the whole, so 8 is less than 20. Good!",
+       "zh": "检查：一个东西的几分之几比整体少，8 比 20 少。对了！"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "2/5 of 20 = 2/5 × 20 = 40/5 = 8 stickers",
+       "zh": "2/5 of 20 = 2/5 × 20 = 40/5 = 8 stickers"
+      }
+     },
+     "remember": {
+      "en": "of = ×",
+      "zh": "of = ×"
+     },
+     "quick": {
+      "q": "Lily has 12 K-pop cards. She gives away 3/4 of them. How many cards does she give away?",
+      "options": [
+       "16 cards",
+       "9 cards"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "3/4 of 12 = 3/4 × 12 = 36/4 = 9 cards. (16 comes from dividing by 3/4.)",
+       "zh": "12 的 3/4 = 3/4 × 12 = 36/4 = 9 张。（16 是除以 3/4 得到的。）"
+      }
+     }
     }
    ],
    "canNow": {
@@ -1788,6 +2178,145 @@
        "zh": "先去掉 e，再加 -ion。"
       }
      }
+    },
+    {
+     "icon": "🏃",
+     "title": {
+      "en": "Verb or noun?",
+      "zh": "动词还是名词？"
+     },
+     "points": [
+      {
+       "en": "A verb is a doing word: We discuss the trip.",
+       "zh": "动词是表示动作的词：We discuss the trip.（我们讨论旅行。）"
+      },
+      {
+       "en": "A noun is a thing word: We had a discussion.",
+       "zh": "名词是表示事物的词：We had a discussion.（我们进行了讨论。）"
+      },
+      {
+       "en": "Adding -ion turns the verb into a noun. The -tion or -sion ending says \"shun\".",
+       "zh": "加 -ion 让动词变成名词。-tion 或 -sion 读作 \"shun\"。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "discuss (verb) + ion = discussion (noun)",
+       "zh": "discuss (verb) + ion = discussion (noun)"
+      }
+     },
+     "quick": {
+      "q": "In \"We had a long ___ about the trip\", which word fits?",
+      "options": [
+       "discuss",
+       "discussion"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "After \"a long\" we need a thing word (noun): discussion.",
+       "zh": "\"a long\" 后面要用名词：discussion。"
+      }
+     }
+    },
+    {
+     "icon": "➕",
+     "title": {
+      "en": "Rule 1: just add -ion",
+      "zh": "规则 1：直接加 -ion"
+     },
+     "points": [
+      {
+       "en": "If the verb ends in -ct, -st or -ss, just add -ion. Do not change anything.",
+       "zh": "如果动词以 -ct、-st 或 -ss 结尾，直接加 -ion，别的不变。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "📋",
+        "en": "instruct → instruction",
+        "zh": "指示"
+       },
+       {
+        "icon": "🍎",
+        "en": "digest → digestion",
+        "zh": "消化"
+       },
+       {
+        "icon": "🗣️",
+        "en": "discuss → discussion",
+        "zh": "讨论"
+       }
+      ]
+     },
+     "quick": {
+      "q": "digest + ion = ?",
+      "options": [
+       "digestation",
+       "digestion"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "digest ends in -st, so just add -ion.",
+       "zh": "digest 以 -st 结尾，直接加 -ion。"
+      }
+     }
+    },
+    {
+     "icon": "✂️",
+     "title": {
+      "en": "Rule 2: drop the e, then add -ion",
+      "zh": "规则 2：先去掉 e，再加 -ion"
+     },
+     "points": [
+      {
+       "en": "If the verb ends in -ate, drop the final e, then add -ion.",
+       "zh": "如果动词以 -ate 结尾，先去掉最后的 e，再加 -ion。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🎉",
+        "en": "congratulate → congratulation",
+        "zh": "祝贺"
+       },
+       {
+        "icon": "🚫",
+        "en": "violate → violation",
+        "zh": "违反"
+       },
+       {
+        "icon": "📄",
+        "en": "duplicate → duplication",
+        "zh": "复制"
+       },
+       {
+        "icon": "⚙️",
+        "en": "operate → operation",
+        "zh": "操作"
+       }
+      ]
+     },
+     "remember": {
+      "en": "-ate words: drop the e, add -ion.",
+      "zh": "-ate 结尾的词：去掉 e，加 -ion。"
+     },
+     "quick": {
+      "q": "congratulate + ion = ?",
+      "options": [
+       "congratulateion",
+       "congratulation"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Drop the e, then add -ion.",
+       "zh": "先去掉 e，再加 -ion。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -1859,6 +2388,163 @@
       "why": {
        "en": "Narrative = a story, with a beginning, middle and end.",
        "zh": "narrative = 故事，有开头、中间和结尾。"
+      }
+     }
+    },
+    {
+     "icon": "🎣",
+     "title": {
+      "en": "Grab attention in the Introduction",
+      "zh": "开场：吸引听众"
+     },
+     "points": [
+      {
+       "en": "Start with a hook: a question, a sound, or a surprising sentence.",
+       "zh": "用一个“钩子”开始：一个问题、一个声音或一句让人惊讶的话。"
+      },
+      {
+       "en": "Example: Have you ever jumped into a pool that felt colder than ice?",
+       "zh": "例子：你有没有跳进过一个比冰还冷的泳池？"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "❓",
+        "en": "a question",
+        "zh": "一个问题"
+       },
+       {
+        "icon": "💥",
+        "en": "a sound: SPLASH!",
+        "zh": "一个声音：扑通！"
+       },
+       {
+        "icon": "😮",
+        "en": "a surprise",
+        "zh": "一个惊喜"
+       }
+      ]
+     },
+     "quick": {
+      "q": "Which is the best attention grabber?",
+      "options": [
+       "Have you ever lost something very special?",
+       "My speech is about a day."
+      ],
+      "answer": 0,
+      "why": {
+       "en": "A question makes the audience think about their own life, so they want to listen.",
+       "zh": "问题让听众想到自己的经历，所以他们想听下去。"
+      }
+     }
+    },
+    {
+     "icon": "⏱️",
+     "title": {
+      "en": "Tell the story in order",
+      "zh": "按顺序讲故事"
+     },
+     "points": [
+      {
+       "en": "Use time words so the audience can follow: First, Then, Suddenly, After that, Finally.",
+       "zh": "用时间词让听众跟得上：First（首先）、Then（然后）、Suddenly（突然）、After that（之后）、Finally（最后）。"
+      },
+      {
+       "en": "Add feeling words: nervous, excited, proud, surprised.",
+       "zh": "加上感受词：nervous（紧张）、excited（兴奋）、proud（骄傲）、surprised（惊讶）。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "1️⃣",
+        "en": "First",
+        "zh": "首先"
+       },
+       {
+        "icon": "➡️",
+        "en": "Then",
+        "zh": "然后"
+       },
+       {
+        "icon": "⚡",
+        "en": "Suddenly",
+        "zh": "突然"
+       },
+       {
+        "icon": "🏁",
+        "en": "Finally",
+        "zh": "最后"
+       }
+      ]
+     },
+     "quick": {
+      "q": "Which time word tells the audience a problem or surprise is coming?",
+      "options": [
+       "Suddenly",
+       "Finally"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Suddenly = something happens fast and unexpected.",
+       "zh": "Suddenly（突然）= 一件意想不到的事很快发生。"
+      }
+     }
+    },
+    {
+     "icon": "🗣️",
+     "title": {
+      "en": "Speaking tips",
+      "zh": "演讲小技巧"
+     },
+     "points": [
+      {
+       "en": "Look at your audience. Speak loudly and slowly. Pause after important parts.",
+       "zh": "看着听众。大声、慢慢地说。重要的地方停一下。"
+      },
+      {
+       "en": "Use a small note card with key words. Do not read every word. Practise 3 times at home.",
+       "zh": "用一张写着关键词的小卡片，不要每个字都读。在家练习 3 次。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "👀",
+        "en": "look at the audience",
+        "zh": "看着听众"
+       },
+       {
+        "icon": "🔊",
+        "en": "loud and slow",
+        "zh": "大声、慢慢说"
+       },
+       {
+        "icon": "⏸️",
+        "en": "pause",
+        "zh": "停一下"
+       },
+       {
+        "icon": "🔁",
+        "en": "practise 3 times",
+        "zh": "练 3 次"
+       }
+      ]
+     },
+     "quick": {
+      "q": "When you give your speech, you should...",
+      "options": [
+       "read every word from the paper with your head down",
+       "look at your audience and speak slowly"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Eye contact and a slow, clear voice help people listen.",
+       "zh": "看着听众、清楚慢慢地说，大家更容易听懂。"
       }
      }
     }
