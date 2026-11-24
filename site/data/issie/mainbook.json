@@ -2179,6 +2179,146 @@
       "en": "what, when, where, activities + 10 underlined usage words",
       "zh": "什么、何时、何地、活动 + 10 个划线的用法词"
      }
+    },
+    {
+     "icon": "👀",
+     "title": {
+      "en": "Make it catch the eye",
+      "zh": "让它吸引眼球"
+     },
+     "points": [
+      {
+       "en": "Big headline at the top: the event name. Example: Spring Science Fair!",
+       "zh": "最上面写大标题：活动名称。例如：Spring Science Fair!"
+      },
+      {
+       "en": "Short lines and a bullet list (• one idea per line) are easier to read than long paragraphs.",
+       "zh": "短句和项目列表（• 每行一个点）比长段落更容易读。"
+      },
+      {
+       "en": "End with a call to action: tell people what to do. Come and join us! Bring a friend!",
+       "zh": "最后写行动号召：告诉人们要做什么。Come and join us!（快来参加！）Bring a friend!（带上朋友！）"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "📰",
+        "en": "big headline",
+        "zh": "大标题"
+       },
+       {
+        "icon": "•",
+        "en": "bullet list",
+        "zh": "项目列表"
+       },
+       {
+        "icon": "📢",
+        "en": "call to action",
+        "zh": "行动号召"
+       }
+      ]
+     },
+     "quick": {
+      "q": "Which line is a call to action?",
+      "options": [
+       "Come and join the fun!",
+       "The fair has tables."
+      ],
+      "answer": 0,
+      "why": {
+       "en": "A call to action tells the reader what to do.",
+       "zh": "行动号召告诉读者要做什么。"
+      }
+     }
+    },
+    {
+     "icon": "📄",
+     "title": {
+      "en": "A model flyer",
+      "zh": "宣传单范例"
+     },
+     "points": [
+      {
+       "en": "SPRING SCIENCE FAIR! When: Saturday 5 December, 9:00 to 12:00. Where: the school hall.",
+       "zh": "SPRING SCIENCE FAIR!（春季科学展）时间：12 月 5 日星期六，9:00 到 12:00。地点：学校礼堂。"
+      },
+      {
+       "en": "• There will be a lot of experiments. • Students will show their volcano models. • Have an ice cream after the show.",
+       "zh": "• There will be a lot of experiments.（会有很多实验。）• Students will show their volcano models.（学生会展示他们的火山模型。）• Have an ice cream after the show.（看完来个冰淇淋。）"
+      },
+      {
+       "en": "Usage words used: there, a lot, their, an (before ice), after. Come and join us!",
+       "zh": "用到的用法词：there、a lot、their、an（ice 前面）、after。Come and join us!"
+      }
+     ],
+     "quick": {
+      "q": "Which sentence is correct for the flyer?",
+      "options": [
+       "Their will be alot of games.",
+       "There will be a lot of games."
+      ],
+      "answer": 1,
+      "why": {
+       "en": "THERE = a place or \"there will be\". A LOT is two words.",
+       "zh": "THERE 表示地点或 \"there will be\"（将会有）。A LOT 是两个词。"
+      }
+     }
+    },
+    {
+     "icon": "☑️",
+     "title": {
+      "en": "Check before you hand it in",
+      "zh": "交之前检查"
+     },
+     "points": [
+      {
+       "en": "Does it say what, when, where and the activities? Is there a call to action?",
+       "zh": "有没有写什么活动、什么时候、在哪里和活动项目？有没有行动号召？"
+      },
+      {
+       "en": "Are at least 10 usage words underlined and correct? Capital letters and full stops?",
+       "zh": "至少 10 个用法词划线并且用对了吗？大写字母和句号都对吗？"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🎪",
+        "en": "what, when, where",
+        "zh": "什么、何时、何地"
+       },
+       {
+        "icon": "🎠",
+        "en": "activities",
+        "zh": "活动项目"
+       },
+       {
+        "icon": "📢",
+        "en": "call to action",
+        "zh": "行动号召"
+       },
+       {
+        "icon": "✏️",
+        "en": "10 usage words",
+        "zh": "10 个用法词"
+       }
+      ]
+     },
+     "quick": {
+      "q": "Which is correct on a flyer?",
+      "options": [
+       "There will be fewer queues this year.",
+       "There will be less queues this year."
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Queues can be counted, so use FEWER.",
+       "zh": "队伍可以数，所以用 FEWER。"
+      }
+     }
     }
    ],
    "canNow": {
@@ -2305,6 +2445,46 @@
    },
    "slides": [
     {
+     "icon": "📏",
+     "title": {
+      "en": "What does 3/5 s mean?",
+      "zh": "3/5 s 是什么意思？"
+     },
+     "points": [
+      {
+       "en": "s is an unknown number. A number right next to a letter means multiply: 3/5 s = 3/5 × s.",
+       "zh": "s 是一个未知数。数字直接写在字母旁边表示乘：3/5 s = 3/5 × s。"
+      },
+      {
+       "en": "So 3/5 s means 3/5 of s: cut s into 5 equal parts and take 3 of them.",
+       "zh": "所以 3/5 s 就是 s 的 3/5：把 s 平均分成 5 份，取其中 3 份。"
+      },
+      {
+       "en": "A bar model is a long box cut into equal parts. It helps you SEE the fraction.",
+       "zh": "线段图（bar model）是一个分成相等几份的长方框，帮你“看见”分数。"
+      }
+     ],
+     "visual": {
+      "type": "bar",
+      "parts": 5,
+      "shaded": 3,
+      "fill": "?",
+      "label": "s = 5 equal parts"
+     },
+     "quick": {
+      "q": "In 2/7 n, the bar for n is cut into how many equal parts?",
+      "options": [
+       "7",
+       "2"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "The BOTTOM number tells how many equal parts the whole is cut into.",
+       "zh": "分母（下面的数）告诉你整体平均分成几份。"
+      }
+     }
+    },
+    {
      "icon": "📊",
      "title": {
       "en": "Worked example: 3/5 s = 9",
@@ -2349,6 +2529,139 @@
       "why": {
        "en": "3 parts = 12, so 1 part = 12 ÷ 3 = 4.",
        "zh": "3 份 = 12，所以 1 份 = 12 ÷ 3 = 4。"
+      }
+     }
+    },
+    {
+     "icon": "🔃",
+     "title": {
+      "en": "Another way: multiply by the flipped fraction",
+      "zh": "另一种方法：乘以倒过来的分数"
+     },
+     "points": [
+      {
+       "en": "3/5 s = 9. To undo × 3/5, multiply both sides by 5/3 (the fraction flipped).",
+       "zh": "3/5 s = 9。要抵消 × 3/5，两边都乘以 5/3（把分数倒过来）。"
+      },
+      {
+       "en": "s = 9 × 5/3 = 45/3 = 15. Same answer as the bar model!",
+       "zh": "s = 9 × 5/3 = 45/3 = 15。和线段图的答案一样！"
+      },
+      {
+       "en": "Check: 3/5 × 15 = 45/5 = 9. ✓",
+       "zh": "检查：3/5 × 15 = 45/5 = 9 ✓"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "3/5 s = 9  →  s = 9 × 5/3 = 45/3 = 15",
+       "zh": "3/5 s = 9  →  s = 9 × 5/3 = 45/3 = 15"
+      }
+     },
+     "quick": {
+      "q": "2/5 n = 10. What is n?",
+      "options": [
+       "4",
+       "25"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "n = 10 × 5/2 = 50/2 = 25. Check: 2/5 × 25 = 10. (4 comes from 10 × 2/5, forgetting to flip.)",
+       "zh": "n = 10 × 5/2 = 50/2 = 25。检查：2/5 × 25 = 10。（4 是用 10 × 2/5 算的，忘了倒过来。）"
+      }
+     }
+    },
+    {
+     "icon": "📚",
+     "title": {
+      "en": "Word problem with a bar model",
+      "zh": "用线段图解应用题"
+     },
+     "points": [
+      {
+       "en": "Tom has read 2/3 of his book. That is 24 pages. How many pages are in the whole book?",
+       "zh": "Tom 读了他的书的 2/3，一共 24 页。整本书有多少页？"
+      },
+      {
+       "en": "Equation: 2/3 p = 24. Draw p in 3 equal parts. 2 parts = 24, so 1 part = 24 ÷ 2 = 12.",
+       "zh": "方程：2/3 p = 24。把 p 画成 3 等份。2 份 = 24，所以 1 份 = 24 ÷ 2 = 12。"
+      },
+      {
+       "en": "p = 3 × 12 = 36. Answer: 36 pages. Check: 2/3 of 36 = 24. ✓",
+       "zh": "p = 3 × 12 = 36。答案：36 页。检查：36 的 2/3 = 24 ✓"
+      }
+     ],
+     "visual": {
+      "type": "bar",
+      "parts": 3,
+      "shaded": 2,
+      "fill": "12",
+      "label": "p = 3 parts"
+     },
+     "remember": {
+      "en": "The whole is BIGGER than the part, so p must be more than 24.",
+      "zh": "整体比部分大，所以 p 一定大于 24。"
+     },
+     "quick": {
+      "q": "3/4 x = 12. What is x?",
+      "options": [
+       "9",
+       "16"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "1 part = 12 ÷ 3 = 4, so x = 4 × 4 = 16. (9 is 3/4 of 12, not the whole.)",
+       "zh": "1 份 = 12 ÷ 3 = 4，所以 x = 4 × 4 = 16。（9 是 12 的 3/4，不是整体。）"
+      }
+     }
+    },
+    {
+     "icon": "✅",
+     "title": {
+      "en": "Your turn: steps to follow",
+      "zh": "轮到你了：按步骤做"
+     },
+     "points": [
+      {
+       "en": "4/7 y = 12. Step 1: 4 parts = 12, so 1 part = 12 ÷ 4 = 3.",
+       "zh": "4/7 y = 12。第 1 步：4 份 = 12，所以 1 份 = 12 ÷ 4 = 3。"
+      },
+      {
+       "en": "Step 2: y is all 7 parts: y = 7 × 3 = 21. Step 3: check: 4/7 × 21 = 84/7 = 12. ✓",
+       "zh": "第 2 步：y 是全部 7 份：y = 7 × 3 = 21。第 3 步：检查：4/7 × 21 = 84/7 = 12 ✓"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "➗",
+        "en": "÷ by the TOP number",
+        "zh": "除以分子"
+       },
+       {
+        "icon": "✖️",
+        "en": "× by the BOTTOM number",
+        "zh": "乘以分母"
+       },
+       {
+        "icon": "✅",
+        "en": "check",
+        "zh": "检查"
+       }
+      ]
+     },
+     "quick": {
+      "q": "4/7 y = 12. One part is 3. What is y?",
+      "options": [
+       "21",
+       "12"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "y is all 7 parts: 7 × 3 = 21.",
+       "zh": "y 是全部 7 份：7 × 3 = 21。"
       }
      }
     }
