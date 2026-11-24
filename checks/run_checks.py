@@ -210,6 +210,8 @@ for student_dir in sorted(p for p in DATA.iterdir() if p.is_dir()):
         if f.name == "mainbook.json":
             if st.get("bilingual"): check_zh(str(f.relative_to(ROOT)), d)
             continue
+        if f.name == "library.json":
+            continue   # checked further down (files exist, dated, bilingual titles)
         if f.name == "student.json":
             for wk in d.get("weeks", []):
                 if not (student_dir / f"{wk}.json").exists():
@@ -278,6 +280,21 @@ for f in list(SITE.rglob("*.html")) + list(SITE.rglob("*.js")):
     for n in PRIVATE:
         if re.search(r"\b" + re.escape(n) + r"\b", s):
             bad(str(f.relative_to(ROOT)), f'private word "{n}" found')
+
+# Library: every listed file must exist, be small enough for phones, and not be a photo/scan of a school page.
+for lib in DATA.glob("*/library.json"):
+    import json as _j
+    for e in _j.loads(lib.read_text()).get("files", []):
+        p = SITE / e["file"]
+        where = str(lib.relative_to(ROOT))
+        if not p.exists():
+            bad(where, f'library file missing: {e["file"]}')
+        elif p.stat().st_size > 15 * 1024 * 1024:
+            bad(where, f'library file over 15 MB: {e["file"]}')
+        if p.suffix.lower() in (".jpg", ".jpeg", ".png", ".heic"):
+            bad(where, f'photos of school pages are not allowed in the library: {e["file"]}')
+        if not e.get("date") or not (e.get("title") or {}).get("zh"):
+            bad(where, "every library file needs a date and an English and Chinese title")
 
 if problems:
     print(f"FAIL: {len(problems)} problem(s)")

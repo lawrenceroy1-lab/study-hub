@@ -315,6 +315,7 @@
     if (parts[0] === 'book') return renderBook(parts[1]);
     if (parts[0] === 'subject') return renderSubject(parts[1]);
     if (parts[0] === 'school') return renderSchool(parts[1]);
+    if (parts[0] === 'library') return renderLibrary();
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
     renderHome();
@@ -375,7 +376,9 @@
       return h('a', { class: 'feature subject', href: '#/subject/' + sb.id }, h('span', { class: 'fico' }, sb.icon || '📚'),
         h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, tx(sb.title)), sb.sub ? h('span', { class: 'fsub' }, tx(sb.sub)) : null));
     })) : null;
-    show(subjects, h('div', { class: 'feature-row' }, bookBtn, schoolBtn), thisWeek, anytime, past);
+    var libBtn = S.student.library ? h('a', { class: 'feature library', href: '#/library' }, h('span', { class: 'fico' }, '📚'),
+      h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Library', '资料库')), h('span', { class: 'fsub' }, L('Download or print every file, any time', '随时下载或打印所有资料')))) : null;
+    show(subjects, h('div', { class: 'feature-row' }, bookBtn, schoolBtn, libBtn), thisWeek, anytime, past);
   }
 
   /* One subject: School Homework, Homework, Homework Review, Main Book, then practice. Activities, sheets,
@@ -1606,6 +1609,40 @@
     }
     show1();
   };
+
+  /* =========== LIBRARY: dated files to download, every day's work and every Main Book chapter to print =========== */
+  function renderLibrary() {
+    show(backLink(), h('p', { class: 'muted' }, '…'));
+    Promise.all([getJSON(DATA + 'library.json').catch(function () { return { files: [] }; }),
+      Promise.all(weekIds().map(function (id) { return loadWeek(id).catch(function () { return null; }); })),
+      S.student.mainBook ? loadBook().catch(function () { return null; }) : null]).then(function (res) {
+      var files = (res[0].files || []).slice().sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+      var days = [];
+      res[1].forEach(function (w) { if (w) (w.days || []).forEach(function (d) { days.push({ w: w, d: d }); }); });
+      days.sort(function (a, b) { return a.d.date < b.d.date ? 1 : -1; });
+      var book = res[2];
+      function row(icon, title, sub, href, btn, dl) {
+        return h('div', { class: 'lib-row' }, h('span', { class: 'lib-ico' }, icon),
+          h('span', { class: 'lib-text' }, h('span', { class: 'lib-title' }, title), sub ? h('span', { class: 'lib-sub' }, sub) : null),
+          h('a', dl ? { class: 'btn', href: href, download: '' } : { class: 'btn ghost', href: href, target: '_blank', rel: 'noopener' }, btn));
+      }
+      show(backLink(), h('h1', null, '📚 ' + L('Library', '资料库')),
+        h('div', { class: 'box teach' }, bi({ en: 'Everything in one place. Download a file, or open a page and choose Print (or Save as PDF).', zh: '所有资料都在这里。下载文件，或者打开页面选择“打印”（或“存为 PDF”）。' })),
+        h('h2', { class: 'section-title' }, '📥 ' + L('Files to download', '可下载的文件')),
+        files.length ? h('div', { class: 'lib-list' }, files.map(function (f) {
+          return row('📄', tx(f.title), dayLabel(f.date) + (f.from ? '  ·  ' + tx(f.from) : '') + (f.size ? '  ·  ' + f.size : ''), '../' + f.file, '⬇️ ' + L('Download', '下载'), true);
+        })) : h('p', { class: 'muted' }, L('No files yet.', '还没有文件。')),
+        days.length ? [h('h2', { class: 'section-title' }, '🖨️ ' + L("Every day's work (print or save as PDF)", '每天的功课（打印或存为 PDF）')),
+          h('div', { class: 'lib-list' }, days.map(function (x) {
+            return row(x.d.kind === 'homework' ? '🏠' : '📘', dayName(x.d) + ': ' + dayLabel(x.d.date), x.d.title ? tx(x.d.title) : null,
+              'print.html?w=' + x.w.week + '&d=' + x.d.date, '🖨️ ' + L('Open', '打开'));
+          }))] : null,
+        book ? [h('h2', { class: 'section-title' }, '📖 ' + L('Main Book chapters (print or save as PDF)', '主课本各章（打印或存为 PDF）')),
+          h('div', { class: 'lib-list' }, book.chapters.filter(function (c) { return c.slides && c.slides.length; }).map(function (c) {
+            return row('📖', c.code + '  ' + tx(c.title), c.slides.length + ' ' + L('pages', '页'), 'print.html?book=' + c.code, '🖨️ ' + L('Open', '打开'));
+          }))] : null);
+    }).catch(renderError);
+  }
 
   /* =========== MAIN BOOK: one book, chapters by code, not dated =========== */
   var BOOK = null;

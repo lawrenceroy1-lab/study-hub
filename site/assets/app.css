@@ -390,3 +390,14 @@ button.dot { border: 0; padding: 0; cursor: pointer; }
 
 @media (min-width: 1000px) { .lesson-wrap { grid-template-columns: minmax(0, 1fr) 300px; } }
 .pp-item .pp-t { overflow-wrap: anywhere; }
+
+/* ---------- Library ---------- */
+.feature.library { background: linear-gradient(135deg, #2b8a3e, #0b7285); }
+.lib-list { display: grid; gap: 10px; margin-bottom: 18px; }
+.lib-row { display: flex; align-items: center; gap: 12px; background: var(--card); border-radius: var(--radius); box-shadow: var(--shadow); padding: 12px 14px; }
+.lib-ico { font-size: 1.6em; flex: 0 0 auto; }
+.lib-text { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; }
+.lib-title { font-weight: 800; color: var(--title); overflow-wrap: anywhere; }
+.lib-sub { font-size: .8em; color: var(--muted); overflow-wrap: anywhere; }
+.lib-row .btn { flex: 0 0 auto; white-space: nowrap; }
+@media (max-width: 600px) { .lib-row { flex-wrap: wrap; } .lib-row .btn { width: 100%; text-align: center; } }

@@ -11,5 +11,6 @@
  ],
  "homeworkLog": true,
  "mainBook": true,
- "schoolHomework": true
+ "schoolHomework": true,
+ "library": true
 }
