@@ -39,7 +39,8 @@
   function pick(a) { return a[Math.floor(Math.random() * a.length)]; }
   function lsGet(k, d) { try { var v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } }
   function lsSet(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* private mode */ } }
-  function key(k) { return 'tut_' + STUDENT_ID + '_' + k; }
+  function key(k) { return 'tut_' + STUDENT_ID + (S.who === 'roy' ? '_roy' : '') + '_' + k; }
+  var WHO_KEY = 'tut_' + STUDENT_ID + '_who';
   function pad(n) { return (n < 10 ? '0' : '') + n; }
   function fmtTime(sec) { sec = Math.round(sec); return Math.floor(sec / 60) + ':' + pad(sec % 60); }
 
@@ -192,11 +193,16 @@
     var d = new Date();
     return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + ' ' + pad(d.getHours()) + ':' + pad(d.getMinutes());
   }
-  function record(activity, week, score, total, seconds, missed) {
+  function whoName() { return S.who === 'roy' ? 'Roy' : S.student.name; }
+  function record(activity, week, score, total, seconds, missed, wrongItems) {
+    var log = lsGet(key('results'), []);
+    log.unshift({ time: localTime(), who: whoName(), week: week, activity: activity, score: score, total: total,
+      seconds: Math.round(seconds || 0), wrong: wrongItems || null, missed: wrongItems ? null : (missed || []) });
+    lsSet(key('results'), log.slice(0, 300));
     var q = lsGet(QKEY, []);
     q.push({
       id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
-      time: localTime(), student: S.student.name, week: week, activity: activity,
+      time: localTime(), student: S.who === 'roy' ? 'Roy (on ' + S.student.name + "'s page)" : S.student.name, week: week, activity: activity,
       score: score, total: total, seconds: Math.round(seconds || 0), missed: (missed || []).join(', ')
     });
     lsSet(QKEY, q);
@@ -246,6 +252,7 @@
   /* Every homework day with a homework quiz gets its own Homework Review, made from that quiz's questions,
      so she can check and correct her own homework. It opens only after the quiz is submitted. */
   function addAutoReviews(w) {
+    return;   /* replaced by Results: wrong answers with the right ones */
     var acts = {}, have = {};
     (w.activities || []).forEach(function (a) { acts[a.id] = a; });
     (w.reviews || []).forEach(function (r) { have[r.date] = true; });
@@ -279,17 +286,38 @@
   /* ---------------- frame + router ---------------- */
   var ICONS = { spelling: '🔤', flashcards: '🃏', match: '🧩', quiz: '⚡', reading: '📖', guided: '🧮', lesson: '📽️', fillblank: '✍️', keypoints: '🔑', hwquiz: '🏠' };
 
+  /* English with the Chinese in small letters underneath (menus, titles, labels) */
+  function E(en, zh) { return dual() && zh ? h('span', { class: 'ez' }, en, h('small', { lang: 'zh' }, zh)) : en; }
+  var NAV = null;
   function frame() {
-    document.body.appendChild(h('header', { class: 'topbar' },
-      h('div', { class: 'hello', id: 'hello' }),
-      null));
+    NAV = h('nav', { class: 'nav' });
+    var side = h('aside', { class: 'side' },
+      h('a', { class: 'brand', href: '#/' }, h('span', { class: 'brand-dot' }, S.student.name.charAt(0)),
+        h('span', null, h('b', null, S.student.name), h('small', null, L('My study space', '我的学习空间')))),
+      NAV);
     main = h('main', { class: 'wrap', id: 'main' });
-    document.body.appendChild(main);
+    document.body.appendChild(h('div', { class: 'app' }, side, main));
     paintFrame();
   }
   function paintFrame() {
-    document.getElementById('hello').textContent = T('hi').replace(/\{n\}/g, S.student.name);
-
+    if (!NAV) return;
+    clear(NAV);
+    var st = S.student, items = [['today', '#/', '🏠', 'Today', '今天'], ['homework', '#/homework', '📝', 'Homework', '作业'], ['class', '#/class', '👩‍🏫', 'Class with Roy', '和 Roy 上课']];
+    if (st.mainBook) items.push(['book', '#/book', '📖', 'Main Book', '主课本']);
+    if (st.schoolHomework) items.push(['school', '#/school', '🏫', 'School homework', '学校作业']);
+    items.push(['results', '#/results', '📊', 'My results', '我的成绩']);
+    if (st.library) items.push(['library', '#/library', '📚', 'Library', '资料库']);
+    items.push(['practice', '#/practice', '🎯', 'More practice', '更多练习']);
+    items.forEach(function (it) {
+      NAV.appendChild(h('a', { href: it[1], 'data-nav': it[0], class: S.nav === it[0] ? 'on' : '' }, h('span', { class: 'ni' }, it[2]), E(it[3], it[4])));
+    });
+    if (S.who) NAV.appendChild(h('button', { class: 'who-chip', onclick: function () { S.who = null; try { localStorage.removeItem(WHO_KEY); } catch (e) {} route(); } },
+      h('span', { class: 'ni' }, '👤'), E(whoName() + ' · ' + 'switch', whoName() + ' · 切换')));
+  }
+  function setNav(id) {
+    var map = { '': 'today', w: S.nav, log: 'results', subject: 'book', tables: 'practice', bank: 'practice' };
+    S.nav = map.hasOwnProperty(id) ? map[id] : id;
+    if (NAV) [].forEach.call(NAV.querySelectorAll('a'), function (a) { a.classList.toggle('on', a.getAttribute('data-nav') === S.nav); });
   }
   function setLang(l) { S.lang = l; lsSet(key('lang'), l); paintFrame(); S.relang = location.hash; var y = window.scrollY; route(); setTimeout(function () { window.scrollTo(0, y); }, 300); }
   /* Remember where she is (page, question, answers) so changing language does not start again. */
@@ -340,9 +368,15 @@
     noteTrail();
     var parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     window.scrollTo(0, 0);
+    setNav(parts[0] || 'today');
+    if (!S.who) return renderWho();
+    if (parts[0] === 'homework') return renderDayList('homework');
+    if (parts[0] === 'class') return renderDayList('class');
+    if (parts[0] === 'results' || parts[0] === 'log') return renderResults();
+    if (parts[0] === 'practice') return renderPractice();
     if (parts[0] === 'w' && parts[1]) {
       return loadWeek(parts[1]).then(function (w) {
-        if (parts[2] === 'reviews') renderReviews(w);
+        if (parts[2] === 'reviews') renderResults();
         else if (parts[2] === 'review') renderReview(w, parts[3]);
         else if (parts[2] === 'day') renderDay(w, parts[3]);
         else if (parts[2]) renderActivity(w, parts[2]); else renderWeek(w, false);
@@ -356,11 +390,211 @@
     if (parts[0] === 'library') return renderLibrary();
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
-    renderHome();
+    renderToday();
   }
   function renderError() { show(h('div', { class: 'card empty' }, h('p', null, T('loadError')), backLink())); }
 
-  /* ---------------- home ---------------- */
+
+  /* ---------------- who is working? ---------------- */
+  function renderWho() {
+    var pickWho = function (w) { S.who = w; lsSet(WHO_KEY, w); paintFrame(); route(); };
+    show(h('div', { class: 'card who' },
+      h('h1', null, E('Who is working?', '谁在使用？')),
+      h('p', { class: 'muted' }, E('Results are saved under this name.', '成绩会记在这个名字下。')),
+      h('div', { class: 'who-row' },
+        h('button', { class: 'who-btn', onclick: function () { pickWho('student'); } }, h('span', { class: 'who-ico' }, '🙋'), h('b', null, S.student.name)),
+        h('button', { class: 'who-btn', onclick: function () { pickWho('roy'); } }, h('span', { class: 'who-ico' }, '👨‍🏫'), h('b', null, 'Roy'), h('small', null, E('teacher', '老师'))))));
+  }
+
+  /* ---------------- shared pieces ---------------- */
+  function hwWrong(a, st) {
+    var out = [];
+    (a.questions || []).forEach(function (q, n) {
+      var p = st.ans[n];
+      if (p !== q.answer) out.push({ q: q.q, your: p == null ? null : q.options[p], right: q.options[q.answer], why: q.why });
+    });
+    return out;
+  }
+  function wrongList(items) {
+    if (!items || !items.length) return h('div', { class: 'box ans' }, '🌟 ' + L('No mistakes. Everything is right!', '没有错题，全部正确！'));
+    return h('div', { class: 'wrong-list' }, h('h3', null, E('Questions to look at again (' + items.length + ')', '要再看一遍的题（' + items.length + '）')),
+      items.map(function (x, n) {
+        return h('div', { class: 'wrong-item' },
+          h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), rich(String(x.q))),
+          h('div', { class: 'wa bad' }, h('small', null, L('Your answer', '你的答案')), x.your == null ? L('(no answer)', '（没有作答）') : rich(String(x.your))),
+          h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), rich(String(x.right))),
+          x.why ? h('div', { class: 'wwhy' }, h('b', null, L('Why: ', '原因：')), bi(x.why, true)) : null);
+      }));
+  }
+  function allDays() {
+    return Promise.all(weekIds().map(function (id) { return loadWeek(id).catch(function () { return null; }); })).then(function (weeks) {
+      var all = [];
+      weeks.forEach(function (w) { if (w) (w.days || []).forEach(function (d) { all.push({ w: w, d: d, s: dayStatus(w, d) }); }); });
+      all.sort(function (a, b) { return a.d.date > b.d.date ? 1 : -1; });
+      return all;
+    });
+  }
+  function actById(w, id) { return (w.activities || []).filter(function (x) { return x.id === id; })[0]; }
+  function minutes(d) { var m = /About (\d+) minutes/.exec((d.message && d.message.en) || ''); return m ? +m[1] : null; }
+  function chip(text, cls) { return h('span', { class: 'chip ' + (cls || '') }, text); }
+  function statusChip(x) {
+    if (x.d.kind !== 'homework') return chip(L('Class', '上课'), 'class');
+    var s = x.s;
+    if (!s) return chip(L('Homework', '作业'));
+    if (s.done) return chip('✅ ' + s.right + ' / ' + s.total, 'done');
+    if (s.started) return chip(L('Started', '已开始'), 'started');
+    return x.d.date < todayISO() ? chip(L('Not done', '没做'), 'late') : chip(L('To do', '待做'), 'todo');
+  }
+  function dayRow(x) {
+    return h('a', { class: 'day-row', href: '#/w/' + x.w.week + '/day/' + x.d.date },
+      h('span', { class: 'dr-date' }, dayLabel(x.d.date)),
+      h('span', { class: 'dr-title' }, h('span', { class: 'dr-kind' }, x.d.kind === 'homework' ? L('Homework', '作业') : L('Class with Roy', '和 Roy 上课')), tx(x.d.title)),
+      statusChip(x));
+  }
+  /* The plan for one day: what to read, what to practise, what to hand in. Used on Today and on the day page. */
+  function dayPlan(x, big) {
+    var w = x.w, d = x.d, s = x.s, hw = d.kind === 'homework';
+    var acts = (d.activities || []).map(function (id) { return actById(w, id); }).filter(Boolean);
+    var quizzes = acts.filter(function (a) { return a.type === 'hwquiz'; });
+    var practice = acts.filter(function (a) { return a.type !== 'hwquiz'; });
+    var link = function (href, label, cls) { return h('a', { class: 'step-link ' + (cls || ''), href: href }, label); };
+    var book = (d.book || []).map(function (c) { return link('#/book/' + c, '📖 ' + c); });
+    var steps = [];
+    if (hw) {
+      if (book.length) steps.push(h('li', null, h('div', { class: 'step-t' }, E('Read the Main Book', '读主课本')), h('div', { class: 'step-links' }, book)));
+      if (practice.length) steps.push(h('li', null, h('div', { class: 'step-t' }, E('Practise (optional)', '练习（自选）')),
+        h('div', { class: 'step-links' }, practice.map(function (a) { return link('#/w/' + w.week + '/' + a.id, (a.icon || ICONS[a.type] || '⭐') + ' ' + tx(a.title)); }))));
+      quizzes.forEach(function (a) {
+        var st = lsGet(key('hw_' + w.week + '_' + a.id), null), n = (a.questions || []).length;
+        var btn = st && st.submitted
+          ? link('#/w/' + w.week + '/' + a.id, '✅ ' + L('Done', '完成') + ' · ' + (n - hwWrong(a, st).length) + ' / ' + n + ' · ' + L('see mistakes', '看错题'), 'done')
+          : link('#/w/' + w.week + '/' + a.id, (st ? '▶️ ' + L('Continue the quiz', '继续做小测') : '▶️ ' + L('Start the quiz', '开始小测')), 'go');
+        steps.push(h('li', null, h('div', { class: 'step-t' }, E('Homework quiz: ' + n + ' questions, one try', '作业小测：' + n + ' 道题，只能做一次')), h('div', { class: 'step-links' }, btn)));
+      });
+    } else {
+      if (book.length) steps.push(h('li', null, h('div', { class: 'step-t' }, E('Learn with Roy: Main Book', '和 Roy 一起学：主课本')), h('div', { class: 'step-links' }, book)));
+      if (acts.length) steps.push(h('li', null, h('div', { class: 'step-t' }, E('Class practice with Roy', '和 Roy 一起练习')),
+        h('div', { class: 'step-links' }, acts.map(function (a) { return link('#/w/' + w.week + '/' + a.id, (a.icon || ICONS[a.type] || '⭐') + ' ' + tx(a.title)); }))));
+    }
+    var mins = minutes(d);
+    return h('div', { class: 'card plan' + (big ? ' big' : '') },
+      h('div', { class: 'plan-head' },
+        h('div', null, h('div', { class: 'plan-kind' }, hw ? E('Homework', '作业') : E('Class with Roy', '和 Roy 老师上课')),
+          h(big ? 'h1' : 'h2', null, dayLabel(d.date)), d.title ? h('p', { class: 'plan-title' }, bi(d.title)) : null),
+        statusChip(x)),
+      hw ? h('div', { class: 'box teach' }, E('Do it here on this website' + (mins ? ', about ' + mins + ' minutes' : '') + '. You do not need to print anything.',
+                                              '就在这个网站上做' + (mins ? '，大约 ' + mins + ' 分钟' : '') + '。不需要打印任何东西。'))
+         : h('div', { class: 'box teach' }, E('Roy goes through this with you in class. Nothing to do before class.', 'Roy 老师上课时和你一起做。上课前不用做任何事。')),
+      steps.length ? h('ol', { class: 'plan-steps' }, steps) : null);
+  }
+
+  /* ---------------- Today ---------------- */
+  function renderToday() {
+    var holder = h('div', null, h('p', { class: 'muted' }, '…'));
+    show(h('div', { class: 'page-head' },
+        h('h1', null, (S.who === 'roy' ? 'Hi Roy' : 'Hi ' + S.student.name) + ' 👋'),
+        h('p', { class: 'muted' }, dayLabel(todayISO()))),
+      holder);
+    allDays().then(function (all) {
+      var today = todayISO();
+      var late = all.filter(function (x) { return x.d.date < today && x.s && !x.s.done; });
+      var now = all.filter(function (x) { return x.d.date === today; })[0];
+      var next = all.filter(function (x) { return x.d.date > today; })[0];
+      var out = [];
+      if (late.length) out.push(h('h2', { class: 'sec' }, E('Finish this first', '先完成这个')), dayPlan(late[0]),
+        late.length > 1 ? h('p', { class: 'muted small' }, L('Also not done yet: ', '还没做完的还有：') + late.slice(1).map(function (x) { return dayLabel(x.d.date); }).join(', ')) : null);
+      out.push(h('h2', { class: 'sec' }, E('Today', '今天')));
+      if (now) out.push(dayPlan(now));
+      else out.push(h('div', { class: 'card empty-today' }, E('No homework and no class today. 🎉', '今天没有作业，也没有课。🎉')));
+      if (next && !now) out.push(h('h2', { class: 'sec' }, E('Coming next', '接下来')), dayPlan(next));
+      var wk = all.filter(function (x) { return x.w.week === (now || next || all[all.length - 1] || {}).w.week; });
+      if (wk.length) out.push(h('h2', { class: 'sec' }, E('This week', '本周')), h('div', { class: 'card list' }, wk.map(dayRow)));
+      clear(holder); add(holder, out);
+    }).catch(function () { clear(holder); holder.appendChild(h('p', null, T('loadError'))); });
+  }
+
+  /* ---------------- Homework / Class lists ---------------- */
+  function renderDayList(kind) {
+    var hw = kind === 'homework';
+    show(h('div', { class: 'page-head' }, h('h1', null, hw ? E('Homework', '作业') : E('Class with Roy', '和 Roy 老师上课')),
+      h('p', { class: 'muted' }, hw ? E('Every homework, newest first. Do them in date order.', '所有作业，最新的在上面。请按日期顺序做。')
+                                    : E('Every class, newest first.', '所有课程，最新的在上面。'))), h('p', { class: 'muted' }, '…'));
+    allDays().then(function (all) {
+      var list = all.filter(function (x) { return hw ? x.d.kind === 'homework' : x.d.kind !== 'homework'; }).reverse();
+      main.removeChild(main.lastChild);
+      main.appendChild(list.length ? h('div', { class: 'card list' }, list.map(dayRow)) : h('div', { class: 'card' }, L('Nothing here yet.', '这里还没有内容。')));
+    }).catch(renderError);
+  }
+
+  /* ---------------- one day ---------------- */
+  function renderDay(w, date) {
+    var d = (w.days || []).filter(function (x) { return x.date === date; })[0];
+    if (!d) return renderError();
+    S.nav = d.kind === 'homework' ? 'homework' : 'class'; setNav(S.nav);
+    var x = { w: w, d: d, s: dayStatus(w, d) };
+    var r = (w.reviews || []).filter(function (rv) { return rv.date === date && !rv.auto; })[0];
+    show(backLink(d.kind === 'homework' ? '#/homework' : '#/class'), dayPlan(x, true),
+      r ? h('a', { class: 'step-link', href: '#/w/' + w.week + '/review/' + r.id }, '📋 ' + L("Roy's marking of this homework", 'Roy 老师批改的这份作业')) : null);
+  }
+
+  /* ---------------- My results ---------------- */
+  function renderResults() {
+    S.nav = 'results'; setNav('results');
+    show(h('div', { class: 'page-head' }, h('h1', null, E('My results', '我的成绩')),
+      h('p', { class: 'muted' }, E('Every quiz done on this device, newest first. Tap a row to see only the questions that were wrong, with the right answers. Roy gets every score too.',
+        '在这台设备上做的每个小测，最新的在上面。点一行只看做错的题和正确答案。Roy 老师也会收到每个成绩。'))), h('p', { class: 'muted' }, '…'));
+    allDays().then(function (all) {
+      var rows = [];
+      all.forEach(function (x) {
+        (x.s && x.s.hw || []).forEach(function (a) {
+          var st = lsGet(key('hw_' + x.w.week + '_' + a.id), null);
+          if (st && st.submitted) {
+            var wr = hwWrong(a, st);
+            rows.push({ time: st.when || x.d.date, who: whoName(), title: L('Homework', '作业') + ' · ' + dayLabel(x.d.date), sub: tx(a.title), score: a.questions.length - wr.length, total: a.questions.length, wrong: wr });
+          }
+        });
+      });
+      lsGet(key('results'), []).forEach(function (r) {
+        if (/^Homework: /.test(r.activity) || /^Homework review /.test(r.activity)) return;
+        rows.push({ time: r.time, who: r.who, title: r.activity, sub: '', score: r.score, total: r.total, wrong: r.wrong, missed: r.missed });
+      });
+      rows.sort(function (a, b) { return String(a.time) < String(b.time) ? 1 : -1; });
+      main.removeChild(main.lastChild);
+      if (!rows.length) return main.appendChild(h('div', { class: 'card' }, L('No results on this device yet. Do a quiz and it will show here.', '这台设备上还没有成绩。做一个小测，成绩就会出现在这里。')));
+      main.appendChild(h('div', { class: 'card list' }, rows.map(function (r) {
+        var nWrong = r.wrong ? r.wrong.length : (r.missed || []).length;
+        var detail = h('div', { class: 'res-detail hidden' },
+          r.wrong ? wrongList(r.wrong) : (r.missed && r.missed.length ? h('div', { class: 'box hint' }, h('b', null, L('Missed: ', '错的：')), r.missed.join(', ')) : wrongList([])));
+        var head = h('button', { class: 'res-row', onclick: function () { detail.classList.toggle('hidden'); } },
+          h('span', { class: 'dr-date' }, String(r.time).slice(0, 16)),
+          h('span', { class: 'dr-title' }, h('span', { class: 'dr-kind' }, '👤 ' + r.who), r.title, r.sub ? h('small', { class: 'muted' }, r.sub) : null),
+          chip(r.score + ' / ' + r.total + (nWrong ? '  ·  ' + nWrong + ' ' + L('wrong', '错') : ''), nWrong ? 'started' : 'done'));
+        return h('div', { class: 'res' }, head, detail);
+      })));
+    }).catch(renderError);
+  }
+
+  /* ---------------- More practice ---------------- */
+  function renderPractice() {
+    var ids = weekIds();
+    var weeksBox = h('div', null);
+    show(h('div', { class: 'page-head' }, h('h1', null, E('More practice', '更多练习')), h('p', { class: 'muted' }, E('Extra games and practice. Never homework.', '额外的游戏和练习，不是作业。'))),
+      h('div', { class: 'tiles' },
+        h('a', { class: 'tile', href: '#/tables' }, h('span', { class: 'ico' }, '✖️'), h('span', null, T('tables'))),
+        h('a', { class: 'tile', href: '#/bank/spelling' }, h('span', { class: 'ico' }, '🔤'), h('span', null, T('spellingBank'))),
+        h('a', { class: 'tile', href: '#/bank/cards' }, h('span', { class: 'ico' }, '🃏'), h('span', null, T('cardsBank')))),
+      weeksBox);
+    ids.forEach(function (id) {
+      var sec = h('section', null, h('h2', { class: 'sec' }, weekLabel(id)));
+      weeksBox.appendChild(sec);
+      loadWeek(id).then(function (w) {
+        var tiles = h('div', { class: 'tiles' }, (w.activities || []).filter(function (a) { return a.type !== 'hwquiz'; }).map(function (a) { return actTile(w, a.id); }));
+        sec.appendChild(tiles);
+      }).catch(function () {});
+    });
+  }
+
+  /* ---------------- home (old, kept for reference) ---------------- */
   function weekBlock(w) {
     var tiles = h('div', { class: 'tiles' });
     var inside = placedIds(w);
@@ -810,7 +1044,15 @@
       leave();
       var qs = st.qs, missed = [];
       qs.forEach(function (q, k) { if (st.ans[k] !== st.order[k].indexOf(q.answer)) missed.push('Q' + (k + 1) + ' ' + String(q.q).slice(0, 40)); });
-      if (!st.ended) { st.ended = true; record(ctx.en, ctx.week, st.correct, qs.length, (Date.now() - st.t0) / 1000, missed); }
+      if (!st.ended) {
+        st.ended = true;
+        var wrongItems = [];
+        qs.forEach(function (q, k) {
+          var picked = st.ans[k], oi = picked == null || picked < 0 ? null : st.order[k][picked];
+          if (oi !== q.answer) wrongItems.push({ q: q.q, your: oi == null ? null : q.options[oi], right: q.options[q.answer], why: q.why });
+        });
+        record(ctx.en, ctx.week, st.correct, qs.length, (Date.now() - st.t0) / 1000, missed, wrongItems);
+      }
       clear(area);
       add(area, h('div', { class: 'card center' },
         h('h2', null, '🏁 ' + (st.correct === qs.length ? praise() : T('yourScore'))),
@@ -1007,12 +1249,13 @@
     var quiz = saved.every(function (s) { return !!(s && s.submitted); });
     var started = saved.some(function (s) { return !!s; });
     var r = dayReview(w, d), reviewed = !!(r && selfScore(r));
-    return { quiz: quiz, started: started, reviewed: reviewed, done: quiz && reviewed, review: r, hw: hw };
+    var right = 0, total = 0;
+    hw.forEach(function (a, n) { var st = saved[n]; total += a.questions.length; if (st && st.submitted) right += a.questions.length - hwWrong(a, st).length; });
+    return { quiz: quiz, started: started, reviewed: reviewed, done: quiz, review: r, hw: hw, right: right, total: total };
   }
   function statusText(s) {
     if (!s) return '';
-    if (s.done) return '✅ ' + L('Finished', '已完成');
-    if (s.quiz) return '🟡 ' + L('Quiz done, Homework Review still to do', '小测已做，还要做作业讲评');
+    if (s.done) return '✅ ' + L('Done', '完成') + ' · ' + s.right + ' / ' + s.total;
     if (s.started) return '🟠 ' + L('Started, not finished', '已开始，还没完成');
     return '⏳ ' + L('To do', '待做');
   }
@@ -1099,7 +1342,7 @@
       h('span', { class: 'ico', 'aria-hidden': 'true' }, a.icon || ICONS[a.type] || '⭐'), h('span', null, tx(a.title)),
       a.subtitle ? h('span', { class: 'sub' }, tx(a.subtitle)) : null);
   }
-  function renderDay(w, date) {
+  function renderDayOld(w, date) {
     var d = (w.days || []).filter(function (x) { return x.date === date; })[0];
     if (!d) return renderError();
     var ids = d.activities || [];
@@ -1295,15 +1538,18 @@
       var total = Object.keys(st.time).reduce(function (s, n) { return s + st.time[n]; }, 0);
       var detail = qs.map(function (q, n) { return 'Q' + (n + 1) + ':' + (st.ans[n] == null ? '-' : String.fromCharCode(65 + st.ans[n])) + (st.ans[n] === q.answer ? 'ok' : 'x') + ' ' + (st.time[n] || 0) + 's'; });
       if (st.backs) detail.push('went back ' + st.backs + 'x');
-      record('Homework: ' + ctx.en, ctx.week, right, qs.length, total, detail);
+      record('Homework: ' + ctx.en, ctx.week, right, qs.length, total, detail, hwWrong(a, st));
       done();
     }
     function done() {
       clear(area);
-      add(area, h('div', { class: 'card center' }, h('h2', null, '📨 ' + L('Submitted!', '已提交！')),
-        h('p', { class: 'praise' }, L('Great work! Now check your own answers in 📋 Homework Review and correct every mistake.', '做得好！现在去“📋 作业讲评”自己检查答案，改正每一个错误。')),
-        h('div', { class: 'row center' }, h('a', { class: 'btn big', href: '#/w/' + ctx.week + '/reviews' }, '📋 ' + L('Check it now', '现在去检查'))),
-        st.when ? h('p', { class: 'muted small' }, st.when) : null, canNow(a)));
+      var wr = hwWrong(a, st), right = qs.length - wr.length;
+      add(area, h('div', { class: 'card center' }, h('h2', null, '✅ ' + L('Homework submitted', '作业已提交')),
+          h('div', { class: 'bigscore' }, right + ' / ' + qs.length),
+          h('p', { class: 'praise' }, right === qs.length ? praise() : L('Well done for finishing! Now read the questions you got wrong below.', '完成了，真棒！现在看看下面做错的题。')),
+          st.when ? h('p', { class: 'muted small' }, st.when) : null),
+        wrongList(wr),
+        h('div', { class: 'row center' }, h('a', { class: 'btn big', href: '#/' }, L('Back to Today', '回到今天'))));
     }
   };
 
@@ -1771,20 +2017,11 @@
           h('a', dl ? { class: 'btn', href: href, download: '' } : { class: 'btn ghost', href: href, target: '_blank', rel: 'noopener' }, btn));
       }
       show(backLink(), h('h1', null, '📚 ' + L('Library', '资料库')),
-        h('div', { class: 'box teach' }, bi({ en: 'Everything in one place. Download a file, or open a page and choose Print (or Save as PDF).', zh: '所有资料都在这里。下载文件，或者打开页面选择“打印”（或“存为 PDF”）。' })),
+        h('div', { class: 'box teach' }, bi({ en: 'Files to keep and read. Homework is never printed: it is done on this website, under Today and Homework.', zh: '可以保存和阅读的资料。作业不用打印：作业都在这个网站的“今天”和“作业”里完成。' })),
         h('h2', { class: 'section-title' }, '📥 ' + L('Files to download', '可下载的文件')),
         files.length ? h('div', { class: 'lib-list' }, files.map(function (f) {
           return row('📄', tx(f.title), dayLabel(f.date) + (f.from ? '  ·  ' + tx(f.from) : '') + (f.size ? '  ·  ' + f.size : ''), '../' + f.file, '⬇️ ' + L('Download', '下载'), true);
         })) : h('p', { class: 'muted' }, L('No files yet.', '还没有文件。')),
-        weeksAll.length ? [h('h2', { class: 'section-title' }, '🗓️ ' + L('Whole weeks (print or save as PDF)', '整周内容（打印或存为 PDF）')),
-          h('div', { class: 'lib-list' }, weeksAll.map(function (w) {
-            return row('🗓️', tx(w.title), weekLabel(w.week), 'print.html?w=' + w.week, '🖨️ ' + L('Open', '打开'));
-          }))] : null,
-        days.length ? [h('h2', { class: 'section-title' }, '🖨️ ' + L("Every day's work (print or save as PDF)", '每天的功课（打印或存为 PDF）')),
-          h('div', { class: 'lib-list' }, days.map(function (x) {
-            return row(x.d.kind === 'homework' ? '🏠' : '📘', dayName(x.d) + ': ' + dayLabel(x.d.date), x.d.title ? tx(x.d.title) : null,
-              'print.html?w=' + x.w.week + '&d=' + x.d.date, '🖨️ ' + L('Open', '打开'));
-          }))] : null,
         book ? [h('h2', { class: 'section-title' }, '📖 ' + L('Main Book chapters (print or save as PDF)', '主课本各章（打印或存为 PDF）')),
           h('div', { class: 'lib-list' }, book.chapters.filter(function (c) { return c.slides && c.slides.length; }).map(function (c) {
             return row('📖', c.code + '  ' + tx(c.title), c.slides.length + ' ' + L('pages', '页'), 'print.html?book=' + c.code, '🖨️ ' + L('Open', '打开'));
@@ -2343,6 +2580,7 @@
     if (st.accentSoft) document.documentElement.style.setProperty('--accent-soft', st.accentSoft);
     if (window.TEACHER_MODE) return renderTeacher();
     if (window.PRINT_MODE) return renderPrint();
+    S.who = lsGet(WHO_KEY, null);
     frame();
     window.addEventListener('hashchange', function () { S.relang = null; route(); });
     route();
