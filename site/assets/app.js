@@ -241,7 +241,31 @@
   }
   function loadWeek(id) {
     if (S.weeks[id]) return Promise.resolve(S.weeks[id]);
-    return getJSON(DATA + id + '.json').then(function (w) { S.weeks[id] = w; return w; });
+    return getJSON(DATA + id + '.json').then(function (w) { addAutoReviews(w); S.weeks[id] = w; return w; });
+  }
+  /* Every homework day with a homework quiz gets its own Homework Review, made from that quiz's questions,
+     so she can check and correct her own homework. It opens only after the quiz is submitted. */
+  function addAutoReviews(w) {
+    var acts = {}, have = {};
+    (w.activities || []).forEach(function (a) { acts[a.id] = a; });
+    (w.reviews || []).forEach(function (r) { have[r.date] = true; });
+    var extra = [];
+    (w.days || []).slice().sort(function (a, b) { return a.date > b.date ? 1 : -1; }).forEach(function (d) {
+      if (d.kind !== 'homework' || have[d.date]) return;
+      var hw = (d.activities || []).map(function (id) { return acts[id]; }).filter(function (a) { return a && a.type === 'hwquiz' && (a.questions || []).length; });
+      if (!hw.length) return;
+      extra.push({ id: 'auto-' + d.date, date: d.date, title: d.title || hw[0].title, auto: true, part: hw[0].part,
+        hwIds: hw.map(function (a) { return a.id; }),
+        pages: hw.map(function (a) {
+          return { title: a.title, items: a.questions.map(function (q) {
+            return { q: q.q, context: q.context, options: q.options, answer: q.answer, right: q.options[q.answer], why: q.why };
+          }) };
+        }) });
+    });
+    if (extra.length) w.reviews = (w.reviews || []).concat(extra);
+  }
+  function hwSubmitted(week, r) {
+    return !r.auto || r.hwIds.every(function (id) { var s = lsGet(key('hw_' + week + '_' + id), null); return !!(s && s.submitted); });
   }
   function weekIds() { return (S.student.weeks || []).slice().sort().reverse(); }
   var MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -312,6 +336,7 @@
       }).catch(renderError);
     }
     if (parts[0] === 'log') return renderLog();
+    if (parts[0] !== 'book' && S.returnTo && location.hash !== S.returnTo.hash) S.returnTo = null;
     if (parts[0] === 'book') return renderBook(parts[1]);
     if (parts[0] === 'subject') return renderSubject(parts[1]);
     if (parts[0] === 'school') return renderSchool(parts[1]);
@@ -338,7 +363,7 @@
         h('p', { class: 'muted' }, weekLabel(w.week)),
         w.message ? h('div', { class: 'box teach' }, bi(w.message)) : null),
       featureButtons(w),
-      tiles.childNodes.length && featureButtons(w) ? h('h3', { class: 'section-title' }, '➕ ' + T('morePractice')) : null,
+      tiles.childNodes.length && featureButtons(w) ? h('h3', { class: 'section-title' }, '➕ ' + L('Optional extra practice (not homework)', '自选练习（不是作业）')) : null,
       tiles);
   }
   function renderHome() {
@@ -377,7 +402,7 @@
     })) : null;
     var libBtn = S.student.library ? h('a', { class: 'feature library', href: '#/library' }, h('span', { class: 'fico' }, '📚'),
       h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L('Library', '资料库')), h('span', { class: 'fsub' }, L('Download or print every file, any time', '随时下载或打印所有资料')))) : null;
-    show(subjects, h('div', { class: 'feature-row' }, bookBtn, schoolBtn, libBtn), thisWeek, anytime, past);
+    show(todayCard(), subjects, h('div', { class: 'feature-row' }, bookBtn, schoolBtn, libBtn), thisWeek, anytime, past);
   }
 
   /* One subject: School Homework, Homework, Homework Review, Main Book, then practice. Activities, sheets,
@@ -953,16 +978,73 @@
     (w.reviews || []).forEach(function (r) { (r.practice || []).forEach(function (id) { if (!m[id]) m[id] = '#/w/' + w.week + '/review/' + r.id; }); });
     return m;
   }
+  /* ---------- What is really finished. A homework day is finished only when its one-try quiz is
+     submitted AND its Homework Review is done. Opening a page does not count. ---------- */
+  function todayISO() { var d = new Date(); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
+  function dayReview(w, d) { return (w.reviews || []).filter(function (r) { return r.date === d.date; })[0]; }
+  function dayHw(w, d) {
+    var acts = {}; (w.activities || []).forEach(function (a) { acts[a.id] = a; });
+    return (d.activities || []).map(function (id) { return acts[id]; }).filter(function (a) { return a && a.type === 'hwquiz'; });
+  }
+  function dayStatus(w, d) {
+    if (d.kind !== 'homework') return null;
+    var hw = dayHw(w, d);
+    if (!hw.length) return null;
+    var saved = hw.map(function (a) { return lsGet(key('hw_' + w.week + '_' + a.id), null); });
+    var quiz = saved.every(function (s) { return !!(s && s.submitted); });
+    var started = saved.some(function (s) { return !!s; });
+    var r = dayReview(w, d), reviewed = !!(r && selfScore(r));
+    return { quiz: quiz, started: started, reviewed: reviewed, done: quiz && reviewed, review: r, hw: hw };
+  }
+  function statusText(s) {
+    if (!s) return '';
+    if (s.done) return '✅ ' + L('Finished', '已完成');
+    if (s.quiz) return '🟡 ' + L('Quiz done, Homework Review still to do', '小测已做，还要做作业讲评');
+    if (s.started) return '🟠 ' + L('Started, not finished', '已开始，还没完成');
+    return '⏳ ' + L('To do', '待做');
+  }
+  function kindLabel(d) { return d.kind === 'homework' ? '🏠 ' + L('Assigned homework', '布置的作业') : '📘 ' + L('Class with Roy', '和 Roy 老师上课'); }
+  /* The "Today" card at the top of the home page: unfinished homework first (in date order), then today. */
+  function todayCard() {
+    var box = h('div', { class: 'card today' }, h('p', { class: 'muted' }, '…'));
+    Promise.all(weekIds().map(function (id) { return loadWeek(id).catch(function () { return null; }); })).then(function (weeks) {
+      var all = [];
+      weeks.forEach(function (w) { if (w) (w.days || []).forEach(function (d) { all.push({ w: w, d: d, s: dayStatus(w, d) }); }); });
+      all.sort(function (a, b) { return a.d.date > b.d.date ? 1 : -1; });
+      var today = todayISO();
+      var late = all.filter(function (x) { return x.d.date < today && x.s && !x.s.done; });
+      var now = all.filter(function (x) { return x.d.date === today; })[0];
+      var next = all.filter(function (x) { return x.d.date > today; })[0];
+      function row(x, lead) {
+        var href = '#/w/' + x.w.week + '/day/' + x.d.date, go = x.s && x.s.started ? '▶️ ' + L('Continue', '继续') : '▶️ ' + L('Start', '开始');
+        return h('div', { class: 'today-row' },
+          h('div', { class: 'today-text' }, h('div', { class: 'today-lead' }, lead),
+            h('div', { class: 'today-title' }, kindLabel(x.d) + ': ' + dayLabel(x.d.date)),
+            x.d.title ? h('div', { class: 'small' }, tx(x.d.title)) : null,
+            x.s ? h('div', { class: 'small' }, statusText(x.s)) : null),
+          h('a', { class: 'btn big', href: href }, go));
+      }
+      clear(box);
+      add(box, [h('h2', null, '📅 ' + L('Today', '今天') + ': ' + dayLabel(today)),
+        late.length ? [h('div', { class: 'box hint' }, bi({ en: 'Please work in date order. Finish the earliest homework first.', zh: '请按日期顺序做。先完成最早的作业。' })),
+          row(late[0], L('Do this first', '先做这个')),
+          late.length > 1 ? h('p', { class: 'small muted' }, L('Then: ', '然后：') + late.slice(1).map(function (x) { return dayLabel(x.d.date); }).join(', ')) : null] : null,
+        now ? row(now, L('Today', '今天')) : h('p', null, L('No homework or class today.', '今天没有作业，也没有课。')),
+        !now && next ? row(next, L('Next', '下一个')) : null]);
+    }).catch(function () { clear(box); });
+    return box;
+  }
   function reviewItems(r) { var out = []; (r.pages || []).forEach(function (pg) { (pg.items || []).forEach(function (it) { out.push({ page: pg, it: it }); }); }); return out; }
   function reviewCount(r) {
     var all = reviewItems(r), right = all.filter(function (x) { return x.it.ok; }).length;
     return { right: right, total: all.length, wrong: all.length - right };
   }
   function starLine(c) { return '⭐ ' + L(c.right + ' of ' + c.total + ' stars', c.total + ' 颗星里得了 ' + c.right + ' 颗'); }
-  function reviewStatus(r) {
-    if (r.done === false) return L('⏳ Not done yet', '⏳ 还没做');
-    if (r.missing) return L('🟡 Part checked', '🟡 部分已批改');
-    return L('✅ Done', '✅ 完成');
+  function reviewStatus(r, week) {
+    if (r.auto && !hwSubmitted(week, r)) return '🔒 ' + L('Do the homework quiz first', '先做作业小测');
+    if (r.done === false) return '⏳ ' + L('Not done yet', '还没做');
+    if (r.missing) return '🟡 ' + L('Part checked', '部分已批改');
+    return '✅ ' + L('Done', '完成');
   }
   function featureButtons(w) {
     var out = [];
@@ -975,7 +1057,9 @@
       var hw = d.kind === 'homework';
       out.push(h('a', { class: 'feature ' + (hw ? 'homework' : 'workbook'), href: '#/w/' + w.week + '/day/' + d.date },
         h('span', { class: 'fico', 'aria-hidden': 'true' }, hw ? '🏠' : '📘'),
-        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, dayName(d) + ': ' + dayLabel(d.date)), d.title ? h('span', { class: 'fsub' }, tx(d.title)) : null)));
+        h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, (hw ? L('Homework', '作业') : L('Class with Roy', '和 Roy 老师上课')) + ': ' + dayLabel(d.date)),
+          d.title ? h('span', { class: 'fsub' }, tx(d.title)) : null,
+          hw && dayStatus(w, d) ? h('span', { class: 'fsub' }, statusText(dayStatus(w, d))) : null)));
     });
     return out.length ? h('div', { class: 'feature-row' }, out) : null;
   }
@@ -987,14 +1071,14 @@
       d.book.forEach(function (code) {
         var ch = b.chapters.filter(function (c) { return c.code === code; })[0];
         if (!ch) return;
-        row.appendChild(h('a', { class: 'feature book', href: '#/book/' + code }, h('span', { class: 'fico' }, '📖'),
-          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L("Today's Main Book: ", '今天的主课本：') + code), h('span', { class: 'fsub' }, tx(ch.title)))));
+        row.appendChild(h('a', { class: 'feature book', href: '#/book/' + code, onclick: function () { S.returnTo = { hash: location.hash, label: dayName(d) + ': ' + dayLabel(d.date) }; } }, h('span', { class: 'fico' }, '📖'),
+          h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, L("Today's Main Book", '今天的主课本') + ': ' + code), h('span', { class: 'fsub' }, tx(ch.title)))));
       });
     }).catch(function () {});
     return h('div', null, h('h2', { class: 'section-title' }, '📖 ' + L("Today's Main Book (teach this first)", '今天的主课本（先讲这个）')), row,
       h('h2', { class: 'section-title' }, '✏️ ' + L("Today's practice", '今天的练习')));
   }
-  function dayName(d) { return d.kind === 'homework' ? L('Homework', '作业') : T('workbook'); }
+  function dayName(d) { return d.kind === 'homework' ? L('Homework', '作业') : L('Class with Roy', '和 Roy 老师上课'); }
   function actTile(w, id) {
     var a = (w.activities || []).filter(function (x) { return x.id === id; })[0];
     if (!a) return null;
@@ -1013,11 +1097,33 @@
     show(backLink(), h('h1', null, (d.kind === 'homework' ? '🏠 ' : '📘 ') + dayName(d) + ': ' + dayLabel(date)),
       d.title ? h('h2', null, tx(d.title)) : null,
       d.message ? h('div', { class: 'box teach' }, bi(d.message)) : null,
+      daySteps(w, d),
       dayBook(d),
       h('div', { class: 'row' },
         h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, dayName(d) + ': ' + dayLabel(date)); } }, '🔗 ' + L('Share', '分享'))),
       start,
       h('div', { class: 'tiles' }, ids.slice(start ? 1 : 0).map(function (id) { return actTile(w, id); })));
+  }
+  function daySteps(w, d) {
+    if (d.kind !== 'homework') {
+      if (d.message) return null;   /* the day's own message already gives the class order */
+      return h('div', { class: 'card steps' }, h('div', { class: 'steps-head' }, kindLabel(d)),
+        h('ol', null, h('li', null, '📋 ' + L('Homework Review', '作业讲评')), h('li', null, '📖 ' + L('Main Book (below)', '主课本（下面）')),
+          h('li', null, '✏️ ' + L('Workbook practice (below)', '练习册（下面）')), h('li', null, '🔁 ' + L('Review the workbook together', '一起讲评练习册'))));
+    }
+    var s = dayStatus(w, d);
+    if (!s) return null;
+    var quizHref = '#/w/' + w.week + '/' + s.hw[0].id, revHref = s.review ? '#/w/' + w.week + '/review/' + s.review.id : '#/w/' + w.week + '/reviews';
+    var next = s.done ? h('div', { class: 'box ans' }, '✅ ' + L('All 4 steps are finished. Well done!', '4 步都完成了，真棒！'))
+      : s.quiz ? h('a', { class: 'btn big', href: revHref }, L('Next: 📋 Homework Review', '下一步：📋 作业讲评'))
+      : h('a', { class: 'btn big', href: quizHref }, s.started ? L('Next: continue the homework quiz', '下一步：继续作业小测') : L('After Learn and Practice: 🏠 homework quiz (one try)', '学习和练习之后：🏠 作业小测（只能做一次）'));
+    function step(n, text, ok) { return h('li', { class: ok ? 'ok' : '' }, (ok ? '✅ ' : '') + text); }
+    return h('div', { class: 'card steps' }, h('div', { class: 'steps-head' }, kindLabel(d) + '  ·  ' + statusText(s)),
+      h('ol', null, step(1, '📖 ' + L('Learn: read today\'s Main Book chapters', '学习：读今天的主课本'), false),
+        step(2, '✏️ ' + L('Practice: the activities below, in order', '练习：按顺序做下面的活动'), false),
+        step(3, '🏠 ' + L('Quiz: the homework quiz, one try', '小测：作业小测，只能做一次'), s.quiz),
+        step(4, '📋 ' + L('Review: check every answer and why in Homework Review', '讲评：在作业讲评里检查每个答案和原因'), s.reviewed)),
+      h('div', { class: 'row center' }, next));
   }
   function selfScore(r) { return lsGet(key('rv_' + r.id), null); }
   function logTable(rows) {
@@ -1027,19 +1133,19 @@
         var sc = selfScore(x.r);
         return h('tr', null,
           h('td', null, h('a', { href: '#/w/' + x.week + '/review/' + x.r.id }, dayLabel(x.r.date)), h('div', { class: 'small muted' }, tx(x.r.title))),
-          h('td', null, reviewStatus(x.r)),
+          h('td', null, reviewStatus(x.r, x.week)),
           h('td', null, sc ? '✅ ' + sc.right + ' / ' + sc.total : L('not yet', '还没有')));
       }));
   }
   function renderReviews(w) {
     var rows = (w.reviews || []).map(function (r) { return { r: r, week: w.week }; });
     show(backLink(), h('h1', null, '📋 ' + T('hwReview')),
-      h('div', { class: 'box teach' }, bi({ en: 'Open a homework day and go through it with Roy, one question at a time. Answer first, then check the answer and score yourself.', zh: '打开一天的作业，和 Roy 老师一题一题地看。先自己回答，再看答案，然后给自己打分。' })),
+      h('div', { class: 'box teach' }, bi({ en: 'Check your own homework, one day at a time, in date order. Answer first, then check the answer and the why, and score yourself. Understand and correct every mistake before class.', zh: '按日期顺序，一天一天地自己检查作业。先自己回答，再看答案和原因，然后给自己打分。上课前把每个错误都弄懂并改正。' })),
       h('div', { class: 'card' }, logTable(rows)),
       rows.map(function (x) {
-        var sc = selfScore(x.r), n = reviewItems(x.r).length;
-        return h('a', { class: 'feature review', href: '#/w/' + w.week + '/review/' + x.r.id },
-          h('span', { class: 'fico' }, '📝'),
+        var sc = selfScore(x.r), n = reviewItems(x.r).length, locked = !hwSubmitted(w.week, x.r);
+        return h('a', { class: 'feature review' + (locked ? ' locked' : ''), href: '#/w/' + w.week + '/review/' + x.r.id },
+          h('span', { class: 'fico' }, locked ? '🔒' : '📝'),
           h('span', { class: 'ftext' }, h('span', { class: 'ftitle' }, dayLabel(x.r.date) + ': ' + tx(x.r.title)),
             h('span', { class: 'fsub' }, n + ' ' + L('questions', '道题') + (sc ? '  ·  ✅ ' + sc.right + ' / ' + sc.total : ''))));
       }));
@@ -1058,6 +1164,12 @@
   function renderReview(w, id) {
     var r = (w.reviews || []).filter(function (x) { return x.id === id; })[0];
     if (!r) return renderError();
+    if (!hwSubmitted(w.week, r)) {
+      var day = (w.days || []).filter(function (d) { return d.date === r.date; })[0];
+      return show(backLink('#/w/' + w.week + '/reviews'), h('h1', null, '🔒 ' + dayLabel(r.date)),
+        h('div', { class: 'box hint' }, bi({ en: 'Do this day\'s homework quiz first. Then come back here to check your answers and correct your mistakes.', zh: '先做这一天的作业小测。做完再回来检查答案、改正错误。' })),
+        day ? h('div', { class: 'row center' }, h('a', { class: 'btn big', href: '#/w/' + w.week + '/day/' + day.date }, '🏠 ' + L('Go to the homework', '去做作业'))) : null);
+    }
     var items = reviewItems(r);
     var st = keep('review', function () { return { i: 0, marks: {}, t0: Date.now() }; });
     var head = [backLink('#/w/' + w.week + '/reviews'), h('h1', null, '📝 ' + dayLabel(r.date)), h('h2', null, tx(r.title))];
@@ -1092,6 +1204,7 @@
         numStrip(items.length, i, function (k) { return st.marks[k] == null ? '' : st.marks[k] ? 'ok' : 'warn'; }, function (k) { st.i = k; window.scrollTo(0, 0); one(); }),
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + items.length), h('span', { class: 'small' }, tx(x.page.title))),
         it.n ? h('div', { class: 'muted small' }, it.n) : null,
+        it.context ? h('div', { class: 'box teach' }, rich(it.context)) : null,
         h('div', { class: 'box q' }, rich(it.q)),
         it.visual && it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
         opts ? h('div', { class: 'answers' }, opts) : h('div', { class: 'muted' }, L('Say or write your answer first.', '先说出或写下你的答案。')),
@@ -1175,7 +1288,8 @@
     function done() {
       clear(area);
       add(area, h('div', { class: 'card center' }, h('h2', null, '📨 ' + L('Submitted!', '已提交！')),
-        h('p', { class: 'praise' }, L('Great work. Roy will go through it with you in class.', '做得好！Roy 老师上课时会和你一起看。')),
+        h('p', { class: 'praise' }, L('Great work! Now check your own answers in 📋 Homework Review and correct every mistake.', '做得好！现在去“📋 作业讲评”自己检查答案，改正每一个错误。')),
+        h('div', { class: 'row center' }, h('a', { class: 'btn big', href: '#/w/' + ctx.week + '/reviews' }, '📋 ' + L('Check it now', '现在去检查'))),
         st.when ? h('p', { class: 'muted small' }, st.when) : null, canNow(a)));
     }
   };
@@ -1236,7 +1350,7 @@
       if (dotX) {
         dot = sv('circle', { r: 11, cx: dotX, cy: y0, fill: '#e8590c', stroke: '#fff', 'stroke-width': 3 });
         svg.appendChild(dot);
-        svg.appendChild(label(dotX + 20, 28, L('↕ vibrates up and down', '↕ 上下振动'), { anchor: 'start', size: 17, color: '#e8590c' }));
+        svg.appendChild(label(dotX + 20, 28, '↕ ' + L('vibrates up and down', '上下振动'), { anchor: 'start', size: 17, color: '#e8590c' }));
         svg.appendChild(sv('line', { x1: 40, y1: H - 18, x2: 220, y2: H - 18, stroke: '#1b2a6b', 'stroke-width': 3, 'marker-end': arrowUrl(svg) }));
         svg.appendChild(label(230, H - 12, L('wave travels this way', '波向这边传播'), { anchor: 'start', size: 17 }));
       }
@@ -1273,7 +1387,7 @@
     var u = arrowUrl(svg);
     svg.appendChild(sv('line', { x1: 40, y1: 190, x2: 220, y2: 190, stroke: '#1b2a6b', 'stroke-width': 3, 'marker-end': u }));
     svg.appendChild(label(230, 196, L('wave travels this way', '波向这边传播'), { anchor: 'start', size: 17 }));
-    svg.appendChild(label(W / 2, 222, L('↔ particles vibrate in the SAME direction', '↔ 粒子振动方向和传播方向相同'), { size: 16, color: '#e8590c' }));
+    svg.appendChild(label(W / 2, 222, '↔ ' + L('particles vibrate in the SAME direction', '粒子振动方向和传播方向相同'), { size: 16, color: '#e8590c' }));
     var cLab = label(0, 28, L('compression', '密部'), { color: '#c2255c', size: 17 });
     var rLab = label(0, 28, L('rarefaction', '疏部'), { color: '#2f9e44', size: 17 });
     if (v.labels !== false) { svg.appendChild(cLab); svg.appendChild(rLab); }
@@ -1675,12 +1789,13 @@
         var ch = b.chapters.filter(function (c) { return c.code === code; })[0];
         if (!ch) return renderError();
         var area = h('div');
-        show(backLink('#/book'), h('h1', null, '📖 ' + ch.code + ' ' + tx(ch.title)),
+        var ret = S.returnTo;
+        show(ret ? h('a', { class: 'back', href: ret.hash }, '← ' + L('Back to', '回到') + ': ' + ret.label) : backLink('#/book'), h('h1', null, '📖 ' + ch.code + ' ' + tx(ch.title)),
           h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享'))), area);
         var ready = b.chapters.filter(function (c) { return c.slides && c.slides.length; }), at = ready.indexOf(ch);
         var pv = ready[at - 1], nx = ready[at + 1];
-        return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: nx ? '#/book/' + nx.code : '#/book', week: 'book', en: 'Main Book ' + ch.code,
-          doneText: nx ? { en: 'Done! Next chapter: ' + nx.code, zh: '完成！下一章：' + nx.code } : { en: 'Done! Back to the Main Book', zh: '完成！回到主课本' },
+        return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: ret ? ret.hash : nx ? '#/book/' + nx.code : '#/book', week: 'book', en: 'Main Book ' + ch.code,
+          doneText: ret ? { en: 'Done! Back to ' + ret.label, zh: '完成！回到 ' + ret.label } : nx ? { en: 'Done! Next chapter: ' + nx.code, zh: '完成！下一章：' + nx.code } : { en: 'Done! Back to the Main Book', zh: '完成！回到主课本' },
           panelExtra: function () {
             return h('div', { class: 'pp-chapters' },
               pv ? h('a', { class: 'pp-ch', href: '#/book/' + pv.code }, '← ' + pv.code + ' ' + tx(pv.title)) : null,

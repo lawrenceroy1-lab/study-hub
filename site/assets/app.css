@@ -401,3 +401,18 @@ button.dot { border: 0; padding: 0; cursor: pointer; }
 .lib-sub { font-size: .8em; color: var(--muted); overflow-wrap: anywhere; }
 .lib-row .btn { flex: 0 0 auto; white-space: nowrap; }
 @media (max-width: 600px) { .lib-row { flex-wrap: wrap; } .lib-row .btn { width: 100%; text-align: center; } }
+.feature.review.locked { filter: grayscale(.6); opacity: .75; }
+
+/* ---------- Today card and homework steps ---------- */
+.card.today { border-left: 8px solid var(--accent); }
+.card.today h2 { margin-top: 0; }
+.today-row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-top: 2px solid var(--line); }
+.today-text { flex: 1 1 auto; min-width: 0; }
+.today-lead { font-size: .8em; font-weight: 800; color: var(--accent); text-transform: uppercase; letter-spacing: .03em; }
+.today-title { font-weight: 800; color: var(--title); }
+.today-row .btn { flex: 0 0 auto; }
+@media (max-width: 600px) { .today-row { flex-wrap: wrap; } .today-row .btn { width: 100%; text-align: center; } }
+.card.steps .steps-head { font-weight: 800; color: var(--title); margin-bottom: 6px; }
+.card.steps ol { margin: 0 0 10px; padding-left: 1.4em; }
+.card.steps li { margin: 4px 0; }
+.card.steps li.ok { color: #1e6b2f; font-weight: 700; }
