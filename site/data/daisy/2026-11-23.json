@@ -194,6 +194,136 @@
     "E5",
     "E6"
    ]
+  },
+  {
+   "date": "2026-12-01",
+   "title": {
+    "en": "Maths: Multiply Mixed Numbers",
+    "zh": "数学：带分数乘法"
+   },
+   "book": [
+    "M5"
+   ],
+   "activities": [
+    "m5match",
+    "m5quiz"
+   ],
+   "message": {
+    "en": "Class with Roy. Main Book M5 first, then the practice.",
+    "zh": "和 Roy 老师上课。先学主课本 M5，再做练习。"
+   }
+  },
+  {
+   "date": "2026-12-02",
+   "title": {
+    "en": "Homework: Multiply Mixed Numbers",
+    "zh": "作业：带分数乘法"
+   },
+   "book": [
+    "M5"
+   ],
+   "activities": [
+    "hw-wed2"
+   ],
+   "kind": "homework",
+   "message": {
+    "en": "About 30 minutes. Read Main Book M5, then do the homework ONCE.",
+    "zh": "大约 30 分钟。先读主课本 M5，再做一次作业。"
+   }
+  },
+  {
+   "date": "2026-12-03",
+   "title": {
+    "en": "Maths: Divide Mixed Numbers",
+    "zh": "数学：带分数除法"
+   },
+   "book": [
+    "M6"
+   ],
+   "activities": [
+    "m6quiz"
+   ],
+   "message": {
+    "en": "Class with Roy. Main Book M6 first, then the practice.",
+    "zh": "和 Roy 老师上课。先学主课本 M6，再做练习。"
+   }
+  },
+  {
+   "date": "2026-12-04",
+   "title": {
+    "en": "Homework: × and ÷ Mixed Numbers",
+    "zh": "作业：带分数乘除"
+   },
+   "book": [
+    "M5",
+    "M6"
+   ],
+   "activities": [
+    "hw-fri4"
+   ],
+   "kind": "homework",
+   "message": {
+    "en": "About 30 minutes. Read Main Book M5 and M6, then do the homework ONCE.",
+    "zh": "大约 30 分钟。先读主课本 M5、M6，再做一次作业。"
+   }
+  },
+  {
+   "date": "2026-12-05",
+   "title": {
+    "en": "Homework: English Review",
+    "zh": "作业：英语复习"
+   },
+   "book": [
+    "R6",
+    "E4",
+    "E5"
+   ],
+   "activities": [
+    "hw-sat5"
+   ],
+   "kind": "homework",
+   "message": {
+    "en": "About 30 minutes. Read Main Book R6, E4 and E5, then do the homework ONCE.",
+    "zh": "大约 30 分钟。先读主课本 R6、E4、E5，再做一次作业。"
+   }
+  },
+  {
+   "date": "2026-12-06",
+   "title": {
+    "en": "Maths: Convert Measurement Units",
+    "zh": "数学：单位换算"
+   },
+   "book": [
+    "M7"
+   ],
+   "activities": [
+    "m7cards",
+    "m7quiz"
+   ],
+   "message": {
+    "en": "Class with Roy. Main Book M7 first, then the practice.",
+    "zh": "和 Roy 老师上课。先学主课本 M7，再做练习。"
+   }
+  },
+  {
+   "date": "2026-12-07",
+   "title": {
+    "en": "Homework: Units and Mixed Numbers",
+    "zh": "作业：单位和带分数"
+   },
+   "book": [
+    "M5",
+    "M6",
+    "M7"
+   ],
+   "activities": [
+    "hw-mon7"
+   ],
+   "kind": "homework",
+   "message": {
+    "en": "About 30 minutes. Read Main Book M5, M6 and M7, then do the homework ONCE.",
+    "zh": "大约 30 分钟。先读主课本 M5、M6、M7，再做一次作业。"
+   }
   }
  ],
  "activities": [
@@ -3578,6 +3708,1149 @@
     "en": "I can now use everything from this week by myself.",
     "zh": "我现在能自己用上本周学的所有内容。"
    }
+  },
+  {
+   "id": "m5quiz",
+   "type": "quiz",
+   "part": "M",
+   "title": {
+    "en": "Quiz: Multiply Mixed Numbers",
+    "zh": "小测：带分数乘法"
+   },
+   "intro": {
+    "en": "Change to improper fractions FIRST. Then multiply.",
+    "zh": "先变成假分数，再乘。"
+   },
+   "canNow": {
+    "en": "I can now multiply mixed numbers.",
+    "zh": "我现在可以做带分数乘法。"
+   },
+   "icon": "🧮",
+   "timed": false,
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "questions": [
+    {
+     "q": "Change 3 1/4 to an improper fraction.",
+     "options": [
+      "7/4",
+      "12/4",
+      "13/4",
+      "4/4"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "4 × 3 = 12, then 12 + 1 = 13. So 13/4.",
+      "zh": "4 × 3 = 12，再 12 + 1 = 13，所以是 13/4。"
+     }
+    },
+    {
+     "q": "Change 2 2/5 to an improper fraction.",
+     "options": [
+      "9/5",
+      "10/5",
+      "4/5",
+      "12/5"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "5 × 2 = 10, then 10 + 2 = 12. So 12/5.",
+      "zh": "5 × 2 = 10，再 10 + 2 = 12，所以是 12/5。"
+     }
+    },
+    {
+     "q": "Change 11/4 to a mixed number.",
+     "options": [
+      "3 1/4",
+      "2 3/4",
+      "2 1/4",
+      "1 3/4"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "11 ÷ 4 = 2 with 3 left over: 2 3/4.",
+      "zh": "11 ÷ 4 = 2 余 3：2 3/4。"
+     }
+    },
+    {
+     "q": "1 1/2 × 1 1/2 = ?",
+     "options": [
+      "1 1/4",
+      "2",
+      "3",
+      "2 1/4"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "3/2 × 3/2 = 9/4 = 2 1/4.",
+      "zh": "3/2 × 3/2 = 9/4 = 2 1/4。"
+     }
+    },
+    {
+     "q": "2 1/3 × 3 = ?",
+     "options": [
+      "7",
+      "6 1/3",
+      "6 1/9",
+      "9"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "7/3 × 3/1 = 21/3 = 7.",
+      "zh": "7/3 × 3/1 = 21/3 = 7。"
+     }
+    },
+    {
+     "q": "1 1/4 × 2/5 = ?",
+     "options": [
+      "2/5",
+      "1 1/10",
+      "1/2",
+      "5/8"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "5/4 × 2/5 = 10/20 = 1/2.",
+      "zh": "5/4 × 2/5 = 10/20 = 1/2。"
+     }
+    },
+    {
+     "q": "2 1/2 × 1 1/3 = ?",
+     "options": [
+      "2 1/6",
+      "3 1/3",
+      "3 1/6",
+      "2 5/6"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "5/2 × 4/3 = 20/6 = 10/3 = 3 1/3. Trap: 2 1/6 multiplies the parts on their own.",
+      "zh": "5/2 × 4/3 = 20/6 = 10/3 = 3 1/3。陷阱：2 1/6 是把两部分分开乘了。"
+     }
+    },
+    {
+     "q": "Estimate first: 3 1/4 × 1 3/4 is about...",
+     "options": [
+      "6",
+      "3",
+      "12",
+      "2"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "3 1/4 is about 3, and 1 3/4 is about 2. 3 × 2 = 6.",
+      "zh": "3 1/4 约是 3，1 3/4 约是 2。3 × 2 = 6。"
+     }
+    },
+    {
+     "q": "A cat eats 1 1/3 cans of food a day. How many cans in 6 days?",
+     "options": [
+      "6 1/3",
+      "7",
+      "6 1/18",
+      "8"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "4/3 × 6/1 = 24/3 = 8 cans.",
+      "zh": "4/3 × 6/1 = 24/3 = 8 罐。"
+     }
+    },
+    {
+     "q": "Lily's gel pen is 5 1/2 inches long. Her ruler is 2 times as long. How long is the ruler?",
+     "options": [
+      "10 1/2 inches",
+      "10 inches",
+      "11 inches",
+      "7 1/2 inches"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "11/2 × 2/1 = 22/2 = 11 inches.",
+      "zh": "11/2 × 2/1 = 22/2 = 11 英寸。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "m5match",
+   "type": "match",
+   "part": "M",
+   "title": {
+    "en": "Match Game: Mixed and Improper",
+    "zh": "配对游戏：带分数和假分数"
+   },
+   "intro": {
+    "en": "Tap a mixed number, then the same amount as an improper fraction.",
+    "zh": "先点带分数，再点和它相等的假分数。"
+   },
+   "canNow": {
+    "en": "I can now change mixed numbers to improper fractions quickly.",
+    "zh": "我现在可以快速把带分数变成假分数。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "2 1/3",
+     "b": "7/3"
+    },
+    {
+     "a": "1 1/2",
+     "b": "3/2"
+    },
+    {
+     "a": "3 1/4",
+     "b": "13/4"
+    },
+    {
+     "a": "2 2/5",
+     "b": "12/5"
+    },
+    {
+     "a": "1 3/4",
+     "b": "7/4"
+    },
+    {
+     "a": "4 1/2",
+     "b": "9/2"
+    },
+    {
+     "a": "2 5/6",
+     "b": "17/6"
+    },
+    {
+     "a": "1 2/3",
+     "b": "5/3"
+    }
+   ]
+  },
+  {
+   "id": "m6quiz",
+   "type": "quiz",
+   "part": "M",
+   "title": {
+    "en": "Quiz: Divide Mixed Numbers",
+    "zh": "小测：带分数除法"
+   },
+   "intro": {
+    "en": "Improper first, then Keep, Change, Flip.",
+    "zh": "先变假分数，再“不变、变号、倒过来”。"
+   },
+   "canNow": {
+    "en": "I can now divide mixed numbers.",
+    "zh": "我现在可以做带分数除法。"
+   },
+   "icon": "🧮",
+   "timed": false,
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "questions": [
+    {
+     "q": "2 1/2 ÷ 1/2 = ?",
+     "options": [
+      "5",
+      "1 1/4",
+      "4",
+      "2"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "5/2 × 2/1 = 10/2 = 5.",
+      "zh": "5/2 × 2/1 = 10/2 = 5。"
+     }
+    },
+    {
+     "q": "3 1/3 ÷ 2/3 = ?",
+     "options": [
+      "2 2/9",
+      "5",
+      "1 1/5",
+      "6"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "10/3 × 3/2 = 30/6 = 5.",
+      "zh": "10/3 × 3/2 = 30/6 = 5。"
+     }
+    },
+    {
+     "q": "1 1/2 ÷ 3/4 = ?",
+     "options": [
+      "1 1/8",
+      "1/2",
+      "2",
+      "4/3"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "3/2 × 4/3 = 12/6 = 2.",
+      "zh": "3/2 × 4/3 = 12/6 = 2。"
+     }
+    },
+    {
+     "q": "4 1/2 ÷ 1 1/2 = ?",
+     "options": [
+      "6 3/4",
+      "4",
+      "2",
+      "3"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "9/2 × 2/3 = 18/6 = 3.",
+      "zh": "9/2 × 2/3 = 18/6 = 3。"
+     }
+    },
+    {
+     "q": "5 ÷ 1 1/4 = ?",
+     "options": [
+      "6 1/4",
+      "4",
+      "5 4/5",
+      "3"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "5/1 × 4/5 = 20/5 = 4.",
+      "zh": "5/1 × 4/5 = 20/5 = 4。"
+     }
+    },
+    {
+     "q": "2 1/4 ÷ 1 1/2 = ?",
+     "options": [
+      "3 3/8",
+      "2/3",
+      "2",
+      "1 1/2"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "9/4 × 2/3 = 18/12 = 3/2 = 1 1/2.",
+      "zh": "9/4 × 2/3 = 18/12 = 3/2 = 1 1/2。"
+     }
+    },
+    {
+     "q": "In 3 3/4 ÷ 1 1/4, which fraction do you flip?",
+     "options": [
+      "5/4",
+      "15/4",
+      "both",
+      "neither"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Change to 15/4 ÷ 5/4. Keep the first, flip only the second: 4/5.",
+      "zh": "变成 15/4 ÷ 5/4。第一个不变，只把第二个倒过来：4/5。"
+     }
+    },
+    {
+     "q": "Emma has 6 cups of flour. Each cake needs 1 1/2 cups. How many cakes?",
+     "options": [
+      "9",
+      "3",
+      "4",
+      "5"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "How many 1 1/2 in 6? 6/1 × 2/3 = 12/3 = 4 cakes.",
+      "zh": "6 里有几个 1 1/2？6/1 × 2/3 = 12/3 = 4 个蛋糕。"
+     }
+    },
+    {
+     "q": "A 7 1/2 m rope is cut into pieces 2 1/2 m long. How many pieces?",
+     "options": [
+      "18 3/4",
+      "3",
+      "5",
+      "2"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "15/2 × 2/5 = 30/10 = 3 pieces.",
+      "zh": "15/2 × 2/5 = 30/10 = 3 段。"
+     }
+    },
+    {
+     "q": "Daisy swims 4 laps in 2/3 of an hour. Is 4 ÷ 2/3 bigger or smaller than 4?",
+     "options": [
+      "bigger: 6",
+      "smaller: 2 2/3",
+      "the same: 4",
+      "smaller: 1/6"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2/3 is less than 1, so the answer is bigger: 4/1 × 3/2 = 12/2 = 6.",
+      "zh": "2/3 小于 1，所以答案变大：4/1 × 3/2 = 12/2 = 6。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "m7cards",
+   "type": "flashcards",
+   "part": "M",
+   "title": {
+    "en": "Flashcards: Unit Facts",
+    "zh": "闪卡：单位换算"
+   },
+   "intro": {
+    "en": "Say the answer, then flip to check.",
+    "zh": "先说答案，再翻过来检查。"
+   },
+   "canNow": {
+    "en": "I can now remember the unit facts.",
+    "zh": "我现在记住了单位换算。"
+   },
+   "icon": "📏",
+   "subtitle": {
+    "en": "8 cards",
+    "zh": "8 张卡"
+   },
+   "cards": [
+    {
+     "front": "1 foot = ? inches",
+     "back": "12 inches",
+     "zh": "1 英尺 = ? 英寸",
+     "zhBack": "12 英寸"
+    },
+    {
+     "front": "1 yard = ? feet",
+     "back": "3 feet",
+     "zh": "1 码 = ? 英尺",
+     "zhBack": "3 英尺"
+    },
+    {
+     "front": "1 pound = ? ounces",
+     "back": "16 ounces",
+     "zh": "1 磅 = ? 盎司",
+     "zhBack": "16 盎司"
+    },
+    {
+     "front": "1 ton = ? pounds",
+     "back": "2,000 pounds",
+     "zh": "1 吨 = ? 磅",
+     "zhBack": "2,000 磅"
+    },
+    {
+     "front": "1 cup = ? fluid ounces",
+     "back": "8 fluid ounces",
+     "zh": "1 杯 = ? 液量盎司",
+     "zhBack": "8 液量盎司"
+    },
+    {
+     "front": "1 pint = ? cups",
+     "back": "2 cups",
+     "zh": "1 品脱 = ? 杯",
+     "zhBack": "2 杯"
+    },
+    {
+     "front": "1 quart = ? pints",
+     "back": "2 pints",
+     "zh": "1 夸脱 = ? 品脱",
+     "zhBack": "2 品脱"
+    },
+    {
+     "front": "1 gallon = ? quarts",
+     "back": "4 quarts",
+     "zh": "1 加仑 = ? 夸脱",
+     "zhBack": "4 夸脱"
+    }
+   ]
+  },
+  {
+   "id": "m7quiz",
+   "type": "quiz",
+   "part": "M",
+   "title": {
+    "en": "Quiz: Convert Units",
+    "zh": "小测：单位换算"
+   },
+   "intro": {
+    "en": "Big to small: ×. Small to big: ÷.",
+    "zh": "大到小：×。小到大：÷。"
+   },
+   "canNow": {
+    "en": "I can now convert units, even with fractions.",
+    "zh": "我现在可以换算单位，带分数也可以。"
+   },
+   "icon": "📏",
+   "timed": false,
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "questions": [
+    {
+     "q": "4 ft = ? in",
+     "options": [
+      "16 in",
+      "40 in",
+      "1/3 in",
+      "48 in"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Big to small: multiply. 4 × 12 = 48 in.",
+      "zh": "大到小：乘。4 × 12 = 48 英寸。"
+     }
+    },
+    {
+     "q": "3 lb = ? oz",
+     "options": [
+      "19 oz",
+      "30 oz",
+      "48 oz",
+      "24 oz"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "3 × 16 = 48 oz.",
+      "zh": "3 × 16 = 48 盎司。"
+     }
+    },
+    {
+     "q": "5 pt = ? c",
+     "options": [
+      "10 c",
+      "2 1/2 c",
+      "7 c",
+      "40 c"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "1 pt = 2 c, so 5 × 2 = 10 c.",
+      "zh": "1 品脱 = 2 杯，所以 5 × 2 = 10 杯。"
+     }
+    },
+    {
+     "q": "18 in = ? ft",
+     "options": [
+      "216 ft",
+      "1 1/2 ft",
+      "1 1/4 ft",
+      "6 ft"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Small to big: divide. 18 ÷ 12 = 18/12 = 3/2 = 1 1/2 ft.",
+      "zh": "小到大：除。18 ÷ 12 = 18/12 = 3/2 = 1 1/2 英尺。"
+     }
+    },
+    {
+     "q": "8 oz = ? lb",
+     "options": [
+      "2 lb",
+      "128 lb",
+      "1/2 lb",
+      "1/8 lb"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "8 ÷ 16 = 8/16 = 1/2 lb.",
+      "zh": "8 ÷ 16 = 8/16 = 1/2 磅。"
+     }
+    },
+    {
+     "q": "12 qt = ? gal",
+     "options": [
+      "48 gal",
+      "6 gal",
+      "4 gal",
+      "3 gal"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "1 gal = 4 qt, so 12 ÷ 4 = 3 gal.",
+      "zh": "1 加仑 = 4 夸脱，所以 12 ÷ 4 = 3 加仑。"
+     }
+    },
+    {
+     "q": "2 1/2 yd = ? ft",
+     "options": [
+      "5 1/2 ft",
+      "7 1/2 ft",
+      "6 ft",
+      "30 ft"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "5/2 × 3/1 = 15/2 = 7 1/2 ft.",
+      "zh": "5/2 × 3/1 = 15/2 = 7 1/2 英尺。"
+     }
+    },
+    {
+     "q": "1 1/2 c = ? fl oz",
+     "options": [
+      "9 fl oz",
+      "10 fl oz",
+      "16 fl oz",
+      "12 fl oz"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "3/2 × 8/1 = 24/2 = 12 fl oz.",
+      "zh": "3/2 × 8/1 = 24/2 = 12 液量盎司。"
+     }
+    },
+    {
+     "q": "To change pounds to ounces you...",
+     "options": [
+      "multiply by 16",
+      "divide by 16",
+      "multiply by 12",
+      "divide by 12"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Pounds are bigger, so you need more ounces: × 16.",
+      "zh": "磅比盎司大，换成盎司数字变大：× 16。"
+     }
+    },
+    {
+     "q": "A baby elephant weighs 1/4 T. How many pounds is that?",
+     "options": [
+      "8,000 lb",
+      "250 lb",
+      "500 lb",
+      "400 lb"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "1 T = 2,000 lb. 1/4 × 2,000 = 2,000 ÷ 4 = 500 lb.",
+      "zh": "1 吨 = 2,000 磅。1/4 × 2,000 = 2,000 ÷ 4 = 500 磅。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-wed2",
+   "type": "hwquiz",
+   "part": "M",
+   "title": {
+    "en": "Homework: Multiply Mixed Numbers",
+    "zh": "作业：带分数乘法"
+   },
+   "intro": {
+    "en": "Read Main Book M5 first. Then do this ONCE. No calculator.",
+    "zh": "先读主课本 M5，再做一次。不用计算器。"
+   },
+   "canNow": {
+    "en": "I can now multiply mixed numbers on my own.",
+    "zh": "我现在可以自己做带分数乘法。"
+   },
+   "questions": [
+    {
+     "q": "Change 1 3/8 to an improper fraction.",
+     "options": [
+      "4/8",
+      "11/8",
+      "13/8",
+      "8/11"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "8 × 1 = 8, then 8 + 3 = 11. So 11/8.",
+      "zh": "8 × 1 = 8，再 8 + 3 = 11，所以是 11/8。"
+     }
+    },
+    {
+     "q": "Change 17/5 to a mixed number.",
+     "options": [
+      "3 2/5",
+      "2 3/5",
+      "3 1/5",
+      "5 2/3"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "17 ÷ 5 = 3 with 2 left over: 3 2/5.",
+      "zh": "17 ÷ 5 = 3 余 2：3 2/5。"
+     }
+    },
+    {
+     "q": "1 2/3 × 3 = ?",
+     "options": [
+      "3 2/3",
+      "4",
+      "3 2/9",
+      "5"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "5/3 × 3/1 = 15/3 = 5.",
+      "zh": "5/3 × 3/1 = 15/3 = 5。"
+     }
+    },
+    {
+     "q": "2 1/2 × 1 1/5 = ?",
+     "options": [
+      "2 1/10",
+      "3 1/2",
+      "3",
+      "2 1/2"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "5/2 × 6/5 = 30/10 = 3.",
+      "zh": "5/2 × 6/5 = 30/10 = 3。"
+     }
+    },
+    {
+     "q": "3/4 × 2 2/3 = ?",
+     "options": [
+      "2",
+      "1 1/2",
+      "2 1/2",
+      "6/12"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "3/4 × 8/3 = 24/12 = 2.",
+      "zh": "3/4 × 8/3 = 24/12 = 2。"
+     }
+    },
+    {
+     "q": "1 1/3 × 1 1/2 = ?",
+     "options": [
+      "1 1/6",
+      "2",
+      "2 1/2",
+      "1 5/6"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "4/3 × 3/2 = 12/6 = 2.",
+      "zh": "4/3 × 3/2 = 12/6 = 2。"
+     }
+    },
+    {
+     "q": "A K-pop dance practice lasts 1 3/4 hours. Daisy practises 4 times. How many hours?",
+     "options": [
+      "4 3/4",
+      "6",
+      "7",
+      "7 3/4"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "7/4 × 4/1 = 28/4 = 7 hours.",
+      "zh": "7/4 × 4/1 = 28/4 = 7 小时。"
+     }
+    },
+    {
+     "q": "Sophie's cat weighs 4 1/2 kg. Her dog is 2 1/2 times as heavy. How heavy is the dog?",
+     "options": [
+      "8 1/4 kg",
+      "9 kg",
+      "7 kg",
+      "11 1/4 kg"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "9/2 × 5/2 = 45/4 = 11 1/4 kg.",
+      "zh": "9/2 × 5/2 = 45/4 = 11 1/4 千克。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-fri4",
+   "type": "hwquiz",
+   "part": "M",
+   "title": {
+    "en": "Homework: × and ÷ Mixed Numbers",
+    "zh": "作业：带分数乘除"
+   },
+   "intro": {
+    "en": "Read Main Book M5 and M6 first. Then do this ONCE. No calculator.",
+    "zh": "先读主课本 M5 和 M6，再做一次。不用计算器。"
+   },
+   "canNow": {
+    "en": "I can now choose × or ÷ and work with mixed numbers.",
+    "zh": "我现在可以选对乘或除，并计算带分数。"
+   },
+   "questions": [
+    {
+     "q": "3 ÷ 3/4 = ?",
+     "options": [
+      "2 1/4",
+      "4",
+      "1/4",
+      "9/4"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "3/1 × 4/3 = 12/3 = 4.",
+      "zh": "3/1 × 4/3 = 12/3 = 4。"
+     }
+    },
+    {
+     "q": "2 2/3 ÷ 2/3 = ?",
+     "options": [
+      "1 7/9",
+      "2",
+      "3",
+      "4"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "8/3 × 3/2 = 24/6 = 4.",
+      "zh": "8/3 × 3/2 = 24/6 = 4。"
+     }
+    },
+    {
+     "q": "3 1/2 ÷ 1 3/4 = ?",
+     "options": [
+      "2",
+      "6 1/8",
+      "1/2",
+      "3"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "7/2 × 4/7 = 28/14 = 2.",
+      "zh": "7/2 × 4/7 = 28/14 = 2。"
+     }
+    },
+    {
+     "q": "1 1/4 × 2 2/5 = ?",
+     "options": [
+      "2 1/10",
+      "2 1/2",
+      "3",
+      "3 1/4"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "5/4 × 12/5 = 60/20 = 3.",
+      "zh": "5/4 × 12/5 = 60/20 = 3。"
+     }
+    },
+    {
+     "q": "6 1/4 ÷ 1 1/4 = ?",
+     "options": [
+      "7 13/16",
+      "5",
+      "6",
+      "4"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "25/4 × 4/5 = 100/20 = 5.",
+      "zh": "25/4 × 4/5 = 100/20 = 5。"
+     }
+    },
+    {
+     "q": "A bubble tea shop uses 2 1/2 bags of tapioca a day. How many bags in 4 days?",
+     "options": [
+      "10",
+      "8 1/2",
+      "1 3/5",
+      "6 1/2"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "4 days of 2 1/2 bags: ×. 5/2 × 4/1 = 20/2 = 10 bags.",
+      "zh": "4 天、每天 2 1/2 袋：×。5/2 × 4/1 = 20/2 = 10 袋。"
+     }
+    },
+    {
+     "q": "James has 5 1/4 m of string. Each bracelet needs 3/4 m. How many bracelets?",
+     "options": [
+      "3 15/16",
+      "6",
+      "8",
+      "7"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "How many 3/4 in 5 1/4: ÷. 21/4 × 4/3 = 84/12 = 7.",
+      "zh": "5 1/4 里有几个 3/4：÷。21/4 × 4/3 = 84/12 = 7。"
+     }
+    },
+    {
+     "q": "Which one will give an answer BIGGER than 8?",
+     "options": [
+      "8 ÷ 1 1/3",
+      "8 × 1/2",
+      "8 ÷ 2/3",
+      "8 ÷ 2"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Dividing by a number less than 1 makes it bigger: 8 ÷ 2/3 = 12.",
+      "zh": "除以小于 1 的数会变大：8 ÷ 2/3 = 12。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-sat5",
+   "type": "hwquiz",
+   "part": "E",
+   "title": {
+    "en": "Homework: English Review",
+    "zh": "作业：英语复习"
+   },
+   "intro": {
+    "en": "Read Main Book R6, E4 and E5 first. Then do this ONCE.",
+    "zh": "先读主课本 R6、E4 和 E5，再做一次。"
+   },
+   "canNow": {
+    "en": "I can now use context clues, joining words and -er / -or.",
+    "zh": "我现在会用上下文线索、连接词和 -er / -or。"
+   },
+   "questions": [
+    {
+     "q": "The kitten was famished, which means very hungry. What does famished mean?",
+     "options": [
+      "very hungry",
+      "very sleepy",
+      "very small",
+      "very happy"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The sentence tells you: \"which means very hungry\".",
+      "zh": "句子直接告诉你：“which means very hungry”。"
+     }
+    },
+    {
+     "q": "Tom was timid, but his sister was bold and brave. Timid means...",
+     "options": [
+      "brave",
+      "shy and easily scared",
+      "tall",
+      "funny"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "\"but\" tells you an opposite is coming. The opposite of brave is shy and scared.",
+      "zh": "“but”表示后面是相反的意思。brave 的反义是胆小。"
+     }
+    },
+    {
+     "q": "Emma loves citrus fruits, such as lemons, limes and oranges. Citrus fruits are...",
+     "options": [
+      "sweet berries",
+      "vegetables",
+      "sour, juicy fruits like lemons",
+      "dried fruits"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "\"such as\" gives examples: lemons, limes and oranges.",
+      "zh": "“such as”后面是例子：柠檬、青柠和橙子。"
+     }
+    },
+    {
+     "q": "Choose the best joining word: Daisy was tired, ___ she still went swimming.",
+     "options": [
+      "so",
+      "because",
+      "or",
+      "but"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Being tired and still going is a surprise, so use but.",
+      "zh": "累了还去游泳，是转折，所以用 but。"
+     }
+    },
+    {
+     "q": "Choose the best joining word: Lily was late ___ she missed the bus.",
+     "options": [
+      "but",
+      "because",
+      "or",
+      "although"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Missing the bus is the REASON she was late: because.",
+      "zh": "错过公交车是迟到的原因：because。"
+     }
+    },
+    {
+     "q": "Which sentence has the comma in the right place?",
+     "options": [
+      "I love, cats so I visit the cat cafe.",
+      "I love cats so, I visit the cat cafe.",
+      "I, love cats so I visit the cat cafe.",
+      "I love cats, so I visit the cat cafe."
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Two full sentences joined by so: the comma goes before so.",
+      "zh": "so 连接两个完整的句子：逗号放在 so 前面。"
+     }
+    },
+    {
+     "q": "A person who swims is a...",
+     "options": [
+      "swimmer",
+      "swimer",
+      "swimmor",
+      "swimor"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Short word ending in one vowel + m: double the m, then add -er.",
+      "zh": "短词，结尾是一个元音 + m：双写 m，再加 -er。"
+     }
+    },
+    {
+     "q": "A person who investigates is an...",
+     "options": [
+      "investigater",
+      "investigatter",
+      "investigator",
+      "investigatior"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Words ending in -ate drop the e and add -or.",
+      "zh": "以 -ate 结尾的词去掉 e，加 -or。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "hw-mon7",
+   "type": "hwquiz",
+   "part": "M",
+   "title": {
+    "en": "Homework: Units and Mixed Numbers",
+    "zh": "作业：单位和带分数"
+   },
+   "intro": {
+    "en": "Read Main Book M7 first. Then do this ONCE. No calculator.",
+    "zh": "先读主课本 M7，再做一次。不用计算器。"
+   },
+   "canNow": {
+    "en": "I can now convert units and use mixed numbers on my own.",
+    "zh": "我现在可以自己换算单位和计算带分数。"
+   },
+   "questions": [
+    {
+     "q": "5 ft = ? in",
+     "options": [
+      "17 in",
+      "60 in",
+      "50 in",
+      "5/12 in"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Big to small: 5 × 12 = 60 in.",
+      "zh": "大到小：5 × 12 = 60 英寸。"
+     }
+    },
+    {
+     "q": "40 oz = ? lb",
+     "options": [
+      "2 1/2 lb",
+      "640 lb",
+      "2 2/5 lb",
+      "4 lb"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Small to big: 40 ÷ 16 = 40/16 = 5/2 = 2 1/2 lb.",
+      "zh": "小到大：40 ÷ 16 = 40/16 = 5/2 = 2 1/2 磅。"
+     }
+    },
+    {
+     "q": "3 gal = ? qt",
+     "options": [
+      "3/4 qt",
+      "7 qt",
+      "6 qt",
+      "12 qt"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "1 gal = 4 qt. 3 × 4 = 12 qt.",
+      "zh": "1 加仑 = 4 夸脱。3 × 4 = 12 夸脱。"
+     }
+    },
+    {
+     "q": "9 ft = ? yd",
+     "options": [
+      "27 yd",
+      "108 yd",
+      "3 yd",
+      "6 yd"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "1 yd = 3 ft. 9 ÷ 3 = 3 yd.",
+      "zh": "1 码 = 3 英尺。9 ÷ 3 = 3 码。"
+     }
+    },
+    {
+     "q": "1 3/4 × 2 = ?",
+     "options": [
+      "3 1/2",
+      "2 3/4",
+      "3 3/4",
+      "2 3/8"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "7/4 × 2/1 = 14/4 = 7/2 = 3 1/2.",
+      "zh": "7/4 × 2/1 = 14/4 = 7/2 = 3 1/2。"
+     }
+    },
+    {
+     "q": "2 1/4 ÷ 3/4 = ?",
+     "options": [
+      "1 11/16",
+      "3",
+      "1/3",
+      "2"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "9/4 × 4/3 = 36/12 = 3.",
+      "zh": "9/4 × 4/3 = 36/12 = 3。"
+     }
+    },
+    {
+     "q": "A recipe needs 3/4 c of milk. Daisy makes 2 1/2 recipes. How many cups?",
+     "options": [
+      "3 1/4 c",
+      "1 3/4 c",
+      "1 7/8 c",
+      "3 1/3 c"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "3/4 × 5/2 = 15/8 = 1 7/8 c.",
+      "zh": "3/4 × 5/2 = 15/8 = 1 7/8 杯。"
+     }
+    },
+    {
+     "q": "A notebook is 8 1/2 inches wide. How wide are 2 notebooks side by side, in feet?",
+     "options": [
+      "17 ft",
+      "1 1/2 ft",
+      "1 1/4 ft",
+      "1 5/12 ft"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "8 1/2 × 2 = 17 in. Then 17 ÷ 12 = 1 with 5 left over: 1 5/12 ft.",
+      "zh": "8 1/2 × 2 = 17 英寸。再 17 ÷ 12 = 1 余 5：1 5/12 英尺。"
+     }
+    }
+   ]
   }
  ],
  "reviews": [

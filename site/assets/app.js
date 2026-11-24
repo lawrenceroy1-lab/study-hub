@@ -1451,6 +1451,25 @@
   };
   /* Bar model picture for fraction equations, same as in Guided Answers. */
   VIS.bar = function (v) { return barModel(v); };
+  /* Inequality on a number line: open circle for > or <, closed (filled) circle for ≥ or ≤, thick arrow for the solutions. */
+  VIS.numline = function (v) {
+    var W = 640, H = 150, lo = v.min, hi = v.max, step = (W - 80) / (hi - lo), a = arrowDefs('#2f9e44');
+    var X = function (n) { return 40 + (n - lo) * step; };
+    var svg = sv('svg', { viewBox: '0 0 ' + W + ' ' + H, class: 'vis-svg', role: 'img', 'aria-label': 'number line' }, a.defs);
+    svg.appendChild(sv('line', { x1: 20, y1: 70, x2: W - 20, y2: 70, stroke: '#1b2a6b', 'stroke-width': 3 }));
+    for (var n = lo; n <= hi; n++) {
+      svg.appendChild(sv('line', { x1: X(n), y1: 60, x2: X(n), y2: 80, stroke: '#1b2a6b', 'stroke-width': 2 }));
+      svg.appendChild(label(X(n), 106, String(n), { size: 18 }));
+    }
+    if (v.at != null) {
+      var end = v.dir === 'left' ? 24 : W - 24;
+      svg.appendChild(sv('line', { x1: X(v.at), y1: 70, x2: end, y2: 70, stroke: '#2f9e44', 'stroke-width': 8, 'marker-end': a.url }));
+      svg.appendChild(sv('circle', { cx: X(v.at), cy: 70, r: 11, fill: v.closed ? '#2f9e44' : '#ffffff', stroke: '#2f9e44', 'stroke-width': 4 }));
+    }
+    if (v.label) svg.appendChild(label(W / 2, 34, tx(v.label), { size: 20, color: '#e8590c' }));
+    if (v.note) svg.appendChild(label(W / 2, 140, tx(v.note), { size: 16 }));
+    return svg;
+  };
   /* A divide: rain falls on the high land and runs down one side or the other. */
   VIS.divide = function (v) {
     var W = 640, H = 260, a = arrowDefs('#1c7ed6');

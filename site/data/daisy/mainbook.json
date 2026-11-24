@@ -14,8 +14,8 @@
   {
    "id": "M",
    "title": {
-    "en": "Maths: Fractions (Chapter 4)",
-    "zh": "数学：分数（第 4 章）"
+    "en": "Maths: Fractions and Units (Chapter 4)",
+    "zh": "数学：分数和单位（第 4 章）"
    }
   },
   {
@@ -1108,6 +1108,545 @@
    "canNow": {
     "en": "I can now explain the key ideas in M4.",
     "zh": "我现在能解释 M4 的重点。"
+   }
+  },
+  {
+   "code": "M5",
+   "part": "M",
+   "title": {
+    "en": "Multiply Mixed Numbers",
+    "zh": "带分数乘法"
+   },
+   "slides": [
+    {
+     "icon": "🔁",
+     "title": {
+      "en": "Step 1: change mixed numbers to improper fractions",
+      "zh": "第 1 步：把带分数变成假分数"
+     },
+     "points": [
+      {
+       "en": "A mixed number has a whole number and a fraction: 2 1/3 means 2 wholes and 1/3 more.",
+       "zh": "带分数有整数部分和分数部分：2 1/3 就是 2 个整体再加 1/3。"
+      },
+      {
+       "en": "To change it: bottom × whole, then + top. Keep the same bottom.",
+       "zh": "变法：分母 × 整数，再 + 分子，分母不变。"
+      },
+      {
+       "en": "2 1/3 → 3 × 2 = 6 → 6 + 1 = 7 → 7/3",
+       "zh": "2 1/3 → 3 × 2 = 6 → 6 + 1 = 7 → 7/3"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🧁",
+        "en": "2 1/3",
+        "zh": "2 1/3"
+       },
+       {
+        "icon": "✖️",
+        "en": "3 × 2 = 6",
+        "zh": "3 × 2 = 6"
+       },
+       {
+        "icon": "➕",
+        "en": "6 + 1 = 7",
+        "zh": "6 + 1 = 7"
+       },
+       {
+        "icon": "✅",
+        "en": "7/3",
+        "zh": "7/3"
+       }
+      ]
+     },
+     "remember": {
+      "en": "bottom × whole + top, same bottom",
+      "zh": "分母 × 整数 + 分子，分母不变"
+     },
+     "quick": {
+      "q": "Change 1 1/2 to an improper fraction.",
+      "options": [
+       "2/2",
+       "3/2"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "2 × 1 = 2, then 2 + 1 = 3. So 1 1/2 = 3/2.",
+       "zh": "2 × 1 = 2，再 2 + 1 = 3。所以 1 1/2 = 3/2。"
+      }
+     }
+    },
+    {
+     "icon": "✖️",
+     "title": {
+      "en": "Multiply mixed numbers in 3 steps",
+      "zh": "带分数乘法三步走"
+     },
+     "points": [
+      {
+       "en": "Step 1: change each mixed number to an improper fraction.",
+       "zh": "第 1 步：把每个带分数变成假分数。"
+      },
+      {
+       "en": "Step 2: tops × tops, bottoms × bottoms (the same as M2).",
+       "zh": "第 2 步：分子 × 分子，分母 × 分母（和 M2 一样）。"
+      },
+      {
+       "en": "Step 3: simplify, then change back to a mixed number.",
+       "zh": "第 3 步：约分，再变回带分数。"
+      },
+      {
+       "en": "1 1/2 × 2 1/3 → 3/2 × 7/3 → 21/6 → 7/2 → 3 1/2",
+       "zh": "1 1/2 × 2 1/3 → 3/2 × 7/3 → 21/6 → 7/2 → 3 1/2"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "1 1/2 × 2 1/3 = 3/2 × 7/3 = 21/6 = 3 1/2",
+       "zh": "1 1/2 × 2 1/3 = 3/2 × 7/3 = 21/6 = 3 1/2"
+      },
+      "example": {
+       "en": "21 ÷ 6 = 3 with 3 left over: 3 3/6 = 3 1/2",
+       "zh": "21 ÷ 6 = 3 余 3：3 3/6 = 3 1/2"
+      }
+     },
+     "quick": {
+      "q": "2 1/2 × 2 = ?",
+      "options": [
+       "4 1/2",
+       "5"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "5/2 × 2/1 = 10/2 = 5.",
+       "zh": "5/2 × 2/1 = 10/2 = 5。"
+      }
+     }
+    },
+    {
+     "icon": "⚠️",
+     "title": {
+      "en": "Trap: do not multiply the parts on their own",
+      "zh": "陷阱：不要把两部分分开乘"
+     },
+     "points": [
+      {
+       "en": "Wrong way: 1 1/2 × 2 1/3, do 1 × 2 = 2 and 1/2 × 1/3 = 1/6, and say 2 1/6. That misses a lot!",
+       "zh": "错误做法：1 1/2 × 2 1/3，算 1 × 2 = 2 和 1/2 × 1/3 = 1/6，说答案是 2 1/6。这样漏掉了很多！"
+      },
+      {
+       "en": "Always change to improper fractions FIRST.",
+       "zh": "一定要先变成假分数。"
+      },
+      {
+       "en": "Check by estimating: 1 1/2 is about 1.5 and 2 1/3 is about 2, so the answer is about 3. 3 1/2 makes sense.",
+       "zh": "用估算检查：1 1/2 约等于 1.5，2 1/3 约等于 2，答案大约是 3。3 1/2 是合理的。"
+      }
+     ],
+     "remember": {
+      "en": "improper first, then multiply, then estimate to check",
+      "zh": "先变假分数，再乘，再估算检查"
+     }
+    },
+    {
+     "icon": "🧋",
+     "title": {
+      "en": "Story: bubble tea for friends",
+      "zh": "故事：给朋友做珍珠奶茶"
+     },
+     "points": [
+      {
+       "en": "Daisy uses 1 1/2 cups of milk for one jug of bubble tea. She makes 3 jugs. How much milk?",
+       "zh": "Daisy 做一壶珍珠奶茶用 1 1/2 杯牛奶。她做 3 壶。一共要多少牛奶？"
+      },
+      {
+       "en": "3 jugs of 1 1/2 cups means ×.",
+       "zh": "3 壶、每壶 1 1/2 杯，所以用 ×。"
+      },
+      {
+       "en": "1 1/2 × 3 → 3/2 × 3/1 → 9/2 → 4 1/2 cups.",
+       "zh": "1 1/2 × 3 → 3/2 × 3/1 → 9/2 → 4 1/2 杯。"
+      }
+     ],
+     "visual": {
+      "type": "bar",
+      "parts": 3,
+      "shaded": 3,
+      "fill": "1 1/2",
+      "label": "3 jugs"
+     },
+     "quick": {
+      "q": "Tom swims 2 1/4 km each day for 2 days. How far?",
+      "options": [
+       "4 1/2 km",
+       "4 1/4 km"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "9/4 × 2/1 = 18/4 = 9/2 = 4 1/2 km.",
+       "zh": "9/4 × 2/1 = 18/4 = 9/2 = 4 1/2 千米。"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now multiply mixed numbers and check my answer by estimating.",
+    "zh": "我现在可以做带分数乘法，并用估算检查答案。"
+   }
+  },
+  {
+   "code": "M6",
+   "part": "M",
+   "title": {
+    "en": "Divide Mixed Numbers",
+    "zh": "带分数除法"
+   },
+   "slides": [
+    {
+     "icon": "🔄",
+     "title": {
+      "en": "Divide mixed numbers in 4 steps",
+      "zh": "带分数除法四步走"
+     },
+     "points": [
+      {
+       "en": "Step 1: change each mixed number to an improper fraction (M5).",
+       "zh": "第 1 步：把每个带分数变成假分数（M5）。"
+      },
+      {
+       "en": "Step 2: Keep, Change, Flip (M3). Keep the first, change ÷ to ×, flip the second.",
+       "zh": "第 2 步：不变、变号、倒过来（M3）。第一个不变，÷ 变 ×，第二个倒过来。"
+      },
+      {
+       "en": "Step 3: tops × tops, bottoms × bottoms.",
+       "zh": "第 3 步：分子 × 分子，分母 × 分母。"
+      },
+      {
+       "en": "Step 4: simplify.",
+       "zh": "第 4 步：约分。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "🔁",
+        "en": "3 1/2 ÷ 1 3/4 → 7/2 ÷ 7/4",
+        "zh": "3 1/2 ÷ 1 3/4 → 7/2 ÷ 7/4"
+       },
+       {
+        "icon": "🔃",
+        "en": "7/2 × 4/7",
+        "zh": "7/2 × 4/7"
+       },
+       {
+        "icon": "✖️",
+        "en": "28/14",
+        "zh": "28/14"
+       },
+       {
+        "icon": "✅",
+        "en": "2",
+        "zh": "2"
+       }
+      ]
+     },
+     "remember": {
+      "en": "improper first, THEN Keep, Change, Flip",
+      "zh": "先变假分数，再“不变、变号、倒过来”"
+     },
+     "quick": {
+      "q": "2 1/2 ÷ 1 1/4: what do you do FIRST?",
+      "options": [
+       "change both to improper fractions",
+       "flip 1 1/4 straight away"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "You can only flip a fraction, so change 1 1/4 to 5/4 first.",
+       "zh": "只能把分数倒过来，所以先把 1 1/4 变成 5/4。"
+      }
+     }
+    },
+    {
+     "icon": "🎀",
+     "title": {
+      "en": "Story: ribbon bows",
+      "zh": "故事：丝带蝴蝶结"
+     },
+     "points": [
+      {
+       "en": "Emma has 4 1/2 m of ribbon. Each bow needs 3/4 m. How many bows can she make?",
+       "zh": "Emma 有 4 1/2 米丝带。每个蝴蝶结要 3/4 米。她能做几个蝴蝶结？"
+      },
+      {
+       "en": "\"How many ... in ...?\" means ÷.",
+       "zh": "“……里有几个……？”就用 ÷。"
+      },
+      {
+       "en": "4 1/2 ÷ 3/4 → 9/2 × 4/3 → 36/6 → 6 bows.",
+       "zh": "4 1/2 ÷ 3/4 → 9/2 × 4/3 → 36/6 → 6 个蝴蝶结。"
+      }
+     ],
+     "visual": {
+      "type": "bar",
+      "parts": 6,
+      "shaded": 6,
+      "fill": "3/4",
+      "label": "4 1/2 m"
+     },
+     "quick": {
+      "q": "How many 1/2 cups are in 2 1/2 cups?",
+      "options": [
+       "1 1/4",
+       "5"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "5/2 ÷ 1/2 = 5/2 × 2/1 = 10/2 = 5.",
+       "zh": "5/2 ÷ 1/2 = 5/2 × 2/1 = 10/2 = 5。"
+      }
+     }
+    },
+    {
+     "icon": "🔍",
+     "title": {
+      "en": "Check: does my answer make sense?",
+      "zh": "检查：答案合理吗？"
+     },
+     "points": [
+      {
+       "en": "Dividing by a number BIGGER than 1 gives a smaller answer: 3 1/2 ÷ 1 3/4 = 2.",
+       "zh": "除以比 1 大的数，答案会变小：3 1/2 ÷ 1 3/4 = 2。"
+      },
+      {
+       "en": "Dividing by a number SMALLER than 1 gives a bigger answer: 4 1/2 ÷ 3/4 = 6.",
+       "zh": "除以比 1 小的数，答案会变大：4 1/2 ÷ 3/4 = 6。"
+      },
+      {
+       "en": "Check with ×: 2 × 1 3/4 = 2/1 × 7/4 = 14/4 = 3 1/2. ✓",
+       "zh": "用 × 检查：2 × 1 3/4 = 2/1 × 7/4 = 14/4 = 3 1/2 ✓"
+      }
+     ],
+     "remember": {
+      "en": "÷ by more than 1 → smaller; ÷ by less than 1 → bigger",
+      "zh": "除以大于 1 的数 → 变小；除以小于 1 的数 → 变大"
+     },
+     "quick": {
+      "q": "6 ÷ 1/2 will be...",
+      "options": [
+       "bigger than 6",
+       "smaller than 6"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "1/2 is less than 1, so the answer is bigger: 6 ÷ 1/2 = 12.",
+       "zh": "1/2 小于 1，所以答案变大：6 ÷ 1/2 = 12。"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now divide mixed numbers and check my answer with ×.",
+    "zh": "我现在可以做带分数除法，并用乘法检查答案。"
+   }
+  },
+  {
+   "code": "M7",
+   "part": "M",
+   "title": {
+    "en": "Convert Measurement Units",
+    "zh": "单位换算"
+   },
+   "slides": [
+    {
+     "icon": "📏",
+     "title": {
+      "en": "The unit facts",
+      "zh": "单位换算表"
+     },
+     "points": [
+      {
+       "en": "Length: 1 foot (ft) = 12 inches (in). 1 yard (yd) = 3 feet.",
+       "zh": "长度：1 英尺 (ft) = 12 英寸 (in)。1 码 (yd) = 3 英尺。"
+      },
+      {
+       "en": "Weight: 1 pound (lb) = 16 ounces (oz). 1 ton (T) = 2,000 pounds.",
+       "zh": "重量：1 磅 (lb) = 16 盎司 (oz)。1 吨 (T) = 2,000 磅。"
+      },
+      {
+       "en": "Capacity (how much a cup holds): 1 cup (c) = 8 fluid ounces (fl oz). 1 pint (pt) = 2 cups. 1 quart (qt) = 2 pints. 1 gallon (gal) = 4 quarts.",
+       "zh": "容量（能装多少）：1 杯 (c) = 8 液量盎司 (fl oz)。1 品脱 (pt) = 2 杯。1 夸脱 (qt) = 2 品脱。1 加仑 (gal) = 4 夸脱。"
+      }
+     ],
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "📏",
+        "en": "1 ft = 12 in",
+        "zh": "1 英尺 = 12 英寸"
+       },
+       {
+        "icon": "🐱",
+        "en": "1 lb = 16 oz",
+        "zh": "1 磅 = 16 盎司"
+       },
+       {
+        "icon": "🥛",
+        "en": "1 pt = 2 c",
+        "zh": "1 品脱 = 2 杯"
+       },
+       {
+        "icon": "🪣",
+        "en": "1 gal = 4 qt",
+        "zh": "1 加仑 = 4 夸脱"
+       }
+      ]
+     },
+     "quick": {
+      "q": "1 foot = ? inches",
+      "options": [
+       "10",
+       "12"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "1 foot is 12 inches. (10 is for cm and mm.)",
+       "zh": "1 英尺 = 12 英寸。（10 是厘米和毫米。）"
+      }
+     }
+    },
+    {
+     "icon": "⬇️",
+     "title": {
+      "en": "Big unit → small unit: multiply",
+      "zh": "大单位 → 小单位：乘"
+     },
+     "points": [
+      {
+       "en": "Small units are tiny, so you need MORE of them. Multiply.",
+       "zh": "小单位很小，需要的个数更多，所以用乘法。"
+      },
+      {
+       "en": "3 ft = ? in → 3 × 12 = 36 in.",
+       "zh": "3 ft = ? in → 3 × 12 = 36 in。"
+      },
+      {
+       "en": "2 1/2 ft = ? in → 5/2 × 12/1 = 60/2 = 30 in.",
+       "zh": "2 1/2 ft = ? in → 5/2 × 12/1 = 60/2 = 30 in。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "big → small: ×",
+       "zh": "大 → 小：×"
+      },
+      "example": {
+       "en": "2 1/2 ft = 5/2 × 12 = 30 in",
+       "zh": "2 1/2 ft = 5/2 × 12 = 30 in"
+      }
+     },
+     "quick": {
+      "q": "2 lb = ? oz",
+      "options": [
+       "32 oz",
+       "8 oz"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Big to small: multiply. 2 × 16 = 32 oz.",
+       "zh": "大到小：乘。2 × 16 = 32 盎司。"
+      }
+     }
+    },
+    {
+     "icon": "⬆️",
+     "title": {
+      "en": "Small unit → big unit: divide",
+      "zh": "小单位 → 大单位：除"
+     },
+     "points": [
+      {
+       "en": "Big units are large, so you need FEWER of them. Divide (or multiply by a fraction).",
+       "zh": "大单位很大，需要的个数更少，所以用除法（或乘一个分数）。"
+      },
+      {
+       "en": "6 c = ? pt → 6 ÷ 2 = 3 pt.",
+       "zh": "6 c = ? pt → 6 ÷ 2 = 3 pt。"
+      },
+      {
+       "en": "24 oz = ? lb → 24 ÷ 16 = 24/16 = 3/2 = 1 1/2 lb.",
+       "zh": "24 oz = ? lb → 24 ÷ 16 = 24/16 = 3/2 = 1 1/2 lb。"
+      }
+     ],
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "small → big: ÷",
+       "zh": "小 → 大：÷"
+      },
+      "example": {
+       "en": "8 oz = 8/16 lb = 1/2 lb",
+       "zh": "8 oz = 8/16 lb = 1/2 lb"
+      }
+     },
+     "quick": {
+      "q": "6 ft = ? yd",
+      "options": [
+       "2 yd",
+       "18 yd"
+      ],
+      "answer": 0,
+      "why": {
+       "en": "Small to big: divide. 6 ÷ 3 = 2 yd.",
+       "zh": "小到大：除。6 ÷ 3 = 2 码。"
+      }
+     }
+    },
+    {
+     "icon": "✅",
+     "title": {
+      "en": "Check: big number or small number?",
+      "zh": "检查：数变大还是变小？"
+     },
+     "points": [
+      {
+       "en": "Going to a SMALLER unit: the number gets BIGGER (3 ft → 36 in).",
+       "zh": "换成更小的单位：数字变大（3 ft → 36 in）。"
+      },
+      {
+       "en": "Going to a BIGGER unit: the number gets SMALLER (24 oz → 1 1/2 lb).",
+       "zh": "换成更大的单位：数字变小（24 oz → 1 1/2 lb）。"
+      }
+     ],
+     "remember": {
+      "en": "small unit, big number; big unit, small number",
+      "zh": "单位小，数字大；单位大，数字小"
+     },
+     "quick": {
+      "q": "Change 48 inches to feet. The number will get...",
+      "options": [
+       "bigger",
+       "smaller"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Feet are bigger than inches, so the number gets smaller: 48 ÷ 12 = 4 ft.",
+       "zh": "英尺比英寸大，所以数字变小：48 ÷ 12 = 4 英尺。"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now change between feet and inches, pounds and ounces, and cups, pints, quarts and gallons.",
+    "zh": "我现在可以换算英尺和英寸、磅和盎司，以及杯、品脱、夸脱和加仑。"
    }
   },
   {

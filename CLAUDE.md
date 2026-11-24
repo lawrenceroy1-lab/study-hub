@@ -38,7 +38,9 @@ One website with a separate private page for each tutoring student. Each week I 
   5. **READING**: a short passage at the student's level. Key words taught first, then multiple choice comprehension questions, then one "write a complete sentence" task with a checklist (capital letter, full stop, makes sense).
   6. **GUIDED ANSWERS**: for maths and homework questions. The question shows first, alone. Then "💡 Hint", "Show Step 1", "Show next step" until the end. Final answer in bold, then a "✅ WHY" line.
   7. **TIMES TABLES SPRINT** (in Practice Anytime): choose the tables, accuracy first, then speed.
-- Bilingual students get an EN / 中文 switch. Instructions, hints and explanations in both languages. Questions stay in English.
+- Bilingual students (all three): NO language switch (removed 23 Nov 2026). Every page always shows English first with the Chinese underneath. Every piece of wording needs both `en` and `zh`. Questions stay in English.
+- **Library (24 Nov 2026):** every student page has a 📚 Library button. Every new PDF Lawrence gives goes into `site/library/<student>/` named `YYYY-MM-DD-short-name.pdf` and is listed in `site/data/<student>/library.json` (date, EN + 中文 title, from, size), BUT only after checking it has no surnames, school names, teacher names, school emails or scans/photos of school or textbook pages (the repo is public). Files that fail stay out; tell Lawrence which and why. Every day's work and every Main Book chapter are listed there automatically as print / save-as-PDF pages.
+- Answer colours: a right answer turns every button green; a wrong answer turns every button red (never mixed colours). Before adding any quick question or quiz, check with a script that the `answer` index points to the option the `why` says is right.
 - Every week also gets a print-friendly page that prints cleanly in black and white.
 
 ## Score tracking
