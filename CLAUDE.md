@@ -29,7 +29,7 @@ One website with a separate private page for each tutoring student. Each week I 
 ## Site structure
 
 - No home page listing the students. Each student has their own page at a hard-to-guess address (for example `/daisy-k7m2q/`). Students cannot find each other's pages. The site's main address only says "Ask your teacher for your link."
-- Each student page has: "This Week" at the top (newest week), "Practice Anytime" (times tables, saved word banks), and "Past Weeks".
+- **LAYOUT (24 Nov 2026, all students):** left menu (top bar on phones): Today, Homework, Class with Roy, Main Book, School homework (if on), My results, Library, More practice. First open asks "Who is working?" (the student or Roy); Roy has his own space on the device and his scores go to the sheet as "Roy (on <name>'s page)". **Today** shows "Finish this first" (oldest unfinished homework), today's plan, coming next, this week. Each day is numbered steps: 1 read the Main Book chapters, 2 practise (optional), 3 homework quiz (one try). Homework always says "Do it here on this website. You do not need to print anything." Extra games live in More practice (times tables, word banks, past weeks).
 - Each week shows only the activities that fit that week's material. Choose from:
   1. **SPELLING**: listen and type. The browser reads each word aloud with an English voice, with a slow button. Letter hints. Missed words come back until all are correct. A "Test mode" that works like a real spelling test.
   2. **FLASHCARDS**: flip cards, shuffle, "I know it" and "Still learning" piles, like Quizlet. For bilingual students, the Chinese meaning goes on the back.
@@ -37,11 +37,11 @@ One website with a separate private page for each tutoring student. Each week I 
   4. **SPEED QUIZ**: Kahoot style. 10 multiple choice questions, 20 second timer, more points for faster answers, 4 coloured answer buttons with shapes, streak bonus, final score screen.
   5. **READING**: a short passage at the student's level. Key words taught first, then multiple choice comprehension questions, then one "write a complete sentence" task with a checklist (capital letter, full stop, makes sense).
   6. **GUIDED ANSWERS**: for maths and homework questions. The question shows first, alone. Then "💡 Hint", "Show Step 1", "Show next step" until the end. Final answer in bold, then a "✅ WHY" line.
-  7. **TIMES TABLES SPRINT** (in Practice Anytime): choose the tables, accuracy first, then speed.
+  7. **TIMES TABLES SPRINT** (in More practice): choose the tables, accuracy first, then speed.
 - Bilingual students (all three): NO language switch (removed 23 Nov 2026). Every page always shows English first with the Chinese underneath. Every piece of wording needs both `en` and `zh`. Questions stay in English.
-- **Library (24 Nov 2026):** every student page has a 📚 Library button. Every new PDF Lawrence gives goes into `site/library/<student>/` named `YYYY-MM-DD-short-name.pdf` and is listed in `site/data/<student>/library.json` (date, EN + 中文 title, from, size), BUT only after checking it has no surnames, school names, teacher names, school emails or scans/photos of school or textbook pages (the repo is public). Files that fail stay out; tell Lawrence which and why. Every day's work and every Main Book chapter are listed there automatically as print / save-as-PDF pages.
+- **Library (24 Nov 2026):** every student page has a 📚 Library. Every new PDF Lawrence gives goes into `site/library/<student>/` named `YYYY-MM-DD-short-name.pdf` and is listed in `site/data/<student>/library.json` (date, EN + 中文 title, from, size), BUT only after checking it has no surnames, school names, teacher names, school emails or scans/photos of school or textbook pages (the repo is public). Files that fail stay out; tell Lawrence which and why. Main Book chapters are listed there as print / save-as-PDF pages. Homework and day pages are NOT in the Library: homework is never printed (it confused the students).
 - Answer colours: a right answer turns every button green; a wrong answer turns every button red (never mixed colours). Before adding any quick question or quiz, check with a script that the `answer` index points to the option the `why` says is right.
-- Every week also gets a print-friendly page that prints cleanly in black and white.
+- Print pages stay available for Roy (`print.html`), but students are never sent to print homework.
 
 ## Score tracking
 
@@ -54,9 +54,9 @@ One website with a separate private page for each tutoring student. Each week I 
 ## Weekly routine (commands I will type)
 
 - **"New week for Daisy"** (or any student): read everything in `inbox/<student>/`. Show me a short list of what you found (spelling words, topics, questions, due dates) and which activities you plan to build. Wait for my OK. Then build, run the checks, show me the preview. After I approve, ask before moving the files to archive.
-- **NEW STRUCTURE (22 Nov 2026, all students):** (1) ONE undated **Main Book** per student (`site/data/<student>/mainbook.json`, chapters by code, every word explained in simple words BEFORE it is used, basics first, pictures; set `mainBook: true`). (2) **Workbook** = class days (Daisy Tue/Thu/Sun, Lyra Wed/Sun, Issie Mon/Fri), max 25 questions, practice only. (3) **Homework** = non-class days (`kind: "homework"`), quizzes as `hwquiz`: one try, timer per question, records going back, results go to the score sheet. (4) **Homework Review** = question by question with the student: answer first, reveal answer + why, she scores herself. NEVER judge her answers from photos (photo reading was unreliable); no "her answer", no right/wrong lists, no stars from Claude. Class order: Homework Review, Main Book, Workbook, Workbook review.
-- **Homework review (old notes below are replaced by the structure above):** mark every question from the photos. In the week file add a `reviews` entry per homework day: each item has the question, her answer, the right answer, `ok` true/false, a short `why` (EN + 中文), and for wrong ones a `whyWrong`. Unsure items get `check: true` (go through together), never a guess. Link fix-it practice in `practice`. This shows as the orange 📋 Homework Review button (Correct answers / Wrong answers buttons, stars) and fills the 📒 Homework Log. Set `homeworkLog: true` in the student's `student.json`.
-- **Workbook for a lesson day** (e.g. "Sunday 22 November"): add a `days` entry with the date and its activity ids. The FIRST activity is a `lesson` (teaching slides Lawrence goes through with the student: pictures, moving diagrams, 🔊 read aloud), then the practice (flashcards, `fillblank`, match, quiz...). Shows as the purple 📘 Workbook button. Lyra's week 2026-11-16 is the model.
+- **STRUCTURE (22 Nov 2026, updated 24 Nov):** (1) ONE undated **Main Book** per student (`site/data/<student>/mainbook.json`, chapters by code, every word explained in simple words BEFORE it is used, basics first, pictures; set `mainBook: true`). (2) **Class days** (Daisy Tue/Thu/Sun, Lyra Wed/Sun, Issie Mon/Fri): Main Book chapters + class practice, max 25 questions. (3) **Homework** = non-class days (`kind: "homework"`), quizzes as `hwquiz`: one try, timer per question, results go to the score sheet. (4) **Results, not self-check:** after a homework quiz the student sees her score and ONLY the wrong questions (her answer, the right answer, why). **My results** lists every quiz done on that device; tap one for the wrong ones only. The old self-check Homework Review and Homework Log are gone. NEVER judge answers from photos.
+- Old hand-marked `reviews` entries in week files still open from their own day page ("Roy's marking"). Do not make new ones unless Lawrence asks.
+- **Class day** (e.g. "Sunday 22 November"): add a `days` entry with the date, `book` chapter codes and its activity ids (flashcards, `fillblank`, match, quiz...). A `lesson` activity is optional.
 - After any change to `site/assets/`, bump the `?v=` number in every `site/*/index.html` and `print.html` so iPads load the new files.
 - **"Parent report for Daisy"** (or any student): read the newest CSV in `scores/` and draft a short, warm, specific weekly report for the parents in one code block: Chinese first, then English for reference.
 - **"Publish my changes"**: update the live site. The links stay the same.
@@ -82,7 +82,7 @@ One website with a separate private page for each tutoring student. Each week I 
 
 ## Design rules
 
-- Big, clean and friendly for ages 11 to 14. Body text at least 20px on phones and 24px on computers. All question text bold.
+- Neat and calm, like a study app (model: Lawrence's "Prism Study" site): Plus Jakarta Sans, about 16px body text, light grey background, white cards, one accent colour per student. All question text bold. What matters most is clear content and easy navigation (Back returns to where you came from), not screen-size fiddling.
 - Colours: orange = question, yellow = hint, green = answer, blue = teaching, dark blue = titles.
 - Each student page has its own accent colour and greets them by first name ("Hi Daisy!").
 
