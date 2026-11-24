@@ -23,5 +23,7 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
+      - name: Wait for upload to settle
+        run: sleep 30
       - id: deployment
         uses: actions/deploy-pages@v5
