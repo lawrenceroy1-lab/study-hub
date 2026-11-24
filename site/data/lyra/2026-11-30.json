@@ -1,0 +1,1562 @@
+{
+ "week": "2026-11-30",
+ "title": {
+  "en": "Homework Review, Main Book, Workbook",
+  "zh": "作业讲评、主课本、练习册"
+ },
+ "message": {
+  "en": "This week: the EM spectrum (Wednesday class), separating mixtures (Sunday class), and homework that reviews all of Part A and Part B. Do one day at a time, in order. You can do it, Lyra!",
+  "zh": "本周：电磁波谱（星期三课）、分离混合物（星期日课），还有复习 A 部分和 B 部分的作业。按顺序一天一天做。Lyra，你能做到！"
+ },
+ "days": [
+  {
+   "date": "2026-12-01",
+   "kind": "homework",
+   "title": {
+    "en": "Waves, Sound and Hearing Review (B1 to B3)",
+    "zh": "波、声音和听觉复习（B1 到 B3）"
+   },
+   "message": {
+    "en": "Assigned homework. 1. Learn: read Main Book B1 to B3. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps.",
+    "zh": "当天作业。1. 学习：读主课本 B1 到 B3。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。"
+   },
+   "activities": [
+    "hw-tue1"
+   ],
+   "book": [
+    "B1",
+    "B2",
+    "B3"
+   ]
+  },
+  {
+   "date": "2026-12-02",
+   "kind": "workbook",
+   "title": {
+    "en": "The Electromagnetic Spectrum (B8)",
+    "zh": "电磁波谱（B8）"
+   },
+   "message": {
+    "en": "Class with Roy: Wednesday. Start by reviewing your homework together. Then 1. Learn: Main Book B8. 2. Practice: the cards, then the match game. 3. Quiz: 10 questions. 4. Review: explain any mistakes with Roy.",
+    "zh": "和 Roy 老师上课：星期三。先一起讲评作业。然后 1. 学习：主课本 B8。2. 练习：先做卡片，再玩配对游戏。3. 小测：10 道题。4. 讲评：和老师一起解释错题。"
+   },
+   "activities": [
+    "em-cards",
+    "em-match",
+    "em-quiz"
+   ],
+   "book": [
+    "B8"
+   ]
+  },
+  {
+   "date": "2026-12-03",
+   "kind": "homework",
+   "title": {
+    "en": "Light, Colour and EM Review (B4 to B8)",
+    "zh": "光、颜色和电磁波复习（B4 到 B8）"
+   },
+   "message": {
+    "en": "Assigned homework. 1. Learn: read Main Book B4 to B8. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps.",
+    "zh": "当天作业。1. 学习：读主课本 B4 到 B8。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。"
+   },
+   "activities": [
+    "hw-thu1"
+   ],
+   "book": [
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8"
+   ]
+  },
+  {
+   "date": "2026-12-04",
+   "kind": "homework",
+   "title": {
+    "en": "Chemistry Review: Atoms to Word Equations (A1 to A5)",
+    "zh": "化学复习：原子到文字方程式（A1 到 A5）"
+   },
+   "message": {
+    "en": "Assigned homework. 1. Learn: read Main Book A1 to A5. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps.",
+    "zh": "当天作业。1. 学习：读主课本 A1 到 A5。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。"
+   },
+   "activities": [
+    "hw-fri1"
+   ],
+   "book": [
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+   ]
+  },
+  {
+   "date": "2026-12-05",
+   "kind": "homework",
+   "title": {
+    "en": "Chemistry Review: Changes, States and Separating (A6 to A9)",
+    "zh": "化学复习：变化、物态和分离（A6 到 A9）"
+   },
+   "message": {
+    "en": "Assigned homework. 1. Learn: read Main Book A6 to A9. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps.",
+    "zh": "当天作业。1. 学习：读主课本 A6 到 A9。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。"
+   },
+   "activities": [
+    "hw-sat1"
+   ],
+   "book": [
+    "A6",
+    "A7",
+    "A8",
+    "A9"
+   ]
+  },
+  {
+   "date": "2026-12-06",
+   "kind": "workbook",
+   "title": {
+    "en": "Separating Mixtures (A9)",
+    "zh": "分离混合物（A9）"
+   },
+   "message": {
+    "en": "Class with Roy: Sunday. Start by reviewing your homework together. Then 1. Learn: Main Book A9. 2. Practice: the cards, then the match game. 3. Quiz: 10 questions. 4. Review: explain any mistakes with Roy.",
+    "zh": "和 Roy 老师上课：星期日。先一起讲评作业。然后 1. 学习：主课本 A9。2. 练习：先做卡片，再玩配对游戏。3. 小测：10 道题。4. 讲评：和老师一起解释错题。"
+   },
+   "activities": [
+    "sep-cards",
+    "sep-match",
+    "sep-quiz"
+   ],
+   "book": [
+    "A9"
+   ]
+  }
+ ],
+ "activities": [
+  {
+   "id": "hw-tue1",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Tuesday Homework: Waves, Sound and Hearing (B1 to B3)",
+    "zh": "星期二作业：波、声音和听觉（B1 到 B3）"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read Main Book B1 to B3 first. One try only.",
+    "zh": "先读主课本 B1 到 B3。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "A wave transfers ___ from one place to another.",
+     "options": [
+      "energy",
+      "particles",
+      "water",
+      "air"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A wave is a disturbance that transfers energy. The stuff it travels through stays in place.",
+      "zh": "波是传递能量的扰动。它经过的物质留在原地。"
+     }
+    },
+    {
+     "q": "In a transverse wave, the vibrations are ___ to the direction of travel.",
+     "options": [
+      "perpendicular",
+      "parallel",
+      "opposite",
+      "unrelated"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Transverse = perpendicular (at 90°).",
+      "zh": "横波 = 垂直（90°）。"
+     }
+    },
+    {
+     "q": "Sound is a ___ wave.",
+     "options": [
+      "longitudinal",
+      "transverse",
+      "electromagnetic",
+      "light"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Sound vibrations are parallel to the direction of travel.",
+      "zh": "声音的振动方向和传播方向平行。"
+     }
+    },
+    {
+     "q": "In a longitudinal wave, a region where particles are close together is a...",
+     "options": [
+      "compression",
+      "rarefaction",
+      "crest",
+      "trough"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Compression = squashed together. Rarefaction = spread apart.",
+      "zh": "密部 = 挤在一起。疏部 = 分散开。"
+     }
+    },
+    {
+     "q": "Amplitude is measured from the ___ to the crest.",
+     "options": [
+      "rest position",
+      "next crest",
+      "trough",
+      "source"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Amplitude = the maximum distance from the resting position.",
+      "zh": "振幅 = 离平衡位置的最大距离。"
+     }
+    },
+    {
+     "q": "10 complete waves pass a point in 2 seconds. What is the frequency?",
+     "options": [
+      "5 Hz",
+      "20 Hz",
+      "12 Hz",
+      "8 Hz"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "frequency = number of waves ÷ time = 10 ÷ 2 = 5 Hz.",
+      "zh": "频率 = 波数 ÷ 时间 = 10 ÷ 2 = 5 Hz。"
+     }
+    },
+    {
+     "q": "Why can sound NOT travel through a vacuum?",
+     "options": [
+      "there are no particles to vibrate",
+      "it is too cold",
+      "light blocks it",
+      "the frequency is too high"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A vacuum contains no particles, and sound needs a medium.",
+      "zh": "真空里没有粒子，而声音需要介质。"
+     }
+    },
+    {
+     "q": "A higher frequency gives a...",
+     "options": [
+      "higher pitch",
+      "louder sound",
+      "quieter sound",
+      "lower pitch"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Pitch depends on frequency.",
+      "zh": "音调由频率决定。"
+     }
+    },
+    {
+     "q": "A bigger amplitude gives a...",
+     "options": [
+      "louder sound",
+      "higher pitch",
+      "lower pitch",
+      "faster sound"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Loudness depends on amplitude.",
+      "zh": "响度和振幅有关。"
+     }
+    },
+    {
+     "q": "A dog whistle at 25,000 Hz is...",
+     "options": [
+      "ultrasound",
+      "infrasound",
+      "in the human audible range",
+      "an echo"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Above 20,000 Hz = ultrasound. Humans hear about 20 Hz to 20,000 Hz.",
+      "zh": "高于 20,000 Hz = 超声波。人能听到大约 20 Hz 到 20,000 Hz。"
+     }
+    },
+    {
+     "q": "Which part of the ear turns vibrations into electrical signals?",
+     "options": [
+      "cochlea",
+      "eardrum",
+      "pinna",
+      "ossicles"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The cochlea converts vibrations into electrical signals.",
+      "zh": "耳蜗把振动变成电信号。"
+     }
+    },
+    {
+     "q": "Which is the correct order as sound travels into the ear?",
+     "options": [
+      "pinna, auditory canal, eardrum, ossicles, cochlea, auditory nerve",
+      "eardrum, pinna, cochlea, ossicles, auditory canal, auditory nerve",
+      "pinna, eardrum, auditory canal, cochlea, ossicles, auditory nerve",
+      "auditory nerve, cochlea, ossicles, eardrum, auditory canal, pinna"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Collect, carry, vibrate, amplify, convert, send to the brain.",
+      "zh": "收集、传送、振动、放大、转换、送到大脑。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain waves, sound and how we hear.",
+    "zh": "我现在能解释波、声音以及我们怎样听到声音。"
+   }
+  },
+  {
+   "id": "em-cards",
+   "type": "flashcards",
+   "icon": "📡",
+   "title": {
+    "en": "1. Practice: EM Spectrum Words (B8)",
+    "zh": "1. 练习：电磁波谱词汇（B8）"
+   },
+   "subtitle": {
+    "en": "11 cards",
+    "zh": "11 张"
+   },
+   "intro": {
+    "en": "Read the keyword, say the meaning in your own words, then tap to check.",
+    "zh": "读关键词，用自己的话说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "electromagnetic wave",
+     "back": "A transverse wave that can travel through a vacuum without needing a medium.",
+     "zh": "电磁波",
+     "zhBack": "不需要介质、能在真空中传播的横波。"
+    },
+    {
+     "front": "electromagnetic spectrum",
+     "back": "The complete range of electromagnetic waves, arranged according to their wavelength or frequency.",
+     "zh": "电磁波谱",
+     "zhBack": "按波长或频率排列的全部电磁波。"
+    },
+    {
+     "front": "radio wave",
+     "back": "A low-frequency electromagnetic wave used for radio and television communication.",
+     "zh": "无线电波",
+     "zhBack": "低频电磁波，用于广播和电视通信。"
+    },
+    {
+     "front": "microwave",
+     "back": "An electromagnetic wave used in cooking, radar and satellite communication.",
+     "zh": "微波",
+     "zhBack": "用于烹饪、雷达和卫星通信的电磁波。"
+    },
+    {
+     "front": "infrared",
+     "back": "Electromagnetic radiation associated with heat, used in thermal imaging and remote controls.",
+     "zh": "红外线",
+     "zhBack": "和热有关的电磁辐射，用于热成像和遥控器。"
+    },
+    {
+     "front": "visible light",
+     "back": "The part of the electromagnetic spectrum that can be detected by the human eye.",
+     "zh": "可见光",
+     "zhBack": "电磁波谱中人眼能看见的部分。"
+    },
+    {
+     "front": "ultraviolet (uv)",
+     "back": "Electromagnetic radiation with a higher frequency than visible light, which can cause sunburn and damage skin cells.",
+     "zh": "紫外线",
+     "zhBack": "频率比可见光高的电磁辐射，会晒伤皮肤、伤害皮肤细胞。"
+    },
+    {
+     "front": "x-ray",
+     "back": "High-frequency electromagnetic radiation that can pass through soft tissue and is used to produce medical images.",
+     "zh": "X 射线",
+     "zhBack": "高频电磁辐射，能穿过软组织，用来拍医学影像。"
+    },
+    {
+     "front": "gamma ray",
+     "back": "Very high-frequency electromagnetic radiation that can be produced by radioactive materials and used in cancer treatment.",
+     "zh": "伽马射线",
+     "zhBack": "频率非常高的电磁辐射，可由放射性物质产生，用于治疗癌症。"
+    },
+    {
+     "front": "ionising radiation",
+     "back": "Radiation with enough energy to remove electrons from atoms, potentially damaging cells and DNA.",
+     "zh": "电离辐射",
+     "zhBack": "能量大到能把电子从原子中打出来的辐射，可能伤害细胞和 DNA。"
+    },
+    {
+     "front": "order of the EM spectrum",
+     "back": "Radio, microwave, infrared, visible light, ultraviolet, X-ray, gamma: low frequency to high frequency.",
+     "zh": "电磁波谱的顺序",
+     "zhBack": "无线电波、微波、红外线、可见光、紫外线、X 射线、伽马射线：从低频到高频。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain the 10 EM spectrum keywords.",
+    "zh": "我现在能解释 10 个关于电磁波谱的关键词。"
+   }
+  },
+  {
+   "id": "em-match",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "2. Practice: EM Spectrum Match",
+    "zh": "2. 练习：电磁波谱配对"
+   },
+   "intro": {
+    "en": "Tap a word, then tap its use or meaning.",
+    "zh": "先点词，再点它的用途或意思。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "radio wave",
+     "b": "radio and TV"
+    },
+    {
+     "a": "microwave",
+     "b": "cooking and radar"
+    },
+    {
+     "a": "infrared",
+     "b": "heat and remote controls"
+    },
+    {
+     "a": "visible light",
+     "b": "seen by the eye"
+    },
+    {
+     "a": "ultraviolet",
+     "b": "sunburn"
+    },
+    {
+     "a": "X-ray",
+     "b": "medical images of bones"
+    },
+    {
+     "a": "gamma ray",
+     "b": "cancer treatment"
+    },
+    {
+     "a": "ionising radiation",
+     "b": "removes electrons from atoms"
+    },
+    {
+     "a": "EM wave",
+     "b": "travels through a vacuum"
+    },
+    {
+     "a": "EM spectrum",
+     "b": "the complete range"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match each EM wave to its use.",
+    "zh": "我现在能把每种电磁波和它的用途配对。"
+   }
+  },
+  {
+   "id": "em-quiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "📡",
+   "title": {
+    "en": "3. Class Quiz: The EM Spectrum",
+    "zh": "3. 课堂小测：电磁波谱"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "After the cards and the match game, answer these 10 questions. Then review any mistakes with Roy. This is a class quiz, not your homework quiz.",
+    "zh": "学完卡片、玩完配对游戏后，回答这 10 道题，再和 Roy 老师一起讲评错题。这是课堂小测，不是作业小测。"
+   },
+   "questions": [
+    {
+     "q": "An electromagnetic wave is a ___ wave that can travel through a vacuum.",
+     "options": [
+      "transverse",
+      "longitudinal",
+      "sound",
+      "water"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "School definition: a transverse wave that can travel through a vacuum without needing a medium.",
+      "zh": "学校定义：一种横波，不需要介质，能在真空中传播。"
+     }
+    },
+    {
+     "q": "Which can travel through a vacuum?",
+     "options": [
+      "light",
+      "sound",
+      "a water wave",
+      "a wave on a slinky"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Light is an EM wave. Sound needs a medium (B1).",
+      "zh": "光是电磁波。声音需要介质（B1）。"
+     }
+    },
+    {
+     "q": "Which EM wave has the LOWEST frequency?",
+     "options": [
+      "radio wave",
+      "gamma ray",
+      "X-ray",
+      "ultraviolet"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Radio is at the low-frequency end of the spectrum.",
+      "zh": "无线电波在电磁波谱的低频一端。"
+     }
+    },
+    {
+     "q": "Which EM wave has the HIGHEST frequency?",
+     "options": [
+      "gamma ray",
+      "radio wave",
+      "microwave",
+      "infrared"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gamma rays are very high-frequency: the top end of the spectrum.",
+      "zh": "伽马射线频率非常高，在电磁波谱的最高端。"
+     }
+    },
+    {
+     "q": "Which is the correct order from low to high frequency?",
+     "options": [
+      "radio, microwave, infrared, visible, ultraviolet, X-ray, gamma",
+      "gamma, X-ray, ultraviolet, visible, infrared, microwave, radio",
+      "radio, infrared, microwave, visible, X-ray, ultraviolet, gamma",
+      "microwave, radio, visible, infrared, ultraviolet, gamma, X-ray"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Rabbits Mate In Very Unusual eXpensive Gardens.",
+      "zh": "Rabbits Mate In Very Unusual eXpensive Gardens（口诀）。"
+     }
+    },
+    {
+     "q": "A TV remote control and a thermal camera both use...",
+     "options": [
+      "infrared",
+      "ultraviolet",
+      "gamma rays",
+      "X-rays"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Infrared is linked to heat and used in thermal imaging and remote controls.",
+      "zh": "红外线和热有关，用于热成像和遥控器。"
+     }
+    },
+    {
+     "q": "Which EM wave is used to cook food and for radar?",
+     "options": [
+      "microwave",
+      "radio wave",
+      "visible light",
+      "gamma ray"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Microwaves: cooking, radar and satellite communication.",
+      "zh": "微波：烹饪、雷达和卫星通信。"
+     }
+    },
+    {
+     "q": "Too much sun can burn your skin. This is caused by...",
+     "options": [
+      "ultraviolet",
+      "infrared",
+      "radio waves",
+      "visible light"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "UV has a higher frequency than visible light and can cause sunburn.",
+      "zh": "紫外线频率比可见光高，会晒伤皮肤。"
+     }
+    },
+    {
+     "q": "X-rays can make pictures of bones because they...",
+     "options": [
+      "pass through soft tissue",
+      "are seen by the human eye",
+      "are low-frequency waves",
+      "need a medium to travel"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "X-rays pass through soft tissue, so medical images show the bones.",
+      "zh": "X 射线能穿过软组织，所以医学影像能看到骨头。"
+     }
+    },
+    {
+     "q": "Ionising radiation is dangerous because it...",
+     "options": [
+      "removes electrons from atoms and can damage cells and DNA",
+      "is too quiet to hear",
+      "cannot travel through a vacuum",
+      "is always visible"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "It has enough energy to remove electrons from atoms, which can damage cells and DNA.",
+      "zh": "它的能量足以从原子中移走电子，会伤害细胞和 DNA。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now name the EM waves in order and give a use for each.",
+    "zh": "我现在能按顺序说出各种电磁波，并说出每种的用途。"
+   }
+  },
+  {
+   "id": "hw-thu1",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Thursday Homework: Light, Colour and EM (B4 to B8)",
+    "zh": "星期四作业：光、颜色和电磁波（B4 到 B8）"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read Main Book B4 to B8 first. One try only.",
+    "zh": "先读主课本 B4 到 B8。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Frosted glass lets light through but you cannot see clearly through it. It is...",
+     "options": [
+      "translucent",
+      "transparent",
+      "opaque",
+      "luminous"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Translucent = light passes through but scatters.",
+      "zh": "半透明 = 光能通过但会散开。"
+     }
+    },
+    {
+     "q": "The Sun is...",
+     "options": [
+      "luminous",
+      "non-luminous",
+      "opaque",
+      "laterally inverted"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The Sun produces its own light.",
+      "zh": "太阳自己发光。"
+     }
+    },
+    {
+     "q": "The normal is a line drawn at ___ to the surface.",
+     "options": [
+      "90°",
+      "45°",
+      "180°",
+      "0°"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The normal is an imaginary line at 90° to the surface.",
+      "zh": "法线是和表面成 90° 的假想线。"
+     }
+    },
+    {
+     "q": "The angle of incidence is 35°. The angle of reflection is...",
+     "options": [
+      "35°",
+      "55°",
+      "70°",
+      "145°"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Angle of incidence = angle of reflection.",
+      "zh": "入射角 = 反射角。"
+     }
+    },
+    {
+     "q": "Writing looks back to front in a plane mirror. The image is...",
+     "options": [
+      "laterally inverted",
+      "refracted",
+      "dispersed",
+      "absorbed"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Laterally inverted = reversed left to right.",
+      "zh": "左右颠倒。"
+     }
+    },
+    {
+     "q": "Light bends when it goes from air into glass because its ___ changes.",
+     "options": [
+      "speed",
+      "colour",
+      "amplitude",
+      "source"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Different material, different speed, new direction: refraction.",
+      "zh": "材料不同，速度不同，方向改变：折射。"
+     }
+    },
+    {
+     "q": "A prism splits white light into colours. This is...",
+     "options": [
+      "dispersion",
+      "reflection",
+      "absorption",
+      "lateral inversion"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Dispersion = separating white light into its colours.",
+      "zh": "色散 = 把白光分成各种颜色。"
+     }
+    },
+    {
+     "q": "Red light + green light = ?",
+     "options": [
+      "yellow",
+      "cyan",
+      "magenta",
+      "white"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Red + green = yellow. Red + blue = magenta. Green + blue = cyan.",
+      "zh": "红 + 绿 = 黄。红 + 蓝 = 品红。绿 + 蓝 = 青。"
+     }
+    },
+    {
+     "q": "A green leaf looks green because it...",
+     "options": [
+      "reflects green light and absorbs the other colours",
+      "absorbs green light",
+      "makes its own green light",
+      "reflects all colours"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Objects reflect their own colour and absorb the rest.",
+      "zh": "物体反射自己的颜色，吸收其他颜色。"
+     }
+    },
+    {
+     "q": "Which EM wave can the human eye detect?",
+     "options": [
+      "visible light",
+      "infrared",
+      "ultraviolet",
+      "radio waves"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Visible light is the part of the EM spectrum the human eye can detect.",
+      "zh": "可见光是人眼能看到的那部分电磁波谱。"
+     }
+    },
+    {
+     "q": "Which EM waves are used in cancer treatment?",
+     "options": [
+      "gamma rays",
+      "microwaves",
+      "radio waves",
+      "infrared"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gamma rays: very high-frequency, used in cancer treatment.",
+      "zh": "伽马射线频率非常高，用于治疗癌症。"
+     }
+    },
+    {
+     "q": "Which list is in order of INCREASING frequency?",
+     "options": [
+      "infrared, visible light, ultraviolet",
+      "ultraviolet, visible light, infrared",
+      "visible light, infrared, ultraviolet",
+      "ultraviolet, infrared, visible light"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Radio, microwave, INFRARED, VISIBLE, ULTRAVIOLET, X-ray, gamma.",
+      "zh": "无线电波、微波、红外线、可见光、紫外线、X 射线、伽马射线。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain light, colour and the EM spectrum.",
+    "zh": "我现在能解释光、颜色和电磁波谱。"
+   }
+  },
+  {
+   "id": "hw-fri1",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Friday Homework: Atoms to Word Equations (A1 to A5)",
+    "zh": "星期五作业：原子到文字方程式（A1 到 A5）"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read Main Book A1 to A5 first. One try only.",
+    "zh": "先读主课本 A1 到 A5。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "A substance made of only ONE type of atom is...",
+     "options": [
+      "an element",
+      "a compound",
+      "a mixture",
+      "an alloy"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "One type of atom = element.",
+      "zh": "只有一种原子 = 元素。"
+     }
+    },
+    {
+     "q": "O₂ is...",
+     "options": [
+      "an element",
+      "a compound",
+      "a mixture",
+      "a solution"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "O₂ is a molecule made of only oxygen atoms, so it is an element.",
+      "zh": "O₂ 是只由氧原子组成的分子，所以是元素。"
+     }
+    },
+    {
+     "q": "Two or more elements chemically joined make a...",
+     "options": [
+      "compound",
+      "mixture",
+      "solution",
+      "pure element"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Chemically joined = compound, a new substance.",
+      "zh": "化学结合 = 化合物，一种新物质。"
+     }
+    },
+    {
+     "q": "A particle diagram shows two kinds of particle, each made of only one kind of atom. This is a...",
+     "options": [
+      "mixture of two elements",
+      "compound",
+      "mixture of two compounds",
+      "pure element"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Two kinds of particle = mixture. Each particle one kind of atom = elements.",
+      "zh": "两种粒子 = 混合物。每个粒子只有一种原子 = 元素。"
+     }
+    },
+    {
+     "q": "Co (capital C, small o) is...",
+     "options": [
+      "cobalt, an element",
+      "carbon monoxide, a compound",
+      "carbon and oxygen mixed",
+      "copper"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "One capital letter = one element. CO (two capitals) would be carbon monoxide.",
+      "zh": "一个大写字母 = 一种元素。CO（两个大写）才是一氧化碳。"
+     }
+    },
+    {
+     "q": "The symbol for iron is...",
+     "options": [
+      "Fe",
+      "I",
+      "Ir",
+      "In"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Fe comes from the Latin name for iron.",
+      "zh": "Fe 来自铁的拉丁名称。"
+     }
+    },
+    {
+     "q": "How many atoms are in ONE molecule of H₂SO₄?",
+     "options": [
+      "7",
+      "6",
+      "4",
+      "3"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2 + 1 + 4 = 7.",
+      "zh": "2 + 1 + 4 = 7。"
+     }
+    },
+    {
+     "q": "How many atoms are in 3 molecules of CO₂?",
+     "options": [
+      "9",
+      "6",
+      "5",
+      "3"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "One CO₂ has 1 + 2 = 3 atoms. 3 × 3 = 9.",
+      "zh": "一个 CO₂ 有 1 + 2 = 3 个原子。3 × 3 = 9。"
+     }
+    },
+    {
+     "q": "In H₂O, the ratio hydrogen : oxygen is...",
+     "options": [
+      "2 : 1",
+      "1 : 2",
+      "2 : 2",
+      "1 : 1"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2 hydrogen atoms, 1 oxygen atom.",
+      "zh": "2 个氢原子，1 个氧原子。"
+     }
+    },
+    {
+     "q": "In iron + sulfur → iron sulfide, the reactants are...",
+     "options": [
+      "iron and sulfur",
+      "iron sulfide",
+      "sulfur only",
+      "iron sulfide and iron"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Reactants are what you start with, on the left.",
+      "zh": "反应物是开始时的物质，在左边。"
+     }
+    },
+    {
+     "q": "Sodium + chlorine → ?",
+     "options": [
+      "sodium chloride",
+      "sodium chlorine",
+      "chlorine sodide",
+      "sodium chlorate"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Keep the metal name, change chlorine to chloride.",
+      "zh": "保留金属名称，chlorine 变成 chloride。"
+     }
+    },
+    {
+     "q": "SO₂ is called...",
+     "options": [
+      "sulfur dioxide",
+      "sulfur monoxide",
+      "sulfur oxide",
+      "sulfide dioxide"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Two non-metals: di = 2 oxygen atoms.",
+      "zh": "两种非金属：di = 2 个氧原子。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain atoms, compounds, formulae and word equations.",
+    "zh": "我现在能解释原子、化合物、化学式和文字方程式。"
+   }
+  },
+  {
+   "id": "hw-sat1",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Saturday Homework: Changes, States and Separating (A6 to A9)",
+    "zh": "星期六作业：变化、物态和分离（A6 到 A9）"
+   },
+   "subtitle": {
+    "en": "12 questions, one try",
+    "zh": "12 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Read Main Book A6 to A9 first. One try only.",
+    "zh": "先读主课本 A6 到 A9。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Which is a chemical change?",
+     "options": [
+      "burning paper",
+      "ice melting",
+      "sugar dissolving",
+      "water boiling"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Burning makes a new substance. The others are physical changes.",
+      "zh": "燃烧产生新物质。其他都是物理变化。"
+     }
+    },
+    {
+     "q": "Bubbles of a new gas appear when two liquids are mixed. This is a sign of a...",
+     "options": [
+      "chemical change",
+      "physical change",
+      "melting point",
+      "fair test"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A new gas means a new substance was made.",
+      "zh": "新的气体说明产生了新物质。"
+     }
+    },
+    {
+     "q": "2.0 g of iron reacts with 0.8 g of sulfur. The mass of iron sulfide made is...",
+     "options": [
+      "2.8 g",
+      "1.2 g",
+      "2.0 g",
+      "1.6 g"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Atoms are never lost or made: 2.0 g + 0.8 g = 2.8 g.",
+      "zh": "原子不会消失也不会凭空产生：2.0 g + 0.8 g = 2.8 g。"
+     }
+    },
+    {
+     "q": "In a liquid, the particles are...",
+     "options": [
+      "touching but random, and they slide",
+      "in neat rows, only wiggling",
+      "far apart and moving fast",
+      "not moving at all"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Solid = neat rows. Liquid = touching, random, sliding. Gas = far apart.",
+      "zh": "固体 = 整齐排列。液体 = 挨着、随机、滑动。气体 = 离得很远。"
+     }
+    },
+    {
+     "q": "Gas turning into a liquid is called...",
+     "options": [
+      "condensing",
+      "freezing",
+      "melting",
+      "boiling"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Gas → liquid = condensing.",
+      "zh": "气体 → 液体 = 冷凝。"
+     }
+    },
+    {
+     "q": "Mercury melts at -39 °C and boils at 357 °C. At 20 °C, mercury is a...",
+     "options": [
+      "liquid",
+      "solid",
+      "gas",
+      "mixture"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "20 is hotter than -39 but colder than 357, so it is between: liquid.",
+      "zh": "20 比 -39 热，比 357 冷，在两者之间：液体。"
+     }
+    },
+    {
+     "q": "Which temperature is the coldest?",
+     "options": [
+      "-40 °C",
+      "-5 °C",
+      "0 °C",
+      "12 °C"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The bigger the number after the minus, the colder.",
+      "zh": "负号后面的数越大，越冷。"
+     }
+    },
+    {
+     "q": "Emma tests how the water temperature changes the time for sugar to dissolve. The independent variable is the...",
+     "options": [
+      "temperature of the water",
+      "time to dissolve",
+      "mass of sugar",
+      "volume of water"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Independent = the one thing you change.",
+      "zh": "自变量 = 你改变的那一个量。"
+     }
+    },
+    {
+     "q": "In a results table, the first column shows...",
+     "options": [
+      "what you change",
+      "what you keep the same",
+      "your name",
+      "the conclusion"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "First column = the independent variable, with units in the heading.",
+      "zh": "第一列 = 自变量，表头写上单位。"
+     }
+    },
+    {
+     "q": "A magnet is moved over iron sulfide (after heating iron and sulfur). What happens?",
+     "options": [
+      "the magnet cannot pull the iron out",
+      "the iron sticks to the magnet",
+      "the sulfur sticks to the magnet",
+      "it turns back into iron and sulfur"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Iron sulfide is a compound: the iron is chemically joined.",
+      "zh": "硫化亚铁是化合物：铁已经化学结合了。"
+     }
+    },
+    {
+     "q": "Sophie wants pure drinking water from sea water. She should use...",
+     "options": [
+      "distillation",
+      "filtering",
+      "a magnet",
+      "chromatography"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Distillation collects the pure liquid. Filtering cannot remove dissolved salt.",
+      "zh": "蒸馏能收集纯净的液体。过滤去不掉溶解的盐。"
+     }
+    },
+    {
+     "q": "Tom wants to see which dyes are in a black felt-tip pen. He should use...",
+     "options": [
+      "chromatography",
+      "evaporating",
+      "filtering",
+      "distillation"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Chromatography separates the dyes in an ink.",
+      "zh": "色谱法把墨水里的染料分开。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain changes, states of matter, fair tests and separating.",
+    "zh": "我现在能解释物质变化、物态、公平测试和分离方法。"
+   }
+  },
+  {
+   "id": "sep-cards",
+   "type": "flashcards",
+   "icon": "⚗️",
+   "title": {
+    "en": "1. Practice: Separating Mixtures Words (A9)",
+    "zh": "1. 练习：分离混合物词汇（A9）"
+   },
+   "subtitle": {
+    "en": "16 cards",
+    "zh": "16 张"
+   },
+   "intro": {
+    "en": "Read the word, say what it means, then tap to check.",
+    "zh": "读词，说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "dissolve",
+     "back": "A solid breaks into tiny particles and spreads through a liquid, so you cannot see it.",
+     "zh": "溶解",
+     "zhBack": "固体变成很小的粒子散布到液体里，看不见了。"
+    },
+    {
+     "front": "solute",
+     "back": "The solid that dissolves (salt).",
+     "zh": "溶质",
+     "zhBack": "被溶解的固体（盐）。"
+    },
+    {
+     "front": "solvent",
+     "back": "The liquid it dissolves in (water).",
+     "zh": "溶剂",
+     "zhBack": "用来溶解的液体（水）。"
+    },
+    {
+     "front": "solution",
+     "back": "Solute + solvent mixed together (salt water). A mixture.",
+     "zh": "溶液",
+     "zhBack": "溶质和溶剂混在一起（盐水）。是一种混合物。"
+    },
+    {
+     "front": "soluble",
+     "back": "Can dissolve in water: salt, sugar.",
+     "zh": "可溶的",
+     "zhBack": "能溶解在水里：盐、糖。"
+    },
+    {
+     "front": "insoluble",
+     "back": "Cannot dissolve in water: sand, chalk.",
+     "zh": "不溶的",
+     "zhBack": "不能溶解在水里：沙子、粉笔。"
+    },
+    {
+     "front": "magnetic",
+     "back": "A magnet pulls it: iron, nickel, cobalt.",
+     "zh": "有磁性的",
+     "zhBack": "磁铁能吸住它：铁、镍、钴。"
+    },
+    {
+     "front": "filtering",
+     "back": "Pouring through filter paper to separate an insoluble solid from a liquid.",
+     "zh": "过滤",
+     "zhBack": "用滤纸把不溶的固体和液体分开。"
+    },
+    {
+     "front": "residue",
+     "back": "The solid left ON the filter paper.",
+     "zh": "滤渣",
+     "zhBack": "留在滤纸上的固体。"
+    },
+    {
+     "front": "filtrate",
+     "back": "The liquid that goes THROUGH the filter paper.",
+     "zh": "滤液",
+     "zhBack": "穿过滤纸流下去的液体。"
+    },
+    {
+     "front": "evaporate",
+     "back": "A liquid turns into a gas and goes into the air.",
+     "zh": "蒸发",
+     "zhBack": "液体变成气体进入空气。"
+    },
+    {
+     "front": "crystal",
+     "back": "A small solid piece with flat sides and a regular shape.",
+     "zh": "晶体",
+     "zhBack": "有平面、形状规则的小固体。"
+    },
+    {
+     "front": "condense",
+     "back": "A gas cools down and turns back into a liquid.",
+     "zh": "冷凝",
+     "zhBack": "气体变冷，重新变成液体。"
+    },
+    {
+     "front": "distillation",
+     "back": "Boil a solution, then condense the steam to collect the pure liquid.",
+     "zh": "蒸馏",
+     "zhBack": "把溶液煮沸，再把蒸汽冷凝，收集纯净的液体。"
+    },
+    {
+     "front": "distillate",
+     "back": "The pure liquid collected after distillation.",
+     "zh": "馏出液",
+     "zhBack": "蒸馏后收集到的纯净液体。"
+    },
+    {
+     "front": "chromatography",
+     "back": "Separates the different dyes mixed in an ink.",
+     "zh": "色谱法",
+     "zhBack": "把墨水里混合的不同染料分开。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain 16 separating words.",
+    "zh": "我现在能解释 16 个分离混合物的词。"
+   }
+  },
+  {
+   "id": "sep-match",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "2. Practice: Which Method? Match",
+    "zh": "2. 练习：选方法配对"
+   },
+   "intro": {
+    "en": "Tap a mixture, then tap the method that separates it.",
+    "zh": "先点混合物，再点能分开它的方法。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "iron filings + sand",
+     "b": "magnet"
+    },
+    {
+     "a": "sand + water",
+     "b": "filtering"
+    },
+    {
+     "a": "salt from salt water",
+     "b": "evaporating"
+    },
+    {
+     "a": "pure water from sea water",
+     "b": "distillation"
+    },
+    {
+     "a": "dyes in an ink",
+     "b": "chromatography"
+    },
+    {
+     "a": "solid left on filter paper",
+     "b": "residue"
+    },
+    {
+     "a": "liquid through filter paper",
+     "b": "filtrate"
+    },
+    {
+     "a": "salt in salt water",
+     "b": "solute"
+    },
+    {
+     "a": "water in salt water",
+     "b": "solvent"
+    },
+    {
+     "a": "gas to liquid",
+     "b": "condense"
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose a method for each mixture.",
+    "zh": "我现在能为每种混合物选方法。"
+   }
+  },
+  {
+   "id": "sep-quiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "⚗️",
+   "title": {
+    "en": "3. Class Quiz: Separating Mixtures",
+    "zh": "3. 课堂小测：分离混合物"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "After the cards and the match game, answer these 10 questions. Then review any mistakes with Roy. This is a class quiz, not your homework quiz.",
+    "zh": "学完卡片、玩完配对游戏后，回答这 10 道题，再和 Roy 老师一起讲评错题。这是课堂小测，不是作业小测。"
+   },
+   "questions": [
+    {
+     "q": "We can separate a mixture because its substances are...",
+     "options": [
+      "not chemically joined",
+      "chemically joined",
+      "all the same colour",
+      "all liquids"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "In a mixture each substance keeps its own properties, so we can pull them apart.",
+      "zh": "混合物里每种物质保持自己的性质，所以能分开。"
+     }
+    },
+    {
+     "q": "In salt water, the salt is the...",
+     "options": [
+      "solute",
+      "solvent",
+      "filtrate",
+      "distillate"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The solid that dissolves is the solute. The water is the solvent.",
+      "zh": "被溶解的固体是溶质，水是溶剂。"
+     }
+    },
+    {
+     "q": "Chalk does not dissolve in water. Chalk is...",
+     "options": [
+      "insoluble",
+      "soluble",
+      "magnetic",
+      "a solution"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Cannot dissolve = insoluble.",
+      "zh": "不能溶解 = 不溶的。"
+     }
+    },
+    {
+     "q": "Iron filings are mixed with sand. The quickest way to separate them is...",
+     "options": [
+      "a magnet",
+      "distillation",
+      "chromatography",
+      "evaporating"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Iron is magnetic, sand is not.",
+      "zh": "铁有磁性，沙子没有。"
+     }
+    },
+    {
+     "q": "Sand and water are poured through filter paper. The water that goes through is the...",
+     "options": [
+      "filtrate",
+      "residue",
+      "solute",
+      "crystal"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Through the paper = filtrate. Left on the paper = residue.",
+      "zh": "穿过滤纸 = 滤液。留在纸上 = 滤渣。"
+     }
+    },
+    {
+     "q": "Why can filtering NOT get salt out of salt water?",
+     "options": [
+      "dissolved salt particles go through the holes",
+      "salt is magnetic",
+      "salt is too heavy to move",
+      "filter paper dissolves in salt water"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Dissolved particles are tiny, so they pass through the filter paper.",
+      "zh": "溶解的粒子非常小，会穿过滤纸。"
+     }
+    },
+    {
+     "q": "To get salt crystals back from salt water, you should...",
+     "options": [
+      "evaporate the water",
+      "filter it",
+      "use a magnet",
+      "use chromatography"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Heat it: the water evaporates and the salt crystals are left.",
+      "zh": "加热：水蒸发，留下盐的晶体。"
+     }
+    },
+    {
+     "q": "In distillation, the steam turns back into pure water in the...",
+     "options": [
+      "condenser",
+      "evaporating dish",
+      "filter paper",
+      "prism"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The condenser is a tube cooled by cold water. The steam condenses there.",
+      "zh": "冷凝管是用冷水冷却的管子，蒸汽在那里冷凝。"
+     }
+    },
+    {
+     "q": "Rock salt: add water, stir, filter, then...",
+     "options": [
+      "evaporate the filtrate",
+      "throw away the filtrate",
+      "use a magnet on the residue",
+      "freeze the filtrate"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The filtrate is salt water. Evaporate it to get pure salt crystals.",
+      "zh": "滤液是盐水。把它蒸发，得到纯净的盐晶体。"
+     }
+    },
+    {
+     "q": "In chromatography, the start line is drawn in pencil because...",
+     "options": [
+      "pencil does not dissolve and run",
+      "pencil is easier to see",
+      "pen is too expensive",
+      "pencil is magnetic"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Pen ink would dissolve and spread up the paper with the dyes.",
+      "zh": "钢笔墨水会溶解，和染料一起往上跑。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose and explain the right method to separate a mixture.",
+    "zh": "我现在能选出并解释分离混合物的正确方法。"
+   }
+  }
+ ]
+}

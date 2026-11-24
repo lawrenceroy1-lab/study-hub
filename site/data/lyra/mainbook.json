@@ -5171,6 +5171,83 @@
        "zh": "这是学校的定义，要一字不差地记住。"
       }
      ]
+    },
+    {
+     "icon": "📏",
+     "title": {
+      "en": "The order of the EM spectrum",
+      "zh": "电磁波谱的顺序"
+     },
+     "points": [
+      {
+       "en": "From LOW frequency (long wavelength) to HIGH frequency (short wavelength): radio, microwave, infrared, visible light, ultraviolet, X-ray, gamma.",
+       "zh": "从低频（波长长）到高频（波长短）：无线电波、微波、红外线、可见光、紫外线、X 射线、伽马射线。"
+      },
+      {
+       "en": "Memory trick: Rabbits Mate In Very Unusual eXpensive Gardens (R, M, I, V, U, X, G).",
+       "zh": "记忆口诀：Rabbits Mate In Very Unusual eXpensive Gardens（R、M、I、V、U、X、G）。"
+      },
+      {
+       "en": "The higher the frequency, the more energy. UV, X-rays and gamma rays are ionising radiation: they can damage cells.",
+       "zh": "频率越高，能量越大。紫外线、X 射线和伽马射线是电离辐射，会伤害细胞。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "📻",
+        "en": "radio",
+        "zh": "无线电波"
+       },
+       {
+        "icon": "🍲",
+        "en": "microwave",
+        "zh": "微波"
+       },
+       {
+        "icon": "🔥",
+        "en": "infrared",
+        "zh": "红外线"
+       },
+       {
+        "icon": "🌈",
+        "en": "visible",
+        "zh": "可见光"
+       },
+       {
+        "icon": "🕶️",
+        "en": "UV",
+        "zh": "紫外线"
+       },
+       {
+        "icon": "🦴",
+        "en": "X-ray",
+        "zh": "X 射线"
+       },
+       {
+        "icon": "☢️",
+        "en": "gamma",
+        "zh": "伽马射线"
+       }
+      ]
+     },
+     "remember": {
+      "en": "Low frequency, long wavelength → high frequency, short wavelength.",
+      "zh": "低频、长波长 → 高频、短波长。"
+     },
+     "quick": {
+      "q": "Which comes straight AFTER visible light (higher frequency)?",
+      "options": [
+       "infrared",
+       "ultraviolet"
+      ],
+      "answer": 1,
+      "why": {
+       "en": "Order: ... infrared, visible, ULTRAVIOLET, X-ray, gamma.",
+       "zh": "顺序：……红外线、可见光、紫外线、X 射线、伽马射线。"
+      }
+     }
     }
    ],
    "canNow": {

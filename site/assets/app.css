@@ -337,7 +337,9 @@ table.log th { color: var(--title); }
 /* Quick A-or-B question and drawing pad inside Main Book pages */
 .quick, .draw { margin-top: 18px; border: 3px dashed var(--accent); border-radius: 18px; padding: 14px; background: var(--accent-soft); }
 .quick-head { font-weight: 900; font-size: 1.1em; color: var(--title); margin-bottom: 6px; }
-.answers.two { grid-template-columns: 1fr 1fr; }
+.answers.two { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+@media (max-width: 440px) { .answers.two { grid-template-columns: 1fr; } }
+.ansbtn { min-width: 0; overflow-wrap: break-word; }
 .drawpad { display: block; width: 100%; height: auto; aspect-ratio: 1000 / 680; background: #fff; border: 3px solid var(--title); border-radius: 14px; touch-action: none; cursor: crosshair; margin: 8px 0; }
 .chip.swatch { font-size: 1.4em; min-width: 52px; }
 
