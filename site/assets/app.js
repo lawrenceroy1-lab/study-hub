@@ -320,11 +320,24 @@
     clear(main);
     for (var i = 0; i < arguments.length; i++) add(main, arguments[i]);
   }
-  function backLink(href) { return h('a', { class: 'back', href: href || '#/' }, T('back')); }
+  /* Back always goes to the page you came from (kept for this tab, even after a reload) */
+  var TRAIL_KEY = 'trail_' + (window.STUDENT_ID || '');
+  function trail() { try { return JSON.parse(sessionStorage.getItem(TRAIL_KEY)) || []; } catch (e) { return []; } }
+  function noteTrail() {
+    var t = trail(), cur = location.hash || '#/';
+    if (cur === '#' ) cur = '#/';
+    if (t.length > 1 && t[t.length - 2] === cur) t.pop();
+    else if (t[t.length - 1] !== cur) t.push(cur);
+    if (t.length > 40) t = t.slice(-40);
+    try { sessionStorage.setItem(TRAIL_KEY, JSON.stringify(t)); } catch (e) {}
+  }
+  function prevPage() { var t = trail(); return t.length > 1 ? t[t.length - 2] : null; }
+  function backLink(href) { return h('a', { class: 'back', href: prevPage() || href || '#/' }, T('back')); }
 
   function route() {
     if (S.cleanup) { try { S.cleanup(); } catch (e) {} S.cleanup = null; }
     stopSpeech();
+    noteTrail();
     var parts = location.hash.replace(/^#\/?/, '').split('/').filter(Boolean);
     window.scrollTo(0, 0);
     if (parts[0] === 'w' && parts[1]) {
@@ -1789,7 +1802,8 @@
         var ch = b.chapters.filter(function (c) { return c.code === code; })[0];
         if (!ch) return renderError();
         var area = h('div');
-        var ret = S.returnTo;
+        var ret = S.returnTo, pv0 = prevPage();
+        if (pv0 && /\/day\//.test(pv0) && (!ret || ret.hash !== pv0)) ret = { hash: pv0, label: L('that day', '那一天') };
         show(ret ? h('a', { class: 'back', href: ret.hash }, '← ' + L('Back to', '回到') + ': ' + ret.label) : backLink('#/book'), h('h1', null, '📖 ' + ch.code + ' ' + tx(ch.title)),
           h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享'))), area);
         var ready = b.chapters.filter(function (c) { return c.slides && c.slides.length; }), at = ready.indexOf(ch);
