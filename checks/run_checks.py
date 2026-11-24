@@ -87,7 +87,7 @@ def evaluate(expr):
         if isinstance(t, Fraction):
             st.append(t); continue
         b, a = st.pop(), st.pop()
-        st.append({"×": a * b, "÷": a / b, "+": a + b, "-": a - b, "−": a - b}[t])
+        st.append(a * b if t == "×" else a / b if t == "÷" else a + b if t == "+" else a - b)
     if len(st) != 1:
         raise ValueError(f"bad expression '{expr}'")
     return st[0]

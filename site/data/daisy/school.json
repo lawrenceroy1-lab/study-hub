@@ -1,6 +1,2488 @@
 {
  "sheets": [
   {
+   "id": "l1-reteach",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths · given Tue 24 Nov",
+    "zh": "数学 · 11月24日（星期二）发"
+   },
+   "title": {
+    "en": "Lesson 1 Reteach: Estimate Products of Fractions",
+    "zh": "第 1 课复习：估算分数的积"
+   },
+   "intro": {
+    "en": "Fraction × whole number: change the whole number to a close number that is easy to divide (a compatible number). Fraction × fraction: round each fraction to 0, 1/2 or 1. Mixed numbers: round to the nearest whole number.",
+    "zh": "分数 × 整数：把整数换成接近又好除的数（相容数）。分数 × 分数：每个分数约成 0、1/2 或 1。带分数：约成最接近的整数。"
+   },
+   "note": {
+    "en": "Worksheet page 53. Estimates can be a little different. Show which numbers you rounded to.",
+    "zh": "作业纸第 53 页。估算的答案可以有一点不同，要写出你约成了哪些数。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "Estimate: 1/5 × 24",
+     "steps": [
+      {
+       "en": "24 is hard to divide by 5. Change it to a close number that 5 goes into easily (a compatible number): 25.",
+       "zh": "24 不好被 5 整除。换成一个接近、又好除的数（相容数）：25。",
+       "math": "25 ÷ 5 = 5"
+      },
+      {
+       "en": "1/5 of 25 is 5.",
+       "zh": "25 的 1/5 是 5。",
+       "math": "1/5 × 25 = 5"
+      }
+     ],
+     "answer": "5",
+     "why": {
+      "en": "So 1/5 × 24 is about 5.",
+      "zh": "所以 1/5 × 24 大约是 5。"
+     },
+     "check": {
+      "expr": "1/5 × 25",
+      "value": "5"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 2",
+     "q": "Estimate: 1/3 × 16",
+     "steps": [
+      {
+       "en": "16 is hard to divide by 3. Change it to a close number that 3 goes into easily (a compatible number): 15.",
+       "zh": "16 不好被 3 整除。换成一个接近、又好除的数（相容数）：15。",
+       "math": "15 ÷ 3 = 5"
+      },
+      {
+       "en": "1/3 of 15 is 5.",
+       "zh": "15 的 1/3 是 5。",
+       "math": "1/3 × 15 = 5"
+      }
+     ],
+     "answer": "5",
+     "why": {
+      "en": "So 1/3 × 16 is about 5.",
+      "zh": "所以 1/3 × 16 大约是 5。"
+     },
+     "check": {
+      "expr": "1/3 × 15",
+      "value": "5"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 3",
+     "q": "Estimate: 3/8 × 17",
+     "steps": [
+      {
+       "en": "17 is hard to divide by 8. Change it to a close number that 8 goes into easily (a compatible number): 16.",
+       "zh": "17 不好被 8 整除。换成一个接近、又好除的数（相容数）：16。",
+       "math": "16 ÷ 8 = 2"
+      },
+      {
+       "en": "1/8 of 16 is 2, so 3/8 of 16 is 3 × 2 = 6.",
+       "zh": "16 的 1/8 是 2，所以 3/8 是 3 × 2 = 6。",
+       "math": [
+        "3 × 2 = 6",
+        "3/8 × 16 = 6"
+       ]
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "So 3/8 × 17 is about 6.",
+      "zh": "所以 3/8 × 17 大约是 6。"
+     },
+     "check": {
+      "expr": "3/8 × 16",
+      "value": "6"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 4",
+     "q": "Estimate: 4/7 of 20",
+     "steps": [
+      {
+       "en": "20 is hard to divide by 7. Change it to a close number that 7 goes into easily (a compatible number): 21.",
+       "zh": "20 不好被 7 整除。换成一个接近、又好除的数（相容数）：21。",
+       "math": "21 ÷ 7 = 3"
+      },
+      {
+       "en": "1/7 of 21 is 3, so 4/7 of 21 is 4 × 3 = 12.",
+       "zh": "21 的 1/7 是 3，所以 4/7 是 4 × 3 = 12。",
+       "math": [
+        "4 × 3 = 12",
+        "4/7 × 21 = 12"
+       ]
+      }
+     ],
+     "answer": "12",
+     "why": {
+      "en": "So 4/7 of 20 is about 12.",
+      "zh": "所以 4/7 的 20 大约是 12。"
+     },
+     "check": {
+      "expr": "4/7 × 21",
+      "value": "12"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 5",
+     "q": "Estimate: 7/8 × 3/5",
+     "steps": [
+      {
+       "en": "7/8: the top (7) and bottom (8) are almost the same, so it rounds to 1.",
+       "zh": "7/8：分子 7 和分母 8 差不多，所以约等于 1。"
+      },
+      {
+       "en": "3/5: the top (3) is about half of the bottom (5), so it rounds to 1/2.",
+       "zh": "3/5：分子 3 大约是分母 5 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 1/2 = 1/2"
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "So 7/8 × 3/5 is about 1/2.",
+      "zh": "所以 7/8 × 3/5 大约是 1/2。"
+     },
+     "check": {
+      "expr": "1 × 1/2",
+      "value": "1/2"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 6",
+     "q": "Estimate: 11/12 × 1/3",
+     "steps": [
+      {
+       "en": "11/12: the top (11) and bottom (12) are almost the same, so it rounds to 1.",
+       "zh": "11/12：分子 11 和分母 12 差不多，所以约等于 1。"
+      },
+      {
+       "en": "1/3: the top (1) is about half of the bottom (3), so it rounds to 1/2.",
+       "zh": "1/3：分子 1 大约是分母 3 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 1/2 = 1/2"
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "So 11/12 × 1/3 is about 1/2.",
+      "zh": "所以 11/12 × 1/3 大约是 1/2。"
+     },
+     "check": {
+      "expr": "1 × 1/2",
+      "value": "1/2"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 7",
+     "q": "Estimate: 1/9 × 1/12",
+     "steps": [
+      {
+       "en": "1/9: the top (1) is much smaller than the bottom (9), so it rounds to 0.",
+       "zh": "1/9：分子 1 比分母 9 小很多，所以约等于 0。"
+      },
+      {
+       "en": "1/12: the top (1) is much smaller than the bottom (12), so it rounds to 0.",
+       "zh": "1/12：分子 1 比分母 12 小很多，所以约等于 0。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "0 × 0 = 0"
+      }
+     ],
+     "answer": "0",
+     "why": {
+      "en": "So 1/9 × 1/12 is about 0.",
+      "zh": "所以 1/9 × 1/12 大约是 0。"
+     },
+     "check": {
+      "expr": "0 × 0",
+      "value": "0"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 8",
+     "q": "Estimate: 11/12 × 6/7",
+     "steps": [
+      {
+       "en": "11/12: the top (11) and bottom (12) are almost the same, so it rounds to 1.",
+       "zh": "11/12：分子 11 和分母 12 差不多，所以约等于 1。"
+      },
+      {
+       "en": "6/7: the top (6) and bottom (7) are almost the same, so it rounds to 1.",
+       "zh": "6/7：分子 6 和分母 7 差不多，所以约等于 1。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 1 = 1"
+      }
+     ],
+     "answer": "1",
+     "why": {
+      "en": "So 11/12 × 6/7 is about 1.",
+      "zh": "所以 11/12 × 6/7 大约是 1。"
+     },
+     "check": {
+      "expr": "1 × 1",
+      "value": "1"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 9",
+     "q": "Estimate: 3 7/8 × 10 1/10",
+     "steps": [
+      {
+       "en": "3 7/8 rounds UP to 4, because 7/8 is more than a half.",
+       "zh": "3 7/8 约等于 4，因为 7/8 大于一半，要进一。"
+      },
+      {
+       "en": "10 1/10 rounds DOWN to 10, because 1/10 is less than a half.",
+       "zh": "10 1/10 约等于 10，因为 1/10 小于一半，舍去。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "4 × 10 = 40"
+      }
+     ],
+     "answer": "40",
+     "why": {
+      "en": "So 3 7/8 × 10 1/10 is about 40.",
+      "zh": "所以 3 7/8 × 10 1/10 大约是 40。"
+     },
+     "check": {
+      "expr": "4 × 10",
+      "value": "40"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 10",
+     "q": "Estimate: 2 4/5 × 6 1/12",
+     "steps": [
+      {
+       "en": "2 4/5 rounds UP to 3, because 4/5 is more than a half.",
+       "zh": "2 4/5 约等于 3，因为 4/5 大于一半，要进一。"
+      },
+      {
+       "en": "6 1/12 rounds DOWN to 6, because 1/12 is less than a half.",
+       "zh": "6 1/12 约等于 6，因为 1/12 小于一半，舍去。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "3 × 6 = 18"
+      }
+     ],
+     "answer": "18",
+     "why": {
+      "en": "So 2 4/5 × 6 1/12 is about 18.",
+      "zh": "所以 2 4/5 × 6 1/12 大约是 18。"
+     },
+     "check": {
+      "expr": "3 × 6",
+      "value": "18"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 11",
+     "q": "Estimate: 4 7/8 × 2 9/10",
+     "steps": [
+      {
+       "en": "4 7/8 rounds UP to 5, because 7/8 is more than a half.",
+       "zh": "4 7/8 约等于 5，因为 7/8 大于一半，要进一。"
+      },
+      {
+       "en": "2 9/10 rounds UP to 3, because 9/10 is more than a half.",
+       "zh": "2 9/10 约等于 3，因为 9/10 大于一半，要进一。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "5 × 3 = 15"
+      }
+     ],
+     "answer": "15",
+     "why": {
+      "en": "So 4 7/8 × 2 9/10 is about 15.",
+      "zh": "所以 4 7/8 × 2 9/10 大约是 15。"
+     },
+     "check": {
+      "expr": "5 × 3",
+      "value": "15"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 12",
+     "q": "Estimate: 7 2/7 × 5 3/4",
+     "steps": [
+      {
+       "en": "7 2/7 rounds DOWN to 7, because 2/7 is less than a half.",
+       "zh": "7 2/7 约等于 7，因为 2/7 小于一半，舍去。"
+      },
+      {
+       "en": "5 3/4 rounds UP to 6, because 3/4 is more than a half.",
+       "zh": "5 3/4 约等于 6，因为 3/4 大于一半，要进一。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "7 × 6 = 42"
+      }
+     ],
+     "answer": "42",
+     "why": {
+      "en": "So 7 2/7 × 5 3/4 is about 42.",
+      "zh": "所以 7 2/7 × 5 3/4 大约是 42。"
+     },
+     "check": {
+      "expr": "7 × 6",
+      "value": "42"
+     },
+     "noUnit": true
+    }
+   ]
+  },
+  {
+   "id": "l1-skills",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths · given Tue 24 Nov",
+    "zh": "数学 · 11月24日（星期二）发"
+   },
+   "title": {
+    "en": "Lesson 1 Skills Practice: Estimate Products of Fractions",
+    "zh": "第 1 课练习：估算分数的积"
+   },
+   "intro": {
+    "en": "Same three tricks: compatible numbers, round fractions to 0, 1/2 or 1, round mixed numbers to whole numbers.",
+    "zh": "还是三个方法：相容数；分数约成 0、1/2 或 1；带分数约成整数。"
+   },
+   "note": {
+    "en": "Worksheet page 54. Write the rounded numbers, then the estimate.",
+    "zh": "作业纸第 54 页。先写约好的数，再写估算结果。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "Estimate: 1/5 × 26",
+     "steps": [
+      {
+       "en": "26 is hard to divide by 5. Change it to a close number that 5 goes into easily (a compatible number): 25.",
+       "zh": "26 不好被 5 整除。换成一个接近、又好除的数（相容数）：25。",
+       "math": "25 ÷ 5 = 5"
+      },
+      {
+       "en": "1/5 of 25 is 5.",
+       "zh": "25 的 1/5 是 5。",
+       "math": "1/5 × 25 = 5"
+      }
+     ],
+     "answer": "5",
+     "why": {
+      "en": "So 1/5 × 26 is about 5.",
+      "zh": "所以 1/5 × 26 大约是 5。"
+     },
+     "check": {
+      "expr": "1/5 × 25",
+      "value": "5"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 2",
+     "q": "Estimate: 1/2 of 17",
+     "steps": [
+      {
+       "en": "17 is hard to divide by 2. Change it to a close number that 2 goes into easily (a compatible number): 18.",
+       "zh": "17 不好被 2 整除。换成一个接近、又好除的数（相容数）：18。",
+       "math": "18 ÷ 2 = 9"
+      },
+      {
+       "en": "1/2 of 18 is 9.",
+       "zh": "18 的 1/2 是 9。",
+       "math": "1/2 × 18 = 9"
+      }
+     ],
+     "answer": "9",
+     "why": {
+      "en": "So 1/2 of 17 is about 9. (Using 16 instead also works: 1/2 of 16 is 8. Both are good estimates.)",
+      "zh": "所以 1/2 的 17 大约是 9。（用 16 也可以：16 的一半是 8。两个都是好的估算。）"
+     },
+     "check": {
+      "expr": "1/2 × 18",
+      "value": "9"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 3",
+     "q": "Estimate: 3/4 × 35",
+     "steps": [
+      {
+       "en": "35 is hard to divide by 4. Change it to a close number that 4 goes into easily (a compatible number): 36.",
+       "zh": "35 不好被 4 整除。换成一个接近、又好除的数（相容数）：36。",
+       "math": "36 ÷ 4 = 9"
+      },
+      {
+       "en": "1/4 of 36 is 9, so 3/4 of 36 is 3 × 9 = 27.",
+       "zh": "36 的 1/4 是 9，所以 3/4 是 3 × 9 = 27。",
+       "math": [
+        "3 × 9 = 27",
+        "3/4 × 36 = 27"
+       ]
+      }
+     ],
+     "answer": "27",
+     "why": {
+      "en": "So 3/4 × 35 is about 27.",
+      "zh": "所以 3/4 × 35 大约是 27。"
+     },
+     "check": {
+      "expr": "3/4 × 36",
+      "value": "27"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 4",
+     "q": "Estimate: 2/3 × 35",
+     "steps": [
+      {
+       "en": "35 is hard to divide by 3. Change it to a close number that 3 goes into easily (a compatible number): 36.",
+       "zh": "35 不好被 3 整除。换成一个接近、又好除的数（相容数）：36。",
+       "math": "36 ÷ 3 = 12"
+      },
+      {
+       "en": "1/3 of 36 is 12, so 2/3 of 36 is 2 × 12 = 24.",
+       "zh": "36 的 1/3 是 12，所以 2/3 是 2 × 12 = 24。",
+       "math": [
+        "2 × 12 = 24",
+        "2/3 × 36 = 24"
+       ]
+      }
+     ],
+     "answer": "24",
+     "why": {
+      "en": "So 2/3 × 35 is about 24.",
+      "zh": "所以 2/3 × 35 大约是 24。"
+     },
+     "check": {
+      "expr": "2/3 × 36",
+      "value": "24"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 5",
+     "q": "Estimate: 3/7 × 29",
+     "steps": [
+      {
+       "en": "29 is hard to divide by 7. Change it to a close number that 7 goes into easily (a compatible number): 28.",
+       "zh": "29 不好被 7 整除。换成一个接近、又好除的数（相容数）：28。",
+       "math": "28 ÷ 7 = 4"
+      },
+      {
+       "en": "1/7 of 28 is 4, so 3/7 of 28 is 3 × 4 = 12.",
+       "zh": "28 的 1/7 是 4，所以 3/7 是 3 × 4 = 12。",
+       "math": [
+        "3 × 4 = 12",
+        "3/7 × 28 = 12"
+       ]
+      }
+     ],
+     "answer": "12",
+     "why": {
+      "en": "So 3/7 × 29 is about 12.",
+      "zh": "所以 3/7 × 29 大约是 12。"
+     },
+     "check": {
+      "expr": "3/7 × 28",
+      "value": "12"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 6",
+     "q": "Estimate: 2/9 × 26",
+     "steps": [
+      {
+       "en": "26 is hard to divide by 9. Change it to a close number that 9 goes into easily (a compatible number): 27.",
+       "zh": "26 不好被 9 整除。换成一个接近、又好除的数（相容数）：27。",
+       "math": "27 ÷ 9 = 3"
+      },
+      {
+       "en": "1/9 of 27 is 3, so 2/9 of 27 is 2 × 3 = 6.",
+       "zh": "27 的 1/9 是 3，所以 2/9 是 2 × 3 = 6。",
+       "math": [
+        "2 × 3 = 6",
+        "2/9 × 27 = 6"
+       ]
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "So 2/9 × 26 is about 6.",
+      "zh": "所以 2/9 × 26 大约是 6。"
+     },
+     "check": {
+      "expr": "2/9 × 27",
+      "value": "6"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 7",
+     "q": "Estimate: 5/8 × 41",
+     "steps": [
+      {
+       "en": "41 is hard to divide by 8. Change it to a close number that 8 goes into easily (a compatible number): 40.",
+       "zh": "41 不好被 8 整除。换成一个接近、又好除的数（相容数）：40。",
+       "math": "40 ÷ 8 = 5"
+      },
+      {
+       "en": "1/8 of 40 is 5, so 5/8 of 40 is 5 × 5 = 25.",
+       "zh": "40 的 1/8 是 5，所以 5/8 是 5 × 5 = 25。",
+       "math": [
+        "5 × 5 = 25",
+        "5/8 × 40 = 25"
+       ]
+      }
+     ],
+     "answer": "25",
+     "why": {
+      "en": "So 5/8 × 41 is about 25.",
+      "zh": "所以 5/8 × 41 大约是 25。"
+     },
+     "check": {
+      "expr": "5/8 × 40",
+      "value": "25"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 8",
+     "q": "Estimate: 7/8 of 30",
+     "steps": [
+      {
+       "en": "30 is hard to divide by 8. Change it to a close number that 8 goes into easily (a compatible number): 32.",
+       "zh": "30 不好被 8 整除。换成一个接近、又好除的数（相容数）：32。",
+       "math": "32 ÷ 8 = 4"
+      },
+      {
+       "en": "1/8 of 32 is 4, so 7/8 of 32 is 7 × 4 = 28.",
+       "zh": "32 的 1/8 是 4，所以 7/8 是 7 × 4 = 28。",
+       "math": [
+        "7 × 4 = 28",
+        "7/8 × 32 = 28"
+       ]
+      }
+     ],
+     "answer": "28",
+     "why": {
+      "en": "So 7/8 of 30 is about 28.",
+      "zh": "所以 7/8 的 30 大约是 28。"
+     },
+     "check": {
+      "expr": "7/8 × 32",
+      "value": "28"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 9",
+     "q": "Estimate: 6/11 × 32",
+     "steps": [
+      {
+       "en": "32 is hard to divide by 11. Change it to a close number that 11 goes into easily (a compatible number): 33.",
+       "zh": "32 不好被 11 整除。换成一个接近、又好除的数（相容数）：33。",
+       "math": "33 ÷ 11 = 3"
+      },
+      {
+       "en": "1/11 of 33 is 3, so 6/11 of 33 is 6 × 3 = 18.",
+       "zh": "33 的 1/11 是 3，所以 6/11 是 6 × 3 = 18。",
+       "math": [
+        "6 × 3 = 18",
+        "6/11 × 33 = 18"
+       ]
+      }
+     ],
+     "answer": "18",
+     "why": {
+      "en": "So 6/11 × 32 is about 18. (Rounding 6/11 to 1/2 also works: 1/2 × 32 = 16. Both are good estimates.)",
+      "zh": "所以 6/11 × 32 大约是 18。（把 6/11 看成 1/2 也可以：1/2 × 32 = 16。两个都是好的估算。）"
+     },
+     "check": {
+      "expr": "6/11 × 33",
+      "value": "18"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 10",
+     "q": "Estimate: 6/7 × 1/8",
+     "steps": [
+      {
+       "en": "6/7: the top (6) and bottom (7) are almost the same, so it rounds to 1.",
+       "zh": "6/7：分子 6 和分母 7 差不多，所以约等于 1。"
+      },
+      {
+       "en": "1/8: the top (1) is much smaller than the bottom (8), so it rounds to 0.",
+       "zh": "1/8：分子 1 比分母 8 小很多，所以约等于 0。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 0 = 0"
+      }
+     ],
+     "answer": "0",
+     "why": {
+      "en": "So 6/7 × 1/8 is about 0.",
+      "zh": "所以 6/7 × 1/8 大约是 0。"
+     },
+     "check": {
+      "expr": "1 × 0",
+      "value": "0"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 11",
+     "q": "Estimate: 1/3 × 9/11",
+     "steps": [
+      {
+       "en": "1/3: the top (1) is about half of the bottom (3), so it rounds to 1/2.",
+       "zh": "1/3：分子 1 大约是分母 3 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "9/11: the top (9) and bottom (11) are almost the same, so it rounds to 1.",
+       "zh": "9/11：分子 9 和分母 11 差不多，所以约等于 1。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1/2 × 1 = 1/2"
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "So 1/3 × 9/11 is about 1/2.",
+      "zh": "所以 1/3 × 9/11 大约是 1/2。"
+     },
+     "check": {
+      "expr": "1/2 × 1",
+      "value": "1/2"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 12",
+     "q": "Estimate: 10/11 × 1/9",
+     "steps": [
+      {
+       "en": "10/11: the top (10) and bottom (11) are almost the same, so it rounds to 1.",
+       "zh": "10/11：分子 10 和分母 11 差不多，所以约等于 1。"
+      },
+      {
+       "en": "1/9: the top (1) is much smaller than the bottom (9), so it rounds to 0.",
+       "zh": "1/9：分子 1 比分母 9 小很多，所以约等于 0。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 0 = 0"
+      }
+     ],
+     "answer": "0",
+     "why": {
+      "en": "So 10/11 × 1/9 is about 0.",
+      "zh": "所以 10/11 × 1/9 大约是 0。"
+     },
+     "check": {
+      "expr": "1 × 0",
+      "value": "0"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 13",
+     "q": "Estimate: 5/6 of 2/7",
+     "steps": [
+      {
+       "en": "5/6: the top (5) and bottom (6) are almost the same, so it rounds to 1.",
+       "zh": "5/6：分子 5 和分母 6 差不多，所以约等于 1。"
+      },
+      {
+       "en": "2/7: the top (2) is about half of the bottom (7), so it rounds to 1/2.",
+       "zh": "2/7：分子 2 大约是分母 7 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 1/2 = 1/2"
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "So 5/6 × 2/7 is about 1/2. (2/7 is between 0 and 1/2, so 0 is also OK.)",
+      "zh": "所以 5/6 × 2/7 大约是 1/2。（2/7 在 0 和 1/2 之间，写 0 也可以。）"
+     },
+     "check": {
+      "expr": "1 × 1/2",
+      "value": "1/2"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 14",
+     "q": "Estimate: 3/5 × 6/7",
+     "steps": [
+      {
+       "en": "3/5: the top (3) is about half of the bottom (5), so it rounds to 1/2.",
+       "zh": "3/5：分子 3 大约是分母 5 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "6/7: the top (6) and bottom (7) are almost the same, so it rounds to 1.",
+       "zh": "6/7：分子 6 和分母 7 差不多，所以约等于 1。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1/2 × 1 = 1/2"
+      }
+     ],
+     "answer": "1/2",
+     "why": {
+      "en": "So 3/5 × 6/7 is about 1/2.",
+      "zh": "所以 3/5 × 6/7 大约是 1/2。"
+     },
+     "check": {
+      "expr": "1/2 × 1",
+      "value": "1/2"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 15",
+     "q": "Estimate: 7/8 × 8/9",
+     "steps": [
+      {
+       "en": "7/8: the top (7) and bottom (8) are almost the same, so it rounds to 1.",
+       "zh": "7/8：分子 7 和分母 8 差不多，所以约等于 1。"
+      },
+      {
+       "en": "8/9: the top (8) and bottom (9) are almost the same, so it rounds to 1.",
+       "zh": "8/9：分子 8 和分母 9 差不多，所以约等于 1。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1 × 1 = 1"
+      }
+     ],
+     "answer": "1",
+     "why": {
+      "en": "So 7/8 × 8/9 is about 1.",
+      "zh": "所以 7/8 × 8/9 大约是 1。"
+     },
+     "check": {
+      "expr": "1 × 1",
+      "value": "1"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 16",
+     "q": "Estimate: 5/9 × 1/7",
+     "steps": [
+      {
+       "en": "5/9: the top (5) is about half of the bottom (9), so it rounds to 1/2.",
+       "zh": "5/9：分子 5 大约是分母 9 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "1/7: the top (1) is much smaller than the bottom (7), so it rounds to 0.",
+       "zh": "1/7：分子 1 比分母 7 小很多，所以约等于 0。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "1/2 × 0 = 0"
+      }
+     ],
+     "answer": "0",
+     "why": {
+      "en": "So 5/9 × 1/7 is about 0.",
+      "zh": "所以 5/9 × 1/7 大约是 0。"
+     },
+     "check": {
+      "expr": "1/2 × 0",
+      "value": "0"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 17",
+     "q": "Estimate: 1/12 × 5/9",
+     "steps": [
+      {
+       "en": "1/12: the top (1) is much smaller than the bottom (12), so it rounds to 0.",
+       "zh": "1/12：分子 1 比分母 12 小很多，所以约等于 0。"
+      },
+      {
+       "en": "5/9: the top (5) is about half of the bottom (9), so it rounds to 1/2.",
+       "zh": "5/9：分子 5 大约是分母 9 的一半，所以约等于 1/2。"
+      },
+      {
+       "en": "Multiply the rounded numbers.",
+       "zh": "把约好的数相乘。",
+       "math": "0 × 1/2 = 0"
+      }
+     ],
+     "answer": "0",
+     "why": {
+      "en": "So 1/12 × 5/9 is about 0.",
+      "zh": "所以 1/12 × 5/9 大约是 0。"
+     },
+     "check": {
+      "expr": "0 × 1/2",
+      "value": "0"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 18",
+     "q": "Estimate: 9 1/8 × 1/3",
+     "steps": [
+      {
+       "en": "9 1/8 rounds DOWN to 9, because 1/8 is less than a half.",
+       "zh": "9 1/8 约等于 9，因为 1/8 小于一半，舍去。"
+      },
+      {
+       "en": "9 is easy to divide by 3. 1/3 of 9 is 3.",
+       "zh": "9 很好被 3 整除。9 的 1/3 是 3。",
+       "math": "9 × 1/3 = 3"
+      }
+     ],
+     "answer": "3",
+     "why": {
+      "en": "So 9 1/8 × 1/3 is about 3.",
+      "zh": "所以 9 1/8 × 1/3 大约是 3。"
+     },
+     "check": {
+      "expr": "9 × 1/3",
+      "value": "3"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 19",
+     "q": "Estimate: 2 4/5 × 5 1/4",
+     "steps": [
+      {
+       "en": "2 4/5 rounds UP to 3, because 4/5 is more than a half.",
+       "zh": "2 4/5 约等于 3，因为 4/5 大于一半，要进一。"
+      },
+      {
+       "en": "5 1/4 rounds DOWN to 5, because 1/4 is less than a half.",
+       "zh": "5 1/4 约等于 5，因为 1/4 小于一半，舍去。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "3 × 5 = 15"
+      }
+     ],
+     "answer": "15",
+     "why": {
+      "en": "So 2 4/5 × 5 1/4 is about 15.",
+      "zh": "所以 2 4/5 × 5 1/4 大约是 15。"
+     },
+     "check": {
+      "expr": "3 × 5",
+      "value": "15"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 20",
+     "q": "Estimate: 4 1/3 × 3 7/8",
+     "steps": [
+      {
+       "en": "4 1/3 rounds DOWN to 4, because 1/3 is less than a half.",
+       "zh": "4 1/3 约等于 4，因为 1/3 小于一半，舍去。"
+      },
+      {
+       "en": "3 7/8 rounds UP to 4, because 7/8 is more than a half.",
+       "zh": "3 7/8 约等于 4，因为 7/8 大于一半，要进一。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "4 × 4 = 16"
+      }
+     ],
+     "answer": "16",
+     "why": {
+      "en": "So 4 1/3 × 3 7/8 is about 16.",
+      "zh": "所以 4 1/3 × 3 7/8 大约是 16。"
+     },
+     "check": {
+      "expr": "4 × 4",
+      "value": "16"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 21",
+     "q": "Estimate: 6 3/10 × 4 7/9",
+     "steps": [
+      {
+       "en": "6 3/10 rounds DOWN to 6, because 3/10 is less than a half.",
+       "zh": "6 3/10 约等于 6，因为 3/10 小于一半，舍去。"
+      },
+      {
+       "en": "4 7/9 rounds UP to 5, because 7/9 is more than a half.",
+       "zh": "4 7/9 约等于 5，因为 7/9 大于一半，要进一。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "6 × 5 = 30"
+      }
+     ],
+     "answer": "30",
+     "why": {
+      "en": "So 6 3/10 × 4 7/9 is about 30.",
+      "zh": "所以 6 3/10 × 4 7/9 大约是 30。"
+     },
+     "check": {
+      "expr": "6 × 5",
+      "value": "30"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 22",
+     "q": "Estimate: 3 1/4 × 7 7/8",
+     "steps": [
+      {
+       "en": "3 1/4 rounds DOWN to 3, because 1/4 is less than a half.",
+       "zh": "3 1/4 约等于 3，因为 1/4 小于一半，舍去。"
+      },
+      {
+       "en": "7 7/8 rounds UP to 8, because 7/8 is more than a half.",
+       "zh": "7 7/8 约等于 8，因为 7/8 大于一半，要进一。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "3 × 8 = 24"
+      }
+     ],
+     "answer": "24",
+     "why": {
+      "en": "So 3 1/4 × 7 7/8 is about 24.",
+      "zh": "所以 3 1/4 × 7 7/8 大约是 24。"
+     },
+     "check": {
+      "expr": "3 × 8",
+      "value": "24"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 23",
+     "q": "Estimate: 6 7/12 × 8 5/12",
+     "steps": [
+      {
+       "en": "6 7/12 rounds UP to 7, because 7/12 is more than a half.",
+       "zh": "6 7/12 约等于 7，因为 7/12 大于一半，要进一。"
+      },
+      {
+       "en": "8 5/12 rounds DOWN to 8, because 5/12 is less than a half.",
+       "zh": "8 5/12 约等于 8，因为 5/12 小于一半，舍去。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "7 × 8 = 56"
+      }
+     ],
+     "answer": "56",
+     "why": {
+      "en": "So 6 7/12 × 8 5/12 is about 56.",
+      "zh": "所以 6 7/12 × 8 5/12 大约是 56。"
+     },
+     "check": {
+      "expr": "7 × 8",
+      "value": "56"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 24",
+     "q": "Estimate: 7 2/3 × 9 3/8",
+     "steps": [
+      {
+       "en": "7 2/3 rounds UP to 8, because 2/3 is more than a half.",
+       "zh": "7 2/3 约等于 8，因为 2/3 大于一半，要进一。"
+      },
+      {
+       "en": "9 3/8 rounds DOWN to 9, because 3/8 is less than a half.",
+       "zh": "9 3/8 约等于 9，因为 3/8 小于一半，舍去。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "8 × 9 = 72"
+      }
+     ],
+     "answer": "72",
+     "why": {
+      "en": "So 7 2/3 × 9 3/8 is about 72.",
+      "zh": "所以 7 2/3 × 9 3/8 大约是 72。"
+     },
+     "check": {
+      "expr": "8 × 9",
+      "value": "72"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 25",
+     "q": "Estimate 4/5 of 49.",
+     "steps": [
+      {
+       "en": "49 is hard to divide by 5. Change it to a close number that 5 goes into easily (a compatible number): 50.",
+       "zh": "49 不好被 5 整除。换成一个接近、又好除的数（相容数）：50。",
+       "math": "50 ÷ 5 = 10"
+      },
+      {
+       "en": "1/5 of 50 is 10, so 4/5 of 50 is 4 × 10 = 40.",
+       "zh": "50 的 1/5 是 10，所以 4/5 是 4 × 10 = 40。",
+       "math": [
+        "4 × 10 = 40",
+        "4/5 × 50 = 40"
+       ]
+      }
+     ],
+     "answer": "40",
+     "why": {
+      "en": "So 4/5 of 49 is about 40.",
+      "zh": "所以 4/5 的 49 大约是 40。"
+     },
+     "check": {
+      "expr": "4/5 × 50",
+      "value": "40"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 26",
+     "q": "Estimate the product of 2 4/11 and 16 1/5.",
+     "steps": [
+      {
+       "en": "2 4/11 rounds DOWN to 2, because 4/11 is less than a half.",
+       "zh": "2 4/11 约等于 2，因为 4/11 小于一半，舍去。"
+      },
+      {
+       "en": "16 1/5 rounds DOWN to 16, because 1/5 is less than a half.",
+       "zh": "16 1/5 约等于 16，因为 1/5 小于一半，舍去。"
+      },
+      {
+       "en": "Multiply the whole numbers.",
+       "zh": "把整数相乘。",
+       "math": "2 × 16 = 32"
+      }
+     ],
+     "answer": "32",
+     "why": {
+      "en": "So 2 4/11 × 16 1/5 is about 32.",
+      "zh": "所以 2 4/11 × 16 1/5 大约是 32。"
+     },
+     "check": {
+      "expr": "2 × 16",
+      "value": "32"
+     },
+     "noUnit": true
+    }
+   ]
+  },
+  {
+   "id": "l2-reteach",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths · given Tue 24 Nov",
+    "zh": "数学 · 11月24日（星期二）发"
+   },
+   "title": {
+    "en": "Lesson 2 Reteach: Multiply Fractions and Whole Numbers",
+    "zh": "第 2 课复习：分数乘整数"
+   },
+   "intro": {
+    "en": "Write the whole number over 1. Multiply the tops, multiply the bottoms. Simplify, and change to a mixed number if the top is bigger.",
+    "zh": "整数写成分母是 1 的分数。分子乘分子，分母乘分母。再约分；分子比分母大就化成带分数。"
+   },
+   "note": {
+    "en": "Worksheet page 55. Write in simplest form.",
+    "zh": "作业纸第 55 页。答案要写最简形式。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "5 × 2/3 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 5 as a fraction: 5/1.",
+       "zh": "把整数 5 写成分数：5/1。",
+       "math": "5 × 2/3 = 5/1 × 2/3"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "5 × 2 = 10",
+        "1 × 3 = 3",
+        "5/1 × 2/3 = 10/3"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 10 ÷ 3 = 3 remainder 1.",
+       "zh": "分子比分母大，化成带分数：10 ÷ 3 = 3 余 1。",
+       "math": "10/3 = 3 1/3"
+      }
+     ],
+     "answer": "3 1/3",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 5 × 2/3 = 3 1/3.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。5 × 2/3 = 3 1/3。"
+     },
+     "check": {
+      "expr": "5 × 2/3",
+      "value": "3 1/3"
+     }
+    },
+    {
+     "n": "Question 2",
+     "q": "10 × 3/5 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 10 as a fraction: 10/1.",
+       "zh": "把整数 10 写成分数：10/1。",
+       "math": "10 × 3/5 = 10/1 × 3/5"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "10 × 3 = 30",
+        "1 × 5 = 5",
+        "10/1 × 3/5 = 30/5"
+       ]
+      },
+      {
+       "en": "30 ÷ 5 = 6. It is a whole number.",
+       "zh": "30 ÷ 5 = 6，是整数。",
+       "math": "30/5 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 10 × 3/5 = 6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。10 × 3/5 = 6。"
+     },
+     "check": {
+      "expr": "10 × 3/5",
+      "value": "6"
+     }
+    },
+    {
+     "n": "Question 3",
+     "q": "9 × 1/3 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 9 as a fraction: 9/1.",
+       "zh": "把整数 9 写成分数：9/1。",
+       "math": "9 × 1/3 = 9/1 × 1/3"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "9 × 1 = 9",
+        "1 × 3 = 3",
+        "9/1 × 1/3 = 9/3"
+       ]
+      },
+      {
+       "en": "9 ÷ 3 = 3. It is a whole number.",
+       "zh": "9 ÷ 3 = 3，是整数。",
+       "math": "9/3 = 3"
+      }
+     ],
+     "answer": "3",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 9 × 1/3 = 3.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。9 × 1/3 = 3。"
+     },
+     "check": {
+      "expr": "9 × 1/3",
+      "value": "3"
+     }
+    },
+    {
+     "n": "Question 4",
+     "q": "2 × 2/5 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 2 as a fraction: 2/1.",
+       "zh": "把整数 2 写成分数：2/1。",
+       "math": "2 × 2/5 = 2/1 × 2/5"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "2 × 2 = 4",
+        "1 × 5 = 5",
+        "2/1 × 2/5 = 4/5"
+       ]
+      }
+     ],
+     "answer": "4/5",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 2 × 2/5 = 4/5.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。2 × 2/5 = 4/5。"
+     },
+     "check": {
+      "expr": "2 × 2/5",
+      "value": "4/5"
+     }
+    },
+    {
+     "n": "Question 5",
+     "q": "6 × 1/4 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 6 as a fraction: 6/1.",
+       "zh": "把整数 6 写成分数：6/1。",
+       "math": "6 × 1/4 = 6/1 × 1/4"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "6 × 1 = 6",
+        "1 × 4 = 4",
+        "6/1 × 1/4 = 6/4"
+       ]
+      },
+      {
+       "en": "Simplify: divide the top and bottom by 2.",
+       "zh": "约分：分子和分母都除以 2。",
+       "math": "6/4 = 3/2"
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 3 ÷ 2 = 1 remainder 1.",
+       "zh": "分子比分母大，化成带分数：3 ÷ 2 = 1 余 1。",
+       "math": "3/2 = 1 1/2"
+      }
+     ],
+     "answer": "1 1/2",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 6 × 1/4 = 1 1/2.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。6 × 1/4 = 1 1/2。"
+     },
+     "check": {
+      "expr": "6 × 1/4",
+      "value": "1 1/2"
+     }
+    },
+    {
+     "n": "Question 6",
+     "q": "15 × 1/8 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 15 as a fraction: 15/1.",
+       "zh": "把整数 15 写成分数：15/1。",
+       "math": "15 × 1/8 = 15/1 × 1/8"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "15 × 1 = 15",
+        "1 × 8 = 8",
+        "15/1 × 1/8 = 15/8"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 15 ÷ 8 = 1 remainder 7.",
+       "zh": "分子比分母大，化成带分数：15 ÷ 8 = 1 余 7。",
+       "math": "15/8 = 1 7/8"
+      }
+     ],
+     "answer": "1 7/8",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 15 × 1/8 = 1 7/8.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。15 × 1/8 = 1 7/8。"
+     },
+     "check": {
+      "expr": "15 × 1/8",
+      "value": "1 7/8"
+     }
+    },
+    {
+     "n": "Question 7",
+     "q": "2/3 × 12 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 12 as a fraction: 12/1.",
+       "zh": "把整数 12 写成分数：12/1。",
+       "math": "2/3 × 12 = 2/3 × 12/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "2 × 12 = 24",
+        "3 × 1 = 3",
+        "2/3 × 12/1 = 24/3"
+       ]
+      },
+      {
+       "en": "24 ÷ 3 = 8. It is a whole number.",
+       "zh": "24 ÷ 3 = 8，是整数。",
+       "math": "24/3 = 8"
+      }
+     ],
+     "answer": "8",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 2/3 × 12 = 8.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。2/3 × 12 = 8。"
+     },
+     "check": {
+      "expr": "2/3 × 12",
+      "value": "8"
+     }
+    },
+    {
+     "n": "Question 8",
+     "q": "4/5 × 3 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 3 as a fraction: 3/1.",
+       "zh": "把整数 3 写成分数：3/1。",
+       "math": "4/5 × 3 = 4/5 × 3/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "4 × 3 = 12",
+        "5 × 1 = 5",
+        "4/5 × 3/1 = 12/5"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 12 ÷ 5 = 2 remainder 2.",
+       "zh": "分子比分母大，化成带分数：12 ÷ 5 = 2 余 2。",
+       "math": "12/5 = 2 2/5"
+      }
+     ],
+     "answer": "2 2/5",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 4/5 × 3 = 2 2/5.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。4/5 × 3 = 2 2/5。"
+     },
+     "check": {
+      "expr": "4/5 × 3",
+      "value": "2 2/5"
+     }
+    },
+    {
+     "n": "Question 9",
+     "q": "4/5 × 15 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 15 as a fraction: 15/1.",
+       "zh": "把整数 15 写成分数：15/1。",
+       "math": "4/5 × 15 = 4/5 × 15/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "4 × 15 = 60",
+        "5 × 1 = 5",
+        "4/5 × 15/1 = 60/5"
+       ]
+      },
+      {
+       "en": "60 ÷ 5 = 12. It is a whole number.",
+       "zh": "60 ÷ 5 = 12，是整数。",
+       "math": "60/5 = 12"
+      }
+     ],
+     "answer": "12",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 4/5 × 15 = 12.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。4/5 × 15 = 12。"
+     },
+     "check": {
+      "expr": "4/5 × 15",
+      "value": "12"
+     }
+    },
+    {
+     "n": "Question 10",
+     "q": "1/6 × 11 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 11 as a fraction: 11/1.",
+       "zh": "把整数 11 写成分数：11/1。",
+       "math": "1/6 × 11 = 1/6 × 11/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "1 × 11 = 11",
+        "6 × 1 = 6",
+        "1/6 × 11/1 = 11/6"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 11 ÷ 6 = 1 remainder 5.",
+       "zh": "分子比分母大，化成带分数：11 ÷ 6 = 1 余 5。",
+       "math": "11/6 = 1 5/6"
+      }
+     ],
+     "answer": "1 5/6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 1/6 × 11 = 1 5/6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。1/6 × 11 = 1 5/6。"
+     },
+     "check": {
+      "expr": "1/6 × 11",
+      "value": "1 5/6"
+     }
+    },
+    {
+     "n": "Question 11",
+     "q": "2/7 × 5 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 5 as a fraction: 5/1.",
+       "zh": "把整数 5 写成分数：5/1。",
+       "math": "2/7 × 5 = 2/7 × 5/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "2 × 5 = 10",
+        "7 × 1 = 7",
+        "2/7 × 5/1 = 10/7"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 10 ÷ 7 = 1 remainder 3.",
+       "zh": "分子比分母大，化成带分数：10 ÷ 7 = 1 余 3。",
+       "math": "10/7 = 1 3/7"
+      }
+     ],
+     "answer": "1 3/7",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 2/7 × 5 = 1 3/7.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。2/7 × 5 = 1 3/7。"
+     },
+     "check": {
+      "expr": "2/7 × 5",
+      "value": "1 3/7"
+     }
+    },
+    {
+     "n": "Question 12",
+     "q": "5/6 × 12 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 12 as a fraction: 12/1.",
+       "zh": "把整数 12 写成分数：12/1。",
+       "math": "5/6 × 12 = 5/6 × 12/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "5 × 12 = 60",
+        "6 × 1 = 6",
+        "5/6 × 12/1 = 60/6"
+       ]
+      },
+      {
+       "en": "60 ÷ 6 = 10. It is a whole number.",
+       "zh": "60 ÷ 6 = 10，是整数。",
+       "math": "60/6 = 10"
+      }
+     ],
+     "answer": "10",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 5/6 × 12 = 10.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。5/6 × 12 = 10。"
+     },
+     "check": {
+      "expr": "5/6 × 12",
+      "value": "10"
+     }
+    }
+   ]
+  },
+  {
+   "id": "l2-skills",
+   "icon": "🔢",
+   "math": true,
+   "subject": {
+    "en": "Maths · given Tue 24 Nov",
+    "zh": "数学 · 11月24日（星期二）发"
+   },
+   "title": {
+    "en": "Lesson 2 Skills Practice: Multiply Fractions and Whole Numbers",
+    "zh": "第 2 课练习：分数乘整数"
+   },
+   "intro": {
+    "en": "Whole number over 1, multiply across, simplify.",
+    "zh": "整数写成分母是 1，横着相乘，再化简。"
+   },
+   "note": {
+    "en": "Worksheet page 56. Write in simplest form.",
+    "zh": "作业纸第 56 页。答案要写最简形式。"
+   },
+   "items": [
+    {
+     "n": "Question 1",
+     "q": "10 × 1/5 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 10 as a fraction: 10/1.",
+       "zh": "把整数 10 写成分数：10/1。",
+       "math": "10 × 1/5 = 10/1 × 1/5"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "10 × 1 = 10",
+        "1 × 5 = 5",
+        "10/1 × 1/5 = 10/5"
+       ]
+      },
+      {
+       "en": "10 ÷ 5 = 2. It is a whole number.",
+       "zh": "10 ÷ 5 = 2，是整数。",
+       "math": "10/5 = 2"
+      }
+     ],
+     "answer": "2",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 10 × 1/5 = 2.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。10 × 1/5 = 2。"
+     },
+     "check": {
+      "expr": "10 × 1/5",
+      "value": "2"
+     }
+    },
+    {
+     "n": "Question 2",
+     "q": "12 × 1/3 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 12 as a fraction: 12/1.",
+       "zh": "把整数 12 写成分数：12/1。",
+       "math": "12 × 1/3 = 12/1 × 1/3"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "12 × 1 = 12",
+        "1 × 3 = 3",
+        "12/1 × 1/3 = 12/3"
+       ]
+      },
+      {
+       "en": "12 ÷ 3 = 4. It is a whole number.",
+       "zh": "12 ÷ 3 = 4，是整数。",
+       "math": "12/3 = 4"
+      }
+     ],
+     "answer": "4",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 12 × 1/3 = 4.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。12 × 1/3 = 4。"
+     },
+     "check": {
+      "expr": "12 × 1/3",
+      "value": "4"
+     }
+    },
+    {
+     "n": "Question 3",
+     "q": "18 × 1/9 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 18 as a fraction: 18/1.",
+       "zh": "把整数 18 写成分数：18/1。",
+       "math": "18 × 1/9 = 18/1 × 1/9"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "18 × 1 = 18",
+        "1 × 9 = 9",
+        "18/1 × 1/9 = 18/9"
+       ]
+      },
+      {
+       "en": "18 ÷ 9 = 2. It is a whole number.",
+       "zh": "18 ÷ 9 = 2，是整数。",
+       "math": "18/9 = 2"
+      }
+     ],
+     "answer": "2",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 18 × 1/9 = 2.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。18 × 1/9 = 2。"
+     },
+     "check": {
+      "expr": "18 × 1/9",
+      "value": "2"
+     }
+    },
+    {
+     "n": "Question 4",
+     "q": "15 × 2/3 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 15 as a fraction: 15/1.",
+       "zh": "把整数 15 写成分数：15/1。",
+       "math": "15 × 2/3 = 15/1 × 2/3"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "15 × 2 = 30",
+        "1 × 3 = 3",
+        "15/1 × 2/3 = 30/3"
+       ]
+      },
+      {
+       "en": "30 ÷ 3 = 10. It is a whole number.",
+       "zh": "30 ÷ 3 = 10，是整数。",
+       "math": "30/3 = 10"
+      }
+     ],
+     "answer": "10",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 15 × 2/3 = 10.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。15 × 2/3 = 10。"
+     },
+     "check": {
+      "expr": "15 × 2/3",
+      "value": "10"
+     }
+    },
+    {
+     "n": "Question 5",
+     "q": "16 × 3/8 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 16 as a fraction: 16/1.",
+       "zh": "把整数 16 写成分数：16/1。",
+       "math": "16 × 3/8 = 16/1 × 3/8"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "16 × 3 = 48",
+        "1 × 8 = 8",
+        "16/1 × 3/8 = 48/8"
+       ]
+      },
+      {
+       "en": "48 ÷ 8 = 6. It is a whole number.",
+       "zh": "48 ÷ 8 = 6，是整数。",
+       "math": "48/8 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 16 × 3/8 = 6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。16 × 3/8 = 6。"
+     },
+     "check": {
+      "expr": "16 × 3/8",
+      "value": "6"
+     }
+    },
+    {
+     "n": "Question 6",
+     "q": "8 × 3/4 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 8 as a fraction: 8/1.",
+       "zh": "把整数 8 写成分数：8/1。",
+       "math": "8 × 3/4 = 8/1 × 3/4"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "8 × 3 = 24",
+        "1 × 4 = 4",
+        "8/1 × 3/4 = 24/4"
+       ]
+      },
+      {
+       "en": "24 ÷ 4 = 6. It is a whole number.",
+       "zh": "24 ÷ 4 = 6，是整数。",
+       "math": "24/4 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 8 × 3/4 = 6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。8 × 3/4 = 6。"
+     },
+     "check": {
+      "expr": "8 × 3/4",
+      "value": "6"
+     }
+    },
+    {
+     "n": "Question 7",
+     "q": "7 × 4/5 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 7 as a fraction: 7/1.",
+       "zh": "把整数 7 写成分数：7/1。",
+       "math": "7 × 4/5 = 7/1 × 4/5"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "7 × 4 = 28",
+        "1 × 5 = 5",
+        "7/1 × 4/5 = 28/5"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 28 ÷ 5 = 5 remainder 3.",
+       "zh": "分子比分母大，化成带分数：28 ÷ 5 = 5 余 3。",
+       "math": "28/5 = 5 3/5"
+      }
+     ],
+     "answer": "5 3/5",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 7 × 4/5 = 5 3/5.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。7 × 4/5 = 5 3/5。"
+     },
+     "check": {
+      "expr": "7 × 4/5",
+      "value": "5 3/5"
+     }
+    },
+    {
+     "n": "Question 8",
+     "q": "10 × 3/5 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 10 as a fraction: 10/1.",
+       "zh": "把整数 10 写成分数：10/1。",
+       "math": "10 × 3/5 = 10/1 × 3/5"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "10 × 3 = 30",
+        "1 × 5 = 5",
+        "10/1 × 3/5 = 30/5"
+       ]
+      },
+      {
+       "en": "30 ÷ 5 = 6. It is a whole number.",
+       "zh": "30 ÷ 5 = 6，是整数。",
+       "math": "30/5 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 10 × 3/5 = 6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。10 × 3/5 = 6。"
+     },
+     "check": {
+      "expr": "10 × 3/5",
+      "value": "6"
+     }
+    },
+    {
+     "n": "Question 9",
+     "q": "18 × 4/9 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 18 as a fraction: 18/1.",
+       "zh": "把整数 18 写成分数：18/1。",
+       "math": "18 × 4/9 = 18/1 × 4/9"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "18 × 4 = 72",
+        "1 × 9 = 9",
+        "18/1 × 4/9 = 72/9"
+       ]
+      },
+      {
+       "en": "72 ÷ 9 = 8. It is a whole number.",
+       "zh": "72 ÷ 9 = 8，是整数。",
+       "math": "72/9 = 8"
+      }
+     ],
+     "answer": "8",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 18 × 4/9 = 8.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。18 × 4/9 = 8。"
+     },
+     "check": {
+      "expr": "18 × 4/9",
+      "value": "8"
+     }
+    },
+    {
+     "n": "Question 10",
+     "q": "20 × 9/10 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 20 as a fraction: 20/1.",
+       "zh": "把整数 20 写成分数：20/1。",
+       "math": "20 × 9/10 = 20/1 × 9/10"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "20 × 9 = 180",
+        "1 × 10 = 10",
+        "20/1 × 9/10 = 180/10"
+       ]
+      },
+      {
+       "en": "180 ÷ 10 = 18. It is a whole number.",
+       "zh": "180 ÷ 10 = 18，是整数。",
+       "math": "180/10 = 18"
+      }
+     ],
+     "answer": "18",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 20 × 9/10 = 18.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。20 × 9/10 = 18。"
+     },
+     "check": {
+      "expr": "20 × 9/10",
+      "value": "18"
+     }
+    },
+    {
+     "n": "Question 11",
+     "q": "16 × 3/4 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 16 as a fraction: 16/1.",
+       "zh": "把整数 16 写成分数：16/1。",
+       "math": "16 × 3/4 = 16/1 × 3/4"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "16 × 3 = 48",
+        "1 × 4 = 4",
+        "16/1 × 3/4 = 48/4"
+       ]
+      },
+      {
+       "en": "48 ÷ 4 = 12. It is a whole number.",
+       "zh": "48 ÷ 4 = 12，是整数。",
+       "math": "48/4 = 12"
+      }
+     ],
+     "answer": "12",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 16 × 3/4 = 12.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。16 × 3/4 = 12。"
+     },
+     "check": {
+      "expr": "16 × 3/4",
+      "value": "12"
+     }
+    },
+    {
+     "n": "Question 12",
+     "q": "14 × 6/7 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 14 as a fraction: 14/1.",
+       "zh": "把整数 14 写成分数：14/1。",
+       "math": "14 × 6/7 = 14/1 × 6/7"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "14 × 6 = 84",
+        "1 × 7 = 7",
+        "14/1 × 6/7 = 84/7"
+       ]
+      },
+      {
+       "en": "84 ÷ 7 = 12. It is a whole number.",
+       "zh": "84 ÷ 7 = 12，是整数。",
+       "math": "84/7 = 12"
+      }
+     ],
+     "answer": "12",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 14 × 6/7 = 12.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。14 × 6/7 = 12。"
+     },
+     "check": {
+      "expr": "14 × 6/7",
+      "value": "12"
+     }
+    },
+    {
+     "n": "Question 13",
+     "q": "3/4 × 12 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 12 as a fraction: 12/1.",
+       "zh": "把整数 12 写成分数：12/1。",
+       "math": "3/4 × 12 = 3/4 × 12/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "3 × 12 = 36",
+        "4 × 1 = 4",
+        "3/4 × 12/1 = 36/4"
+       ]
+      },
+      {
+       "en": "36 ÷ 4 = 9. It is a whole number.",
+       "zh": "36 ÷ 4 = 9，是整数。",
+       "math": "36/4 = 9"
+      }
+     ],
+     "answer": "9",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 3/4 × 12 = 9.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。3/4 × 12 = 9。"
+     },
+     "check": {
+      "expr": "3/4 × 12",
+      "value": "9"
+     }
+    },
+    {
+     "n": "Question 14",
+     "q": "1/6 × 9 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 9 as a fraction: 9/1.",
+       "zh": "把整数 9 写成分数：9/1。",
+       "math": "1/6 × 9 = 1/6 × 9/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "1 × 9 = 9",
+        "6 × 1 = 6",
+        "1/6 × 9/1 = 9/6"
+       ]
+      },
+      {
+       "en": "Simplify: divide the top and bottom by 3.",
+       "zh": "约分：分子和分母都除以 3。",
+       "math": "9/6 = 3/2"
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 3 ÷ 2 = 1 remainder 1.",
+       "zh": "分子比分母大，化成带分数：3 ÷ 2 = 1 余 1。",
+       "math": "3/2 = 1 1/2"
+      }
+     ],
+     "answer": "1 1/2",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 1/6 × 9 = 1 1/2.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。1/6 × 9 = 1 1/2。"
+     },
+     "check": {
+      "expr": "1/6 × 9",
+      "value": "1 1/2"
+     }
+    },
+    {
+     "n": "Question 15",
+     "q": "1/6 × 18 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 18 as a fraction: 18/1.",
+       "zh": "把整数 18 写成分数：18/1。",
+       "math": "1/6 × 18 = 1/6 × 18/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "1 × 18 = 18",
+        "6 × 1 = 6",
+        "1/6 × 18/1 = 18/6"
+       ]
+      },
+      {
+       "en": "18 ÷ 6 = 3. It is a whole number.",
+       "zh": "18 ÷ 6 = 3，是整数。",
+       "math": "18/6 = 3"
+      }
+     ],
+     "answer": "3",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 1/6 × 18 = 3.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。1/6 × 18 = 3。"
+     },
+     "check": {
+      "expr": "1/6 × 18",
+      "value": "3"
+     }
+    },
+    {
+     "n": "Question 16",
+     "q": "2/3 × 18 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 18 as a fraction: 18/1.",
+       "zh": "把整数 18 写成分数：18/1。",
+       "math": "2/3 × 18 = 2/3 × 18/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "2 × 18 = 36",
+        "3 × 1 = 3",
+        "2/3 × 18/1 = 36/3"
+       ]
+      },
+      {
+       "en": "36 ÷ 3 = 12. It is a whole number.",
+       "zh": "36 ÷ 3 = 12，是整数。",
+       "math": "36/3 = 12"
+      }
+     ],
+     "answer": "12",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 2/3 × 18 = 12.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。2/3 × 18 = 12。"
+     },
+     "check": {
+      "expr": "2/3 × 18",
+      "value": "12"
+     }
+    },
+    {
+     "n": "Question 17",
+     "q": "3/7 × 14 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 14 as a fraction: 14/1.",
+       "zh": "把整数 14 写成分数：14/1。",
+       "math": "3/7 × 14 = 3/7 × 14/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "3 × 14 = 42",
+        "7 × 1 = 7",
+        "3/7 × 14/1 = 42/7"
+       ]
+      },
+      {
+       "en": "42 ÷ 7 = 6. It is a whole number.",
+       "zh": "42 ÷ 7 = 6，是整数。",
+       "math": "42/7 = 6"
+      }
+     ],
+     "answer": "6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 3/7 × 14 = 6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。3/7 × 14 = 6。"
+     },
+     "check": {
+      "expr": "3/7 × 14",
+      "value": "6"
+     }
+    },
+    {
+     "n": "Question 18",
+     "q": "2/5 × 20 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 20 as a fraction: 20/1.",
+       "zh": "把整数 20 写成分数：20/1。",
+       "math": "2/5 × 20 = 2/5 × 20/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "2 × 20 = 40",
+        "5 × 1 = 5",
+        "2/5 × 20/1 = 40/5"
+       ]
+      },
+      {
+       "en": "40 ÷ 5 = 8. It is a whole number.",
+       "zh": "40 ÷ 5 = 8，是整数。",
+       "math": "40/5 = 8"
+      }
+     ],
+     "answer": "8",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 2/5 × 20 = 8.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。2/5 × 20 = 8。"
+     },
+     "check": {
+      "expr": "2/5 × 20",
+      "value": "8"
+     }
+    },
+    {
+     "n": "Question 19",
+     "q": "2/5 × 12 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 12 as a fraction: 12/1.",
+       "zh": "把整数 12 写成分数：12/1。",
+       "math": "2/5 × 12 = 2/5 × 12/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "2 × 12 = 24",
+        "5 × 1 = 5",
+        "2/5 × 12/1 = 24/5"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 24 ÷ 5 = 4 remainder 4.",
+       "zh": "分子比分母大，化成带分数：24 ÷ 5 = 4 余 4。",
+       "math": "24/5 = 4 4/5"
+      }
+     ],
+     "answer": "4 4/5",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 2/5 × 12 = 4 4/5.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。2/5 × 12 = 4 4/5。"
+     },
+     "check": {
+      "expr": "2/5 × 12",
+      "value": "4 4/5"
+     }
+    },
+    {
+     "n": "Question 20",
+     "q": "5/6 × 10 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 10 as a fraction: 10/1.",
+       "zh": "把整数 10 写成分数：10/1。",
+       "math": "5/6 × 10 = 5/6 × 10/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "5 × 10 = 50",
+        "6 × 1 = 6",
+        "5/6 × 10/1 = 50/6"
+       ]
+      },
+      {
+       "en": "Simplify: divide the top and bottom by 2.",
+       "zh": "约分：分子和分母都除以 2。",
+       "math": "50/6 = 25/3"
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 25 ÷ 3 = 8 remainder 1.",
+       "zh": "分子比分母大，化成带分数：25 ÷ 3 = 8 余 1。",
+       "math": "25/3 = 8 1/3"
+      }
+     ],
+     "answer": "8 1/3",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 5/6 × 10 = 8 1/3.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。5/6 × 10 = 8 1/3。"
+     },
+     "check": {
+      "expr": "5/6 × 10",
+      "value": "8 1/3"
+     }
+    },
+    {
+     "n": "Question 21",
+     "q": "3/4 × 15 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 15 as a fraction: 15/1.",
+       "zh": "把整数 15 写成分数：15/1。",
+       "math": "3/4 × 15 = 3/4 × 15/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "3 × 15 = 45",
+        "4 × 1 = 4",
+        "3/4 × 15/1 = 45/4"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 45 ÷ 4 = 11 remainder 1.",
+       "zh": "分子比分母大，化成带分数：45 ÷ 4 = 11 余 1。",
+       "math": "45/4 = 11 1/4"
+      }
+     ],
+     "answer": "11 1/4",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 3/4 × 15 = 11 1/4.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。3/4 × 15 = 11 1/4。"
+     },
+     "check": {
+      "expr": "3/4 × 15",
+      "value": "11 1/4"
+     }
+    },
+    {
+     "n": "Question 22",
+     "q": "3/7 × 8 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 8 as a fraction: 8/1.",
+       "zh": "把整数 8 写成分数：8/1。",
+       "math": "3/7 × 8 = 3/7 × 8/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "3 × 8 = 24",
+        "7 × 1 = 7",
+        "3/7 × 8/1 = 24/7"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 24 ÷ 7 = 3 remainder 3.",
+       "zh": "分子比分母大，化成带分数：24 ÷ 7 = 3 余 3。",
+       "math": "24/7 = 3 3/7"
+      }
+     ],
+     "answer": "3 3/7",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 3/7 × 8 = 3 3/7.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。3/7 × 8 = 3 3/7。"
+     },
+     "check": {
+      "expr": "3/7 × 8",
+      "value": "3 3/7"
+     }
+    },
+    {
+     "n": "Question 23",
+     "q": "3/8 × 9 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 9 as a fraction: 9/1.",
+       "zh": "把整数 9 写成分数：9/1。",
+       "math": "3/8 × 9 = 3/8 × 9/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "3 × 9 = 27",
+        "8 × 1 = 8",
+        "3/8 × 9/1 = 27/8"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 27 ÷ 8 = 3 remainder 3.",
+       "zh": "分子比分母大，化成带分数：27 ÷ 8 = 3 余 3。",
+       "math": "27/8 = 3 3/8"
+      }
+     ],
+     "answer": "3 3/8",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 3/8 × 9 = 3 3/8.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。3/8 × 9 = 3 3/8。"
+     },
+     "check": {
+      "expr": "3/8 × 9",
+      "value": "3 3/8"
+     }
+    },
+    {
+     "n": "Question 24",
+     "q": "5/6 × 13 = ?",
+     "steps": [
+      {
+       "en": "Write the whole number 13 as a fraction: 13/1.",
+       "zh": "把整数 13 写成分数：13/1。",
+       "math": "5/6 × 13 = 5/6 × 13/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "5 × 13 = 65",
+        "6 × 1 = 6",
+        "5/6 × 13/1 = 65/6"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 65 ÷ 6 = 10 remainder 5.",
+       "zh": "分子比分母大，化成带分数：65 ÷ 6 = 10 余 5。",
+       "math": "65/6 = 10 5/6"
+      }
+     ],
+     "answer": "10 5/6",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 5/6 × 13 = 10 5/6.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。5/6 × 13 = 10 5/6。"
+     },
+     "check": {
+      "expr": "5/6 × 13",
+      "value": "10 5/6"
+     }
+    },
+    {
+     "n": "Question 25",
+     "q": "Find the product of 24 and 5/6.",
+     "steps": [
+      {
+       "en": "Write the whole number 24 as a fraction: 24/1.",
+       "zh": "把整数 24 写成分数：24/1。",
+       "math": "24 × 5/6 = 24/1 × 5/6"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "24 × 5 = 120",
+        "1 × 6 = 6",
+        "24/1 × 5/6 = 120/6"
+       ]
+      },
+      {
+       "en": "120 ÷ 6 = 20. It is a whole number.",
+       "zh": "120 ÷ 6 = 20，是整数。",
+       "math": "120/6 = 20"
+      }
+     ],
+     "answer": "20",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 24 × 5/6 = 20.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。24 × 5/6 = 20。"
+     },
+     "check": {
+      "expr": "24 × 5/6",
+      "value": "20"
+     },
+     "noUnit": true
+    },
+    {
+     "n": "Question 26",
+     "q": "Find the product of 7/8 × 11.",
+     "steps": [
+      {
+       "en": "Write the whole number 11 as a fraction: 11/1.",
+       "zh": "把整数 11 写成分数：11/1。",
+       "math": "7/8 × 11 = 7/8 × 11/1"
+      },
+      {
+       "en": "Multiply the tops (numerators). Multiply the bottoms (denominators).",
+       "zh": "分子乘分子，分母乘分母。",
+       "math": [
+        "7 × 11 = 77",
+        "8 × 1 = 8",
+        "7/8 × 11/1 = 77/8"
+       ]
+      },
+      {
+       "en": "The top is bigger than the bottom, so make a mixed number: 77 ÷ 8 = 9 remainder 5.",
+       "zh": "分子比分母大，化成带分数：77 ÷ 8 = 9 余 5。",
+       "math": "77/8 = 9 5/8"
+      }
+     ],
+     "answer": "9 5/8",
+     "why": {
+      "en": "Whole number over 1, multiply across, then simplify. 7/8 × 11 = 9 5/8.",
+      "zh": "整数写成分母是 1，横着相乘，再化简。7/8 × 11 = 9 5/8。"
+     },
+     "check": {
+      "expr": "7/8 × 11",
+      "value": "9 5/8"
+     },
+     "noUnit": true
+    }
+   ]
+  },
+  {
    "id": "m3w1-spelling",
    "icon": "🔤",
    "subject": {
