@@ -1,0 +1,1259 @@
+{
+ "week": "2026-11-30",
+ "title": {
+  "en": "Weather, Equations and Usage",
+  "zh": "天气、方程和用法"
+ },
+ "message": {
+  "en": "This week: weather (air pressure, station models, humidity, climate), equations and usage words. Do one day at a time, in order. You can do it, Issie!",
+  "zh": "本周：天气（气压、气象站模型、湿度、气候）、方程和用法词。按顺序一天一天做。Issie，你能做到！"
+ },
+ "days": [
+  {
+   "date": "2026-12-01",
+   "title": {
+    "en": "Weather Review: Air Masses, Fronts and Clouds",
+    "zh": "天气复习：气团、锋和云"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book W1 to W4, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 W1 到 W4，然后做一次小测。再到 📋 作业讲评检查答案。"
+   },
+   "activities": [
+    "hw-tue2"
+   ],
+   "book": [
+    "W1",
+    "W2",
+    "W3",
+    "W4"
+   ],
+   "kind": "homework"
+  },
+  {
+   "date": "2026-12-02",
+   "title": {
+    "en": "Maths: Equations",
+    "zh": "数学：方程"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book M1 and M2, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 M1 和 M2，然后做一次小测。再到 📋 作业讲评检查答案。"
+   },
+   "activities": [
+    "hw-wed2"
+   ],
+   "book": [
+    "M1",
+    "M2"
+   ],
+   "kind": "homework"
+  },
+  {
+   "date": "2026-12-03",
+   "title": {
+    "en": "English: Usage, Proofreading and Flyers",
+    "zh": "英语：用法、校对和宣传单"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book E1 to E3, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 E1 到 E3，然后做一次小测。再到 📋 作业讲评检查答案。"
+   },
+   "activities": [
+    "hw-thu2"
+   ],
+   "book": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "kind": "homework"
+  },
+  {
+   "date": "2026-12-04",
+   "title": {
+    "en": "Weather: Pressure, Station Models and Humidity",
+    "zh": "天气：气压、气象站模型和湿度"
+   },
+   "message": {
+    "en": "Class order: 1. Homework Review. 2. Main Book W5 to W7 with Roy. 3. This Workbook. 4. Review it together.",
+    "zh": "上课顺序：1. 作业讲评。2. 和 Roy 老师学主课本 W5 到 W7。3. 做这本练习册。4. 一起讲评。"
+   },
+   "activities": [
+    "w2-cards",
+    "w2-match",
+    "w2-quiz"
+   ],
+   "book": [
+    "W5",
+    "W6",
+    "W7"
+   ],
+   "kind": "workbook"
+  },
+  {
+   "date": "2026-12-05",
+   "title": {
+    "en": "Weather: Pressure, Station Models and Humidity",
+    "zh": "天气：气压、气象站模型和湿度"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book W5 to W7, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 W5 到 W7，然后做一次小测。再到 📋 作业讲评检查答案。"
+   },
+   "activities": [
+    "w2-cards",
+    "hw-sat2"
+   ],
+   "book": [
+    "W5",
+    "W6",
+    "W7"
+   ],
+   "kind": "homework"
+  },
+  {
+   "date": "2026-12-06",
+   "title": {
+    "en": "Climate Factors and Climate Zones",
+    "zh": "气候因素和气候带"
+   },
+   "message": {
+    "en": "About 30 minutes. Read Main Book W8 and W9, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 W8 和 W9，然后做一次小测。再到 📋 作业讲评检查答案。"
+   },
+   "activities": [
+    "hw-sun2"
+   ],
+   "book": [
+    "W8",
+    "W9"
+   ],
+   "kind": "homework"
+  }
+ ],
+ "activities": [
+  {
+   "id": "hw-tue2",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Tuesday Homework: Weather Review (W1 to W4)",
+    "zh": "星期二作业：天气复习（W1 到 W4）"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look at your Main Book if you need to. One try only.",
+    "zh": "需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Your outfit today is like weather. Your whole wardrobe is like...",
+     "options": [
+      "climate",
+      "weather",
+      "an air mass",
+      "a front"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Climate = the usual weather over many years, like everything in your wardrobe.",
+      "zh": "气候 = 很多年来通常的天气，就像整个衣柜。"
+     }
+    },
+    {
+     "q": "Weather happens in the lowest layer of the atmosphere, called the...",
+     "options": [
+      "troposphere",
+      "horizon",
+      "front",
+      "air mass"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Clouds, rain and wind are all in the troposphere.",
+      "zh": "云、雨和风都在对流层。"
+     }
+    },
+    {
+     "q": "An air mass that formed over cold land in winter is...",
+     "options": [
+      "continental polar",
+      "maritime tropical",
+      "maritime polar",
+      "continental tropical"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Over land = continental (dry). Cold = polar.",
+      "zh": "在陆地上 = continental（干）。冷 = polar。"
+     }
+    },
+    {
+     "q": "Maritime means the air mass formed over...",
+     "options": [
+      "the ocean",
+      "land",
+      "mountains",
+      "ice only"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Maritime = the sponge sat over the ocean, so it is wet.",
+      "zh": "maritime = 海绵在海上，所以是湿的。"
+     }
+    },
+    {
+     "q": "Warm air is light, so it...",
+     "options": [
+      "rises",
+      "sinks",
+      "stops moving",
+      "turns into ice"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Warm air rises, like a hot air balloon.",
+      "zh": "暖空气上升，就像热气球。"
+     }
+    },
+    {
+     "q": "A front is...",
+     "options": [
+      "where two different air masses meet",
+      "a kind of cloud",
+      "the top of the atmosphere",
+      "a layer of soil"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A front is the front line of a moving air mass, where it meets another one.",
+      "zh": "锋是移动气团的前沿，是两个气团相遇的地方。"
+     }
+    },
+    {
+     "q": "On a weather map, a line with blue triangles is a...",
+     "options": [
+      "cold front",
+      "warm front",
+      "stationary front",
+      "occluded front"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Blue triangles = cold front. Red half circles = warm front.",
+      "zh": "蓝色三角形 = 冷锋。红色半圆 = 暖锋。"
+     }
+    },
+    {
+     "q": "A front that stays in one place for days, like a tug of war where nobody wins, is a...",
+     "options": [
+      "stationary front",
+      "cold front",
+      "warm front",
+      "occluded front"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Stationary = not moving, so the same rainy weather stays for days.",
+      "zh": "静止 = 不移动，所以同样的雨天会持续好几天。"
+     }
+    },
+    {
+     "q": "Rain, snow, sleet and hail are all kinds of...",
+     "options": [
+      "precipitation",
+      "condensation",
+      "air masses",
+      "fronts"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Precipitation = any water that falls from clouds.",
+      "zh": "降水 = 从云里落下来的任何水。"
+     }
+    },
+    {
+     "q": "A tall thunderstorm cloud is a...",
+     "options": [
+      "cumulonimbus",
+      "cirrus",
+      "stratus",
+      "cumulus"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Cumulus (puffy) + nimbus (rain) = a tall thunderstorm cloud.",
+      "zh": "cumulus（蓬松）+ nimbus（雨）= 高高的雷雨云。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now remember air masses, fronts and clouds.",
+    "zh": "我现在记得气团、锋和云。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "hw-wed2",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Wednesday Homework: Equations (M1 and M2)",
+    "zh": "星期三作业：方程（M1 和 M2）"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look at your Main Book if you need to. One try only.",
+    "zh": "需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Solve 8n = 56.",
+     "options": [
+      "n = 7",
+      "n = 48",
+      "n = 64",
+      "n = 448"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "n is multiplied by 8, so divide both sides by 8: 56 ÷ 8 = 7. Check: 8 × 7 = 56 ✓",
+      "zh": "n 被乘以 8，所以两边除以 8：56 ÷ 8 = 7。检查：8 × 7 = 56 ✓"
+     }
+    },
+    {
+     "q": "Solve k ÷ 4 = 9.",
+     "options": [
+      "k = 36",
+      "k = 13",
+      "k = 5",
+      "k = 2 1/4"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "k is divided by 4, so multiply both sides by 4: 9 × 4 = 36. Check: 36 ÷ 4 = 9 ✓",
+      "zh": "k 被除以 4，所以两边乘以 4：9 × 4 = 36。检查：36 ÷ 4 = 9 ✓"
+     }
+    },
+    {
+     "q": "To solve 6m = 42, what do you do to both sides?",
+     "options": [
+      "divide by 6",
+      "multiply by 6",
+      "subtract 6",
+      "add 6"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "6m means 6 × m. The opposite of × is ÷, so divide both sides by 6.",
+      "zh": "6m 是 6 × m。× 的相反是 ÷，所以两边除以 6。"
+     }
+    },
+    {
+     "q": "Solve 12 = 3p.",
+     "options": [
+      "p = 4",
+      "p = 36",
+      "p = 9",
+      "p = 15"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Divide both sides by 3: 12 ÷ 3 = 4. Check: 3 × 4 = 12 ✓",
+      "zh": "两边除以 3：12 ÷ 3 = 4。检查：3 × 4 = 12 ✓"
+     }
+    },
+    {
+     "q": "Solve y ÷ 5 = 7.",
+     "options": [
+      "y = 35",
+      "y = 12",
+      "y = 2",
+      "y = 1 2/5"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Multiply both sides by 5: 7 × 5 = 35. Check: 35 ÷ 5 = 7 ✓",
+      "zh": "两边乘以 5：7 × 5 = 35。检查：35 ÷ 5 = 7 ✓"
+     }
+    },
+    {
+     "q": "2/3 x = 10. What is x?",
+     "options": [
+      "x = 15",
+      "x = 6 2/3",
+      "x = 5",
+      "x = 30"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2 parts = 10, so 1 part = 10 ÷ 2 = 5. x is all 3 parts: 3 × 5 = 15. Check: 2/3 × 15 = 30/3 = 10 ✓",
+      "zh": "2 份 = 10，所以 1 份 = 10 ÷ 2 = 5。x 是全部 3 份：3 × 5 = 15。检查：2/3 × 15 = 30/3 = 10 ✓"
+     }
+    },
+    {
+     "q": "3/4 m = 18. One part (1/4 of m) is...",
+     "options": [
+      "6",
+      "24",
+      "13 1/2",
+      "54"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "3 parts = 18, so 1 part = 18 ÷ 3 = 6.",
+      "zh": "3 份 = 18，所以 1 份 = 18 ÷ 3 = 6。"
+     }
+    },
+    {
+     "q": "3/4 m = 18. What is m?",
+     "options": [
+      "m = 24",
+      "m = 13 1/2",
+      "m = 6",
+      "m = 72"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "1 part = 18 ÷ 3 = 6. m is all 4 parts: 4 × 6 = 24. Check: 3/4 × 24 = 72/4 = 18 ✓",
+      "zh": "1 份 = 18 ÷ 3 = 6。m 是全部 4 份：4 × 6 = 24。检查：3/4 × 24 = 72/4 = 18 ✓"
+     }
+    },
+    {
+     "q": "Sophie spent 2/5 of her money. That was $8. How much money did she have at the start?",
+     "options": [
+      "$20",
+      "$3 1/5",
+      "$4",
+      "$40"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2/5 t = 8. 1 part = 8 ÷ 2 = 4. All 5 parts: 5 × 4 = 20. Answer: $20. Check: 2/5 × 20 = 40/5 = 8 ✓",
+      "zh": "2/5 t = 8。1 份 = 8 ÷ 2 = 4。全部 5 份：5 × 4 = 20。答案：$20。检查：2/5 × 20 = 40/5 = 8 ✓"
+     }
+    },
+    {
+     "q": "James ran 5/6 of a race. That was 10 km. Which equation matches? (r = the whole race)",
+     "options": [
+      "5/6 r = 10",
+      "10 r = 5/6",
+      "r + 5/6 = 10",
+      "r ÷ 10 = 5/6"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "5/6 of the whole race (5/6 × r) is 10 km. Then r = 12 km.",
+      "zh": "整个比赛的 5/6（5/6 × r）是 10 千米。所以 r = 12 千米。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve × and ÷ equations and fraction equations.",
+    "zh": "我现在会解乘除方程和分数方程。"
+   },
+   "part": "M"
+  },
+  {
+   "id": "hw-thu2",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Thursday Homework: Usage, Proofreading and Flyers (E1 to E3)",
+    "zh": "星期四作业：用法、校对和宣传单（E1 到 E3）"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look at your Main Book if you need to. One try only.",
+    "zh": "需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "There were ___ people at the fair this year.",
+     "options": [
+      "fewer",
+      "less"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "People can be counted, so use FEWER.",
+      "zh": "人可以数，所以用 FEWER。"
+     }
+    },
+    {
+     "q": "Emma is taller ___ Tom.",
+     "options": [
+      "than",
+      "then"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "THAN compares two things.",
+      "zh": "THAN 用来比较两样东西。"
+     }
+    },
+    {
+     "q": "Everyone went to the beach ___ James.",
+     "options": [
+      "except",
+      "accept"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "EXCEPT means \"but not\": everyone but James.",
+      "zh": "EXCEPT 意思是“除了”：除了 James 以外的所有人。"
+     }
+    },
+    {
+     "q": "___ going to the science fair?",
+     "options": [
+      "Who's",
+      "Whose"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Say it in full: Who is going? So write WHO'S.",
+      "zh": "说完整：Who is going? 所以写 WHO'S。"
+     }
+    },
+    {
+     "q": "The dog wagged ___ tail.",
+     "options": [
+      "its",
+      "it's"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "\"It is tail\" makes no sense, so write ITS (belongs to it).",
+      "zh": "“It is tail” 说不通，所以写 ITS（它的）。"
+     }
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "I should have brought a hat.",
+      "I should of brought a hat."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Never write \"should of\". Write SHOULD HAVE.",
+      "zh": "不要写 \"should of\"，要写 SHOULD HAVE。"
+     }
+    },
+    {
+     "q": "Which is correct?",
+     "options": [
+      "We are all ready to go.",
+      "We are already to go."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "ALL READY = everyone is ready. ALREADY = before now.",
+      "zh": "ALL READY = 大家都准备好了。ALREADY = 已经。"
+     }
+    },
+    {
+     "q": "Our coach will ___ us how to dive.",
+     "options": [
+      "teach",
+      "learn"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "TEACH = show someone else how. The coach shows us.",
+      "zh": "TEACH = 教别人。教练教我们。"
+     }
+    },
+    {
+     "q": "A flyer must tell people what, when, where and...",
+     "options": [
+      "the activities",
+      "the writer's age",
+      "the price of the paper",
+      "a long story"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "What, when, where and the activities, so people want to come.",
+      "zh": "什么活动、什么时候、在哪里、有哪些项目，让人想来参加。"
+     }
+    },
+    {
+     "q": "Which flyer line is a call to action?",
+     "options": [
+      "Bring a friend and join the fun!",
+      "The hall is big.",
+      "The fair was planned in May.",
+      "There are tables."
+     ],
+     "answer": 0,
+     "why": {
+      "en": "A call to action tells the reader what to do.",
+      "zh": "行动号召告诉读者要做什么。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now choose the right usage words and plan a flyer.",
+    "zh": "我现在能选对用法词，也会计划宣传单。"
+   },
+   "part": "E"
+  },
+  {
+   "id": "w2-cards",
+   "type": "flashcards",
+   "icon": "🌬️",
+   "title": {
+    "en": "Weather Words (W5 to W7)",
+    "zh": "天气词汇（W5 到 W7）"
+   },
+   "subtitle": {
+    "en": "12 cards",
+    "zh": "12 张"
+   },
+   "intro": {
+    "en": "Read the word, say what it means, then tap to check.",
+    "zh": "读词，说出意思，再点卡片检查。"
+   },
+   "cards": [
+    {
+     "front": "air pressure",
+     "back": "How hard the air pushes down on Earth.",
+     "zh": "气压",
+     "zhBack": "空气向地面压下来的力量。"
+    },
+    {
+     "front": "high pressure",
+     "back": "Heavy, cold air sinks. Usually clear, sunny skies.",
+     "zh": "高压",
+     "zhBack": "又重又冷的空气下沉。通常是晴天。"
+    },
+    {
+     "front": "low pressure",
+     "back": "Light, warm air rises. Usually clouds and rain.",
+     "zh": "低压",
+     "zhBack": "又轻又暖的空气上升。通常有云和雨。"
+    },
+    {
+     "front": "wind",
+     "back": "Air moving from HIGH pressure to LOW pressure.",
+     "zh": "风",
+     "zhBack": "空气从高压流向低压。"
+    },
+    {
+     "front": "isobar",
+     "back": "A line on a weather map joining places with the same air pressure.",
+     "zh": "等压线",
+     "zhBack": "天气图上连接气压相同地方的线。"
+    },
+    {
+     "front": "station model",
+     "back": "One small symbol showing all the weather at one place: a weather selfie.",
+     "zh": "气象站模型",
+     "zhBack": "用一个小符号表示一个地方的所有天气：天气自拍。"
+    },
+    {
+     "front": "cloud cover",
+     "back": "How much of the sky is covered by cloud. The circle on a station model.",
+     "zh": "云量",
+     "zhBack": "天空被云遮住了多少。气象站模型中间的圆圈。"
+    },
+    {
+     "front": "weather map",
+     "back": "Many station models together, with H, L, fronts and isobars: the group photo.",
+     "zh": "天气图",
+     "zhBack": "很多气象站模型放在一起，还有 H、L、锋和等压线：大合照。"
+    },
+    {
+     "front": "humidity",
+     "back": "How much water vapour is in the air.",
+     "zh": "湿度",
+     "zhBack": "空气里有多少水蒸气。"
+    },
+    {
+     "front": "relative humidity",
+     "back": "How FULL the air is of water vapour, as a percent (%).",
+     "zh": "相对湿度",
+     "zhBack": "空气装了多满的水蒸气，用百分比（%）表示。"
+    },
+    {
+     "front": "dew",
+     "back": "Water drops on grass in the early morning, from water vapour that condensed.",
+     "zh": "露水",
+     "zhBack": "清晨草上的水珠，是水蒸气凝结成的。"
+    },
+    {
+     "front": "dew point",
+     "back": "The temperature where the air is full and water vapour turns into drops.",
+     "zh": "露点",
+     "zhBack": "空气装满、水蒸气开始变成水珠时的温度。"
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain 12 more weather words.",
+    "zh": "我现在能再解释 12 个天气词汇。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "w2-match",
+   "type": "match",
+   "icon": "🧩",
+   "title": {
+    "en": "Weather Match Game (W5 to W7)",
+    "zh": "天气配对游戏（W5 到 W7）"
+   },
+   "intro": {
+    "en": "Tap a word, then tap its meaning.",
+    "zh": "先点词，再点意思。"
+   },
+   "size": 6,
+   "pairs": [
+    {
+     "a": "air pressure",
+     "b": "air pushing down"
+    },
+    {
+     "a": "high pressure",
+     "b": "clear skies"
+    },
+    {
+     "a": "low pressure",
+     "b": "clouds and rain"
+    },
+    {
+     "a": "wind",
+     "b": "high to low"
+    },
+    {
+     "a": "isobar",
+     "b": "same pressure line"
+    },
+    {
+     "a": "station model",
+     "b": "weather selfie"
+    },
+    {
+     "a": "weather map",
+     "b": "group photo"
+    },
+    {
+     "a": "humidity",
+     "b": "water vapour in the air"
+    },
+    {
+     "a": "relative humidity",
+     "b": "how full (%)"
+    },
+    {
+     "a": "dew point",
+     "b": "air is full, drops form"
+    }
+   ],
+   "canNow": {
+    "en": "I can now match pressure, wind and humidity words.",
+    "zh": "我现在能配对气压、风和湿度的词。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "w2-quiz",
+   "type": "quiz",
+   "timed": false,
+   "shuffle": false,
+   "icon": "⛅",
+   "title": {
+    "en": "Weather Quiz (W5 to W7)",
+    "zh": "天气小测（W5 到 W7）"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Remember the pictures: the squeezed balloon, the weather selfie and the full sponge.",
+    "zh": "记住这些画面：被挤的气球、天气自拍和装满的海绵。"
+   },
+   "questions": [
+    {
+     "q": "Air pressure is...",
+     "options": [
+      "how hard the air pushes down on Earth",
+      "how hot the air is",
+      "how much rain falls",
+      "how fast clouds move"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Air pressure = the push of the air on Earth.",
+      "zh": "气压 = 空气对地面的压力。"
+     }
+    },
+    {
+     "q": "Low pressure usually brings...",
+     "options": [
+      "clouds and rain",
+      "clear, sunny skies",
+      "snow every day",
+      "no weather at all"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Light warm air rises, cools and makes clouds and rain.",
+      "zh": "轻的暖空气上升、变冷，形成云和雨。"
+     }
+    },
+    {
+     "q": "Wind blows from...",
+     "options": [
+      "high pressure to low pressure",
+      "low pressure to high pressure",
+      "warm places to cold places only",
+      "the ground straight up"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Like air rushing out of a squeezed balloon: from high to low.",
+      "zh": "就像被挤的气球里冲出来的空气：从高到低。"
+     }
+    },
+    {
+     "q": "Lines on a weather map that join places with the same air pressure are...",
+     "options": [
+      "isobars",
+      "fronts",
+      "station models",
+      "cold fronts"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Isobar = same pressure line.",
+      "zh": "等压线 = 气压相同的线。"
+     }
+    },
+    {
+     "q": "Isobars far apart mean...",
+     "options": [
+      "gentle wind",
+      "strong wind",
+      "a thunderstorm",
+      "no air pressure"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Close lines = strong wind. Far apart = gentle wind.",
+      "zh": "线靠得近 = 大风。离得远 = 微风。"
+     }
+    },
+    {
+     "q": "A station model is like a weather...",
+     "options": [
+      "selfie of one place",
+      "group photo of many places",
+      "wardrobe",
+      "bulldozer"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "One station, one symbol: a weather selfie.",
+      "zh": "一个气象站，一个符号：天气自拍。"
+     }
+    },
+    {
+     "q": "On a station model, the number on the LEFT is the...",
+     "options": [
+      "temperature",
+      "air pressure",
+      "wind speed",
+      "cloud cover"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Left = temperature. Right = air pressure.",
+      "zh": "左边 = 温度。右边 = 气压。"
+     }
+    },
+    {
+     "q": "On a station model, the feathers on the stick show...",
+     "options": [
+      "wind speed",
+      "wind direction",
+      "temperature",
+      "cloud cover"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The stick shows wind direction. The feathers show wind speed.",
+      "zh": "线（杆）表示风向，羽毛表示风速。"
+     }
+    },
+    {
+     "q": "Relative humidity tells how ___ the air is of water vapour.",
+     "options": [
+      "full",
+      "hot",
+      "heavy",
+      "fast"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Like how full a sponge is, as a percent.",
+      "zh": "就像海绵有多满，用百分比表示。"
+     }
+    },
+    {
+     "q": "Dew on the grass in the morning is water vapour that...",
+     "options": [
+      "condensed on a cool surface",
+      "fell from a cumulonimbus cloud",
+      "came up out of the soil",
+      "froze into hail"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Like drops on a cold drink: water vapour turns into drops on the cool grass.",
+      "zh": "就像冰饮料上的水珠：水蒸气在凉凉的草上变成水珠。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain air pressure, wind, station models and humidity.",
+    "zh": "我现在能解释气压、风、气象站模型和湿度。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "hw-sat2",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Saturday Homework: Pressure, Station Models and Humidity (W5 to W7)",
+    "zh": "星期六作业：气压、气象站模型和湿度（W5 到 W7）"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look at your Main Book if you need to. One try only.",
+    "zh": "需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Under high pressure, the air...",
+     "options": [
+      "sinks, and the sky is usually clear",
+      "rises and makes clouds",
+      "stops moving",
+      "turns into dew"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Heavy cold air sinks and presses down: usually clear skies.",
+      "zh": "又重又冷的空气下沉：通常是晴天。"
+     }
+    },
+    {
+     "q": "Light, warm air rising makes...",
+     "options": [
+      "low pressure",
+      "high pressure",
+      "an isobar",
+      "a station model"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Rising warm air = low pressure, usually clouds and rain.",
+      "zh": "上升的暖空气 = 低压，通常有云和雨。"
+     }
+    },
+    {
+     "q": "Air rushing out of a squeezed balloon is like wind blowing from...",
+     "options": [
+      "high pressure to low pressure",
+      "low pressure to high pressure",
+      "the ground to space",
+      "cold air to colder air"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Squeezed = high pressure inside. Air rushes out to lower pressure.",
+      "zh": "被挤 = 里面是高压。空气冲向低压的地方。"
+     }
+    },
+    {
+     "q": "Isobars close together mean...",
+     "options": [
+      "strong wind",
+      "gentle wind",
+      "no wind",
+      "clear skies only"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Like close lines on a hill map: steep, so fast.",
+      "zh": "就像地形图上靠得近的线：陡，所以快。"
+     }
+    },
+    {
+     "q": "On a station model, the number on the RIGHT is the...",
+     "options": [
+      "air pressure",
+      "temperature",
+      "wind speed",
+      "dew"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Right = air pressure (mb). Left = temperature.",
+      "zh": "右边 = 气压（mb）。左边 = 温度。"
+     }
+    },
+    {
+     "q": "On a station model, a circle that is all shaded means...",
+     "options": [
+      "the sky is covered in cloud",
+      "there is no cloud",
+      "the wind is strong",
+      "it is very hot"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "More shaded = more cloud. All shaded = covered.",
+      "zh": "涂得越多 = 云越多。全部涂满 = 满天云。"
+     }
+    },
+    {
+     "q": "On a weather map, H and L stand for...",
+     "options": [
+      "high and low pressure",
+      "high and low temperature",
+      "hail and lightning",
+      "hot and light"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "H = high pressure. L = low pressure.",
+      "zh": "H = 高压。L = 低压。"
+     }
+    },
+    {
+     "q": "Humidity is...",
+     "options": [
+      "how much water vapour is in the air",
+      "how hot the air is",
+      "how hard the air pushes down",
+      "how fast the wind blows"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Humidity = water vapour in the air.",
+      "zh": "湿度 = 空气里的水蒸气。"
+     }
+    },
+    {
+     "q": "Relative humidity of 100% means...",
+     "options": [
+      "the air is full, so rain or dew can form",
+      "the air is completely dry",
+      "the air has no pressure",
+      "it is 100 degrees"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "100% = completely full, so water starts to come out.",
+      "zh": "100% = 完全满了，所以水开始出来。"
+     }
+    },
+    {
+     "q": "The bottom of a cloud is where the air has cooled to its...",
+     "options": [
+      "dew point",
+      "isobar",
+      "high pressure",
+      "station model"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "At the dew point, water vapour turns into drops, so the cloud starts there.",
+      "zh": "到了露点，水蒸气变成水珠，所以云从那里开始。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now read pressure, station models and humidity.",
+    "zh": "我现在会看气压、气象站模型和湿度。"
+   },
+   "part": "W"
+  },
+  {
+   "id": "hw-sun2",
+   "type": "hwquiz",
+   "icon": "🏠",
+   "title": {
+    "en": "Sunday Homework: Climate Factors and Zones (W8 and W9)",
+    "zh": "星期天作业：气候因素和气候带（W8 和 W9）"
+   },
+   "subtitle": {
+    "en": "10 questions, one try",
+    "zh": "10 道题，只能做一次"
+   },
+   "intro": {
+    "en": "Look at your Main Book if you need to. One try only.",
+    "zh": "需要的话看主课本。只能做一次。"
+   },
+   "questions": [
+    {
+     "q": "Latitude tells how far a place is ___ of the equator.",
+     "options": [
+      "north or south",
+      "east or west",
+      "above or below",
+      "inside or outside"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Latitude = how far north or south, in degrees (°).",
+      "zh": "纬度 = 往北或往南多远，用度（°）表示。"
+     }
+    },
+    {
+     "q": "Near the equator it is hot because the sun...",
+     "options": [
+      "shines straight down",
+      "is low in the sky",
+      "never sets",
+      "is behind the clouds"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Straight-down sunshine is strong. Near the poles the sun is low, so it is cold.",
+      "zh": "直射的阳光很强。靠近两极太阳很低，所以冷。"
+     }
+    },
+    {
+     "q": "Water warms up and cools down ___ than land.",
+     "options": [
+      "more slowly",
+      "more quickly"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Water changes temperature much more slowly than land.",
+      "zh": "水温度变化比陆地慢得多。"
+     }
+    },
+    {
+     "q": "Which city has milder (gentler) weather all year?",
+     "options": [
+      "a city by the ocean",
+      "a city far inland"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The ocean changes slowly, so the coast stays milder. San Diego: 24°C to 9°C. Phoenix: 41°C to 5°C.",
+      "zh": "海洋变化慢，所以海边更温和。San Diego：24°C 到 9°C。Phoenix：41°C 到 5°C。"
+     }
+    },
+    {
+     "q": "Wet air climbs a mountain, cools and drops its rain. The dry side behind the mountain is the...",
+     "options": [
+      "rain shadow",
+      "rain forest",
+      "tundra",
+      "savanna"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The dry side gets very little rain: the rain shadow.",
+      "zh": "干燥的那一边几乎不下雨：雨影区。"
+     }
+    },
+    {
+     "q": "Global winds...",
+     "options": [
+      "blow steadily in the same direction over large parts of Earth",
+      "change direction every hour",
+      "only blow over mountains",
+      "only blow at night"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Global winds are steady and cover large parts of Earth.",
+      "zh": "全球风带很稳定，覆盖地球的大片地区。"
+     }
+    },
+    {
+     "q": "The equator is at...",
+     "options": [
+      "0°",
+      "23.5°N",
+      "66.5°N",
+      "90°"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Equator = 0°.",
+      "zh": "赤道 = 0°。"
+     }
+    },
+    {
+     "q": "The Tropic of Cancer is at...",
+     "options": [
+      "23.5°N",
+      "23.5°S",
+      "66.5°N",
+      "0°"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Tropic of Cancer = 23.5°N. Tropic of Capricorn = 23.5°S.",
+      "zh": "北回归线 = 23.5°N。南回归线 = 23.5°S。"
+     }
+    },
+    {
+     "q": "Which climate zone is cold and dry, inside the Arctic and Antarctic Circles?",
+     "options": [
+      "polar",
+      "tropical",
+      "temperate"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Polar = inside the polar circles: cold and dry.",
+      "zh": "极地 = 在极圈里面：又冷又干。"
+     }
+    },
+    {
+     "q": "A big area with its own climate, plants and animals is a...",
+     "options": [
+      "biome",
+      "front",
+      "air mass",
+      "station model"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Biome = a big area with its own climate, plants and animals.",
+      "zh": "生物群系 = 有自己气候、植物和动物的一大片地区。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now explain climate factors, climate zones and biomes.",
+    "zh": "我现在能解释气候因素、气候带和生物群系。"
+   },
+   "part": "W"
+  }
+ ]
+}
