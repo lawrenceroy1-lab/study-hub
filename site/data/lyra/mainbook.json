@@ -2631,6 +2631,84 @@
      }
     },
     {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: a transverse wave",
+      "zh": "画一画：横波"
+     },
+     "points": [
+      {
+       "en": "Draw a long dashed line across the middle: the rest position.",
+       "zh": "在中间画一条长虚线：静止位置。"
+      },
+      {
+       "en": "Draw 2 waves over it. Label a crest and a trough.",
+       "zh": "在上面画 2 个波，标出波峰和波谷。"
+      },
+      {
+       "en": "Draw an arrow from the rest line UP to a crest: the amplitude. Draw an arrow from one crest to the next: the wavelength.",
+       "zh": "从静止线向上画一个箭头到波峰：振幅。从一个波峰画箭头到下一个波峰：波长。"
+      }
+     ],
+     "visual": {
+      "type": "wave",
+      "labels": true,
+      "amp": 75,
+      "cycles": 2
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw a transverse wave and label it.",
+       "zh": "画一个横波，并写上标签。"
+      },
+      "labels": [
+       "crest",
+       "trough",
+       "rest position",
+       "amplitude",
+       "wavelength",
+       "direction of travel"
+      ]
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: a longitudinal wave (a slinky)",
+      "zh": "画一画：纵波（弹簧）"
+     },
+     "points": [
+      {
+       "en": "Draw a long slinky. Squash some coils close together and spread others apart.",
+       "zh": "画一条长弹簧。有些圈挤在一起，有些圈分得很开。"
+      },
+      {
+       "en": "Label the squashed parts compression and the spread parts rarefaction.",
+       "zh": "挤在一起的地方标“密部”，分开的地方标“疏部”。"
+      },
+      {
+       "en": "Draw a double arrow ↔ to show the push and pull, in the SAME direction the wave travels.",
+       "zh": "画一个双箭头 ↔ 表示推和拉，和波传播的方向相同。"
+      }
+     ],
+     "visual": {
+      "type": "longitudinal"
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw a slinky wave and label it.",
+       "zh": "画一个弹簧波，并写上标签。"
+      },
+      "labels": [
+       "compression",
+       "rarefaction",
+       "vibration",
+       "direction of travel",
+       "sound"
+      ]
+     }
+    },
+    {
      "icon": "🌊",
      "title": {
       "en": "wave  波",
@@ -3070,6 +3148,74 @@
      ]
     },
     {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: loud and quiet, high and low",
+      "zh": "画一画：大声和小声，高音和低音"
+     },
+     "points": [
+      {
+       "en": "Draw 2 waves: a QUIET one (short) and a LOUD one (tall). Same number of waves in each.",
+       "zh": "画 2 个波：小声的（矮）和大声的（高），两个波的数量一样。"
+      },
+      {
+       "en": "Draw 2 more: a LOW pitch (waves spread out) and a HIGH pitch (waves squeezed together). Same height in each.",
+       "zh": "再画 2 个：低音（波分得开）和高音（波挤在一起），高度一样。"
+      },
+      {
+       "en": "Write under them: loudness = amplitude, pitch = frequency.",
+       "zh": "在下面写：响度 = 振幅，音调 = 频率。"
+      }
+     ],
+     "visual": {
+      "type": "compare",
+      "items": [
+       {
+        "icon": "🤫",
+        "label": {
+         "en": "Quiet: small amplitude",
+         "zh": "小声：振幅小"
+        },
+        "amp": 15,
+        "cycles": 4,
+        "color": "#2f9e44",
+        "sound": {
+         "hz": 440,
+         "vol": 0.12
+        }
+       },
+       {
+        "icon": "📣",
+        "label": {
+         "en": "Loud: big amplitude",
+         "zh": "大声：振幅大"
+        },
+        "amp": 58,
+        "cycles": 4,
+        "color": "#e8590c",
+        "sound": {
+         "hz": 440,
+         "vol": 0.9
+        }
+       }
+      ]
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw quiet, loud, low and high sound waves.",
+       "zh": "画出小声、大声、低音和高音的声波。"
+      },
+      "labels": [
+       "quiet",
+       "loud",
+       "low pitch",
+       "high pitch",
+       "amplitude",
+       "frequency"
+      ]
+     }
+    },
+    {
      "icon": "🎵",
      "title": {
       "en": "pitch  音调",
@@ -3346,6 +3492,82 @@
        "en": "Pinna → canal → eardrum → ossicles → cochlea → nerve.",
        "zh": "耳廓 → 外耳道 → 鼓膜 → 听小骨 → 耳蜗 → 听神经。"
       }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: the path of sound",
+      "zh": "画一画：声音的路线"
+     },
+     "points": [
+      {
+       "en": "Draw a side view of an ear and the head.",
+       "zh": "画耳朵和头的侧面。"
+      },
+      {
+       "en": "Draw arrows 1 to 6 to show sound going in: pinna, auditory canal, eardrum, ossicles, cochlea, auditory nerve, then the brain.",
+       "zh": "画箭头 1 到 6，表示声音进去的路线：耳廓、外耳道、鼓膜、听小骨、耳蜗、听神经，最后到大脑。"
+      },
+      {
+       "en": "Next to each part, write one word for its job: collects, carries, vibrates, makes bigger, makes signals, carries to the brain.",
+       "zh": "在每个部分旁边写一个词说明它的作用：收集、传送、振动、放大、变成信号、送到大脑。"
+      }
+     ],
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "👂",
+        "en": "pinna",
+        "zh": "耳廓"
+       },
+       {
+        "icon": "🕳️",
+        "en": "auditory canal",
+        "zh": "外耳道"
+       },
+       {
+        "icon": "🥁",
+        "en": "eardrum",
+        "zh": "鼓膜"
+       },
+       {
+        "icon": "🦴",
+        "en": "ossicles",
+        "zh": "听小骨"
+       },
+       {
+        "icon": "🐌",
+        "en": "cochlea",
+        "zh": "耳蜗"
+       },
+       {
+        "icon": "⚡",
+        "en": "auditory nerve",
+        "zh": "听神经"
+       },
+       {
+        "icon": "🧠",
+        "en": "brain",
+        "zh": "大脑"
+       }
+      ]
+     },
+     "draw": {
+      "prompt": {
+       "en": "Draw the ear and number the path of sound.",
+       "zh": "画耳朵，给声音的路线编号。"
+      },
+      "labels": [
+       "pinna",
+       "auditory canal",
+       "eardrum",
+       "ossicles",
+       "cochlea",
+       "auditory nerve",
+       "brain"
+      ]
      }
     },
     {
