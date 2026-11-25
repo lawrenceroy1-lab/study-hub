@@ -5,8 +5,8 @@
   "zh": "作业讲评、主课本、练习册"
  },
  "message": {
-  "en": "Homework: open the Homework page for your date. Finish its learning, practice and one-try quiz, then check Homework Review. Class work is for lessons with Roy. Other activities are optional practice.",
-  "zh": "作业：打开当天的“作业”页。完成学习、练习和只能提交一次的小测，再看“作业讲评”。课堂练习和 Roy 老师一起做。其他活动是自选练习。"
+  "en": "Homework: open the Homework page for your date. Finish its learning, practice and quiz (you can try the quiz as many times as you like), then look at every answer in Homework Review. Class work is for lessons with Roy. Other activities are optional practice.",
+  "zh": "作业：打开当天的“作业”页。完成学习、练习和小测（小测可以做很多次），再到“作业讲评”看每道题的答案。课堂练习和 Roy 老师一起做。其他活动是自选练习。"
  },
  "activities": [
   {
@@ -2621,12 +2621,12 @@
     "zh": "星期一作业小测"
    },
    "subtitle": {
-    "en": "15 questions, one try",
-    "zh": "15 道题，只能做一次"
+    "en": "15 questions, try as often as you like",
+    "zh": "15 道题，可以做很多次"
    },
    "intro": {
-    "en": "Answer every question. You can only submit once. Then check it yourself in 📋 Homework Review.",
-    "zh": "回答每道题。只能提交一次。然后在“📋 作业讲评”里自己检查。"
+    "en": "Answer every question. You can try again as many times as you like. Then look at every answer in 📋 Homework Review.",
+    "zh": "回答每道题。可以做很多次。然后在“📋 作业讲评”里看每道题的答案。"
    },
    "questions": [
     {
@@ -2854,12 +2854,12 @@
     "zh": "星期二作业小测"
    },
    "subtitle": {
-    "en": "20 questions, one try",
-    "zh": "20 道题，只能做一次"
+    "en": "20 questions, try as often as you like",
+    "zh": "20 道题，可以做很多次"
    },
    "intro": {
-    "en": "Answer every question. You can only submit once. Then check it yourself in 📋 Homework Review.",
-    "zh": "回答每道题。只能提交一次。然后在“📋 作业讲评”里自己检查。"
+    "en": "Answer every question. You can try again as many times as you like. Then look at every answer in 📋 Homework Review.",
+    "zh": "回答每道题。可以做很多次。然后在“📋 作业讲评”里看每道题的答案。"
    },
    "questions": [
     {
@@ -4217,12 +4217,12 @@
     "zh": "星期四作业：波和声音关键词"
    },
    "subtitle": {
-    "en": "15 questions, one try",
-    "zh": "15 道题，只能做一次"
+    "en": "15 questions, try as often as you like",
+    "zh": "15 道题，可以做很多次"
    },
    "intro": {
-    "en": "Study the keyword cards first. Then answer every question. You can only submit once.",
-    "zh": "先学关键词卡片，再回答每道题。只能提交一次。"
+    "en": "Study the keyword cards first. Then answer every question. You can try again as many times as you like.",
+    "zh": "先学关键词卡片，再回答每道题。可以做很多次。"
    },
    "questions": [
     {
@@ -4450,12 +4450,12 @@
     "zh": "星期五作业：光和电磁波关键词"
    },
    "subtitle": {
-    "en": "15 questions, one try",
-    "zh": "15 道题，只能做一次"
+    "en": "15 questions, try as often as you like",
+    "zh": "15 道题，可以做很多次"
    },
    "intro": {
-    "en": "Read Main Book B4 to B8 and study the cards first. Then answer every question. You can only submit once.",
-    "zh": "先读主课本 B4 到 B8，学卡片，再回答每道题。只能提交一次。"
+    "en": "Read Main Book B4 to B8 and study the cards first. Then answer every question. You can try again as many times as you like.",
+    "zh": "先读主课本 B4 到 B8，学卡片，再回答每道题。可以做很多次。"
    },
    "questions": [
     {
@@ -4946,12 +4946,12 @@
     "zh": "星期六作业：化学复习（A1 到 A8）"
    },
    "subtitle": {
-    "en": "12 questions, one try",
-    "zh": "12 道题，只能做一次"
+    "en": "12 questions, try as often as you like",
+    "zh": "12 道题，可以做很多次"
    },
    "intro": {
-    "en": "Keep the chemistry fresh! Look at your Main Book if you need to. One try only.",
-    "zh": "别忘了化学！需要的话看主课本。只能做一次。"
+    "en": "Keep the chemistry fresh! Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "别忘了化学！需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {
@@ -5137,12 +5137,12 @@
     "zh": "星期一作业：折射和颜色（B6、B7）"
    },
    "subtitle": {
-    "en": "12 questions, one try",
-    "zh": "12 道题，只能做一次"
+    "en": "12 questions, try as often as you like",
+    "zh": "12 道题，可以做很多次"
    },
    "intro": {
-    "en": "Read Main Book B6 and B7 first. One try only.",
-    "zh": "先读主课本 B6 和 B7。只能做一次。"
+    "en": "Read Main Book B6 and B7 first. You can try again as many times as you like.",
+    "zh": "先读主课本 B6 和 B7。可以做很多次。"
    },
    "questions": [
     {
@@ -6709,8 +6709,8 @@
     "zh": "符号、命名和反应（A4 到 A6）"
    },
    "message": {
-    "en": "Assigned homework. 1. Learn: read Main Book A4, A5, A6. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps. Other activities outside this date are optional.",
-    "zh": "当天作业。1. 学习：读主课本 A4, A5, A6。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
+    "en": "Assigned homework. 1. Learn: read Main Book A4, A5, A6. 2. Practice: do the activities below in order. 3. Quiz: finish the homework quiz (you can try again as many times as you like). 4. Review: open Homework Review and look at every answer and why. You are finished after all four steps. Other activities outside this date are optional.",
+    "zh": "当天作业。1. 学习：读主课本 A4, A5, A6。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，可以做很多次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
    },
    "activities": [
     "deck-sym",
@@ -6732,8 +6732,8 @@
     "zh": "物态和改错（A7、A8）"
    },
    "message": {
-    "en": "Assigned homework. 1. Learn: read Main Book A7, A8. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps. Other activities outside this date are optional.",
-    "zh": "当天作业。1. 学习：读主课本 A7, A8。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
+    "en": "Assigned homework. 1. Learn: read Main Book A7, A8. 2. Practice: do the activities below in order. 3. Quiz: finish the homework quiz (you can try again as many times as you like). 4. Review: open Homework Review and look at every answer and why. You are finished after all four steps. Other activities outside this date are optional.",
+    "zh": "当天作业。1. 学习：读主课本 A7, A8。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，可以做很多次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
    },
    "activities": [
     "deck-state",
@@ -6776,8 +6776,8 @@
     "zh": "波和声音关键词（B1 到 B3）"
    },
    "message": {
-    "en": "Assigned homework. 1. Learn: read Main Book B1, B2, B3. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps. Other activities outside this date are optional.",
-    "zh": "当天作业。1. 学习：读主课本 B1, B2, B3。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
+    "en": "Assigned homework. 1. Learn: read Main Book B1, B2, B3. 2. Practice: do the activities below in order. 3. Quiz: finish the homework quiz (you can try again as many times as you like). 4. Review: open Homework Review and look at every answer and why. You are finished after all four steps. Other activities outside this date are optional.",
+    "zh": "当天作业。1. 学习：读主课本 B1, B2, B3。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，可以做很多次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
    },
    "activities": [
     "kw-waves",
@@ -6800,8 +6800,8 @@
     "zh": "光和电磁波谱关键词（B4 到 B8）"
    },
    "message": {
-    "en": "Assigned homework. 1. Learn: read Main Book B4, B5, B6, B7, B8. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps. Other activities outside this date are optional.",
-    "zh": "当天作业。1. 学习：读主课本 B4, B5, B6, B7, B8。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
+    "en": "Assigned homework. 1. Learn: read Main Book B4, B5, B6, B7, B8. 2. Practice: do the activities below in order. 3. Quiz: finish the homework quiz (you can try again as many times as you like). 4. Review: open Homework Review and look at every answer and why. You are finished after all four steps. Other activities outside this date are optional.",
+    "zh": "当天作业。1. 学习：读主课本 B4, B5, B6, B7, B8。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，可以做很多次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
    },
    "activities": [
     "kw-light",
@@ -6827,8 +6827,8 @@
     "zh": "化学复习（A1 到 A8）"
    },
    "message": {
-    "en": "Assigned homework. 1. Learn: read Main Book A2, A5, A7. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps. Other activities outside this date are optional.",
-    "zh": "当天作业。1. 学习：读主课本 A2, A5, A7。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
+    "en": "Assigned homework. 1. Learn: read Main Book A2, A5, A7. 2. Practice: do the activities below in order. 3. Quiz: finish the homework quiz (you can try again as many times as you like). 4. Review: open Homework Review and look at every answer and why. You are finished after all four steps. Other activities outside this date are optional.",
+    "zh": "当天作业。1. 学习：读主课本 A2, A5, A7。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，可以做很多次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
    },
    "activities": [
     "deck-sort",
@@ -6869,8 +6869,8 @@
     "zh": "折射和颜色（B6、B7）"
    },
    "message": {
-    "en": "Assigned homework. 1. Learn: read Main Book B6, B7. 2. Practice: do the activities below in order. 3. Quiz: finish the last homework quiz once. 4. Review: open Homework Review and check each answer and why. You are finished after all four steps. Other activities outside this date are optional.",
-    "zh": "当天作业。1. 学习：读主课本 B6, B7。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，只能提交一次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
+    "en": "Assigned homework. 1. Learn: read Main Book B6, B7. 2. Practice: do the activities below in order. 3. Quiz: finish the homework quiz (you can try again as many times as you like). 4. Review: open Homework Review and look at every answer and why. You are finished after all four steps. Other activities outside this date are optional.",
+    "zh": "当天作业。1. 学习：读主课本 B6, B7。2. 练习：按顺序做下面的活动。3. 小测：完成最后的作业小测，可以做很多次。4. 讲评：打开“作业讲评”，逐题看答案和原因。四步都做完，今天的作业就完成了。当天页面以外的活动可自选。"
    },
    "activities": [
     "hw-mon30"

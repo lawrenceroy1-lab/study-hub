@@ -16,8 +16,8 @@
     "zh": "天气复习：气团、锋和云"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book W1 to W4, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
-    "zh": "大约 30 分钟。读主课本 W1 到 W4，然后做一次小测。再到 📋 作业讲评检查答案。"
+    "en": "About 30 minutes. Read Main Book W1 to W4, then do the quiz. You can try again as many times as you like. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 W1 到 W4，然后做小测（可以做很多次）。再到 📋 作业讲评检查答案。"
    },
    "activities": [
     "hw-tue2"
@@ -37,8 +37,8 @@
     "zh": "数学：方程"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book M1 and M2, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
-    "zh": "大约 30 分钟。读主课本 M1 和 M2，然后做一次小测。再到 📋 作业讲评检查答案。"
+    "en": "About 30 minutes. Read Main Book M1 and M2, then do the quiz. You can try again as many times as you like. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 M1 和 M2，然后做小测（可以做很多次）。再到 📋 作业讲评检查答案。"
    },
    "activities": [
     "hw-wed2"
@@ -56,8 +56,8 @@
     "zh": "英语：用法、校对和宣传单"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book E1 to E3, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
-    "zh": "大约 30 分钟。读主课本 E1 到 E3，然后做一次小测。再到 📋 作业讲评检查答案。"
+    "en": "About 30 minutes. Read Main Book E1 to E3, then do the quiz. You can try again as many times as you like. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 E1 到 E3，然后做小测（可以做很多次）。再到 📋 作业讲评检查答案。"
    },
    "activities": [
     "hw-thu2"
@@ -98,8 +98,8 @@
     "zh": "天气：气压、气象站模型和湿度"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book W5 to W7, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
-    "zh": "大约 30 分钟。读主课本 W5 到 W7，然后做一次小测。再到 📋 作业讲评检查答案。"
+    "en": "About 30 minutes. Read Main Book W5 to W7, then do the quiz. You can try again as many times as you like. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 W5 到 W7，然后做小测（可以做很多次）。再到 📋 作业讲评检查答案。"
    },
    "activities": [
     "w2-cards",
@@ -119,8 +119,8 @@
     "zh": "气候因素和气候带"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book W8 and W9, then do the quiz ONCE. Then check your answers in 📋 Homework Review.",
-    "zh": "大约 30 分钟。读主课本 W8 和 W9，然后做一次小测。再到 📋 作业讲评检查答案。"
+    "en": "About 30 minutes. Read Main Book W8 and W9, then do the quiz. You can try again as many times as you like. Then check your answers in 📋 Homework Review.",
+    "zh": "大约 30 分钟。读主课本 W8 和 W9，然后做小测（可以做很多次）。再到 📋 作业讲评检查答案。"
    },
    "activities": [
     "hw-sun2"
@@ -142,12 +142,12 @@
     "zh": "星期二作业：天气复习（W1 到 W4）"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look at your Main Book if you need to. One try only.",
-    "zh": "需要的话看主课本。只能做一次。"
+    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {
@@ -306,12 +306,12 @@
     "zh": "星期三作业：方程（M1 和 M2）"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look at your Main Book if you need to. One try only.",
-    "zh": "需要的话看主课本。只能做一次。"
+    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {
@@ -470,12 +470,12 @@
     "zh": "星期四作业：用法、校对和宣传单（E1 到 E3）"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look at your Main Book if you need to. One try only.",
-    "zh": "需要的话看主课本。只能做一次。"
+    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {
@@ -941,12 +941,12 @@
     "zh": "星期六作业：气压、气象站模型和湿度（W5 到 W7）"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look at your Main Book if you need to. One try only.",
-    "zh": "需要的话看主课本。只能做一次。"
+    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {
@@ -1105,12 +1105,12 @@
     "zh": "星期天作业：气候因素和气候带（W8 和 W9）"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look at your Main Book if you need to. One try only.",
-    "zh": "需要的话看主课本。只能做一次。"
+    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {

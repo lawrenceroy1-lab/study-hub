@@ -12,5 +12,41 @@
  "homeworkLog": true,
  "mainBook": true,
  "schoolHomework": true,
- "library": true
+ "library": true,
+ "loginName": "DAISY",
+ "subjects": [
+  {
+   "id": "R",
+   "icon": "📖",
+   "title": {
+    "en": "Reading",
+    "zh": "阅读"
+   },
+   "parts": [
+    "R"
+   ]
+  },
+  {
+   "id": "E",
+   "icon": "✍️",
+   "title": {
+    "en": "English",
+    "zh": "英语"
+   },
+   "parts": [
+    "E"
+   ]
+  },
+  {
+   "id": "M",
+   "icon": "🔢",
+   "title": {
+    "en": "Maths",
+    "zh": "数学"
+   },
+   "parts": [
+    "M"
+   ]
+  }
+ ]
 }

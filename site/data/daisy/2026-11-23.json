@@ -42,8 +42,8 @@
     "zh": "分数（阅读考试之后）"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book M1 to M3, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。读主课本 M1 到 M3，然后做一次小测。"
+    "en": "About 30 minutes. Read Main Book M1 to M3, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。读主课本 M1 到 M3，然后做小测（可以做很多次）。"
    },
    "activities": [
     "multiply",
@@ -82,8 +82,8 @@
     "zh": "拼写：加 -ion"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book E2, practise the spelling, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。读主课本 E2，练习拼写，然后做一次小测。"
+    "en": "About 30 minutes. Read Main Book E2, practise the spelling, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。读主课本 E2，练习拼写，然后做小测（可以做很多次）。"
    },
    "activities": [
     "spelling",
@@ -121,8 +121,8 @@
     "zh": "星期五作业：本周复习"
    },
    "message": {
-    "en": "About 30 minutes. Look at Main Book R6, E4 and E5 again, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。再看一遍主课本 R6、E4 和 E5，然后做一次小测。"
+    "en": "About 30 minutes. Look at Main Book R6, E4 and E5 again, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。再看一遍主课本 R6、E4 和 E5，然后做小测（可以做很多次）。"
    },
    "activities": [
     "hw-fri"
@@ -142,8 +142,8 @@
     "zh": "分数应用题"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book M2 to M4, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。读主课本 M2 到 M4，然后做一次小测。"
+    "en": "About 30 minutes. Read Main Book M2 to M4, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。读主课本 M2 到 M4，然后做小测（可以做很多次）。"
    },
    "activities": [
     "fracquiz",
@@ -182,8 +182,8 @@
     "zh": "一周复习"
    },
    "message": {
-    "en": "About 30 minutes. Look at Main Book R6, E4, E5 and E6 again, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。再看一遍主课本 R6、E4、E5、E6，然后做一次小测。"
+    "en": "About 30 minutes. Look at Main Book R6, E4, E5 and E6 again, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。再看一遍主课本 R6、E4、E5、E6，然后做小测（可以做很多次）。"
    },
    "activities": [
     "hw-mon30"
@@ -227,8 +227,8 @@
    ],
    "kind": "homework",
    "message": {
-    "en": "About 30 minutes. Read Main Book M5, then do the homework ONCE.",
-    "zh": "大约 30 分钟。先读主课本 M5，再做一次作业。"
+    "en": "About 30 minutes. Read Main Book M5, then do the homework. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。先读主课本 M5，再做作业（可以做很多次）。"
    }
   },
   {
@@ -263,8 +263,8 @@
    ],
    "kind": "homework",
    "message": {
-    "en": "About 30 minutes. Read Main Book M5 and M6, then do the homework ONCE.",
-    "zh": "大约 30 分钟。先读主课本 M5、M6，再做一次作业。"
+    "en": "About 30 minutes. Read Main Book M5 and M6, then do the homework. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。先读主课本 M5、M6，再做作业（可以做很多次）。"
    }
   },
   {
@@ -283,8 +283,8 @@
    ],
    "kind": "homework",
    "message": {
-    "en": "About 30 minutes. Read Main Book R6, E4 and E5, then do the homework ONCE.",
-    "zh": "大约 30 分钟。先读主课本 R6、E4、E5，再做一次作业。"
+    "en": "About 30 minutes. Read Main Book R6, E4 and E5, then do the homework. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。先读主课本 R6、E4、E5，再做作业（可以做很多次）。"
    }
   },
   {
@@ -323,8 +323,8 @@
    ],
    "kind": "homework",
    "message": {
-    "en": "About 30 minutes. Read Main Book M5, M6 and M7, then do the homework ONCE.",
-    "zh": "大约 30 分钟。先读主课本 M5、M6、M7，再做一次作业。"
+    "en": "About 30 minutes. Read Main Book M5, M6 and M7, then do the homework. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。先读主课本 M5、M6、M7，再做作业（可以做很多次）。"
    }
   }
  ],
@@ -2120,12 +2120,12 @@
     "zh": "星期一作业：分数乘除法"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Answer every question. You can only submit once. Then check it yourself in 📋 Homework Review.",
-    "zh": "回答每道题。只能提交一次。然后在“📋 作业讲评”里自己检查。"
+    "en": "Answer every question. You can try again as many times as you like. Then look at every answer in 📋 Homework Review.",
+    "zh": "回答每道题。可以做很多次。然后在“📋 作业讲评”里看每道题的答案。"
    },
    "questions": [
     {
@@ -2283,12 +2283,12 @@
     "zh": "星期三作业：-ion 拼写"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Answer every question. You can only submit once. Then check it yourself in 📋 Homework Review.",
-    "zh": "回答每道题。只能提交一次。然后在“📋 作业讲评”里自己检查。"
+    "en": "Answer every question. You can try again as many times as you like. Then look at every answer in 📋 Homework Review.",
+    "zh": "回答每道题。可以做很多次。然后在“📋 作业讲评”里看每道题的答案。"
    },
    "questions": [
     {
@@ -2924,12 +2924,12 @@
     "zh": "星期五作业小测"
    },
    "subtitle": {
-    "en": "12 questions, one try",
-    "zh": "12 道题，只能做一次"
+    "en": "12 questions, try as often as you like",
+    "zh": "12 道题，可以做很多次"
    },
    "intro": {
-    "en": "Read each question twice. You can only submit once. Then check it yourself in 📋 Homework Review.",
-    "zh": "每道题读两遍。只能提交一次。然后在“📋 作业讲评”里自己检查。"
+    "en": "Read each question twice. You can try again as many times as you like. Then look at every answer in 📋 Homework Review.",
+    "zh": "每道题读两遍。可以做很多次。然后在“📋 作业讲评”里看每道题的答案。"
    },
    "questions": [
     {
@@ -3396,12 +3396,12 @@
     "zh": "星期六作业：分数应用题"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look for the key words: \"of\" and \"each day\" mean ×, \"how many in\" and \"share\" mean ÷. One try only.",
-    "zh": "找关键词：of 和“每天”是 ×，“……里有几个”和“平均分”是 ÷。只能做一次。"
+    "en": "Look for the key words: \"of\" and \"each day\" mean ×, \"how many in\" and \"share\" mean ÷. You can try again as many times as you like.",
+    "zh": "找关键词：of 和“每天”是 ×，“……里有几个”和“平均分”是 ÷。可以做很多次。"
    },
    "questions": [
     {
@@ -3557,12 +3557,12 @@
     "zh": "星期一作业：一周复习"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Context clues, joining words, -er and -or, story parts and fractions. One try only.",
-    "zh": "上下文线索、连词、-er 和 -or、故事部分和分数。只能做一次。"
+    "en": "Context clues, joining words, -er and -or, story parts and fractions. You can try again as many times as you like.",
+    "zh": "上下文线索、连词、-er 和 -or、故事部分和分数。可以做很多次。"
    },
    "questions": [
     {
@@ -4339,8 +4339,8 @@
     "zh": "作业：带分数乘法"
    },
    "intro": {
-    "en": "Read Main Book M5 first. Then do this ONCE. No calculator.",
-    "zh": "先读主课本 M5，再做一次。不用计算器。"
+    "en": "Read Main Book M5 first. Then do this. You can try again as many times as you like. No calculator.",
+    "zh": "先读主课本 M5，再做（可以做很多次）。不用计算器。"
    },
    "canNow": {
     "en": "I can now multiply mixed numbers on my own.",
@@ -4470,8 +4470,8 @@
     "zh": "作业：带分数乘除"
    },
    "intro": {
-    "en": "Read Main Book M5 and M6 first. Then do this ONCE. No calculator.",
-    "zh": "先读主课本 M5 和 M6，再做一次。不用计算器。"
+    "en": "Read Main Book M5 and M6 first. Then do this. You can try again as many times as you like. No calculator.",
+    "zh": "先读主课本 M5 和 M6，再做（可以做很多次）。不用计算器。"
    },
    "canNow": {
     "en": "I can now choose × or ÷ and work with mixed numbers.",
@@ -4601,8 +4601,8 @@
     "zh": "作业：英语复习"
    },
    "intro": {
-    "en": "Read Main Book R6, E4 and E5 first. Then do this ONCE.",
-    "zh": "先读主课本 R6、E4 和 E5，再做一次。"
+    "en": "Read Main Book R6, E4 and E5 first. Then do this. You can try again as many times as you like.",
+    "zh": "先读主课本 R6、E4 和 E5，再做（可以做很多次）。"
    },
    "canNow": {
     "en": "I can now use context clues, joining words and -er / -or.",
@@ -4732,8 +4732,8 @@
     "zh": "作业：单位和带分数"
    },
    "intro": {
-    "en": "Read Main Book M7 first. Then do this ONCE. No calculator.",
-    "zh": "先读主课本 M7，再做一次。不用计算器。"
+    "en": "Read Main Book M7 first. Then do this. You can try again as many times as you like. No calculator.",
+    "zh": "先读主课本 M7，再做（可以做很多次）。不用计算器。"
    },
    "canNow": {
     "en": "I can now convert units and use mixed numbers on my own.",

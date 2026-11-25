@@ -41,8 +41,8 @@
     "zh": "科学：土壤、侵蚀和分水岭"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book S1 to S3, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。读主课本 S1 到 S3，然后做一次小测。"
+    "en": "About 30 minutes. Read Main Book S1 to S3, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。读主课本 S1 到 S3，然后做小测（可以做很多次）。"
    },
    "activities": [
     "hw-tue"
@@ -61,8 +61,8 @@
     "zh": "英语：用法词"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book E1, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。读主课本 E1，然后做一次小测。"
+    "en": "About 30 minutes. Read Main Book E1, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。读主课本 E1，然后做小测（可以做很多次）。"
    },
    "activities": [
     "hw-wed"
@@ -79,8 +79,8 @@
     "zh": "科学：岩层和海底"
    },
    "message": {
-    "en": "About 30 minutes. Read Main Book S4 to S6, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。读主课本 S4 到 S6，然后做一次小测。"
+    "en": "About 30 minutes. Read Main Book S4 to S6, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。读主课本 S4 到 S6，然后做小测（可以做很多次）。"
    },
    "activities": [
     "hw-thu"
@@ -123,8 +123,8 @@
     "zh": "方程和校对"
    },
    "message": {
-    "en": "About 30 minutes. Look at Main Book M1, M2 and E2, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。看主课本 M1、M2、E2，然后做一次小测。"
+    "en": "About 30 minutes. Look at Main Book M1, M2 and E2, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。看主课本 M1、M2、E2，然后做小测（可以做很多次）。"
    },
    "activities": [
     "hw-sat"
@@ -143,8 +143,8 @@
     "zh": "地球科学复习"
    },
    "message": {
-    "en": "About 30 minutes. Flip through Main Book S1 to S6, then do the quiz ONCE.",
-    "zh": "大约 30 分钟。翻看主课本 S1 到 S6，然后做一次小测。"
+    "en": "About 30 minutes. Flip through Main Book S1 to S6, then do the quiz. You can try again as many times as you like.",
+    "zh": "大约 30 分钟。翻看主课本 S1 到 S6，然后做小测（可以做很多次）。"
    },
    "activities": [
     "s-cards1",
@@ -1125,8 +1125,8 @@
     "zh": "作业：土壤、侵蚀和分水岭"
    },
    "intro": {
-    "en": "Read Main Book S1 to S3 first. Then do this ONCE.",
-    "zh": "先读主课本 S1 到 S3，再做一次。"
+    "en": "Read Main Book S1 to S3 first. Then do this. You can try again as many times as you like.",
+    "zh": "先读主课本 S1 到 S3，再做（可以做很多次）。"
    },
    "canNow": {
     "en": "I can now answer soil, erosion and divide questions on my own.",
@@ -1284,8 +1284,8 @@
     "zh": "作业：用法词"
    },
    "intro": {
-    "en": "Read Main Book E1 first. Then do this ONCE.",
-    "zh": "先读主课本 E1，再做一次。"
+    "en": "Read Main Book E1 first. Then do this. You can try again as many times as you like.",
+    "zh": "先读主课本 E1，再做（可以做很多次）。"
    },
    "canNow": {
     "en": "I can now choose the correct usage word on my own.",
@@ -1443,8 +1443,8 @@
     "zh": "作业：岩层和海底"
    },
    "intro": {
-    "en": "Read Main Book S4 to S6 first. Then do this ONCE.",
-    "zh": "先读主课本 S4 到 S6，再做一次。"
+    "en": "Read Main Book S4 to S6 first. Then do this. You can try again as many times as you like.",
+    "zh": "先读主课本 S4 到 S6，再做（可以做很多次）。"
    },
    "canNow": {
     "en": "I can now answer rock layer and ocean floor questions on my own.",
@@ -1925,12 +1925,12 @@
     "zh": "星期六作业：方程和校对"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Maths first: undo it, then check. Then the sound-alike words. One try only.",
-    "zh": "先做数学：抵消，再检查。然后做发音相似的词。只能做一次。"
+    "en": "Maths first: undo it, then check. Then the sound-alike words. You can try again as many times as you like.",
+    "zh": "先做数学：抵消，再检查。然后做发音相似的词。可以做很多次。"
    },
    "questions": [
     {
@@ -2089,12 +2089,12 @@
     "zh": "星期天作业：地球科学复习（S1 到 S6）"
    },
    "subtitle": {
-    "en": "10 questions, one try",
-    "zh": "10 道题，只能做一次"
+    "en": "10 questions, try as often as you like",
+    "zh": "10 道题，可以做很多次"
    },
    "intro": {
-    "en": "Look at your Main Book if you need to. One try only.",
-    "zh": "需要的话看主课本。只能做一次。"
+    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
+    "zh": "需要的话看主课本。可以做很多次。"
    },
    "questions": [
     {
