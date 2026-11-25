@@ -2736,7 +2736,7 @@
     if (!u || REMOTE.busy || (!force && Date.now() - REMOTE.at < 60000)) return REMOTE.busy || Promise.resolve(false);
     REMOTE.busy = fetch(u + '&t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.text(); })
       .then(function (t) { var before = JSON.stringify(REMOTE.rows); parseRemote(t); return JSON.stringify(REMOTE.rows) !== before; })
-      .catch(function () { return false; })
+      .catch(function () { var first = !REMOTE.at; REMOTE.at = Date.now(); return first; })
       .then(function (changed) { REMOTE.busy = null; return changed; });
     return REMOTE.busy;
   }
@@ -2785,6 +2785,7 @@
     allDays().then(function (all) {
       var rows = allTries(all);
       clear(body);
+      if (!rows.length && window.SCORE_READ && !REMOTE.at) return add(body, h('div', { class: 'card empty' }, E('⏳ Loading your homework…', '⏳ 正在加载你的作业…')));
       if (!rows.length) return add(body, h('div', { class: 'card empty' }, E('No homework finished yet. When you submit a homework quiz, it shows here (on every device).', '还没有做完的作业。提交作业小测后，会出现在这里（每台设备都能看到）。')));
       add(body, h('div', { class: 'card list' }, rows.map(tryRow)));
     }).catch(renderError);
