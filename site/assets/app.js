@@ -305,15 +305,17 @@
   function paintFrame() {
     if (!NAV) return;
     clear(NAV);
-    var st = S.student, items = [['today', '#/', '🏠', 'Today', '今天'], ['homework', '#/homework', '📝', 'Homework', '作业'],
+    /* Three small groups so the menu is easy to scan: My work, Learn, Extra. */
+    var st = S.student, items = [['g', 'My work', '我的功课'], ['today', '#/', '🏠', 'Today', '今天'], ['homework', '#/homework', '📝', 'Homework', '作业'],
       ['review', '#/review', '📋', 'Homework Review', '作业讲评'], ['class', '#/class', '👩‍🏫', 'Class with Roy', '和 Roy 上课'],
-      ['calendar', '#/calendar', '📅', 'Calendar', '日历'], ['subjects', '#/subject', '🗂️', 'Subjects', '科目']];
+      ['calendar', '#/calendar', '📅', 'Calendar', '日历'], ['g', 'Learn', '学习'], ['subjects', '#/subject', '🗂️', 'Subjects', '科目']];
     if (st.mainBook) items.push(['book', '#/book', '📖', 'Main Book', '主课本']);
     if (st.schoolHomework) items.push(['school', '#/school', '🏫', 'School homework', '学校作业']);
-    items.push(['results', '#/results', '📊', 'My results', '我的成绩']);
     if (st.library) items.push(['library', '#/library', '📚', 'Library', '资料库']);
+    items.push(['g', 'Extra', '更多'], ['results', '#/results', '📊', 'My results', '我的成绩']);
     items.push(['practice', '#/practice', '🎯', 'More practice', '更多练习']);
     items.forEach(function (it) {
+      if (it[0] === 'g') { NAV.appendChild(h('div', { class: 'nav-group' }, it[1] + ' · ' + it[2])); return; }
       NAV.appendChild(h('a', { href: it[1], 'data-nav': it[0], class: S.nav === it[0] ? 'on' : '' }, h('span', { class: 'ni' }, it[2]), E(it[3], it[4])));
     });
     if (S.who) NAV.appendChild(h('button', { class: 'who-chip', onclick: function () { S.who = null; try { localStorage.removeItem(WHO_KEY); } catch (e) {} route(); } },
@@ -509,7 +511,10 @@
     var quizzes = acts.filter(function (a) { return a.type === 'hwquiz'; });
     var practice = acts.filter(function (a) { return a.type !== 'hwquiz'; });
     var link = function (href, label, cls) { return h('a', { class: 'step-link ' + (cls || ''), href: href }, label); };
-    var numbered = function (a, n) { var t = tx(a.title); return (a.icon || ICONS[a.type] || '⭐') + ' ' + (/^\d+\./.test(a.title && a.title.en || a.title || '') ? t : (n + 1) + '. ' + t); };
+    var numbered = function (a, n) {
+      var title = a.title || '', en = typeof title === 'string' ? title : title.en || '';
+      return h('span', null, (a.icon || ICONS[a.type] || '⭐') + ' ' + (/^\d+\./.test(en) ? '' : (n + 1) + '. '), bi(title));
+    };
     var book = (d.book || []).map(function (c) { return link('#/book/' + c, '📖 ' + c); });
     var steps = [];
     if (hw) {
@@ -563,13 +568,26 @@
       var now = all.filter(function (x) { return x.d.date === today; })[0];
       var next = all.filter(function (x) { return x.d.date > today; })[0];
       var out = [];
+      var monday = mondayOf(today);
+      var wkHw = all.filter(function (x) { return mondayOf(x.d.date) === monday && x.s && x.d.kind === 'homework'; });
+      var wkDone = wkHw.filter(function (x) { return x.s.done; }).length;
+      var nextClass = all.filter(function (x) { return x.d.date >= today && x.d.kind !== 'homework'; })[0];
+      if (wkHw.length || nextClass) out.push(h('div', { class: 'card progress-card' },
+        wkHw.length ? h('div', { class: 'pc-item' }, h('div', { class: 'pc-label' }, E('Homework this week', '本周作业')),
+          h('div', { class: 'pc-big' }, wkDone + ' / ' + wkHw.length, h('small', null, ' ' + L('finished', '已完成'))),
+          h('div', { class: 'pc-bar' }, h('div', { style: 'width:' + Math.round(100 * wkDone / wkHw.length) + '%' }))) : null,
+        late.length ? h('div', { class: 'pc-item' }, h('div', { class: 'pc-label' }, E('Late homework', '逾期作业')),
+          h('div', { class: 'pc-big late' }, String(late.length)), h('div', { class: 'small muted' }, L('Do the oldest first', '先做最早的'))) : null,
+        nextClass ? h('div', { class: 'pc-item' }, h('div', { class: 'pc-label' }, E('Next class with Roy', '下次和 Roy 上课')),
+          h('div', { class: 'pc-date' }, dayLabel(nextClass.d.date)), nextClass.d.title ? h('div', { class: 'small muted' }, tx(nextClass.d.title)) : null) : null));
       if (late.length) out.push(h('h2', { class: 'sec' }, E('Finish this first', '先完成这个')), dayPlan(late[0]),
         late.length > 1 ? h('p', { class: 'muted small' }, L('Also not done yet: ', '还没做完的还有：') + late.slice(1).map(function (x) { return dayLabel(x.d.date); }).join(', ')) : null);
       out.push(h('h2', { class: 'sec' }, E('Today', '今天')));
       if (now) out.push(dayPlan(now));
       else out.push(h('div', { class: 'card empty-today' }, E('No homework and no class today. 🎉', '今天没有作业，也没有课。🎉')));
       if (next && !now) out.push(h('h2', { class: 'sec' }, E('Coming next', '接下来')), dayPlan(next));
-      var wk = all.filter(function (x) { return x.w.week === (now || next || all[all.length - 1] || {}).w.week; });
+      var thisMonday = mondayOf(today);
+      var wk = all.filter(function (x) { return mondayOf(x.d.date) === thisMonday; });
       if (wk.length) out.push(h('h2', { class: 'sec' }, E('This week', '本周')), h('div', { class: 'card list' }, wk.map(dayRow)));
       clear(holder); add(holder, out);
     }).catch(function () { clear(holder); holder.appendChild(h('p', null, T('loadError'))); });

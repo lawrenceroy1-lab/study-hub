@@ -449,7 +449,7 @@ h3 { font-size: 1.05em; }
   .brand-dot { width: 34px; height: 34px; }
   .nav { flex-direction: row; gap: 2px; }
   .nav a, .who-chip { white-space: nowrap; padding: 8px 10px; font-size: .88em; }
-  .ez small { display: none; }
+  .nav .ez small { display: none; }
   .who-chip { margin: 0; border: 0; padding-top: 8px; }
   .app > .wrap { padding: 18px 16px 50px; }
 }
@@ -619,3 +619,20 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 .who-name small { color: var(--muted); }
 .who-go { margin-left: auto; font-weight: 800; color: var(--accent); white-space: nowrap; }
 @media (max-width: 480px) { .who-name { flex-wrap: wrap; } .who-go { margin-left: 0; } }
+
+/* ---------- Menu groups (desktop side menu only) ---------- */
+.nav-group { margin: 14px 12px 4px; font-size: .7em; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.nav-group:first-child { margin-top: 4px; }
+@media (max-width: 899px) { .nav-group { display: none; } }
+
+/* ---------- Week progress on Today ---------- */
+.progress-card { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 14px 18px; }
+.pc-label { font-size: .78em; font-weight: 700; color: var(--muted); margin-bottom: 4px; }
+.pc-label .ez small { display: inline; margin-left: 6px; }
+.pc-big { font-size: 1.9em; font-weight: 800; color: var(--title); line-height: 1.1; }
+.pc-big small { font-size: .45em; font-weight: 600; color: var(--muted); }
+.pc-big.late { color: #e03131; }
+.pc-date { font-size: 1.05em; font-weight: 800; color: var(--title); }
+.pc-bar { height: 8px; border-radius: 99px; background: var(--line); margin-top: 8px; overflow: hidden; }
+.pc-bar > div { height: 100%; background: var(--accent); border-radius: 99px; }
+@media (max-width: 600px) { .progress-card .pc-item:last-child:nth-child(3) { grid-column: 1 / -1; } .pc-big { font-size: 1.6em; } }
