@@ -7,3 +7,7 @@ window.SCORE_FORM = {
   entry: 'entry.1077997005'
 };
 window.SCORE_URL = '';
+
+/* Where the site reads scores back (the same Google Sheet, shared "anyone with the link can view"),
+   so Homework Review shows every try on every device. 25 Nov 2026 */
+window.SCORE_READ = 'https://docs.google.com/spreadsheets/d/1oklMgA6bU11A9qDMghazLsHcHh89o74bjbSSlLOX6bQ/gviz/tq?tqx=out:csv&sheet=Form%20Responses%201';

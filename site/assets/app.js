@@ -202,14 +202,15 @@
     log.unshift({ time: localTime(), who: whoName(), week: week, activity: activity, score: score, total: total,
       seconds: Math.round(seconds || 0), wrong: wrongItems || null, missed: wrongItems ? null : (missed || []) });
     lsSet(key('results'), log.slice(0, 300));
-    var q = lsGet(QKEY, []);
+    var q = lsGet(QKEY, []), rid = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
     q.push({
-      id: Date.now().toString(36) + Math.random().toString(36).slice(2, 7),
+      id: rid,
       time: localTime(), student: S.who === 'roy' ? TEACHER_NAME + ' (on ' + S.student.name + "'s page)" : S.student.name, week: week, activity: activity,
       score: score, total: total, seconds: Math.round(seconds || 0), missed: (missed || []).join(', ')
     });
     lsSet(QKEY, q);
     flush();
+    return rid;
   }
   var flushing = false;
   /* Google Form method: each score becomes one form answer, fields separated by tabs. */
@@ -1622,12 +1623,14 @@
       if (left && !confirm(L(left + ' question(s) have no answer. Submit anyway?', '还有 ' + left + ' 题没答。确定提交吗？'))) return;
       stopClock();
       var t = makeTry(a, st, localTime());
-      tries.push(t); lsSet(K.tries, tries);
       st = null; lsSet(K.draft, null);
       var detail = qs.map(function (q, n) { return 'Q' + (n + 1) + ':' + (t.ans[n] == null ? '-' : String.fromCharCode(65 + t.ans[n])) + (t.ans[n] === q.answer ? 'ok' : 'x') + ' ' + (t.time[n] || 0) + 's'; });
       detail.unshift('try ' + tries.length);
       if (t.backs) detail.push('went back ' + t.backs + 'x');
-      record('Homework: ' + ctx.en, ctx.week, t.right, t.total, t.secs, detail, hwWrong(a, t));
+      detail.push('aid:' + a.id);
+      t.id = record('Homework: ' + ctx.en, ctx.week, t.right, t.total, t.secs, detail, hwWrong(a, t));
+      var mine = lsGet(K.tries, []); mine.push(t); lsSet(K.tries, mine);
+      tries = hwTries(ctx.week, a);
       done(t);
     }
     function done(t) {
@@ -2672,7 +2675,7 @@
     return { when: when || '', ans: ans, time: time, secs: secs, right: right, total: qs.length, backs: st.backs || 0 };
   }
   /* Older one-try homework (saved before 25 Nov) becomes try 1; an unfinished one becomes the current try. */
-  function hwTries(week, a) {
+  function localTries(week, a) {
     var k = hwKeys(week, a.id), tries = lsGet(k.tries, null);
     if (tries) return tries;
     var old = lsGet(k.old, null);
@@ -2681,6 +2684,69 @@
     else if (old && Object.keys(old.ans || {}).length && !lsGet(k.draft, null)) lsSet(k.draft, { ans: old.ans, time: old.time || {}, backs: old.backs || 0 });
     lsSet(k.tries, tries);
     return tries;
+  }
+  /* Tries from this device plus every try saved in the score sheet (from any device), oldest first. */
+  function hwTries(week, a) {
+    var mine = localTries(week, a), title = 'Homework: ' + (typeof a.title === 'string' ? a.title : (a.title || {}).en);
+    var far = (REMOTE.rows[week + '|id:' + a.id] || []).concat(REMOTE.rows[week + '|t:' + title] || []);
+    if (!far.length) return mine;
+    var seen = {}, out = [];
+    function sig(t) { return [t.when, t.right, t.total, t.secs].join('|'); }
+    mine.concat(far).forEach(function (t) {
+      if ((t.id && seen['i' + t.id]) || seen['s' + sig(t)]) return;
+      if (t.id) seen['i' + t.id] = 1; seen['s' + sig(t)] = 1; out.push(t);
+    });
+    out.sort(function (p, q) { return String(p.when) < String(q.when) ? -1 : String(p.when) > String(q.when) ? 1 : 0; });
+    return out;
+  }
+  /* ---- Homework from the score sheet (25 Nov 2026), so Roy and the student see every try on any device ---- */
+  var REMOTE = { rows: {}, at: 0, busy: null };
+  function csvRows(text) {
+    var rows = [], row = [], f = '', q = false;
+    for (var i = 0; i < text.length; i++) {
+      var c = text[i];
+      if (q) { if (c === '"') { if (text[i + 1] === '"') { f += '"'; i++; } else q = false; } else f += c; }
+      else if (c === '"') q = true;
+      else if (c === ',') { row.push(f); f = ''; }
+      else if (c === '\n') { row.push(f); rows.push(row); row = []; f = ''; }
+      else if (c !== '\r') f += c;
+    }
+    if (f || row.length) { row.push(f); rows.push(row); }
+    return rows;
+  }
+  function parseRemote(text) {
+    var out = {};
+    csvRows(text).forEach(function (r) {
+      var c = String(r[1] || '').split('\t');
+      if (c.length < 8 || c[1] !== S.student.name || !/^Homework: /.test(c[3])) return;
+      var t = { when: c[0], right: +c[4], total: +c[5], secs: +c[6], ans: {}, time: {}, backs: 0, id: c[8] || '', remote: true }, aid = '';
+      String(c[7] || '').split(', ').forEach(function (bit) {
+        var m = /^Q(\d+):([A-Z-])(ok|x) (\d+)s$/.exec(bit);
+        if (m) { var n = +m[1] - 1; if (m[2] !== '-') t.ans[n] = m[2].charCodeAt(0) - 65; t.time[n] = +m[4]; return; }
+        m = /^went back (\d+)x$/.exec(bit); if (m) { t.backs = +m[1]; return; }
+        m = /^aid:(.+)$/.exec(bit); if (m) aid = m[1];
+      });
+      var k = c[2] + (aid ? '|id:' + aid : '|t:' + c[3]);
+      (out[k] = out[k] || []).push(t);
+    });
+    REMOTE.rows = out; REMOTE.at = Date.now();
+  }
+  function loadRemote(force) {
+    var u = window.SCORE_READ;
+    if (!u || REMOTE.busy || (!force && Date.now() - REMOTE.at < 60000)) return REMOTE.busy || Promise.resolve(false);
+    REMOTE.busy = fetch(u + '&t=' + Date.now(), { cache: 'no-store' }).then(function (r) { return r.text(); })
+      .then(function (t) { var before = JSON.stringify(REMOTE.rows); parseRemote(t); return JSON.stringify(REMOTE.rows) !== before; })
+      .catch(function () { return false; })
+      .then(function (changed) { REMOTE.busy = null; return changed; });
+    return REMOTE.busy;
+  }
+  /* After new tries arrive, redraw lists (never in the middle of an activity). */
+  function refreshRemote(force) {
+    loadRemote(force).then(function (changed) {
+      if (!changed) return;
+      var p = location.hash.replace(/^#\/?/, '').split('/')[0];
+      if (['', 'today', 'homework', 'calendar', 'review', 'subject'].indexOf(p) >= 0) route();
+    });
   }
   function tryHref(week, id, n) { return '#/review/' + week + '/' + id + '/' + n; }
   function niceWhen(s) {
@@ -2711,7 +2777,7 @@
           h('small', { class: 'muted' }, '🕒 ' + niceWhen(r.t.when) + '   ⏱️ ' + fmtTime(r.t.secs)))));
   }
   function renderTryList() {
-    S.nav = 'review'; setNav('review');
+    S.nav = 'review'; setNav('review'); refreshRemote();
     var body = h('div', null, h('p', { class: 'muted' }, '…'));
     show(h('div', { class: 'page-head' }, h('h1', null, E('📋 Homework Review', '📋 作业讲评')),
       h('p', { class: 'muted' }, E('Every homework you finished, newest first, with the time you finished it and how long it took. Tap one to see every question, your answer and the right answer.',
@@ -2719,7 +2785,7 @@
     allDays().then(function (all) {
       var rows = allTries(all);
       clear(body);
-      if (!rows.length) return add(body, h('div', { class: 'card empty' }, E('No homework finished on this device yet. When you submit a homework quiz, it shows here.', '这台设备上还没有做完的作业。提交作业小测后，会出现在这里。')));
+      if (!rows.length) return add(body, h('div', { class: 'card empty' }, E('No homework finished yet. When you submit a homework quiz, it shows here (on every device).', '还没有做完的作业。提交作业小测后，会出现在这里（每台设备都能看到）。')));
       add(body, h('div', { class: 'card list' }, rows.map(tryRow)));
     }).catch(renderError);
   }
@@ -2913,6 +2979,7 @@
     window.addEventListener('hashchange', function () { S.relang = null; route(); });
     route();
     flush();
+    refreshRemote(true);
   }).catch(function () {
     document.body.appendChild(h('div', { class: 'wrap empty' }, 'Sorry, this page could not load. Check your internet and try again.'));
   });
