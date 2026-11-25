@@ -314,7 +314,7 @@
     if (st.schoolHomework) items.push(['school', '#/school', '🏫', 'School homework', '学校作业']);
     if (st.library) items.push(['library', '#/library', '📚', 'Library', '资料库']);
     items.push(['g', 'Extra', '更多'], ['results', '#/results', '📊', 'My results', '我的成绩']);
-    items.push(['practice', '#/practice', '🎯', 'More practice', '更多练习']);
+    items.push(['practice', '#/practice', '🎯', 'More practice', '更多练习'], ['drawings', '#/drawings', '🎨', 'My drawings', '我的画']);
     items.forEach(function (it) {
       if (it[0] === 'g') { NAV.appendChild(h('div', { class: 'nav-group' }, it[1] + ' · ' + it[2])); return; }
       NAV.appendChild(h('a', { href: it[1], 'data-nav': it[0], class: S.nav === it[0] ? 'on' : '' }, h('span', { class: 'ni' }, it[2]), E(it[3], it[4])));
@@ -398,6 +398,7 @@
     if (parts[0] === 'subject') return parts[1] ? renderSubject(parts[1], parts[2] || 'overview') : renderSubjects();
     if (parts[0] === 'school') return renderSchool(parts[1]);
     if (parts[0] === 'library') return renderLibrary();
+    if (parts[0] === 'drawings') return renderDrawings();
     if (parts[0] === 'tables') return renderTables();
     if (parts[0] === 'bank') return renderBank(parts[1]);
     renderToday();
@@ -2003,7 +2004,53 @@
       h('div', { class: 'box q' }, bi(q.q, true)), h('div', { class: 'answers two' }, btns), fb);
   }
   /* ✏️ Drawing pad for Apple Pencil, finger or mouse. Saved on this device. The book picture stays hidden until she has tried. */
-  function drawPad(store, d, example) {
+  /* ---------- Saved drawings: kept on this device, shown in 🎨 My drawings, can be sent to Roy ---------- */
+  var DRAW_MAX = 40;
+  function drawings() { var v = lsGet(key('drawings'), []); return Array.isArray(v) ? v : []; }
+  function dataUrlToFile(url, name) {
+    var p = url.split(','), bin = atob(p[1]), arr = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
+    return new File([arr], name, { type: 'image/jpeg' });
+  }
+  function drawingName(dr) { return (whoName() + ' ' + dr.title + ' ' + dr.when).replace(/[^\w\- ]+/g, '').replace(/\s+/g, '-').slice(0, 80) + '.jpg'; }
+  /* Send to Roy: the iPad/phone share sheet (LINE, Messages...), else a download. */
+  function sendDrawing(dr) {
+    var name = drawingName(dr);
+    try {
+      var file = dataUrlToFile(dr.img, name);
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        return navigator.share({ files: [file], title: dr.title, text: whoName() + ': ' + dr.title }).catch(function () {});
+      }
+    } catch (e) {}
+    var a = h('a', { href: dr.img, download: name }); document.body.appendChild(a); a.click(); a.remove();
+  }
+  function saveDrawing(cv, title) {
+    var img;
+    try { img = cv.toDataURL('image/jpeg', 0.75); } catch (e) { return null; }
+    var list = drawings(), d = new Date();
+    var dr = { id: Date.now().toString(36), title: title || L('Drawing', '画'), when: localTime(), img: img };
+    list.unshift(dr);
+    while (list.length > DRAW_MAX) list.pop();
+    lsSet(key('drawings'), list);
+    if (drawings()[0] && drawings()[0].id === dr.id) return dr;
+    list.length = Math.max(1, Math.floor(list.length / 2)); lsSet(key('drawings'), list);   /* device storage full: keep the newest */
+    return drawings()[0] && drawings()[0].id === dr.id ? dr : null;
+  }
+  function renderDrawings() {
+    var list = drawings();
+    show(h('div', { class: 'page-head' }, h('h1', null, '🎨 ' + L('My drawings', '我的画')),
+        h('p', { class: 'muted' }, E('Drawings you saved on this device, newest first. Tap Send to Roy to share one.', '在这台设备上保存的画，最新的在上面。点“发给 Roy”分享。'))),
+      list.length ? h('div', { class: 'draw-gallery' }, list.map(function (dr) {
+        return h('div', { class: 'card draw-card' }, h('img', { src: dr.img, alt: dr.title }),
+          h('div', { class: 'draw-meta' }, h('b', null, dr.title), h('div', { class: 'small muted' }, dr.when)),
+          h('div', { class: 'row' }, h('button', { class: 'btn', onclick: function () { sendDrawing(dr); } }, '📤 ' + L('Send to Roy', '发给 Roy')),
+            h('button', { class: 'btn ghost', onclick: function () {
+              if (!confirm(L('Delete this drawing?', '删除这幅画吗？'))) return;
+              lsSet(key('drawings'), drawings().filter(function (x) { return x.id !== dr.id; })); renderDrawings();
+            } }, '🗑️ ' + L('Delete', '删除'))));
+      })) : h('div', { class: 'card empty-today' }, E('No saved drawings yet. Find a "✏️ Draw it" page in the Main Book, draw, then tap 💾 Save.', '还没有保存的画。在主课本里找“✏️ 画一画”页，画完点 💾 保存。')));
+  }
+  function drawPad(store, d, example, title) {
     var W = 1000, Hh = 680, strokes = lsGet(store, null), color = '#212529', size = 6, erasing = false, cur = null;
     if (!Array.isArray(strokes)) strokes = [];
     var cv = h('canvas', { class: 'drawpad', width: W, height: Hh, 'aria-label': 'drawing area' });
@@ -2043,7 +2090,16 @@
       h('div', { class: 'box q' }, bi(d.prompt, true)),
       d.labels ? h('div', { class: 'box hint' }, h('b', null, '🏷️ ' + L('Labels to write: ', '要写的标签：')), d.labels.join('  ·  ')) : null,
       swatches, cv,
-      h('div', { class: 'small muted' }, L('Your drawing is saved on this iPad. Show it to Roy!', '你的画保存在这台 iPad 上，给 Roy 老师看看！')),
+      h('div', { class: 'row center draw-actions' },
+        h('button', { class: 'btn green', onclick: function () {
+          var dr = saveDrawing(cv, title);
+          if (!dr) { alert(L('Could not save. Try deleting old drawings in My drawings.', '保存失败。请在“我的画”里删掉旧的画再试。')); return; }
+          this.textContent = '✅ ' + L('Saved in My drawings', '已保存到“我的画”');
+          var b = this; setTimeout(function () { b.textContent = '💾 ' + L('Save', '保存'); }, 2500);
+        } }, '💾 ' + L('Save', '保存')),
+        h('button', { class: 'btn blue', onclick: function () { var dr = saveDrawing(cv, title); if (dr) sendDrawing(dr); } }, '📤 ' + L('Send to Roy', '发给 Roy')),
+        h('a', { class: 'btn ghost', href: '#/drawings' }, '🎨 ' + L('My drawings', '我的画'))),
+      h('div', { class: 'small muted' }, L('Tap 💾 Save when you finish. Your drawings stay in 🎨 My drawings.', '画完点 💾 保存。你的画会留在“🎨 我的画”里。')),
       ex ? h('div', { class: 'row center' }, h('button', { class: 'btn blue', onclick: function () { ex.classList.toggle('hidden'); } }, '👀 ' + L('Compare with the book picture', '和课本图比一比'))) : null, ex);
   }
   ACT.lesson = function (a, ctx, area) {
@@ -2058,7 +2114,7 @@
       var i = st.i, s = slides[i];
       var dots = h('div', { class: 'dots' }, slides.map(function (_, k) { return h('button', { class: 'dot' + (k === i ? ' on' : k < i ? ' done' : ''), 'aria-label': 'Page ' + (k + 1), onclick: function () { go(k); } }); }));
       var vis = s.visual && VIS[s.visual.type] ? h('div', { class: 'vis' }, VIS[s.visual.type](s.visual)) : null;
-      var pad = s.draw ? drawPad(key('draw_' + (ctx.en || ctx.week) + '_' + i), s.draw, vis) : null;
+      var pad = s.draw ? drawPad(key('draw_' + (ctx.en || ctx.week) + '_' + i), s.draw, vis, (ctx.en ? ctx.en.replace(/^Main Book /, '') + ': ' : '') + tx(s.title)) : null;
       if (pad) vis = null;
       var sayText = [tx({ en: s.title.en || s.title })].concat((s.points || []).map(function (p) { return p.en || p; })).join('. ');
       /* the page list: on the right on big screens, a slide-out panel on iPad and phone */

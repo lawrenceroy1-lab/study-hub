@@ -636,3 +636,10 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 .pc-bar { height: 8px; border-radius: 99px; background: var(--line); margin-top: 8px; overflow: hidden; }
 .pc-bar > div { height: 100%; background: var(--accent); border-radius: 99px; }
 @media (max-width: 600px) { .progress-card .pc-item:last-child:nth-child(3) { grid-column: 1 / -1; } .pc-big { font-size: 1.6em; } }
+
+/* ---------- Saved drawings ---------- */
+.draw-actions { margin-top: 10px; gap: 8px; flex-wrap: wrap; }
+.draw-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.draw-card img { width: 100%; border-radius: 10px; border: 1px solid var(--line); background: #fff; display: block; }
+.draw-meta { margin: 8px 0; }
+.draw-card .row { gap: 8px; flex-wrap: wrap; }

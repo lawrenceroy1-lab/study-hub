@@ -366,6 +366,63 @@
        "zh": "例子：Daisy felt proud. Emma felt jealous. The teacher was delighted."
       }
      ]
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: three kinds of narrator",
+      "zh": "画一画：三种叙述者"
+     },
+     "points": [
+      {
+       "en": "Draw 3 boxes. In each box, draw the same 3 friends at a K-pop concert.",
+       "zh": "画 3 个方框，每个方框里画同样的 3 个朋友在看 K-pop 演唱会。"
+      },
+      {
+       "en": "Box 1, objective: draw a big camera. No thought bubbles.",
+       "zh": "第 1 框，客观：画一个大摄像机，没有想法泡泡。"
+      },
+      {
+       "en": "Box 2, limited: ONE thought bubble over ONE friend.",
+       "zh": "第 2 框，有限：只有一个朋友头上有想法泡泡。"
+      },
+      {
+       "en": "Box 3, omniscient: a thought bubble over EVERY friend.",
+       "zh": "第 3 框，全知：每个朋友头上都有想法泡泡。"
+      }
+     ],
+     "draw": {
+      "prompt": {
+       "en": "Draw objective, limited and omniscient as 3 pictures. Label each one.",
+       "zh": "把客观、有限、全知画成 3 幅图，并写上标签。"
+      },
+      "labels": [
+       "objective (camera)",
+       "limited (one mind)",
+       "omniscient (every mind)",
+       "thought bubble"
+      ]
+     },
+     "visual": {
+      "type": "flow",
+      "steps": [
+       {
+        "icon": "📷",
+        "en": "nobody's: objective",
+        "zh": "没有人：客观"
+       },
+       {
+        "icon": "1️⃣",
+        "en": "one person's: limited",
+        "zh": "一个人：有限"
+       },
+       {
+        "icon": "🌍",
+        "en": "everyone's: omniscient",
+        "zh": "所有人：全知"
+       }
+      ]
+     }
     }
    ],
    "canNow": {
@@ -852,6 +909,38 @@
        }
       ]
      }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: a word from its clue",
+      "zh": "画一画：从线索猜出的词"
+     },
+     "points": [
+      {
+       "en": "Read: \"After swimming, Lily was FAMISHED, which means very hungry.\"",
+       "zh": "读：“After swimming, Lily was FAMISHED, which means very hungry.”"
+      },
+      {
+       "en": "Draw Lily after swimming, eating a huge bowl of noodles.",
+       "zh": "画 Lily 游完泳，吃一大碗面。"
+      },
+      {
+       "en": "Write the word FAMISHED and its meaning. Circle the clue words: which means.",
+       "zh": "写上 FAMISHED 和它的意思，圈出线索词 which means。"
+      }
+     ],
+     "draw": {
+      "prompt": {
+       "en": "Draw the meaning of FAMISHED and write the clue words.",
+       "zh": "画出 FAMISHED 的意思，写上线索词。"
+      },
+      "labels": [
+       "famished",
+       "very hungry",
+       "clue: which means"
+      ]
+     }
     }
    ],
    "canNow": {
@@ -1037,6 +1126,50 @@
       "why": {
        "en": "Top × top: 1 × 1 = 1. Bottom × bottom: 2 × 3 = 6. So 1/6.",
        "zh": "分子乘分子：1 × 1 = 1；分母乘分母：2 × 3 = 6。所以是 1/6。"
+      }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: 1/2 × 1/3",
+      "zh": "画一画：1/2 × 1/3"
+     },
+     "points": [
+      {
+       "en": "Draw a rectangle. Split it into 3 equal columns and shade 1 column: that is 1/3.",
+       "zh": "画一个长方形，竖着分成 3 等份，涂 1 份：这是 1/3。"
+      },
+      {
+       "en": "Now split it into 2 equal rows and shade the top row in another colour: that is 1/2 of it.",
+       "zh": "再横着分成 2 等份，用另一种颜色涂上面一行：这是它的 1/2。"
+      },
+      {
+       "en": "Count the small boxes: 6 in all. The box shaded twice is 1 of 6, so 1/2 × 1/3 = 1/6.",
+       "zh": "数小格：一共 6 格。涂了两次的格是 6 格中的 1 格，所以 1/2 × 1/3 = 1/6。"
+      }
+     ],
+     "draw": {
+      "prompt": {
+       "en": "Draw 1/2 × 1/3 with a shaded rectangle and write the answer.",
+       "zh": "用涂色的长方形画出 1/2 × 1/3，写出答案。"
+      },
+      "labels": [
+       "1/3",
+       "1/2",
+       "6 small boxes",
+       "1/2 × 1/3 = 1/6"
+      ]
+     },
+     "visual": {
+      "type": "formula",
+      "main": {
+       "en": "2/3 × 3/4 = 6/12 = 1/2",
+       "zh": "2/3 × 3/4 = 6/12 = 1/2"
+      },
+      "example": {
+       "en": "top × top, bottom × bottom, simplify",
+       "zh": "分子乘分子，分母乘分母，约分"
       }
      }
     },
@@ -2858,6 +2991,53 @@
        "en": "It is an idiom. It is about taking a risk, not about real trees.",
        "zh": "这是习语，意思是冒险，不是真的爬树。"
       }
+     }
+    },
+    {
+     "icon": "✏️",
+     "title": {
+      "en": "Draw it: go out on a limb",
+      "zh": "画一画：go out on a limb"
+     },
+     "points": [
+      {
+       "en": "Draw a big tree. Draw a person climbing far out on a thin branch (a limb).",
+       "zh": "画一棵大树，画一个人爬到一根细树枝（limb）的末端。"
+      },
+      {
+       "en": "Give the person a speech bubble with a brave idea that others may not agree with.",
+       "zh": "给这个人画一个说话泡泡，写一个别人可能不同意的大胆想法。"
+      },
+      {
+       "en": "Write under it: go out on a limb = take a risk.",
+       "zh": "在下面写：go out on a limb = 冒险。"
+      }
+     ],
+     "draw": {
+      "prompt": {
+       "en": "Draw the idiom \"go out on a limb\" and write what it means.",
+       "zh": "画出习语 go out on a limb，并写出它的意思。"
+      },
+      "labels": [
+       "limb (branch)",
+       "risk",
+       "go out on a limb = take a risk"
+      ]
+     },
+     "visual": {
+      "type": "emoji",
+      "items": [
+       {
+        "icon": "🌳",
+        "en": "limb = big branch",
+        "zh": "limb = 大树枝"
+       },
+       {
+        "icon": "😬",
+        "en": "might break = a risk",
+        "zh": "可能会断 = 有风险"
+       }
+      ]
      }
     }
    ],
