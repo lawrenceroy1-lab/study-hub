@@ -4089,16 +4089,16 @@
      },
      "points": [
       {
-       "en": "\"at least 12\" → ≥ 12 (12 or more).  \"at most 30\" → ≤ 30 (30 or less).",
-       "zh": "“至少 12” → ≥ 12（12 或更多）；“最多 30” → ≤ 30（30 或更少）。"
+       "en": "Use a letter for the unknown number. x is at least 12 → x ≥ 12 (12 or more).  x is at most 30 → x ≤ 30 (30 or less).",
+       "zh": "用字母表示未知的数。x 至少是 12 → x ≥ 12（12 或更多）。x 最多是 30 → x ≤ 30（30 或更少）。"
       },
       {
-       "en": "\"more than 5\" → > 5.  \"fewer than 10\" → < 10.",
-       "zh": "“多于 5” → > 5；“少于 10” → < 10。"
+       "en": "x is more than 5 → x > 5 (6, 7, 8... but NOT 5).  x is fewer than 10 → x < 10 (9, 8, 7... but NOT 10).",
+       "zh": "x 大于 5 → x > 5（6、7、8……但不包括 5）。x 少于 10 → x < 10（9、8、7……但不包括 10）。"
       },
       {
-       "en": "Example: you must be at least 12 years old to ride: a ≥ 12.",
-       "zh": "例子：至少 12 岁才能坐：a ≥ 12。"
+       "en": "Example: you must be at least 12 years old to ride. Age a ≥ 12.",
+       "zh": "例子：至少 12 岁才能坐。年龄 a ≥ 12。"
       }
      ],
      "quick": {
@@ -4128,33 +4128,33 @@
      },
      "points": [
       {
-       "en": "An inequality has MANY solutions. Any number that makes it true is a solution.",
-       "zh": "不等式有很多解。任何让它成立的数都是解。"
+       "en": "An inequality has MANY answers. Any number that makes it true is a solution.",
+       "zh": "不等式有很多个答案。让它成立的任何数都是解。"
       },
       {
-       "en": "x > 3: 4, 5, 10 and 3.5 are solutions. 3 is NOT (3 is not greater than 3).",
-       "zh": "x > 3：4、5、10 和 3.5 都是解。3 不是（3 不大于 3）。"
+       "en": "x > 3 means \"x is MORE than 3\". So 4, 5, 10 and 3.5 are solutions. 3 is NOT, because 3 is the same as 3, not more.",
+       "zh": "x > 3 的意思是“x 比 3 大”。所以 4、5、10 和 3.5 都是解。3 不是，因为 3 和 3 一样大，不是更大。"
       },
       {
-       "en": "x ≥ 3: now 3 IS a solution too.",
-       "zh": "x ≥ 3：现在 3 也是解。"
+       "en": "x ≥ 3 means \"x is 3 OR more\". Now 3 IS a solution too.",
+       "zh": "x ≥ 3 的意思是“x 是 3 或更大”。这时 3 也是解。"
       }
      ],
      "quick": {
-      "q": "Is 3 a solution of x > 3?",
+      "q": "x > 3 means \"x is more than 3\". Which number is a solution?",
       "options": [
-       "Yes",
-       "No"
+       "3",
+       "4"
       ],
       "answer": 1,
       "why": {
-       "en": "x > 3 means x must be GREATER than 3. 3 is equal to 3, not greater, so 3 > 3 is false. (With ≥ it would be a solution.)",
-       "zh": "x > 3 表示 x 必须大于 3。3 等于 3，不是大于，所以 3 > 3 不成立。（如果是 ≥ 就是解。）"
+       "en": "4 is more than 3, so 4 > 3 is true. 3 is the same as 3, not more, so 3 is NOT a solution of x > 3.",
+       "zh": "4 比 3 大，所以 4 > 3 成立。3 和 3 一样大，不是更大，所以 3 不是 x > 3 的解。"
       },
       "wrong": {
-       "Yes": {
-        "en": "3 > 3 is false: a number is never greater than itself. > has no \"equal\" line.",
-        "zh": "3 > 3 不成立：一个数不会大于它自己。> 没有“等于”线。"
+       "3": {
+        "en": "3 is EQUAL to 3, not more than 3. The > sign has no equal line, so 3 is not included. (For x ≥ 3, 3 would be a solution.)",
+        "zh": "3 等于 3，不是大于 3。> 没有等于线，所以不包括 3。（如果是 x ≥ 3，3 就是解。）"
        }
       }
      }

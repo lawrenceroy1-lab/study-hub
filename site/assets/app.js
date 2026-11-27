@@ -270,7 +270,7 @@
         hwIds: hw.map(function (a) { return a.id; }),
         pages: hw.map(function (a) {
           return { title: a.title, items: a.questions.map(function (q) {
-            return { q: q.q, context: q.context, options: q.options, answer: q.answer, right: q.options[q.answer], why: q.why, wrong: q.wrong };
+            return { q: q.q, qzh: q.qzh, ozh: q.ozh, context: q.context, options: q.options, answer: q.answer, right: q.options[q.answer], why: q.why, wrong: q.wrong };
           }) };
         }) });
     });
@@ -453,6 +453,9 @@
   }
 
   /* ---------------- shared pieces ---------------- */
+  /* Chinese under every question and option (q.qzh, q.ozh = {"option text": "中文"}). */
+  function QT(q) { return h('span', null, rich(String(q.q)), q.qzh && dual() ? h('span', { class: 'zh-sub', lang: 'zh' }, rich(String(q.qzh))) : null); }
+  function OT(q, o) { var z = q.ozh && q.ozh[o]; return h('span', null, rich(String(o)), z && dual() ? h('span', { class: 'zh-sub', lang: 'zh' }, z) : null); }
   /* Every answer explains itself: why the right answer is right, and (when the child picked another) why that one is wrong.
      q.wrong is {"option text": {en, zh}}. */
   function optLabel(o) { o = String(o == null ? '' : o).replace(/[*_`]/g, ''); return o.length <= 32 ? '\u201c' + o + '\u201d' : null; }
@@ -470,7 +473,7 @@
     var out = [];
     (a.questions || []).forEach(function (q, n) {
       var p = st.ans[n];
-      if (p !== q.answer) out.push({ q: q.q, your: p == null ? null : q.options[p], right: q.options[q.answer], why: q.why, wrongWhy: p == null || !q.wrong ? undefined : q.wrong[q.options[p]] });
+      if (p !== q.answer) out.push({ q: q.q, qzh: q.qzh, ozh: q.ozh, your: p == null ? null : q.options[p], right: q.options[q.answer], why: q.why, wrongWhy: p == null || !q.wrong ? undefined : q.wrong[q.options[p]] });
     });
     return out;
   }
@@ -479,9 +482,9 @@
     return h('div', { class: 'wrong-list' }, h('h3', null, E('Questions to look at again (' + items.length + ')', '要再看一遍的题（' + items.length + '）')),
       items.map(function (x, n) {
         return h('div', { class: 'wrong-item' },
-          h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), rich(String(x.q))),
-          h('div', { class: 'wa bad' }, h('small', null, L('Your answer', '你的答案')), x.your == null ? L('(no answer)', '（没有作答）') : rich(String(x.your))),
-          h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), rich(String(x.right))),
+          h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), QT(x)),
+          h('div', { class: 'wa bad' }, h('small', null, L('Your answer', '你的答案')), x.your == null ? L('(no answer)', '（没有作答）') : OT(x, x.your)),
+          h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), OT(x, x.right)),
           whyBox(x, x.your));
       }));
   }
@@ -559,9 +562,9 @@
           if (t.href) body = h('div', { class: 'ct-body' }, h('a', { class: 'step-link go', href: t.href }, '📋 ' + L('See every question and answer', '看每道题和答案')));
           else if (t.wrong && t.wrong.length) body = h('div', { class: 'ct-body' }, t.wrong.map(function (x, n) {
             return h('div', { class: 'wrong-item' },
-              h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), rich(String(x.q))),
-              h('div', { class: 'wa bad' }, h('small', null, L('Her answer', '她的答案')), x.your == null ? L('(no answer)', '（没有作答）') : rich(String(x.your))),
-              h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), rich(String(x.right))),
+              h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), QT(x)),
+              h('div', { class: 'wa bad' }, h('small', null, L('Her answer', '她的答案')), x.your == null ? L('(no answer)', '（没有作答）') : OT(x, x.your)),
+              h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), OT(x, x.right)),
               whyBox(x, x.your));
           }));
           else if (t.missedText) body = h('div', { class: 'ct-body' }, h('div', { class: 'small muted' }, L('Questions she got wrong:', '她做错的题：')),
@@ -1144,7 +1147,7 @@
       var fb = h('div', { 'aria-live': 'polite' });
       var btns = order.map(function (oi, k) {
         return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { choose(k); } },
-          h('span', { class: 'shape', 'aria-hidden': 'true' }, SHAPES[k % 4]), h('span', null, rich(q.options[oi])));
+          h('span', { class: 'shape', 'aria-hidden': 'true' }, SHAPES[k % 4]), h('span', null, OT(q, q.options[oi])));
       });
       add(area, h('div', { class: 'card' },
         numStrip(st.qs.length, i, function (k) { return st.ans[k] == null ? '' : st.ans[k] === st.order[k].indexOf(st.qs[k].answer) ? 'ok' : 'bad'; }, go),
@@ -1153,7 +1156,7 @@
           timed && st.streak > 1 ? h('span', null, '🔥 ' + T('streak') + ' ' + st.streak) : null),
         timed ? bar : h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * Object.keys(st.ans).length / st.qs.length) + '%' })),
         q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
-        h('div', { class: 'box q' }, rich(q.q)),
+        h('div', { class: 'box q' }, QT(q)),
         h('div', { class: 'answers' }, btns), fb));
       if (st.ans[i] != null) return result(st.ans[i]);
       st.qStart = Date.now();
@@ -1183,7 +1186,7 @@
         var left = nextFree(st.qs.length, i, function (n) { return st.ans[n] != null; });
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
           h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() + (gained ? '  +' + gained : '') : (k < 0 ? '⏰ ' + T('timeUp') + ' ' : '') + T('notQuite')),
-          !ok ? h('div', { class: 'q-text' }, '✅ ', rich(q.options[q.answer])) : null,
+          !ok ? h('div', { class: 'q-text' }, '✅ ', OT(q, q.options[q.answer])) : null,
           whyBox(q, k < 0 ? null : q.options[st.order[i][k]], 'why-box')),
           h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: nextQ }, left >= 0 ? T('next') : T('finish'))));
       }
@@ -1197,7 +1200,7 @@
         var wrongItems = [];
         qs.forEach(function (q, k) {
           var picked = st.ans[k], oi = picked == null || picked < 0 ? null : st.order[k][picked];
-          if (oi !== q.answer) wrongItems.push({ q: q.q, your: oi == null ? null : q.options[oi], right: q.options[q.answer], why: q.why, wrongWhy: oi == null || !q.wrong ? undefined : q.wrong[q.options[oi]] });
+          if (oi !== q.answer) wrongItems.push({ q: q.q, qzh: q.qzh, ozh: q.ozh, your: oi == null ? null : q.options[oi], right: q.options[q.answer], why: q.why, wrongWhy: oi == null || !q.wrong ? undefined : q.wrong[q.options[oi]] });
         });
         record(ctx.en, ctx.week, st.correct, qs.length, (Date.now() - st.t0) / 1000, missed, wrongItems);
       }
@@ -1243,11 +1246,11 @@
         var order = shuffle(q.options.map(function (_, j) { return j; }));
         var right = order.indexOf(q.answer);
         var btns = order.map(function (oi, k) {
-          return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { choose(k); } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, q.options[oi]));
+          return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { choose(k); } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, OT(q, q.options[oi])));
         });
         add(area, h('div', { class: 'card' },
           h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + a.questions.length), h('button', { class: 'btn ghost', onclick: passage2 }, '📖')),
-          h('div', { class: 'box q' }, q.q), h('div', { class: 'answers' }, btns), fb));
+          h('div', { class: 'box q' }, QT(q)), h('div', { class: 'answers' }, btns), fb));
         function passage2() {
           var d = h('div', { class: 'box teach passage' }, a.paragraphs.map(function (p, n) { return h('p', null, h('span', { class: 'pnum' }, n + 1), p); }));
           area.firstChild.insertBefore(d, area.firstChild.children[1]);
@@ -1259,7 +1262,7 @@
           btns.forEach(function (b, j) { b.disabled = true; b.classList.add(j === right ? 'right' : j === k ? 'picked-wrong' : 'faded'); });
           add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
             h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite')),
-            !ok ? h('div', { class: 'q-text' }, q.options[q.answer]) : null,
+            !ok ? h('div', { class: 'q-text' }, OT(q, q.options[q.answer])) : null,
             whyBox(q, q.options[order[k]], 'why-box')),
             h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i++; i < a.questions.length ? ask() : afterQs(); } }, T('next'))));
         }
@@ -1335,7 +1338,7 @@
       var section = it.section ? h('div', { class: 'muted small' }, tx(it.section)) : null;
       add(area, h('div', { class: 'card' },
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + a.items.length), section),
-        h('div', { class: 'box q' }, rich(it.q)),
+        h('div', { class: 'box q' }, QT(it)),
         h('p', { class: 'small muted' }, T('tryPaper')),
         h('div', { class: 'row' }, it.hint ? hintBtn : null, nextBtn),
         hint, steps,
@@ -1585,7 +1588,7 @@
       var i = st.i, x = items[i], it = x.it, shown = false, picked = null;
       var fb = h('div');
       var opts = it.options ? it.options.map(function (o, k) {
-        return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { if (shown) return; picked = k; reveal(); } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(o)));
+        return h('button', { class: 'ansbtn c' + (k % 4), onclick: function () { if (shown) return; picked = k; reveal(); } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, OT(it, o)));
       }) : null;
       function reveal() {
         shown = true; clear(fb);
@@ -1609,7 +1612,7 @@
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + items.length), h('span', { class: 'small' }, tx(x.page.title))),
         it.n ? h('div', { class: 'muted small' }, it.n) : null,
         it.context ? h('div', { class: 'box teach' }, rich(it.context)) : null,
-        h('div', { class: 'box q' }, rich(it.q)),
+        h('div', { class: 'box q' }, QT(it)),
         it.visual && it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
         opts ? h('div', { class: 'answers' }, opts) : h('div', { class: 'muted' }, L('Say or write your answer first.', '先说出或写下你的答案。')),
         opts ? null : h('div', { class: 'row center' }, h('button', { class: 'btn big blue', onclick: function () { if (!shown) reveal(); } }, '👀 ' + L('Show the answer', '看答案'))),
@@ -1673,7 +1676,7 @@
           st.ans[i] = j; save(); btns.forEach(function (b, n) { b.classList.toggle('chosen', n === j); });
           var cell = strip && strip.children[i]; if (cell) cell.classList.add('done');
           count.textContent = '✏️ ' + Object.keys(st.ans).length + ' ' + L('answered', '已答');
-        } }, h('span', { class: 'shape' }, SHAPES[j % 4]), h('span', null, rich(o)));
+        } }, h('span', { class: 'shape' }, SHAPES[j % 4]), h('span', null, OT(q, o)));
       });
       var answered = Object.keys(st.ans).length, count = h('span', null, '✏️ ' + answered + ' ' + L('answered', '已答'));
       var strip = numStrip(qs.length, i, function (n) { return st.ans[n] != null ? 'done' : ''; }, go);
@@ -1681,7 +1684,7 @@
         strip,
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + qs.length), clock, count),
         q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
-        h('div', { class: 'box q' }, rich(q.q)),
+        h('div', { class: 'box q' }, QT(q)),
         h('div', { class: 'answers' }, btns),
         h('div', { class: 'row', style: 'justify-content:space-between;margin-top:16px' },
           h('button', { class: 'btn ghost', disabled: i === 0, onclick: function () { go(i - 1); } }, T('prev')),
@@ -2065,9 +2068,9 @@
         var ok = k === q.answer;
         allColour(btns, ok);
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '✅ ' + praise() : '❌ ' + T('notQuite')),
-          !ok ? h('div', { class: 'q-text' }, '✅ ', rich(q.options[q.answer])) : null,
+          !ok ? h('div', { class: 'q-text' }, '✅ ', OT(q, q.options[q.answer])) : null,
           whyBox(q, q.options[k], 'why-box')));
-      } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(q.options[k])));
+      } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, OT(q, q.options[k])));
     });
     return h('div', { class: 'quick' }, h('div', { class: 'quick-head' }, '⚡ ' + L('Quick question!', '快问快答！')),
       h('div', { class: 'box q' }, bi(q.q, true)), h('div', { class: 'answers two' }, btns), fb);
@@ -2326,7 +2329,7 @@
         add(area, h('div', { class: 'card' },
           h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + sh.items.length), it.n ? h('span', { class: 'small' }, it.n) : null),
           h('div', { class: 'progress' }, h('div', { style: 'width:' + (100 * i / sh.items.length) + '%' })),
-          h('div', { class: 'box q' }, rich(it.q)),
+          h('div', { class: 'box q' }, QT(it)),
           it.visual && it.visualFirst && VIS[it.visual.type] ? h('div', { class: 'vis' }, VIS[it.visual.type](it.visual)) : null,
           h('div', { class: 'row center' },
             it.steps || it.help ? h('button', { class: 'btn yellow', onclick: function () {
@@ -2975,12 +2978,12 @@
               h('span', { class: 'rv-mark' }, ok ? '✅ ' + L('Right', '对') : pick == null ? '⚪ ' + L('No answer', '没有作答') : '❌ ' + L('Wrong', '错')),
               t.time[i] != null ? h('small', { class: 'muted' }, '⏱️ ' + fmtTime(t.time[i])) : null),
             q.context ? h('div', { class: 'box teach' }, rich(q.context)) : null,
-            h('div', { class: 'rv-qtext' }, rich(q.q)),
+            h('div', { class: 'rv-qtext' }, QT(q)),
             h('ul', { class: 'rv-opts' }, q.options.map(function (o, j) {
               var mine = pick === j, right = j === q.answer, cls = mine && right ? 'mine right' : mine ? 'mine wrong' : right ? 'right' : '';
               var tag = mine && right ? '✅ ' + L('Your answer. Right!', '你的答案，答对了！') : mine ? '❌ ' + L('Your answer. This is wrong.', '你的答案，这是错的。')
                 : right ? '✅ ' + L('Right answer', '正确答案') : null;
-              return h('li', { class: cls }, h('span', { class: 'rv-letter' }, String.fromCharCode(65 + j)), h('span', { class: 'rv-otext' }, rich(o)),
+              return h('li', { class: cls }, h('span', { class: 'rv-letter' }, String.fromCharCode(65 + j)), h('span', { class: 'rv-otext' }, OT(q, o)),
                 tag ? h('span', { class: 'rv-tag' }, tag) : null);
             })),
             whyBox(q, pick == null ? null : q.options[pick]));

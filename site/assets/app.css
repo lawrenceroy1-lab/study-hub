@@ -676,3 +676,6 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 .ct-body { padding: 6px 4px 10px 22px; }
 .ct-missed { margin: 4px 0 0 18px; padding: 0; }
 .ct-missed li { margin: 2px 0; }
+
+/* Chinese under answer-button text must be readable on the coloured buttons */
+.ansbtn .zh-sub { color: inherit; opacity: .92; font-size: .82em; margin-top: 2px; }

@@ -94,42 +94,41 @@
   {
    "date": "2026-11-27",
    "title": {
-    "en": "Maths Chapters 8 and 9 + The Atmosphere",
-    "zh": "数学第 8、9 章 + 大气层"
+    "en": "Maths Chapters 8 and 9",
+    "zh": "数学第 8、9 章"
    },
    "message": {
-    "en": "Class with Roy, for Tuesday's Unit 8 and 9 test. Main Book M4, M5 and M6, then the two class quizzes. If there is time, start the science: W10 The Atmosphere. At the end of class, take the Big Quiz (25 questions).",
-    "zh": "和 Roy 老师上课，为星期二的第 8、9 单元测验准备。先学主课本 M4、M5 和 M6，再做两个课堂小测。有时间的话开始学科学：W10 大气层。下课前做大测验（25 道题）。"
+    "en": "Class with Roy, for Tuesday's Unit 8 and 9 test. Main Book M4, M5 and M6, then the class quiz.",
+    "zh": "和 Roy 老师上课，为星期二的第 8、9 单元测验准备。先学主课本 M4、M5 和 M6，再做课堂小测。"
    },
    "activities": [
-    "m8-quiz",
-    "m9-quiz",
-    "big27"
+    "m8-quiz"
    ],
    "book": [
     "M4",
     "M5",
-    "M6",
-    "W10"
+    "M6"
    ]
   },
   {
    "date": "2026-11-28",
    "kind": "homework",
    "title": {
-    "en": "Maths: Chapter 8 Practice",
-    "zh": "数学：第 8 章练习"
+    "en": "Science: The Atmosphere + Maths: Variables and the Big Quiz",
+    "zh": "科学：大气层 + 数学：变量和大测验"
    },
    "message": {
-    "en": "About 30 minutes. Main Book M4 and M5, then the quiz.",
-    "zh": "大约 30 分钟。先看主课本 M4 和 M5，再做小测。"
+    "en": "Take your time today. 1) Read Main Book W10 The Atmosphere and do its drawing page. 2) Look at M6 again, then do the small variables quiz. 3) Do the Big Quiz (25 questions). Read every \"why\" when you get one wrong.",
+    "zh": "今天慢慢来。1）读主课本 W10 大气层，做画画页。2）再看一遍 M6，然后做变量小测。3）做大测验（25 道题）。答错时要读每一条“原因”。"
    },
    "activities": [
-    "hw-sat28"
+    "hw-sat28v",
+    "big27",
+    "m9-quiz"
    ],
    "book": [
-    "M4",
-    "M5"
+    "W10",
+    "M6"
    ]
   },
   {
@@ -4850,6 +4849,172 @@
    "canNow": {
     "en": "I can now solve equations and inequalities, find rules in tables and graphs, and name the layers of the atmosphere.",
     "zh": "我现在会解方程和不等式，会找表格和图像的规律，还能说出大气层的各层。"
+   }
+  },
+  {
+   "id": "hw-sat28v",
+   "type": "hwquiz",
+   "part": "M",
+   "icon": "🔎",
+   "title": {
+    "en": "Saturday: Small Quiz on Variables (Chapter 9)",
+    "zh": "星期六：变量小测（第 9 章）"
+   },
+   "subtitle": {
+    "en": "6 questions",
+    "zh": "6 道题"
+   },
+   "intro": {
+    "en": "A short check on independent and dependent variables, tables and graphs.",
+    "zh": "简短检查：自变量和因变量、表格和图像。"
+   },
+   "questions": [
+    {
+     "q": "Lily reads 10 pages every day. Which is the INDEPENDENT variable?",
+     "options": [
+      "pages read",
+      "number of days"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The independent variable is the one that changes by itself or that you choose: the days. The pages read DEPEND on how many days.",
+      "zh": "自变量是自己变化或你选择的那个：天数。读的页数取决于过了几天。"
+     },
+     "qzh": "Lily 每天读 10 页。哪个是自变量？",
+     "ozh": {
+      "number of days": "天数",
+      "pages read": "读的页数"
+     },
+     "wrong": {
+      "pages read": {
+       "en": "The pages depend on the days (more days, more pages), so pages read is the DEPENDENT variable.",
+       "zh": "页数取决于天数（天越多，页越多），所以读的页数是因变量。"
+      }
+     }
+    },
+    {
+     "q": "The money Sophie earns depends on how many cups of lemonade she sells. The DEPENDENT variable is...",
+     "options": [
+      "cups sold",
+      "money earned"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The sentence says the money \"depends on\" the cups. The one that depends on the other is the dependent variable.",
+      "zh": "句子说钱 depends on（取决于）杯数。取决于另一个的就是因变量。"
+     },
+     "qzh": "Sophie 赚的钱取决于她卖了几杯柠檬水。因变量是……",
+     "ozh": {
+      "money earned": "赚的钱",
+      "cups sold": "卖出的杯数"
+     },
+     "wrong": {
+      "cups sold": {
+       "en": "The cups sold cause the change in money, so cups sold is the INDEPENDENT variable.",
+       "zh": "卖出的杯数引起钱的变化，所以杯数是自变量。"
+      }
+     }
+    },
+    {
+     "q": "On a graph, the DEPENDENT variable goes on the...",
+     "options": [
+      "y-axis (up)",
+      "x-axis (across)"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Independent goes ACROSS on the x-axis. Dependent goes UP on the y-axis.",
+      "zh": "自变量放在横的 x 轴上，因变量放在竖的 y 轴上。"
+     },
+     "qzh": "在图上，因变量放在……",
+     "ozh": {
+      "y-axis (up)": "y 轴（竖的）",
+      "x-axis (across)": "x 轴（横的）"
+     },
+     "wrong": {
+      "x-axis (across)": {
+       "en": "The x-axis (across) is for the INDEPENDENT variable.",
+       "zh": "横的 x 轴放自变量。"
+      }
+     }
+    },
+    {
+     "q": "x: 1, 2, 3. y: 3, 6, 9. The equation is...",
+     "options": [
+      "y = x + 2",
+      "y = x + 3",
+      "y = 3x"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Each y is x times 3: 1 × 3 = 3, 2 × 3 = 6, 3 × 3 = 9. A rule must work for EVERY pair.",
+      "zh": "每个 y 都是 x 乘 3：1 × 3 = 3，2 × 3 = 6，3 × 3 = 9。规律必须对每一对都成立。"
+     },
+     "qzh": "x：1、2、3。y：3、6、9。等式是……",
+     "ozh": {},
+     "wrong": {
+      "y = x + 2": {
+       "en": "Works for x = 1 (3) but fails for x = 2: 2 + 2 = 4, not 6.",
+       "zh": "x = 1 时成立（3），但 x = 2 时 2 + 2 = 4，不是 6。"
+      },
+      "y = x + 3": {
+       "en": "Test x = 1: 1 + 3 = 4, not 3.",
+       "zh": "试 x = 1：1 + 3 = 4，不是 3。"
+      }
+     }
+    },
+    {
+     "q": "y = x + 4. If x = 6, y = ?",
+     "options": [
+      "24",
+      "10",
+      "2"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Put 6 in place of x: y = 6 + 4 = 10.",
+      "zh": "把 x 换成 6：y = 6 + 4 = 10。"
+     },
+     "qzh": "y = x + 4。如果 x = 6，y = ？",
+     "ozh": {},
+     "wrong": {
+      "24": {
+       "en": "24 is 6 × 4. The rule says ADD 4.",
+       "zh": "24 是 6 × 4。规律是加 4。"
+      },
+      "2": {
+       "en": "2 is 6 − 4. The rule says add 4.",
+       "zh": "2 是 6 − 4。规律是加 4。"
+      }
+     }
+    },
+    {
+     "q": "To plot the point (4, 2), you go...",
+     "options": [
+      "4 across, then 2 up",
+      "2 across, then 4 up"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "In (x, y) the FIRST number is x: go across. The SECOND is y: go up.",
+      "zh": "(x, y) 里第一个数是 x：横着走。第二个是 y：往上走。"
+     },
+     "qzh": "要画点 (4, 2)，你要……",
+     "ozh": {
+      "4 across, then 2 up": "先往右 4，再往上 2",
+      "2 across, then 4 up": "先往右 2，再往上 4"
+     },
+     "wrong": {
+      "2 across, then 4 up": {
+       "en": "This swaps the numbers and plots (2, 4), a different point. Across always comes first.",
+       "zh": "这把两个数换了，画出来是 (2, 4)，是另一个点。一定先横着走。"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now tell the independent and dependent variables apart and use a rule.",
+    "zh": "我现在会分辨自变量和因变量，也会用规律。"
    }
   }
  ],
