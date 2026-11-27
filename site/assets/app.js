@@ -523,6 +523,66 @@
         h('span', { class: 'dr-name' }, tx(x.d.title)),
         h('span', { class: 'dr-meta' }, statusChip(x), (x.d.book || []).length ? h('small', { class: 'muted' }, '📖 ' + x.d.book.join(', ')) : null)));
   }
+  /* Last page of every Main Book chapter: "Did you understand this?" Yes / No for each page.
+     Every answer goes to the score sheet (week "understand"); a No shows on Roy's next class day page. */
+  function understandBox(code, slides) {
+    var store = key('und_' + code), saved = lsGet(store, {});
+    var pages = slides.map(function (p, k) { return { p: p, k: k }; }).filter(function (x) { return !x.p.check && !x.p.draw; });
+    return h('div', null,
+      h('div', { class: 'box teach' }, E('Be honest! For each page, tap ✅ Yes if you understood it, or ❓ No if it is still hard. Roy will go over every No with you in your next class.',
+        '要诚实哦！每一页，听懂了就点 ✅ 是，还觉得难就点 ❓ 不是。下次上课 Roy 老师会和你一起再讲每一个“不是”。')),
+      h('div', { class: 'und-list' }, pages.map(function (x) {
+        var en = typeof x.p.title === 'string' ? x.p.title : x.p.title.en;
+        var row = h('div', { class: 'und-row' });
+        function paint() {
+          clear(row);
+          var v = saved[x.k];
+          add(row, h('div', { class: 'und-t' }, (x.p.icon ? x.p.icon + ' ' : ''), bi(x.p.title)),
+            h('div', { class: 'und-q small muted' }, L('Did you understand this?', '这一页你听懂了吗？')),
+            h('div', { class: 'und-btns' },
+              h('button', { class: 'btn' + (v === 'y' ? ' green' : ' ghost'), onclick: function () { pick('y'); } }, '✅ ' + L('Yes', '是')),
+              h('button', { class: 'btn' + (v === 'n' ? ' orange' : ' ghost'), onclick: function () { pick('n'); } }, '❓ ' + L('No', '不是'))),
+            v === 'n' ? h('div', { class: 'small und-note' }, L('Thank you for telling us. Roy will explain this again in class.', '谢谢你告诉我们。Roy 老师上课会再讲一遍。')) : null);
+        }
+        function pick(v) {
+          if (saved[x.k] === v) return;
+          saved[x.k] = v; lsSet(store, saved); paint();
+          record('Understood: ' + code + ' · ' + en, 'understand', v === 'y' ? 1 : 0, 1, 0, v === 'y' ? [] : ['No']);
+        }
+        paint();
+        return row;
+      })));
+  }
+  /* Every "No" (latest answer per page) between the previous class day and this one. */
+  function notUnderstood(fromDate, toDate) {
+    var rows = [];
+    ['tut_' + STUDENT_ID + '_results'].forEach(function (k) {
+      var log = []; try { log = JSON.parse(localStorage.getItem(k) || '[]') || []; } catch (e) {}
+      log.forEach(function (r) { if (r.week === 'understand') rows.push({ when: r.time, act: r.activity, ok: r.score === 1 }); });
+    });
+    (REMOTE.und || []).forEach(function (r) { rows.push(r); });
+    rows.sort(function (p, q) { return String(p.when) < String(q.when) ? -1 : 1; });
+    var last = {};
+    rows.forEach(function (r) { last[r.act] = r; });
+    return Object.keys(last).map(function (k) { return last[k]; }).filter(function (r) {
+      var d = String(r.when).slice(0, 10);
+      return !r.ok && (!fromDate || d >= fromDate) && d < toDate;   /* a No goes to the NEXT class after it was tapped */
+    });
+  }
+  function goOverBlock(all, d) {
+    var cls = all.filter(function (x) { return x.d.kind !== 'homework'; }).map(function (x) { return x.d.date; }).sort();
+    var prev = cls.filter(function (c) { return c < d.date; }).pop() || '';
+    var list = notUnderstood(prev, d.date);
+    if (!list.length) return null;
+    return h('div', { class: 'card plan und-goover' },
+      h('h2', null, '❓ ' + L('Go over these again', '要再讲一遍的内容')),
+      h('p', { class: 'small muted' }, E('She tapped "No, I did not understand" on these pages since the last class. Start the class with them.',
+        '上次上课以后，她在这些页面点了“没听懂”。上课先讲这些。')),
+      h('ul', { class: 'und-goover-list' }, list.map(function (r) {
+        var m = /^Understood: (\S+) · (.*)$/.exec(r.act) || [];
+        return h('li', null, m[1] ? h('a', { href: '#/book/' + m[1] }, '📖 ' + m[1] + '  ' + m[2]) : r.act, h('small', { class: 'muted' }, '   ' + niceWhen(r.when)));
+      })));
+  }
   /* Class day: every try of every quiz on that day (this device, both logins, plus the score sheet), latest first. */
   function classTries(w, a) {
     var en = typeof a.title === 'string' ? a.title : (a.title || {}).en, out = [], seen = {};
@@ -741,8 +801,10 @@
     if (d.kind !== 'homework') refreshRemote();
     var x = { w: w, d: d, s: dayStatus(w, d) };
     var r = (w.reviews || []).filter(function (rv) { return rv.date === date && !rv.auto; })[0];
-    show(backLink(d.kind === 'homework' ? '#/homework' : '#/class'), dayPlan(x, true),
+    var goHolder = h('div');
+    show(backLink(d.kind === 'homework' ? '#/homework' : '#/class'), goHolder, dayPlan(x, true),
       r ? h('a', { class: 'step-link', href: '#/w/' + w.week + '/review/' + r.id }, '📋 ' + L("Roy's marking of this homework", 'Roy 老师批改的这份作业')) : null);
+    if (d.kind !== 'homework') allDays().then(function (all) { var b = goOverBlock(all, d); if (b) add(goHolder, b); }).catch(function () {});
   }
 
   /* ---------------- My results ---------------- */
@@ -755,7 +817,7 @@
       var rows = [];
       /* Homework tries live in Homework Review; this page is for the other quizzes and games. */
       lsGet(key('results'), []).forEach(function (r) {
-        if (/^Homework: /.test(r.activity) || /^Homework review /.test(r.activity)) return;
+        if (/^Homework: /.test(r.activity) || /^Homework review /.test(r.activity) || r.week === 'understand') return;
         rows.push({ time: r.time, who: r.who, title: r.activity, sub: '', score: r.score, total: r.total, wrong: r.wrong, missed: r.missed });
       });
       rows.sort(function (a, b) { return String(a.time) < String(b.time) ? 1 : -1; });
@@ -2200,11 +2262,13 @@
         ctx.panelExtra ? ctx.panelExtra() : null);
       var toggle = h('button', { class: 'pp-toggle', onclick: function () { open = !open; panel.classList.toggle('open', open); } },
         '📑 ' + L('Page ', '第 ') + (i + 1) + ' / ' + slides.length + L('', ' 页'));
+      var checkPage = s.check ? understandBox(a.code, slides) : null;
       var card = h('div', { class: 'card slide pop' },
         dots,
         h('div', { class: 'slide-head' }, h('span', { class: 'slide-num' }, (i + 1) + ' / ' + slides.length),
           h('button', { class: 'btn ghost', style: 'min-height:44px;padding:4px 14px', onclick: function () { say(sayText); } }, '🔊')),
         h('h2', { class: 'slide-title' }, s.icon ? s.icon + ' ' : '', bi(s.title)),
+        checkPage,
         vis,
         s.points && s.points.length ? h('ul', { class: 'slide-points' }, s.points.map(function (p) { return h('li', null, bi(p, true)); })) : null,
         s.remember ? h('div', { class: 'box hint' }, h('b', null, '⭐ ' + L('Remember: ', '记住：')), bi(s.remember, true)) : null,
@@ -2266,7 +2330,7 @@
           h('div', { class: 'row' }, h('button', { class: 'btn ghost', onclick: function () { shareLink(location.href, 'Main Book ' + ch.code); } }, '🔗 ' + L('Share', '分享'))), area);
         var ready = b.chapters.filter(function (c) { return c.slides && c.slides.length; }), at = ready.indexOf(ch);
         var pv = ready[at - 1], nx = ready[at + 1];
-        return ACT.lesson({ slides: ch.slides, canNow: ch.canNow }, { back: ret ? ret.hash : nx ? '#/book/' + nx.code : '#/book', week: 'book', en: 'Main Book ' + ch.code,
+        return ACT.lesson({ slides: ch.slides.concat([{ icon: '✅', title: { en: 'Did you understand?', zh: '你听懂了吗？' }, check: true }]), canNow: ch.canNow, code: ch.code }, { back: ret ? ret.hash : nx ? '#/book/' + nx.code : '#/book', week: 'book', en: 'Main Book ' + ch.code,
           doneText: ret ? { en: 'Done! Back to ' + ret.label, zh: '完成！回到 ' + ret.label } : nx ? { en: 'Done! Next chapter: ' + nx.code, zh: '完成！下一章：' + nx.code } : { en: 'Done! Back to the Main Book', zh: '完成！回到主课本' },
           panelExtra: function () {
             return h('div', { class: 'pp-chapters' },
@@ -2843,10 +2907,11 @@
     return rows;
   }
   function parseRemote(text) {
-    var out = {}, cls = {};
+    var out = {}, cls = {}, und = [];
     csvRows(text).forEach(function (r) {
       var c = String(r[1] || '').split('\t');
       if (c.length < 8 || c[1] !== S.student.name) return;
+      if (c[2] === 'understand') { und.push({ when: c[0], act: c[3], ok: +c[4] === 1 }); return; }
       if (!/^Homework: /.test(c[3])) {   /* class quizzes: score, time and the questions missed */
         var kc = c[2] + '|' + c[3];
         (cls[kc] = cls[kc] || []).push({ when: c[0], right: +c[4], total: +c[5], secs: +c[6], missedText: c[7] || '', id: c[8] || '', remote: true });
@@ -2862,7 +2927,7 @@
       var k = c[2] + (aid ? '|id:' + aid : '|t:' + c[3]);
       (out[k] = out[k] || []).push(t);
     });
-    REMOTE.rows = out; REMOTE.cls = cls; REMOTE.at = Date.now();
+    REMOTE.rows = out; REMOTE.cls = cls; REMOTE.und = und; REMOTE.at = Date.now();
   }
   function loadRemote(force) {
     var u = window.SCORE_READ;

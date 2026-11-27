@@ -679,3 +679,15 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 
 /* Chinese under answer-button text must be readable on the coloured buttons */
 .ansbtn .zh-sub { color: inherit; opacity: .92; font-size: .82em; margin-top: 2px; }
+
+/* "Did you understand?" page and Roy's go-over list */
+.und-list { display: grid; gap: 10px; margin-top: 12px; }
+.und-row { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; background: #fff; }
+.und-t { font-weight: 700; }
+.und-btns { display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap; }
+.und-btns .btn { min-height: 40px; padding: 4px 16px; }
+.btn.orange { background: #e8892b; color: #fff; border-color: #e8892b; }
+.und-note { color: #a35a12; margin-top: 4px; }
+.und-goover { border-left: 5px solid #e8892b; }
+.und-goover-list { margin: 6px 0 0 18px; padding: 0; }
+.und-goover-list li { margin: 4px 0; }
