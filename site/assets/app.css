@@ -663,3 +663,16 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 .ts-bad { color: #b3261e; font-weight: 700; }
 .ts-latest { color: var(--accent, #3a5bd9); font-weight: 700; }
 @media (max-width: 700px) { .try-steps { padding-left: 14px; } }
+
+/* Class day: tries in class */
+.ct-act { margin-top: 10px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: #fff; }
+.ct-title { font-weight: 700; margin-bottom: 4px; }
+.ct-latest { margin-bottom: 6px; }
+.try-steps.ct { padding: 0; }
+.ct-try summary { cursor: pointer; list-style: none; }
+.ct-try summary::-webkit-details-marker { display: none; }
+.ct-try summary::before { content: '▸ '; color: var(--muted); }
+.ct-try[open] summary::before { content: '▾ '; }
+.ct-body { padding: 6px 4px 10px 22px; }
+.ct-missed { margin: 4px 0 0 18px; padding: 0; }
+.ct-missed li { margin: 2px 0; }

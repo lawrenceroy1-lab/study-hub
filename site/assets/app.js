@@ -199,10 +199,11 @@
   function whoName() { return S.who === 'roy' ? TEACHER_NAME : loginName(); }
   function record(activity, week, score, total, seconds, missed, wrongItems) {
     var log = lsGet(key('results'), []);
-    log.unshift({ time: localTime(), who: whoName(), week: week, activity: activity, score: score, total: total,
+    var rid0 = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+    log.unshift({ id: rid0, time: localTime(), who: whoName(), week: week, activity: activity, score: score, total: total,
       seconds: Math.round(seconds || 0), wrong: wrongItems || null, missed: wrongItems ? null : (missed || []) });
     lsSet(key('results'), log.slice(0, 300));
-    var q = lsGet(QKEY, []), rid = Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
+    var q = lsGet(QKEY, []), rid = rid0;
     q.push({
       id: rid,
       time: localTime(), student: S.who === 'roy' ? TEACHER_NAME + ' (on ' + S.student.name + "'s page)" : S.student.name, week: week, activity: activity,
@@ -519,6 +520,59 @@
         h('span', { class: 'dr-name' }, tx(x.d.title)),
         h('span', { class: 'dr-meta' }, statusChip(x), (x.d.book || []).length ? h('small', { class: 'muted' }, '📖 ' + x.d.book.join(', ')) : null)));
   }
+  /* Class day: every try of every quiz on that day (this device, both logins, plus the score sheet), latest first. */
+  function classTries(w, a) {
+    var en = typeof a.title === 'string' ? a.title : (a.title || {}).en, out = [], seen = {};
+    function add1(t) {
+      var sg = [t.when, t.right, t.total, t.secs].join('|');
+      if ((t.id && seen['i' + t.id]) || seen['s' + sg]) { if (t.wrong) out.forEach(function (o) { if (([o.when, o.right, o.total, o.secs].join('|') === sg || (t.id && o.id === t.id)) && !o.wrong) o.wrong = t.wrong; }); return; }
+      if (t.id) seen['i' + t.id] = 1; seen['s' + sg] = 1; out.push(t);
+    }
+    if (a.type === 'hwquiz') {
+      hwTries(w.week, a).forEach(function (t, n) { add1({ when: t.when, right: t.right, total: t.total, secs: t.secs, id: t.id, href: tryHref(w.week, a.id, n + 1) }); });
+    } else {
+      ['tut_' + STUDENT_ID + '_results', 'tut_' + STUDENT_ID + '_roy_results'].forEach(function (k) {
+        var log = []; try { log = JSON.parse(localStorage.getItem(k) || '[]') || []; } catch (e) {}
+        log.forEach(function (r) { if (r.week === w.week && r.activity === en) add1({ when: r.time, right: r.score, total: r.total, secs: r.seconds, id: r.id, wrong: r.wrong, who: r.who }); });
+      });
+      (REMOTE.cls[w.week + '|' + en] || []).forEach(function (t) { add1(t); });
+    }
+    out.sort(function (p, q) { return String(p.when) < String(q.when) ? -1 : 1; });
+    return out;
+  }
+  function classTriesBlock(w, acts) {
+    var blocks = acts.filter(function (a) { return a.type === 'quiz' || a.type === 'hwquiz'; }).map(function (a) {
+      var tries = classTries(w, a);
+      if (!tries.length) return null;
+      var latest = tries[tries.length - 1];
+      return h('div', { class: 'ct-act' },
+        h('div', { class: 'ct-title' }, (a.icon || '⚡') + ' ', bi(a.title)),
+        h('div', { class: 'ct-latest' }, L('Latest try: ', '最新一次：'), h('b', { class: latest.right === latest.total ? 'ts-ok' : 'ts-bad' }, latest.right + ' / ' + latest.total),
+          h('small', { class: 'muted' }, '  🕒 ' + niceWhen(latest.when) + '  ⏱️ ' + fmtTime(latest.secs))),
+        h('div', { class: 'try-steps ct' }, tries.map(function (t, i) {
+          var head = h('summary', { class: 'try-step' + (t === latest ? ' latest' : '') },
+            h('b', null, (ORD_EN[i] ? L(ORD_EN[i] + ' try', '第' + ORD_ZH[i] + '次') : L('Try ' + (i + 1), '第 ' + (i + 1) + ' 次')) + ': '),
+            h('span', { class: t.right === t.total ? 'ts-ok' : 'ts-bad' }, t.right + ' / ' + t.total),
+            h('small', { class: 'muted' }, '  🕒 ' + niceWhen(t.when) + '  ⏱️ ' + fmtTime(t.secs) + (t.who === TEACHER_NAME ? '  (Roy)' : '')),
+            t === latest ? h('small', { class: 'ts-latest' }, '  ' + L('latest', '最新')) : null);
+          var body;
+          if (t.href) body = h('div', { class: 'ct-body' }, h('a', { class: 'step-link go', href: t.href }, '📋 ' + L('See every question and answer', '看每道题和答案')));
+          else if (t.wrong && t.wrong.length) body = h('div', { class: 'ct-body' }, t.wrong.map(function (x, n) {
+            return h('div', { class: 'wrong-item' },
+              h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), rich(String(x.q))),
+              h('div', { class: 'wa bad' }, h('small', null, L('Her answer', '她的答案')), x.your == null ? L('(no answer)', '（没有作答）') : rich(String(x.your))),
+              h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), rich(String(x.right))),
+              whyBox(x, x.your));
+          }));
+          else if (t.missedText) body = h('div', { class: 'ct-body' }, h('div', { class: 'small muted' }, L('Questions she got wrong:', '她做错的题：')),
+            h('ul', { class: 'ct-missed' }, t.missedText.split(/, (?=Q\d+ )/).map(function (m) { return h('li', null, m); })));
+          else body = h('div', { class: 'ct-body small muted' }, t.right === t.total ? L('All right! 🌟', '全对！🌟') : L('Details are on the device she used.', '详细内容在她用的那台设备上。'));
+          return h('details', { class: 'ct-try' }, head, body);
+        })));
+    }).filter(Boolean);
+    if (!blocks.length) return null;
+    return h('li', null, h('div', { class: 'step-t' }, E('Tries in class today: every score, latest first at the top. Tap a try to see what was wrong.', '今天课上的每次成绩：最新的在上面。点一次看哪里错了。')), blocks);
+  }
   /* The plan for one day: what to read, what to practise, what to hand in. Used on Today and on the day page. */
   function dayPlan(x, big) {
     var w = x.w, d = x.d, s = x.s, hw = d.kind === 'homework';
@@ -555,6 +609,7 @@
       if (book.length) steps.push(h('li', null, h('div', { class: 'step-t' }, E('Learn with Roy: Main Book', '和 Roy 一起学：主课本')), h('div', { class: 'step-links' }, book)));
       if (acts.length) steps.push(h('li', null, h('div', { class: 'step-t' }, E('Class practice with Roy', '和 Roy 一起练习')),
         h('div', { class: 'step-links' }, acts.map(function (a, n) { return link('#/w/' + w.week + '/' + a.id, numbered(a, n)); }))));
+      if (big) { var ct = classTriesBlock(w, acts); if (ct) steps.push(ct); }
     }
     var mins = minutes(d);
     return h('div', { class: 'card plan' + (big ? ' big' : '') },
@@ -680,6 +735,7 @@
     var d = (w.days || []).filter(function (x) { return x.date === date; })[0];
     if (!d) return renderError();
     S.nav = d.kind === 'homework' ? 'homework' : 'class'; setNav(S.nav);
+    if (d.kind !== 'homework') refreshRemote();
     var x = { w: w, d: d, s: dayStatus(w, d) };
     var r = (w.reviews || []).filter(function (rv) { return rv.date === date && !rv.auto; })[0];
     show(backLink(d.kind === 'homework' ? '#/homework' : '#/class'), dayPlan(x, true),
@@ -2769,7 +2825,7 @@
     return out;
   }
   /* ---- Homework from the score sheet (25 Nov 2026), so Roy and the student see every try on any device ---- */
-  var REMOTE = { rows: {}, at: 0, busy: null };
+  var REMOTE = { rows: {}, cls: {}, at: 0, busy: null };
   function csvRows(text) {
     var rows = [], row = [], f = '', q = false;
     for (var i = 0; i < text.length; i++) {
@@ -2784,10 +2840,15 @@
     return rows;
   }
   function parseRemote(text) {
-    var out = {};
+    var out = {}, cls = {};
     csvRows(text).forEach(function (r) {
       var c = String(r[1] || '').split('\t');
-      if (c.length < 8 || c[1] !== S.student.name || !/^Homework: /.test(c[3])) return;
+      if (c.length < 8 || c[1] !== S.student.name) return;
+      if (!/^Homework: /.test(c[3])) {   /* class quizzes: score, time and the questions missed */
+        var kc = c[2] + '|' + c[3];
+        (cls[kc] = cls[kc] || []).push({ when: c[0], right: +c[4], total: +c[5], secs: +c[6], missedText: c[7] || '', id: c[8] || '', remote: true });
+        return;
+      }
       var t = { when: c[0], right: +c[4], total: +c[5], secs: +c[6], ans: {}, time: {}, backs: 0, id: c[8] || '', remote: true }, aid = '';
       String(c[7] || '').split(', ').forEach(function (bit) {
         var m = /^Q(\d+):([A-Z-])(ok|x) (\d+)s$/.exec(bit);
@@ -2798,7 +2859,7 @@
       var k = c[2] + (aid ? '|id:' + aid : '|t:' + c[3]);
       (out[k] = out[k] || []).push(t);
     });
-    REMOTE.rows = out; REMOTE.at = Date.now();
+    REMOTE.rows = out; REMOTE.cls = cls; REMOTE.at = Date.now();
   }
   function loadRemote(force) {
     var u = window.SCORE_READ;
@@ -2814,7 +2875,7 @@
     loadRemote(force).then(function (changed) {
       if (!changed) return;
       var p = location.hash.replace(/^#\/?/, '').split('/')[0];
-      if (['', 'today', 'homework', 'calendar', 'review', 'subject'].indexOf(p) >= 0) route();
+      if (['', 'today', 'homework', 'calendar', 'review', 'subject'].indexOf(p) >= 0 || /\/day\//.test(location.hash)) route();
     });
   }
   function tryHref(week, id, n) { return '#/review/' + week + '/' + id + '/' + n; }
@@ -2827,7 +2888,8 @@
     var rows = [], seen = {};
     all.forEach(function (x) {
       if (onlyParts && !dayParts(x.w, x.d).some(function (p) { return onlyParts.indexOf(p) >= 0; })) return;
-      dayHw(x.w, x.d).forEach(function (a) {   /* homework quizzes, and class-day quizzes with saved tries (e.g. an end-of-class big quiz) */
+      if (x.d.kind !== 'homework') return;   /* class-day quizzes show on that class day's page, not here */
+      dayHw(x.w, x.d).forEach(function (a) {
         var k = x.w.week + '/' + a.id; if (seen[k]) return; seen[k] = true;
         hwTries(x.w.week, a).forEach(function (t, n) { rows.push({ x: x, a: a, t: t, n: n + 1 }); });
       });
