@@ -93,93 +93,77 @@
   },
   {
    "date": "2026-11-27",
-   "kind": "workbook",
    "title": {
-    "en": "Rock Layers, Ocean Floor + Proofreading",
-    "zh": "岩层、海底 + 校对"
+    "en": "Maths Chapter 8: Equations and Inequalities",
+    "zh": "数学第 8 章：方程和不等式"
    },
    "message": {
-    "en": "Class order: 1. Homework Review. 2. Main Book S4 to S6 and E2 with Roy. 3. This Workbook. 4. Review it together.",
-    "zh": "上课顺序：1. 作业讲评。2. 和 Roy 老师学主课本 S4 到 S6 和 E2。3. 做这本练习册。4. 一起讲评。"
+    "en": "Class with Roy, for Tuesday's Unit 8 and 9 test. Main Book M4 and M5 (and M1 if needed), then the class quiz.",
+    "zh": "和 Roy 老师上课，为星期二的第 8、9 单元测验准备。先学主课本 M4 和 M5（需要的话 M1），再做课堂小测。"
    },
    "activities": [
-    "s-cards2",
-    "s-match2",
-    "s-quiz2",
-    "e-proof"
+    "m8-quiz"
    ],
    "book": [
-    "S4",
-    "S5",
-    "S6",
-    "E2"
+    "M1",
+    "M4",
+    "M5"
    ]
   },
   {
    "date": "2026-11-28",
    "kind": "homework",
    "title": {
-    "en": "Equations and Proofreading",
-    "zh": "方程和校对"
+    "en": "Maths: Chapter 8 Practice",
+    "zh": "数学：第 8 章练习"
    },
    "message": {
-    "en": "About 30 minutes. Look at Main Book M1, M2 and E2, then do the quiz. You can try again as many times as you like.",
-    "zh": "大约 30 分钟。看主课本 M1、M2、E2，然后做小测（可以做很多次）。"
+    "en": "About 30 minutes. Main Book M4 and M5, then the quiz.",
+    "zh": "大约 30 分钟。先看主课本 M4 和 M5，再做小测。"
    },
    "activities": [
-    "hw-sat"
+    "hw-sat28"
    ],
    "book": [
-    "M1",
-    "M2",
-    "E2"
+    "M4",
+    "M5"
    ]
   },
   {
    "date": "2026-11-29",
    "kind": "homework",
    "title": {
-    "en": "Earth Science Review",
-    "zh": "地球科学复习"
+    "en": "Maths: Chapter 9 Practice",
+    "zh": "数学：第 9 章练习"
    },
    "message": {
-    "en": "About 30 minutes. Flip through Main Book S1 to S6, then do the quiz. You can try again as many times as you like.",
-    "zh": "大约 30 分钟。翻看主课本 S1 到 S6，然后做小测（可以做很多次）。"
+    "en": "About 30 minutes. Main Book M6, then the quiz.",
+    "zh": "大约 30 分钟。先看主课本 M6，再做小测。"
    },
    "activities": [
-    "s-cards1",
-    "s-cards2",
-    "hw-sun"
+    "hw-sun29"
    ],
    "book": [
-    "S1",
-    "S2",
-    "S3",
-    "S4",
-    "S5",
-    "S6"
+    "M6"
    ]
   },
   {
    "date": "2026-11-30",
    "title": {
-    "en": "Weather: Air Masses, Fronts and Clouds",
-    "zh": "天气：气团、锋和云"
+    "en": "Maths Chapter 9 + Test Review",
+    "zh": "数学第 9 章 + 测验复习"
    },
    "message": {
-    "en": "Class with Roy. Main Book W1 to W4 first, then the practice.",
-    "zh": "和 Roy 老师上课。先学主课本 W1 到 W4，再做练习。"
+    "en": "Class with Roy. Main Book M6, then review Chapters 8 and 9 for tomorrow's test.",
+    "zh": "和 Roy 老师上课。先学主课本 M6，再复习第 8、9 章，准备明天的测验。"
    },
    "activities": [
-    "w-cards",
-    "w-match",
-    "w-quiz"
+    "m9-quiz"
    ],
    "book": [
-    "W1",
-    "W2",
-    "W3",
-    "W4"
+    "M6",
+    "M4",
+    "M5"
    ]
   }
  ],
@@ -1917,332 +1901,710 @@
    "part": "W"
   },
   {
-   "id": "hw-sat",
-   "type": "hwquiz",
-   "icon": "🏠",
+   "id": "m8-quiz",
+   "type": "quiz",
+   "part": "M",
+   "timed": false,
+   "shuffle": true,
+   "icon": "🧮",
    "title": {
-    "en": "Saturday Homework: Equations and Proofreading",
-    "zh": "星期六作业：方程和校对"
+    "en": "Class Quiz: Equations and Inequalities (Chapter 8)",
+    "zh": "课堂小测：方程和不等式（第 8 章）"
    },
    "subtitle": {
-    "en": "10 questions, try as often as you like",
-    "zh": "10 道题，可以做很多次"
+    "en": "10 questions",
+    "zh": "10 道题"
    },
    "intro": {
-    "en": "Maths first: undo it, then check. Then the sound-alike words. You can try again as many times as you like.",
-    "zh": "先做数学：抵消，再检查。然后做发音相似的词。可以做很多次。"
+    "en": "Equations: do the opposite, then check. Inequalities: open or closed circle, left or right.",
+    "zh": "方程：做相反的运算，再检查。不等式：空心还是实心，向左还是向右。"
    },
    "questions": [
     {
-     "q": "7r = 56. What is r?",
+     "q": "Is 8 a solution of x + 4 = 12?",
      "options": [
-      "49",
-      "8",
-      "63",
-      "392"
+      "No",
+      "Yes"
      ],
      "answer": 1,
      "why": {
-      "en": "Undo × 7 with ÷ 7: r = 56 ÷ 7 = 8. Check: 7 × 8 = 56.",
-      "zh": "用 ÷ 7 抵消 × 7：r = 56 ÷ 7 = 8。检查：7 × 8 = 56。"
+      "en": "Put 8 in: 8 + 4 = 12. True.",
+      "zh": "代入 8：8 + 4 = 12，成立。"
      }
     },
     {
-     "q": "n ÷ 4 = 9. What is n?",
+     "q": "x + 18 = 31. x = ?",
      "options": [
-      "5",
-      "13",
-      "2 1/4",
-      "36"
+      "49",
+      "12",
+      "18",
+      "13"
      ],
      "answer": 3,
      "why": {
-      "en": "Undo ÷ 4 with × 4: n = 9 × 4 = 36. Check: 36 ÷ 4 = 9.",
-      "zh": "用 × 4 抵消 ÷ 4：n = 9 × 4 = 36。检查：36 ÷ 4 = 9。"
+      "en": "Subtract 18: 31 − 18 = 13. Check: 13 + 18 = 31.",
+      "zh": "减 18：31 − 18 = 13。检查：13 + 18 = 31。"
      }
     },
     {
-     "q": "6x = 42. What is x?",
+     "q": "m − 7 = 25. m = ?",
      "options": [
-      "7",
-      "36",
-      "48",
-      "252"
+      "32",
+      "18",
+      "25",
+      "7"
      ],
      "answer": 0,
      "why": {
-      "en": "x = 42 ÷ 6 = 7. Check: 6 × 7 = 42.",
-      "zh": "x = 42 ÷ 6 = 7。检查：6 × 7 = 42。"
+      "en": "Add 7: 25 + 7 = 32. Check: 32 − 7 = 25.",
+      "zh": "加 7：25 + 7 = 32。检查：32 − 7 = 25。"
      }
     },
     {
-     "q": "y ÷ 5 = 12. What is y?",
+     "q": "6x = 42. x = ?",
      "options": [
+      "36",
+      "48",
       "7",
-      "17",
-      "60",
-      "2 2/5"
+      "252"
      ],
      "answer": 2,
      "why": {
-      "en": "y = 12 × 5 = 60. Check: 60 ÷ 5 = 12.",
-      "zh": "y = 12 × 5 = 60。检查：60 ÷ 5 = 12。"
+      "en": "Divide by 6: 42 ÷ 6 = 7. Check: 6 × 7 = 42.",
+      "zh": "除以 6：42 ÷ 6 = 7。检查：6 × 7 = 42。"
      }
     },
     {
-     "q": "3/5 s = 9. What is s?",
+     "q": "y ÷ 3 = 12. y = ?",
      "options": [
-      "5 2/5",
+      "4",
+      "36",
       "15",
-      "3",
-      "45"
+      "9"
      ],
      "answer": 1,
      "why": {
-      "en": "3 parts = 9, so 1 part = 3. All 5 parts: s = 5 × 3 = 15. Check: 3/5 of 15 = 9.",
-      "zh": "3 份 = 9，1 份 = 3。5 份：s = 5 × 3 = 15。检查：15 的 3/5 = 9。"
+      "en": "Multiply by 3: 12 × 3 = 36. Check: 36 ÷ 3 = 12.",
+      "zh": "乘 3：12 × 3 = 36。检查：36 ÷ 3 = 12。"
      }
     },
     {
-     "q": "2/3 m = 10. What is m?",
+     "q": "Emma had some stickers and got 8 more. Now she has 20. Which equation fits?",
      "options": [
-      "15",
-      "6 2/3",
+      "s + 8 = 20",
+      "s − 8 = 20",
+      "8s = 20",
+      "s + 20 = 8"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Some stickers (s) plus 8 more equals 20.",
+      "zh": "一些贴纸 (s) 加 8 张等于 20。"
+     }
+    },
+    {
+     "q": "Which symbol means \"at least\"?",
+     "options": [
+      "≤",
+      ">",
+      "<",
+      "≥"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "At least = that number or more: greater than or equal to.",
+      "zh": "至少 = 这个数或更多：大于或等于。"
+     }
+    },
+    {
+     "q": "\"You can bring at most 3 friends\" is...",
+     "options": [
+      "f ≥ 3",
+      "f < 3",
+      "f ≤ 3",
+      "f > 3"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "At most = 3 or fewer.",
+      "zh": "最多 = 3 或更少。"
+     }
+    },
+    {
+     "q": "Which number is a solution of x > 5?",
+     "options": [
+      "6",
       "5",
+      "4",
+      "0"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "6 is greater than 5. 5 is not greater than 5.",
+      "zh": "6 大于 5；5 不大于 5。"
+     }
+    },
+    {
+     "q": "To graph x ≥ 2, you draw...",
+     "options": [
+      "an open circle on 2 and an arrow to the right",
+      "a closed circle on 2 and an arrow to the right",
+      "a closed circle on 2 and an arrow to the left",
+      "an open circle on 2 and an arrow to the left"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "≥ includes 2 (closed) and goes to bigger numbers (right).",
+      "zh": "≥ 包括 2（实心），往大的数走（向右）。"
+     }
+    },
+    {
+     "q": "To graph x < 4, you draw...",
+     "options": [
+      "a closed circle on 4 and an arrow to the left",
+      "an open circle on 4 and an arrow to the right",
+      "an open circle on 4 and an arrow to the left",
+      "a closed circle on 4 and an arrow to the right"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "< does not include 4 (open) and goes to smaller numbers (left).",
+      "zh": "< 不包括 4（空心），往小的数走（向左）。"
+     }
+    },
+    {
+     "q": "A ride needs riders taller than 120 cm. Which inequality fits?",
+     "options": [
+      "h < 120",
+      "h ≤ 120",
+      "h = 120",
+      "h > 120"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Taller than 120 = greater than 120.",
+      "zh": "高于 120 = 大于 120。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve equations and write and graph inequalities.",
+    "zh": "我现在会解方程，会写和画不等式。"
+   },
+   "count": 10
+  },
+  {
+   "id": "hw-sat28",
+   "type": "hwquiz",
+   "part": "M",
+   "icon": "🏠",
+   "title": {
+    "en": "Saturday Homework: Chapter 8 Practice",
+    "zh": "星期六作业：第 8 章练习"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Main Book M4 and M5 first. Check every answer by putting it back in.",
+    "zh": "先看主课本 M4 和 M5。每个答案都代回去检查。"
+   },
+   "questions": [
+    {
+     "q": "x + 9 = 15. x = ?",
+     "options": [
+      "24",
+      "6",
+      "9",
+      "15"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "15 − 9 = 6. Check: 6 + 9 = 15.",
+      "zh": "15 − 9 = 6。检查：6 + 9 = 15。"
+     }
+    },
+    {
+     "q": "y − 27 = 13. y = ?",
+     "options": [
+      "14",
+      "13",
+      "27",
+      "40"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Add 27: 13 + 27 = 40. Check: 40 − 27 = 13.",
+      "zh": "加 27：13 + 27 = 40。检查：40 − 27 = 13。"
+     }
+    },
+    {
+     "q": "n + 16 = 25. n = ?",
+     "options": [
+      "9",
+      "41",
+      "16",
+      "11"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "25 − 16 = 9. Check: 9 + 16 = 25.",
+      "zh": "25 − 16 = 9。检查：9 + 16 = 25。"
+     }
+    },
+    {
+     "q": "7k = 63. k = ?",
+     "options": [
+      "56",
+      "70",
+      "9",
+      "441"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "63 ÷ 7 = 9. Check: 7 × 9 = 63.",
+      "zh": "63 ÷ 7 = 9。检查：7 × 9 = 63。"
+     }
+    },
+    {
+     "q": "Is 15 a solution of 50 − x = 35?",
+     "options": [
+      "No",
+      "Yes"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "50 − 15 = 35. True.",
+      "zh": "50 − 15 = 35，成立。"
+     }
+    },
+    {
+     "q": "Tom spent 45 baht and has 55 baht left. Which equation finds how much he had (m)?",
+     "options": [
+      "m − 45 = 55",
+      "m + 45 = 55",
+      "45m = 55",
+      "m − 55 = 45 + 55"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "He had m, spent 45, and 55 is left: m − 45 = 55. So m = 100 baht.",
+      "zh": "他有 m，花了 45，剩 55：m − 45 = 55。所以 m = 100 泰铢。"
+     }
+    },
+    {
+     "q": "\"More than 10 people\" is...",
+     "options": [
+      "p < 10",
+      "p ≥ 10",
+      "p ≤ 10",
+      "p > 10"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "More than = greater than, 10 not included.",
+      "zh": "多于 = 大于，不包括 10。"
+     }
+    },
+    {
+     "q": "Which number is NOT a solution of x ≤ 7?",
+     "options": [
+      "7",
+      "6",
+      "8",
+      "0"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "8 is bigger than 7. The others are 7 or less.",
+      "zh": "8 比 7 大，其他都是 7 或更小。"
+     }
+    },
+    {
+     "q": "An open circle on 3 with an arrow to the right shows...",
+     "options": [
+      "x > 3",
+      "x ≥ 3",
+      "x < 3",
+      "x ≤ 3"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Open = 3 not included. Right = bigger numbers.",
+      "zh": "空心 = 不包括 3；向右 = 更大的数。"
+     }
+    },
+    {
+     "q": "A closed circle on 5 with an arrow to the left shows...",
+     "options": [
+      "x < 5",
+      "x ≤ 5",
+      "x ≥ 5",
+      "x > 5"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Closed = 5 included. Left = smaller numbers.",
+      "zh": "实心 = 包括 5；向左 = 更小的数。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve + and − equations and read inequality graphs.",
+    "zh": "我现在会解加减方程，会看不等式的图。"
+   }
+  },
+  {
+   "id": "hw-sun29",
+   "type": "hwquiz",
+   "part": "M",
+   "icon": "🏠",
+   "title": {
+    "en": "Sunday Homework: Chapter 9 Practice",
+    "zh": "星期天作业：第 9 章练习"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Main Book M6 first. Look for the rule in each table.",
+    "zh": "先看主课本 M6。找每个表格的规律。"
+   },
+   "questions": [
+    {
+     "q": "Sophie earns 40 baht for each hour she babysits. Which is the INDEPENDENT variable?",
+     "options": [
+      "hours babysitting",
+      "money earned"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Money depends on hours, so hours is independent.",
+      "zh": "钱依赖小时数，所以小时数是自变量。"
+     }
+    },
+    {
+     "q": "The number of plants watered depends on the minutes James spends. The DEPENDENT variable is...",
+     "options": [
+      "minutes spent",
+      "plants watered"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "\"Depends on\": the plants watered depend on the minutes.",
+      "zh": "“依赖”：浇的植物数依赖用的分钟数。"
+     }
+    },
+    {
+     "q": "x: 1, 2, 3. y: 4, 8, 12. The equation is...",
+     "options": [
+      "y = x + 4",
+      "y = 4x",
+      "y = x + 3",
+      "y = 3x"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Each y is 4 times x: 1 × 4, 2 × 4, 3 × 4.",
+      "zh": "每个 y 都是 x 的 4 倍。"
+     }
+    },
+    {
+     "q": "x: 1, 2, 3. y: 3, 5, 7. The equation is...",
+     "options": [
+      "y = x + 2",
+      "y = 3x",
+      "y = x + 1",
+      "y = 2x + 1"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "2 × 1 + 1 = 3, 2 × 2 + 1 = 5, 2 × 3 + 1 = 7.",
+      "zh": "2 × 1 + 1 = 3，2 × 2 + 1 = 5，2 × 3 + 1 = 7。"
+     }
+    },
+    {
+     "q": "y = 3x. If x = 12, y = ?",
+     "options": [
+      "36",
+      "15",
+      "4",
+      "312"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "3 × 12 = 36.",
+      "zh": "3 × 12 = 36。"
+     }
+    },
+    {
+     "q": "y = x + 5. If x = 9, y = ?",
+     "options": [
+      "45",
+      "4",
+      "14",
+      "59"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "9 + 5 = 14.",
+      "zh": "9 + 5 = 14。"
+     }
+    },
+    {
+     "q": "On a graph, the independent variable goes on the...",
+     "options": [
+      "y-axis",
+      "x-axis"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Independent → x-axis (across). Dependent → y-axis (up).",
+      "zh": "自变量 → x 轴（横）；因变量 → y 轴（竖）。"
+     }
+    },
+    {
+     "q": "To plot the point (2, 6), you go...",
+     "options": [
+      "2 across, then 6 up",
+      "6 across, then 2 up",
+      "2 up, then 6 across",
+      "8 across"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "(x, y): across first, then up.",
+      "zh": "(x, y)：先横后竖。"
+     }
+    },
+    {
+     "q": "Which point is on the graph of y = 2x?",
+     "options": [
+      "(3, 5)",
+      "(6, 3)",
+      "(2, 2)",
+      "(3, 6)"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "x = 3 gives y = 2 × 3 = 6.",
+      "zh": "x = 3 时 y = 2 × 3 = 6。"
+     }
+    },
+    {
+     "q": "A taxi costs 50 baht plus 10 baht for each km. Which equation gives the cost c for d km?",
+     "options": [
+      "c = 50d + 10",
+      "c = d + 60",
+      "c = 10d + 50",
+      "c = 60d"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "10 for each km (10d), plus 50 at the start.",
+      "zh": "每千米 10 泰铢 (10d)，再加起步价 50。"
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now find variables, write equations from tables and read graphs.",
+    "zh": "我现在会找变量、从表格写方程、看图。"
+   }
+  },
+  {
+   "id": "m9-quiz",
+   "type": "quiz",
+   "part": "M",
+   "timed": false,
+   "shuffle": true,
+   "icon": "🎯",
+   "title": {
+    "en": "Class Quiz: Unit 8 and 9 Test Review",
+    "zh": "课堂小测：第 8、9 单元测验复习"
+   },
+   "subtitle": {
+    "en": "10 questions",
+    "zh": "10 道题"
+   },
+   "intro": {
+    "en": "Practice for Tuesday's test. Show each step, then check.",
+    "zh": "为星期二的测验练习。写出每一步，再检查。"
+   },
+   "questions": [
+    {
+     "q": "x + 12 = 20. x = ?",
+     "options": [
+      "8",
+      "32",
+      "12",
       "20"
      ],
      "answer": 0,
      "why": {
-      "en": "2 parts = 10, so 1 part = 5. All 3 parts: m = 3 × 5 = 15.",
-      "zh": "2 份 = 10，1 份 = 5。3 份：m = 3 × 5 = 15。"
+      "en": "20 − 12 = 8. Check: 8 + 12 = 20.",
+      "zh": "20 − 12 = 8。检查：8 + 12 = 20。"
      }
     },
     {
-     "q": "Choose the correct word: ___ going to the park later.",
+     "q": "p − 9 = 16. p = ?",
      "options": [
-      "Were",
-      "Where",
-      "Wear",
-      "We're"
-     ],
-     "answer": 3,
-     "why": {
-      "en": "We are going: we're.",
-      "zh": "We are going：we're。"
-     }
-    },
-    {
-     "q": "Choose the correct word: I can't find ___ shoes.",
-     "options": [
-      "mine",
-      "me",
-      "my",
-      "I"
-     ],
-     "answer": 2,
-     "why": {
-      "en": "My comes before a noun: my shoes.",
-      "zh": "名词前用 my：my shoes。"
-     }
-    },
-    {
-     "q": "Choose the correct word: The team lost ___ match.",
-     "options": [
-      "its",
-      "it's",
-      "its'",
-      "it is"
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Belongs to it: its. It's = it is.",
-      "zh": "属于它：its。it's = it is。"
-     }
-    },
-    {
-     "q": "Choose the correct word: ___ is your bag? It's over ___.",
-     "options": [
-      "Were ... their",
-      "Where ... there",
-      "Wear ... they're",
-      "We're ... there"
+      "7",
+      "25",
+      "16",
+      "9"
      ],
      "answer": 1,
      "why": {
-      "en": "Where = which place. There = that place.",
-      "zh": "where = 哪里；there = 那里。"
+      "en": "16 + 9 = 25. Check: 25 − 9 = 16.",
+      "zh": "16 + 9 = 25。检查：25 − 9 = 16。"
+     }
+    },
+    {
+     "q": "4a = 20. a = ?",
+     "options": [
+      "16",
+      "24",
+      "5",
+      "80"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "20 ÷ 4 = 5. Check: 4 × 5 = 20.",
+      "zh": "20 ÷ 4 = 5。检查：4 × 5 = 20。"
+     }
+    },
+    {
+     "q": "Which is an inequality?",
+     "options": [
+      "x = 4",
+      "x + 4",
+      "4x",
+      "x ≥ 4"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "An inequality has >, <, ≥ or ≤.",
+      "zh": "不等式有 >、<、≥ 或 ≤。"
+     }
+    },
+    {
+     "q": "\"Fewer than 8 cookies\" is...",
+     "options": [
+      "c > 8",
+      "c < 8",
+      "c ≤ 8",
+      "c ≥ 8"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Fewer than = less than, 8 not included.",
+      "zh": "少于 = 小于，不包括 8。"
+     }
+    },
+    {
+     "q": "Which number is a solution of x ≥ 10?",
+     "options": [
+      "9",
+      "5",
+      "0",
+      "10"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "≥ includes 10 itself.",
+      "zh": "≥ 包括 10。"
+     }
+    },
+    {
+     "q": "Hours studied and test score: the dependent variable is...",
+     "options": [
+      "test score",
+      "hours studied"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The score depends on the hours.",
+      "zh": "分数依赖学习的小时数。"
+     }
+    },
+    {
+     "q": "x: 2, 4, 6. y: 1, 2, 3. The equation is...",
+     "options": [
+      "y = 2x",
+      "y = x − 1",
+      "y = x ÷ 2",
+      "y = x + 2"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Each y is half of x: 2 ÷ 2 = 1, 4 ÷ 2 = 2, 6 ÷ 2 = 3.",
+      "zh": "每个 y 是 x 的一半。"
+     }
+    },
+    {
+     "q": "y = 5x + 1. If x = 3, y = ?",
+     "options": [
+      "15",
+      "16",
+      "9",
+      "53"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "5 × 3 = 15, then 15 + 1 = 16.",
+      "zh": "5 × 3 = 15，再 15 + 1 = 16。"
+     }
+    },
+    {
+     "q": "y = 2x − 5. If x = 6, y = ?",
+     "options": [
+      "7",
+      "17",
+      "1",
+      "12"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "2 × 6 = 12, then 12 − 5 = 7.",
+      "zh": "2 × 6 = 12，再 12 − 5 = 7。"
+     }
+    },
+    {
+     "q": "The graph of y = 3x passes through...",
+     "options": [
+      "(6, 2)",
+      "(3, 1)",
+      "(2, 5)",
+      "(2, 6)"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "x = 2 gives y = 3 × 2 = 6.",
+      "zh": "x = 2 时 y = 3 × 2 = 6。"
+     }
+    },
+    {
+     "q": "Which is the best first step for 3n = 27?",
+     "options": [
+      "subtract 3 from both sides",
+      "multiply both sides by 3",
+      "divide both sides by 3",
+      "add 27 to both sides"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "3n means 3 × n, so undo it with ÷ 3: n = 9.",
+      "zh": "3n 是 3 × n，所以用 ÷ 3 抵消：n = 9。"
      }
     }
    ],
    "canNow": {
-    "en": "I can now solve × and ÷ equations and pick the right sound-alike word.",
-    "zh": "我现在会解乘除方程，并会选对发音相似的词。"
+    "en": "I am ready for the Unit 8 and 9 test.",
+    "zh": "我已经准备好第 8、9 单元测验了。"
    },
-   "part": "M"
-  },
-  {
-   "id": "hw-sun",
-   "type": "hwquiz",
-   "icon": "🏠",
-   "title": {
-    "en": "Sunday Homework: Earth Science Review (S1 to S6)",
-    "zh": "星期天作业：地球科学复习（S1 到 S6）"
-   },
-   "subtitle": {
-    "en": "10 questions, try as often as you like",
-    "zh": "10 道题，可以做很多次"
-   },
-   "intro": {
-    "en": "Look at your Main Book if you need to. You can try again as many times as you like.",
-    "zh": "需要的话看主课本。可以做很多次。"
-   },
-   "questions": [
-    {
-     "q": "Soil is a mixture of...",
-     "options": [
-      "only sand",
-      "only rock",
-      "rock pieces, minerals, organic matter, water and air",
-      "only water and air"
-     ],
-     "answer": 2,
-     "why": {
-      "en": "Soil is a mixture of all of these.",
-      "zh": "土壤是这些东西的混合物。"
-     }
-    },
-    {
-     "q": "The top layer of leaves and twigs is Horizon...",
-     "options": [
-      "A",
-      "B",
-      "C",
-      "O"
-     ],
-     "answer": 3,
-     "why": {
-      "en": "O = organic layer on top.",
-      "zh": "O 层 = 最上面的有机层。"
-     }
-    },
-    {
-     "q": "Erosion means...",
-     "options": [
-      "dropping rock and soil",
-      "carrying rock and soil away",
-      "making new rock",
-      "melting rock"
-     ],
-     "answer": 1,
-     "why": {
-      "en": "Erosion takes away. Deposition drops.",
-      "zh": "侵蚀是带走，沉积是放下。"
-     }
-    },
-    {
-     "q": "A delta forms where a river...",
-     "options": [
-      "starts in the mountains",
-      "freezes",
-      "flows uphill",
-      "meets the ocean and drops its sediment"
-     ],
-     "answer": 3,
-     "why": {
-      "en": "The river slows down at the ocean and drops sediment.",
-      "zh": "河流到海边变慢，放下沉积物。"
-     }
-    },
-    {
-     "q": "A divide is...",
-     "options": [
-      "high land where water runs down one side or the other",
-      "a deep ocean trench",
-      "a type of soil",
-      "a river mouth"
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Rain on a divide flows one way or the other.",
-      "zh": "落在分水岭上的雨会流向一边或另一边。"
-     }
-    },
-    {
-     "q": "Superposition: in undisturbed rock layers, the OLDEST layer is...",
-     "options": [
-      "at the top",
-      "in the middle",
-      "at the bottom",
-      "always missing"
-     ],
-     "answer": 2,
-     "why": {
-      "en": "It was laid down first.",
-      "zh": "它最先形成。"
-     }
-    },
-    {
-     "q": "Magma cuts through rock layers. The magma is...",
-     "options": [
-      "older than the layers",
-      "younger than the layers",
-      "the same age",
-      "a fossil"
-     ],
-     "answer": 1,
-     "why": {
-      "en": "Cross-cutting: the layers had to be there first.",
-      "zh": "交切：岩层必须先存在。"
-     }
-    },
-    {
-     "q": "An unconformity shows that...",
-     "options": [
-      "some rock layers are missing",
-      "the rocks are new",
-      "there was a volcano",
-      "the layers are upside down"
-     ],
-     "answer": 0,
-     "why": {
-      "en": "Erosion removed some layers.",
-      "zh": "侵蚀磨掉了一些岩层。"
-     }
-    },
-    {
-     "q": "Going out from the beach, the order is...",
-     "options": [
-      "slope, shelf, rise, abyssal plain",
-      "abyssal plain, rise, slope, shelf",
-      "rise, shelf, slope, abyssal plain",
-      "shelf, slope, rise, abyssal plain"
-     ],
-     "answer": 3,
-     "why": {
-      "en": "Shelf first (shallow), then down the slope, the rise and the flat abyssal plain.",
-      "zh": "先是大陆架（浅），然后大陆坡、大陆隆和平坦的深海平原。"
-     }
-    },
-    {
-     "q": "Mid-ocean ridges form where plates...",
-     "options": [
-      "come together",
-      "slide past each other",
-      "move apart",
-      "do not move"
-     ],
-     "answer": 2,
-     "why": {
-      "en": "Divergent boundary = plates move apart.",
-      "zh": "离散边界 = 板块分开。"
-     }
-    }
-   ],
-   "canNow": {
-    "en": "I can now remember soil, erosion, rock layers and the ocean floor.",
-    "zh": "我现在记得土壤、侵蚀、岩层和海底。"
-   },
-   "part": "S"
+   "count": 10
   }
  ],
  "reviews": [
