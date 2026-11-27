@@ -447,7 +447,8 @@
      "why": {
       "en": "Narrator = the storyteller.",
       "zh": "叙述者 = 讲故事的人。"
-     }
+     },
+     "textzh": "___ 是讲故事的人。"
     },
     {
      "text": "The words characters say inside speech marks are called ___.",
@@ -455,7 +456,8 @@
      "why": {
       "en": "Dialogue is inside \" \". Cover it first!",
       "zh": "对话在引号里，要先遮住！"
-     }
+     },
+     "textzh": "人物在引号里说的话叫 ___。"
     },
     {
      "text": "I, me and my are clue words for ___ person.",
@@ -463,7 +465,8 @@
      "why": {
       "en": "The narrator is IN the story.",
       "zh": "叙述者在故事里面。"
-     }
+     },
+     "textzh": "I、me 和 my 是第 ___ 人称的线索词。"
     },
     {
      "text": "You and your are clue words for ___ person.",
@@ -471,7 +474,8 @@
      "why": {
       "en": "The narrator talks to you, the reader.",
       "zh": "叙述者对你（读者）说话。"
-     }
+     },
+     "textzh": "You 和 your 是第 ___ 人称的线索词。"
     },
     {
      "text": "He, she, they and names are clue words for ___ person.",
@@ -479,7 +483,8 @@
      "why": {
       "en": "The narrator is outside the story.",
       "zh": "叙述者在故事外面。"
-     }
+     },
+     "textzh": "He、she、they 和名字是第 ___ 人称的线索词。"
     },
     {
      "text": "A narrator who knows NOBODY's feelings, like a camera, is third person ___.",
@@ -487,7 +492,8 @@
      "why": {
       "en": "Objective = camera: only actions.",
       "zh": "客观 = 摄像机：只有动作。"
-     }
+     },
+     "textzh": "不知道任何人感受、像摄像机一样的叙述者是第三人称 ___ 视角。"
     },
     {
      "text": "A narrator who knows the feelings of only ONE character is third person ___.",
@@ -495,7 +501,8 @@
      "why": {
       "en": "Limited = one mind.",
       "zh": "有限 = 一个人的想法。"
-     }
+     },
+     "textzh": "只知道一个人物感受的叙述者是第三人称 ___ 视角。"
     },
     {
      "text": "A narrator who knows EVERYONE's feelings is third person ___.",
@@ -503,7 +510,8 @@
      "why": {
       "en": "Omni = all.",
       "zh": "omni = 全部。"
-     }
+     },
+     "textzh": "知道每个人感受的叙述者是第三人称 ___ 视角。"
     },
     {
      "text": "How a character sees something, because of their own life, is their ___.",
@@ -511,7 +519,8 @@
      "why": {
       "en": "Perspective = HOW they see it.",
       "zh": "看法 = 怎样看。"
-     }
+     },
+     "textzh": "一个人物因为自己的经历而怎样看待事情，叫他的 ___。"
     },
     {
      "text": "The life lesson of a story, with no names, is the ___.",
@@ -519,7 +528,8 @@
      "why": {
       "en": "Theme = the lesson, not a summary.",
       "zh": "主题 = 道理，不是概要。"
-     }
+     },
+     "textzh": "故事的人生道理，没有名字，叫 ___。"
     }
    ],
    "canNow": {
@@ -2007,7 +2017,8 @@
      "check": {
       "expr": "1/2 × 3/4",
       "value": "3/8"
-     }
+     },
+     "qzh": "Daisy 有 3/4 杯珍珠奶茶，她喝了其中的 1/2。她喝了整杯奶茶的几分之几？"
     },
     {
      "section": {
@@ -2068,7 +2079,8 @@
      "check": {
       "expr": "6 ÷ 3/4",
       "value": "8"
-     }
+     },
+     "qzh": "Lily 有 6 米丝带，每个蝴蝶结要 3/4 米。她能做几个蝴蝶结？"
     },
     {
      "section": {
@@ -2133,7 +2145,8 @@
      "check": {
       "expr": "4 × 3/5",
       "value": "2 2/5"
-     }
+     },
+     "qzh": "Emma 每天游 3/5 公里。她 4 天游多远？"
     },
     {
      "section": {
@@ -2198,7 +2211,8 @@
      "check": {
       "expr": "2/3 ÷ 4",
       "value": "1/6"
-     }
+     },
+     "qzh": "4 个朋友平分 2/3 千克坚果。每人分到多少？"
     },
     {
      "section": {
@@ -2254,7 +2268,8 @@
      "check": {
       "expr": "2/5 × 150",
       "value": "60"
-     }
+     },
+     "qzh": "Sophie 有 150 泰铢，她把其中的 2/5 用来买中性笔。她花了多少钱？"
     },
     {
      "section": {
@@ -2315,7 +2330,8 @@
      "check": {
       "expr": "3 ÷ 3/8",
       "value": "8"
-     }
+     },
+     "qzh": "James 为班级聚餐准备了 3 条面包，每个孩子分 3/8 条。几个孩子能分到面包？"
     }
    ],
    "canNow": {
@@ -3795,7 +3811,8 @@
      "why": {
       "en": "Both ... and: it adds them together.",
       "zh": "both ... and：把两个人加在一起。"
-     }
+     },
+     "textzh": "Emma ___ Sophie 都喜欢 K-pop。"
     },
     {
      "text": "Daisy wanted to swim, ___ the pool was closed.",
@@ -3803,7 +3820,8 @@
      "why": {
       "en": "Something different from what she wanted: but.",
       "zh": "和她想要的不一样：but。"
-     }
+     },
+     "textzh": "Daisy 想去游泳，___ 游泳池关门了。"
     },
     {
      "text": "You can pick the red pen ___ the blue pen, but not both.",
@@ -3811,7 +3829,8 @@
      "why": {
       "en": "A choice: or.",
       "zh": "选择：or。"
-     }
+     },
+     "textzh": "你可以选红笔 ___ 蓝笔，但不能两支都要。"
     },
     {
      "text": "It started to rain, ___ we ran inside.",
@@ -3819,7 +3838,8 @@
      "why": {
       "en": "Running inside is the result: so.",
       "zh": "跑进屋是结果：so。"
-     }
+     },
+     "textzh": "开始下雨了，___ 我们跑进了屋里。"
     },
     {
      "text": "Tom was hungry ___ he did not eat breakfast.",
@@ -3827,7 +3847,8 @@
      "why": {
       "en": "It gives the reason: because.",
       "zh": "说原因：because。"
-     }
+     },
+     "textzh": "Tom 很饿，___ 他没吃早饭。"
     },
     {
      "text": "___ it was raining, we still went to the festival.",
@@ -3835,7 +3856,8 @@
      "why": {
       "en": "A surprise: even though it rained, we went.",
       "zh": "意外：虽然下雨，我们还是去了。"
-     }
+     },
+     "textzh": "___ 在下雨，我们还是去了节日活动。"
     },
     {
      "text": "You will get a sticker ___ you finish your work.",
@@ -3843,7 +3865,8 @@
      "why": {
       "en": "A condition: if.",
       "zh": "条件：if。"
-     }
+     },
+     "textzh": "___ 你做完作业，你就会得到一张贴纸。"
     },
     {
      "text": "We waited at the bus stop ___ the bus came.",
@@ -3851,7 +3874,8 @@
      "why": {
       "en": "We waited up to that time: until.",
       "zh": "一直等到那个时候：until。"
-     }
+     },
+     "textzh": "我们在车站等 ___ 公交车来了。"
     },
     {
      "text": "Wash your hands ___ you eat.",
@@ -3859,7 +3883,8 @@
      "why": {
       "en": "First wash, then eat: before.",
       "zh": "先洗手，再吃饭：before。"
-     }
+     },
+     "textzh": "吃饭 ___ 要洗手。"
     },
     {
      "text": "My phone beeps ___ I get a message.",
@@ -3867,7 +3892,8 @@
      "why": {
       "en": "It tells you the time it happens: when.",
       "zh": "说明什么时候发生：when。"
-     }
+     },
+     "textzh": "___ 我收到信息，我的手机就会响。"
     }
    ],
    "canNow": {

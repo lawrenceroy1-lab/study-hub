@@ -428,7 +428,8 @@
      "check": {
       "expr": "4 × 3",
       "value": "12"
-     }
+     },
+     "qzh": "4 个 CO₂ 分子里有几个原子？"
     },
     {
      "section": {
@@ -460,7 +461,8 @@
      "check": {
       "expr": "5 × 4",
       "value": "20"
-     }
+     },
+     "qzh": "5 个 CH₄ 分子里有几个氢原子？"
     },
     {
      "section": {
@@ -492,7 +494,8 @@
      "check": {
       "expr": "3 × 3",
       "value": "9"
-     }
+     },
+     "qzh": "3 个 H₂O 分子里有几个原子？"
     },
     {
      "section": {
@@ -524,7 +527,8 @@
      "check": {
       "expr": "2 × 7",
       "value": "14"
-     }
+     },
+     "qzh": "2 个 H₂SO₄ 分子里有几个原子？"
     },
     {
      "section": {
@@ -556,7 +560,8 @@
      "check": {
       "expr": "3 × 2",
       "value": "6"
-     }
+     },
+     "qzh": "3 个 CO₂ 分子里有几个氧原子？"
     },
     {
      "section": {
@@ -588,7 +593,8 @@
      "check": {
       "expr": "2 × 11",
       "value": "22"
-     }
+     },
+     "qzh": "2 个 C₃H₈ 分子里有几个原子？"
     }
    ],
    "canNow": {
@@ -1001,7 +1007,8 @@
      "check": {
       "expr": "5 + 8",
       "value": "13"
-     }
+     },
+     "qzh": "温度从 -5 °C 升到 8 °C。升高了多少度？"
     },
     {
      "section": {
@@ -1033,7 +1040,8 @@
      "check": {
       "expr": "357 + 39",
       "value": "396"
-     }
+     },
+     "qzh": "汞在 -39 °C 熔化，在 357 °C 沸腾。两个温度相差多少度？"
     },
     {
      "section": {
@@ -1060,7 +1068,8 @@
      "check": {
       "expr": "2.8 - 2.0",
       "value": "0.8"
-     }
+     },
+     "qzh": "铁屑重 2.0 g。反应后，硫化亚铁重 2.8 g。质量增加了多少？"
     },
     {
      "section": {
@@ -1087,7 +1096,8 @@
      "check": {
       "expr": "8.3 - 5.0",
       "value": "3.3"
-     }
+     },
+     "qzh": "5.0 g 镁在空气中加热，生成 8.3 g 氧化镁。有多少氧和镁结合了？"
     }
    ],
    "canNow": {
@@ -1206,51 +1216,63 @@
    "pairs": [
     {
      "a": "wave",
-     "b": "moves energy from place to place"
+     "b": "moves energy from place to place",
+     "bzh": "把能量从一个地方传到另一个地方"
     },
     {
      "a": "transverse wave",
-     "b": "vibrations at 90° to travel"
+     "b": "vibrations at 90° to travel",
+     "bzh": "振动方向和传播方向成 90°"
     },
     {
      "a": "longitudinal wave",
-     "b": "vibrations parallel to travel"
+     "b": "vibrations parallel to travel",
+     "bzh": "振动方向和传播方向平行"
     },
     {
      "a": "amplitude",
-     "b": "rest position to the top"
+     "b": "rest position to the top",
+     "bzh": "从平衡位置到最高点"
     },
     {
      "a": "wavelength",
-     "b": "crest to crest"
+     "b": "crest to crest",
+     "bzh": "波峰到波峰"
     },
     {
      "a": "frequency",
-     "b": "waves passing each second"
+     "b": "waves passing each second",
+     "bzh": "每秒经过的波数"
     },
     {
      "a": "hertz (Hz)",
-     "b": "unit of frequency"
+     "b": "unit of frequency",
+     "bzh": "频率的单位"
     },
     {
      "a": "medium",
-     "b": "material a wave travels through"
+     "b": "material a wave travels through",
+     "bzh": "波传播经过的物质"
     },
     {
      "a": "vibration",
-     "b": "moving back and forth again and again"
+     "b": "moving back and forth again and again",
+     "bzh": "一次又一次地来回运动"
     },
     {
      "a": "vacuum",
-     "b": "space with no particles"
+     "b": "space with no particles",
+     "bzh": "没有粒子的空间"
     },
     {
      "a": "compression",
-     "b": "particles squashed close"
+     "b": "particles squashed close",
+     "bzh": "粒子挤在一起"
     },
     {
      "a": "rarefaction",
-     "b": "particles spread apart"
+     "b": "particles spread apart",
+     "bzh": "粒子分得很开"
     }
    ],
    "canNow": {
@@ -1774,7 +1796,8 @@
      "why": {
       "en": "Waves move energy, not matter.",
       "zh": "波传递能量，不传递物质。"
-     }
+     },
+     "textzh": "波把 ___ 从一个地方传到另一个地方。"
     },
     {
      "text": "In a transverse wave, the vibrations are ___ to the direction of travel.",
@@ -1782,7 +1805,8 @@
      "why": {
       "en": "Transverse = at 90° to the direction of travel.",
       "zh": "横波 = 和传播方向成 90°。"
-     }
+     },
+     "textzh": "横波的振动方向和传播方向是 ___ 的。"
     },
     {
      "text": "In a longitudinal wave, the vibrations are ___ to the direction of travel.",
@@ -1790,7 +1814,8 @@
      "why": {
       "en": "Longitudinal = same direction as the wave travels, like sound.",
       "zh": "纵波 = 和传播方向相同，比如声音。"
-     }
+     },
+     "textzh": "纵波的振动方向和传播方向是 ___ 的。"
     },
     {
      "text": "The ___ is the distance from the rest position to the top of a crest.",
@@ -1798,7 +1823,8 @@
      "why": {
       "en": "Amplitude: rest position to crest, not crest to trough.",
       "zh": "振幅：平衡位置到波峰，不是波峰到波谷。"
-     }
+     },
+     "textzh": "___ 是从平衡位置到波峰顶部的距离。"
     },
     {
      "text": "The distance from one crest to the next crest is the ___.",
@@ -1806,7 +1832,8 @@
      "why": {
       "en": "Wavelength: crest to crest.",
       "zh": "波长：波峰到波峰。"
-     }
+     },
+     "textzh": "从一个波峰到下一个波峰的距离是 ___。"
     },
     {
      "text": "The number of complete waves passing a point each second is the ___.",
@@ -1814,7 +1841,8 @@
      "why": {
       "en": "Frequency = waves per second.",
       "zh": "频率 = 每秒的波数。"
-     }
+     },
+     "textzh": "每秒经过一个点的完整波的数量是 ___。"
     },
     {
      "text": "Frequency is measured in ___ (Hz).",
@@ -1822,7 +1850,8 @@
      "why": {
       "en": "1 hertz = 1 wave per second.",
       "zh": "1 赫兹 = 每秒 1 个波。"
-     }
+     },
+     "textzh": "频率的单位是 ___（Hz）。"
     },
     {
      "text": "Sound cannot travel through a ___ because there are no particles.",
@@ -1830,7 +1859,8 @@
      "why": {
       "en": "Sound needs particles to vibrate. A vacuum has none.",
       "zh": "声音需要粒子振动，真空里没有粒子。"
-     }
+     },
+     "textzh": "声音不能在 ___ 中传播，因为那里没有粒子。"
     },
     {
      "text": "The ___ of a sound depends on its frequency.",
@@ -1838,7 +1868,8 @@
      "why": {
       "en": "Pitch = frequency ONLY.",
       "zh": "音调只看频率。"
-     }
+     },
+     "textzh": "声音的 ___ 取决于它的频率。"
     },
     {
      "text": "The ___ is a thin membrane that vibrates when sound waves reach it.",
@@ -1846,7 +1877,8 @@
      "why": {
       "en": "Sound makes the eardrum vibrate, then the ossicles pass it on.",
       "zh": "声音让鼓膜振动，然后听小骨把振动传下去。"
-     }
+     },
+     "textzh": "___ 是一层薄膜，声波传到时会振动。"
     }
    ],
    "canNow": {
@@ -1890,7 +1922,8 @@
      "why": {
       "en": "One circle = one atom.",
       "zh": "一个圆圈 = 一个原子。"
-     }
+     },
+     "textzh": "元素最小的粒子是 ___。"
     },
     {
      "text": "A substance made of only ONE type of atom is an ___.",
@@ -1898,7 +1931,8 @@
      "why": {
       "en": "Same colour = element.",
       "zh": "颜色相同 = 元素。"
-     }
+     },
+     "textzh": "只由一种原子组成的物质是 ___。"
     },
     {
      "text": "Two or more atoms chemically joined make a ___.",
@@ -1906,7 +1940,8 @@
      "why": {
       "en": "Touching circles = a molecule.",
       "zh": "碰在一起的圆圈 = 分子。"
-     }
+     },
+     "textzh": "两个或更多原子化学结合在一起形成 ___。"
     },
     {
      "text": "DIFFERENT atoms chemically joined make a ___.",
@@ -1914,7 +1949,8 @@
      "why": {
       "en": "Different colours joined = compound.",
       "zh": "不同颜色结合 = 化合物。"
-     }
+     },
+     "textzh": "不同的原子化学结合在一起形成 ___。"
     },
     {
      "text": "Substances mixed but NOT joined make a ___.",
@@ -1922,7 +1958,8 @@
      "why": {
       "en": "Not joined = mixture.",
       "zh": "没有结合 = 混合物。"
-     }
+     },
+     "textzh": "物质混在一起但没有结合，形成 ___。"
     },
     {
      "text": "In a compound, the atoms are chemically ___.",
@@ -1930,7 +1967,8 @@
      "why": {
       "en": "That is why a compound is a new substance.",
       "zh": "所以化合物是新物质。"
-     }
+     },
+     "textzh": "在化合物里，原子是化学 ___ 的。"
     },
     {
      "text": "A mixture can be ___ again, for example with a magnet.",
@@ -1938,7 +1976,8 @@
      "why": {
       "en": "Mixtures are not joined, so they can be separated.",
       "zh": "混合物没有结合，所以能分开。"
-     }
+     },
+     "textzh": "混合物可以再被 ___，比如用磁铁。"
     },
     {
      "text": "One ___ letter in a formula means one element, like O₂.",
@@ -1946,7 +1985,8 @@
      "why": {
       "en": "Count the capital letters.",
       "zh": "数大写字母。"
-     }
+     },
+     "textzh": "化学式里只有一个 ___ 字母表示一种元素，比如 O₂。"
     },
     {
      "text": "A ___ can pull iron filings out of a mixture of iron and sand.",
@@ -1954,7 +1994,8 @@
      "why": {
       "en": "Iron is magnetic. In a mixture it is not joined, so the magnet pulls it out.",
       "zh": "铁有磁性。在混合物里铁没有结合，所以磁铁能把它吸出来。"
-     }
+     },
+     "textzh": "___ 能把铁屑从铁和沙的混合物里吸出来。"
     },
     {
      "text": "Brass is an ___, a mixture of copper and zinc.",
@@ -1962,7 +2003,8 @@
      "why": {
       "en": "Alloys are mixtures of metals.",
       "zh": "合金是金属的混合物。"
-     }
+     },
+     "textzh": "黄铜是一种 ___，是铜和锌的混合物。"
     }
    ],
    "canNow": {
@@ -5398,51 +5440,63 @@
    "pairs": [
     {
      "a": "amplitude",
-     "b": "biggest distance from the resting position"
+     "b": "biggest distance from the resting position",
+     "bzh": "离平衡位置的最大距离"
     },
     {
      "a": "wavelength",
-     "b": "crest to crest distance"
+     "b": "crest to crest distance",
+     "bzh": "波峰到波峰的距离"
     },
     {
      "a": "frequency",
-     "b": "waves passing a point each second"
+     "b": "waves passing a point each second",
+     "bzh": "每秒经过一个点的波数"
     },
     {
      "a": "medium",
-     "b": "the material a wave travels through"
+     "b": "the material a wave travels through",
+     "bzh": "波传播经过的物质"
     },
     {
      "a": "vacuum",
-     "b": "a space with no particles"
+     "b": "a space with no particles",
+     "bzh": "没有粒子的空间"
     },
     {
      "a": "compression",
-     "b": "particles close together"
+     "b": "particles close together",
+     "bzh": "粒子靠得很近"
     },
     {
      "a": "rarefaction",
-     "b": "particles spread apart"
+     "b": "particles spread apart",
+     "bzh": "粒子分得很开"
     },
     {
      "a": "pitch",
-     "b": "how high or low a sound is"
+     "b": "how high or low a sound is",
+     "bzh": "声音有多高或多低"
     },
     {
      "a": "ultrasound",
-     "b": "above 20,000 Hz"
+     "b": "above 20,000 Hz",
+     "bzh": "高于 20,000 Hz"
     },
     {
      "a": "infrasound",
-     "b": "below 20 Hz"
+     "b": "below 20 Hz",
+     "bzh": "低于 20 Hz"
     },
     {
      "a": "cochlea",
-     "b": "spiral part that makes electrical signals"
+     "b": "spiral part that makes electrical signals",
+     "bzh": "螺旋形的部分，产生电信号"
     },
     {
      "a": "ossicles",
-     "b": "three tiny bones in the middle ear"
+     "b": "three tiny bones in the middle ear",
+     "bzh": "中耳里的三块小骨头"
     }
    ],
    "canNow": {
@@ -5466,51 +5520,63 @@
    "pairs": [
     {
      "a": "transparent",
-     "b": "light passes through clearly"
+     "b": "light passes through clearly",
+     "bzh": "光能清楚地穿过"
     },
     {
      "a": "translucent",
-     "b": "light passes through but scatters"
+     "b": "light passes through but scatters",
+     "bzh": "光能穿过但会散开"
     },
     {
      "a": "opaque",
-     "b": "no light passes through"
+     "b": "no light passes through",
+     "bzh": "光完全不能穿过"
     },
     {
      "a": "luminous",
-     "b": "makes its own light"
+     "b": "makes its own light",
+     "bzh": "自己会发光"
     },
     {
      "a": "normal",
-     "b": "line at 90° to the surface"
+     "b": "line at 90° to the surface",
+     "bzh": "和表面成 90° 的线"
     },
     {
      "a": "dispersion",
-     "b": "white light splits into colours"
+     "b": "white light splits into colours",
+     "bzh": "白光分成各种颜色"
     },
     {
      "a": "absorb",
-     "b": "take in the light energy"
+     "b": "take in the light energy",
+     "bzh": "把光能吸收进去"
     },
     {
      "a": "infrared",
-     "b": "heat, remote controls"
+     "b": "heat, remote controls",
+     "bzh": "热、遥控器"
     },
     {
      "a": "microwave",
-     "b": "cooking, radar, satellites"
+     "b": "cooking, radar, satellites",
+     "bzh": "做饭、雷达、卫星"
     },
     {
      "a": "x-ray",
-     "b": "medical images through soft tissue"
+     "b": "medical images through soft tissue",
+     "bzh": "穿过软组织拍医学影像"
     },
     {
      "a": "gamma ray",
-     "b": "cancer treatment"
+     "b": "cancer treatment",
+     "bzh": "治疗癌症"
     },
     {
      "a": "ultraviolet (uv)",
-     "b": "causes sunburn"
+     "b": "causes sunburn",
+     "bzh": "造成晒伤"
     }
    ],
    "canNow": {
@@ -5554,7 +5620,8 @@
      "why": {
       "en": "Transverse = at 90° (perpendicular).",
       "zh": "横波 = 垂直（90°）。"
-     }
+     },
+     "textzh": "横波的振动方向和传播方向是 ___ 的。"
     },
     {
      "text": "A longitudinal wave vibrates ___ to the direction of travel.",
@@ -5562,7 +5629,8 @@
      "why": {
       "en": "Longitudinal = along the same line (parallel).",
       "zh": "纵波 = 在同一条线上（平行）。"
-     }
+     },
+     "textzh": "纵波的振动方向和传播方向是 ___ 的。"
     },
     {
      "text": "Frequency is measured in ___.",
@@ -5570,7 +5638,8 @@
      "why": {
       "en": "1 Hz = one wave per second.",
       "zh": "1 Hz = 每秒一个波。"
-     }
+     },
+     "textzh": "频率的单位是 ___。"
     },
     {
      "text": "Sound cannot travel through a ___ because there are no particles.",
@@ -5578,7 +5647,8 @@
      "why": {
       "en": "Sound needs a medium. A vacuum has no particles.",
       "zh": "声音需要介质，真空里没有粒子。"
-     }
+     },
+     "textzh": "声音不能在 ___ 中传播，因为那里没有粒子。"
     },
     {
      "text": "In a longitudinal wave, a ___ is where the particles are close together.",
@@ -5586,7 +5656,8 @@
      "why": {
       "en": "Compression = squashed together.",
       "zh": "密部 = 挤在一起。"
-     }
+     },
+     "textzh": "在纵波里，___ 是粒子挤在一起的地方。"
     },
     {
      "text": "The ___ of a sound depends on its frequency.",
@@ -5594,7 +5665,8 @@
      "why": {
       "en": "High frequency = high pitch.",
       "zh": "频率高 = 音调高。"
-     }
+     },
+     "textzh": "声音的 ___ 取决于它的频率。"
     },
     {
      "text": "Sound level is measured in ___.",
@@ -5602,7 +5674,8 @@
      "why": {
       "en": "The unit is the decibel (dB).",
       "zh": "单位是分贝 (dB)。"
-     }
+     },
+     "textzh": "声音的大小用 ___ 来测量。"
     },
     {
      "text": "Humans can hear from about 20 Hz to 20,000 Hz. This is the ___ range.",
@@ -5610,7 +5683,8 @@
      "why": {
       "en": "Audible = can be heard.",
       "zh": "audible = 能听到。"
-     }
+     },
+     "textzh": "人能听到大约 20 Hz 到 20,000 Hz 的声音。这是人的 ___ 范围。"
     },
     {
      "text": "Bats find food using ___: they listen for reflected sound.",
@@ -5618,7 +5692,8 @@
      "why": {
       "en": "Echo + location: using echoes to find where things are.",
       "zh": "回声 + 定位：用回声找到东西在哪里。"
-     }
+     },
+     "textzh": "蝙蝠用 ___ 找食物：它们听反射回来的声音。"
     },
     {
      "text": "The ___ is a thin membrane that vibrates when sound reaches it.",
@@ -5626,7 +5701,8 @@
      "why": {
       "en": "The eardrum passes the vibrations to the ossicles.",
       "zh": "鼓膜把振动传给听小骨。"
-     }
+     },
+     "textzh": "___ 是一层薄膜，声音传到时会振动。"
     }
    ],
    "canNow": {
@@ -5670,7 +5746,8 @@
      "why": {
       "en": "Light passes but scatters: translucent.",
       "zh": "光能通过但会散开：半透明。"
-     }
+     },
+     "textzh": "磨砂玻璃是 ___ 的：光能透过，但看不清楚。"
     },
     {
      "text": "The Sun is ___ because it makes its own light.",
@@ -5678,7 +5755,8 @@
      "why": {
       "en": "Luminous = produces its own light.",
       "zh": "发光的 = 自己发光。"
-     }
+     },
+     "textzh": "太阳是 ___ 的，因为它自己发光。"
     },
     {
      "text": "The Moon is ___: we see it because it reflects the Sun's light.",
@@ -5686,7 +5764,8 @@
      "why": {
       "en": "It does not make its own light.",
       "zh": "它自己不发光。"
-     }
+     },
+     "textzh": "月亮是 ___ 的：我们看到它是因为它反射太阳光。"
     },
     {
      "text": "In a plane mirror, your writing looks back to front. The image is laterally ___.",
@@ -5694,7 +5773,8 @@
      "why": {
       "en": "Laterally inverted = reversed left to right.",
       "zh": "左右颠倒 = 左右反过来。"
-     }
+     },
+     "textzh": "在平面镜里，你写的字看起来是反的。这个像是左右 ___ 的。"
     },
     {
      "text": "The angle of incidence and the angle of reflection are both measured from the ___.",
@@ -5702,7 +5782,8 @@
      "why": {
       "en": "Always measure from the normal, the 90° line.",
       "zh": "总是从法线（90° 的线）开始量。"
-     }
+     },
+     "textzh": "入射角和反射角都是从 ___ 量起的。"
     },
     {
      "text": "Light bends when it goes from air into water. This is called ___.",
@@ -5710,7 +5791,8 @@
      "why": {
       "en": "Its speed changes, so its direction changes.",
       "zh": "速度改变，所以方向改变。"
-     }
+     },
+     "textzh": "光从空气进入水中时会弯折。这叫 ___。"
     },
     {
      "text": "A prism splits white light into colours. This is called ___.",
@@ -5718,7 +5800,8 @@
      "why": {
       "en": "Dispersion = separating white light into colours.",
       "zh": "色散 = 白光分成各种颜色。"
-     }
+     },
+     "textzh": "棱镜把白光分成各种颜色。这叫 ___。"
     },
     {
      "text": "A black T-shirt gets hot in the sun because it ___ all the colours of light.",
@@ -5726,7 +5809,8 @@
      "why": {
       "en": "Black takes in all the light energy.",
       "zh": "黑色把所有光能吸进去。"
-     }
+     },
+     "textzh": "黑 T 恤在太阳下会变热，因为它 ___ 了所有颜色的光。"
     },
     {
      "text": "Remote controls and thermal cameras use ___.",
@@ -5734,7 +5818,8 @@
      "why": {
       "en": "Infrared is linked to heat.",
       "zh": "红外线和热有关。"
-     }
+     },
+     "textzh": "遥控器和热成像相机用的是 ___。"
     },
     {
      "text": "___ radiation has enough energy to remove electrons from atoms.",
@@ -5742,7 +5827,8 @@
      "why": {
       "en": "Ionising radiation can damage cells and DNA.",
       "zh": "电离辐射可能伤害细胞和 DNA。"
-     }
+     },
+     "textzh": "___ 辐射的能量大到能把电子从原子里打出来。"
     }
    ],
    "canNow": {
@@ -7812,7 +7898,8 @@
      "why": {
       "en": "Incident = coming in.",
       "zh": "入射 = 射进来。"
-     }
+     },
+     "textzh": "___ 光线射向镜子。"
     },
     {
      "text": "The ___ ray bounces off the mirror.",
@@ -7820,7 +7907,8 @@
      "why": {
       "en": "Reflected = bounced off.",
       "zh": "反射 = 弹出去。"
-     }
+     },
+     "textzh": "___ 光线从镜子上反弹回来。"
     },
     {
      "text": "The ___ is a dashed line at 90° to the mirror.",
@@ -7828,7 +7916,8 @@
      "why": {
       "en": "Draw the normal first.",
       "zh": "先画法线。"
-     }
+     },
+     "textzh": "___ 是一条和镜子成 90° 的虚线。"
     },
     {
      "text": "The angle of incidence is ___ to the angle of reflection.",
@@ -7836,7 +7925,8 @@
      "why": {
       "en": "Law of reflection.",
       "zh": "反射定律。"
-     }
+     },
+     "textzh": "入射角 ___ 反射角。"
     },
     {
      "text": "A flat mirror is called a ___ mirror.",
@@ -7844,7 +7934,8 @@
      "why": {
       "en": "Plane = flat.",
       "zh": "plane = 平的。"
-     }
+     },
+     "textzh": "平的镜子叫 ___ 镜。"
     },
     {
      "text": "Mirror writing looks back to front because the image is laterally ___.",
@@ -7852,7 +7943,8 @@
      "why": {
       "en": "Reversed left to right.",
       "zh": "左右反过来。"
-     }
+     },
+     "textzh": "镜子里的字看起来是反的，因为像是左右 ___ 的。"
     },
     {
      "text": "A material that lets light through clearly is ___.",
@@ -7860,7 +7952,8 @@
      "why": {
       "en": "You can see through it clearly.",
       "zh": "可以清楚地看过去。"
-     }
+     },
+     "textzh": "让光清楚地穿过的材料是 ___ 的。"
     },
     {
      "text": "A material that lets NO light through is ___.",
@@ -7868,7 +7961,8 @@
      "why": {
       "en": "Opaque blocks light and makes shadows.",
       "zh": "不透明的物体挡住光，形成影子。"
-     }
+     },
+     "textzh": "一点光都不让通过的材料是 ___ 的。"
     }
    ],
    "canNow": {

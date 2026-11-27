@@ -252,47 +252,58 @@
    "pairs": [
     {
      "a": "ecologist",
-     "b": "studies how living things and nature are connected"
+     "b": "studies how living things and nature are connected",
+     "bzh": "研究生物和自然怎样联系在一起"
     },
     {
      "a": "shell",
-     "b": "a hard outer covering"
+     "b": "a hard outer covering",
+     "bzh": "硬硬的外壳"
     },
     {
      "a": "dissolve",
-     "b": "to mix into a liquid and disappear"
+     "b": "to mix into a liquid and disappear",
+     "bzh": "溶进液体里不见了"
     },
     {
      "a": "venom",
-     "b": "poison from a snake or insect"
+     "b": "poison from a snake or insect",
+     "bzh": "蛇或昆虫的毒"
     },
     {
      "a": "personality",
-     "b": "the type of person you are"
+     "b": "the type of person you are",
+     "bzh": "你是什么样的人（性格）"
     },
     {
      "a": "saltwater",
-     "b": "found in sea water"
+     "b": "found in sea water",
+     "bzh": "在海水里找到的"
     },
     {
      "a": "classify",
-     "b": "to put things into groups"
+     "b": "to put things into groups",
+     "bzh": "把东西分组"
     },
     {
      "a": "coral",
-     "b": "rock-like thing made by tiny sea animals"
+     "b": "rock-like thing made by tiny sea animals",
+     "bzh": "由小小的海洋动物形成的、像石头一样的东西"
     },
     {
      "a": "disruption",
-     "b": "something that stops things going as normal"
+     "b": "something that stops things going as normal",
+     "bzh": "让事情不能照常进行的东西"
     },
     {
      "a": "confident",
-     "b": "sure of yourself"
+     "b": "sure of yourself",
+     "bzh": "对自己有信心"
     },
     {
      "a": "perplexing",
-     "b": "confusing, hard to solve"
+     "b": "confusing, hard to solve",
+     "bzh": "让人困惑、很难解决"
     },
     {
      "a": "billion",
@@ -300,15 +311,18 @@
     },
     {
      "a": "neurons",
-     "b": "nerve cells that carry messages"
+     "b": "nerve cells that carry messages",
+     "bzh": "传递信息的神经细胞"
     },
     {
      "a": "captivity",
-     "b": "kept somewhere and not allowed to leave"
+     "b": "kept somewhere and not allowed to leave",
+     "bzh": "被关在某个地方，不能离开"
     },
     {
      "a": "female",
-     "b": "a girl, a woman or a mother animal"
+     "b": "a girl, a woman or a mother animal",
+     "bzh": "女孩、女人或雌性动物"
     }
    ],
    "canNow": {
@@ -741,7 +755,8 @@
       "expr": "35 ÷ 5",
       "value": "7"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 5k = 35"
     },
     {
      "section": {
@@ -784,7 +799,8 @@
       "expr": "8 × 3",
       "value": "24"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 y ÷ 3 = 8"
     },
     {
      "section": {
@@ -827,7 +843,8 @@
       "expr": "72 ÷ 9",
       "value": "8"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 9p = 72"
     },
     {
      "section": {
@@ -870,7 +887,8 @@
       "expr": "7 × 6",
       "value": "42"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 w ÷ 6 = 7"
     },
     {
      "section": {
@@ -913,7 +931,8 @@
       "expr": "144 ÷ 12",
       "value": "12"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 12a = 144"
     },
     {
      "section": {
@@ -956,7 +975,8 @@
       "expr": "150 ÷ 6",
       "value": "25"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 150 = 6m"
     },
     {
      "section": {
@@ -999,7 +1019,8 @@
       "expr": "14.7 × 7",
       "value": "102.9"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 14.7 = b ÷ 7"
     },
     {
      "section": {
@@ -1045,7 +1066,8 @@
      "check": {
       "expr": "4,200 ÷ 14",
       "value": "300"
-     }
+     },
+     "qzh": "Mia 跑了 14 圈，一共跑了 4,200 米。一圈有多长？用 14d = 4,200。"
     },
     {
      "section": {
@@ -1091,7 +1113,8 @@
      "check": {
       "expr": "60 ÷ 4",
       "value": "15"
-     }
+     },
+     "qzh": "Emma 花 60 泰铢买了 4 本笔记本，每本 p 泰铢。求 p。"
     },
     {
      "section": {
@@ -1138,7 +1161,8 @@
       "expr": "14.4 ÷ 6",
       "value": "2.4"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "Lucy 这样解 6w = 14.4：6w ÷ 6 = 14.4 × 6。她哪里做错了？求 w。"
     }
    ],
    "canNow": {
@@ -1206,7 +1230,8 @@
       "expr": "10 ÷ 2.5",
       "value": "4"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 2.5m = 10"
     },
     {
      "section": {
@@ -1250,7 +1275,8 @@
       "expr": "7 ÷ 0.5",
       "value": "14"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 0.5x = 7"
     },
     {
      "section": {
@@ -1293,7 +1319,8 @@
       "expr": "1.3 × 4",
       "value": "5.2"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 1.3 = c ÷ 4"
     },
     {
      "section": {
@@ -1352,7 +1379,8 @@
       "expr": "9 ÷ 3 × 5",
       "value": "15"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 3/5 s = 9"
     },
     {
      "section": {
@@ -1410,7 +1438,8 @@
       "expr": "5 ÷ 1 × 4",
       "value": "20"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 1/4 k = 5"
     },
     {
      "section": {
@@ -1469,7 +1498,8 @@
       "expr": "10 ÷ 2 × 3",
       "value": "15"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 2/3 n = 10"
     },
     {
      "section": {
@@ -1528,7 +1558,8 @@
       "expr": "12 ÷ 3 × 4",
       "value": "16"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 3/4 b = 12"
     },
     {
      "section": {
@@ -1586,7 +1617,8 @@
       "expr": "15 ÷ 1 × 3",
       "value": "45"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 1/3 n = 15"
     },
     {
      "section": {
@@ -1648,7 +1680,8 @@
      "check": {
       "expr": "600 ÷ 3 × 4",
       "value": "800"
-     }
+     },
+     "qzh": "Sophie 跑了比赛全程的 3/4，跑了 600 米。全程有多长？用 3/4 r = 600。"
     },
     {
      "section": {
@@ -1707,7 +1740,8 @@
       "expr": "1/4 ÷ 2 × 3",
       "value": "3/8"
      },
-     "noUnit": true
+     "noUnit": true,
+     "qzh": "解方程 2/3 n = 1/4"
     }
    ],
    "canNow": {

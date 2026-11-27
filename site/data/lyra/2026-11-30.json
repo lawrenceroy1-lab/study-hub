@@ -679,43 +679,53 @@
    "pairs": [
     {
      "a": "radio wave",
-     "b": "radio and TV"
+     "b": "radio and TV",
+     "bzh": "广播和电视"
     },
     {
      "a": "microwave",
-     "b": "cooking and radar"
+     "b": "cooking and radar",
+     "bzh": "做饭和雷达"
     },
     {
      "a": "infrared",
-     "b": "heat and remote controls"
+     "b": "heat and remote controls",
+     "bzh": "热和遥控器"
     },
     {
      "a": "visible light",
-     "b": "seen by the eye"
+     "b": "seen by the eye",
+     "bzh": "眼睛能看见"
     },
     {
      "a": "ultraviolet",
-     "b": "sunburn"
+     "b": "sunburn",
+     "bzh": "晒伤"
     },
     {
      "a": "X-ray",
-     "b": "medical images of bones"
+     "b": "medical images of bones",
+     "bzh": "拍骨头的医学影像"
     },
     {
      "a": "gamma ray",
-     "b": "cancer treatment"
+     "b": "cancer treatment",
+     "bzh": "治疗癌症"
     },
     {
      "a": "ionising radiation",
-     "b": "removes electrons from atoms"
+     "b": "removes electrons from atoms",
+     "bzh": "把电子从原子里打出来"
     },
     {
      "a": "EM wave",
-     "b": "travels through a vacuum"
+     "b": "travels through a vacuum",
+     "bzh": "能在真空中传播"
     },
     {
      "a": "EM spectrum",
-     "b": "the complete range"
+     "b": "the complete range",
+     "bzh": "完整的范围"
     }
    ],
    "canNow": {

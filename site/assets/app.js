@@ -1116,7 +1116,7 @@
     var bestKey = key('best_' + ctx.week + '_' + a.id);
     function game() {
       var n = Math.min(a.size || 6, a.pairs.length);
-      var pairs = shuffle(a.pairs.slice()).slice(0, n).map(function (p, idx) { return { id: idx, a: p.a, b: p.b }; });
+      var pairs = shuffle(a.pairs.slice()).slice(0, n).map(function (p, idx) { return { id: idx, a: p.a, b: p.b, bzh: p.bzh }; });
       var left = shuffle(pairs.slice()), right = shuffle(pairs.slice());
       var sel = null, matched = 0, mistakes = 0, missed = [], t0 = Date.now(), timer;
       clear(area);
@@ -1136,7 +1136,7 @@
       S.cleanup = function () { clearInterval(timer); };
       function makeTile(p, kind) {
         var t = { p: p, kind: kind, done: false };
-        t.el = h('button', { class: 'mtile ' + kind, onclick: function () { tap(t); } }, kind === 'term' ? p.a : p.b);
+        t.el = h('button', { class: 'mtile ' + kind, onclick: function () { tap(t); } }, kind === 'term' ? p.a : h('span', null, p.b, p.bzh && dual() ? h('span', { class: 'zh-sub', lang: 'zh' }, p.bzh) : null));
         return t;
       }
       function tap(t) {
@@ -2470,7 +2470,7 @@
       add(area, h('div', { class: 'card' },
         numStrip(st.items.length, i, function (k) { return st.ans[k] == null ? '' : isOk(k) ? 'ok' : 'bad'; }, go),
         h('div', { class: 'stats' }, h('span', null, (i + 1) + ' / ' + st.items.length)),
-        h('div', { class: 'box q' }, parts[0], blank, parts.slice(1).join('___')),
+        h('div', { class: 'box q' }, parts[0], blank, parts.slice(1).join('___'), it.textzh && dual() ? h('span', { class: 'zh-sub', lang: 'zh' }, String(it.textzh).replace(/___/g, '？')) : null),
         h('div', { class: 'muted small' }, L('Tap the missing word:', '点出缺少的词：')),
         h('div', { class: 'chips' }, chips), fb));
       if (st.ans[i] != null) result();

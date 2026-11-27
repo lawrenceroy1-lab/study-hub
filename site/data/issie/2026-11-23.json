@@ -280,55 +280,68 @@
    "pairs": [
     {
      "a": "soil",
-     "b": "a mixture of rock pieces, minerals and organic matter"
+     "b": "a mixture of rock pieces, minerals and organic matter",
+     "bzh": "岩石碎屑、矿物质和有机物的混合物"
     },
     {
      "a": "weathering",
-     "b": "rocks breaking into smaller pieces"
+     "b": "rocks breaking into smaller pieces",
+     "bzh": "岩石碎成更小的块（风化）"
     },
     {
      "a": "humus",
-     "b": "organic material in soil from decaying plants and animals"
+     "b": "organic material in soil from decaying plants and animals",
+     "bzh": "土壤里来自腐烂动植物的有机物"
     },
     {
      "a": "horizon",
-     "b": "one layer of soil"
+     "b": "one layer of soil",
+     "bzh": "一层土壤"
     },
     {
      "a": "topsoil",
-     "b": "Horizon A: loose soil rich in humus"
+     "b": "Horizon A: loose soil rich in humus",
+     "bzh": "A 层：疏松、富含腐殖质的土"
     },
     {
      "a": "subsoil",
-     "b": "Horizon B: minerals washed down, and clay"
+     "b": "Horizon B: minerals washed down, and clay",
+     "bzh": "B 层：被冲下来的矿物质和黏土"
     },
     {
      "a": "erosion",
-     "b": "moving rock and soil away to another place"
+     "b": "moving rock and soil away to another place",
+     "bzh": "把岩石和泥土搬到别的地方"
     },
     {
      "a": "deposition",
-     "b": "dropping rock and soil in a new place"
+     "b": "dropping rock and soil in a new place",
+     "bzh": "把岩石和泥土放到新的地方"
     },
     {
      "a": "sediment",
-     "b": "small pieces of rock and soil that get carried"
+     "b": "small pieces of rock and soil that get carried",
+     "bzh": "被带走的岩石和泥土小碎块"
     },
     {
      "a": "delta",
-     "b": "sediment a river drops where it meets the ocean"
+     "b": "sediment a river drops where it meets the ocean",
+     "bzh": "河流在入海处放下的沉积物"
     },
     {
      "a": "glacier",
-     "b": "a river or sheet of ice that lasts all year"
+     "b": "a river or sheet of ice that lasts all year",
+     "bzh": "一年到头都在的冰河或冰原"
     },
     {
      "a": "divide",
-     "b": "high land where water runs down one side or the other"
+     "b": "high land where water runs down one side or the other",
+     "bzh": "高地，水从它的一边或另一边流下去"
     },
     {
      "a": "drainage basin",
-     "b": "all the land where water flows to one river (watershed)"
+     "b": "all the land where water flows to one river (watershed)",
+     "bzh": "所有流进同一条河的土地（集水区）"
     }
    ]
   },
@@ -746,7 +759,8 @@
      "why": {
       "en": "Toward the speaker (to me): bring.",
       "zh": "拿到说话人这里：bring。"
-     }
+     },
+     "textzh": "请把你的书 ___ 到我这里来。"
     },
     {
      "text": "Don't forget to ___ your umbrella when you go to school.",
@@ -754,7 +768,8 @@
      "why": {
       "en": "Away from home: take.",
       "zh": "从家里带走：take。"
-     }
+     },
+     "textzh": "去学校的时候别忘了 ___ 你的雨伞。"
     },
     {
      "text": "There were ___ students in class today because of the rain.",
@@ -762,7 +777,8 @@
      "why": {
       "en": "You can count students: fewer.",
       "zh": "学生可以数：fewer。"
-     }
+     },
+     "textzh": "因为下雨，今天班上的学生 ___ 了。"
     },
     {
      "text": "I drink ___ milk than my brother.",
@@ -770,7 +786,8 @@
      "why": {
       "en": "You cannot count milk: less.",
       "zh": "牛奶不能一个一个数：less。"
-     }
+     },
+     "textzh": "我喝的牛奶比我弟弟 ___。"
     },
     {
      "text": "Lily is taller ___ Tom.",
@@ -778,7 +795,8 @@
      "why": {
       "en": "Comparing two people: than.",
       "zh": "比较两个人：than。"
-     }
+     },
+     "textzh": "Lily 比 Tom 高。（Lily is taller ___ Tom.）"
     },
     {
      "text": "We ate lunch, and ___ we went swimming.",
@@ -786,7 +804,8 @@
      "why": {
       "en": "What happened next (time): then.",
       "zh": "接下来发生的事（时间）：then。"
-     }
+     },
+     "textzh": "我们吃了午饭，___ 去游泳了。"
     },
     {
      "text": "Emma was happy to ___ the gift from her friend.",
@@ -794,7 +813,8 @@
      "why": {
       "en": "Take it and say yes: accept.",
       "zh": "接受：accept。"
-     }
+     },
+     "textzh": "Emma 很高兴 ___ 朋友送的礼物。"
     },
     {
      "text": "Everyone came to the party ___ James, who was ill.",
@@ -802,7 +822,8 @@
      "why": {
       "en": "But not James: except.",
       "zh": "除了 James：except。"
-     }
+     },
+     "textzh": "除了生病的 James，大家都来参加了聚会。（Everyone came ___ James.）"
     },
     {
      "text": "The bus had ___ left when we got to the stop.",
@@ -810,7 +831,8 @@
      "why": {
       "en": "Before now: already (one word).",
       "zh": "已经：already（一个词）。"
-     }
+     },
+     "textzh": "我们到车站的时候，公交车 ___ 开走了。"
     },
     {
      "text": "The cat sat ___ the two chairs.",
@@ -818,7 +840,8 @@
      "why": {
       "en": "Two things: between.",
       "zh": "两样东西之间：between。"
-     }
+     },
+     "textzh": "猫坐在两把椅子 ___。"
     }
    ]
   },
@@ -931,55 +954,68 @@
    "pairs": [
     {
      "a": "uniformitarianism",
-     "b": "the processes changing Earth today are the same as in the past"
+     "b": "the processes changing Earth today are the same as in the past",
+     "bzh": "今天改变地球的过程和过去一样"
     },
     {
      "a": "sedimentary rock",
-     "b": "rock made from layers of sediment pressed together"
+     "b": "rock made from layers of sediment pressed together",
+     "bzh": "由沉积层压在一起形成的岩石"
     },
     {
      "a": "superposition",
-     "b": "lower rock layers are older than the layers above them"
+     "b": "lower rock layers are older than the layers above them",
+     "bzh": "下面的岩层比上面的岩层老"
     },
     {
      "a": "magma",
-     "b": "molten (melted) rock under the ground"
+     "b": "molten (melted) rock under the ground",
+     "bzh": "地下熔化的岩石"
     },
     {
      "a": "cross-cutting relationships",
-     "b": "something that cuts through layers is younger than them"
+     "b": "something that cuts through layers is younger than them",
+     "bzh": "切穿岩层的东西比这些岩层年轻"
     },
     {
      "a": "unconformity",
-     "b": "a place where rock layers are missing"
+     "b": "a place where rock layers are missing",
+     "bzh": "岩层缺失的地方"
     },
     {
      "a": "cross-section",
-     "b": "a cutaway view of the rocks in one place"
+     "b": "a cutaway view of the rocks in one place",
+     "bzh": "一个地方岩石的剖面图"
     },
     {
      "a": "continental shelf",
-     "b": "gentle sea floor nearest the shore, up to about 200 m deep"
+     "b": "gentle sea floor nearest the shore, up to about 200 m deep",
+     "bzh": "靠近海岸、坡度平缓的海底，深到约 200 米"
     },
     {
      "a": "continental slope",
-     "b": "steep drop down to about 4000 m deep"
+     "b": "steep drop down to about 4000 m deep",
+     "bzh": "陡峭的下坡，深到约 4000 米"
     },
     {
      "a": "continental rise",
-     "b": "level part at the bottom of the slope, covered in sediment"
+     "b": "level part at the bottom of the slope, covered in sediment",
+     "bzh": "坡底平坦的部分，盖满沉积物"
     },
     {
      "a": "abyssal plain",
-     "b": "the deep, flat ocean floor"
+     "b": "the deep, flat ocean floor",
+     "bzh": "又深又平的海底"
     },
     {
      "a": "deep-sea trench",
-     "b": "the lowest places on Earth, at convergent boundaries"
+     "b": "the lowest places on Earth, at convergent boundaries",
+     "bzh": "地球上最低的地方，在汇聚边界"
     },
     {
      "a": "mid-ocean ridge",
-     "b": "long underwater mountain chain at divergent boundaries"
+     "b": "long underwater mountain chain at divergent boundaries",
+     "bzh": "在分离边界的长长的海底山脉"
     }
    ]
   },
@@ -2940,43 +2976,53 @@
    "pairs": [
     {
      "a": "weather",
-     "b": "today"
+     "b": "today",
+     "bzh": "今天"
     },
     {
      "a": "climate",
-     "b": "many years"
+     "b": "many years",
+     "bzh": "很多年"
     },
     {
      "a": "maritime",
-     "b": "wet, over the ocean"
+     "b": "wet, over the ocean",
+     "bzh": "湿的，在海上"
     },
     {
      "a": "continental",
-     "b": "dry, over land"
+     "b": "dry, over land",
+     "bzh": "干的，在陆地上"
     },
     {
      "a": "tropical",
-     "b": "hot, near the equator"
+     "b": "hot, near the equator",
+     "bzh": "热的，靠近赤道"
     },
     {
      "a": "polar",
-     "b": "cold, near the poles"
+     "b": "cold, near the poles",
+     "bzh": "冷的，靠近两极"
     },
     {
      "a": "cold front",
-     "b": "the bulldozer: sudden storms"
+     "b": "the bulldozer: sudden storms",
+     "bzh": "推土机：突然的暴风雨"
     },
     {
      "a": "warm front",
-     "b": "the ramp: gentle rain"
+     "b": "the ramp: gentle rain",
+     "bzh": "斜坡：温和的雨"
     },
     {
      "a": "condensation",
-     "b": "gas turns into liquid drops"
+     "b": "gas turns into liquid drops",
+     "bzh": "气体变成小水滴"
     },
     {
      "a": "cumulus",
-     "b": "puffy cotton-ball clouds"
+     "b": "puffy cotton-ball clouds",
+     "bzh": "蓬松的棉花团一样的云"
     }
    ],
    "canNow": {

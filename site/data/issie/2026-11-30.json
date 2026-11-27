@@ -261,43 +261,53 @@
    "pairs": [
     {
      "a": "air pressure",
-     "b": "air pushing down"
+     "b": "air pushing down",
+     "bzh": "空气往下压"
     },
     {
      "a": "high pressure",
-     "b": "clear skies"
+     "b": "clear skies",
+     "bzh": "晴朗的天空"
     },
     {
      "a": "low pressure",
-     "b": "clouds and rain"
+     "b": "clouds and rain",
+     "bzh": "云和雨"
     },
     {
      "a": "wind",
-     "b": "high to low"
+     "b": "high to low",
+     "bzh": "从高到低"
     },
     {
      "a": "isobar",
-     "b": "same pressure line"
+     "b": "same pressure line",
+     "bzh": "气压相同的线"
     },
     {
      "a": "station model",
-     "b": "weather selfie"
+     "b": "weather selfie",
+     "bzh": "天气自拍"
     },
     {
      "a": "weather map",
-     "b": "group photo"
+     "b": "group photo",
+     "bzh": "合照"
     },
     {
      "a": "humidity",
-     "b": "water vapour in the air"
+     "b": "water vapour in the air",
+     "bzh": "空气中的水蒸气"
     },
     {
      "a": "relative humidity",
-     "b": "how full (%)"
+     "b": "how full (%)",
+     "bzh": "有多满（%）"
     },
     {
      "a": "dew point",
-     "b": "air is full, drops form"
+     "b": "air is full, drops form",
+     "bzh": "空气满了，形成水滴"
     }
    ],
    "canNow": {

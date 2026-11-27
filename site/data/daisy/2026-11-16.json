@@ -313,43 +313,53 @@
    "pairs": [
     {
      "a": "Point of View",
-     "b": "WHO is telling the story"
+     "b": "WHO is telling the story",
+     "bzh": "谁在讲故事"
     },
     {
      "a": "Perspective",
-     "b": "HOW a character sees something"
+     "b": "HOW a character sees something",
+     "bzh": "人物怎样看待事情"
     },
     {
      "a": "First Person",
-     "b": "narrator is IN the story: I, me, we"
+     "b": "narrator is IN the story: I, me, we",
+     "bzh": "叙述者在故事里：I、me、we"
     },
     {
      "a": "Second Person",
-     "b": "talks to the reader: you, your"
+     "b": "talks to the reader: you, your",
+     "bzh": "对读者说话：you、your"
     },
     {
      "a": "Third Person Objective",
-     "b": "outside, knows NOBODY's feelings (camera)"
+     "b": "outside, knows NOBODY's feelings (camera)",
+     "bzh": "在故事外，不知道任何人的感受（像摄像机）"
     },
     {
      "a": "Third Person Limited",
-     "b": "outside, knows ONE character's feelings"
+     "b": "outside, knows ONE character's feelings",
+     "bzh": "在故事外，只知道一个人物的感受"
     },
     {
      "a": "Third Person Omniscient",
-     "b": "outside, knows ALL characters' feelings"
+     "b": "outside, knows ALL characters' feelings",
+     "bzh": "在故事外，知道所有人物的感受"
     },
     {
      "a": "Narrator",
-     "b": "the one telling the story"
+     "b": "the one telling the story",
+     "bzh": "讲故事的人"
     },
     {
      "a": "Dialogue",
-     "b": "words characters say, inside \" \""
+     "b": "words characters say, inside \" \"",
+     "bzh": "人物说的话，在引号里"
     },
     {
      "a": "Theme",
-     "b": "the life lesson (NOT a summary)"
+     "b": "the life lesson (NOT a summary)",
+     "bzh": "人生道理（不是概要）"
     }
    ],
    "canNow": {
@@ -2139,7 +2149,8 @@
      "check": {
       "expr": "1/2 × 3/4",
       "value": "3/8"
-     }
+     },
+     "qzh": "Daisy 有 3/4 杯珍珠奶茶，她喝了其中的 1/2。她喝了整杯奶茶的几分之几？"
     },
     {
      "section": {
@@ -2200,7 +2211,8 @@
      "check": {
       "expr": "6 ÷ 3/4",
       "value": "8"
-     }
+     },
+     "qzh": "Lily 有 6 米丝带，每个蝴蝶结要 3/4 米。她能做几个蝴蝶结？"
     },
     {
      "section": {
@@ -2265,7 +2277,8 @@
      "check": {
       "expr": "4 × 3/5",
       "value": "2 2/5"
-     }
+     },
+     "qzh": "Emma 每天游 3/5 公里。她 4 天游多远？"
     },
     {
      "section": {
@@ -2330,7 +2343,8 @@
      "check": {
       "expr": "2/3 ÷ 4",
       "value": "1/6"
-     }
+     },
+     "qzh": "4 个朋友平分 2/3 千克坚果。每人分到多少？"
     },
     {
      "section": {
@@ -2386,7 +2400,8 @@
      "check": {
       "expr": "2/5 × 150",
       "value": "60"
-     }
+     },
+     "qzh": "Sophie 有 150 泰铢，她把其中的 2/5 用来买中性笔。她花了多少钱？"
     },
     {
      "section": {
@@ -2447,7 +2462,8 @@
      "check": {
       "expr": "3 ÷ 3/8",
       "value": "8"
-     }
+     },
+     "qzh": "James 为班级聚餐准备了 3 条面包，每个孩子分 3/8 条。几个孩子能分到面包？"
     }
    ],
    "canNow": {
