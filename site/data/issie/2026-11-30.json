@@ -337,6 +337,20 @@
      "why": {
       "en": "Air pressure = the push of the air on Earth.",
       "zh": "气压 = 空气对地面的压力。"
+     },
+     "wrong": {
+      "how hot the air is": {
+       "en": "How hot the air is, is TEMPERATURE, measured with a thermometer.",
+       "zh": "空气有多热是温度，用温度计测量。"
+      },
+      "how much rain falls": {
+       "en": "How much rain falls is PRECIPITATION, measured with a rain gauge.",
+       "zh": "下多少雨是降水量，用雨量计测量。"
+      },
+      "how fast clouds move": {
+       "en": "Speed of moving air is WIND SPEED, measured with an anemometer.",
+       "zh": "空气移动的速度是风速，用风速计测量。"
+      }
      }
     },
     {
@@ -351,6 +365,20 @@
      "why": {
       "en": "Light warm air rises, cools and makes clouds and rain.",
       "zh": "轻的暖空气上升、变冷，形成云和雨。"
+     },
+     "wrong": {
+      "clear, sunny skies": {
+       "en": "Clear skies come with HIGH pressure, where air sinks and clouds disappear.",
+       "zh": "晴天是高压带来的，空气下沉，云会消失。"
+      },
+      "snow every day": {
+       "en": "Snow needs freezing temperatures. Low pressure brings rain in warm places.",
+       "zh": "下雪要零度以下。低压在暖和的地方带来的是雨。"
+      },
+      "no weather at all": {
+       "en": "There is always weather. Low pressure actually brings MORE weather: clouds, wind and rain.",
+       "zh": "天气一直都有。低压其实带来更多天气：云、风和雨。"
+      }
      }
     },
     {
@@ -365,6 +393,20 @@
      "why": {
       "en": "Like air rushing out of a squeezed balloon: from high to low.",
       "zh": "就像被挤的气球里冲出来的空气：从高到低。"
+     },
+     "wrong": {
+      "low pressure to high pressure": {
+       "en": "Back to front. Air is pushed away from where it is squeezed (high) to where there is less push (low).",
+       "zh": "反了。空气会从被挤压的地方（高压）流向压力小的地方（低压）。"
+      },
+      "warm places to cold places only": {
+       "en": "Wind follows pressure differences, not just warm and cold. In a sea breeze it even blows from the cool sea to the warm land.",
+       "zh": "风跟着气压差走，不只是从暖到冷。海风甚至是从凉的海吹向暖的陆地。"
+      },
+      "the ground straight up": {
+       "en": "Wind moves sideways across the land. Rising air is called an updraft, not wind.",
+       "zh": "风是在地面上横着吹的。往上升的空气叫上升气流，不叫风。"
+      }
      }
     },
     {
@@ -379,6 +421,20 @@
      "why": {
       "en": "Isobar = same pressure line.",
       "zh": "等压线 = 气压相同的线。"
+     },
+     "wrong": {
+      "fronts": {
+       "en": "Fronts are the borders between two air masses, drawn with triangles or half circles.",
+       "zh": "锋是两个气团的边界，用三角形或半圆画。"
+      },
+      "station models": {
+       "en": "A station model is a small symbol for the weather at one place, not a line.",
+       "zh": "站点模型是表示一个地方天气的小符号，不是线。"
+      },
+      "cold fronts": {
+       "en": "A cold front is one kind of front, drawn with blue triangles. It does not join equal pressures.",
+       "zh": "冷锋是一种锋，用蓝色三角形画，不是连接相同气压的线。"
+      }
      }
     },
     {
@@ -393,6 +449,20 @@
      "why": {
       "en": "Close lines = strong wind. Far apart = gentle wind.",
       "zh": "线靠得近 = 大风。离得远 = 微风。"
+     },
+     "wrong": {
+      "strong wind": {
+       "en": "Strong wind is when isobars are CLOSE together: pressure changes a lot over a short distance.",
+       "zh": "等压线靠得近才是大风：短距离内气压变化很大。"
+      },
+      "a thunderstorm": {
+       "en": "Isobar spacing shows wind speed, not storms. Storms come with low pressure and fronts.",
+       "zh": "等压线的间距表示风速，不是暴风雨。暴风雨和低压、锋面有关。"
+      },
+      "no air pressure": {
+       "en": "Every isobar shows a pressure. Far apart just means the pressure changes slowly.",
+       "zh": "每条等压线都代表一个气压。间距大只是表示气压变化慢。"
+      }
      }
     },
     {
@@ -407,6 +477,20 @@
      "why": {
       "en": "One station, one symbol: a weather selfie.",
       "zh": "一个气象站，一个符号：天气自拍。"
+     },
+     "wrong": {
+      "group photo of many places": {
+       "en": "A weather MAP shows many places. A station model shows just one weather station.",
+       "zh": "天气图才显示很多地方。站点模型只显示一个气象站。"
+      },
+      "wardrobe": {
+       "en": "The wardrobe is the comparison for climate.",
+       "zh": "衣柜比喻的是气候。"
+      },
+      "bulldozer": {
+       "en": "The bulldozer is the comparison for a cold front.",
+       "zh": "推土机比喻的是冷锋。"
+      }
      }
     },
     {
@@ -419,8 +503,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Left = temperature. Right = air pressure.",
-      "zh": "左边 = 温度。右边 = 气压。"
+      "en": "On a station model the numbers have fixed places: temperature at the top LEFT, air pressure at the top RIGHT, and the dew point at the bottom left.",
+      "zh": "站点模型上的数字有固定位置：温度在左上，气压在右上，露点在左下。"
+     },
+     "wrong": {
+      "air pressure": {
+       "en": "Air pressure is the number on the RIGHT.",
+       "zh": "气压是右边的数字。"
+      },
+      "wind speed": {
+       "en": "Wind speed is not a number; it is shown by the feathers on the stick.",
+       "zh": "风速不是数字，是用杆子上的羽毛表示的。"
+      },
+      "cloud cover": {
+       "en": "Cloud cover is shown by how much of the middle circle is shaded.",
+       "zh": "云量是用中间圆圈涂黑多少来表示的。"
+      }
      }
     },
     {
@@ -433,8 +531,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "The stick shows wind direction. The feathers show wind speed.",
-      "zh": "线（杆）表示风向，羽毛表示风速。"
+      "en": "The stick points the way the wind comes FROM (direction). The feathers (barbs) on the end show how STRONG it is: more feathers, faster wind.",
+      "zh": "杆子指向风吹来的方向。末端的羽毛表示风有多大：羽毛越多，风越大。"
+     },
+     "wrong": {
+      "wind direction": {
+       "en": "Direction is shown by which way the STICK points, not by the feathers.",
+       "zh": "风向是看杆子指向哪边，不是看羽毛。"
+      },
+      "temperature": {
+       "en": "Temperature is the number on the left.",
+       "zh": "温度是左边的数字。"
+      },
+      "cloud cover": {
+       "en": "Cloud cover is how much of the circle is shaded.",
+       "zh": "云量是圆圈涂黑了多少。"
+      }
      }
     },
     {
@@ -449,6 +561,20 @@
      "why": {
       "en": "Like how full a sponge is, as a percent.",
       "zh": "就像海绵有多满，用百分比表示。"
+     },
+     "wrong": {
+      "hot": {
+       "en": "How hot the air is, is temperature. Humidity is about water vapour.",
+       "zh": "空气多热是温度。湿度讲的是水蒸气。"
+      },
+      "heavy": {
+       "en": "How heavy the air pushes is air pressure, not humidity.",
+       "zh": "空气压下来多重是气压，不是湿度。"
+      },
+      "fast": {
+       "en": "How fast air moves is wind speed.",
+       "zh": "空气移动多快是风速。"
+      }
      }
     },
     {
@@ -463,6 +589,20 @@
      "why": {
       "en": "Like drops on a cold drink: water vapour turns into drops on the cool grass.",
       "zh": "就像冰饮料上的水珠：水蒸气在凉凉的草上变成水珠。"
+     },
+     "wrong": {
+      "fell from a cumulonimbus cloud": {
+       "en": "Rain from a cloud is precipitation. Dew forms right on the grass, even on clear nights.",
+       "zh": "云里落下的是降水。露水直接在草上形成，晴朗的夜里也会有。"
+      },
+      "came up out of the soil": {
+       "en": "Dew forms on the TOP of leaves from water vapour in the air, not from the soil.",
+       "zh": "露水是空气中的水蒸气在叶子表面形成的，不是从土里冒出来的。"
+      },
+      "froze into hail": {
+       "en": "Hail is ice that falls from storm clouds. Dew is liquid drops.",
+       "zh": "冰雹是从雷雨云落下的冰。露水是液态的水珠。"
+      }
      }
     }
    ],
@@ -502,6 +642,20 @@
      "why": {
       "en": "Gravity holds a layer of air around Earth.",
       "zh": "重力让一层空气留在地球周围。"
+     },
+     "wrong": {
+      "the clouds only": {
+       "en": "Clouds are only one small part. The atmosphere is ALL the air around Earth, with or without clouds.",
+       "zh": "云只是一小部分。大气层是地球周围所有的空气，有没有云都算。"
+      },
+      "the ocean": {
+       "en": "The ocean is water (the hydrosphere), not air.",
+       "zh": "海洋是水（水圈），不是空气。"
+      },
+      "outer space": {
+       "en": "Outer space starts where the atmosphere ENDS. Space has almost no air.",
+       "zh": "外太空是在大气层结束的地方开始的，几乎没有空气。"
+      }
      }
     },
     {
@@ -514,8 +668,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Nitrogen about 78%, oxygen about 21%.",
-      "zh": "氮气约 78%，氧气约 21%。"
+      "en": "Air is about 78% nitrogen, 21% oxygen and 1% other gases. 78% is the biggest share, so nitrogen is the most common.",
+      "zh": "空气大约 78% 是氮气，21% 是氧气，1% 是其他气体。78% 最多，所以氮气最常见。"
+     },
+     "wrong": {
+      "oxygen": {
+       "en": "Oxygen is the gas we need to breathe, but it is only about 21%, much less than nitrogen.",
+       "zh": "氧气是我们呼吸需要的，但只占约 21%，比氮气少得多。"
+      },
+      "carbon dioxide": {
+       "en": "Carbon dioxide is a tiny part of the air, well under 1%.",
+       "zh": "二氧化碳只占空气很小一部分，远少于 1%。"
+      },
+      "argon": {
+       "en": "Argon is part of the 1% of \"other gases\".",
+       "zh": "氩气属于那 1% 的“其他气体”。"
+      }
      }
     },
     {
@@ -530,6 +698,20 @@
      "why": {
       "en": "Nitrogen 78, oxygen 21, others 1.",
       "zh": "氮 78，氧 21，其他 1。"
+     },
+     "wrong": {
+      "78%": {
+       "en": "78% is NITROGEN, the most common gas.",
+       "zh": "78% 是氮气，最多的气体。"
+      },
+      "1%": {
+       "en": "1% is all the OTHER gases together (argon, carbon dioxide and so on).",
+       "zh": "1% 是所有其他气体加起来（氩气、二氧化碳等）。"
+      },
+      "50%": {
+       "en": "Half sounds right but is not. Oxygen is about one fifth: 21%.",
+       "zh": "一半听起来像，但不对。氧气大约五分之一：21%。"
+      }
      }
     },
     {
@@ -542,8 +724,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Troposphere first, from the ground.",
-      "zh": "从地面往上第一层是对流层。"
+      "en": "\"Tropo\" means turning or changing: the troposphere is where air turns over and weather changes. It starts at the ground and goes up about 12 km.",
+      "zh": "tropo 是“翻转、变化”的意思：对流层的空气在翻动，天气在变化。它从地面开始，大约到 12 公里高。"
+     },
+     "wrong": {
+      "stratosphere": {
+       "en": "The stratosphere is the SECOND layer, above the troposphere.",
+       "zh": "平流层是第二层，在对流层上面。"
+      },
+      "mesosphere": {
+       "en": "The mesosphere is the THIRD layer, where meteors burn.",
+       "zh": "中间层是第三层，流星在那里烧掉。"
+      },
+      "thermosphere": {
+       "en": "The thermosphere is the FOURTH layer, very high, where the aurora happens.",
+       "zh": "热层是第四层，很高，极光在那里发生。"
+      }
      }
     },
     {
@@ -556,8 +752,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "All clouds, rain and wind are in the troposphere.",
-      "zh": "所有云、雨和风都在对流层。"
+      "en": "Weather needs water vapour, and almost all the water vapour is in the lowest layer, the troposphere. So all clouds, rain and storms happen there.",
+      "zh": "天气需要水蒸气，而几乎所有水蒸气都在最低的一层，对流层。所以云、雨和暴风雨都在那里发生。"
+     },
+     "wrong": {
+      "stratosphere": {
+       "en": "The stratosphere is dry and calm, above the weather. Planes fly there to avoid storms.",
+       "zh": "平流层干燥平稳，在天气的上面。飞机在那里飞来避开暴风雨。"
+      },
+      "exosphere": {
+       "en": "The exosphere is the outer edge of the atmosphere, where satellites orbit. There is almost no air.",
+       "zh": "外逸层是大气层的最外边，卫星在那里，几乎没有空气。"
+      },
+      "mesosphere": {
+       "en": "The mesosphere is too high and too dry for clouds and rain.",
+       "zh": "中间层太高太干，没有云和雨。"
+      }
      }
     },
     {
@@ -572,6 +782,20 @@
      "why": {
       "en": "Ozone, in the stratosphere, absorbs UV rays.",
       "zh": "臭氧在平流层，吸收紫外线。"
+     },
+     "wrong": {
+      "troposphere": {
+       "en": "The troposphere is the weather layer near the ground. Ozone is in the layer above it.",
+       "zh": "对流层是靠近地面的天气层。臭氧在它上面那层。"
+      },
+      "mesosphere": {
+       "en": "The mesosphere is where meteors burn up, above the ozone layer.",
+       "zh": "中间层是流星烧掉的地方，在臭氧层上面。"
+      },
+      "exosphere": {
+       "en": "The exosphere is the outer edge, where satellites are.",
+       "zh": "外逸层是最外边，卫星在那里。"
+      }
      }
     },
     {
@@ -586,6 +810,20 @@
      "why": {
       "en": "The mesosphere is where shooting stars burn up.",
       "zh": "流星在中间层烧掉。"
+     },
+     "wrong": {
+      "troposphere": {
+       "en": "Meteors burn up long before they get this low. The troposphere is the weather layer.",
+       "zh": "流星在到这么低之前就烧完了。对流层是天气层。"
+      },
+      "stratosphere": {
+       "en": "The stratosphere is the ozone layer. Meteors burn up higher, in the mesosphere.",
+       "zh": "平流层是臭氧层。流星在更高的中间层烧掉。"
+      },
+      "exosphere": {
+       "en": "The exosphere has almost no air, so there is nothing for a meteor to rub against and burn.",
+       "zh": "外逸层几乎没有空气，流星没有东西可摩擦，就不会燃烧。"
+      }
      }
     },
     {
@@ -598,8 +836,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "\"The Strong Man Throws Eggs.\"",
-      "zh": "记法：The Strong Man Throws Eggs。"
+      "en": "From the ground up: Troposphere, Stratosphere, Mesosphere, Thermosphere, Exosphere. Remember \"The Strong Man Throws Eggs\": the first letters are T, S, M, T, E.",
+      "zh": "从地面往上：对流层、平流层、中间层、热层、外逸层。记住 The Strong Man Throws Eggs：首字母是 T、S、M、T、E。"
+     },
+     "wrong": {
+      "stratosphere, troposphere, mesosphere, exosphere, thermosphere": {
+       "en": "This swaps the first two and the last two. The troposphere (weather) is always at the bottom.",
+       "zh": "这把前两个和后两个都换了。对流层（天气层）一定在最下面。"
+      },
+      "troposphere, mesosphere, stratosphere, thermosphere, exosphere": {
+       "en": "Mesosphere and stratosphere are swapped. Strong Man: S comes before M.",
+       "zh": "中间层和平流层换了。Strong Man：S 在 M 前面。"
+      },
+      "exosphere, thermosphere, mesosphere, stratosphere, troposphere": {
+       "en": "This is the right list but from the TOP down. The question asks from the ground up.",
+       "zh": "顺序对，但是从上往下。题目问的是从地面往上。"
+      }
      }
     },
     {
@@ -614,6 +866,20 @@
      "why": {
       "en": "Ozone absorbs most harmful ultraviolet rays.",
       "zh": "臭氧吸收大部分有害紫外线。"
+     },
+     "wrong": {
+      "rain": {
+       "en": "Rain falls in the troposphere, BELOW the ozone layer. Ozone does not stop rain.",
+       "zh": "雨在对流层，在臭氧层下面。臭氧挡不住雨。"
+      },
+      "meteors": {
+       "en": "Meteors burn up in the mesosphere, above the ozone layer, because of friction with the air.",
+       "zh": "流星是在臭氧层上面的中间层因为和空气摩擦而烧掉的。"
+      },
+      "wind": {
+       "en": "Wind is in the troposphere. Ozone protects from sunlight rays, not moving air.",
+       "zh": "风在对流层。臭氧挡的是阳光里的射线，不是流动的空气。"
+      }
      }
     },
     {
@@ -624,8 +890,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Mountain tops are cold: the troposphere gets colder with height.",
-      "zh": "山顶很冷：对流层越高越冷。"
+      "en": "The troposphere is heated from BELOW: the Sun warms the ground, and the ground warms the air. So the further from the ground, the colder it gets (about 6.5 °C colder for every km).",
+      "zh": "对流层是从下面被加热的：太阳晒热地面，地面再加热空气。所以离地面越远越冷（每升高 1 公里大约冷 6.5 °C）。"
+     },
+     "wrong": {
+      "hotter": {
+       "en": "It feels like going higher means closer to the Sun, but the air is warmed by the GROUND. That is why mountain tops are cold and snowy.",
+       "zh": "好像越高越靠近太阳，但空气是被地面加热的。所以山顶又冷又有雪。"
+      }
      }
     }
    ],
@@ -662,8 +934,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Thermometer = temperature, in °C or °F.",
-      "zh": "温度计 = 温度，单位 °C 或 °F。"
+      "en": "\"Thermo\" means heat (like a thermos flask). A thermometer measures how hot or cold the air is: temperature, in °C or °F.",
+      "zh": "thermo 是“热”的意思（像保温瓶 thermos）。温度计测量空气有多热或多冷：温度，单位 °C 或 °F。"
+     },
+     "wrong": {
+      "air pressure": {
+       "en": "Air pressure is measured with a BAROMETER.",
+       "zh": "气压用气压计测量。"
+      },
+      "wind speed": {
+       "en": "Wind speed is measured with an ANEMOMETER.",
+       "zh": "风速用风速计测量。"
+      },
+      "humidity": {
+       "en": "Humidity is measured with a HYGROMETER.",
+       "zh": "湿度用湿度计测量。"
+      }
      }
     },
     {
@@ -676,8 +962,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Barometer = air pressure, in millibars (mb).",
-      "zh": "气压计 = 气压，单位毫巴。"
+      "en": "\"Baro\" means weight or pressure. A barometer measures how hard the air pushes down: air pressure, in millibars (mb).",
+      "zh": "baro 是“重量、压力”的意思。气压计测量空气往下压得多用力：气压，单位毫巴（mb）。"
+     },
+     "wrong": {
+      "temperature": {
+       "en": "Temperature is measured with a THERMOMETER.",
+       "zh": "温度用温度计测量。"
+      },
+      "wind direction": {
+       "en": "Wind direction is shown by a WIND VANE.",
+       "zh": "风向用风向标表示。"
+      },
+      "rain": {
+       "en": "Rain is measured with a RAIN GAUGE.",
+       "zh": "雨量用雨量计测量。"
+      }
      }
     },
     {
@@ -690,8 +990,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Its cups spin faster in faster wind.",
-      "zh": "风越快，它的杯子转得越快。"
+      "en": "\"Anemo\" means wind. An anemometer has cups that catch the wind and spin: the faster they spin, the faster the wind. It measures wind SPEED in km/h.",
+      "zh": "anemo 是“风”的意思。风速计有几个杯子会被风吹着转，转得越快风越大。它测量风速，单位 km/h。"
+     },
+     "wrong": {
+      "wind direction": {
+       "en": "The cups spin the same way whatever the direction. Direction is shown by a WIND VANE.",
+       "zh": "不管风从哪边来，杯子都朝同一个方向转。风向用风向标。"
+      },
+      "humidity": {
+       "en": "Humidity is measured with a HYGROMETER.",
+       "zh": "湿度用湿度计测量。"
+      },
+      "temperature": {
+       "en": "Temperature is measured with a THERMOMETER.",
+       "zh": "温度用温度计测量。"
+      }
      }
     },
     {
@@ -704,8 +1018,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "The wind vane's arrow points into the wind.",
-      "zh": "风向标的箭头指向风吹来的方向。"
+      "en": "A wind vane is shaped like an arrow and turns freely. The wind pushes its big tail, so the arrow points INTO the wind: the direction the wind comes FROM.",
+      "zh": "风向标像一个箭头，可以自由转动。风推它的大尾巴，所以箭头指向风吹来的方向。"
+     },
+     "wrong": {
+      "barometer": {
+       "en": "A barometer measures AIR PRESSURE.",
+       "zh": "气压计测量气压。"
+      },
+      "hygrometer": {
+       "en": "A hygrometer measures HUMIDITY.",
+       "zh": "湿度计测量湿度。"
+      },
+      "rain gauge": {
+       "en": "A rain gauge collects and measures RAIN in mm.",
+       "zh": "雨量计收集并测量雨量，单位毫米。"
+      }
      }
     },
     {
@@ -718,8 +1046,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Relative humidity is a percent.",
-      "zh": "相对湿度用百分比表示。"
+      "en": "Relative humidity tells how FULL the air is of water vapour, compared with the most it can hold. \"How full\" is given as a percent: 100% = completely full.",
+      "zh": "相对湿度表示空气里的水蒸气有多满，和它最多能装的相比。“多满”用百分比表示：100% = 全满。"
+     },
+     "wrong": {
+      "millibars (mb)": {
+       "en": "Millibars are the unit for AIR PRESSURE.",
+       "zh": "毫巴是气压的单位。"
+      },
+      "km/h": {
+       "en": "km/h is the unit for WIND SPEED.",
+       "zh": "km/h 是风速的单位。"
+      },
+      "°C": {
+       "en": "°C is the unit for TEMPERATURE.",
+       "zh": "°C 是温度的单位。"
+      }
      }
     },
     {
@@ -732,8 +1074,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Millibars or hectopascals.",
-      "zh": "毫巴或百帕。"
+      "en": "A barometer measures air pressure in millibars (mb), also called hectopascals (hPa). Normal air pressure at sea level is about 1013 mb.",
+      "zh": "气压计用毫巴（mb）测量气压，也叫百帕（hPa）。海平面的正常气压大约是 1013 毫巴。"
+     },
+     "wrong": {
+      "km/h": {
+       "en": "km/h is the unit for wind speed.",
+       "zh": "km/h 是风速的单位。"
+      },
+      "%": {
+       "en": "Percent is the unit for humidity.",
+       "zh": "百分比是湿度的单位。"
+      },
+      "mm": {
+       "en": "Millimetres are the unit for rainfall.",
+       "zh": "毫米是雨量的单位。"
+      }
      }
     },
     {
@@ -744,8 +1100,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Winds are named by where they come from.",
-      "zh": "风的名字看它从哪里吹来。"
+      "en": "Winds are always named by where they COME FROM. A south wind starts in the south and blows towards the north.",
+      "zh": "风总是用它吹来的方向命名。南风从南边来，吹向北边。"
+     },
+     "wrong": {
+      "towards the south": {
+       "en": "That is the opposite. A wind blowing towards the south comes from the north, so it is a NORTH wind.",
+       "zh": "正相反。往南吹的风是从北边来的，所以叫北风。"
+      }
      }
     },
     {
@@ -756,8 +1118,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Subject (does the action): She.",
-      "zh": "主格（做动作）：She。"
+      "en": "The gap is the SUBJECT: the person who DOES the action (went). Subjects use subject pronouns: I, you, he, SHE, it, we, they.",
+      "zh": "空格是主语：做动作（went）的人。主语用主格代词：I、you、he、she、it、we、they。"
+     },
+     "wrong": {
+      "Her": {
+       "en": "\"Her\" is an OBJECT pronoun: it receives an action (I saw her). It cannot be the one doing the going.",
+       "zh": "her 是宾格代词，是接受动作的（I saw her），不能当“去”的人。"
+      }
      }
     },
     {
@@ -768,8 +1136,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Cover \"Tom and\": for me.",
-      "zh": "遮住 Tom and：for me。"
+      "en": "\"For\" is a preposition, and after a preposition we use an OBJECT pronoun (me, him, her, us, them). Cover \"Tom and\": Mom made dinner for me.",
+      "zh": "for 是介词，介词后面用宾格代词（me、him、her、us、them）。遮住 Tom and：Mom made dinner for me。"
+     },
+     "wrong": {
+      "I": {
+       "en": "\"I\" is a SUBJECT pronoun, for the person doing the action. Cover \"Tom and\": \"for I\" sounds wrong, because after for we need me.",
+       "zh": "I 是主格，用于做动作的人。遮住 Tom and：for I 听起来不对，for 后面要用 me。"
+      }
      }
     },
     {
@@ -780,8 +1154,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "After the verb (receives it): us.",
-      "zh": "在动词后面（接受的人）：us。"
+      "en": "The teacher does the giving; \"us\" RECEIVES the sticker. A pronoun that receives the action, after the verb, is an object pronoun: us.",
+      "zh": "老师在给；us 是接受贴纸的人。在动词后面接受动作的代词是宾格：us。"
+     },
+     "wrong": {
+      "we": {
+       "en": "\"We\" is a SUBJECT pronoun (we went). After the verb \"gave\", the receiver needs the object form: us.",
+       "zh": "we 是主格（we went）。在动词 gave 后面，接受的人要用宾格 us。"
+      }
      }
     }
    ],
@@ -817,8 +1197,18 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Touch = conduction.",
-      "zh": "接触 = 传导。"
+      "en": "Conduction is heat moving through things that are TOUCHING: fast-moving particles bump into their neighbours and pass the heat along.",
+      "zh": "传导是热在互相接触的东西之间传递：快速运动的粒子撞到旁边的粒子，把热传过去。"
+     },
+     "wrong": {
+      "convection": {
+       "en": "Convection is heat carried by a moving liquid or gas (a current), like warm air rising.",
+       "zh": "对流是热被流动的液体或气体带走（流动的环流），比如暖空气上升。"
+      },
+      "radiation": {
+       "en": "Radiation is heat travelling as rays, with no touching at all, like sunlight.",
+       "zh": "辐射是热以射线传播，完全不需要接触，比如阳光。"
+      }
      }
     },
     {
@@ -830,8 +1220,18 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A current of moving air = convection.",
-      "zh": "空气流动形成循环 = 对流。"
+      "en": "Convection is heat carried by a moving fluid (liquid or gas). Warm air is lighter and rises, cool air is heavier and sinks, so it goes round in a loop: a convection current.",
+      "zh": "对流是热被流动的液体或气体带走。暖空气轻会上升，冷空气重会下沉，就这样绕成一个圈：对流环流。"
+     },
+     "wrong": {
+      "conduction": {
+       "en": "Conduction needs touching, with nothing moving from place to place. Here the air itself moves.",
+       "zh": "传导要靠接触，东西本身不移动。这里是空气自己在流动。"
+      },
+      "radiation": {
+       "en": "Radiation is rays, like sunlight. Rising and sinking air is a moving current: convection.",
+       "zh": "辐射是射线，比如阳光。空气上升下沉是流动的环流：对流。"
+      }
      }
     },
     {
@@ -843,8 +1243,18 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Rays through empty space = radiation.",
-      "zh": "穿过太空的光线 = 辐射。"
+      "en": "Space between the Sun and Earth is empty: there is nothing to touch and no air to flow. Only RADIATION (rays) can travel through empty space.",
+      "zh": "太阳和地球之间的太空是空的：没有东西可接触，也没有空气可流动。只有辐射（射线）能穿过真空。"
+     },
+     "wrong": {
+      "conduction": {
+       "en": "Conduction needs things touching. The Sun is 150 million km away, not touching Earth.",
+       "zh": "传导需要接触。太阳离地球 1.5 亿公里，没有接触。"
+      },
+      "convection": {
+       "en": "Convection needs a liquid or gas to flow, but space is empty.",
+       "zh": "对流需要流动的液体或气体，但太空是空的。"
+      }
      }
     },
     {
@@ -856,8 +1266,18 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Heat travels through the touching metal.",
-      "zh": "热沿着接触的金属传过去。"
+      "en": "The handle is joined to the hot pan. Heat passes along the touching metal, particle to particle: conduction. (Metals are good conductors.)",
+      "zh": "锅柄和热锅连在一起。热沿着接触的金属一个粒子一个粒子传过去：传导。（金属是好的导体。）"
+     },
+     "wrong": {
+      "radiation": {
+       "en": "Radiation travels as rays across a gap. The handle is touching the pan, so the heat travels through the metal.",
+       "zh": "辐射是隔空以射线传播。锅柄和锅连着，热是通过金属传的。"
+      },
+      "convection": {
+       "en": "Convection needs a flowing liquid or gas. The metal handle is solid and does not flow.",
+       "zh": "对流需要流动的液体或气体。金属锅柄是固体，不会流动。"
+      }
      }
     },
     {
@@ -869,8 +1289,18 @@
      ],
      "answer": 0,
      "why": {
-      "en": "The heat reaches you as rays.",
-      "zh": "热以光线的形式到达你。"
+      "en": "You are not touching the fire, and the heat reaches you even sideways (hot air goes UP, not sideways). Heat that travels as rays across a gap is radiation.",
+      "zh": "你没有碰到火，热却从侧面传过来（热空气是往上走，不是往旁边）。隔空以射线传来的热是辐射。"
+     },
+     "wrong": {
+      "conduction": {
+       "en": "Conduction needs touching, and you are not touching the fire.",
+       "zh": "传导需要接触，你没有碰到火。"
+      },
+      "convection": {
+       "en": "Convection carries hot air UPWARDS, above the fire, not sideways to where you sit.",
+       "zh": "对流把热空气往上带到火的上方，不是往旁边带到你坐的地方。"
+      }
      }
     },
     {
@@ -881,8 +1311,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Heat moves from the hotter thing to the colder thing.",
-      "zh": "热从热的东西传到冷的东西。"
+      "en": "Heat is energy that always flows from the HOTTER thing to the COLDER thing until they are the same temperature. Ice cream melts in your hand because heat flows from your warm hand into it.",
+      "zh": "热是一种能量，总是从较热的东西流向较冷的东西，直到温度一样。冰淇淋在手里融化，是因为热从温暖的手流进了冰淇淋。"
+     },
+     "wrong": {
+      "cold to hot": {
+       "en": "\"Cold\" is not something that moves. When ice feels cold, it is really heat leaving your hand and going into the ice.",
+       "zh": "“冷”不是会移动的东西。冰摸起来冷，其实是热从你手里流进了冰。"
+      }
      }
     },
     {
@@ -895,8 +1331,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Two things: comparative. Big → bigger (double the g).",
-      "zh": "两个东西：比较级。big → bigger（双写 g）。"
+      "en": "Comparing TWO things uses the comparative: -er + than. \"Big\" is short, with one vowel then one consonant, so double the g: big → bigger.",
+      "zh": "比较两个东西用比较级：-er + than。big 是短词，一个元音加一个辅音，所以双写 g：big → bigger。"
+     },
+     "wrong": {
+      "biggest": {
+       "en": "-est is the SUPERLATIVE, for three or more (the biggest animal of all). Here only two animals are compared, with \"than\".",
+       "zh": "-est 是最高级，用于三个或更多（the biggest animal）。这里只比较两只动物，还有 than。"
+      },
+      "more big": {
+       "en": "Short one-syllable words take -er, not \"more\". \"More\" is for long words (more beautiful).",
+       "zh": "一个音节的短词加 -er，不用 more。more 用于长词（more beautiful）。"
+      },
+      "more bigger": {
+       "en": "Double comparison: \"more\" and \"-er\" both mean more. Use only one: bigger.",
+       "zh": "双重比较：more 和 -er 都表示“更”，只能用一个：bigger。"
+      }
      }
     },
     {
@@ -909,8 +1359,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Long word, 3+ things: the most interesting.",
-      "zh": "长词，三个以上：the most interesting。"
+      "en": "\"The ___ in the library\" compares one book with ALL the books, so we need the superlative. \"Interesting\" is a long word (4 syllables), so use \"the most\", not -est.",
+      "zh": "“图书馆里最……的书”是把一本书和所有书比较，要用最高级。interesting 是长词（4 个音节），所以用 the most，不加 -est。"
+     },
+     "wrong": {
+      "interestingest": {
+       "en": "Long words do not take -est; it is too hard to say. Use \"most\" instead.",
+       "zh": "长词不加 -est，读起来太别扭。要用 most。"
+      },
+      "more interesting": {
+       "en": "\"More\" is the comparative, for TWO things. Comparing with every book in the library needs \"most\".",
+       "zh": "more 是比较级，用于两个。和图书馆所有书比较要用 most。"
+      },
+      "most interestingest": {
+       "en": "Double comparison: most and -est both mean \"the most\". Use only one.",
+       "zh": "双重比较：most 和 -est 都是“最”，只能用一个。"
+      }
      }
     },
     {
@@ -923,8 +1387,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Good → better → best. Never more better.",
-      "zh": "good → better → best，不能说 more better。"
+      "en": "\"Good\" is irregular: good → better (two things) → best (three or more). Two drawings are compared with \"than\", so better.",
+      "zh": "good 是不规则的：good → better（两个）→ best（三个以上）。这里比较两幅画，有 than，所以用 better。"
+     },
+     "wrong": {
+      "Her drawing is more better than mine.": {
+       "en": "Double comparison: \"better\" already means \"more good\", so \"more\" is extra.",
+       "zh": "双重比较：better 已经是“更好”，more 是多余的。"
+      },
+      "Her drawing is gooder than mine.": {
+       "en": "Good is irregular, so we never add -er. Its comparative is better.",
+       "zh": "good 是不规则的，不能加 -er，比较级是 better。"
+      },
+      "Her drawing is best than mine.": {
+       "en": "\"Best\" is the superlative (3 or more) and is never used with \"than\". Two things with than: better.",
+       "zh": "best 是最高级（三个以上），不和 than 一起用。两个、有 than：better。"
+      }
      }
     },
     {
@@ -937,8 +1415,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Most and -est together is a double comparison.",
-      "zh": "most 和 -est 一起用是双重比较。"
+      "en": "A double comparison uses TWO comparing words for one idea: \"most\" and \"-est\" both mean \"the most\". \"Most tallest\" says it twice, so this is the one with the mistake.",
+      "zh": "双重比较是一个意思用了两个比较词：most 和 -est 都表示“最”。most tallest 说了两次，所以这句有错。"
+     },
+     "wrong": {
+      "He is the tallest.": {
+       "en": "This uses only -est, one comparing word, so it is correct.",
+       "zh": "这里只用了 -est 一个比较词，是对的。"
+      },
+      "He is taller than me.": {
+       "en": "This uses only -er, one comparing word, so it is correct.",
+       "zh": "这里只用了 -er 一个比较词，是对的。"
+      },
+      "He is tall.": {
+       "en": "\"Tall\" has no comparing word at all, so there is nothing doubled.",
+       "zh": "tall 没有比较词，所以没有重复。"
+      }
      }
     }
    ],
@@ -1083,8 +1575,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "The equator gets more sun than the poles, so air moves.",
-      "zh": "赤道比两极得到更多阳光，所以空气流动。"
+      "en": "The Sun's rays hit the equator straight on but hit the poles at a slant, so the equator gets much hotter. Air moves from the cooler, high-pressure places to the warmer, low-pressure places, and that moving air is wind.",
+      "zh": "阳光直射赤道，斜射两极，所以赤道热得多。空气从较冷的高压地方流向较热的低压地方，这流动的空气就是风。"
+     },
+     "wrong": {
+      "evenly": {
+       "en": "If every place were heated the same, there would be no pressure differences and the air would have no reason to move.",
+       "zh": "如果每个地方都一样热，就没有气压差，空气也就不会流动。"
+      }
      }
     },
     {
@@ -1097,8 +1595,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Earth's spin bends winds: the Coriolis effect.",
-      "zh": "地球自转让风弯曲：科里奥利效应。"
+      "en": "Earth spins from west to east. As wind travels a long way, the ground turns under it, so its path CURVES: right in the Northern Hemisphere, left in the Southern. This is the Coriolis effect.",
+      "zh": "地球自西向东转。风走得很远时，下面的地面在转，所以风的路线会弯：北半球向右，南半球向左。这就是科里奥利效应。"
+     },
+     "wrong": {
+      "ozone layer": {
+       "en": "The ozone layer is a gas layer that blocks UV rays. It does not bend winds.",
+       "zh": "臭氧层是挡紫外线的气体层，不会让风转弯。"
+      },
+      "jet stream": {
+       "en": "Jet streams are fast winds high up. They are curved BY the Coriolis effect; they do not cause it.",
+       "zh": "急流是高空的强风，它们是被科里奥利效应弯曲的，不是它的原因。"
+      },
+      "doldrums": {
+       "en": "The doldrums are a calm, windless area near the equator.",
+       "zh": "赤道无风带是赤道附近平静无风的地方。"
+      }
      }
     },
     {
@@ -1111,8 +1623,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Trade 0 to 30, westerlies 30 to 60, polar easterlies 60 to 90.",
-      "zh": "信风 0–30，西风 30–60，极地东风 60–90。"
+      "en": "The global wind belts go by latitude: trade winds 0° to 30°, WESTERLIES 30° to 60°, polar easterlies 60° to 90°. Westerlies blow FROM the west.",
+      "zh": "全球风带按纬度分：信风 0° 到 30°，西风带 30° 到 60°，极地东风 60° 到 90°。西风是从西边吹来的。"
+     },
+     "wrong": {
+      "trade winds": {
+       "en": "Trade winds blow between 0° and 30°, nearer the equator.",
+       "zh": "信风在 0° 到 30° 之间，更靠近赤道。"
+      },
+      "polar easterlies": {
+       "en": "Polar easterlies blow between 60° and 90°, near the poles.",
+       "zh": "极地东风在 60° 到 90° 之间，靠近两极。"
+      },
+      "doldrums": {
+       "en": "The doldrums are the calm area right at the equator (0°).",
+       "zh": "赤道无风带就在赤道（0°）附近，很平静。"
+      }
      }
     },
     {
@@ -1123,8 +1649,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Land heats faster in the day, so cool sea air moves in.",
-      "zh": "白天陆地热得快，海上的冷空气吹过来。"
+      "en": "In the day, land heats up faster than water. Warm air over the land rises, and cooler air from the SEA moves in to take its place. Wind is named by where it comes from, so it is a sea breeze.",
+      "zh": "白天陆地比海水热得快。陆地上的暖空气上升，海上较凉的空气流过来补位。风用吹来的地方命名，所以是海风。"
+     },
+     "wrong": {
+      "land breeze": {
+       "en": "A land breeze blows from land to sea at NIGHT, when the land cools faster than the water.",
+       "zh": "陆风是晚上从陆地吹向海，那时陆地比海水凉得快。"
+      }
      }
     },
     {
@@ -1139,6 +1671,20 @@
      "why": {
       "en": "Lightning heats the air so fast it booms.",
       "zh": "闪电让空气迅速变热，发出轰隆声。"
+     },
+     "wrong": {
+      "a kind of cloud": {
+       "en": "The storm cloud is a cumulonimbus. Thunder is a sound, not a cloud.",
+       "zh": "雷雨云是积雨云。雷是声音，不是云。"
+      },
+      "a strong wind": {
+       "en": "Strong winds can come with storms, but thunder is the BOOM you hear after lightning.",
+       "zh": "暴风雨可能有大风，但雷是闪电之后听到的轰隆声。"
+      },
+      "rain and ice": {
+       "en": "Rain and ice falling is precipitation (or hail). Thunder is a sound.",
+       "zh": "落下的雨和冰是降水（或冰雹）。雷是声音。"
+      }
      }
     },
     {
@@ -1151,8 +1697,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "6 ÷ 3 = 2 km.",
-      "zh": "6 ÷ 3 = 2 千米。"
+      "en": "Light reaches you almost instantly, but sound travels about 1 km every 3 seconds. So divide the seconds by 3: 6 ÷ 3 = 2 km.",
+      "zh": "光几乎一瞬间就到，但声音大约每 3 秒走 1 公里。所以把秒数除以 3：6 ÷ 3 = 2 公里。"
+     },
+     "wrong": {
+      "6 km away": {
+       "en": "6 is just the number of seconds. Sound takes 3 seconds for EACH km, so divide by 3.",
+       "zh": "6 只是秒数。声音每走 1 公里要 3 秒，所以要除以 3。"
+      },
+      "18 km away": {
+       "en": "18 is 6 × 3: it multiplied instead of dividing.",
+       "zh": "18 是 6 × 3，乘了而不是除。"
+      },
+      "1 km away": {
+       "en": "1 km would be 3 seconds. 6 seconds is twice as far: 2 km.",
+       "zh": "1 公里是 3 秒。6 秒是两倍远：2 公里。"
+      }
      }
     },
     {
@@ -1165,8 +1725,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Warm water gives it energy.",
-      "zh": "温暖的海水给它能量。"
+      "en": "A hurricane gets its energy from WARM ocean water (at least about 27 °C). Warm water evaporates, the warm wet air rises and condenses, and that releases heat that powers the storm.",
+      "zh": "飓风的能量来自温暖的海水（至少约 27 °C）。暖水蒸发，暖湿空气上升凝结，释放热量，给风暴提供能量。"
+     },
+     "wrong": {
+      "cold land": {
+       "en": "Over land, and especially cold land, a hurricane loses its fuel and dies down.",
+       "zh": "在陆地上，尤其是冷的陆地，飓风没有了燃料就会减弱。"
+      },
+      "mountains": {
+       "en": "Mountains break up hurricanes. They need flat, warm water to grow.",
+       "zh": "山会把飓风打散，飓风需要平坦温暖的海水才能变强。"
+      },
+      "deserts": {
+       "en": "Deserts are dry. A hurricane needs huge amounts of water vapour from the ocean.",
+       "zh": "沙漠很干。飓风需要海洋提供大量水蒸气。"
+      }
      }
     },
     {
@@ -1181,6 +1755,20 @@
      "why": {
       "en": "The eye is calm; the eye wall has the strongest winds.",
       "zh": "风眼平静，眼墙风最大。"
+     },
+     "wrong": {
+      "eye wall": {
+       "en": "The eye wall is the ring of storm clouds AROUND the eye, with the strongest winds, not the calm part.",
+       "zh": "眼壁是围着风眼的一圈雷雨云，风最大，不是平静的部分。"
+      },
+      "rain band": {
+       "en": "Rain bands are the spiral arms of cloud and rain further out.",
+       "zh": "雨带是外面螺旋形的云和雨。"
+      },
+      "funnel": {
+       "en": "A funnel is the spinning column of a TORNADO, not part of a hurricane.",
+       "zh": "漏斗是龙卷风旋转的柱子，不是飓风的一部分。"
+      }
      }
     },
     {
@@ -1195,6 +1783,20 @@
      "why": {
       "en": "Hurricane (Atlantic), typhoon (western Pacific), cyclone (Indian Ocean).",
       "zh": "飓风（大西洋）、台风（西太平洋）、气旋（印度洋）。"
+     },
+     "wrong": {
+      "tornado": {
+       "en": "A tornado is a different storm: small, over land, lasting minutes.",
+       "zh": "龙卷风是另一种风暴：小、在陆地上、只持续几分钟。"
+      },
+      "monsoon": {
+       "en": "A monsoon is a seasonal change of wind that brings a rainy season, not one storm.",
+       "zh": "季风是季节性的风向变化，带来雨季，不是一场风暴。"
+      },
+      "blizzard": {
+       "en": "A blizzard is a snowstorm with strong wind, in cold places.",
+       "zh": "暴风雪是冷地方的大风加大雪。"
+      }
      }
     },
     {
@@ -1209,6 +1811,20 @@
      "why": {
       "en": "Tornadoes are small, short and over land.",
       "zh": "龙卷风小、时间短、在陆地上。"
+     },
+     "wrong": {
+      "They form over the ocean and last weeks.": {
+       "en": "That describes a HURRICANE. Tornadoes form over land and last only minutes.",
+       "zh": "那是飓风。龙卷风在陆地上形成，只持续几分钟。"
+      },
+      "They are hundreds of km wide.": {
+       "en": "Hurricanes are hundreds of km wide. Most tornadoes are less than 1 km wide.",
+       "zh": "飓风才有几百公里宽。大多数龙卷风不到 1 公里宽。"
+      },
+      "They have a calm eye you can see from space.": {
+       "en": "The calm eye seen from space is a HURRICANE feature.",
+       "zh": "从太空看得到的平静风眼是飓风的特点。"
+      }
      }
     },
     {
@@ -1219,8 +1835,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Don't is negative already, so use any.",
-      "zh": "don't 已经是否定，所以用 any。"
+      "en": "Use only ONE negative word in a sentence. \"Don't\" is already negative (do + not), so the second word must be positive: no → any.",
+      "zh": "一句话只用一个否定词。don't 已经是否定（do + not），所以第二个词要用肯定的：no → any。"
+     },
+     "wrong": {
+      "I don't have no homework.": {
+       "en": "Double negative: don't and no are both negative. In correct English two negatives cancel out, so change no to any.",
+       "zh": "双重否定：don't 和 no 都是否定。正确的英语里两个否定会互相抵消，所以把 no 改成 any。"
+      }
      }
     },
     {
@@ -1231,8 +1853,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Nobody is negative, so use ever, not never.",
-      "zh": "nobody 是否定，所以用 ever，不用 never。"
+      "en": "Only ONE negative per sentence. \"Nobody\" is already negative, so the second word must be positive: never → ever.",
+      "zh": "一句话只能有一个否定词。nobody 已经是否定，所以第二个词要用肯定的：never → ever。"
+     },
+     "wrong": {
+      "Nobody never calls me.": {
+       "en": "Double negative: nobody and never are both negative. Change never to ever.",
+       "zh": "双重否定：nobody 和 never 都是否定。把 never 改成 ever。"
+      }
      }
     }
    ],
@@ -1270,8 +1898,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Equator = 0° latitude.",
-      "zh": "赤道 = 0° 纬度。"
+      "en": "The equator is the starting line for LATITUDE (the flat lines that measure north and south), so it is 0° latitude. It goes round the middle of Earth.",
+      "zh": "赤道是纬度（量南北的横线）的起点，所以是 0° 纬度。它绕着地球中间一圈。"
+     },
+     "wrong": {
+      "0° longitude": {
+       "en": "0° longitude is the PRIME MERIDIAN, the line from pole to pole through Greenwich.",
+       "zh": "0° 经度是本初子午线，从北极到南极经过格林尼治的线。"
+      },
+      "23.5° N": {
+       "en": "23.5° N is the Tropic of Cancer, north of the equator.",
+       "zh": "23.5° N 是北回归线，在赤道北边。"
+      },
+      "90° N": {
+       "en": "90° N is the North Pole, as far north as you can go.",
+       "zh": "90° N 是北极，最北的地方。"
+      }
      }
     },
     {
@@ -1284,8 +1926,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Prime Meridian = 0° longitude, through Greenwich.",
-      "zh": "本初子午线 = 0° 经度，经过格林尼治。"
+      "en": "The Prime Meridian is the starting line for LONGITUDE (the lines from pole to pole that measure east and west), so it is 0° longitude.",
+      "zh": "本初子午线是经度（从北极到南极、量东西的线）的起点，所以是 0° 经度。"
+     },
+     "wrong": {
+      "0° latitude": {
+       "en": "0° latitude is the EQUATOR, which goes round the middle, not pole to pole.",
+       "zh": "0° 纬度是赤道，绕中间一圈，不是从极到极。"
+      },
+      "180° longitude": {
+       "en": "180° is on the opposite side of Earth from the Prime Meridian.",
+       "zh": "180° 在地球上和本初子午线相对的另一边。"
+      },
+      "23.5° S": {
+       "en": "23.5° S is the Tropic of Capricorn, a latitude line.",
+       "zh": "23.5° S 是南回归线，是纬线。"
+      }
      }
     },
     {
@@ -1298,8 +1954,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Cancer is on top: 23.5° north.",
-      "zh": "北回归线在上面：北纬 23.5°。"
+      "en": "The two tropics are 23.5° from the equator. Cancer is the NORTHERN one (C for Cancer is on top, like the letter C sits higher in the alphabet), so 23.5° N. Capricorn is 23.5° S.",
+      "zh": "两条回归线都离赤道 23.5°。北回归线（Cancer）在北边，所以是 23.5° N。南回归线（Capricorn）是 23.5° S。"
+     },
+     "wrong": {
+      "23.5° S": {
+       "en": "23.5° S is the Tropic of CAPRICORN, in the south.",
+       "zh": "23.5° S 是南回归线（Capricorn），在南边。"
+      },
+      "66.5° N": {
+       "en": "66.5° N is the ARCTIC Circle, much further north.",
+       "zh": "66.5° N 是北极圈，更北得多。"
+      },
+      "0°": {
+       "en": "0° is the equator.",
+       "zh": "0° 是赤道。"
+      }
      }
     },
     {
@@ -1312,8 +1982,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Antarctic = south: 66.5° S.",
-      "zh": "南极圈在南边：南纬 66.5°。"
+      "en": "The polar circles are 66.5° from the equator. \"Antarctic\" is the SOUTH (Antarctica is the southern continent), so 66.5° S.",
+      "zh": "极圈离赤道 66.5°。Antarctic 是南边（南极洲在南边），所以是 66.5° S。"
+     },
+     "wrong": {
+      "66.5° N": {
+       "en": "66.5° N is the ARCTIC Circle, in the north.",
+       "zh": "66.5° N 是北极圈，在北边。"
+      },
+      "23.5° S": {
+       "en": "23.5° S is the Tropic of Capricorn, much closer to the equator.",
+       "zh": "23.5° S 是南回归线，离赤道近得多。"
+      },
+      "90° S": {
+       "en": "90° S is the South Pole itself, not the circle around it.",
+       "zh": "90° S 是南极点本身，不是围着它的那个圈。"
+      }
      }
     },
     {
@@ -1324,8 +2008,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Latitude lines lie flat and measure north and south.",
-      "zh": "纬线是横的，表示南北。"
+      "en": "Latitude lines run flat, side to side, like the rungs of a LADDER (\"lat\" sounds like \"flat\"). You climb a ladder up or down, so latitude measures north or south of the equator.",
+      "zh": "纬线是横着平放的，像梯子的横杆（lat 听起来像 flat）。梯子是往上往下爬，所以纬度量的是赤道以北或以南。"
+     },
+     "wrong": {
+      "east or west of the Prime Meridian": {
+       "en": "That is LONGITUDE. Longitude lines are LONG, running from pole to pole, and measure east and west.",
+       "zh": "那是经度。经线很长（long），从极到极，量的是东西。"
+      }
      }
     },
     {
@@ -1336,8 +2026,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Latitude first: 19° N, 99° E.",
-      "zh": "先写纬度：北纬 19°，东经 99°。"
+      "en": "The rule is latitude FIRST, then longitude: 19° N, 99° E. (Think: you climb the ladder first, then walk along.)",
+      "zh": "规则是先写纬度，再写经度：19° N, 99° E。（想成先爬梯子，再往旁边走。）"
+     },
+     "wrong": {
+      "longitude": {
+       "en": "Longitude comes SECOND. Swapping them points to a completely different place.",
+       "zh": "经度写在第二个。换过来就指到完全不同的地方了。"
+      }
      }
     },
     {
@@ -1350,8 +2046,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "N = north of the equator. E = east of the Prime Meridian.",
-      "zh": "N = 赤道以北；E = 本初子午线以东。"
+      "en": "\"N\" means north of the equator, so the Northern Hemisphere. \"E\" means east of the Prime Meridian, so the Eastern Hemisphere.",
+      "zh": "N 表示在赤道以北，所以是北半球。E 表示在本初子午线以东，所以是东半球。"
+     },
+     "wrong": {
+      "Southern and Western Hemispheres": {
+       "en": "Both are wrong: S and W would be south and west. The coordinates say N and E.",
+       "zh": "两个都错：S 和 W 才是南和西。坐标写的是 N 和 E。"
+      },
+      "Northern and Western Hemispheres": {
+       "en": "Northern is right, but 99° E is EAST, not west.",
+       "zh": "北半球对，但 99° E 是东，不是西。"
+      },
+      "Southern and Eastern Hemispheres": {
+       "en": "Eastern is right, but 19° N is NORTH, not south.",
+       "zh": "东半球对，但 19° N 是北，不是南。"
+      }
      }
     },
     {
@@ -1362,8 +2072,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Across first, then up.",
-      "zh": "先横后竖。"
+      "en": "In (x, y) the first number is x: go ACROSS. The second is y: go UP. So 5 across, then 2 up.",
+      "zh": "(x, y) 里第一个数是 x：横着走。第二个是 y：往上走。所以先往右 5，再往上 2。"
+     },
+     "wrong": {
+      "5 up, then 2 across": {
+       "en": "This swaps the directions and plots (2, 5), a different point. Across always comes first.",
+       "zh": "这把方向换了，画出来是 (2, 5)，是另一个点。一定先横着走。"
+      }
      }
     },
     {
@@ -1376,6 +2092,12 @@
      "why": {
       "en": "Today = weather. Many years = climate.",
       "zh": "今天 = 天气；很多年 = 气候。"
+     },
+     "wrong": {
+      "the weather today": {
+       "en": "Today's conditions are WEATHER. Climate is the usual pattern over 30 years or more.",
+       "zh": "今天的情况是天气。气候是 30 年或更长时间的一般规律。"
+      }
      }
     },
     {
@@ -1390,6 +2112,20 @@
      "why": {
       "en": "Polar climates are near the poles and cold all year.",
       "zh": "极地气候在两极附近，一年都冷。"
+     },
+     "wrong": {
+      "tropical": {
+       "en": "Tropical climates are near the equator and hot all year.",
+       "zh": "热带气候在赤道附近，全年炎热。"
+      },
+      "temperate": {
+       "en": "Temperate climates have four seasons, with warm summers and cool winters.",
+       "zh": "温带气候有四季，夏天暖、冬天凉。"
+      },
+      "dry": {
+       "en": "Dry climates are about very little RAIN, like deserts, and are often hot.",
+       "zh": "干旱气候是雨很少，像沙漠，常常很热。"
+      }
      }
     }
    ],
@@ -1426,8 +2162,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "2 × 2 × 2 × 2 × 2 = 32. Not 2 × 5.",
-      "zh": "2 × 2 × 2 × 2 × 2 = 32，不是 2 × 5。"
+      "en": "An exponent tells how many times to MULTIPLY the base by itself. 2⁵ = 2 × 2 × 2 × 2 × 2 = 32 (2, 4, 8, 16, 32).",
+      "zh": "指数表示底数自己乘自己几次。2⁵ = 2 × 2 × 2 × 2 × 2 = 32（2、4、8、16、32）。"
+     },
+     "wrong": {
+      "10": {
+       "en": "10 is 2 × 5. The exponent is not multiplied by the base; it says how many 2s to multiply.",
+       "zh": "10 是 2 × 5。指数不是和底数相乘，而是表示乘几个 2。"
+      },
+      "25": {
+       "en": "25 is 5², with the numbers swapped (5 × 5). Here the base is 2.",
+       "zh": "25 是 5²，把两个数换了（5 × 5）。这里底数是 2。"
+      },
+      "7": {
+       "en": "7 is 2 + 5. Exponents mean repeated multiplying, not adding.",
+       "zh": "7 是 2 + 5。指数是连乘，不是相加。"
+      }
      }
     },
     {
@@ -1440,8 +2190,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "4 × 4 = 16.",
-      "zh": "4 × 4 = 16。"
+      "en": "4² (\"4 squared\") means 4 × 4 = 16.",
+      "zh": "4²（4 的平方）就是 4 × 4 = 16。"
+     },
+     "wrong": {
+      "8": {
+       "en": "8 is 4 × 2. The small 2 means \"two 4s multiplied\", not \"times 2\".",
+       "zh": "8 是 4 × 2。小的 2 表示“两个 4 相乘”，不是“乘以 2”。"
+      },
+      "6": {
+       "en": "6 is 4 + 2. Exponents mean multiplying.",
+       "zh": "6 是 4 + 2。指数是相乘。"
+      },
+      "42": {
+       "en": "42 writes the digits side by side. The small 2 is an exponent: 4 × 4.",
+       "zh": "42 是把数字并排写。小的 2 是指数：4 × 4。"
+      }
      }
     },
     {
@@ -1454,8 +2218,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Multiply first: 4 × 3 = 12, then 2 + 12 = 14.",
-      "zh": "先乘：4 × 3 = 12，再 2 + 12 = 14。"
+      "en": "Order of operations (PEMDAS): Multiply BEFORE adding, even if the + comes first. 4 × 3 = 12, then 2 + 12 = 14.",
+      "zh": "运算顺序（PEMDAS）：先乘后加，就算 + 号在前面也一样。4 × 3 = 12，然后 2 + 12 = 14。"
+     },
+     "wrong": {
+      "18": {
+       "en": "18 works left to right: (2 + 4) × 3. Without brackets, multiplication must go first.",
+       "zh": "18 是从左往右算：(2 + 4) × 3。没有括号时要先算乘法。"
+      },
+      "24": {
+       "en": "24 is 2 × 4 × 3, multiplying everything. The first sign is +, not ×.",
+       "zh": "24 是 2 × 4 × 3，全部乘了。第一个符号是 +，不是 ×。"
+      },
+      "9": {
+       "en": "9 is 2 + 4 + 3, adding everything. The second sign is ×.",
+       "zh": "9 是 2 + 4 + 3，全部加了。第二个符号是 ×。"
+      }
      }
     },
     {
@@ -1468,8 +2246,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Parentheses first: 2 + 4 = 6, then 6 × 3 = 18.",
-      "zh": "先算括号：2 + 4 = 6，再 6 × 3 = 18。"
+      "en": "Order of operations: Parentheses (brackets) FIRST. 2 + 4 = 6, then 6 × 3 = 18.",
+      "zh": "运算顺序：先算括号。2 + 4 = 6，然后 6 × 3 = 18。"
+     },
+     "wrong": {
+      "14": {
+       "en": "14 does the × first (4 × 3 + 2). But the brackets say do 2 + 4 first.",
+       "zh": "14 是先乘（4 × 3 + 2）。但括号说要先算 2 + 4。"
+      },
+      "9": {
+       "en": "9 adds everything. The × 3 multiplies the whole bracket.",
+       "zh": "9 是全部加起来。× 3 要乘整个括号。"
+      },
+      "24": {
+       "en": "24 multiplies everything (2 × 4 × 3). Inside the bracket it is +.",
+       "zh": "24 是全部乘（2 × 4 × 3）。括号里是 +。"
+      }
      }
     },
     {
@@ -1482,8 +2274,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "More than = add.",
-      "zh": "多于 = 加。"
+      "en": "\"More than\" means ADD. 7 more than n = n + 7 (start with n and add 7).",
+      "zh": "more than 表示加。比 n 多 7 = n + 7（从 n 开始加 7）。"
+     },
+     "wrong": {
+      "7n": {
+       "en": "7n means 7 TIMES n. \"More than\" is adding, not multiplying.",
+       "zh": "7n 是 7 乘以 n。more than 是加，不是乘。"
+      },
+      "n − 7": {
+       "en": "n − 7 is 7 LESS than n.",
+       "zh": "n − 7 是比 n 少 7。"
+      },
+      "7 − n": {
+       "en": "7 − n takes n away from 7, which is subtracting.",
+       "zh": "7 − n 是从 7 里减去 n，是减法。"
+      }
      }
     },
     {
@@ -1496,8 +2302,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "3 × 5 = 15, then 15 + 1 = 16.",
-      "zh": "3 × 5 = 15，再 15 + 1 = 16。"
+      "en": "Swap x for 5, then multiply before adding: 3x = 3 × 5 = 15, then 15 + 1 = 16.",
+      "zh": "把 x 换成 5，先乘后加：3x = 3 × 5 = 15，再 15 + 1 = 16。"
+     },
+     "wrong": {
+      "36": {
+       "en": "36 reads 3x as \"35\" and adds 1. A number next to a letter means MULTIPLY: 3 × 5.",
+       "zh": "36 是把 3x 读成 35 再加 1。数字挨着字母表示相乘：3 × 5。"
+      },
+      "9": {
+       "en": "9 is 3 + 5 + 1, adding instead of multiplying.",
+       "zh": "9 是 3 + 5 + 1，把乘当成加了。"
+      },
+      "15": {
+       "en": "15 is only 3 × 5. You forgot the + 1.",
+       "zh": "15 只是 3 × 5，忘了加 1。"
+      }
      }
     },
     {
@@ -1510,8 +2330,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Like terms: 5 + 2 = 7, so 7y.",
-      "zh": "同类项：5 + 2 = 7，所以是 7y。"
+      "en": "5y and 2y are LIKE TERMS (same letter, y), so add the numbers in front and keep the letter: 5 + 2 = 7, so 7y. (5 bananas + 2 bananas = 7 bananas.)",
+      "zh": "5y 和 2y 是同类项（字母一样都是 y），把前面的数相加，字母不变：5 + 2 = 7，所以是 7y。（5 根香蕉 + 2 根香蕉 = 7 根香蕉。）"
+     },
+     "wrong": {
+      "10y": {
+       "en": "10y multiplies 5 × 2. Combining like terms means ADDING them.",
+       "zh": "10y 是 5 × 2。合并同类项是相加。"
+      },
+      "7": {
+       "en": "7 drops the y. You are counting y's, so keep the letter: 7y.",
+       "zh": "7 把 y 丢了。你在数 y 的个数，要保留字母：7y。"
+      },
+      "5y + 2": {
+       "en": "This drops the y from 2y. Both terms have y, so they combine into 7y.",
+       "zh": "这把 2y 的 y 丢了。两项都有 y，可以合并成 7y。"
+      }
      }
     },
     {
@@ -1524,8 +2358,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Multiply 4 by both terms: 4x and 4 × 3 = 12.",
-      "zh": "4 乘两项：4x 和 4 × 3 = 12。"
+      "en": "The distributive property: the 4 outside multiplies EVERY term inside the brackets. 4 × x = 4x and 4 × 3 = 12, so 4x + 12.",
+      "zh": "分配律：括号外的 4 要乘括号里的每一项。4 × x = 4x，4 × 3 = 12，所以是 4x + 12。"
+     },
+     "wrong": {
+      "4x + 3": {
+       "en": "This only multiplies the x. The 4 must also multiply the 3: 4 × 3 = 12.",
+       "zh": "这只乘了 x。4 也要乘 3：4 × 3 = 12。"
+      },
+      "x + 12": {
+       "en": "This only multiplies the 3. The 4 must also multiply the x: 4x.",
+       "zh": "这只乘了 3。4 也要乘 x：4x。"
+      },
+      "7x": {
+       "en": "7x adds 4 + 3 and sticks on x. You cannot add x and 3 (they are not like terms), and the 4 must multiply.",
+       "zh": "7x 是把 4 + 3 再加上 x。x 和 3 不是同类项不能相加，而且 4 要相乘。"
+      }
      }
     },
     {
@@ -1536,8 +2384,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Act 1 sets up the story and starts the problem.",
-      "zh": "第一幕铺垫故事并引出问题。"
+      "en": "Act 1 is the SETUP: we meet the character and the setting, and then something happens that starts the problem (the inciting incident).",
+      "zh": "第一幕是铺垫：认识人物和背景，然后发生一件事引出问题（激励事件）。"
+     },
+     "wrong": {
+      "Act 3": {
+       "en": "Act 3 is the END, where the problem is SOLVED, not started.",
+       "zh": "第三幕是结尾，问题在这里解决，而不是开始。"
+      }
      }
     },
     {
@@ -1548,8 +2402,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Things get harder in Act 2 until the climax.",
-      "zh": "第二幕事情越来越难，直到高潮。"
+      "en": "In Act 2 the character tries to solve the problem and things keep getting harder. The tension builds to the top of the story mountain: the climax, at the end of Act 2.",
+      "zh": "在第二幕里，人物努力解决问题，事情越来越难。紧张感一直升到故事山的山顶：高潮，在第二幕的结尾。"
+     },
+     "wrong": {
+      "Act 1": {
+       "en": "Act 1 only sets up the story and starts the problem. It is too early for the most exciting moment.",
+       "zh": "第一幕只是铺垫并引出问题，还太早，不会有最精彩的时刻。"
+      }
      }
     }
    ],
@@ -1588,8 +2448,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Nitrogen 78%.",
-      "zh": "氮气 78%。"
+      "en": "Air is about 78% nitrogen, 21% oxygen and 1% other gases. The biggest share, 78%, is nitrogen.",
+      "zh": "空气大约 78% 是氮气，21% 是氧气，1% 是其他气体。最多的 78% 是氮气。"
+     },
+     "wrong": {
+      "oxygen": {
+       "en": "Oxygen is only about 21%, about one fifth of the air.",
+       "zh": "氧气只占约 21%，大约五分之一。"
+      },
+      "argon": {
+       "en": "Argon is part of the last 1% of other gases.",
+       "zh": "氩气属于最后 1% 的其他气体。"
+      },
+      "carbon dioxide": {
+       "en": "Carbon dioxide is a tiny part of the air, well under 1%.",
+       "zh": "二氧化碳只占很小一部分，远少于 1%。"
+      }
      }
     },
     {
@@ -1602,8 +2476,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Ozone: stratosphere.",
-      "zh": "臭氧：平流层。"
+      "en": "The ozone layer is inside the STRATOSPHERE, the second layer (about 12 to 50 km up). Ozone there soaks up harmful UV rays from the Sun.",
+      "zh": "臭氧层在平流层里，是第二层（大约 12 到 50 公里高）。那里的臭氧吸收太阳的有害紫外线。"
+     },
+     "wrong": {
+      "troposphere": {
+       "en": "The troposphere is the lowest layer, where weather happens. Ozone is above it.",
+       "zh": "对流层是最低的一层，天气在那里发生。臭氧在它上面。"
+      },
+      "mesosphere": {
+       "en": "The mesosphere is the third layer, where meteors burn up.",
+       "zh": "中间层是第三层，流星在那里烧掉。"
+      },
+      "exosphere": {
+       "en": "The exosphere is the outermost edge, where satellites are.",
+       "zh": "外逸层是最外边，卫星在那里。"
+      }
      }
     },
     {
@@ -1616,8 +2504,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Anemometer = wind speed.",
-      "zh": "风速计 = 风速。"
+      "en": "\"Anemo\" means wind. The anemometer's cups catch the wind and spin: faster spinning means faster wind.",
+      "zh": "anemo 是“风”。风速计的杯子被风吹得转起来：转得越快，风越大。"
+     },
+     "wrong": {
+      "barometer": {
+       "en": "A barometer (baro = pressure) measures AIR PRESSURE.",
+       "zh": "气压计（baro = 压力）测量气压。"
+      },
+      "thermometer": {
+       "en": "A thermometer (thermo = heat) measures TEMPERATURE.",
+       "zh": "温度计（thermo = 热）测量温度。"
+      },
+      "hygrometer": {
+       "en": "A hygrometer (hygro = wet) measures HUMIDITY.",
+       "zh": "湿度计（hygro = 湿）测量湿度。"
+      }
      }
     },
     {
@@ -1630,8 +2532,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Air pressure: millibars or hectopascals.",
-      "zh": "气压：毫巴或百帕。"
+      "en": "Air pressure is measured with a barometer in millibars (mb), also called hectopascals (hPa). Normal sea-level pressure is about 1013 mb.",
+      "zh": "气压用气压计测量，单位是毫巴（mb），也叫百帕（hPa）。海平面正常气压约 1013 毫巴。"
+     },
+     "wrong": {
+      "km/h": {
+       "en": "km/h is for WIND SPEED.",
+       "zh": "km/h 是风速的单位。"
+      },
+      "°C": {
+       "en": "°C is for TEMPERATURE.",
+       "zh": "°C 是温度的单位。"
+      },
+      "%": {
+       "en": "Percent is for HUMIDITY.",
+       "zh": "百分比是湿度的单位。"
+      }
      }
     },
     {
@@ -1643,8 +2559,18 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Moving liquid in a loop = convection.",
-      "zh": "液体循环流动 = 对流。"
+      "en": "Convection is heat carried by a moving liquid or gas. Hot water at the bottom rises, cooler water at the top sinks, and the water goes round in a loop: a convection current.",
+      "zh": "对流是热被流动的液体或气体带走。底部的热水上升，顶部较凉的水下沉，水就绕着圈流动：对流环流。"
+     },
+     "wrong": {
+      "conduction": {
+       "en": "Conduction heats the POT itself (touching the stove). The water moving around in a loop is convection.",
+       "zh": "传导是加热锅本身（锅碰着炉子）。水绕圈流动是对流。"
+      },
+      "radiation": {
+       "en": "Radiation is rays crossing a gap, like sunlight. Here the water itself moves.",
+       "zh": "辐射是隔空的射线，比如阳光。这里是水自己在流动。"
+      }
      }
     },
     {
@@ -1659,6 +2585,20 @@
      "why": {
       "en": "Both spin around a low-pressure centre. Only hurricanes form over oceans and last long.",
       "zh": "两者都围着低气压中心旋转。只有飓风在海上形成、持续很久。"
+     },
+     "wrong": {
+      "form over warm oceans": {
+       "en": "Only hurricanes form over warm oceans. Tornadoes form over LAND.",
+       "zh": "只有飓风在温暖的海上形成。龙卷风在陆地上形成。"
+      },
+      "last for weeks": {
+       "en": "Hurricanes can last weeks, but tornadoes last only minutes.",
+       "zh": "飓风能持续几周，但龙卷风只有几分钟。"
+      },
+      "are hundreds of km wide": {
+       "en": "Hurricanes are hundreds of km wide, but tornadoes are usually less than 1 km.",
+       "zh": "飓风有几百公里宽，但龙卷风通常不到 1 公里。"
+      }
      }
     },
     {
@@ -1671,8 +2611,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Arctic = north: 66.5° N.",
-      "zh": "北极圈：北纬 66.5°。"
+      "en": "The polar circles are at 66.5°. \"Arctic\" is the NORTH (the Arctic Ocean is at the top of the world), so 66.5° N.",
+      "zh": "极圈在 66.5°。Arctic 是北边（北冰洋在地球顶部），所以是 66.5° N。"
+     },
+     "wrong": {
+      "23.5° N": {
+       "en": "23.5° N is the Tropic of Cancer, much closer to the equator.",
+       "zh": "23.5° N 是北回归线，离赤道近得多。"
+      },
+      "66.5° S": {
+       "en": "66.5° S is the ANTARCTIC Circle, in the south.",
+       "zh": "66.5° S 是南极圈，在南边。"
+      },
+      "0°": {
+       "en": "0° is the equator.",
+       "zh": "0° 是赤道。"
+      }
      }
     },
     {
@@ -1685,6 +2639,12 @@
      "why": {
       "en": "Climate = many years.",
       "zh": "气候 = 很多年。"
+     },
+     "wrong": {
+      "next week's weather": {
+       "en": "Next week's weather is still weather, just a forecast. Climate is the pattern over 30 years or more.",
+       "zh": "下周的天气还是天气，只是预报。气候是 30 年以上的规律。"
+      }
      }
     }
    ],
@@ -1723,8 +2683,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "2³ = 8 first, then 10 − 8 = 2.",
-      "zh": "先算 2³ = 8，再 10 − 8 = 2。"
+      "en": "Order of operations: Exponents come BEFORE subtraction. 2³ = 2 × 2 × 2 = 8, then 10 − 8 = 2.",
+      "zh": "运算顺序：先算指数，再算减法。2³ = 2 × 2 × 2 = 8，然后 10 − 8 = 2。"
+     },
+     "wrong": {
+      "512": {
+       "en": "512 is (10 − 2)³ = 8³: it subtracted first. Exponents must be done before subtracting.",
+       "zh": "512 是 (10 − 2)³ = 8³，先减了。要先算指数再减。"
+      },
+      "16": {
+       "en": "2³ is 8, so 10 − 8 must be less than 10. 16 is too big.",
+       "zh": "2³ 是 8，10 − 8 一定比 10 小。16 太大了。"
+      },
+      "4": {
+       "en": "4 is 10 − 6, using 2 × 3 = 6. But 2³ means 2 × 2 × 2 = 8, not 2 × 3.",
+       "zh": "4 是 10 − 6，用了 2 × 3 = 6。但 2³ 是 2 × 2 × 2 = 8，不是 2 × 3。"
+      }
      }
     },
     {
@@ -1737,8 +2711,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Less than flips the order.",
-      "zh": "“比……少”顺序要反过来。"
+      "en": "\"6 less than y\" means start with y and take 6 away: y − 6. The words come in the opposite order to the maths (\"less than\" flips it). Test: 6 less than 10 is 4, and 10 − 6 = 4.",
+      "zh": "“比 y 少 6”是从 y 开始减去 6：y − 6。文字顺序和算式相反（less than 要倒过来）。试试：比 10 少 6 是 4，10 − 6 = 4。"
+     },
+     "wrong": {
+      "6 − y": {
+       "en": "This takes y away from 6, the wrong order. Test with y = 10: 6 − 10 is not 4.",
+       "zh": "这是从 6 里减 y，顺序反了。用 y = 10 试：6 − 10 不是 4。"
+      },
+      "6y": {
+       "en": "6y means 6 TIMES y. \"Less than\" means subtract.",
+       "zh": "6y 是 6 乘以 y。less than 是减。"
+      },
+      "y + 6": {
+       "en": "y + 6 is 6 MORE than y.",
+       "zh": "y + 6 是比 y 多 6。"
+      }
      }
     },
     {
@@ -1751,8 +2739,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "3a + a = 4a; the 4 stays.",
-      "zh": "3a + a = 4a；4 单独留着。"
+      "en": "Only LIKE TERMS combine (same letter). 3a and a are like terms: a means 1a, so 3a + 1a = 4a. The 4 has no letter, so it stays on its own: 4a + 4.",
+      "zh": "只有同类项（字母一样）才能合并。3a 和 a 是同类项：a 就是 1a，所以 3a + 1a = 4a。4 没有字母，单独留着：4a + 4。"
+     },
+     "wrong": {
+      "8a": {
+       "en": "8a adds 3 + 4 + 1. But 4 has no letter, so it cannot join the a terms.",
+       "zh": "8a 是 3 + 4 + 1。但 4 没有字母，不能和 a 项合并。"
+      },
+      "3a + 5": {
+       "en": "This adds 4 + a as if a were 1. But a is a letter (an unknown number), so it combines with 3a, not with 4.",
+       "zh": "这把 a 当成 1 加到 4 上。但 a 是字母（未知数），要和 3a 合并，不是和 4。"
+      },
+      "7a": {
+       "en": "7a joins the plain number 4 to the a terms. 4 has no a, so it stays separate.",
+       "zh": "7a 把普通的数 4 合并进了 a 项。4 没有 a，要分开。"
+      }
      }
     },
     {
@@ -1765,8 +2767,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "30 + 15 = 45. Check: 45 − 15 = 30.",
-      "zh": "30 + 15 = 45。检查：45 − 15 = 30。"
+      "en": "Undo \"− 15\" with \"+ 15\" on both sides: n = 30 + 15 = 45. Check: 45 − 15 = 30 ✓.",
+      "zh": "用“+ 15”抵消“− 15”，两边都加：n = 30 + 15 = 45。检查：45 − 15 = 30 ✓。"
+     },
+     "wrong": {
+      "15": {
+       "en": "15 is 30 − 15, subtracting again. Check: 15 − 15 = 0.",
+       "zh": "15 是 30 − 15，又减了一次。检查：15 − 15 = 0。"
+      },
+      "2": {
+       "en": "2 is 30 ÷ 15. The equation has subtraction, so undo it with addition. Check: 2 − 15 is below zero.",
+       "zh": "2 是 30 ÷ 15。等式里是减法，要用加法抵消。检查：2 − 15 小于 0。"
+      },
+      "450": {
+       "en": "450 is 30 × 15. Undo subtraction with addition. Check: 450 − 15 = 435.",
+       "zh": "450 是 30 × 15。减法要用加法抵消。检查：450 − 15 = 435。"
+      }
      }
     },
     {
@@ -1779,8 +2795,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "12 ÷ 3 = 4. Check: 3 × 4 = 12.",
-      "zh": "12 ÷ 3 = 4。检查：3 × 4 = 12。"
+      "en": "3m means 3 × m. Undo it by dividing both sides by 3: m = 12 ÷ 3 = 4. Check: 3 × 4 = 12 ✓. (It does not matter that the equation is written the other way round.)",
+      "zh": "3m 是 3 × m，两边都除以 3 来抵消：m = 12 ÷ 3 = 4。检查：3 × 4 = 12 ✓。（等式左右写反了也没关系。）"
+     },
+     "wrong": {
+      "36": {
+       "en": "36 is 12 × 3, multiplying again. Check: 3 × 36 = 108.",
+       "zh": "36 是 12 × 3，又乘了一次。检查：3 × 36 = 108。"
+      },
+      "9": {
+       "en": "9 is 12 − 3. 3m is multiplication, so divide. Check: 3 × 9 = 27.",
+       "zh": "9 是 12 − 3。3m 是乘法，要除。检查：3 × 9 = 27。"
+      },
+      "15": {
+       "en": "15 is 12 + 3. Divide instead. Check: 3 × 15 = 45.",
+       "zh": "15 是 12 + 3，应该除。检查：3 × 15 = 45。"
+      }
      }
     },
     {
@@ -1791,8 +2821,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "> does not include 1.",
-      "zh": "> 不包括 1。"
+      "en": "> means \"greater than\" with no equal line, so 1 itself is NOT a solution (1 > 1 is false). A number that is not included gets an OPEN (empty) circle.",
+      "zh": "> 是“大于”，没有等于线，所以 1 本身不是解（1 > 1 不成立）。不包括的数画空心圆。"
+     },
+     "wrong": {
+      "closed": {
+       "en": "A closed circle means 1 IS included, which is ≥. With > the circle stays open.",
+       "zh": "实心圆表示包括 1，那是 ≥。用 > 时画空心圆。"
+      }
      }
     },
     {
@@ -1805,8 +2841,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "7 + 3 = 10.",
-      "zh": "7 + 3 = 10。"
+      "en": "Replace x with 7 and follow the rule: y = 7 + 3 = 10.",
+      "zh": "把 x 换成 7，按规律算：y = 7 + 3 = 10。"
+     },
+     "wrong": {
+      "21": {
+       "en": "21 is 7 × 3. The rule says ADD 3.",
+       "zh": "21 是 7 × 3。规律是加 3。"
+      },
+      "4": {
+       "en": "4 is 7 − 3. The rule says add 3.",
+       "zh": "4 是 7 − 3。规律是加 3。"
+      },
+      "73": {
+       "en": "73 writes the digits side by side. The + means add: 7 + 3.",
+       "zh": "73 是把数字并排写。+ 表示加：7 + 3。"
+      }
      }
     },
     {
@@ -1817,8 +2867,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "y = 0 means it does not go up: it is on the x-axis.",
-      "zh": "y = 0 表示没有往上：在 x 轴上。"
+      "en": "In (4, 0), y = 0, so you go 4 across and 0 up. You stay on the across line, which is the x-axis.",
+      "zh": "(4, 0) 里 y = 0，所以往右 4、往上 0。你停在横线上，就是 x 轴。"
+     },
+     "wrong": {
+      "on the y-axis": {
+       "en": "Points on the y-axis have x = 0, like (0, 4). This point has x = 4, so it moved across.",
+       "zh": "y 轴上的点 x = 0，比如 (0, 4)。这个点 x = 4，已经往右走了。"
+      }
      }
     }
    ],
@@ -1855,8 +2911,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Cover \"and I\": He walked.",
-      "zh": "遮住 and I：He walked。"
+      "en": "The gap is part of the SUBJECT, the people doing the walking. Subjects take subject pronouns (I, he, she, we, they). Cover \"and I\": He walked to school.",
+      "zh": "空格是主语的一部分，是走路的人。主语用主格代词（I、he、she、we、they）。遮住 and I：He walked to school。"
+     },
+     "wrong": {
+      "Him": {
+       "en": "\"Him\" is an OBJECT pronoun (I saw him). Cover \"and I\": \"Him walked to school\" sounds wrong.",
+       "zh": "him 是宾格（I saw him）。遮住 and I：Him walked to school 听起来不对。"
+      }
      }
     },
     {
@@ -1867,8 +2929,14 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Cover \"Emma and\": chose me.",
-      "zh": "遮住 Emma and：chose me。"
+      "en": "Emma and ___ RECEIVE the action (the coach chose them), so they are the OBJECT. Objects take object pronouns: me. Cover \"Emma and\": The coach chose me.",
+      "zh": "Emma 和空格是接受动作的（教练选了他们），是宾语。宾语用宾格代词：me。遮住 Emma and：The coach chose me。"
+     },
+     "wrong": {
+      "I": {
+       "en": "\"I\" is a SUBJECT pronoun, for the one doing the action. Cover \"Emma and\": \"The coach chose I\" sounds wrong.",
+       "zh": "I 是主格，用于做动作的人。遮住 Emma and：The coach chose I 听起来不对。"
+      }
      }
     },
     {
@@ -1881,8 +2949,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "3+ things: superlative, -est.",
-      "zh": "三个以上：最高级，-est。"
+      "en": "Comparing one mountain with ALL the mountains in the world (3 or more) needs the SUPERLATIVE. \"High\" is short, so add -est: the highest.",
+      "zh": "把一座山和世界上所有山（三个以上）比较，要用最高级。high 是短词，加 -est：the highest。"
+     },
+     "wrong": {
+      "higher": {
+       "en": "\"Higher\" is the comparative, for comparing TWO things with than.",
+       "zh": "higher 是比较级，用于两个东西、配 than。"
+      },
+      "most highest": {
+       "en": "Double comparison: most and -est both mean \"the most\". Use only one.",
+       "zh": "双重比较：most 和 -est 都是“最”，只能用一个。"
+      },
+      "more high": {
+       "en": "Short words take -er/-est, not more. And \"in the world\" needs the superlative.",
+       "zh": "短词加 -er/-est，不用 more。而且 in the world 要用最高级。"
+      }
      }
     },
     {
@@ -1895,8 +2977,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Two days: comparative. Hot → hotter.",
-      "zh": "两天：比较级。hot → hotter。"
+      "en": "Two days are compared with \"than\", so use the COMPARATIVE (-er). \"Hot\" has one vowel then one consonant, so double the t: hot → hotter.",
+      "zh": "比较两天，有 than，用比较级（-er）。hot 是一个元音加一个辅音，所以双写 t：hot → hotter。"
+     },
+     "wrong": {
+      "hottest": {
+       "en": "\"Hottest\" is the superlative, for 3 or more, and is not used with than.",
+       "zh": "hottest 是最高级，用于三个以上，不和 than 一起用。"
+      },
+      "more hotter": {
+       "en": "Double comparison: more and -er both mean more. Just hotter.",
+       "zh": "双重比较：more 和 -er 都是“更”。只要 hotter。"
+      },
+      "more hot": {
+       "en": "Short one-syllable words take -er, not more.",
+       "zh": "一个音节的短词加 -er，不用 more。"
+      }
      }
     },
     {
@@ -1909,8 +3005,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Bad → worse → worst.",
-      "zh": "bad → worse → worst。"
+      "en": "\"Bad\" is irregular: bad → worse (two) → worst (three or more). \"The ___ film I have seen\" compares it with ALL the films, so the superlative: the worst.",
+      "zh": "bad 是不规则的：bad → worse（两个）→ worst（三个以上）。“我看过的最……的电影”是和所有电影比，所以用最高级：the worst。"
+     },
+     "wrong": {
+      "This is the baddest film I have seen.": {
+       "en": "Bad is irregular, so we never add -est. Its superlative is worst.",
+       "zh": "bad 是不规则的，不能加 -est，最高级是 worst。"
+      },
+      "This is the most worst film I have seen.": {
+       "en": "Double comparison: worst already means \"most bad\", so \"most\" is extra.",
+       "zh": "双重比较：worst 已经是“最差”，most 是多余的。"
+      },
+      "This is the worse film I have seen.": {
+       "en": "\"Worse\" is the comparative, for TWO films. Comparing with every film you have seen needs worst.",
+       "zh": "worse 是比较级，用于两部电影。和你看过的所有电影比要用 worst。"
+      }
      }
     },
     {
@@ -1923,8 +3033,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Can't and nothing are both negative.",
-      "zh": "can't 和 nothing 都是否定。"
+      "en": "A double negative is TWO negative words in one sentence. \"Can't\" (can + not) and \"nothing\" are both negative, so this sentence has the mistake. It should be: I can't find anything.",
+      "zh": "双重否定是一句话里有两个否定词。can't（can + not）和 nothing 都是否定，所以这句有错。应该是：I can't find anything。"
+     },
+     "wrong": {
+      "I can't find anything.": {
+       "en": "Only can't is negative; anything is positive. One negative, so it is correct.",
+       "zh": "只有 can't 是否定，anything 是肯定。只有一个否定，是对的。"
+      },
+      "I found nothing.": {
+       "en": "Only nothing is negative. One negative, so it is correct.",
+       "zh": "只有 nothing 是否定。只有一个否定，是对的。"
+      },
+      "I can find it.": {
+       "en": "There is no negative word at all.",
+       "zh": "根本没有否定词。"
+      }
      }
     },
     {
@@ -1937,8 +3061,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Never is negative, so use anywhere.",
-      "zh": "never 是否定，所以用 anywhere。"
+      "en": "\"Never\" is negative, so the second word must be positive: nowhere → anywhere. One negative per sentence.",
+      "zh": "never 是否定，所以第二个词要用肯定的：nowhere → anywhere。一句话只有一个否定。"
+     },
+     "wrong": {
+      "We never go nowhere fun.": {
+       "en": "This still has never AND nowhere: still a double negative.",
+       "zh": "这里还是有 never 和 nowhere，仍然是双重否定。"
+      },
+      "We always go nowhere.": {
+       "en": "This changes the meaning, and \"always go nowhere\" does not make sense.",
+       "zh": "这改变了意思，而且 always go nowhere 说不通。"
+      },
+      "We don't never go anywhere.": {
+       "en": "Don't and never are both negative: a new double negative.",
+       "zh": "don't 和 never 都是否定，又成了双重否定。"
+      }
      }
     },
     {
@@ -1949,8 +3087,14 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Act 3 is the resolution.",
-      "zh": "第三幕是结局。"
+      "en": "Act 3 is the RESOLUTION: the problem is solved, and we see what the character learned or how they changed because of everything in Act 2.",
+      "zh": "第三幕是结局：问题解决了，我们看到人物经历了第二幕之后学到了什么、有了什么变化。"
+     },
+     "wrong": {
+      "Act 1": {
+       "en": "Act 1 shows the character BEFORE the problem. They cannot have changed yet.",
+       "zh": "第一幕展示的是问题发生之前的人物，那时还不可能有变化。"
+      }
      }
     }
    ],

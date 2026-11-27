@@ -269,7 +269,7 @@
         hwIds: hw.map(function (a) { return a.id; }),
         pages: hw.map(function (a) {
           return { title: a.title, items: a.questions.map(function (q) {
-            return { q: q.q, context: q.context, options: q.options, answer: q.answer, right: q.options[q.answer], why: q.why };
+            return { q: q.q, context: q.context, options: q.options, answer: q.answer, right: q.options[q.answer], why: q.why, wrong: q.wrong };
           }) };
         }) });
     });
@@ -452,11 +452,24 @@
   }
 
   /* ---------------- shared pieces ---------------- */
+  /* Every answer explains itself: why the right answer is right, and (when the child picked another) why that one is wrong.
+     q.wrong is {"option text": {en, zh}}. */
+  function optLabel(o) { o = String(o == null ? '' : o).replace(/[*_`]/g, ''); return o.length <= 32 ? '\u201c' + o + '\u201d' : null; }
+  function whyBox(q, your, cls) {
+    var right = q.options ? q.options[q.answer] : q.right;
+    var bad = your != null && your !== right ? your : null;
+    var ww = q.wrongWhy || (bad != null && q.wrong ? q.wrong[bad] : null);
+    if (!q.why && !ww) return null;
+    var rl = optLabel(right), bl = optLabel(bad);
+    return h('div', { class: cls || 'wwhy' },
+      q.why ? h('div', { class: 'why-right' }, h('b', null, '\u2705 ' + (rl ? L('Why ' + rl + ' is right: ', '\u4e3a\u4ec0\u4e48 ' + rl + ' \u662f\u5bf9\u7684\uff1a') : L('Why the right answer is right: ', '\u4e3a\u4ec0\u4e48\u6b63\u786e\u7b54\u6848\u662f\u5bf9\u7684\uff1a'))), bi(q.why, true)) : null,
+      ww ? h('div', { class: 'why-wrong' }, h('b', null, '\u274c ' + (bl ? L('Why ' + bl + ' is wrong: ', '\u4e3a\u4ec0\u4e48 ' + bl + ' \u662f\u9519\u7684\uff1a') : L('Why your answer is wrong: ', '\u4e3a\u4ec0\u4e48\u4f60\u7684\u7b54\u6848\u662f\u9519\u7684\uff1a'))), bi(ww, true)) : null);
+  }
   function hwWrong(a, st) {
     var out = [];
     (a.questions || []).forEach(function (q, n) {
       var p = st.ans[n];
-      if (p !== q.answer) out.push({ q: q.q, your: p == null ? null : q.options[p], right: q.options[q.answer], why: q.why });
+      if (p !== q.answer) out.push({ q: q.q, your: p == null ? null : q.options[p], right: q.options[q.answer], why: q.why, wrongWhy: p == null || !q.wrong ? undefined : q.wrong[q.options[p]] });
     });
     return out;
   }
@@ -468,7 +481,7 @@
           h('div', { class: 'wq' }, h('span', { class: 'wn' }, String(n + 1)), rich(String(x.q))),
           h('div', { class: 'wa bad' }, h('small', null, L('Your answer', '你的答案')), x.your == null ? L('(no answer)', '（没有作答）') : rich(String(x.your))),
           h('div', { class: 'wa good' }, h('small', null, L('Right answer', '正确答案')), rich(String(x.right))),
-          x.why ? h('div', { class: 'wwhy' }, h('b', null, L('Why: ', '原因：')), bi(x.why, true)) : null);
+          whyBox(x, x.your));
       }));
   }
   function allDays() {
@@ -1115,7 +1128,7 @@
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
           h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() + (gained ? '  +' + gained : '') : (k < 0 ? '⏰ ' + T('timeUp') + ' ' : '') + T('notQuite')),
           !ok ? h('div', { class: 'q-text' }, '✅ ', rich(q.options[q.answer])) : null,
-          q.why ? h('div', { style: 'margin-top:6px' }, h('b', null, T('why') + ': '), bi(q.why, true)) : null),
+          whyBox(q, k < 0 ? null : q.options[st.order[i][k]], 'why-box')),
           h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: nextQ }, left >= 0 ? T('next') : T('finish'))));
       }
     }
@@ -1128,7 +1141,7 @@
         var wrongItems = [];
         qs.forEach(function (q, k) {
           var picked = st.ans[k], oi = picked == null || picked < 0 ? null : st.order[k][picked];
-          if (oi !== q.answer) wrongItems.push({ q: q.q, your: oi == null ? null : q.options[oi], right: q.options[q.answer], why: q.why });
+          if (oi !== q.answer) wrongItems.push({ q: q.q, your: oi == null ? null : q.options[oi], right: q.options[q.answer], why: q.why, wrongWhy: oi == null || !q.wrong ? undefined : q.wrong[q.options[oi]] });
         });
         record(ctx.en, ctx.week, st.correct, qs.length, (Date.now() - st.t0) / 1000, missed, wrongItems);
       }
@@ -1191,7 +1204,7 @@
           add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') },
             h('div', { class: ok ? 'praise' : 'oops' }, ok ? '⭐ ' + praise() : T('notQuite')),
             !ok ? h('div', { class: 'q-text' }, q.options[q.answer]) : null,
-            q.why ? h('div', null, h('b', null, T('why') + ': '), bi(q.why)) : null),
+            whyBox(q, q.options[order[k]], 'why-box')),
             h('div', { class: 'row center' }, h('button', { class: 'btn big', onclick: function () { i++; i < a.questions.length ? ask() : afterQs(); } }, T('next'))));
         }
       }
@@ -1997,7 +2010,7 @@
         allColour(btns, ok);
         add(fb, h('div', { class: 'box ' + (ok ? 'ans pop' : 'bad') }, h('div', { class: ok ? 'praise' : 'oops' }, ok ? '✅ ' + praise() : '❌ ' + T('notQuite')),
           !ok ? h('div', { class: 'q-text' }, '✅ ', rich(q.options[q.answer])) : null,
-          q.why ? h('div', null, h('b', null, T('why') + ': '), bi(q.why, true)) : null));
+          whyBox(q, q.options[k], 'why-box')));
       } }, h('span', { class: 'shape' }, SHAPES[k % 4]), h('span', null, rich(q.options[k])));
     });
     return h('div', { class: 'quick' }, h('div', { class: 'quick-head' }, '⚡ ' + L('Quick question!', '快问快答！')),
@@ -2889,7 +2902,7 @@
               return h('li', { class: cls }, h('span', { class: 'rv-letter' }, String.fromCharCode(65 + j)), h('span', { class: 'rv-otext' }, rich(o)),
                 tag ? h('span', { class: 'rv-tag' }, tag) : null);
             })),
-            q.why ? h('div', { class: 'wwhy' }, h('b', null, L('Why: ', '原因：')), bi(q.why, true)) : null);
+            whyBox(q, pick == null ? null : q.options[pick]));
         }),
         h('div', { class: 'rv-foot' }, nav()));
     }).catch(renderError);

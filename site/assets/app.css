@@ -643,3 +643,11 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 .draw-card img { width: 100%; border-radius: 10px; border: 1px solid var(--line); background: #fff; display: block; }
 .draw-meta { margin: 8px 0; }
 .draw-card .row { gap: 8px; flex-wrap: wrap; }
+
+/* why it is right / why yours is wrong */
+.why-box { margin-top: 8px; }
+.why-right, .why-wrong { margin-top: 6px; padding: 8px 10px; border-radius: 10px; }
+.why-right { background: #eef8ef; color: #1f5f2c; }
+.why-wrong { background: #fdeeee; color: #8a2323; }
+.why-right b, .why-wrong b { display: block; margin-bottom: 2px; }
+.wwhy .why-right, .wwhy .why-wrong { font-size: 1em; }
