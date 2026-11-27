@@ -381,6 +381,13 @@
        "en": "Rocks alone make gravel, not soil. Soil also needs organic matter from living things.",
        "zh": "只有石头是碎石，不是土壤。土壤还需要来自生物的有机物。"
       }
+     },
+     "qzh": "土壤是……的混合物。",
+     "ozh": {
+      "only sand and water": "只有沙和水",
+      "only dead leaves": "只有落叶",
+      "rock pieces, minerals and organic matter": "岩石碎屑、矿物质和有机物",
+      "only rocks": "只有石头"
      }
     },
     {
@@ -409,6 +416,13 @@
        "en": "Rainwater is not alive and does not rot. Humus is made when dead plants and animals decay.",
        "zh": "雨水不是生物，不会腐烂。腐殖质是死去的动植物腐烂后形成的。"
       }
+     },
+     "qzh": "腐殖质来自……",
+     "ozh": {
+      "melted ice": "融化的冰",
+      "weathered rock": "风化的岩石",
+      "rainwater": "雨水",
+      "decaying plants and animals": "腐烂的动植物"
      }
     },
     {
@@ -437,6 +451,13 @@
        "en": "Horizon C is near the bottom: broken pieces of weathered rock, not topsoil.",
        "zh": "C 层在接近底部：风化的碎石块，不是表土。"
       }
+     },
+     "qzh": "哪一层是表土？",
+     "ozh": {
+      "Horizon O": "O 层",
+      "Horizon A": "A 层",
+      "Horizon B": "B 层",
+      "Horizon C": "C 层"
      }
     },
     {
@@ -465,6 +486,13 @@
        "en": "Horizon O is fallen leaves and humus on top. It has almost no rock.",
        "zh": "O 层是最上面的落叶和腐殖质，几乎没有石头。"
       }
+     },
+     "qzh": "哪一层主要是风化的碎石？",
+     "ozh": {
+      "Horizon A": "A 层",
+      "Horizon B": "B 层",
+      "Horizon O": "O 层",
+      "Horizon C": "C 层"
      }
     },
     {
@@ -493,6 +521,13 @@
        "en": "That is DEPOSITION, the step after erosion. Erosion takes away; deposition drops.",
        "zh": "那是沉积，是侵蚀之后的一步。侵蚀是带走，沉积是放下。"
       }
+     },
+     "qzh": "侵蚀（erosion）的意思是……",
+     "ozh": {
+      "soil growing plants": "土壤长出植物",
+      "rocks melting": "岩石熔化",
+      "dropping rock and soil in a new place": "把岩石和泥土放到新的地方",
+      "carrying rock and soil away": "把岩石和泥土带走"
      }
     },
     {
@@ -521,6 +556,13 @@
        "en": "A glacier is a huge moving body of ice, not sediment left by a river.",
        "zh": "冰川是一大块会移动的冰，不是河流留下的沉积物。"
       }
+     },
+     "qzh": "河流在入海处放下沉积物，形成……",
+     "ozh": {
+      "gully": "冲沟",
+      "divide": "分水岭",
+      "glacier": "冰川",
+      "delta": "三角洲"
      }
     },
     {
@@ -549,6 +591,13 @@
        "en": "There is no wind under the sea. Wind erosion needs moving air over dry ground.",
        "zh": "海底没有风。风蚀需要空气吹过干的地面。"
       }
+     },
+     "qzh": "风蚀在……最严重。",
+     "ozh": {
+      "dry places like deserts": "像沙漠这样干燥的地方",
+      "places with many trees": "树很多的地方",
+      "rainforests": "雨林",
+      "under the sea": "海底"
      }
     },
     {
@@ -577,6 +626,13 @@
        "en": "Sunlight gives heat but does not pull anything downhill. Only gravity pulls everything down.",
        "zh": "阳光给热量，但不会把东西拉到山下。只有重力会把一切往下拉。"
       }
+     },
+     "qzh": "所有侵蚀和沉积背后的力是什么？",
+     "ozh": {
+      "wind": "风",
+      "magnets": "磁力",
+      "gravity": "重力",
+      "sunlight": "阳光"
      }
     },
     {
@@ -605,6 +661,13 @@
        "en": "A layer of soil is a horizon. A divide is a ridge of high land.",
        "zh": "一层土是土层。分水岭是一条高地。"
       }
+     },
+     "qzh": "分水岭（divide）是……",
+     "ozh": {
+      "a river mouth": "河口",
+      "a deep hole in the sea": "海里的深洞",
+      "a line of high land where water runs down one side or the other": "一条高地，水从它的一边或另一边流下去",
+      "a layer of soil": "一层土壤"
      }
     },
     {
@@ -633,6 +696,13 @@
        "en": "The Pacific is WEST of the Rockies. Only the west slopes drain to the Pacific.",
        "zh": "太平洋在落基山脉西边，只有西坡的水流向太平洋。"
       }
+     },
+     "qzh": "落基山脉东坡的水流向……",
+     "ozh": {
+      "Arctic Ocean": "北冰洋",
+      "Indian Ocean": "印度洋",
+      "Gulf of Mexico": "墨西哥湾",
+      "Pacific Ocean": "太平洋"
      }
     }
    ]
@@ -962,6 +1032,13 @@
        "en": "4600 years ago the Egyptian pyramids were being built. Earth was already billions of years old.",
        "zh": "4600 年前人类正在建金字塔，那时地球已经几十亿岁了。"
       }
+     },
+     "qzh": "地球大约形成于……",
+     "ozh": {
+      "46 years ago": "46 年前",
+      "4.6 million years ago": "460 万年前",
+      "4600 years ago": "4600 年前",
+      "4.6 billion years ago": "46 亿年前"
      }
     },
     {
@@ -990,6 +1067,13 @@
        "en": "Many processes change Earth: rivers, wind, ice, earthquakes. Uniformitarianism includes all of them.",
        "zh": "改变地球的过程很多：河流、风、冰、地震。均变论包括所有这些。"
       }
+     },
+     "qzh": "均变论说……",
+     "ozh": {
+      "the processes changing Earth today also changed it in the past": "今天改变地球的过程，过去也同样改变着地球",
+      "all rocks are the same age": "所有岩石年龄都一样",
+      "Earth never changes": "地球从不改变",
+      "only volcanoes change Earth": "只有火山会改变地球"
      }
     },
     {
@@ -1018,6 +1102,13 @@
        "en": "Layers stack up and down, not side to side. Age is read from bottom (old) to top (young).",
        "zh": "岩层是上下叠的，不是左右排。年龄从下（老）往上（新）看。"
       }
+     },
+     "qzh": "根据叠加原理，最老的岩层通常在……",
+     "ozh": {
+      "in the middle": "中间",
+      "at the bottom": "最底下",
+      "at the top": "最上面",
+      "on the side": "旁边"
      }
     },
     {
@@ -1046,6 +1137,13 @@
        "en": "It cuts through the top layer too, so the top layer had to exist first. The magma is younger.",
        "zh": "它连最上层也切穿了，所以最上层要先存在，岩浆更年轻。"
       }
+     },
+     "qzh": "岩浆穿过了四层岩石。这个岩浆……",
+     "ozh": {
+      "younger than all four layers": "比四层岩石都年轻",
+      "the oldest rock": "是最老的岩石",
+      "older than all four layers": "比四层岩石都老",
+      "the same age as the top layer": "和最上面一层一样老"
      }
     },
     {
@@ -1074,6 +1172,13 @@
        "en": "Magma cutting through is cross-cutting (an intrusion). An unconformity is layers that are MISSING because they were eroded.",
        "zh": "岩浆切穿是交切（侵入）。不整合是岩层被侵蚀掉了，缺了一段。"
       }
+     },
+     "qzh": "不整合（unconformity）是……的地方。",
+     "ozh": {
+      "the sea is deepest": "海最深",
+      "soil is thickest": "土壤最厚",
+      "rock layers are missing": "岩层缺失",
+      "magma cuts through": "岩浆穿过"
      }
     },
     {
@@ -1102,6 +1207,13 @@
        "en": "A trench is a deep V-shaped valley where one plate dives under another.",
        "zh": "海沟是一个板块插到另一个下面形成的深深的 V 形谷。"
       }
+     },
+     "qzh": "大陆架是……",
+     "ozh": {
+      "the deepest flat floor": "最深的平坦海底",
+      "the gentle part nearest the shore": "靠近海岸、坡度平缓的部分",
+      "the steep drop": "陡峭的下坡",
+      "a trench": "海沟"
      }
     },
     {
@@ -1130,6 +1242,13 @@
        "en": "The rise is a gentle pile of sediment at the BOTTOM of the slope, not the steep part.",
        "zh": "大陆隆是在大陆坡底部的平缓沉积物堆，不是陡的部分。"
       }
+     },
+     "qzh": "大陆边缘的哪一部分很陡，一直深到大约 4000 米？",
+     "ozh": {
+      "abyssal plain": "深海平原",
+      "continental shelf": "大陆架",
+      "continental slope": "大陆坡",
+      "continental rise": "大陆隆"
      }
     },
     {
@@ -1158,6 +1277,13 @@
        "en": "Mid-ocean ridges are in the middle of the ocean, thousands of kilometres from the beach.",
        "zh": "大洋中脊在大洋中间，离海滩几千公里。"
       }
+     },
+     "qzh": "被动大陆边缘（比如北美洲东海岸）有……",
+     "ozh": {
+      "a wide shelf and no plate boundary nearby": "宽阔的大陆架，附近没有板块边界",
+      "a narrow shelf and a trench": "窄的大陆架和海沟",
+      "many volcanoes": "很多火山",
+      "a mid-ocean ridge on the beach": "海滩上有大洋中脊"
      }
     },
     {
@@ -1186,6 +1312,13 @@
        "en": "Plates moving apart (divergent) make a RIDGE, where new crust rises. Trenches form where plates come together.",
        "zh": "板块分开（分离型）形成洋脊，新地壳在那里升起。海沟在板块相撞的地方。"
       }
+     },
+     "qzh": "深海沟在……的地方形成。",
+     "ozh": {
+      "rivers meet the sea": "河流入海",
+      "glaciers melt": "冰川融化",
+      "ocean crust dives under continental crust": "大洋地壳插到大陆地壳下面",
+      "plates move apart": "板块分开"
      }
     },
     {
@@ -1214,6 +1347,13 @@
        "en": "200 m is about how deep the continental shelf goes, not a length.",
        "zh": "200 米大约是大陆架的深度，不是长度。"
       }
+     },
+     "qzh": "大洋中脊大约有多长？",
+     "ozh": {
+      "50 kilometers": "50 公里",
+      "60,000 kilometers": "60,000 公里",
+      "4000 meters": "4000 米",
+      "200 meters": "200 米"
      }
     }
    ]
@@ -1267,6 +1407,13 @@
        "en": "\"You\" is a pronoun for a person. To show the coat belongs to you, English uses the possessive form: your.",
        "zh": "you 是代词。要表示外套是你的，要用物主形式 your。"
       }
+     },
+     "qzh": "选正确的词：___ 外套在椅子上。",
+     "ozh": {
+      "You're": "",
+      "Your": "",
+      "Yore": "",
+      "You": ""
      }
     },
     {
@@ -1295,6 +1442,13 @@
        "en": "Their shows belonging (their car). It must be followed by a noun, and \"going\" is not a thing they own.",
        "zh": "their 表示所属（their car），后面要接名词，going 不是他们拥有的东西。"
       }
+     },
+     "qzh": "选正确的词：___ 明天要去海滩。",
+     "ozh": {
+      "There": "",
+      "They're": "",
+      "Theyre": "",
+      "Their": ""
      }
     },
     {
@@ -1323,6 +1477,11 @@
        "en": "\"It\" is the pronoun for the dog itself. To show the tail belongs to the dog, use the possessive: its.",
        "zh": "it 指狗本身。要表示尾巴是狗的，用物主形式 its。"
       }
+     },
+     "qzh": "选正确的词：小狗摇着 ___ 尾巴。",
+     "ozh": {
+      "its": "",
+      "its'": ""
      }
     },
     {
@@ -1351,6 +1510,13 @@
        "en": "A contraction needs an apostrophe for the missing letter: who + (i)s = who's.",
        "zh": "缩写要用撇号表示省掉的字母：who + (i)s = who's。"
       }
+     },
+     "qzh": "选正确的词：在台上唱歌的那个女孩 ___？",
+     "ozh": {
+      "Who": "",
+      "Whose": "",
+      "Who's": "",
+      "Whos": ""
      }
     },
     {
@@ -1379,6 +1545,13 @@
        "en": "\"Uses\" is present tense (she uses a pen). It does not make the past-habit meaning.",
        "zh": "uses 是现在时（she uses a pen），不能表示过去的习惯。"
       }
+     },
+     "qzh": "选正确的词：Sophie 以前 ___ 住在伦敦。",
+     "ozh": {
+      "used": "",
+      "use": "",
+      "using": "",
+      "uses": ""
      }
     },
     {
@@ -1407,6 +1580,11 @@
        "en": "\"One\" and \"an\" both mean one; using both is repeating. Just: an orange.",
        "zh": "one 和 an 都是“一个”，两个都用就重复了。只说 an orange。"
       }
+     },
+     "qzh": "选正确的词：James 吃了 ___ 橙子。",
+     "ozh": {
+      "the an": "",
+      "one an": ""
      }
     },
     {
@@ -1435,6 +1613,13 @@
        "en": "\"Offen\" is not an English word.",
        "zh": "英语里没有 offen 这个词。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "Take the box off of the table.": "",
+      "Take the box off the table.": "",
+      "Take the box of off the table.": "",
+      "Take the box offen the table.": ""
      }
     },
     {
@@ -1463,6 +1648,13 @@
        "en": "\"Alot\" is not a word. Write it as two words, like \"a little\": a lot.",
        "zh": "alot 不是一个词。要分开写，像 a little 一样：a lot。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "Their are a lot of pandas here.": "",
+      "There are allot of pandas here.": "",
+      "There are alot of pandas here.": "",
+      "There are a lot of pandas here.": ""
      }
     },
     {
@@ -1491,6 +1683,13 @@
        "en": "\"A\" means one, so it cannot go with plural \"ways\". Correct: a long way.",
        "zh": "a 表示一个，不能和复数 ways 一起用。正确：a long way。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "We walked a longs way.": "",
+      "We walked along ways.": "",
+      "We walked a long ways.": "",
+      "We walked a long way.": ""
      }
     },
     {
@@ -1519,6 +1718,13 @@
        "en": "\"This here\" is informal speech and repeats the idea twice. In writing: This book.",
        "zh": "this here 是口语，意思重复了。书面语：This book。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "Here this book is mine.": "",
+      "This here is book mine.": "",
+      "This book is mine.": "",
+      "This here book is mine.": ""
      }
     }
    ]
@@ -1566,7 +1772,8 @@
        "en": "This is bottom to top. The question asks top to bottom.",
        "zh": "这是从下到上。题目问的是从上到下。"
       }
-     }
+     },
+     "qzh": "从上到下，土壤的分层是……"
     },
     {
      "q": "Which part of soil is organic?",
@@ -1594,6 +1801,13 @@
        "en": "Air fills the spaces in soil, but it was never alive, so it is not organic.",
        "zh": "空气填在土壤的空隙里，但它从没活过，所以不是有机的。"
       }
+     },
+     "qzh": "土壤的哪一部分是有机的？",
+     "ozh": {
+      "rock pieces": "岩石碎屑",
+      "minerals": "矿物质",
+      "humus": "腐殖质",
+      "air": "空气"
      }
     },
     {
@@ -1622,6 +1836,13 @@
        "en": "C is weathered rock. Most of the washed-down minerals stop in B, above it.",
        "zh": "C 是风化的岩石。被冲下来的矿物大多停在它上面的 B 层。"
       }
+     },
+     "qzh": "被雨水冲下来的铁和铝的化合物聚集在……",
+     "ozh": {
+      "Horizon O": "O 层",
+      "Horizon A (topsoil)": "A 层（表土）",
+      "Horizon B (subsoil)": "B 层（底土）",
+      "Horizon C": "C 层"
      }
     },
     {
@@ -1650,6 +1871,13 @@
        "en": "Soil is described with only O, A, B and C. There are not ten horizons.",
        "zh": "土壤只用 O、A、B、C 来描述，没有十层。"
       }
+     },
+     "qzh": "成熟的土壤有几层？",
+     "ozh": {
+      "four": "四层",
+      "three": "三层",
+      "two": "两层",
+      "ten": "十层"
      }
     },
     {
@@ -1678,6 +1906,13 @@
        "en": "A dune is a hill of sand piled up by wind, not a path cut by water.",
        "zh": "沙丘是风堆起来的沙山，不是水冲出来的沟。"
       }
+     },
+     "qzh": "雨水流过地面冲出的小沟叫……",
+     "ozh": {
+      "trench": "海沟",
+      "gully": "冲沟",
+      "delta": "三角洲",
+      "dune": "沙丘"
      }
     },
     {
@@ -1706,6 +1941,13 @@
        "en": "Breaking rock into pieces is WEATHERING, the first step.",
        "zh": "把岩石弄碎是风化，是第一步。"
       }
+     },
+     "qzh": "沉积（deposition）的意思是……",
+     "ozh": {
+      "dropping sediment in a new place": "把沉积物放到新的地方",
+      "melting ice": "冰融化",
+      "carrying sediment away": "把沉积物带走",
+      "breaking rock": "把岩石打碎"
      }
     },
     {
@@ -1734,6 +1976,13 @@
        "en": "A melting glacier drops a mix of rocks and soil, not neat hills of sand shaped by wind.",
        "zh": "冰川融化留下的是石头和泥土的混合物，不是风吹成的整齐沙丘。"
       }
+     },
+     "qzh": "沙丘是在……时形成的。",
+     "ozh": {
+      "the wind slows down and drops sand": "风变慢，把沙放下",
+      "a river reaches the sea": "河流流到海里",
+      "rain makes a gully": "雨冲出冲沟",
+      "a glacier melts": "冰川融化"
      }
     },
     {
@@ -1762,6 +2011,13 @@
        "en": "Deltas form where rivers meet the sea. Glaciers are in very cold places, not deserts.",
        "zh": "三角洲在河流入海处形成。冰川在很冷的地方，不在沙漠。"
       }
+     },
+     "qzh": "冰川能……",
+     "ozh": {
+      "carve or deepen valleys": "切出或加深山谷",
+      "stop gravity": "阻止重力",
+      "make magma": "产生岩浆",
+      "build deltas in the desert": "在沙漠里形成三角洲"
      }
     },
     {
@@ -1790,6 +2046,13 @@
        "en": "A glacier is moving ice, not an area of land that drains into one river.",
        "zh": "冰川是移动的冰，不是一片流进同一条河的土地。"
       }
+     },
+     "qzh": "流域（drainage basin）和……意思一样。",
+     "ozh": {
+      "divide": "分水岭",
+      "watershed": "集水区（watershed）",
+      "delta": "三角洲",
+      "glacier": "冰川"
      }
     },
     {
@@ -1818,6 +2081,13 @@
        "en": "The Pacific is on the other side of the continent, past the Rocky Mountains.",
        "zh": "太平洋在大陆另一边，要过落基山脉。"
       }
+     },
+     "qzh": "阿巴拉契亚山脉西坡的水流进……",
+     "ozh": {
+      "Arctic Ocean": "北冰洋",
+      "Atlantic Ocean": "大西洋",
+      "Pacific Ocean": "太平洋",
+      "Gulf of Mexico": "墨西哥湾"
      }
     }
    ]
@@ -1865,6 +2135,13 @@
        "en": "Bring means towards the speaker. The letter is going AWAY to the post office, so take.",
        "zh": "bring 是带到说话人这里。信是带去邮局，离开这里，所以用 take。"
       }
+     },
+     "qzh": "请把这封信（带去：Bring / Take）邮局。",
+     "ozh": {
+      "Brought": "",
+      "Taked": "",
+      "Bring": "",
+      "Take": ""
      }
     },
     {
@@ -1893,6 +2170,13 @@
        "en": "\"Less\" is for things you cannot count, like water or time. Cars are countable, so fewer.",
        "zh": "less 用于不能数的东西，比如水、时间。车可以数，所以用 fewer。"
       }
+     },
+     "qzh": "今天路上的车（更少：fewer / less）。",
+     "ozh": {
+      "lesser": "",
+      "few": "",
+      "less": "",
+      "fewer": ""
      }
     },
     {
@@ -1921,6 +2205,13 @@
        "en": "\"That\" points to something (that book). After a comparative like faster, English always uses than.",
        "zh": "that 是指东西（that book）。faster 这样的比较级后面一定用 than。"
       }
+     },
+     "qzh": "Tom 跑得（比：than / then）Ben 快。",
+     "ozh": {
+      "than": "",
+      "then": "",
+      "thane": "",
+      "that": ""
      }
     },
     {
@@ -1949,6 +2240,13 @@
        "en": "\"Off\" means away from (take it off). It is not a verb, so it cannot follow could.",
        "zh": "off 是“离开”（take it off），不是动词，不能放在 could 后面。"
       }
+     },
+     "qzh": "我们（本来可以：could have / could of）赢这场比赛。",
+     "ozh": {
+      "could of": "",
+      "could has": "",
+      "could have": "",
+      "could off": ""
      }
     },
     {
@@ -1977,6 +2275,13 @@
        "en": "\"Inbetween\" is not a correct word for sharing; even \"in between\" means in the middle of two things.",
        "zh": "inbetween 不是正确的用法；就算 in between 也是指两个东西中间。"
       }
+     },
+     "qzh": "把糖果（在……之间：between / among）分给五个孩子。",
+     "ozh": {
+      "betwixt": "",
+      "between": "",
+      "inbetween": "",
+      "among": ""
      }
     },
     {
@@ -2005,6 +2310,13 @@
        "en": "\"How comes\" is not correct in any form of English.",
        "zh": "how comes 在任何英语里都不对。"
       }
+     },
+     "qzh": "Mia 想知道（为什么：why / how come）商店关门了。",
+     "ozh": {
+      "how come": "",
+      "for why": "",
+      "how comes": "",
+      "why": ""
      }
     },
     {
@@ -2033,6 +2345,13 @@
        "en": "\"Where\" is for places, and \"it\" repeats the story twice. Use: the story that we read.",
        "zh": "where 用于地点，而且 it 又重复了一次 story。用 the story that we read。"
       }
+     },
+     "qzh": "我们读的那个故事（that / where）是关于一只狐狸的。",
+     "ozh": {
+      "what where": "",
+      "where": "",
+      "that": "",
+      "where it": ""
      }
     },
     {
@@ -2061,6 +2380,13 @@
        "en": "This repeats \"right\" twice. Just: all right.",
        "zh": "这样 right 重复了两次。只写 all right。"
       }
+     },
+     "qzh": "一切都（好吗：all right / allright）？",
+     "ozh": {
+      "allright": "",
+      "al right": "",
+      "alright right": "",
+      "all right": ""
      }
     },
     {
@@ -2089,6 +2415,13 @@
        "en": "This puts two verbs together and adds an extra \"him\". One verb is enough: Emma teaches her little brother.",
        "zh": "这样两个动词放在一起，还多了 him。一个动词就够了：Emma teaches her little brother。"
       }
+     },
+     "qzh": "Emma（教 teaches / 学 learns）她弟弟游泳。",
+     "ozh": {
+      "learn": "",
+      "teaches": "",
+      "learns": "",
+      "teach him learns": ""
      }
     },
     {
@@ -2117,6 +2450,11 @@
        "en": "Its' does not exist in English. The possessive is just its.",
        "zh": "英语里没有 its'，物主形式就是 its。"
       }
+     },
+     "qzh": "小狗摇着（它的：its / it's）尾巴。",
+     "ozh": {
+      "its": "",
+      "its'": ""
      }
     }
    ]
@@ -2164,6 +2502,13 @@
        "en": "Einstein was a physicist born in 1879, almost 100 years later.",
        "zh": "爱因斯坦是物理学家，1879 年出生，晚了将近 100 年。"
       }
+     },
+     "qzh": "谁在 1795 年写了《地球理论》？",
+     "ozh": {
+      "Isaac Newton": "艾萨克·牛顿",
+      "James Hutton": "詹姆斯·赫顿",
+      "Charles Darwin": "查尔斯·达尔文",
+      "Albert Einstein": "阿尔伯特·爱因斯坦"
      }
     },
     {
@@ -2192,6 +2537,13 @@
        "en": "Wearing rock down is weathering and erosion, the opposite of uplift.",
        "zh": "把岩石磨低是风化和侵蚀，和抬升正相反。"
       }
+     },
+     "qzh": "抬升（uplift）的意思是……",
+     "ozh": {
+      "mountain building": "造山",
+      "rain falling": "下雨",
+      "dropping sediment": "放下沉积物",
+      "wearing rock down": "把岩石磨低"
      }
     },
     {
@@ -2220,6 +2572,13 @@
        "en": "Rock that melts and cools becomes IGNEOUS rock, not sedimentary.",
        "zh": "熔化后冷却的岩石是火成岩，不是沉积岩。"
       }
+     },
+     "qzh": "沉积层被……时形成沉积岩。",
+     "ozh": {
+      "pressed and cemented together": "压紧并胶结在一起",
+      "frozen in a glacier": "冻在冰川里",
+      "blown away by wind": "被风吹走",
+      "melted by magma": "被岩浆熔化"
      }
     },
     {
@@ -2248,6 +2607,13 @@
        "en": "Layer 1 is at the bottom. It was laid down FIRST, so it is the OLDEST.",
        "zh": "第 1 层在最底下，是最先形成的，所以最老。"
       }
+     },
+     "qzh": "第 1 层在最下面，第 3 层在最上面。哪一层最年轻？",
+     "ozh": {
+      "layer 3": "第 3 层",
+      "they are the same age": "它们年龄一样",
+      "layer 2": "第 2 层",
+      "layer 1": "第 1 层"
      }
     },
     {
@@ -2276,6 +2642,13 @@
        "en": "Super does not mean same. The word for same is \"uni\" or \"homo\" (uniform = same form).",
        "zh": "super 不是“相同”的意思。表示相同的是 uni（uniform = 相同的形状）。"
       }
+     },
+     "qzh": "superposition（叠加）里的 super 意思是……",
+     "ozh": {
+      "below": "在下面",
+      "above": "在上面",
+      "old": "老的",
+      "same": "一样的"
      }
     },
     {
@@ -2304,6 +2677,13 @@
        "en": "A delta is land built at a river mouth, not a picture of rock layers.",
        "zh": "三角洲是河口堆积的陆地，不是岩层的图。"
       }
+     },
+     "qzh": "一个地方岩石的剖面图叫……",
+     "ozh": {
+      "geologic cross-section": "地质剖面图",
+      "station model": "站点模型",
+      "drainage basin": "流域",
+      "delta": "三角洲"
      }
     },
     {
@@ -2332,6 +2712,13 @@
        "en": "Coral grows in shallow, warm, sunny water, not thousands of metres deep.",
        "zh": "珊瑚长在浅、暖、有阳光的水里，不在几千米深的地方。"
       }
+     },
+     "qzh": "大陆隆上覆盖着……",
+     "ozh": {
+      "glaciers": "冰川",
+      "magma": "岩浆",
+      "sediment from the shelf and slope": "从大陆架和大陆坡来的沉积物",
+      "coral only": "只有珊瑚"
      }
     },
     {
@@ -2360,6 +2747,13 @@
        "en": "Sand dunes are built by wind. Active margins are about plate movement.",
        "zh": "沙丘是风堆的。活动大陆边缘讲的是板块运动。"
       }
+     },
+     "qzh": "活动大陆边缘（比如北美洲西海岸）常常有……",
+     "ozh": {
+      "a narrow shelf, trenches, volcanoes and earthquakes": "窄的大陆架、海沟、火山和地震",
+      "a very wide shelf and no earthquakes": "很宽的大陆架，没有地震",
+      "no ocean at all": "完全没有海洋",
+      "only sand dunes": "只有沙丘"
      }
     },
     {
@@ -2388,6 +2782,13 @@
        "en": "Flat deep floor is the abyssal plain. Trenches are narrow and V-shaped.",
        "zh": "平坦的深海底是深海平原。海沟是窄的 V 形。"
       }
+     },
+     "qzh": "深海沟是……",
+     "ozh": {
+      "the highest mountains": "最高的山",
+      "river mouths": "河口",
+      "the lowest places on Earth": "地球上最低的地方",
+      "flat plains": "平原"
      }
     },
     {
@@ -2416,6 +2817,13 @@
        "en": "The shoreline is the edge of the land. Ridges are in the middle of the ocean.",
        "zh": "海岸线是陆地的边缘。洋脊在大洋中间。"
       }
+     },
+     "qzh": "大洋中脊在……形成。",
+     "ozh": {
+      "the North Pole only": "只在北极",
+      "convergent boundaries, where plates collide": "汇聚边界，板块相撞的地方",
+      "divergent boundaries, where plates move apart": "分离边界，板块分开的地方",
+      "the shoreline": "海岸线"
      }
     }
    ]
@@ -2622,6 +3030,13 @@
        "en": "A front is the border between two air masses. The sentence does not mention air meeting.",
        "zh": "锋是两个气团的交界。句子里没有说空气相遇。"
       }
+     },
+     "qzh": "“曼谷今天在下雨。”这是……",
+     "ozh": {
+      "weather": "天气",
+      "climate": "气候",
+      "an air mass": "气团",
+      "a front": "锋"
      }
     },
     {
@@ -2650,6 +3065,13 @@
        "en": "Condensation is gas turning into liquid. The sentence is about yearly rainfall.",
        "zh": "凝结是气体变液体。这句话讲的是每年的雨量。"
       }
+     },
+     "qzh": "“沙漠每年下雨很少。”这是……",
+     "ozh": {
+      "weather": "天气",
+      "climate": "气候",
+      "a front": "锋",
+      "condensation": "凝结"
      }
     },
     {
@@ -2678,6 +3100,13 @@
        "en": "Tropical is right (warm), but continental means over land. It formed over an ocean, so maritime.",
        "zh": "tropical（暖）对了，但 continental 是陆地。它在海上形成，所以是 maritime。"
       }
+     },
+     "qzh": "在温暖海洋上形成的气团是……",
+     "ozh": {
+      "continental polar": "大陆极地气团",
+      "maritime polar": "海洋极地气团",
+      "maritime tropical": "海洋热带气团",
+      "continental tropical": "大陆热带气团"
      }
     },
     {
@@ -2706,6 +3135,13 @@
        "en": "Wet comes from maritime (ocean). Continental air formed over land, so it is dry.",
        "zh": "湿来自 maritime（海上）。continental 在陆地上形成，所以是干的。"
       }
+     },
+     "qzh": "大陆极地空气是……",
+     "ozh": {
+      "warm and wet": "又暖又湿",
+      "hot and dry": "又热又干",
+      "cool and wet": "又凉又湿",
+      "cold and dry": "又冷又干"
      }
     },
     {
@@ -2734,6 +3170,13 @@
        "en": "Cold air does sink, because it is heavier than warm air.",
        "zh": "冷空气确实会下沉，因为它比暖空气重。"
       }
+     },
+     "qzh": "哪种空气会下沉？",
+     "ozh": {
+      "warm air": "暖空气",
+      "cold air": "冷空气",
+      "both": "两种都会",
+      "neither": "都不会"
      }
     },
     {
@@ -2762,6 +3205,13 @@
        "en": "A camera is not one of the weather comparisons.",
        "zh": "相机不是天气里用的比喻。"
       }
+     },
+     "qzh": "冷锋就像一个……",
+     "ozh": {
+      "ramp": "斜坡",
+      "sponge": "海绵",
+      "camera": "相机",
+      "bulldozer": "推土机"
      }
     },
     {
@@ -2790,6 +3240,13 @@
        "en": "A rain shadow is the DRY side of a mountain, with very little rain.",
        "zh": "雨影区是山的干燥一侧，雨很少。"
       }
+     },
+     "qzh": "长时间的小雨通常和……一起来。",
+     "ozh": {
+      "warm front": "暖锋",
+      "cold front": "冷锋",
+      "high pressure area": "高压区",
+      "rain shadow": "雨影区"
      }
     },
     {
@@ -2818,6 +3275,13 @@
        "en": "Erosion is carrying rock and soil away. It is not about water drops on a glass.",
        "zh": "侵蚀是把岩石和泥土带走，跟杯子上的水珠无关。"
       }
+     },
+     "qzh": "冰饮料外面的水珠是由……造成的。",
+     "ozh": {
+      "evaporation": "蒸发",
+      "melting": "融化",
+      "condensation": "凝结",
+      "erosion": "侵蚀"
      }
     },
     {
@@ -2846,6 +3310,13 @@
        "en": "Water vapour first condenses into tiny liquid drops. Only very high, freezing clouds have ice.",
        "zh": "水蒸气先凝结成小水滴，只有很高很冷的云里才有冰。"
       }
+     },
+     "qzh": "暖湿空气……时会形成云。",
+     "ozh": {
+      "sinks and warms": "下沉并变暖",
+      "rises and cools": "上升并变冷",
+      "stops moving": "停止移动",
+      "turns into ice at once": "一下子变成冰"
      }
     },
     {
@@ -2874,6 +3345,13 @@
        "en": "Nimbus means rain cloud: dark and full of rain, not white and puffy.",
        "zh": "nimbus 是“雨云”：又黑又带雨，不是白白的一团。"
       }
+     },
+     "qzh": "蓬松、像棉花团一样的云是……",
+     "ozh": {
+      "cumulus": "积云",
+      "stratus": "层云",
+      "cirrus": "卷云",
+      "nimbus": "雨云"
      }
     }
    ],
@@ -2919,6 +3397,10 @@
        "en": "Test it: 8 + 4 = 12, which matches the right side exactly. Because it makes the equation true, 8 IS a solution.",
        "zh": "试一下：8 + 4 = 12，和右边一样。它让等式成立，所以 8 是解。"
       }
+     },
+     "qzh": "8 是 x + 4 = 12 的解吗？",
+     "ozh": {
+      "Yes": "是"
      }
     },
     {
@@ -2947,7 +3429,8 @@
        "en": "18 is the number already in the equation, not x. Check: 18 + 18 = 36, not 31.",
        "zh": "18 是题目里本来的数，不是 x。检查：18 + 18 = 36，不是 31。"
       }
-     }
+     },
+     "qzh": "x + 18 = 31。x 等于多少？"
     },
     {
      "q": "m − 7 = 25. m = ?",
@@ -2975,7 +3458,8 @@
        "en": "7 is the number being taken away, not m. Check: 7 − 7 = 0, not 25.",
        "zh": "7 是被减去的数，不是 m。检查：7 − 7 = 0，不是 25。"
       }
-     }
+     },
+     "qzh": "m − 7 = 25。m 等于多少？"
     },
     {
      "q": "6x = 42. x = ?",
@@ -3003,7 +3487,8 @@
        "en": "252 is 42 × 6, which multiplies again instead of undoing. Check: 6 × 252 = 1512.",
        "zh": "252 是 42 × 6，又乘了一次而没有抵消。检查：6 × 252 = 1512。"
       }
-     }
+     },
+     "qzh": "6x = 42。x 等于多少？"
     },
     {
      "q": "y ÷ 3 = 12. y = ?",
@@ -3031,7 +3516,8 @@
        "en": "9 is 12 − 3. Undo division with multiplication. Check: 9 ÷ 3 = 3.",
        "zh": "9 是 12 − 3。除法要用乘法抵消。检查：9 ÷ 3 = 3。"
       }
-     }
+     },
+     "qzh": "y ÷ 3 = 12。y 等于多少？"
     },
     {
      "q": "Emma had some stickers and got 8 more. Now she has 20. Which equation fits?",
@@ -3059,7 +3545,8 @@
        "en": "This says she ends with 8. She ends with 20, so 20 goes alone on the right.",
        "zh": "这表示她最后有 8 张。她最后有 20 张，所以 20 单独放在右边。"
       }
-     }
+     },
+     "qzh": "Emma 有一些贴纸，又得到了 8 张，现在有 20 张。哪个等式符合？"
     },
     {
      "q": "Which symbol means \"at least\"?",
@@ -3087,7 +3574,8 @@
        "en": "< means less than: smaller numbers only, the opposite of at least.",
        "zh": "< 是小于：只有更小的数，和“至少”相反。"
       }
-     }
+     },
+     "qzh": "哪个符号表示“至少”？"
     },
     {
      "q": "\"You can bring at most 3 friends\" is...",
@@ -3115,7 +3603,8 @@
        "en": "> means more than 3, which breaks the rule.",
        "zh": "> 是超过 3 个，违反规定了。"
       }
-     }
+     },
+     "qzh": "“你最多可以带 3 个朋友”是……"
     },
     {
      "q": "Which number is a solution of x > 5?",
@@ -3143,7 +3632,8 @@
        "en": "0 is less than 5, so 0 > 5 is false.",
        "zh": "0 比 5 小，所以 0 > 5 不成立。"
       }
-     }
+     },
+     "qzh": "哪个数是 x > 5 的解？"
     },
     {
      "q": "To graph x ≥ 2, you draw...",
@@ -3171,6 +3661,13 @@
        "en": "Both parts are wrong: that shows x < 2. Closed for ≥, and right for greater.",
        "zh": "两部分都错了，那是 x < 2。≥ 用实心圆，大于向右。"
       }
+     },
+     "qzh": "要画 x ≥ 2，你要画……",
+     "ozh": {
+      "an open circle on 2 and an arrow to the right": "在 2 上画空心圆，箭头向右",
+      "a closed circle on 2 and an arrow to the right": "在 2 上画实心圆，箭头向右",
+      "a closed circle on 2 and an arrow to the left": "在 2 上画实心圆，箭头向左",
+      "an open circle on 2 and an arrow to the left": "在 2 上画空心圆，箭头向左"
      }
     },
     {
@@ -3199,6 +3696,13 @@
        "en": "Both parts are wrong: that shows x ≥ 4.",
        "zh": "两部分都错了，那是 x ≥ 4。"
       }
+     },
+     "qzh": "要画 x < 4，你要画……",
+     "ozh": {
+      "a closed circle on 4 and an arrow to the left": "在 4 上画实心圆，箭头向左",
+      "an open circle on 4 and an arrow to the right": "在 4 上画空心圆，箭头向右",
+      "an open circle on 4 and an arrow to the left": "在 4 上画空心圆，箭头向左",
+      "a closed circle on 4 and an arrow to the right": "在 4 上画实心圆，箭头向右"
      }
     },
     {
@@ -3227,7 +3731,8 @@
        "en": "= means exactly 120 only. Taller riders are allowed too, so it is an inequality, not an equation.",
        "zh": "= 只表示刚好 120。更高的人也可以，所以要用不等式，不是等式。"
       }
-     }
+     },
+     "qzh": "一个游乐设施要求身高超过 120 厘米。哪个不等式符合？"
     }
    ],
    "canNow": {
@@ -3280,7 +3785,8 @@
        "en": "15 is the total, not x. Check: 15 + 9 = 24, not 15.",
        "zh": "15 是总数，不是 x。检查：15 + 9 = 24，不是 15。"
       }
-     }
+     },
+     "qzh": "x + 9 = 15。x 等于多少？"
     },
     {
      "q": "y − 27 = 13. y = ?",
@@ -3308,7 +3814,8 @@
        "en": "27 is the number taken away, not y. Check: 27 − 27 = 0, not 13.",
        "zh": "27 是被减去的数，不是 y。检查：27 − 27 = 0，不是 13。"
       }
-     }
+     },
+     "qzh": "y − 27 = 13。y 等于多少？"
     },
     {
      "q": "n + 16 = 25. n = ?",
@@ -3336,7 +3843,8 @@
        "en": "Subtraction slip: 25 − 16 is 9. Check: 11 + 16 = 27, not 25.",
        "zh": "减法算错了：25 − 16 = 9。检查：11 + 16 = 27，不是 25。"
       }
-     }
+     },
+     "qzh": "n + 16 = 25。n 等于多少？"
     },
     {
      "q": "7k = 63. k = ?",
@@ -3364,7 +3872,8 @@
        "en": "441 is 63 × 7, which multiplies again. Check: 7 × 441 = 3087.",
        "zh": "441 是 63 × 7，又乘了一次。检查：7 × 441 = 3087。"
       }
-     }
+     },
+     "qzh": "7k = 63。k 等于多少？"
     },
     {
      "q": "Is 15 a solution of 50 − x = 35?",
@@ -3382,6 +3891,10 @@
        "en": "Work it out: 50 − 15 = 35, which matches the right side exactly, so 15 IS a solution.",
        "zh": "算一下：50 − 15 = 35，和右边完全一样，所以 15 是解。"
       }
+     },
+     "qzh": "15 是 50 − x = 35 的解吗？",
+     "ozh": {
+      "Yes": "是"
      }
     },
     {
@@ -3410,7 +3923,8 @@
        "en": "This mixes up the numbers. 55 is what is LEFT, so it goes alone after the equals sign.",
        "zh": "这把数字弄乱了。55 是剩下的钱，应该单独放在等号后面。"
       }
-     }
+     },
+     "qzh": "Tom 花了 45 泰铢，还剩 55 泰铢。哪个等式能求出他原来有多少钱（m）？"
     },
     {
      "q": "\"More than 10 people\" is...",
@@ -3438,7 +3952,8 @@
        "en": "≤ means 10 or fewer: at most, the opposite.",
        "zh": "≤ 是 10 或更少（最多），意思相反。"
       }
-     }
+     },
+     "qzh": "“多于 10 个人”是……"
     },
     {
      "q": "Which number is NOT a solution of x ≤ 7?",
@@ -3466,7 +3981,8 @@
        "en": "0 is less than 7, so 0 ≤ 7 is true. It IS a solution.",
        "zh": "0 比 7 小，0 ≤ 7 成立，它是解。"
       }
-     }
+     },
+     "qzh": "哪个数不是 x ≤ 7 的解？"
     },
     {
      "q": "An open circle on 3 with an arrow to the right shows...",
@@ -3494,7 +4010,8 @@
        "en": "≤ is smaller numbers AND includes 3: closed circle, arrow left. Both parts are wrong.",
        "zh": "≤ 是更小的数而且包括 3：实心圆、向左。两部分都不对。"
       }
-     }
+     },
+     "qzh": "在 3 上画空心圆、箭头向右，表示……"
     },
     {
      "q": "A closed circle on 5 with an arrow to the left shows...",
@@ -3522,7 +4039,8 @@
        "en": "> is bigger numbers and excludes 5: open circle, arrow right. Both parts are wrong.",
        "zh": "> 是更大的数而且不包括 5：空心圆、向右。两部分都不对。"
       }
-     }
+     },
+     "qzh": "在 5 上画实心圆、箭头向左，表示……"
     }
    ],
    "canNow": {
@@ -3564,6 +4082,11 @@
        "en": "Money DEPENDS on how many hours she works (more hours, more money), so money is the DEPENDENT variable.",
        "zh": "钱取决于她工作几小时（越久钱越多），所以钱是因变量。"
       }
+     },
+     "qzh": "Sophie 帮人看孩子，每小时赚 40 泰铢。哪个是自变量？",
+     "ozh": {
+      "hours babysitting": "看孩子的小时数",
+      "money earned": "赚的钱"
      }
     },
     {
@@ -3582,6 +4105,11 @@
        "en": "James chooses the minutes; they cause the change. That makes minutes the INDEPENDENT variable.",
        "zh": "James 自己决定花几分钟，是它引起变化，所以分钟是自变量。"
       }
+     },
+     "qzh": "浇了几棵植物取决于 James 花了几分钟。因变量是……",
+     "ozh": {
+      "minutes spent": "花的分钟数",
+      "plants watered": "浇的植物数"
      }
     },
     {
@@ -3610,7 +4138,8 @@
        "en": "Test x = 1: 3 × 1 = 3, but y is 4.",
        "zh": "试 x = 1：3 × 1 = 3，但 y 是 4。"
       }
-     }
+     },
+     "qzh": "x：1、2、3。y：4、8、12。等式是……"
     },
     {
      "q": "x: 1, 2, 3. y: 3, 5, 7. The equation is...",
@@ -3638,7 +4167,8 @@
        "en": "Test x = 1: 1 + 1 = 2, but y is 3.",
        "zh": "试 x = 1：1 + 1 = 2，但 y 是 3。"
       }
-     }
+     },
+     "qzh": "x：1、2、3。y：3、5、7。等式是……"
     },
     {
      "q": "y = 3x. If x = 12, y = ?",
@@ -3666,7 +4196,8 @@
        "en": "312 just writes 3 and 12 side by side. A number next to a letter means multiply: 3 × 12.",
        "zh": "312 只是把 3 和 12 写在一起。数字挨着字母表示相乘：3 × 12。"
       }
-     }
+     },
+     "qzh": "y = 3x。如果 x = 12，y 等于多少？"
     },
     {
      "q": "y = x + 5. If x = 9, y = ?",
@@ -3694,7 +4225,8 @@
        "en": "59 just writes 5 and 9 side by side. The + sign means add: 9 + 5 = 14.",
        "zh": "59 只是把 5 和 9 写在一起。+ 号表示加：9 + 5 = 14。"
       }
-     }
+     },
+     "qzh": "y = x + 5。如果 x = 9，y 等于多少？"
     },
     {
      "q": "On a graph, the independent variable goes on the...",
@@ -3712,6 +4244,11 @@
        "en": "The y-axis (going UP) is for the DEPENDENT variable, the result that depends on the other.",
        "zh": "y 轴（向上的）放因变量，就是依赖另一个的结果。"
       }
+     },
+     "qzh": "在图上，自变量放在……",
+     "ozh": {
+      "y-axis": "y 轴（竖的）",
+      "x-axis": "x 轴（横的）"
      }
     },
     {
@@ -3740,6 +4277,13 @@
        "en": "2 + 6 = 8, but you never add the two numbers. They give two separate directions.",
        "zh": "2 + 6 = 8，但两个数不能相加，它们是两个不同的方向。"
       }
+     },
+     "qzh": "要画点 (2, 6)，你要……",
+     "ozh": {
+      "2 across, then 6 up": "先往右 2，再往上 6",
+      "6 across, then 2 up": "先往右 6，再往上 2",
+      "2 up, then 6 across": "先往上 2，再往右 6",
+      "8 across": "往右 8"
      }
     },
     {
@@ -3768,7 +4312,8 @@
        "en": "With x = 2, y = 2 × 2 = 4, not 2.",
        "zh": "x = 2 时 y = 2 × 2 = 4，不是 2。"
       }
-     }
+     },
+     "qzh": "哪个点在 y = 2x 的图上？"
     },
     {
      "q": "A taxi costs 50 baht plus 10 baht for each km. Which equation gives the cost c for d km?",
@@ -3796,7 +4341,8 @@
        "en": "This charges 60 for every km. The 50 is paid only once, not for every km.",
        "zh": "这样每公里收 60。50 只付一次，不是每公里都付。"
       }
-     }
+     },
+     "qzh": "出租车起步价 50 泰铢，每公里再加 10 泰铢。哪个等式表示走 d 公里的费用 c？"
     }
    ],
    "canNow": {
@@ -3850,7 +4396,8 @@
        "en": "20 is the total. Check: 20 + 12 = 32.",
        "zh": "20 是总数。检查：20 + 12 = 32。"
       }
-     }
+     },
+     "qzh": "x + 12 = 20。x 等于多少？"
     },
     {
      "q": "p − 9 = 16. p = ?",
@@ -3878,7 +4425,8 @@
        "en": "9 is the number taken away. Check: 9 − 9 = 0.",
        "zh": "9 是被减去的数。检查：9 − 9 = 0。"
       }
-     }
+     },
+     "qzh": "p − 9 = 16。p 等于多少？"
     },
     {
      "q": "4a = 20. a = ?",
@@ -3906,7 +4454,8 @@
        "en": "80 is 20 × 4, which multiplies again. Check: 4 × 80 = 320.",
        "zh": "80 是 20 × 4，又乘了一次。检查：4 × 80 = 320。"
       }
-     }
+     },
+     "qzh": "4a = 20。a 等于多少？"
     },
     {
      "q": "Which is an inequality?",
@@ -3934,7 +4483,8 @@
        "en": "4x is an expression (4 times x). It has no comparing sign.",
        "zh": "4x 是代数式（4 乘 x），没有比较符号。"
       }
-     }
+     },
+     "qzh": "哪个是不等式？"
     },
     {
      "q": "\"Fewer than 8 cookies\" is...",
@@ -3962,7 +4512,8 @@
        "en": "≥ means 8 or more, the opposite.",
        "zh": "≥ 是 8 或更多，意思相反。"
       }
-     }
+     },
+     "qzh": "“少于 8 块饼干”是……"
     },
     {
      "q": "Which number is a solution of x ≥ 10?",
@@ -3990,7 +4541,8 @@
        "en": "0 is less than 10, so 0 ≥ 10 is false.",
        "zh": "0 比 10 小，0 ≥ 10 不成立。"
       }
-     }
+     },
+     "qzh": "哪个数是 x ≥ 10 的解？"
     },
     {
      "q": "Hours studied and test score: the dependent variable is...",
@@ -4008,6 +4560,11 @@
        "en": "You choose the hours; they cause the change. That makes hours the INDEPENDENT variable.",
        "zh": "小时是你选的，是它引起变化，所以小时是自变量。"
       }
+     },
+     "qzh": "学习的小时数和考试分数：因变量是……",
+     "ozh": {
+      "test score": "考试分数",
+      "hours studied": "学习的小时数"
      }
     },
     {
@@ -4036,7 +4593,8 @@
        "en": "Test x = 2: 2 + 2 = 4, not 1.",
        "zh": "试 x = 2：2 + 2 = 4，不是 1。"
       }
-     }
+     },
+     "qzh": "x：2、4、6。y：1、2、3。等式是……"
     },
     {
      "q": "y = 5x + 1. If x = 3, y = ?",
@@ -4064,7 +4622,8 @@
        "en": "53 writes 5 and 3 side by side. 5x means 5 × 3.",
        "zh": "53 是把 5 和 3 写在一起。5x 是 5 × 3。"
       }
-     }
+     },
+     "qzh": "y = 5x + 1。如果 x = 3，y 等于多少？"
     },
     {
      "q": "y = 2x − 5. If x = 6, y = ?",
@@ -4092,7 +4651,8 @@
        "en": "12 is only 2 × 6. You forgot to subtract 5.",
        "zh": "12 只是 2 × 6，忘了减 5。"
       }
-     }
+     },
+     "qzh": "y = 2x − 5。如果 x = 6，y 等于多少？"
     },
     {
      "q": "The graph of y = 3x passes through...",
@@ -4120,7 +4680,8 @@
        "en": "With x = 2, y = 3 × 2 = 6, not 5.",
        "zh": "x = 2 时 y = 3 × 2 = 6，不是 5。"
       }
-     }
+     },
+     "qzh": "y = 3x 的图经过……"
     },
     {
      "q": "Which is the best first step for 3n = 27?",
@@ -4148,6 +4709,13 @@
        "en": "Adding 27 does not undo anything; it just makes 3n + 27 = 54.",
        "zh": "加 27 什么都没抵消，只会变成 3n + 27 = 54。"
       }
+     },
+     "qzh": "解 3n = 27 最好的第一步是什么？",
+     "ozh": {
+      "subtract 3 from both sides": "两边都减 3",
+      "multiply both sides by 3": "两边都乘以 3",
+      "divide both sides by 3": "两边都除以 3",
+      "add 27 to both sides": "两边都加 27"
      }
     }
    ],
@@ -4191,6 +4759,10 @@
        "en": "Work it out: 6 + 9 = 15, exactly the right side. So 6 IS a solution.",
        "zh": "算一下：6 + 9 = 15，和右边一样，所以 6 是解。"
       }
+     },
+     "qzh": "6 是 x + 9 = 15 的解吗？",
+     "ozh": {
+      "Yes": "是"
      }
     },
     {
@@ -4219,7 +4791,8 @@
        "en": "23 is the number already in the equation. Check: 23 + 23 = 46.",
        "zh": "23 是题目里本来的数。检查：23 + 23 = 46。"
       }
-     }
+     },
+     "qzh": "y + 23 = 41。y 等于多少？"
     },
     {
      "q": "k − 14 = 30. k = ?",
@@ -4247,7 +4820,8 @@
        "en": "14 is the number taken away. Check: 14 − 14 = 0.",
        "zh": "14 是被减去的数。检查：14 − 14 = 0。"
       }
-     }
+     },
+     "qzh": "k − 14 = 30。k 等于多少？"
     },
     {
      "q": "8n = 72. n = ?",
@@ -4275,7 +4849,8 @@
        "en": "576 is 72 × 8, which multiplies again. Check: 8 × 576 = 4608.",
        "zh": "576 是 72 × 8，又乘了一次。检查：8 × 576 = 4608。"
       }
-     }
+     },
+     "qzh": "8n = 72。n 等于多少？"
     },
     {
      "q": "p ÷ 4 = 7. p = ?",
@@ -4303,7 +4878,8 @@
        "en": "1.75 is 7 ÷ 4: it divides again instead of undoing.",
        "zh": "1.75 是 7 ÷ 4，又除了一次而没有抵消。"
       }
-     }
+     },
+     "qzh": "p ÷ 4 = 7。p 等于多少？"
     },
     {
      "q": "Which is the best first step for x − 12 = 5?",
@@ -4331,6 +4907,13 @@
        "en": "Adding 5 does not remove the − 12 next to x.",
        "zh": "加 5 不能去掉 x 旁边的 − 12。"
       }
+     },
+     "qzh": "解 x − 12 = 5 最好的第一步是什么？",
+     "ozh": {
+      "add 12 to both sides": "两边都加 12",
+      "subtract 12 from both sides": "两边都减 12",
+      "divide both sides by 12": "两边都除以 12",
+      "add 5 to both sides": "两边都加 5"
      }
     },
     {
@@ -4359,7 +4942,8 @@
        "en": "This mixes up the numbers. 16 is what he has NOW, so it goes alone after the equals sign.",
        "zh": "这把数字弄乱了。16 是他现在有的，应该单独放在等号后面。"
       }
-     }
+     },
+     "qzh": "James 有一些弹珠，丢了 9 颗，现在有 16 颗。哪个等式符合？"
     },
     {
      "q": "Which symbol means \"at most\"?",
@@ -4387,7 +4971,8 @@
        "en": "> means MORE than, the opposite of at most.",
        "zh": "> 是“多于”，和“最多”相反。"
       }
-     }
+     },
+     "qzh": "哪个符号表示“最多”？"
     },
     {
      "q": "\"You must be at least 12 years old\" is...",
@@ -4415,7 +5000,8 @@
        "en": "< means younger than 12, the opposite.",
        "zh": "< 是小于 12 岁，意思相反。"
       }
-     }
+     },
+     "qzh": "“你必须至少 12 岁”是……"
     },
     {
      "q": "Which number is a solution of x < 6?",
@@ -4443,7 +5029,8 @@
        "en": "10 is bigger than 6, so 10 < 6 is false.",
        "zh": "10 比 6 大，10 < 6 不成立。"
       }
-     }
+     },
+     "qzh": "哪个数是 x < 6 的解？"
     },
     {
      "q": "Which number is NOT a solution of y ≥ 4?",
@@ -4471,7 +5058,8 @@
        "en": "9 is bigger than 4, so 9 ≥ 4 is true. It IS a solution.",
        "zh": "9 比 4 大，9 ≥ 4 成立，它是解。"
       }
-     }
+     },
+     "qzh": "哪个数不是 y ≥ 4 的解？"
     },
     {
      "q": "An open circle on 2 and an arrow to the LEFT shows...",
@@ -4499,7 +5087,8 @@
        "en": "≥ is bigger numbers AND includes 2: closed circle, arrow right. Both parts are wrong.",
        "zh": "≥ 是更大的数而且包括 2：实心圆、向右。两部分都不对。"
       }
-     }
+     },
+     "qzh": "在 2 上画空心圆、箭头向左，表示……"
     },
     {
      "q": "To graph x ≥ 7, you draw...",
@@ -4527,6 +5116,13 @@
        "en": "Both parts are wrong: that shows x < 7.",
        "zh": "两部分都错了，那是 x < 7。"
       }
+     },
+     "qzh": "要画 x ≥ 7，你要画……",
+     "ozh": {
+      "an open circle on 7 and an arrow to the right": "在 7 上画空心圆，箭头向右",
+      "a closed circle on 7 and an arrow to the right": "在 7 上画实心圆，箭头向右",
+      "a closed circle on 7 and an arrow to the left": "在 7 上画实心圆，箭头向左",
+      "an open circle on 7 and an arrow to the left": "在 7 上画空心圆，箭头向左"
      }
     },
     {
@@ -4545,6 +5141,11 @@
        "en": "The money depends on the weeks (more weeks, more money), so money is the DEPENDENT variable.",
        "zh": "钱取决于周数（周越多，钱越多），所以钱是因变量。"
       }
+     },
+     "qzh": "Tom 每周存 20 泰铢。哪个是自变量？",
+     "ozh": {
+      "money saved": "存的钱",
+      "number of weeks": "周数"
      }
     },
     {
@@ -4563,6 +5164,11 @@
        "en": "The flour is what you choose; it causes the change. That makes it the INDEPENDENT variable.",
        "zh": "面粉是你选的，是它引起变化，所以是自变量。"
       }
+     },
+     "qzh": "烤的饼干数量取决于用了几杯面粉。因变量是……",
+     "ozh": {
+      "cookies baked": "烤的饼干",
+      "cups of flour": "面粉的杯数"
      }
     },
     {
@@ -4591,7 +5197,8 @@
        "en": "Test x = 1: 5 × 1 = 5, not 6.",
        "zh": "试 x = 1：5 × 1 = 5，不是 6。"
       }
-     }
+     },
+     "qzh": "x：1、2、3。y：6、12、18。等式是……"
     },
     {
      "q": "x: 1, 2, 3. y: 4, 7, 10. The equation is...",
@@ -4619,7 +5226,8 @@
        "en": "Test x = 1: 3 × 1 = 3, but y is 4. It needs + 1.",
        "zh": "试 x = 1：3 × 1 = 3，但 y 是 4，还要加 1。"
       }
-     }
+     },
+     "qzh": "x：1、2、3。y：4、7、10。等式是……"
     },
     {
      "q": "y = 4x − 3. If x = 5, y = ?",
@@ -4647,7 +5255,8 @@
        "en": "20 is only 4 × 5. You forgot to subtract 3.",
        "zh": "20 只是 4 × 5，忘了减 3。"
       }
-     }
+     },
+     "qzh": "y = 4x − 3。如果 x = 5，y 等于多少？"
     },
     {
      "q": "Which point is on the graph of y = x + 2?",
@@ -4675,7 +5284,8 @@
        "en": "With x = 2, y = 2 + 2 = 4, not 2.",
        "zh": "x = 2 时 y = 2 + 2 = 4，不是 2。"
       }
-     }
+     },
+     "qzh": "哪个点在 y = x + 2 的图上？"
     },
     {
      "q": "To plot (5, 3), you go...",
@@ -4703,6 +5313,13 @@
        "en": "5 + 3 = 8, but you never add the two numbers. They are two separate directions.",
        "zh": "5 + 3 = 8，但两个数不能相加，它们是两个不同的方向。"
       }
+     },
+     "qzh": "要画 (5, 3)，你要……",
+     "ozh": {
+      "3 across, then 5 up": "先往右 3，再往上 5",
+      "5 up, then 3 across": "先往上 5，再往右 3",
+      "5 across, then 3 up": "先往右 5，再往上 3",
+      "8 across": "往右 8"
      }
     },
     {
@@ -4731,7 +5348,8 @@
        "en": "This charges 105 for every GB. The 100 is paid only once.",
        "zh": "这样每 GB 收 105。100 只付一次。"
       }
-     }
+     },
+     "qzh": "手机套餐 100 泰铢，每 GB 再加 5 泰铢。哪个等式表示用 g GB 的费用 c？"
     },
     {
      "q": "Which gas is about 21% of the air?",
@@ -4759,6 +5377,13 @@
        "en": "Argon is part of the last 1% of other gases.",
        "zh": "氩气属于最后 1% 的其他气体。"
       }
+     },
+     "qzh": "哪种气体大约占空气的 21%？",
+     "ozh": {
+      "nitrogen": "氮气",
+      "oxygen": "氧气",
+      "carbon dioxide": "二氧化碳",
+      "argon": "氩气"
      }
     },
     {
@@ -4787,6 +5412,13 @@
        "en": "The thermosphere is the FOURTH layer, very high up.",
        "zh": "热层是第四层，非常高。"
       }
+     },
+     "qzh": "我们生活在大气层的哪一层？",
+     "ozh": {
+      "stratosphere": "平流层",
+      "mesosphere": "中间层",
+      "troposphere": "对流层",
+      "thermosphere": "热层"
      }
     },
     {
@@ -4815,6 +5447,13 @@
        "en": "Wind is in the troposphere. Ozone blocks rays from the Sun, not moving air.",
        "zh": "风在对流层。臭氧挡的是太阳射线，不是流动的空气。"
       }
+     },
+     "qzh": "臭氧层通过吸收……来保护我们。",
+     "ozh": {
+      "rain": "雨",
+      "meteors": "流星",
+      "wind": "风",
+      "harmful UV rays": "有害的紫外线"
      }
     },
     {
@@ -4843,6 +5482,13 @@
        "en": "This is the right list but from the TOP down.",
        "zh": "顺序对，但是从上往下。"
       }
+     },
+     "qzh": "从地面往上，正确的顺序是……",
+     "ozh": {
+      "stratosphere, troposphere, mesosphere, thermosphere, exosphere": "平流层、对流层、中间层、热层、外逸层",
+      "troposphere, stratosphere, mesosphere, thermosphere, exosphere": "对流层、平流层、中间层、热层、外逸层",
+      "troposphere, mesosphere, stratosphere, thermosphere, exosphere": "对流层、中间层、平流层、热层、外逸层",
+      "exosphere, thermosphere, mesosphere, stratosphere, troposphere": "外逸层、热层、中间层、平流层、对流层"
      }
     }
    ],

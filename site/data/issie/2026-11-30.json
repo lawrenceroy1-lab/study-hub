@@ -351,6 +351,13 @@
        "en": "Speed of moving air is WIND SPEED, measured with an anemometer.",
        "zh": "空气移动的速度是风速，用风速计测量。"
       }
+     },
+     "qzh": "气压是……",
+     "ozh": {
+      "how hard the air pushes down on Earth": "空气往下压地球有多用力",
+      "how hot the air is": "空气有多热",
+      "how much rain falls": "下了多少雨",
+      "how fast clouds move": "云移动得多快"
      }
     },
     {
@@ -379,6 +386,13 @@
        "en": "There is always weather. Low pressure actually brings MORE weather: clouds, wind and rain.",
        "zh": "天气一直都有。低压其实带来更多天气：云、风和雨。"
       }
+     },
+     "qzh": "低压通常带来……",
+     "ozh": {
+      "clouds and rain": "云和雨",
+      "clear, sunny skies": "晴朗的天空",
+      "snow every day": "每天下雪",
+      "no weather at all": "完全没有天气"
      }
     },
     {
@@ -407,6 +421,13 @@
        "en": "Wind moves sideways across the land. Rising air is called an updraft, not wind.",
        "zh": "风是在地面上横着吹的。往上升的空气叫上升气流，不叫风。"
       }
+     },
+     "qzh": "风是从……吹的。",
+     "ozh": {
+      "high pressure to low pressure": "高压吹向低压",
+      "low pressure to high pressure": "低压吹向高压",
+      "warm places to cold places only": "只从暖的地方吹向冷的地方",
+      "the ground straight up": "从地面直直往上"
      }
     },
     {
@@ -435,6 +456,13 @@
        "en": "A cold front is one kind of front, drawn with blue triangles. It does not join equal pressures.",
        "zh": "冷锋是一种锋，用蓝色三角形画，不是连接相同气压的线。"
       }
+     },
+     "qzh": "天气图上把气压相同的地方连起来的线叫……",
+     "ozh": {
+      "isobars": "等压线",
+      "fronts": "锋",
+      "station models": "站点模型",
+      "cold fronts": "冷锋"
      }
     },
     {
@@ -463,6 +491,13 @@
        "en": "Every isobar shows a pressure. Far apart just means the pressure changes slowly.",
        "zh": "每条等压线都代表一个气压。间距大只是表示气压变化慢。"
       }
+     },
+     "qzh": "等压线离得很远表示……",
+     "ozh": {
+      "gentle wind": "微风",
+      "strong wind": "大风",
+      "a thunderstorm": "雷雨",
+      "no air pressure": "没有气压"
      }
     },
     {
@@ -491,6 +526,13 @@
        "en": "The bulldozer is the comparison for a cold front.",
        "zh": "推土机比喻的是冷锋。"
       }
+     },
+     "qzh": "站点模型就像天气的……",
+     "ozh": {
+      "selfie of one place": "一个地方的自拍",
+      "group photo of many places": "很多地方的合照",
+      "wardrobe": "衣柜",
+      "bulldozer": "推土机"
      }
     },
     {
@@ -519,6 +561,13 @@
        "en": "Cloud cover is shown by how much of the middle circle is shaded.",
        "zh": "云量是用中间圆圈涂黑多少来表示的。"
       }
+     },
+     "qzh": "在站点模型上，左边的数字是……",
+     "ozh": {
+      "temperature": "温度",
+      "air pressure": "气压",
+      "wind speed": "风速",
+      "cloud cover": "云量"
      }
     },
     {
@@ -547,6 +596,13 @@
        "en": "Cloud cover is how much of the circle is shaded.",
        "zh": "云量是圆圈涂黑了多少。"
       }
+     },
+     "qzh": "在站点模型上，杆子上的羽毛表示……",
+     "ozh": {
+      "wind speed": "风速",
+      "wind direction": "风向",
+      "temperature": "温度",
+      "cloud cover": "云量"
      }
     },
     {
@@ -575,6 +631,13 @@
        "en": "How fast air moves is wind speed.",
        "zh": "空气移动多快是风速。"
       }
+     },
+     "qzh": "相对湿度表示空气里的水蒸气有多 ___。",
+     "ozh": {
+      "full": "满",
+      "hot": "热",
+      "heavy": "重",
+      "fast": "快"
      }
     },
     {
@@ -603,6 +666,13 @@
        "en": "Hail is ice that falls from storm clouds. Dew is liquid drops.",
        "zh": "冰雹是从雷雨云落下的冰。露水是液态的水珠。"
       }
+     },
+     "qzh": "早上草上的露水是水蒸气……",
+     "ozh": {
+      "condensed on a cool surface": "在凉的表面上凝结了",
+      "fell from a cumulonimbus cloud": "从积雨云里落下来",
+      "came up out of the soil": "从土里冒出来",
+      "froze into hail": "冻成了冰雹"
      }
     }
    ],
@@ -656,6 +726,13 @@
        "en": "Outer space starts where the atmosphere ENDS. Space has almost no air.",
        "zh": "外太空是在大气层结束的地方开始的，几乎没有空气。"
       }
+     },
+     "qzh": "大气层是……",
+     "ozh": {
+      "the blanket of air around Earth": "包围地球的一层空气“毯子”",
+      "the clouds only": "只有云",
+      "the ocean": "海洋",
+      "outer space": "外太空"
      }
     },
     {
@@ -684,6 +761,13 @@
        "en": "Argon is part of the 1% of \"other gases\".",
        "zh": "氩气属于那 1% 的“其他气体”。"
       }
+     },
+     "qzh": "空气中最多的气体是……",
+     "ozh": {
+      "oxygen": "氧气",
+      "nitrogen": "氮气",
+      "carbon dioxide": "二氧化碳",
+      "argon": "氩气"
      }
     },
     {
@@ -712,7 +796,8 @@
        "en": "Half sounds right but is not. Oxygen is about one fifth: 21%.",
        "zh": "一半听起来像，但不对。氧气大约五分之一：21%。"
       }
-     }
+     },
+     "qzh": "空气中大约有多少是氧气？"
     },
     {
      "q": "Which layer is closest to the ground?",
@@ -740,6 +825,13 @@
        "en": "The thermosphere is the FOURTH layer, very high, where the aurora happens.",
        "zh": "热层是第四层，很高，极光在那里发生。"
       }
+     },
+     "qzh": "哪一层最靠近地面？",
+     "ozh": {
+      "stratosphere": "平流层",
+      "mesosphere": "中间层",
+      "thermosphere": "热层",
+      "troposphere": "对流层"
      }
     },
     {
@@ -768,6 +860,13 @@
        "en": "The mesosphere is too high and too dry for clouds and rain.",
        "zh": "中间层太高太干，没有云和雨。"
       }
+     },
+     "qzh": "天气发生在……",
+     "ozh": {
+      "stratosphere": "平流层",
+      "troposphere": "对流层",
+      "exosphere": "外逸层",
+      "mesosphere": "中间层"
      }
     },
     {
@@ -796,6 +895,13 @@
        "en": "The exosphere is the outer edge, where satellites are.",
        "zh": "外逸层是最外边，卫星在那里。"
       }
+     },
+     "qzh": "臭氧层在……",
+     "ozh": {
+      "troposphere": "对流层",
+      "mesosphere": "中间层",
+      "exosphere": "外逸层",
+      "stratosphere": "平流层"
      }
     },
     {
@@ -824,6 +930,13 @@
        "en": "The exosphere has almost no air, so there is nothing for a meteor to rub against and burn.",
        "zh": "外逸层几乎没有空气，流星没有东西可摩擦，就不会燃烧。"
       }
+     },
+     "qzh": "流星在……烧掉。",
+     "ozh": {
+      "mesosphere": "中间层",
+      "troposphere": "对流层",
+      "stratosphere": "平流层",
+      "exosphere": "外逸层"
      }
     },
     {
@@ -852,6 +965,13 @@
        "en": "This is the right list but from the TOP down. The question asks from the ground up.",
        "zh": "顺序对，但是从上往下。题目问的是从地面往上。"
       }
+     },
+     "qzh": "从地面往上，正确的顺序是……",
+     "ozh": {
+      "stratosphere, troposphere, mesosphere, exosphere, thermosphere": "平流层、对流层、中间层、外逸层、热层",
+      "troposphere, mesosphere, stratosphere, thermosphere, exosphere": "对流层、中间层、平流层、热层、外逸层",
+      "troposphere, stratosphere, mesosphere, thermosphere, exosphere": "对流层、平流层、中间层、热层、外逸层",
+      "exosphere, thermosphere, mesosphere, stratosphere, troposphere": "外逸层、热层、中间层、平流层、对流层"
      }
     },
     {
@@ -880,6 +1000,13 @@
        "en": "Wind is in the troposphere. Ozone protects from sunlight rays, not moving air.",
        "zh": "风在对流层。臭氧挡的是阳光里的射线，不是流动的空气。"
       }
+     },
+     "qzh": "臭氧层保护我们不受……的伤害。",
+     "ozh": {
+      "rain": "雨",
+      "harmful UV rays": "有害的紫外线",
+      "meteors": "流星",
+      "wind": "风"
      }
     },
     {
@@ -898,6 +1025,11 @@
        "en": "It feels like going higher means closer to the Sun, but the air is warmed by the GROUND. That is why mountain tops are cold and snowy.",
        "zh": "好像越高越靠近太阳，但空气是被地面加热的。所以山顶又冷又有雪。"
       }
+     },
+     "qzh": "在对流层里，越往高处越……",
+     "ozh": {
+      "colder": "冷",
+      "hotter": "热"
      }
     }
    ],
@@ -950,6 +1082,13 @@
        "en": "Humidity is measured with a HYGROMETER.",
        "zh": "湿度用湿度计测量。"
       }
+     },
+     "qzh": "温度计测量……",
+     "ozh": {
+      "air pressure": "气压",
+      "wind speed": "风速",
+      "humidity": "湿度",
+      "temperature": "温度"
      }
     },
     {
@@ -978,6 +1117,13 @@
        "en": "Rain is measured with a RAIN GAUGE.",
        "zh": "雨量用雨量计测量。"
       }
+     },
+     "qzh": "气压计测量……",
+     "ozh": {
+      "temperature": "温度",
+      "wind direction": "风向",
+      "air pressure": "气压",
+      "rain": "雨量"
      }
     },
     {
@@ -1006,6 +1152,13 @@
        "en": "Temperature is measured with a THERMOMETER.",
        "zh": "温度用温度计测量。"
       }
+     },
+     "qzh": "风速计测量……",
+     "ozh": {
+      "wind speed": "风速",
+      "wind direction": "风向",
+      "humidity": "湿度",
+      "temperature": "温度"
      }
     },
     {
@@ -1034,6 +1187,13 @@
        "en": "A rain gauge collects and measures RAIN in mm.",
        "zh": "雨量计收集并测量雨量，单位毫米。"
       }
+     },
+     "qzh": "风向用……来显示。",
+     "ozh": {
+      "barometer": "气压计",
+      "wind vane": "风向标",
+      "hygrometer": "湿度计",
+      "rain gauge": "雨量计"
      }
     },
     {
@@ -1062,6 +1222,11 @@
        "en": "°C is the unit for TEMPERATURE.",
        "zh": "°C 是温度的单位。"
       }
+     },
+     "qzh": "湿度的单位是……",
+     "ozh": {
+      "millibars (mb)": "毫巴（mb）",
+      "percent (%)": "百分比（%）"
      }
     },
     {
@@ -1090,6 +1255,10 @@
        "en": "Millimetres are the unit for rainfall.",
        "zh": "毫米是雨量的单位。"
       }
+     },
+     "qzh": "气压的单位是……",
+     "ozh": {
+      "millibars (mb)": "毫巴（mb）"
      }
     },
     {
@@ -1108,6 +1277,11 @@
        "en": "That is the opposite. A wind blowing towards the south comes from the north, so it is a NORTH wind.",
        "zh": "正相反。往南吹的风是从北边来的，所以叫北风。"
       }
+     },
+     "qzh": "南风是……吹的。",
+     "ozh": {
+      "towards the south": "吹向南边",
+      "from the south": "从南边吹来"
      }
     },
     {
@@ -1126,6 +1300,11 @@
        "en": "\"Her\" is an OBJECT pronoun: it receives an action (I saw her). It cannot be the one doing the going.",
        "zh": "her 是宾格代词，是接受动作的（I saw her），不能当“去”的人。"
       }
+     },
+     "qzh": "___ 去了市场。（选主格或宾格代词）",
+     "ozh": {
+      "Her": "",
+      "She": ""
      }
     },
     {
@@ -1144,7 +1323,8 @@
        "en": "\"I\" is a SUBJECT pronoun, for the person doing the action. Cover \"Tom and\": \"for I\" sounds wrong, because after for we need me.",
        "zh": "I 是主格，用于做动作的人。遮住 Tom and：for I 听起来不对，for 后面要用 me。"
       }
-     }
+     },
+     "qzh": "妈妈给 Tom 和 ___ 做了晚饭。（选 I 或 me）"
     },
     {
      "q": "Our teacher gave ___ a sticker.",
@@ -1162,7 +1342,8 @@
        "en": "\"We\" is a SUBJECT pronoun (we went). After the verb \"gave\", the receiver needs the object form: us.",
        "zh": "we 是主格（we went）。在动词 gave 后面，接受的人要用宾格 us。"
       }
-     }
+     },
+     "qzh": "老师给了 ___ 一张贴纸。（选 we 或 us）"
     }
    ],
    "canNow": {
@@ -1209,6 +1390,12 @@
        "en": "Radiation is heat travelling as rays, with no touching at all, like sunlight.",
        "zh": "辐射是热以射线传播，完全不需要接触，比如阳光。"
       }
+     },
+     "qzh": "通过接触传递热量是……",
+     "ozh": {
+      "convection": "对流",
+      "conduction": "传导",
+      "radiation": "辐射"
      }
     },
     {
@@ -1232,6 +1419,12 @@
        "en": "Radiation is rays, like sunlight. Rising and sinking air is a moving current: convection.",
        "zh": "辐射是射线，比如阳光。空气上升下沉是流动的环流：对流。"
       }
+     },
+     "qzh": "暖空气上升、冷空气下沉是……",
+     "ozh": {
+      "convection": "对流",
+      "conduction": "传导",
+      "radiation": "辐射"
      }
     },
     {
@@ -1255,6 +1448,12 @@
        "en": "Convection needs a liquid or gas to flow, but space is empty.",
        "zh": "对流需要流动的液体或气体，但太空是空的。"
       }
+     },
+     "qzh": "太阳通过……让地球变暖。",
+     "ozh": {
+      "radiation": "辐射",
+      "conduction": "传导",
+      "convection": "对流"
      }
     },
     {
@@ -1278,6 +1477,12 @@
        "en": "Convection needs a flowing liquid or gas. The metal handle is solid and does not flow.",
        "zh": "对流需要流动的液体或气体。金属锅柄是固体，不会流动。"
       }
+     },
+     "qzh": "锅柄在炉子上变热了。这是……",
+     "ozh": {
+      "radiation": "辐射",
+      "convection": "对流",
+      "conduction": "传导"
      }
     },
     {
@@ -1301,6 +1506,12 @@
        "en": "Convection carries hot air UPWARDS, above the fire, not sideways to where you sit.",
        "zh": "对流把热空气往上带到火的上方，不是往旁边带到你坐的地方。"
       }
+     },
+     "qzh": "坐在营火旁边，没有碰到火也觉得暖。这是……",
+     "ozh": {
+      "radiation": "辐射",
+      "conduction": "传导",
+      "convection": "对流"
      }
     },
     {
@@ -1319,6 +1530,11 @@
        "en": "\"Cold\" is not something that moves. When ice feels cold, it is really heat leaving your hand and going into the ice.",
        "zh": "“冷”不是会移动的东西。冰摸起来冷，其实是热从你手里流进了冰。"
       }
+     },
+     "qzh": "热量总是从……",
+     "ozh": {
+      "cold to hot": "冷的传到热的",
+      "hot to cold": "热的传到冷的"
      }
     },
     {
@@ -1347,6 +1563,13 @@
        "en": "Double comparison: \"more\" and \"-er\" both mean more. Use only one: bigger.",
        "zh": "双重比较：more 和 -er 都表示“更”，只能用一个：bigger。"
       }
+     },
+     "qzh": "大象比马 ___。（选正确的比较形式）",
+     "ozh": {
+      "biggest": "",
+      "more big": "",
+      "bigger": "",
+      "more bigger": ""
      }
     },
     {
@@ -1375,6 +1598,13 @@
        "en": "Double comparison: most and -est both mean \"the most\". Use only one.",
        "zh": "双重比较：most 和 -est 都是“最”，只能用一个。"
       }
+     },
+     "qzh": "这是图书馆里 ___ 的书。（选正确的最高级形式）",
+     "ozh": {
+      "interestingest": "",
+      "more interesting": "",
+      "most interestingest": "",
+      "most interesting": ""
      }
     },
     {
@@ -1403,6 +1633,13 @@
        "en": "\"Best\" is the superlative (3 or more) and is never used with \"than\". Two things with than: better.",
        "zh": "best 是最高级（三个以上），不和 than 一起用。两个、有 than：better。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "Her drawing is more better than mine.": "",
+      "Her drawing is better than mine.": "",
+      "Her drawing is gooder than mine.": "",
+      "Her drawing is best than mine.": ""
      }
     },
     {
@@ -1431,6 +1668,13 @@
        "en": "\"Tall\" has no comparing word at all, so there is nothing doubled.",
        "zh": "tall 没有比较词，所以没有重复。"
       }
+     },
+     "qzh": "哪个句子有双重比较的错误？",
+     "ozh": {
+      "He is the tallest.": "",
+      "He is taller than me.": "",
+      "He is tall.": "",
+      "He is the most tallest.": ""
      }
     }
    ],
@@ -1583,6 +1827,11 @@
        "en": "If every place were heated the same, there would be no pressure differences and the air would have no reason to move.",
        "zh": "如果每个地方都一样热，就没有气压差，空气也就不会流动。"
       }
+     },
+     "qzh": "风之所以产生，是因为太阳……加热地球。",
+     "ozh": {
+      "unevenly": "不均匀地",
+      "evenly": "均匀地"
      }
     },
     {
@@ -1611,6 +1860,13 @@
        "en": "The doldrums are a calm, windless area near the equator.",
        "zh": "赤道无风带是赤道附近平静无风的地方。"
       }
+     },
+     "qzh": "风会弯曲是因为地球在自转。这叫……",
+     "ozh": {
+      "ozone layer": "臭氧层",
+      "jet stream": "急流",
+      "Coriolis effect": "科里奥利效应",
+      "doldrums": "赤道无风带"
      }
     },
     {
@@ -1639,6 +1895,13 @@
        "en": "The doldrums are the calm area right at the equator (0°).",
        "zh": "赤道无风带就在赤道（0°）附近，很平静。"
       }
+     },
+     "qzh": "在 30° 到 60° 之间，主要的风是……",
+     "ozh": {
+      "trade winds": "信风",
+      "westerlies": "西风带",
+      "polar easterlies": "极地东风",
+      "doldrums": "赤道无风带"
      }
     },
     {
@@ -1657,6 +1920,11 @@
        "en": "A land breeze blows from land to sea at NIGHT, when the land cools faster than the water.",
        "zh": "陆风是晚上从陆地吹向海，那时陆地比海水凉得快。"
       }
+     },
+     "qzh": "白天在海边，从海上吹来的凉风是……",
+     "ozh": {
+      "sea breeze": "海风",
+      "land breeze": "陆风"
      }
     },
     {
@@ -1685,6 +1953,13 @@
        "en": "Rain and ice falling is precipitation (or hail). Thunder is a sound.",
        "zh": "落下的雨和冰是降水（或冰雹）。雷是声音。"
       }
+     },
+     "qzh": "雷是……",
+     "ozh": {
+      "a kind of cloud": "一种云",
+      "a strong wind": "一阵大风",
+      "rain and ice": "雨和冰",
+      "the sound lightning makes": "闪电发出的声音"
      }
     },
     {
@@ -1713,6 +1988,13 @@
        "en": "1 km would be 3 seconds. 6 seconds is twice as far: 2 km.",
        "zh": "1 公里是 3 秒。6 秒是两倍远：2 公里。"
       }
+     },
+     "qzh": "你看到闪电，6 秒后听到雷声。暴风雨大约在……",
+     "ozh": {
+      "6 km away": "6 公里外",
+      "18 km away": "18 公里外",
+      "2 km away": "2 公里外",
+      "1 km away": "1 公里外"
      }
     },
     {
@@ -1741,6 +2023,13 @@
        "en": "Deserts are dry. A hurricane needs huge amounts of water vapour from the ocean.",
        "zh": "沙漠很干。飓风需要海洋提供大量水蒸气。"
       }
+     },
+     "qzh": "飓风在……上形成。",
+     "ozh": {
+      "warm ocean water": "温暖的海水",
+      "cold land": "冷的陆地",
+      "mountains": "山",
+      "deserts": "沙漠"
      }
     },
     {
@@ -1769,6 +2058,13 @@
        "en": "A funnel is the spinning column of a TORNADO, not part of a hurricane.",
        "zh": "漏斗是龙卷风旋转的柱子，不是飓风的一部分。"
       }
+     },
+     "qzh": "飓风中间平静的部分叫……",
+     "ozh": {
+      "eye wall": "眼壁",
+      "eye": "风眼",
+      "rain band": "雨带",
+      "funnel": "漏斗云"
      }
     },
     {
@@ -1797,6 +2093,13 @@
        "en": "A blizzard is a snowstorm with strong wind, in cold places.",
        "zh": "暴风雪是冷地方的大风加大雪。"
       }
+     },
+     "qzh": "在亚洲附近，飓风叫……",
+     "ozh": {
+      "tornado": "龙卷风",
+      "monsoon": "季风",
+      "typhoon": "台风",
+      "blizzard": "暴风雪"
      }
     },
     {
@@ -1825,6 +2128,13 @@
        "en": "The calm eye seen from space is a HURRICANE feature.",
        "zh": "从太空看得到的平静风眼是飓风的特点。"
       }
+     },
+     "qzh": "关于龙卷风，哪一句是对的？",
+     "ozh": {
+      "They form over the ocean and last weeks.": "它们在海上形成，持续几个星期。",
+      "They are hundreds of km wide.": "它们有几百公里宽。",
+      "They have a calm eye you can see from space.": "它们有从太空能看到的平静风眼。",
+      "They form over land and last minutes.": "它们在陆地上形成，只持续几分钟。"
      }
     },
     {
@@ -1843,6 +2153,11 @@
        "en": "Double negative: don't and no are both negative. In correct English two negatives cancel out, so change no to any.",
        "zh": "双重否定：don't 和 no 都是否定。正确的英语里两个否定会互相抵消，所以把 no 改成 any。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "I don't have no homework.": "",
+      "I don't have any homework.": ""
      }
     },
     {
@@ -1861,6 +2176,11 @@
        "en": "Double negative: nobody and never are both negative. Change never to ever.",
        "zh": "双重否定：nobody 和 never 都是否定。把 never 改成 ever。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "Nobody never calls me.": "",
+      "Nobody ever calls me.": ""
      }
     }
    ],
@@ -1914,6 +2234,11 @@
        "en": "90° N is the North Pole, as far north as you can go.",
        "zh": "90° N 是北极，最北的地方。"
       }
+     },
+     "qzh": "赤道在……",
+     "ozh": {
+      "0° latitude": "0° 纬度",
+      "0° longitude": "0° 经度"
      }
     },
     {
@@ -1942,6 +2267,12 @@
        "en": "23.5° S is the Tropic of Capricorn, a latitude line.",
        "zh": "23.5° S 是南回归线，是纬线。"
       }
+     },
+     "qzh": "本初子午线在……",
+     "ozh": {
+      "0° latitude": "0° 纬度",
+      "180° longitude": "180° 经度",
+      "0° longitude": "0° 经度"
      }
     },
     {
@@ -1970,7 +2301,8 @@
        "en": "0° is the equator.",
        "zh": "0° 是赤道。"
       }
-     }
+     },
+     "qzh": "北回归线在……"
     },
     {
      "q": "The Antarctic Circle is at...",
@@ -1998,7 +2330,8 @@
        "en": "90° S is the South Pole itself, not the circle around it.",
        "zh": "90° S 是南极点本身，不是围着它的那个圈。"
       }
-     }
+     },
+     "qzh": "南极圈在……"
     },
     {
      "q": "Latitude lines measure distance...",
@@ -2016,6 +2349,11 @@
        "en": "That is LONGITUDE. Longitude lines are LONG, running from pole to pole, and measure east and west.",
        "zh": "那是经度。经线很长（long），从极到极，量的是东西。"
       }
+     },
+     "qzh": "纬线量的是距离……",
+     "ozh": {
+      "east or west of the Prime Meridian": "本初子午线以东或以西多远",
+      "north or south of the equator": "赤道以北或以南多远"
      }
     },
     {
@@ -2034,6 +2372,11 @@
        "en": "Longitude comes SECOND. Swapping them points to a completely different place.",
        "zh": "经度写在第二个。换过来就指到完全不同的地方了。"
       }
+     },
+     "qzh": "写坐标时，先写哪个？",
+     "ozh": {
+      "latitude": "纬度",
+      "longitude": "经度"
      }
     },
     {
@@ -2062,6 +2405,13 @@
        "en": "Eastern is right, but 19° N is NORTH, not south.",
        "zh": "东半球对，但 19° N 是北，不是南。"
       }
+     },
+     "qzh": "清迈大约在 19° N, 99° E。它在……",
+     "ozh": {
+      "Northern and Eastern Hemispheres": "北半球和东半球",
+      "Southern and Western Hemispheres": "南半球和西半球",
+      "Northern and Western Hemispheres": "北半球和西半球",
+      "Southern and Eastern Hemispheres": "南半球和东半球"
      }
     },
     {
@@ -2080,6 +2430,11 @@
        "en": "This swaps the directions and plots (2, 5), a different point. Across always comes first.",
        "zh": "这把方向换了，画出来是 (2, 5)，是另一个点。一定先横着走。"
       }
+     },
+     "qzh": "在方格上画 (5, 2)，要……",
+     "ozh": {
+      "5 up, then 2 across": "先往上 5，再往右 2",
+      "5 across, then 2 up": "先往右 5，再往上 2"
      }
     },
     {
@@ -2098,6 +2453,11 @@
        "en": "Today's conditions are WEATHER. Climate is the usual pattern over 30 years or more.",
        "zh": "今天的情况是天气。气候是 30 年或更长时间的一般规律。"
       }
+     },
+     "qzh": "气候是……",
+     "ozh": {
+      "the usual weather of a place over many years": "一个地方很多年通常的天气",
+      "the weather today": "今天的天气"
      }
     },
     {
@@ -2126,6 +2486,13 @@
        "en": "Dry climates are about very little RAIN, like deserts, and are often hot.",
        "zh": "干旱气候是雨很少，像沙漠，常常很热。"
       }
+     },
+     "qzh": "一个全年冰冷的地方是 ___ 气候。",
+     "ozh": {
+      "tropical": "热带",
+      "temperate": "温带",
+      "dry": "干旱",
+      "polar": "极地"
      }
     }
    ],
@@ -2178,7 +2545,8 @@
        "en": "7 is 2 + 5. Exponents mean repeated multiplying, not adding.",
        "zh": "7 是 2 + 5。指数是连乘，不是相加。"
       }
-     }
+     },
+     "qzh": "2⁵ 等于多少？"
     },
     {
      "q": "4² = ?",
@@ -2206,7 +2574,8 @@
        "en": "42 writes the digits side by side. The small 2 is an exponent: 4 × 4.",
        "zh": "42 是把数字并排写。小的 2 是指数：4 × 4。"
       }
-     }
+     },
+     "qzh": "4² 等于多少？"
     },
     {
      "q": "2 + 4 × 3 = ?",
@@ -2234,7 +2603,8 @@
        "en": "9 is 2 + 4 + 3, adding everything. The second sign is ×.",
        "zh": "9 是 2 + 4 + 3，全部加了。第二个符号是 ×。"
       }
-     }
+     },
+     "qzh": "2 + 4 × 3 等于多少？"
     },
     {
      "q": "(2 + 4) × 3 = ?",
@@ -2262,7 +2632,8 @@
        "en": "24 multiplies everything (2 × 4 × 3). Inside the bracket it is +.",
        "zh": "24 是全部乘（2 × 4 × 3）。括号里是 +。"
       }
-     }
+     },
+     "qzh": "(2 + 4) × 3 等于多少？"
     },
     {
      "q": "\"7 more than n\" is...",
@@ -2290,7 +2661,8 @@
        "en": "7 − n takes n away from 7, which is subtracting.",
        "zh": "7 − n 是从 7 里减去 n，是减法。"
       }
-     }
+     },
+     "qzh": "“比 n 多 7”是……"
     },
     {
      "q": "If x = 5, 3x + 1 = ?",
@@ -2318,7 +2690,8 @@
        "en": "15 is only 3 × 5. You forgot the + 1.",
        "zh": "15 只是 3 × 5，忘了加 1。"
       }
-     }
+     },
+     "qzh": "如果 x = 5，3x + 1 等于多少？"
     },
     {
      "q": "5y + 2y = ?",
@@ -2346,7 +2719,8 @@
        "en": "This drops the y from 2y. Both terms have y, so they combine into 7y.",
        "zh": "这把 2y 的 y 丢了。两项都有 y，可以合并成 7y。"
       }
-     }
+     },
+     "qzh": "5y + 2y 等于多少？"
     },
     {
      "q": "4(x + 3) is equivalent to...",
@@ -2374,7 +2748,8 @@
        "en": "7x adds 4 + 3 and sticks on x. You cannot add x and 3 (they are not like terms), and the 4 must multiply.",
        "zh": "7x 是把 4 + 3 再加上 x。x 和 3 不是同类项不能相加，而且 4 要相乘。"
       }
-     }
+     },
+     "qzh": "4(x + 3) 等于……"
     },
     {
      "q": "In a three-act story, the problem starts in...",
@@ -2392,6 +2767,11 @@
        "en": "Act 3 is the END, where the problem is SOLVED, not started.",
        "zh": "第三幕是结尾，问题在这里解决，而不是开始。"
       }
+     },
+     "qzh": "在三幕故事里，问题在哪一幕开始？",
+     "ozh": {
+      "Act 1": "第一幕",
+      "Act 3": "第三幕"
      }
     },
     {
@@ -2410,6 +2790,11 @@
        "en": "Act 1 only sets up the story and starts the problem. It is too early for the most exciting moment.",
        "zh": "第一幕只是铺垫并引出问题，还太早，不会有最精彩的时刻。"
       }
+     },
+     "qzh": "最精彩的时刻（高潮）在哪一幕的结尾？",
+     "ozh": {
+      "Act 1": "第一幕",
+      "Act 2": "第二幕"
      }
     }
    ],
@@ -2464,6 +2849,13 @@
        "en": "Carbon dioxide is a tiny part of the air, well under 1%.",
        "zh": "二氧化碳只占很小一部分，远少于 1%。"
       }
+     },
+     "qzh": "哪种气体大约占空气的 78%？",
+     "ozh": {
+      "oxygen": "氧气",
+      "argon": "氩气",
+      "nitrogen": "氮气",
+      "carbon dioxide": "二氧化碳"
      }
     },
     {
@@ -2492,6 +2884,13 @@
        "en": "The exosphere is the outermost edge, where satellites are.",
        "zh": "外逸层是最外边，卫星在那里。"
       }
+     },
+     "qzh": "有臭氧层的那一层是……",
+     "ozh": {
+      "troposphere": "对流层",
+      "mesosphere": "中间层",
+      "exosphere": "外逸层",
+      "stratosphere": "平流层"
      }
     },
     {
@@ -2520,6 +2919,13 @@
        "en": "A hygrometer (hygro = wet) measures HUMIDITY.",
        "zh": "湿度计（hygro = 湿）测量湿度。"
       }
+     },
+     "qzh": "哪个工具测量风速？",
+     "ozh": {
+      "barometer": "气压计",
+      "anemometer": "风速计",
+      "thermometer": "温度计",
+      "hygrometer": "湿度计"
      }
     },
     {
@@ -2548,6 +2954,10 @@
        "en": "Percent is for HUMIDITY.",
        "zh": "百分比是湿度的单位。"
       }
+     },
+     "qzh": "气压的单位是……",
+     "ozh": {
+      "millibars (mb)": "毫巴（mb）"
      }
     },
     {
@@ -2571,6 +2981,12 @@
        "en": "Radiation is rays crossing a gap, like sunlight. Here the water itself moves.",
        "zh": "辐射是隔空的射线，比如阳光。这里是水自己在流动。"
       }
+     },
+     "qzh": "锅里沸腾的水在流动，这是……",
+     "ozh": {
+      "convection": "对流",
+      "conduction": "传导",
+      "radiation": "辐射"
      }
     },
     {
@@ -2599,6 +3015,13 @@
        "en": "Hurricanes are hundreds of km wide, but tornadoes are usually less than 1 km.",
        "zh": "飓风有几百公里宽，但龙卷风通常不到 1 公里。"
       }
+     },
+     "qzh": "飓风和龙卷风都……",
+     "ozh": {
+      "form over warm oceans": "在温暖的海上形成",
+      "last for weeks": "持续几个星期",
+      "spin around low air pressure": "绕着低气压旋转",
+      "are hundreds of km wide": "有几百公里宽"
      }
     },
     {
@@ -2627,7 +3050,8 @@
        "en": "0° is the equator.",
        "zh": "0° 是赤道。"
       }
-     }
+     },
+     "qzh": "北极圈在……"
     },
     {
      "q": "Weather is today. Climate is...",
@@ -2645,6 +3069,11 @@
        "en": "Next week's weather is still weather, just a forecast. Climate is the pattern over 30 years or more.",
        "zh": "下周的天气还是天气，只是预报。气候是 30 年以上的规律。"
       }
+     },
+     "qzh": "天气是今天的。气候是……",
+     "ozh": {
+      "the usual weather over many years": "很多年通常的天气",
+      "next week's weather": "下周的天气"
      }
     }
    ],
@@ -2699,7 +3128,8 @@
        "en": "4 is 10 − 6, using 2 × 3 = 6. But 2³ means 2 × 2 × 2 = 8, not 2 × 3.",
        "zh": "4 是 10 − 6，用了 2 × 3 = 6。但 2³ 是 2 × 2 × 2 = 8，不是 2 × 3。"
       }
-     }
+     },
+     "qzh": "10 − 2³ 等于多少？"
     },
     {
      "q": "\"6 less than y\" is...",
@@ -2727,7 +3157,8 @@
        "en": "y + 6 is 6 MORE than y.",
        "zh": "y + 6 是比 y 多 6。"
       }
-     }
+     },
+     "qzh": "“比 y 少 6”是……"
     },
     {
      "q": "3a + 4 + a = ?",
@@ -2755,7 +3186,8 @@
        "en": "7a joins the plain number 4 to the a terms. 4 has no a, so it stays separate.",
        "zh": "7a 把普通的数 4 合并进了 a 项。4 没有 a，要分开。"
       }
-     }
+     },
+     "qzh": "3a + 4 + a 等于多少？"
     },
     {
      "q": "n − 15 = 30. n = ?",
@@ -2783,7 +3215,8 @@
        "en": "450 is 30 × 15. Undo subtraction with addition. Check: 450 − 15 = 435.",
        "zh": "450 是 30 × 15。减法要用加法抵消。检查：450 − 15 = 435。"
       }
-     }
+     },
+     "qzh": "n − 15 = 30。n 等于多少？"
     },
     {
      "q": "12 = 3m. m = ?",
@@ -2811,7 +3244,8 @@
        "en": "15 is 12 + 3. Divide instead. Check: 3 × 15 = 45.",
        "zh": "15 是 12 + 3，应该除。检查：3 × 15 = 45。"
       }
-     }
+     },
+     "qzh": "12 = 3m。m 等于多少？"
     },
     {
      "q": "Graph of x > 1: the circle on 1 is...",
@@ -2829,6 +3263,11 @@
        "en": "A closed circle means 1 IS included, which is ≥. With > the circle stays open.",
        "zh": "实心圆表示包括 1，那是 ≥。用 > 时画空心圆。"
       }
+     },
+     "qzh": "x > 1 的图：1 上的圆是……",
+     "ozh": {
+      "closed": "实心的",
+      "open": "空心的"
      }
     },
     {
@@ -2857,7 +3296,8 @@
        "en": "73 writes the digits side by side. The + means add: 7 + 3.",
        "zh": "73 是把数字并排写。+ 表示加：7 + 3。"
       }
-     }
+     },
+     "qzh": "y = x + 3。如果 x = 7，y 等于多少？"
     },
     {
      "q": "The point (4, 0) is...",
@@ -2875,6 +3315,11 @@
        "en": "Points on the y-axis have x = 0, like (0, 4). This point has x = 4, so it moved across.",
        "zh": "y 轴上的点 x = 0，比如 (0, 4)。这个点 x = 4，已经往右走了。"
       }
+     },
+     "qzh": "点 (4, 0) 在……",
+     "ozh": {
+      "on the y-axis": "y 轴上",
+      "on the x-axis": "x 轴上"
      }
     }
    ],
@@ -2919,6 +3364,10 @@
        "en": "\"Him\" is an OBJECT pronoun (I saw him). Cover \"and I\": \"Him walked to school\" sounds wrong.",
        "zh": "him 是宾格（I saw him）。遮住 and I：Him walked to school 听起来不对。"
       }
+     },
+     "qzh": "___ 和我一起走路去学校。（选 He 或 Him）",
+     "ozh": {
+      "Him": ""
      }
     },
     {
@@ -2937,7 +3386,8 @@
        "en": "\"I\" is a SUBJECT pronoun, for the one doing the action. Cover \"Emma and\": \"The coach chose I\" sounds wrong.",
        "zh": "I 是主格，用于做动作的人。遮住 Emma and：The coach chose I 听起来不对。"
       }
-     }
+     },
+     "qzh": "教练选了 Emma 和 ___。（选 I 或 me）"
     },
     {
      "q": "Mount Everest is the ___ mountain in the world.",
@@ -2965,6 +3415,13 @@
        "en": "Short words take -er/-est, not more. And \"in the world\" needs the superlative.",
        "zh": "短词加 -er/-est，不用 more。而且 in the world 要用最高级。"
       }
+     },
+     "qzh": "珠穆朗玛峰是世界上 ___ 的山。（选正确的比较形式）",
+     "ozh": {
+      "higher": "",
+      "highest": "",
+      "most highest": "",
+      "more high": ""
      }
     },
     {
@@ -2993,6 +3450,13 @@
        "en": "Short one-syllable words take -er, not more.",
        "zh": "一个音节的短词加 -er，不用 more。"
       }
+     },
+     "qzh": "今天比昨天 ___。（选正确的比较形式）",
+     "ozh": {
+      "hotter": "",
+      "hottest": "",
+      "more hotter": "",
+      "more hot": ""
      }
     },
     {
@@ -3021,6 +3485,13 @@
        "en": "\"Worse\" is the comparative, for TWO films. Comparing with every film you have seen needs worst.",
        "zh": "worse 是比较级，用于两部电影。和你看过的所有电影比要用 worst。"
       }
+     },
+     "qzh": "哪一句是正确的？",
+     "ozh": {
+      "This is the baddest film I have seen.": "",
+      "This is the most worst film I have seen.": "",
+      "This is the worse film I have seen.": "",
+      "This is the worst film I have seen.": ""
      }
     },
     {
@@ -3049,6 +3520,13 @@
        "en": "There is no negative word at all.",
        "zh": "根本没有否定词。"
       }
+     },
+     "qzh": "哪个句子有双重否定的错误？",
+     "ozh": {
+      "I can't find anything.": "",
+      "I found nothing.": "",
+      "I can't find nothing.": "",
+      "I can find it.": ""
      }
     },
     {
@@ -3077,6 +3555,13 @@
        "en": "Don't and never are both negative: a new double negative.",
        "zh": "don't 和 never 都是否定，又成了双重否定。"
       }
+     },
+     "qzh": "改正：“We never go nowhere.”",
+     "ozh": {
+      "We never go anywhere.": "",
+      "We never go nowhere fun.": "",
+      "We always go nowhere.": "",
+      "We don't never go anywhere.": ""
      }
     },
     {
@@ -3095,6 +3580,11 @@
        "en": "Act 1 shows the character BEFORE the problem. They cannot have changed yet.",
        "zh": "第一幕展示的是问题发生之前的人物，那时还不可能有变化。"
       }
+     },
+     "qzh": "在三幕故事里，人物的变化在哪一幕表现出来？",
+     "ozh": {
+      "Act 1": "第一幕",
+      "Act 3": "第三幕"
      }
     }
    ],

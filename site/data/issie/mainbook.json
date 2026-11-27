@@ -112,6 +112,11 @@
         "en": "Rock alone is just gravel. Soil also has organic matter (humus) from dead plants and animals, plus water and air, which is why plants can grow in it.",
         "zh": "只有石头只是碎石。土壤还有来自动植物的有机物（腐殖质），还有水和空气，所以植物才能在里面生长。"
        }
+      },
+      "qzh": "土壤只是由岩石组成的吗？",
+      "ozh": {
+       "No, it is a mixture": "不是，它是混合物",
+       "Yes, only rock": "是，只有岩石"
       }
      }
     },
@@ -175,6 +180,11 @@
         "en": "Inorganic means it never came from a living thing, like rock or metal. A leaf grew on a living tree.",
         "zh": "无机是指不是来自生物的东西，比如石头、金属。叶子是长在活的树上的。"
        }
+      },
+      "qzh": "一片枯叶是……",
+      "ozh": {
+       "organic": "有机的",
+       "inorganic": "无机的"
       }
      }
     },
@@ -263,6 +273,11 @@
         "en": "C is near the BOTTOM: broken pieces of weathered rock just above the bedrock.",
         "zh": "C 层在接近底部：在基岩上面的风化碎石。"
        }
+      },
+      "qzh": "哪一层在最上面？",
+      "ozh": {
+       "Horizon O": "O 层",
+       "Horizon C": "C 层"
       }
      }
     },
@@ -431,7 +446,8 @@
         "en": "B is the SUBSOIL, under the topsoil. Sub means under (like submarine).",
         "zh": "B 是底土，在表土下面。sub 是“在下面”（像 submarine 潜水艇）。"
        }
-      }
+      },
+      "qzh": "表土是哪一层？"
      }
     }
    ],
@@ -508,6 +524,11 @@
         "en": "Dropping sediment is DEPOSITION, the step after erosion.",
         "zh": "放下沉积物是沉积，是侵蚀之后的一步。"
        }
+      },
+      "qzh": "侵蚀……",
+      "ozh": {
+       "takes sediment away": "把沉积物带走",
+       "drops sediment": "把沉积物放下"
       }
      }
     },
@@ -580,6 +601,11 @@
         "en": "A glacier is a huge body of moving ice, not land made by a river.",
         "zh": "冰川是一大块会移动的冰，不是河流堆出来的陆地。"
        }
+      },
+      "qzh": "河流在入海处放下沉积物，形成……",
+      "ozh": {
+       "delta": "三角洲",
+       "glacier": "冰川"
       }
      }
     },
@@ -643,6 +669,11 @@
         "en": "Faster wind can carry MORE sand, so it picks sand up (erosion). It has to slow down to drop it.",
         "zh": "风越快能带走越多沙子（侵蚀）。风要变慢才会把沙放下。"
        }
+      },
+      "qzh": "风……时会形成沙丘。",
+      "ozh": {
+       "slows down": "变慢",
+       "speeds up": "变快"
       }
      }
     },
@@ -711,6 +742,11 @@
         "en": "Sunlight gives heat, but it does not pull anything downhill. Only gravity pulls water, ice and sediment down.",
         "zh": "阳光给热量，但不会把东西拉下山。只有重力会把水、冰和沉积物往下拉。"
        }
+      },
+      "qzh": "所有侵蚀和沉积背后的力是什么？",
+      "ozh": {
+       "gravity": "重力",
+       "sunlight": "阳光"
       }
      }
     },
@@ -827,6 +863,11 @@
         "en": "Water flows DOWN from high places. Low land is where water collects, not where it splits into two directions.",
         "zh": "水从高处往下流。低地是水汇集的地方，不是水往两边分开的地方。"
        }
+      },
+      "qzh": "分水岭是一条……",
+      "ozh": {
+       "high land": "高地",
+       "low land": "低地"
       }
      }
     },
@@ -890,6 +931,11 @@
         "en": "A waterfall is where a river drops over a cliff. A drainage basin is a whole AREA of land.",
         "zh": "瀑布是河流从悬崖落下的地方。流域是一整片土地。"
        }
+      },
+      "qzh": "流域和……意思一样。",
+      "ozh": {
+       "watershed": "集水区（watershed）",
+       "waterfall": "瀑布"
       }
      }
     },
@@ -952,6 +998,11 @@
         "en": "The Pacific is WEST of the Rockies. Only the west side drains there.",
         "zh": "太平洋在落基山脉西边，只有西坡的水流向那里。"
        }
+      },
+      "qzh": "落基山脉东边的雨水流到……",
+      "ozh": {
+       "Gulf of Mexico": "墨西哥湾",
+       "Pacific Ocean": "太平洋"
       }
      }
     },
@@ -1075,6 +1126,11 @@
         "en": "A million is 1,000 times smaller than a billion. 4.6 million years ago, Earth was already very old.",
         "zh": "一百万比十亿小 1000 倍。460 万年前，地球已经非常老了。"
        }
+      },
+      "qzh": "地球大约形成于 46 ___ 年前。（选 billion 十亿 或 million 百万）",
+      "ozh": {
+       "billion": "十亿（billion）",
+       "million": "百万（million）"
       }
      }
     },
@@ -1147,6 +1203,11 @@
         "en": "\"Uni\" means one (unicorn = one horn). Uniform = one form, the same. Uniformitarianism says the same processes work now as in the past.",
         "zh": "uni 是“一”（unicorn = 一只角）。uniform = 同一个样子，相同。均变论说现在的过程和过去一样。"
        }
+      },
+      "qzh": "uniform 的意思是……",
+      "ozh": {
+       "same": "相同的",
+       "different": "不同的"
       }
      }
     },
@@ -1283,6 +1344,11 @@
         "en": "The youngest layer is at the TOP, because it was laid down last.",
         "zh": "最年轻的在最上面，因为它是最后形成的。"
        }
+      },
+      "qzh": "一堆岩层里，最下面一层通常是……",
+      "ozh": {
+       "oldest": "最老的",
+       "youngest": "最年轻的"
       }
      }
     },
@@ -1494,6 +1560,11 @@
         "en": "If the magma were older, the layers would sit on top of it, not be cut by it.",
         "zh": "如果岩浆更老，岩层会盖在它上面，而不会被它切开。"
        }
+      },
+      "qzh": "岩浆穿过了 3 层岩石。这个岩浆……",
+      "ozh": {
+       "younger": "更年轻",
+       "older": "更老"
       }
      }
     },
@@ -1569,6 +1640,11 @@
         "en": "Melted rock becomes magma. At an unconformity the layers were WORN AWAY by erosion, leaving a gap.",
         "zh": "熔化的岩石会变成岩浆。不整合处的岩层是被侵蚀磨掉了，留下缺口。"
        }
+      },
+      "qzh": "在不整合处，岩层……",
+      "ozh": {
+       "missing": "缺失了",
+       "melted": "熔化了"
       }
      }
     },
@@ -1706,6 +1782,11 @@
         "en": "The abyssal plain is the deep, flat floor far out, the LAST part of the margin.",
         "zh": "深海平原是远处又深又平的海底，是大陆边缘的最后部分。"
        }
+      },
+      "qzh": "从海滩往外走，最先遇到什么？",
+      "ozh": {
+       "continental shelf": "大陆架",
+       "abyssal plain": "深海平原"
       }
      }
     },
@@ -1795,6 +1876,11 @@
         "en": "A narrow shelf belongs to an ACTIVE margin, where a plate boundary is close.",
         "zh": "窄的大陆架属于活动大陆边缘，附近有板块边界。"
        }
+      },
+      "qzh": "被动大陆边缘的大陆架是 ___ 的。",
+      "ozh": {
+       "wide": "宽",
+       "narrow": "窄"
       }
      }
     },
@@ -1846,6 +1932,11 @@
         "en": "Plates moving apart (divergent) make mid-ocean RIDGES, not trenches.",
         "zh": "板块分开（分离型）形成大洋中脊，不是海沟。"
        }
+      },
+      "qzh": "深海沟在板块……的地方形成。",
+      "ozh": {
+       "come together": "相撞（靠在一起）",
+       "move apart": "分开"
       }
      }
     },
@@ -1904,6 +1995,11 @@
         "en": "60,000 metres is only 60 km. The ridges wind around the whole planet, about 60,000 km.",
         "zh": "6 万米只有 60 公里。洋脊绕着整个地球，大约 6 万公里。"
        }
+      },
+      "qzh": "大洋中脊大约有 60,000……",
+      "ozh": {
+       "kilometers": "公里",
+       "meters": "米"
       }
      }
     }
@@ -1972,6 +2068,11 @@
         "en": "Take = move something AWAY from the speaker. The book is coming TO me, so bring.",
         "zh": "take = 把东西带离说话人。书是往我这里来，所以用 bring。"
        }
+      },
+      "qzh": "请 ___ 你的书给我。（选 bring 或 take）",
+      "ozh": {
+       "bring": "",
+       "take": ""
       }
      }
     },
@@ -2011,6 +2112,11 @@
         "en": "\"Less\" is for uncountable things like water, time or noise. You can count cars, so fewer.",
         "zh": "less 用于不可数的东西，比如水、时间、噪音。车可以数，所以用 fewer。"
        }
+      },
+      "qzh": "路上有 ___ 车。（选 fewer 或 less）",
+      "ozh": {
+       "fewer": "",
+       "less": ""
       }
      }
     },
@@ -2054,6 +2160,11 @@
         "en": "\"Accept\" is a verb meaning to receive or say yes to (accept a gift). It does not mean leaving someone out.",
         "zh": "accept 是动词，意思是接受（accept a gift），不是排除某人。"
        }
+      },
+      "qzh": "除了 Tom，大家都来了。Everyone came ___ Tom.",
+      "ozh": {
+       "except": "",
+       "accept": ""
       }
      }
     },
@@ -2105,6 +2216,11 @@
         "en": "\"Of\" is a preposition (a cup of tea), not a verb, so it cannot follow would. It is only how would've sounds.",
         "zh": "of 是介词（a cup of tea），不是动词，不能接在 would 后面。只是 would've 的读音像它。"
        }
+      },
+      "qzh": "哪一个是正确的？",
+      "ozh": {
+       "would have": "",
+       "would of": ""
       }
      }
     },
@@ -2198,6 +2314,11 @@
         "en": "You're = you are. \"You are coat is red\" makes no sense, so it is not you're.",
         "zh": "you're = you are。You are coat is red 说不通，所以不是 you're。"
        }
+      },
+      "qzh": "___ 外套是红色的。（选 Your 或 You're）",
+      "ozh": {
+       "Your": "",
+       "You're": ""
       }
      }
     },
@@ -2308,6 +2429,11 @@
         "en": "Readers need facts about the EVENT, not about the person who wrote the flyer.",
         "zh": "读者需要的是活动的信息，不是写传单的人的信息。"
        }
+      },
+      "qzh": "传单必须写清楚什么活动、什么时候、在哪里，还有……",
+      "ozh": {
+       "writer's age": "写传单的人的年龄",
+       "activities": "有哪些活动"
       }
      }
     },
@@ -2392,6 +2518,11 @@
         "en": "This only gives information. It does not tell the reader to do anything.",
         "zh": "这只是提供信息，没有叫读者去做什么。"
        }
+      },
+      "qzh": "哪一句是号召读者行动的话？",
+      "ozh": {
+       "Come and join the fun!": "来一起玩吧！",
+       "The fair has tables.": "集市有桌子。"
       }
      }
     },
@@ -2431,6 +2562,11 @@
         "en": "Two mistakes: \"their\" shows belonging (their games), so it should be there; and \"alot\" should be two words: a lot.",
         "zh": "两个错误：their 表示所属（their games），应该是 there；alot 应该分开写：a lot。"
        }
+      },
+      "qzh": "传单上哪一句是正确的？",
+      "ozh": {
+       "Their will be alot of games.": "",
+       "There will be a lot of games.": ""
       }
      }
     },
@@ -2491,6 +2627,11 @@
         "en": "\"Less\" is for things you cannot count, like time or water. Queues can be counted, so fewer.",
         "zh": "less 用于不能数的东西，比如时间、水。队伍可以数，所以用 fewer。"
        }
+      },
+      "qzh": "传单上哪一句是正确的？",
+      "ozh": {
+       "There will be fewer queues this year.": "",
+       "There will be less queues this year.": ""
       }
      }
     }
@@ -2615,6 +2756,10 @@
         "en": "\"He\" is a SUBJECT pronoun, for the one doing the action (He reads). After \"to\" it must be him.",
         "zh": "he 是主格，用于做动作的人（He reads）。to 后面要用 him。"
        }
+      },
+      "qzh": "Sophie 把书给了 ___。（选 him 或 he）",
+      "ozh": {
+       "him": ""
       }
      }
     },
@@ -2658,6 +2803,11 @@
         "en": "\"Her\" is an OBJECT pronoun (I like her). Cover \"and Lily\": \"Her is a best friend\" sounds wrong.",
         "zh": "her 是宾格（I like her）。遮住 and Lily：Her is a best friend 听起来不对。"
        }
+      },
+      "qzh": "___ 和 Lily 是好朋友。（选 She 或 Her）",
+      "ozh": {
+       "Her": "",
+       "She": ""
       }
      }
     }
@@ -2751,6 +2901,11 @@
         "en": "Two-syllable words ending in -y take -est (happiest, funniest), not \"most\".",
         "zh": "以 -y 结尾的两个音节的词加 -est（happiest、funniest），不用 most。"
        }
+      },
+      "qzh": "这是一年中 ___ 的一天。（选正确的最高级）",
+      "ozh": {
+       "happiest": "",
+       "most happy": ""
       }
      }
     },
@@ -2801,6 +2956,11 @@
         "en": "Bad is irregular, so we never add -er. Its comparative is worse.",
         "zh": "bad 是不规则的，不能加 -er，比较级是 worse。"
        }
+      },
+      "qzh": "我今天的感冒比昨天 ___。（选正确的比较级）",
+      "ozh": {
+       "worse": "",
+       "badder": ""
       }
      }
     },
@@ -2840,6 +3000,11 @@
         "en": "Double comparison: \"most\" and \"-est\" both mean the most. Use only one: fastest.",
         "zh": "双重比较：most 和 -est 都表示“最”，只能用一个：fastest。"
        }
+      },
+      "qzh": "哪一句是正确的？",
+      "ozh": {
+       "She is the most fastest runner.": "",
+       "She is the fastest runner.": ""
       }
      }
     }
@@ -2918,6 +3083,11 @@
         "en": "Double negative: didn't and nothing are both negative. Change nothing to anything.",
         "zh": "双重否定：didn't 和 nothing 都是否定。把 nothing 改成 anything。"
        }
+      },
+      "qzh": "哪一句是正确的？",
+      "ozh": {
+       "I didn't see anything.": "",
+       "I didn't see nothing.": ""
       }
      }
     },
@@ -3040,6 +3210,11 @@
         "en": "The setup is the BEGINNING (Act 1), where we meet the characters. It is calm, not the most exciting part.",
         "zh": "铺垫是开头（第一幕），认识人物，比较平静，不是最精彩的部分。"
        }
+      },
+      "qzh": "故事最精彩的时刻是……",
+      "ozh": {
+       "setup": "铺垫",
+       "climax": "高潮"
       }
      }
     },
@@ -3187,7 +3362,8 @@
         "en": "Multiplying again makes 49r = 392, further from r alone. Undo × with ÷.",
         "zh": "再乘一次会变成 49r = 392，离 r 单独更远。乘法要用除法抵消。"
        }
-      }
+      },
+      "qzh": "7r = 56。两边都要做什么？"
      }
     }
    ],
@@ -3247,7 +3423,8 @@
         "en": "The TOP number (2) tells how many of the parts you take. The bottom number tells how many parts the whole bar is cut into: 7.",
         "zh": "上面的数（2）是取几份。下面的数是整条被切成几份：7。"
        }
-      }
+      },
+      "qzh": "在 2/7 n 里，表示 n 的长条被分成几等份？"
      }
     },
     {
@@ -3301,7 +3478,8 @@
         "en": "3 is how many parts make 12, not the size of one part. 12 shared into 3 parts is 4 each.",
         "zh": "3 是组成 12 的份数，不是一份的大小。12 分成 3 份，每份是 4。"
        }
-      }
+      },
+      "qzh": "一个数的 3/4 是 12。一份（1/4）是……"
      }
     },
     {
@@ -3347,7 +3525,8 @@
         "en": "4 is 2/5 OF 10. But 10 is already the 2 parts; we need the whole, which must be BIGGER than 10.",
         "zh": "4 是 10 的 2/5。但 10 已经是那 2 份了，我们要的是整体，一定比 10 大。"
        }
-      }
+      },
+      "qzh": "2/5 n = 10。n 等于多少？"
      }
     },
     {
@@ -3397,7 +3576,8 @@
         "en": "9 is 3/4 OF 12. But 12 is already 3 of the parts; the whole must be bigger than 12.",
         "zh": "9 是 12 的 3/4。但 12 已经是其中 3 份了，整体一定比 12 大。"
        }
-      }
+      },
+      "qzh": "3/4 x = 12。x 等于多少？"
      }
     },
     {
@@ -3452,7 +3632,8 @@
         "en": "12 is only the 4 parts (4/7 of y). y is the WHOLE, all 7 parts.",
         "zh": "12 只是其中 4 份（y 的 4/7）。y 是整体，要 7 份。"
        }
-      }
+      },
+      "qzh": "4/7 y = 12。一份是 3。y 等于多少？"
      }
     }
    ],
@@ -3524,7 +3705,8 @@
         "en": "12 is 3 × 4. The 4 means \"four 3s multiplied together\", not \"times 4\".",
         "zh": "12 是 3 × 4。4 表示“四个 3 相乘”，不是“乘以 4”。"
        }
-      }
+      },
+      "qzh": "3⁴ 等于多少？"
      }
     },
     {
@@ -3592,7 +3774,8 @@
         "en": "81 adds first (6 + 3 = 9) and then squares (9² = 81). The exponent belongs only to the 3 and must be done first.",
         "zh": "81 是先加（6 + 3 = 9）再平方（9² = 81）。指数只属于 3，要先算。"
        }
-      }
+      },
+      "qzh": "6 + 3² 等于多少？"
      }
     },
     {
@@ -3631,7 +3814,8 @@
         "en": "2 has no letter attached; it is a CONSTANT (it never changes). The coefficient is joined to the y.",
         "zh": "2 没有字母，是常数（不会变）。系数是和 y 连在一起的那个数。"
        }
-      }
+      },
+      "qzh": "在 5y + 2 里，系数是……"
      }
     },
     {
@@ -3695,7 +3879,8 @@
         "en": "This starts with 8 and takes x away, the wrong order. Test with x = 10: 8 − 10 is not 2.",
         "zh": "这是从 8 开始减 x，顺序反了。用 x = 10 试：8 − 10 不是 2。"
        }
-      }
+      },
+      "qzh": "“比 x 少 8”是……"
      }
     },
     {
@@ -3734,7 +3919,8 @@
         "en": "9 uses 4 × 2 = 8 for x². But x² means x × x = 4 × 4 = 16.",
         "zh": "9 是把 x² 算成 4 × 2 = 8。但 x² 是 x × x = 4 × 4 = 16。"
        }
-      }
+      },
+      "qzh": "如果 x = 4，x² + 1 等于多少？"
      }
     },
     {
@@ -3777,7 +3963,8 @@
         "en": "9a adds the 3 into the a terms. But 3 has no a, so it cannot join them (3 apples + 4 bananas is not 7 bananas).",
         "zh": "9a 把 3 也加进了 a 项。但 3 没有 a，不能合并（3 个苹果 + 4 根香蕉不是 7 根香蕉）。"
        }
-      }
+      },
+      "qzh": "4a + 3 + 2a 等于多少？"
      }
     },
     {
@@ -3827,7 +4014,8 @@
         "en": "This only multiplies the y. The 2 must also multiply the 5: 2 × 5 = 10.",
         "zh": "这只乘了 y。2 也要乘 5：2 × 5 = 10。"
        }
-      }
+      },
+      "qzh": "2(y + 5) 等于……"
      }
     },
     {
@@ -3909,6 +4097,10 @@
         "en": "Work it out: 9 − 4 = 5, exactly the right side. So 9 IS a solution.",
         "zh": "算一下：9 − 4 = 5，和右边完全一样，所以 9 是解。"
        }
+      },
+      "qzh": "9 是 y − 4 = 5 的解吗？",
+      "ozh": {
+       "Yes": "是"
       }
      }
     },
@@ -3951,7 +4143,8 @@
         "en": "49 is 31 + 18: it adds instead of undoing. Check: 49 + 18 = 67, not 31.",
         "zh": "49 是 31 + 18，加了而没有抵消。检查：49 + 18 = 67，不是 31。"
        }
-      }
+      },
+      "qzh": "x + 18 = 31。x 等于多少？"
      }
     },
     {
@@ -3997,7 +4190,8 @@
         "en": "18 is 25 − 7: it subtracts again instead of undoing. Check: 18 − 7 = 11, not 25.",
         "zh": "18 是 25 − 7，又减了一次。检查：18 − 7 = 11，不是 25。"
        }
-      }
+      },
+      "qzh": "m − 7 = 25。m 等于多少？"
      }
     },
     {
@@ -4117,7 +4311,8 @@
         "en": "≥ means 30 or MORE (at least), the opposite.",
         "zh": "≥ 是 30 或更多（至少），意思相反。"
        }
-      }
+      },
+      "qzh": "“最多 30 个学生”是……"
      }
     },
     {
@@ -4156,7 +4351,8 @@
         "en": "3 is EQUAL to 3, not more than 3. The > sign has no equal line, so 3 is not included. (For x ≥ 3, 3 would be a solution.)",
         "zh": "3 等于 3，不是大于 3。> 没有等于线，所以不包括 3。（如果是 x ≥ 3，3 就是解。）"
        }
-      }
+      },
+      "qzh": "x > 3 的意思是“x 比 3 大”。哪个数是解？"
      }
     },
     {
@@ -4228,6 +4424,11 @@
         "en": "Both parts are wrong: open means 2 is not included, and right means bigger numbers. That is x > 2.",
         "zh": "两部分都错：空心表示不包括 2，向右是更大的数。那是 x > 2。"
        }
+      },
+      "qzh": "x ≤ 2 要画……",
+      "ozh": {
+       "an open circle and an arrow to the right": "空心圆，箭头向右",
+       "a closed circle and an arrow to the left": "实心圆，箭头向左"
       }
      }
     },
@@ -4310,6 +4511,11 @@
         "en": "The dependent variable is the RESULT, which depends on the other one. Here that is the money, not the hours.",
         "zh": "因变量是结果，取决于另一个。这里是钱，不是小时。"
        }
+      },
+      "qzh": "赚的钱取决于工作的小时数。工作的小时数是……",
+      "ozh": {
+       "dependent variable": "因变量",
+       "independent variable": "自变量"
       }
      }
     },
@@ -4360,7 +4566,8 @@
         "en": "Works for x = 1 (5) but fails for x = 2: 5 × 2 = 10, not 6. When y goes up by only 1 each time, the rule is adding, not times 5.",
         "zh": "x = 1 时成立（5），但 x = 2 时 5 × 2 = 10，不是 6。y 每次只加 1，所以规律是加，不是乘 5。"
        }
-      }
+      },
+      "qzh": "x：1、2、3。y：5、6、7。等式是……"
      }
     },
     {
@@ -4489,6 +4696,11 @@
         "en": "Climate would describe many years (\"It is usually hot in April\"). One sunny day is weather.",
         "zh": "气候说的是很多年（“四月通常很热”）。一个晴天是天气。"
        }
+      },
+      "qzh": "“今天晴天，30 °C。”这是天气还是气候？",
+      "ozh": {
+       "climate": "气候",
+       "weather": "天气"
       }
      }
     },
@@ -4524,6 +4736,11 @@
         "en": "The ocean is water, not air. It affects weather, but weather itself happens in the air above.",
         "zh": "海洋是水，不是空气。它会影响天气，但天气本身发生在上面的空气里。"
        }
+      },
+      "qzh": "天气发生在……",
+      "ozh": {
+       "ocean": "海洋",
+       "troposphere": "对流层"
       }
      }
     }
@@ -4623,6 +4840,11 @@
         "en": "Dry air masses form over LAND (continental). Maritime means over the sea, where the air soaks up water.",
         "zh": "干的气团在陆地上形成（continental）。maritime 是海上，空气会吸收水分。"
        }
+      },
+      "qzh": "海洋气团是……",
+      "ozh": {
+       "wet": "湿的",
+       "dry": "干的"
       }
      }
     },
@@ -4719,6 +4941,11 @@
         "en": "Warm and wet is maritime tropical. Continental means land (dry) and polar means cold.",
         "zh": "暖湿是海洋热带气团。continental 是陆地（干），polar 是冷。"
        }
+      },
+      "qzh": "大陆极地空气是……",
+      "ozh": {
+       "cold and dry": "又冷又干",
+       "warm and wet": "又暖又湿"
       }
      }
     }
@@ -4783,6 +5010,11 @@
         "en": "WARM air rises, because it is lighter (like a hot-air balloon). Cold air does the opposite.",
         "zh": "上升的是暖空气，因为它更轻（像热气球）。冷空气正相反。"
        }
+      },
+      "qzh": "冷空气会……",
+      "ozh": {
+       "rises": "上升",
+       "sinks": "下沉"
       }
      }
     },
@@ -4868,6 +5100,11 @@
         "en": "Gentle rain all day comes with a WARM front, where air slides up slowly.",
         "zh": "整天的小雨是暖锋带来的，空气慢慢滑上去。"
        }
+      },
+      "qzh": "冷锋通常带来……",
+      "ozh": {
+       "sudden storms": "突然的暴风雨",
+       "gentle rain all day": "一整天的小雨"
       }
      }
     },
@@ -4936,6 +5173,11 @@
         "en": "Sudden thunderstorms come with a COLD front, where air is shoved up fast.",
         "zh": "突然的雷雨是冷锋带来的，空气被快速推上去。"
        }
+      },
+      "qzh": "暖锋通常带来……",
+      "ozh": {
+       "sudden thunderstorms": "突然的雷雨",
+       "gentle rain for a long time": "长时间的小雨"
       }
      }
     },
@@ -5036,6 +5278,11 @@
         "en": "Glass does not let water through. The drops come from water vapour in the AIR touching the cold glass and condensing.",
         "zh": "玻璃不会让水透过去。水珠来自空气中的水蒸气碰到冷杯子凝结。"
        }
+      },
+      "qzh": "冰饮料外面的水珠来自……",
+      "ozh": {
+       "water vapour in the air": "空气中的水蒸气",
+       "inside the glass": "杯子里面"
       }
      }
     },
@@ -5187,6 +5434,11 @@
         "en": "Stratus means layer: flat, grey sheets that cover the sky, not puffy balls.",
         "zh": "stratus 是“层”：盖住天空的扁平灰色云层，不是一团一团的。"
        }
+      },
+      "qzh": "蓬松、像棉花团一样的云是……",
+      "ozh": {
+       "cumulus": "积云",
+       "stratus": "层云"
       }
      }
     }
@@ -5255,6 +5507,11 @@
         "en": "Rain comes with LOW pressure, where air rises, cools and forms clouds.",
         "zh": "雨是低压带来的，空气上升、变冷、形成云。"
        }
+      },
+      "qzh": "高压通常带来……",
+      "ozh": {
+       "rain": "雨",
+       "clear skies": "晴天"
       }
      }
     },
@@ -5306,6 +5563,11 @@
         "en": "Back to front. Air never flows towards the squeezed area; it escapes from it.",
         "zh": "反了。空气不会流向被挤压的地方，而是从那里跑出来。"
        }
+      },
+      "qzh": "风是从……吹的。",
+      "ozh": {
+       "high to low pressure": "高压吹向低压",
+       "low to high pressure": "低压吹向高压"
       }
      }
     },
@@ -5364,6 +5626,11 @@
         "en": "Close lines mean the OPPOSITE: the bigger the pressure difference, the stronger the wind. Far-apart lines mean gentle wind.",
         "zh": "线靠得近正相反：气压差越大，风越大。线离得远才是微风。"
        }
+      },
+      "qzh": "等压线靠得很近表示……",
+      "ozh": {
+       "no wind": "没有风",
+       "strong wind": "大风"
       }
      }
     }
@@ -5463,6 +5730,11 @@
         "en": "Wind speed is shown by the FEATHERS on the stick, not the circle.",
         "zh": "风速是看杆子上的羽毛，不是圆圈。"
        }
+      },
+      "qzh": "在站点模型上，圆圈表示……",
+      "ozh": {
+       "wind speed": "风速",
+       "cloud cover": "云量"
       }
      }
     },
@@ -5573,6 +5845,11 @@
         "en": "Completely dry would be 0%. 100% is the opposite: as full as it can be.",
         "zh": "完全干燥是 0%。100% 正相反：满到不能再满。"
        }
+      },
+      "qzh": "相对湿度 100% 表示空气……",
+      "ozh": {
+       "completely dry": "完全干燥",
+       "completely full of water vapour": "装满了水蒸气"
       }
      }
     },
@@ -5694,6 +5971,11 @@
         "en": "Phoenix is far from the ocean, so nothing keeps it steady: 5 °C to 41 °C is a 36 °C change, much bigger.",
         "zh": "凤凰城离海很远，没有东西让它稳定：5 °C 到 41 °C 变化了 36 °C，大得多。"
        }
+      },
+      "qzh": "哪个城市的温度变化比较小？",
+      "ozh": {
+       "San Diego (by the ocean)": "圣迭戈（在海边）",
+       "Phoenix (inland)": "凤凰城（在内陆）"
       }
      }
     },
@@ -5749,6 +6031,11 @@
         "en": "A rainforest is a place with a LOT of rain. The dry side is the opposite.",
         "zh": "雨林是雨非常多的地方。干燥的一侧正相反。"
        }
+      },
+      "qzh": "山的干燥一侧叫……",
+      "ozh": {
+       "rain shadow": "雨影区",
+       "rain forest": "雨林"
       }
      }
     },
@@ -5845,7 +6132,8 @@
         "en": "23.5° is where the two TROPICS are (Cancer in the north, Capricorn in the south).",
         "zh": "23.5° 是两条回归线的位置（北回归线和南回归线）。"
        }
-      }
+      },
+      "qzh": "赤道在……"
      }
     },
     {
@@ -5904,6 +6192,11 @@
         "en": "Polar zones are near the POLES, beyond 66.5°, the farthest from the tropics.",
         "zh": "极地在两极附近，超过 66.5°，离回归线最远。"
        }
+      },
+      "qzh": "两条回归线之间的地带是……",
+      "ozh": {
+       "tropical": "热带",
+       "polar": "极地"
       }
      }
     },
@@ -5981,6 +6274,11 @@
         "en": "Polar means freezing cold all year. Many deserts are hot, and the key feature is lack of RAIN.",
         "zh": "极地是全年冰冷。很多沙漠是热的，关键特征是缺雨。"
        }
+      },
+      "qzh": "沙漠是 ___ 气候。",
+      "ozh": {
+       "dry": "干旱",
+       "polar": "极地"
       }
      }
     },
@@ -6156,6 +6454,11 @@
         "en": "Oxygen is the gas we breathe, but it is only about 21%, less than nitrogen.",
         "zh": "氧气是我们呼吸的气体，但只占约 21%，比氮气少。"
        }
+      },
+      "qzh": "空气中最多的是哪种气体？",
+      "ozh": {
+       "oxygen": "氧气",
+       "nitrogen": "氮气"
       }
      }
     },
@@ -6237,6 +6540,11 @@
         "en": "The stratosphere is above the weather: dry and calm. That is why planes fly there.",
         "zh": "平流层在天气上面，干燥平稳，所以飞机在那里飞。"
        }
+      },
+      "qzh": "所有天气都发生在……",
+      "ozh": {
+       "stratosphere": "平流层",
+       "troposphere": "对流层"
       }
      }
     },
@@ -6272,6 +6580,11 @@
         "en": "The mesosphere is the THIRD layer, where meteors burn up, above the ozone.",
         "zh": "中间层是第三层，流星在那里烧掉，在臭氧层上面。"
        }
+      },
+      "qzh": "臭氧层在……",
+      "ozh": {
+       "stratosphere": "平流层",
+       "mesosphere": "中间层"
       }
      }
     },
@@ -6452,6 +6765,11 @@
         "en": "Temperature is measured with a THERMOMETER (thermo = heat).",
         "zh": "温度用温度计（thermo = 热）测量。"
        }
+      },
+      "qzh": "气压计测量……",
+      "ozh": {
+       "air pressure": "气压",
+       "temperature": "温度"
       }
      }
     },
@@ -6506,6 +6824,11 @@
         "en": "Direction is shown by a WIND VANE, which points into the wind.",
         "zh": "风向用风向标，它指向风吹来的方向。"
        }
+      },
+      "qzh": "风速计测量……",
+      "ozh": {
+       "wind direction": "风向",
+       "wind speed": "风速"
       }
      }
     },
@@ -6568,6 +6891,11 @@
         "en": "A wind blowing towards the north comes from the south, so that is a SOUTH wind.",
         "zh": "往北吹的风是从南边来的，所以叫南风。"
        }
+      },
+      "qzh": "北风是……吹的。",
+      "ozh": {
+       "from the north": "从北边吹来",
+       "towards the north": "吹向北边"
       }
      }
     },
@@ -6622,6 +6950,11 @@
         "en": "A barometer measures AIR PRESSURE, not water vapour.",
         "zh": "气压计测量气压，不是水蒸气。"
        }
+      },
+      "qzh": "湿度用……测量。",
+      "ozh": {
+       "barometer": "气压计",
+       "hygrometer": "湿度计"
       }
      }
     },
@@ -6801,6 +7134,11 @@
         "en": "Radiation is rays crossing a gap with no touching. The spoon is touching the soup.",
         "zh": "辐射是不接触、隔空的射线。勺子是碰着汤的。"
        }
+      },
+      "qzh": "金属勺子放在热汤里变热了。这是……",
+      "ozh": {
+       "conduction": "传导",
+       "radiation": "辐射"
       }
      }
     },
@@ -6865,6 +7203,11 @@
         "en": "Conduction needs touching, with nothing moving around. Here the air itself flows.",
         "zh": "传导要接触，东西不会流动。这里是空气自己在流动。"
        }
+      },
+      "qzh": "暖空气上升、冷空气下沉是……",
+      "ozh": {
+       "convection": "对流",
+       "conduction": "传导"
       }
      }
     },
@@ -6900,6 +7243,11 @@
         "en": "Conduction needs touching. The Sun is 150 million km away across empty space, so nothing touches.",
         "zh": "传导需要接触。太阳隔着真空在 1.5 亿公里外，没有接触。"
        }
+      },
+      "qzh": "太阳通过……让地球变暖。",
+      "ozh": {
+       "conduction": "传导",
+       "radiation": "辐射"
       }
      }
     },
@@ -7025,6 +7373,11 @@
         "en": "The Moon's pull causes ocean TIDES, not the curving of winds.",
         "zh": "月球的引力造成海洋的潮汐，不会让风转弯。"
        }
+      },
+      "qzh": "风会弯曲是因为……",
+      "ozh": {
+       "Earth spins": "地球在自转",
+       "the Moon pulls them": "月球在拉它们"
       }
      }
     },
@@ -7088,6 +7441,11 @@
         "en": "0° to 30° is the TRADE WINDS, nearer the equator.",
         "zh": "0° 到 30° 是信风，更靠近赤道。"
        }
+      },
+      "qzh": "西风带在……之间吹。",
+      "ozh": {
+       "0° and 30°": "0° 到 30°",
+       "30° and 60°": "30° 到 60°"
       }
      }
     },
@@ -7238,6 +7596,11 @@
         "en": "Thunder is the sound OF the lightning, made at the same instant. It only arrives later because sound is slow.",
         "zh": "雷就是闪电发出的声音，同一瞬间产生。只是声音慢，所以晚到。"
        }
+      },
+      "qzh": "我们先看到闪电再听到雷声，是因为……",
+      "ozh": {
+       "thunder happens later": "雷声发生得晚",
+       "light travels faster than sound": "光比声音快得多"
       }
      }
     },
@@ -7292,6 +7655,11 @@
         "en": "Over land, and especially cold land, the storm loses its fuel and weakens.",
         "zh": "在陆地上，尤其是冷的陆地，风暴失去燃料就会减弱。"
        }
+      },
+      "qzh": "热带气旋在……上形成。",
+      "ozh": {
+       "cold land": "冷的陆地",
+       "warm ocean water": "温暖的海水"
       }
      }
     },
@@ -7351,6 +7719,11 @@
         "en": "The eye wall is the ring of clouds AROUND the eye. It has the STRONGEST winds, so it is not calm.",
         "zh": "眼壁是围着风眼的一圈云，风最大，一点也不平静。"
        }
+      },
+      "qzh": "飓风中间平静的部分叫……",
+      "ozh": {
+       "eye": "风眼",
+       "eye wall": "眼壁"
       }
      }
     },
@@ -7394,6 +7767,11 @@
         "en": "Forming over warm ocean water is how a HURRICANE forms.",
         "zh": "在温暖海水上形成的是飓风。"
        }
+      },
+      "qzh": "龙卷风……形成。",
+      "ozh": {
+       "over land, from a thunderstorm": "在陆地上，从雷雨云里",
+       "over warm ocean water": "在温暖的海水上"
       }
      }
     },
@@ -7536,6 +7914,11 @@
         "en": "The equator is 0° LATITUDE: it goes round the middle, not pole to pole.",
         "zh": "赤道是 0° 纬度：它绕中间一圈，不是从极到极。"
        }
+      },
+      "qzh": "哪条线是 0° 经度？",
+      "ozh": {
+       "the equator": "赤道",
+       "the Prime Meridian": "本初子午线"
       }
      }
     },
@@ -7613,7 +7996,8 @@
         "en": "23.5° N is the Tropic of CANCER, in the north.",
         "zh": "23.5° N 是北回归线（Cancer），在北边。"
        }
-      }
+      },
+      "qzh": "南回归线在……"
      }
     },
     {
@@ -7652,6 +8036,11 @@
         "en": "Longitude comes second. Swapping them points to a different place.",
         "zh": "经度在第二个。换过来就指到别的地方了。"
        }
+      },
+      "qzh": "写坐标时，哪个在前？",
+      "ozh": {
+       "longitude": "经度",
+       "latitude": "纬度"
       }
      }
     },
@@ -7691,6 +8080,11 @@
         "en": "This swaps the directions and plots (1, 4), a different point. Across always comes first.",
         "zh": "这把方向换了，画出来是 (1, 4)，是另一个点。一定先横着走。"
        }
+      },
+      "qzh": "要画 (4, 1)，你要……",
+      "ozh": {
+       "4 across, then 1 up": "先往右 4，再往上 1",
+       "4 up, then 1 across": "先往上 4，再往右 1"
       }
      }
     },

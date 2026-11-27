@@ -358,6 +358,13 @@
        "en": "A problem you cannot understand usually does not make you happy. Perplexing = confusing.",
        "zh": "看不懂的题一般不会让你开心。perplexing = 让人困惑。"
       }
+     },
+     "qzh": "一道让人困惑（perplexing）的数学题会让你觉得……",
+     "ozh": {
+      "hungry": "饿",
+      "brave": "勇敢",
+      "confused": "困惑",
+      "happy": "开心"
      }
     },
     {
@@ -386,6 +393,13 @@
        "en": "Confident describes a person who believes in themself. It is an adjective, not an action.",
        "zh": "confident 是形容人有自信（形容词），不是动作。"
       }
+     },
+     "qzh": "糖在热茶里 ________。",
+     "ozh": {
+      "dissolves": "溶解",
+      "classifies": "分类",
+      "coral": "珊瑚",
+      "confident": "自信的"
      }
     },
     {
@@ -414,6 +428,13 @@
        "en": "A cow eats grass and has no venom.",
        "zh": "牛吃草，没有毒液。"
       }
+     },
+     "qzh": "哪种动物可能有毒液（venom）？",
+     "ozh": {
+      "a rabbit": "兔子",
+      "a goldfish": "金鱼",
+      "a cow": "牛",
+      "a snake": "蛇"
      }
     },
     {
@@ -442,7 +463,8 @@
        "en": "12 zeros is one trillion (1,000,000,000,000), which is much bigger.",
        "zh": "12 个零是一万亿，大得多。"
       }
-     }
+     },
+     "qzh": "十亿（one billion）有几个零？"
     },
     {
      "q": "Neurons carry messages between...",
@@ -470,6 +492,13 @@
        "en": "The sea and sky are places, not body parts. Neurons are cells inside a body.",
        "zh": "海和天空是地方，不是身体。神经元是身体里的细胞。"
       }
+     },
+     "qzh": "神经元在……之间传递信息。",
+     "ozh": {
+      "the brain and the body": "大脑和身体",
+      "a tree and its leaves": "树和叶子",
+      "two shells": "两个贝壳",
+      "the sea and the sky": "大海和天空"
      }
     },
     {
@@ -498,6 +527,13 @@
        "en": "Confident is a feeling. Captivity is about being kept in one place.",
        "zh": "confident 是一种感觉。captivity 是被关在一个地方。"
       }
+     },
+     "qzh": "被圈养（in captivity）的海豚……",
+     "ozh": {
+      "lives in a tank and cannot leave": "住在水池里，不能离开",
+      "swims anywhere it likes": "想去哪儿就游到哪儿",
+      "is a kind of coral": "是一种珊瑚",
+      "is always confident": "总是很自信"
      }
     },
     {
@@ -526,6 +562,13 @@
        "en": "Someone who designs buildings is an architect, and a builder builds them.",
        "zh": "设计房子的是建筑师，盖房子的是建筑工人。"
       }
+     },
+     "qzh": "生态学家（ecologist）研究……",
+     "ozh": {
+      "old coins and stamps": "旧钱币和邮票",
+      "only the stars and planets": "只研究星星和行星",
+      "how to build houses": "怎样盖房子",
+      "how animals, plants, air, land and water are connected": "动物、植物、空气、土地和水怎样联系在一起"
      }
     },
     {
@@ -554,6 +597,13 @@
        "en": "Throwing away gets rid of them. You cannot sort things you threw away.",
        "zh": "扔掉就没了，扔掉的东西不能分组。"
       }
+     },
+     "qzh": "给贝壳分类（classify）的意思是……",
+     "ozh": {
+      "paint them": "给它们上色",
+      "put them into groups by type": "按种类把它们分组",
+      "break them into pieces": "把它们打碎",
+      "throw them away": "把它们扔掉"
      }
     },
     {
@@ -582,6 +632,13 @@
        "en": "Perplexes is a verb for he/she/it. \"I am perplexes\" puts two verbs together, which is not English.",
        "zh": "perplexes 是第三人称单数动词。I am perplexes 两个动词放在一起，不对。"
       }
+     },
+     "qzh": "这个谜题很让人困惑。我感到 ________。（选正确的词形）",
+     "ozh": {
+      "perplexing": "",
+      "perplex": "",
+      "perplexed": "",
+      "perplexes": ""
      }
     },
     {
@@ -610,6 +667,13 @@
        "en": "Personality is what a person is like inside. A storm stopping a trip is a disruption, not a personality.",
        "zh": "personality 是人的性格。暴风雨打断旅行是 disruption，不是性格。"
       }
+     },
+     "qzh": "暴风雨封了路，所以学校旅行被 ________ 了。",
+     "ozh": {
+      "venom": "毒液",
+      "disruption": "打乱、中断",
+      "coral": "珊瑚",
+      "personality": "性格"
      }
     }
    ],
@@ -1687,6 +1751,10 @@
        "en": "\"Are\" is for plural subjects (more than one) and for you/we/they. The coral is one thing, so \"are\" breaks subject-verb agreement.",
        "zh": "are 用在复数主语（多于一个）和 you/we/they 后面。coral 是一个，用 are 就主谓不一致了。"
       }
+     },
+     "qzh": "珊瑚 ________ 很美。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1705,6 +1773,10 @@
        "en": "\"Is\" is only for ONE thing (he, she, it). Shells are many, so \"is\" breaks subject-verb agreement.",
        "zh": "is 只用于一个（he、she、it）。shells 是很多个，用 is 就主谓不一致了。"
       }
+     },
+     "qzh": "贝壳 ________ 在沙滩上。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1723,6 +1795,10 @@
        "en": "\"Are\" needs a plural subject. \"My\" does not make it plural: my personality is still one thing.",
        "zh": "are 要复数主语。my 不会让它变复数，my personality 还是一个。"
       }
+     },
+     "qzh": "我的性格 ________ 友好。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1741,6 +1817,10 @@
        "en": "\"Is\" is for one thing. Neurons (with -s) are many, so we need \"are\".",
        "zh": "is 用于一个。neurons 有 -s，是很多个，要用 are。"
       }
+     },
+     "qzh": "神经元 ________ 很小的细胞。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1759,6 +1839,10 @@
        "en": "\"Are\" agrees with \"shells\", but shells is inside the phrase \"of shells\", so it is NOT the subject. The verb must agree with \"box\".",
        "zh": "are 是跟 shells 配的，但 shells 在 of shells 这个短语里，不是主语。动词要跟 box 一致。"
       }
+     },
+     "qzh": "这盒贝壳 ________ 很重。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1777,6 +1861,10 @@
        "en": "\"Is\" is for one person. \"Emma and Tom\" is two people, so the verb must be plural: are.",
        "zh": "is 用于一个人。Emma and Tom 是两个人，动词要用复数：are。"
       }
+     },
+     "qzh": "Emma 和 Tom ________ 生态学家。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1795,6 +1883,10 @@
        "en": "\"Are\" matches \"oranges\", but oranges is inside \"of oranges\", so it is not the subject. One bag takes \"is\".",
        "zh": "are 是跟 oranges 配的，但 oranges 在 of oranges 里，不是主语。一个袋子用 is。"
       }
+     },
+     "qzh": "这袋橙子 ________ 在桌子上。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1813,6 +1905,10 @@
        "en": "\"Are\" matches \"turtles\", but turtles is inside \"of the turtles\". The real subject \"each\" is singular, so \"is\".",
        "zh": "are 是跟 turtles 配的，但 turtles 在 of the turtles 里。真正的主语 each 是单数，用 is。"
       }
+     },
+     "qzh": "每一只海龟都 ________ 被圈养着。（填 is 或 are）",
+     "ozh": {
+      "are": ""
      }
     },
     {
@@ -1841,6 +1937,13 @@
        "en": "Water cannot be counted (we don't say \"two waters\"), so it takes a singular verb: The water is salty.",
        "zh": "water 是不可数名词（不说 two waters），用单数动词：The water is salty。"
       }
+     },
+     "qzh": "哪个句子是正确的？",
+     "ozh": {
+      "The animals in the zoo are in captivity.": "",
+      "The snakes is dangerous.": "",
+      "Lily's personality are kind.": "",
+      "The water are salty.": ""
      }
     },
     {
@@ -1869,6 +1972,13 @@
        "en": "\"Friends\" is plural, so the verb must be plural too: My friends are confident.",
        "zh": "friends 是复数，动词也要复数：My friends are confident。"
       }
+     },
+     "qzh": "哪个句子是正确的？",
+     "ozh": {
+      "The shells is hard.": "",
+      "Each fish is a different colour.": "",
+      "Lily and Mia is sisters.": "",
+      "My friends is confident.": ""
      }
     }
    ],
@@ -1951,6 +2061,13 @@
        "en": "This is back to front. Weather changes daily, like an outfit; climate is the long-term collection, like a wardrobe.",
        "zh": "前后颠倒了。天气每天变，像一套衣服；气候是长期的，像整个衣柜。"
       }
+     },
+     "qzh": "天气就像你的 ________；气候就像你的 ________。",
+     "ozh": {
+      "shoes / hat": "鞋子 / 帽子",
+      "sponge / ramp": "海绵 / 斜坡",
+      "wardrobe / outfit": "衣柜 / 一套衣服",
+      "outfit / wardrobe": "一套衣服 / 衣柜"
      }
     },
     {
@@ -1979,6 +2096,13 @@
        "en": "A cold front is where cold air pushes under warm air for a day or two. It is not a yearly pattern.",
        "zh": "冷锋是冷空气推到暖空气下面，只有一两天，不是全年的规律。"
       }
+     },
+     "qzh": "“曼谷一年中大部分时间又热又湿。”这句话说的是……",
+     "ozh": {
+      "climate": "气候",
+      "an air mass": "气团",
+      "weather": "天气",
+      "a cold front": "冷锋"
      }
     },
     {
@@ -2007,6 +2131,13 @@
        "en": "That is what a kitchen sponge looks like, but air has no colour. The comparison is about what it DOES: soaks things up.",
        "zh": "厨房海绵是黄色软软的，但空气没有颜色。比喻讲的是它做什么：吸收。"
       }
+     },
+     "qzh": "为什么气团像一块巨大的海绵？",
+     "ozh": {
+      "It cleans the sky.": "它会清洁天空。",
+      "It soaks up the heat and wetness of the place it sits over.": "它会吸收所在地方的热量和水分。",
+      "It moves very fast.": "它移动得很快。",
+      "It is yellow and soft.": "它是黄色、软软的。"
      }
     },
     {
@@ -2035,6 +2166,13 @@
        "en": "At every front air is lifted. That lifting is what makes the clouds and rain.",
        "zh": "每个锋面都会把空气抬升，正是抬升才形成云和雨。"
       }
+     },
+     "qzh": "在冷锋处，暖空气被……推上去。",
+     "ozh": {
+      "slowly and gently": "慢慢地、轻轻地",
+      "sideways": "往旁边",
+      "not at all": "完全没有",
+      "quickly and steeply": "又快又陡地"
      }
     },
     {
@@ -2063,6 +2201,13 @@
        "en": "Lifting warm, wet air always makes clouds. A cold front lifts air fast, so it makes tall storm clouds.",
        "zh": "把暖湿空气抬起来一定会形成云。冷锋抬得快，形成高高的雷雨云。"
       }
+     },
+     "qzh": "冷锋常常带来……",
+     "ozh": {
+      "light rain for days": "连续几天的小雨",
+      "heavy rain and storms": "大雨和暴风雨",
+      "snow every time": "每次都下雪",
+      "no clouds at all": "完全没有云"
      }
     },
     {
@@ -2091,6 +2236,13 @@
        "en": "A cold can is the example of condensation, not of a front.",
        "zh": "冰饮料罐是凝结的例子，不是锋面。"
       }
+     },
+     "qzh": "哪个比喻对应暖锋？",
+     "ozh": {
+      "a bulldozer": "推土机",
+      "a wardrobe": "衣柜",
+      "a can of drink": "一罐饮料",
+      "a ramp": "斜坡"
      }
     },
     {
@@ -2119,6 +2271,13 @@
        "en": "Evaporation is liquid water turning INTO a gas. The drops on the can are the opposite: gas turning back into liquid.",
        "zh": "蒸发是液态水变成气体。罐子上的水珠正相反：气体变回液体。"
       }
+     },
+     "qzh": "冰饮料罐上的水珠是……的例子。",
+     "ozh": {
+      "condensation": "凝结",
+      "dissolving": "溶解",
+      "captivity": "圈养",
+      "evaporation": "蒸发"
      }
     },
     {
@@ -2147,6 +2306,13 @@
        "en": "Name asks for one word or a name only, with no reason.",
        "zh": "Name 只要写出名字或一个词，不用讲原因。"
       }
+     },
+     "qzh": "考试小技巧：哪个题目用语要你写出原因？",
+     "ozh": {
+      "Circle...": "圈出……",
+      "Explain why...": "解释为什么……",
+      "List...": "列出……",
+      "Name...": "说出名字……"
      }
     }
    ],
@@ -2205,6 +2371,13 @@
        "en": "Cool comes from \"polar\". Tropical means near the equator, so it is warm.",
        "zh": "cool 来自 polar（极地）。tropical 是靠近赤道，所以是暖的。"
       }
+     },
+     "qzh": "海洋热带气团是……",
+     "ozh": {
+      "hot and dry": "又热又干",
+      "cold and dry": "又冷又干",
+      "cool and wet": "又凉又湿",
+      "warm and wet": "又暖又湿"
      }
     },
     {
@@ -2233,6 +2406,13 @@
        "en": "Hot comes from \"tropical\". Polar means near the poles, so it is cold.",
        "zh": "hot 来自 tropical（热带）。polar 是靠近极地，所以是冷的。"
       }
+     },
+     "qzh": "大陆极地气团是……",
+     "ozh": {
+      "warm and wet": "又暖又湿",
+      "cold and dry": "又冷又干",
+      "cool and wet": "又凉又湿",
+      "hot and dry": "又热又干"
      }
     },
     {
@@ -2261,6 +2441,13 @@
        "en": "The ramp is the WARM front, where warm air slides gently up.",
        "zh": "斜坡比喻的是暖锋，暖空气慢慢滑上去。"
       }
+     },
+     "qzh": "冷锋就像一台……",
+     "ozh": {
+      "wardrobe": "衣柜",
+      "bulldozer": "推土机",
+      "sponge": "海绵",
+      "ramp": "斜坡"
      }
     },
     {
@@ -2289,6 +2476,13 @@
        "en": "That is a WARM front. The warm air arrives behind it, so it gets warmer. Behind a cold front, cold air arrives.",
        "zh": "那是暖锋，暖空气跟在后面，所以变暖。冷锋后面来的是冷空气。"
       }
+     },
+     "qzh": "冷锋通常带来……",
+     "ozh": {
+      "snow every time": "每次都下雪",
+      "short, heavy storms, then cooler weather": "短暂的大暴风雨，然后天气变凉",
+      "no clouds at all": "完全没有云",
+      "long, light rain, then warmer weather": "长时间的小雨，然后天气变暖"
      }
     },
     {
@@ -2317,6 +2511,13 @@
        "en": "Warm air rising over cold air always makes clouds, so the sky is grey, not clear.",
        "zh": "暖空气爬到冷空气上面一定会形成云，所以天是灰的，不晴。"
       }
+     },
+     "qzh": "暖锋通常带来……",
+     "ozh": {
+      "short, heavy storms, then cooler weather": "短暂的大暴风雨，然后天气变凉",
+      "thunderstorms every time": "每次都有雷雨",
+      "long, light rain, then warmer, humid weather": "长时间的小雨，然后天气变暖、变潮湿",
+      "clear blue skies": "晴朗的蓝天"
      }
     },
     {
@@ -2345,6 +2546,13 @@
        "en": "Precipitation is water falling from clouds (rain, snow). The drops form on the glass, they do not fall from the sky.",
        "zh": "降水是从云里落下的水（雨、雪）。水珠是在杯子上形成的，不是从天上掉下来的。"
       }
+     },
+     "qzh": "冰果汁杯外面的水珠说明了……",
+     "ozh": {
+      "dissolving": "溶解",
+      "evaporation": "蒸发",
+      "precipitation": "降水",
+      "condensation": "凝结"
      }
     },
     {
@@ -2373,6 +2581,13 @@
        "en": "Shoes are one item for today, like weather, not the long-term collection.",
        "zh": "鞋子只是今天穿的一样东西，像天气，不是长期的全部。"
       }
+     },
+     "qzh": "天气就像你今天穿的一套衣服。气候就像你的……",
+     "ozh": {
+      "hat": "帽子",
+      "wardrobe": "衣柜",
+      "sponge": "海绵",
+      "shoes": "鞋子"
      }
     },
     {
@@ -2401,6 +2616,13 @@
        "en": "Wind direction changes. It depends on where the high and low pressure are, not on a fixed direction.",
        "zh": "风向会变，取决于高压和低压在哪里，不是固定方向。"
       }
+     },
+     "qzh": "风是从……吹的。",
+     "ozh": {
+      "low pressure to high pressure": "低压吹向高压",
+      "the ground straight up to space": "从地面直直吹向太空",
+      "high pressure to low pressure": "高压吹向低压",
+      "east to west every day": "每天从东吹到西"
      }
     },
     {
@@ -2429,6 +2651,13 @@
        "en": "Cold air is heavier, so it sinks UNDER warm air. Warm air is what rises.",
        "zh": "冷空气更重，所以沉到暖空气下面。上升的是暖空气。"
       }
+     },
+     "qzh": "为什么冷锋处会有积雨云？",
+     "ozh": {
+      "Because warm air is pushed up fast and steep, so tall storm clouds form.": "因为暖空气被又快又陡地推上去，所以形成高高的雷雨云。",
+      "Because the air is very dry.": "因为空气很干。",
+      "Because warm air slides up slowly, so flat clouds form.": "因为暖空气慢慢滑上去，所以形成扁平的云。",
+      "Because cold air rises above warm air.": "因为冷空气升到暖空气上面。"
      }
     },
     {
@@ -2457,6 +2686,13 @@
        "en": "Rising light air is LOW pressure. That is what brings rain, not high pressure.",
        "zh": "轻空气上升是低压，带来雨的是低压，不是高压。"
       }
+     },
+     "qzh": "高压通常带来……",
+     "ozh": {
+      "clear skies, because heavy air sinks": "晴天，因为重的空气下沉",
+      "storms, because air is pushed up": "暴风雨，因为空气被推上去",
+      "fog every day": "每天都有雾",
+      "rain, because light air rises": "下雨，因为轻的空气上升"
      }
     }
    ],
