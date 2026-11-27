@@ -2845,6 +2845,25 @@
         h('span', { class: 'dr-meta' }, chip(r.t.right + ' / ' + r.t.total + (wrong ? '  ·  ' + wrong + ' ' + L('wrong', '错') : '  ·  ' + L('all right', '全对')), wrong ? 'started' : 'done'),
           h('small', { class: 'muted' }, '🕒 ' + niceWhen(r.t.when) + '   ⏱️ ' + fmtTime(r.t.secs)))));
   }
+  /* Homework Review: one block per quiz. The latest try on top, then every try's score in order (First try, Second try, ...). */
+  var ORD_EN = ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh', 'Eighth', 'Ninth', 'Tenth'];
+  var ORD_ZH = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十'];
+  function tryGroups(rows) {
+    var g = {}, order = [];
+    rows.forEach(function (r) { var k = r.x.w.week + '/' + r.a.id; if (!g[k]) { g[k] = []; order.push(k); } g[k].push(r); });
+    return order.map(function (k) {
+      var list = g[k].slice().sort(function (p, q) { return p.n - q.n; }), latest = list[list.length - 1];
+      return h('div', { class: 'try-group' }, tryRow(latest),
+        list.length > 1 ? h('div', { class: 'try-steps' }, list.map(function (r) {
+          var i = r.n - 1, wrong = r.t.total - r.t.right;
+          return h('a', { class: 'try-step' + (r === latest ? ' latest' : ''), href: tryHref(r.x.w.week, r.a.id, r.n) },
+            h('b', null, (ORD_EN[i] ? L(ORD_EN[i] + ' try', '第' + ORD_ZH[i] + '次') : L('Try ' + r.n, '第 ' + r.n + ' 次')) + ': '),
+            h('span', { class: wrong ? 'ts-bad' : 'ts-ok' }, r.t.right + ' / ' + r.t.total),
+            h('small', { class: 'muted' }, '  🕒 ' + niceWhen(r.t.when) + '  ⏱️ ' + fmtTime(r.t.secs)),
+            r === latest ? h('small', { class: 'ts-latest' }, '  ' + L('latest', '最新')) : null);
+        })) : null);
+    });
+  }
   function renderTryList() {
     S.nav = 'review'; setNav('review'); refreshRemote();
     var body = h('div', null, h('p', { class: 'muted' }, '…'));
@@ -2856,7 +2875,7 @@
       clear(body);
       if (!rows.length && window.SCORE_READ && !REMOTE.at) return add(body, h('div', { class: 'card empty' }, E('⏳ Loading your homework…', '⏳ 正在加载你的作业…')));
       if (!rows.length) return add(body, h('div', { class: 'card empty' }, E('No homework finished yet. When you submit a homework quiz, it shows here (on every device).', '还没有做完的作业。提交作业小测后，会出现在这里（每台设备都能看到）。')));
-      add(body, h('div', { class: 'card list' }, rows.map(tryRow)));
+      add(body, h('div', { class: 'card list' }, tryGroups(rows)));
     }).catch(renderError);
   }
   /* One try as a single page: every question, every option, her answer marked right or wrong, the right answer, why. */
@@ -3004,13 +3023,13 @@
         out.push(h('h2', { class: 'sec' }, E('To do', '待做')),
           todo.length ? h('div', { class: 'card list' }, todo.slice(0, 5).map(dayRow)) : h('div', { class: 'card empty-today' }, E('All homework for this subject is done. 🎉', '这个科目的作业都做完了。🎉')));
         if (nextClass) out.push(h('h2', { class: 'sec' }, E('Next class', '下一节课')), h('div', { class: 'card list' }, dayRow(nextClass)));
-        if (tries.length) out.push(h('h2', { class: 'sec' }, E('Latest homework review', '最新的作业讲评')), h('div', { class: 'card list' }, tries.slice(0, 3).map(tryRow)));
+        if (tries.length) out.push(h('h2', { class: 'sec' }, E('Latest homework review', '最新的作业讲评')), h('div', { class: 'card list' }, tryGroups(tries).slice(0, 3)));
         out.push(h('h2', { class: 'sec' }, E('Modules', '模块')), h('div', { class: 'tiles' }, SUBJ_TABS.slice(1).filter(function (t) { return counts[t[0]]; }).map(function (t) {
           return h('a', { class: 'tile', href: '#/subject/' + id + '/' + t[0] }, h('span', { class: 'ico' }, t[1]), h('span', null, L(t[2], t[3])), h('span', { class: 'sub' }, String(counts[t[0]])));
         })));
       } else if (tab === 'homework') out.push(dayListByWeek(hwDays));
       else if (tab === 'class') out.push(dayListByWeek(classDays));
-      else if (tab === 'review') out.push(listOrEmpty(tries, tryRow));
+      else if (tab === 'review') out.push(tries.length ? h('div', { class: 'card list' }, tryGroups(tries)) : listOrEmpty(tries, tryRow));
       else if (tab === 'book') out.push(chapterList());
       else if (tab === 'school') out.push(listOrEmpty(sheets, function (x) {
         var dn = sheetDone(x.id);

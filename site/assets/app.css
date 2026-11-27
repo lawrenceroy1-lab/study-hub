@@ -651,3 +651,15 @@ span.chip { min-height: 0; min-width: 0; border: 0; cursor: default; }   /* stat
 .why-wrong { background: #fdeeee; color: #8a2323; }
 .why-right b, .why-wrong b { display: block; margin-bottom: 2px; }
 .wwhy .why-right, .wwhy .why-wrong { font-size: 1em; }
+
+/* Homework Review: latest try + every try's score */
+.try-group + .try-group { border-top: 1px solid var(--line); }
+.try-group .day-row + .day-row { border-top: 0; }
+.try-steps { padding: 0 14px 12px 178px; display: grid; gap: 4px; }
+.try-step { display: block; color: inherit; text-decoration: none; font-size: .92em; padding: 3px 8px; border-radius: 8px; }
+.try-step:hover { background: #f6f7fb; }
+.try-step.latest { background: #f2f5ff; }
+.ts-ok { color: #1f7a35; font-weight: 700; }
+.ts-bad { color: #b3261e; font-weight: 700; }
+.ts-latest { color: var(--accent, #3a5bd9); font-weight: 700; }
+@media (max-width: 700px) { .try-steps { padding-left: 14px; } }
