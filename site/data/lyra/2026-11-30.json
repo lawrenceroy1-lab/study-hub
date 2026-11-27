@@ -164,8 +164,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A wave is a disturbance that transfers energy. The stuff it travels through stays in place.",
-      "zh": "波是传递能量的扰动。它经过的物质留在原地。"
+      "en": "A wave carries ENERGY from one place to another, but the particles only vibrate and stay where they are. (A duck on a wave bobs up and down; it does not travel with the wave.)",
+      "zh": "波把能量从一个地方传到另一个地方，但粒子只是振动，留在原地。（水面上的鸭子只是上下浮动，不会跟着波走。）"
+     },
+     "wrong": {
+      "particles": {
+       "en": "The particles only vibrate about one spot. They do not travel along with the wave.",
+       "zh": "粒子只在一个位置附近振动，不会跟着波一起走。"
+      },
+      "water": {
+       "en": "In a water wave the water moves up and down, but it does not travel across the ocean. Energy does.",
+       "zh": "水波里的水只是上下动，不会横穿大海。传过去的是能量。"
+      },
+      "air": {
+       "en": "In sound, air particles vibrate back and forth but stay in place. Only the energy moves along.",
+       "zh": "声音里的空气粒子前后振动但留在原地，只有能量往前传。"
+      }
      }
     },
     {
@@ -178,8 +192,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Transverse = perpendicular (at 90°).",
-      "zh": "横波 = 垂直（90°）。"
+      "en": "Perpendicular means at 90° (a right angle). In a transverse wave the particles move up and down while the wave travels forward.",
+      "zh": "perpendicular 是“垂直的”（90°）。横波的粒子上下振动，而波往前传。"
+     },
+     "wrong": {
+      "parallel": {
+       "en": "Parallel (same direction) describes a LONGITUDINAL wave.",
+       "zh": "parallel（同方向）描述的是纵波。"
+      },
+      "opposite": {
+       "en": "Opposite would be backwards along the line, which is still parallel, not at 90°.",
+       "zh": "相反是沿着直线往回，还是平行，不是 90°。"
+      },
+      "unrelated": {
+       "en": "The vibration direction is always related to the travel direction: 90° for transverse, parallel for longitudinal.",
+       "zh": "振动方向和传播方向一定有关系：横波是 90°，纵波是平行。"
+      }
      }
     },
     {
@@ -192,8 +220,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Sound vibrations are parallel to the direction of travel.",
-      "zh": "声音的振动方向和传播方向平行。"
+      "en": "In sound, the particles vibrate backwards and forwards ALONG the direction the wave travels (compressions and rarefactions). Vibrations parallel to the direction of travel make a longitudinal wave.",
+      "zh": "声音里，粒子沿着波传播的方向前后振动（疏部和密部）。振动方向和传播方向平行的是纵波。"
+     },
+     "wrong": {
+      "transverse": {
+       "en": "In a transverse wave (light, water ripples), particles move UP and DOWN, at right angles to the direction of travel. Sound particles move back and forth along it.",
+       "zh": "横波（光、水波）的粒子上下振动，和传播方向垂直。声音的粒子是沿着方向前后振动。"
+      },
+      "electromagnetic": {
+       "en": "Electromagnetic waves (light, radio) can travel through a vacuum. Sound cannot, because it needs particles.",
+       "zh": "电磁波（光、无线电）能在真空中传播。声音不能，因为它需要粒子。"
+      },
+      "light": {
+       "en": "Light is a transverse, electromagnetic wave, a different kind from sound.",
+       "zh": "光是横波、电磁波，和声音不是一类。"
+      }
      }
     },
     {
@@ -206,8 +248,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Compression = squashed together. Rarefaction = spread apart.",
-      "zh": "密部 = 挤在一起。疏部 = 分散开。"
+      "en": "In a longitudinal wave the particles bunch up in some places and spread out in others. Where they are squashed CLOSE together is a compression (compress = squeeze).",
+      "zh": "纵波里粒子有的地方挤在一起，有的地方散开。挤在一起的地方叫密部（compress = 压缩）。"
+     },
+     "wrong": {
+      "rarefaction": {
+       "en": "A rarefaction is where particles are SPREAD apart, the opposite.",
+       "zh": "疏部是粒子散开的地方，正相反。"
+      },
+      "crest": {
+       "en": "Crests are the tops of TRANSVERSE waves, not part of a longitudinal wave.",
+       "zh": "波峰是横波的最高点，不属于纵波。"
+      },
+      "trough": {
+       "en": "Troughs are the bottoms of TRANSVERSE waves.",
+       "zh": "波谷是横波的最低点。"
+      }
      }
     },
     {
@@ -220,8 +276,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Amplitude = the maximum distance from the resting position.",
-      "zh": "振幅 = 离平衡位置的最大距离。"
+      "en": "Amplitude is the biggest distance a point moves away from its rest (middle) position, so measure from the rest line up to the crest.",
+      "zh": "振幅是一个点离开平衡（中间）位置的最大距离，所以从平衡线量到波峰。"
+     },
+     "wrong": {
+      "next crest": {
+       "en": "Crest to next crest is the WAVELENGTH.",
+       "zh": "波峰到下一个波峰是波长。"
+      },
+      "trough": {
+       "en": "Trough to crest is TWICE the amplitude.",
+       "zh": "波谷到波峰是振幅的两倍。"
+      },
+      "source": {
+       "en": "The source is where the wave started, not a point on the wave.",
+       "zh": "波源是波开始的地方，不是波上的点。"
+      }
      }
     },
     {
@@ -234,8 +304,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "frequency = number of waves ÷ time = 10 ÷ 2 = 5 Hz.",
-      "zh": "频率 = 波数 ÷ 时间 = 10 ÷ 2 = 5 Hz。"
+      "en": "Frequency = number of waves ÷ time. 10 ÷ 2 = 5 waves per second = 5 Hz.",
+      "zh": "频率 = 波数 ÷ 时间。10 ÷ 2 = 每秒 5 个波 = 5 Hz。"
+     },
+     "wrong": {
+      "20 Hz": {
+       "en": "20 is 10 × 2: it multiplied by the time. Frequency is per second, so divide.",
+       "zh": "20 是 10 × 2，乘了时间。频率是每秒多少，要除。"
+      },
+      "12 Hz": {
+       "en": "12 is 10 + 2. The formula divides.",
+       "zh": "12 是 10 + 2。公式是除。"
+      },
+      "8 Hz": {
+       "en": "8 is 10 − 2. The formula divides.",
+       "zh": "8 是 10 − 2。公式是除。"
+      }
      }
     },
     {
@@ -248,8 +332,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A vacuum contains no particles, and sound needs a medium.",
-      "zh": "真空里没有粒子，而声音需要介质。"
+      "en": "Sound is a vibration passed from particle to particle. A vacuum has NO particles, so there is nothing to pass the vibration on.",
+      "zh": "声音是粒子一个传一个的振动。真空里没有粒子，所以没有东西能传递振动。"
+     },
+     "wrong": {
+      "it is too cold": {
+       "en": "Temperature is not the reason. Even a hot vacuum carries no sound, because there are no particles.",
+       "zh": "原因不是温度。就算是热的真空也传不了声音，因为没有粒子。"
+      },
+      "light blocks it": {
+       "en": "Light does not block sound. Light and sound pass through each other.",
+       "zh": "光不会挡住声音，光和声音可以互相穿过。"
+      },
+      "the frequency is too high": {
+       "en": "No frequency of sound can cross a vacuum, high or low.",
+       "zh": "不管频率高低，声音都不能穿过真空。"
+      }
      }
     },
     {
@@ -262,8 +360,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Pitch depends on frequency.",
-      "zh": "音调由频率决定。"
+      "en": "Pitch depends on frequency: more vibrations each second = a higher note.",
+      "zh": "音调取决于频率：每秒振动越多，音越高。"
+     },
+     "wrong": {
+      "louder sound": {
+       "en": "Loudness depends on AMPLITUDE, not frequency.",
+       "zh": "响度取决于振幅，不是频率。"
+      },
+      "quieter sound": {
+       "en": "Frequency does not change loudness; amplitude does.",
+       "zh": "频率不改变响度，振幅才会。"
+      },
+      "lower pitch": {
+       "en": "Higher frequency gives a HIGHER pitch, not lower.",
+       "zh": "频率越高，音调越高，不是越低。"
+      }
      }
     },
     {
@@ -276,8 +388,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Loudness depends on amplitude.",
-      "zh": "响度和振幅有关。"
+      "en": "Loudness depends on amplitude: bigger vibrations carry more energy, so the sound is louder.",
+      "zh": "响度取决于振幅：振动越大能量越多，声音越响。"
+     },
+     "wrong": {
+      "higher pitch": {
+       "en": "Pitch depends on FREQUENCY, not amplitude.",
+       "zh": "音调取决于频率，不是振幅。"
+      },
+      "lower pitch": {
+       "en": "Amplitude does not change the pitch at all.",
+       "zh": "振幅完全不会改变音调。"
+      },
+      "faster sound": {
+       "en": "The speed of sound depends on the medium, not on amplitude.",
+       "zh": "声速取决于介质，不是振幅。"
+      }
      }
     },
     {
@@ -290,8 +416,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Above 20,000 Hz = ultrasound. Humans hear about 20 Hz to 20,000 Hz.",
-      "zh": "高于 20,000 Hz = 超声波。人能听到大约 20 Hz 到 20,000 Hz。"
+      "en": "Humans hear about 20 Hz to 20,000 Hz. 25,000 Hz is ABOVE that, and sound above our hearing is ultrasound (ultra = beyond).",
+      "zh": "人能听到约 20 Hz 到 20,000 Hz。25,000 Hz 高于这个范围，高于人类听力的是超声波（ultra = 超过）。"
+     },
+     "wrong": {
+      "infrasound": {
+       "en": "Infrasound is BELOW 20 Hz. 25,000 Hz is very high.",
+       "zh": "次声波低于 20 Hz。25,000 Hz 很高。"
+      },
+      "in the human audible range": {
+       "en": "Humans hear only up to about 20,000 Hz, so 25,000 Hz is too high for us.",
+       "zh": "人只能听到约 20,000 Hz，25,000 Hz 对我们来说太高了。"
+      },
+      "an echo": {
+       "en": "An echo is a reflected sound, at any frequency. The question is about how high it is.",
+       "zh": "回声是反射的声音，什么频率都可能。题目问的是有多高。"
+      }
      }
     },
     {
@@ -306,6 +446,20 @@
      "why": {
       "en": "The cochlea converts vibrations into electrical signals.",
       "zh": "耳蜗把振动变成电信号。"
+     },
+     "wrong": {
+      "eardrum": {
+       "en": "The eardrum VIBRATES when sound hits it, but it does not make electrical signals.",
+       "zh": "鼓膜被声音打到会振动，但不会产生电信号。"
+      },
+      "pinna": {
+       "en": "The pinna is the outer ear flap. It only collects sound.",
+       "zh": "耳廓是外耳，只负责收集声音。"
+      },
+      "ossicles": {
+       "en": "The ossicles are tiny bones that pass on and AMPLIFY the vibration. The cochlea changes it into signals.",
+       "zh": "听小骨是把振动传过去并放大的小骨头。耳蜗才把它变成信号。"
+      }
      }
     },
     {
@@ -320,6 +474,20 @@
      "why": {
       "en": "Collect, carry, vibrate, amplify, convert, send to the brain.",
       "zh": "收集、传送、振动、放大、转换、送到大脑。"
+     },
+     "wrong": {
+      "eardrum, pinna, cochlea, ossicles, auditory canal, auditory nerve": {
+       "en": "Sound enters at the PINNA first, then travels down the canal to the eardrum.",
+       "zh": "声音先进入耳廓，再沿耳道到鼓膜。"
+      },
+      "pinna, eardrum, auditory canal, cochlea, ossicles, auditory nerve": {
+       "en": "The canal comes BEFORE the eardrum (it leads to it), and the ossicles come before the cochlea.",
+       "zh": "耳道在鼓膜前面（通向鼓膜），听小骨在耳蜗前面。"
+      },
+      "auditory nerve, cochlea, ossicles, eardrum, auditory canal, pinna": {
+       "en": "This is the right list but backwards, from the brain outwards.",
+       "zh": "顺序对，但反过来了，是从大脑往外。"
+      }
      }
     }
    ],
@@ -508,6 +676,20 @@
      "why": {
       "en": "School definition: a transverse wave that can travel through a vacuum without needing a medium.",
       "zh": "学校定义：一种横波，不需要介质，能在真空中传播。"
+     },
+     "wrong": {
+      "longitudinal": {
+       "en": "Longitudinal waves (like sound) need particles, so they cannot cross a vacuum. EM waves are transverse.",
+       "zh": "纵波（像声音）需要粒子，不能穿过真空。电磁波是横波。"
+      },
+      "sound": {
+       "en": "Sound cannot travel through a vacuum at all.",
+       "zh": "声音根本不能在真空中传播。"
+      },
+      "water": {
+       "en": "Water waves need water to travel in.",
+       "zh": "水波需要水才能传播。"
+      }
      }
     },
     {
@@ -522,6 +704,20 @@
      "why": {
       "en": "Light is an EM wave. Sound needs a medium (B1).",
       "zh": "光是电磁波。声音需要介质（B1）。"
+     },
+     "wrong": {
+      "sound": {
+       "en": "Sound needs particles (a medium). A vacuum has none.",
+       "zh": "声音需要粒子（介质），真空里没有。"
+      },
+      "a water wave": {
+       "en": "A water wave is a disturbance OF water, so it needs water.",
+       "zh": "水波是水的扰动，需要水。"
+      },
+      "a wave on a slinky": {
+       "en": "A slinky wave travels through the slinky's coils; it needs the slinky.",
+       "zh": "弹簧上的波要靠弹簧的圈传播，需要弹簧。"
+      }
      }
     },
     {
@@ -534,8 +730,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Radio is at the low-frequency end of the spectrum.",
-      "zh": "无线电波在电磁波谱的低频一端。"
+      "en": "EM spectrum from lowest to highest frequency: Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma. Radio waves are at the LOW end (and have the longest wavelength).",
+      "zh": "电磁波谱从低频到高频：无线电波、微波、红外线、可见光、紫外线、X 光、伽马射线。无线电波在低频端（波长最长）。"
+     },
+     "wrong": {
+      "gamma ray": {
+       "en": "Gamma rays are at the HIGHEST frequency end.",
+       "zh": "伽马射线在最高频的一端。"
+      },
+      "X-ray": {
+       "en": "X-rays are very high frequency, second only to gamma.",
+       "zh": "X 光频率很高，仅次于伽马射线。"
+      },
+      "ultraviolet": {
+       "en": "Ultraviolet is higher than visible light, near the top end.",
+       "zh": "紫外线比可见光高，接近高频端。"
+      }
      }
     },
     {
@@ -548,8 +758,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Gamma rays are very high-frequency: the top end of the spectrum.",
-      "zh": "伽马射线频率非常高，在电磁波谱的最高端。"
+      "en": "EM spectrum from low to high frequency: Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma. Gamma is at the TOP end (highest frequency, most energy).",
+      "zh": "电磁波谱从低频到高频：无线电波、微波、红外线、可见光、紫外线、X 光、伽马射线。伽马射线在最高端（频率最高、能量最大）。"
+     },
+     "wrong": {
+      "radio wave": {
+       "en": "Radio waves are at the LOWEST frequency end.",
+       "zh": "无线电波在最低频的一端。"
+      },
+      "microwave": {
+       "en": "Microwaves are low frequency, second from the bottom.",
+       "zh": "微波频率低，倒数第二。"
+      },
+      "infrared": {
+       "en": "Infrared is below visible light, in the lower half.",
+       "zh": "红外线在可见光下面，在低频那一半。"
+      }
      }
     },
     {
@@ -562,8 +786,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Rabbits Mate In Very Unusual eXpensive Gardens.",
-      "zh": "Rabbits Mate In Very Unusual eXpensive Gardens（口诀）。"
+      "en": "Low to high frequency: Radio, Microwave, Infrared, Visible, Ultraviolet, X-ray, Gamma. Mnemonic: Rabbits Mate In Very Unusual eXpensive Gardens.",
+      "zh": "低频到高频：无线电波、微波、红外线、可见光、紫外线、X 光、伽马射线。记法：Rabbits Mate In Very Unusual eXpensive Gardens。"
+     },
+     "wrong": {
+      "gamma, X-ray, ultraviolet, visible, infrared, microwave, radio": {
+       "en": "This is the right list but from HIGH to low. The question asks low to high.",
+       "zh": "顺序对，但是从高到低。题目问的是从低到高。"
+      },
+      "radio, infrared, microwave, visible, X-ray, ultraviolet, gamma": {
+       "en": "Two pairs are swapped: microwave comes before infrared, and ultraviolet before X-ray.",
+       "zh": "有两对换了：微波在红外线前，紫外线在 X 光前。"
+      },
+      "microwave, radio, visible, infrared, ultraviolet, gamma, X-ray": {
+       "en": "Radio is the lowest, so it comes first. Infrared comes before visible, and X-ray before gamma.",
+       "zh": "无线电波最低，排第一。红外线在可见光前，X 光在伽马射线前。"
+      }
      }
     },
     {
@@ -578,6 +816,20 @@
      "why": {
       "en": "Infrared is linked to heat and used in thermal imaging and remote controls.",
       "zh": "红外线和热有关，用于热成像和遥控器。"
+     },
+     "wrong": {
+      "ultraviolet": {
+       "en": "Ultraviolet causes sunburn and is used for security marks.",
+       "zh": "紫外线会晒伤，用于防伪标记。"
+      },
+      "gamma rays": {
+       "en": "Gamma rays treat cancer; they would be dangerous in a TV remote.",
+       "zh": "伽马射线用于治疗癌症，用在遥控器里会很危险。"
+      },
+      "X-rays": {
+       "en": "X-rays are for medical images of bones.",
+       "zh": "X 光用于拍骨头的医学影像。"
+      }
      }
     },
     {
@@ -592,6 +844,20 @@
      "why": {
       "en": "Microwaves: cooking, radar and satellite communication.",
       "zh": "微波：烹饪、雷达和卫星通信。"
+     },
+     "wrong": {
+      "radio wave": {
+       "en": "Radio waves carry radio and TV broadcasts, not cooking.",
+       "zh": "无线电波传送广播电视，不是做饭。"
+      },
+      "visible light": {
+       "en": "Visible light lets us see; it does not cook food in a microwave oven.",
+       "zh": "可见光让我们看见，不能在微波炉里做饭。"
+      },
+      "gamma ray": {
+       "en": "Gamma rays are too dangerous for cooking; they are used to kill cancer cells.",
+       "zh": "伽马射线太危险，不能做饭，用来杀癌细胞。"
+      }
      }
     },
     {
@@ -606,6 +872,20 @@
      "why": {
       "en": "UV has a higher frequency than visible light and can cause sunburn.",
       "zh": "紫外线频率比可见光高，会晒伤皮肤。"
+     },
+     "wrong": {
+      "infrared": {
+       "en": "Infrared is felt as HEAT (warmth from a fire). It is lower energy than visible light and does not burn skin cells like UV.",
+       "zh": "红外线让人感到热（火的温暖），能量比可见光低，不会像紫外线那样伤害皮肤细胞。"
+      },
+      "radio waves": {
+       "en": "Radio waves have very low energy and pass through us harmlessly.",
+       "zh": "无线电波能量很低，穿过我们的身体也没有害处。"
+      },
+      "visible light": {
+       "en": "Visible light lets us see. Sunburn comes from the UV just beyond violet.",
+       "zh": "可见光让我们看见东西。晒伤来自紫光外面的紫外线。"
+      }
      }
     },
     {
@@ -620,6 +900,20 @@
      "why": {
       "en": "X-rays pass through soft tissue, so medical images show the bones.",
       "zh": "X 射线能穿过软组织，所以医学影像能看到骨头。"
+     },
+     "wrong": {
+      "are seen by the human eye": {
+       "en": "We cannot see X-rays. The image is made on a detector or film.",
+       "zh": "我们看不见 X 光，影像是在探测器或胶片上形成的。"
+      },
+      "are low-frequency waves": {
+       "en": "X-rays are HIGH frequency, near the top of the spectrum.",
+       "zh": "X 光是高频的，在波谱的高端附近。"
+      },
+      "need a medium to travel": {
+       "en": "X-rays are EM waves, so they need no medium.",
+       "zh": "X 光是电磁波，不需要介质。"
+      }
      }
     },
     {
@@ -634,6 +928,20 @@
      "why": {
       "en": "It has enough energy to remove electrons from atoms, which can damage cells and DNA.",
       "zh": "它的能量足以从原子中移走电子，会伤害细胞和 DNA。"
+     },
+     "wrong": {
+      "is too quiet to hear": {
+       "en": "Radiation is not sound at all. Its danger is energy hitting cells.",
+       "zh": "辐射根本不是声音，危险在于能量打到细胞上。"
+      },
+      "cannot travel through a vacuum": {
+       "en": "All EM waves CAN cross a vacuum. That is not the danger.",
+       "zh": "所有电磁波都能穿过真空，这不是危险所在。"
+      },
+      "is always visible": {
+       "en": "Ionising radiation (UV, X-ray, gamma) is INVISIBLE, which makes it more dangerous.",
+       "zh": "电离辐射（紫外线、X 光、伽马射线）是看不见的，所以更危险。"
+      }
      }
     }
    ],
@@ -671,6 +979,20 @@
      "why": {
       "en": "Translucent = light passes through but scatters.",
       "zh": "半透明 = 光能通过但会散开。"
+     },
+     "wrong": {
+      "transparent": {
+       "en": "Transparent means you can see clearly through it. Frosted glass is blurry on purpose.",
+       "zh": "透明是能清楚看过去。磨砂玻璃故意做成模糊的。"
+      },
+      "opaque": {
+       "en": "Opaque blocks ALL light, but frosted glass still lets light into the bathroom.",
+       "zh": "不透明会挡住所有光，但磨砂玻璃还是让光进到浴室。"
+      },
+      "luminous": {
+       "en": "Luminous means it makes its own light. Glass does not.",
+       "zh": "发光是自己发光，玻璃不会。"
+      }
      }
     },
     {
@@ -685,6 +1007,20 @@
      "why": {
       "en": "The Sun produces its own light.",
       "zh": "太阳自己发光。"
+     },
+     "wrong": {
+      "non-luminous": {
+       "en": "Non-luminous objects only REFLECT light. The Sun makes its own light by nuclear reactions.",
+       "zh": "不发光的物体只反射光。太阳靠核反应自己发光。"
+      },
+      "opaque": {
+       "en": "Opaque is about blocking light that passes through. The question is whether it makes light.",
+       "zh": "不透明讲的是挡住穿过的光。题目问的是它会不会发光。"
+      },
+      "laterally inverted": {
+       "en": "Laterally inverted describes a mirror image, not the Sun.",
+       "zh": "左右颠倒描述的是镜像，不是太阳。"
+      }
      }
     },
     {
@@ -699,6 +1035,20 @@
      "why": {
       "en": "The normal is an imaginary line at 90° to the surface.",
       "zh": "法线是和表面成 90° 的假想线。"
+     },
+     "wrong": {
+      "45°": {
+       "en": "45° is halfway. The normal is always at a RIGHT angle (90°) to the surface.",
+       "zh": "45° 只是一半。法线总是和表面成直角（90°）。"
+      },
+      "180°": {
+       "en": "180° is a straight line, which would lie flat along the surface again.",
+       "zh": "180° 是一条直线，又躺回表面上了。"
+      },
+      "0°": {
+       "en": "0° would lie flat along the surface. The normal stands straight up at 90°.",
+       "zh": "0° 是平躺在表面上。法线是 90° 竖起来的。"
+      }
      }
     },
     {
@@ -713,6 +1063,20 @@
      "why": {
       "en": "Angle of incidence = angle of reflection.",
       "zh": "入射角 = 反射角。"
+     },
+     "wrong": {
+      "55°": {
+       "en": "55° is 90° − 35°, the angle from the mirror surface. Both angles are measured from the normal, so they are equal.",
+       "zh": "55° 是 90° − 35°，是从镜面量的角。两个角都从法线量，所以相等。"
+      },
+      "70°": {
+       "en": "70° is 35° + 35°, the whole angle between the two rays. Each ray alone makes 35° with the normal.",
+       "zh": "70° 是 35° + 35°，是两条光线之间的总角度。每条光线和法线各成 35°。"
+      },
+      "145°": {
+       "en": "145° is 180° − 35°. The law of reflection says the two angles are EQUAL.",
+       "zh": "145° 是 180° − 35°。反射定律说两个角相等。"
+      }
      }
     },
     {
@@ -725,8 +1089,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Laterally inverted = reversed left to right.",
-      "zh": "左右颠倒。"
+      "en": "A plane mirror reflects each point straight back, so left and right swap over: the image is laterally inverted (lateral = side). That is why AMBULANCE is written backwards on the front of ambulances.",
+      "zh": "平面镜把每个点直直反射回来，所以左右对调：像是左右颠倒的（lateral = 侧面）。所以救护车前面的 AMBULANCE 是反着写的。"
+     },
+     "wrong": {
+      "refracted": {
+       "en": "Refraction is light bending as it passes INTO a new material, not bouncing off a mirror.",
+       "zh": "折射是光进入新物质时弯折，不是从镜子上反弹。"
+      },
+      "dispersed": {
+       "en": "Dispersion is white light splitting into colours.",
+       "zh": "色散是白光分成颜色。"
+      },
+      "absorbed": {
+       "en": "If the light were absorbed, you would see no image at all.",
+       "zh": "如果光被吸收了，就根本看不到像。"
+      }
      }
     },
     {
@@ -739,8 +1117,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Different material, different speed, new direction: refraction.",
-      "zh": "材料不同，速度不同，方向改变：折射。"
+      "en": "Light travels at different speeds in different materials (fastest in air, slower in glass or water). When it enters a new material at an angle, the change in SPEED makes it change direction: refraction.",
+      "zh": "光在不同物质中速度不同（空气中最快，玻璃和水中较慢）。斜着进入新物质时，速度改变让它改变方向：折射。"
+     },
+     "wrong": {
+      "colour": {
+       "en": "The colour stays the same when light enters a new material.",
+       "zh": "光进入新物质时颜色不变。"
+      },
+      "amplitude": {
+       "en": "Amplitude is about brightness and does not bend light.",
+       "zh": "振幅关系到亮度，不会让光弯折。"
+      },
+      "source": {
+       "en": "The source stays the same. The new MATERIAL changes the speed.",
+       "zh": "光源没变，是新的物质改变了速度。"
+      }
      }
     },
     {
@@ -755,6 +1147,20 @@
      "why": {
       "en": "Dispersion = separating white light into its colours.",
       "zh": "色散 = 把白光分成各种颜色。"
+     },
+     "wrong": {
+      "reflection": {
+       "en": "Reflection bounces light back; it does not separate the colours.",
+       "zh": "反射把光弹回来，不会把颜色分开。"
+      },
+      "lateral inversion": {
+       "en": "Lateral inversion is a mirror swapping left and right.",
+       "zh": "左右颠倒是镜子把左右换过来。"
+      },
+      "absorption": {
+       "en": "Absorption takes light in. A prism lets the light through and spreads it out.",
+       "zh": "吸收是把光吸进去。棱镜是让光通过并分散开。"
+      }
      }
     },
     {
@@ -767,8 +1173,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Red + green = yellow. Red + blue = magenta. Green + blue = cyan.",
-      "zh": "红 + 绿 = 黄。红 + 蓝 = 品红。绿 + 蓝 = 青。"
+      "en": "Adding coloured LIGHT: red + green = yellow, red + blue = magenta, green + blue = cyan, and all three = white.",
+      "zh": "光的颜色相加：红 + 绿 = 黄，红 + 蓝 = 品红，绿 + 蓝 = 青，三种都加 = 白。"
+     },
+     "wrong": {
+      "cyan": {
+       "en": "Cyan is green + BLUE.",
+       "zh": "青色是绿 + 蓝。"
+      },
+      "magenta": {
+       "en": "Magenta is red + BLUE.",
+       "zh": "品红是红 + 蓝。"
+      },
+      "white": {
+       "en": "White needs all THREE primaries: red + green + blue.",
+       "zh": "白光要三种原色都有：红 + 绿 + 蓝。"
+      }
      }
     },
     {
@@ -783,6 +1203,20 @@
      "why": {
       "en": "Objects reflect their own colour and absorb the rest.",
       "zh": "物体反射自己的颜色，吸收其他颜色。"
+     },
+     "wrong": {
+      "absorbs green light": {
+       "en": "If it absorbed green, no green would reach your eyes. We see the colour that is REFLECTED.",
+       "zh": "如果吸收了绿光，就没有绿光进入眼睛。我们看到的是被反射的颜色。"
+      },
+      "makes its own green light": {
+       "en": "A leaf is non-luminous; it does not glow in the dark.",
+       "zh": "叶子不发光，在黑暗里不会亮。"
+      },
+      "reflects all colours": {
+       "en": "Reflecting all colours makes something look WHITE.",
+       "zh": "反射所有颜色的东西看起来是白的。"
+      }
      }
     },
     {
@@ -797,6 +1231,20 @@
      "why": {
       "en": "Visible light is the part of the EM spectrum the human eye can detect.",
       "zh": "可见光是人眼能看到的那部分电磁波谱。"
+     },
+     "wrong": {
+      "infrared": {
+       "en": "Infrared is just beyond red. We feel it as heat but cannot see it.",
+       "zh": "红外线在红光外面，我们能感到热，但看不见。"
+      },
+      "ultraviolet": {
+       "en": "Ultraviolet is just beyond violet. Our eyes cannot see it (some insects can).",
+       "zh": "紫外线在紫光外面，我们的眼睛看不见（有些昆虫能）。"
+      },
+      "radio waves": {
+       "en": "Radio waves are invisible; we need a radio to detect them.",
+       "zh": "无线电波看不见，要用收音机才能接收。"
+      }
      }
     },
     {
@@ -811,6 +1259,20 @@
      "why": {
       "en": "Gamma rays: very high-frequency, used in cancer treatment.",
       "zh": "伽马射线频率非常高，用于治疗癌症。"
+     },
+     "wrong": {
+      "microwaves": {
+       "en": "Microwaves are for cooking, radar and phone signals.",
+       "zh": "微波用于做饭、雷达和手机信号。"
+      },
+      "radio waves": {
+       "en": "Radio waves have very low energy and cannot destroy cancer cells.",
+       "zh": "无线电波能量很低，不能摧毁癌细胞。"
+      },
+      "infrared": {
+       "en": "Infrared is heat radiation, used in remote controls and thermal cameras.",
+       "zh": "红外线是热辐射，用于遥控器和热成像。"
+      }
      }
     },
     {
@@ -823,8 +1285,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Radio, microwave, INFRARED, VISIBLE, ULTRAVIOLET, X-ray, gamma.",
-      "zh": "无线电波、微波、红外线、可见光、紫外线、X 射线、伽马射线。"
+      "en": "Low to high frequency: radio, microwave, INFRARED, VISIBLE, ULTRAVIOLET, X-ray, gamma. Infrared is below red, ultraviolet is above violet, so the order is infrared, visible, ultraviolet.",
+      "zh": "从低频到高频：无线电波、微波、红外线、可见光、紫外线、X 光、伽马射线。红外线在红光下面，紫外线在紫光上面，所以顺序是红外线、可见光、紫外线。"
+     },
+     "wrong": {
+      "ultraviolet, visible light, infrared": {
+       "en": "This is DECREASING frequency, the reverse.",
+       "zh": "这是频率递减，反过来了。"
+      },
+      "visible light, infrared, ultraviolet": {
+       "en": "Infrared (\"below red\") is LOWER than visible light, so it comes first.",
+       "zh": "红外线（“红光以下”）比可见光低，所以排第一。"
+      },
+      "ultraviolet, infrared, visible light": {
+       "en": "Ultraviolet is the HIGHEST of the three, so it must come last.",
+       "zh": "紫外线是三个里最高的，所以要排最后。"
+      }
      }
     }
    ],
@@ -860,8 +1336,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "One type of atom = element.",
-      "zh": "只有一种原子 = 元素。"
+      "en": "An element is a pure substance made of only ONE type of atom, so it cannot be split into anything simpler. (Each box on the periodic table is one element.)",
+      "zh": "单质是只由一种原子组成的纯净物，不能再分成更简单的物质。（周期表上每一格是一种元素。）"
+     },
+     "wrong": {
+      "a compound": {
+       "en": "A compound has two or more DIFFERENT types of atom joined.",
+       "zh": "化合物有两种或更多不同的原子结合。"
+      },
+      "a mixture": {
+       "en": "A mixture has two or more substances not joined.",
+       "zh": "混合物是两种或更多物质没有结合。"
+      },
+      "an alloy": {
+       "en": "An alloy is a mixture of metals (like brass), so it has more than one type of atom.",
+       "zh": "合金是金属的混合物（像黄铜），有不止一种原子。"
+      }
      }
     },
     {
@@ -876,6 +1366,20 @@
      "why": {
       "en": "O₂ is a molecule made of only oxygen atoms, so it is an element.",
       "zh": "O₂ 是只由氧原子组成的分子，所以是元素。"
+     },
+     "wrong": {
+      "a compound": {
+       "en": "A compound needs two DIFFERENT elements. O₂ is only oxygen, just two atoms of it joined.",
+       "zh": "化合物需要两种不同元素。O₂ 只有氧，只是两个氧原子连在一起。"
+      },
+      "a mixture": {
+       "en": "A mixture has two or more substances. O₂ is one substance.",
+       "zh": "混合物有两种或更多物质。O₂ 是一种物质。"
+      },
+      "a solution": {
+       "en": "A solution is something dissolved in a liquid, a kind of mixture.",
+       "zh": "溶液是东西溶在液体里，是混合物的一种。"
+      }
      }
     },
     {
@@ -888,8 +1392,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Chemically joined = compound, a new substance.",
-      "zh": "化学结合 = 化合物，一种新物质。"
+      "en": "When two or more elements are CHEMICALLY joined, they make a new substance with a fixed formula and new properties: a compound.",
+      "zh": "两种或更多元素化学结合，就生成有固定化学式和新性质的新物质：化合物。"
+     },
+     "wrong": {
+      "mixture": {
+       "en": "In a mixture the substances are NOT joined and can be separated easily.",
+       "zh": "混合物里的物质没有结合，容易分开。"
+      },
+      "solution": {
+       "en": "A solution is a mixture: something dissolved, not chemically joined.",
+       "zh": "溶液是混合物：东西溶进去，没有化学结合。"
+      },
+      "pure element": {
+       "en": "An element has only ONE type of atom. Joining two elements gives something new.",
+       "zh": "单质只有一种原子。两种元素结合会变成新东西。"
+      }
      }
     },
     {
@@ -904,6 +1422,20 @@
      "why": {
       "en": "Two kinds of particle = mixture. Each particle one kind of atom = elements.",
       "zh": "两种粒子 = 混合物。每个粒子只有一种原子 = 元素。"
+     },
+     "wrong": {
+      "compound": {
+       "en": "In a compound the different atoms are JOINED in each particle. Here each particle has only one kind of atom.",
+       "zh": "化合物的每个粒子里不同的原子是结合的。这里每个粒子只有一种原子。"
+      },
+      "mixture of two compounds": {
+       "en": "A compound particle has DIFFERENT atoms joined. These particles each have one kind of atom, so they are elements.",
+       "zh": "化合物粒子里有不同的原子结合。这些粒子每个只有一种原子，所以是单质。"
+      },
+      "pure element": {
+       "en": "A pure element has only ONE kind of particle. Here there are two kinds.",
+       "zh": "纯单质只有一种粒子。这里有两种。"
+      }
      }
     },
     {
@@ -918,6 +1450,20 @@
      "why": {
       "en": "One capital letter = one element. CO (two capitals) would be carbon monoxide.",
       "zh": "一个大写字母 = 一种元素。CO（两个大写）才是一氧化碳。"
+     },
+     "wrong": {
+      "carbon monoxide, a compound": {
+       "en": "Carbon monoxide is CO with TWO capital letters. Co has a small o, so it is one symbol.",
+       "zh": "一氧化碳是 CO，有两个大写字母。Co 的 o 是小写，是一个符号。"
+      },
+      "carbon and oxygen mixed": {
+       "en": "That would need C and O written as separate capitals. Co is one symbol: cobalt.",
+       "zh": "那要写成分开的大写 C 和 O。Co 是一个符号：钴。"
+      },
+      "copper": {
+       "en": "Copper's symbol is Cu (from its Latin name cuprum), not Co.",
+       "zh": "铜的符号是 Cu（来自拉丁文 cuprum），不是 Co。"
+      }
      }
     },
     {
@@ -930,8 +1476,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Fe comes from the Latin name for iron.",
-      "zh": "Fe 来自铁的拉丁名称。"
+      "en": "Iron's symbol is Fe, from its Latin name \"ferrum\". Some symbols come from old Latin names: Fe (iron), Cu (copper), Na (sodium), Au (gold).",
+      "zh": "铁的符号是 Fe，来自拉丁文 ferrum。有些符号来自古拉丁文：Fe（铁）、Cu（铜）、Na（钠）、Au（金）。"
+     },
+     "wrong": {
+      "I": {
+       "en": "I is IODINE.",
+       "zh": "I 是碘。"
+      },
+      "Ir": {
+       "en": "Ir is IRIDIUM, a different metal.",
+       "zh": "Ir 是铱，是另一种金属。"
+      },
+      "In": {
+       "en": "In is INDIUM, a different metal.",
+       "zh": "In 是铟，是另一种金属。"
+      }
      }
     },
     {
@@ -944,8 +1504,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "2 + 1 + 4 = 7.",
-      "zh": "2 + 1 + 4 = 7。"
+      "en": "Add up every small number (no number means 1): H₂ = 2, S = 1, O₄ = 4. 2 + 1 + 4 = 7 atoms.",
+      "zh": "把所有小数字加起来（没写数字就是 1）：H₂ = 2，S = 1，O₄ = 4。2 + 1 + 4 = 7 个原子。"
+     },
+     "wrong": {
+      "6": {
+       "en": "6 forgets the S, which counts as 1 even though no number is written.",
+       "zh": "6 漏了 S，没写数字也算 1 个。"
+      },
+      "4": {
+       "en": "4 counts only the oxygens.",
+       "zh": "4 只数了氧。"
+      },
+      "3": {
+       "en": "3 counts the number of different ELEMENTS (H, S, O), not atoms.",
+       "zh": "3 是元素种类数（H、S、O），不是原子数。"
+      }
      }
     },
     {
@@ -958,8 +1532,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "One CO₂ has 1 + 2 = 3 atoms. 3 × 3 = 9.",
-      "zh": "一个 CO₂ 有 1 + 2 = 3 个原子。3 × 3 = 9。"
+      "en": "One CO₂ has 1 carbon + 2 oxygens = 3 atoms. Three molecules: 3 × 3 = 9 atoms.",
+      "zh": "一个 CO₂ 有 1 个碳 + 2 个氧 = 3 个原子。三个分子：3 × 3 = 9 个原子。"
+     },
+     "wrong": {
+      "6": {
+       "en": "6 is only the OXYGEN atoms (3 × 2). Add the 3 carbons too.",
+       "zh": "6 只是氧原子（3 × 2），还要加上 3 个碳。"
+      },
+      "5": {
+       "en": "5 is 3 + 2, adding instead of multiplying. Each of the 3 molecules has 3 atoms.",
+       "zh": "5 是 3 + 2，加了而没有乘。3 个分子每个有 3 个原子。"
+      },
+      "3": {
+       "en": "3 is the atoms in ONE molecule, or the number of molecules. There are 3 molecules of 3 atoms.",
+       "zh": "3 是一个分子的原子数，或者是分子数。这里是 3 个分子，每个 3 个原子。"
+      }
      }
     },
     {
@@ -972,8 +1560,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "2 hydrogen atoms, 1 oxygen atom.",
-      "zh": "2 个氢原子，1 个氧原子。"
+      "en": "H₂O = 2 hydrogens and 1 oxygen. Write the ratio in the order the question asks (hydrogen first): 2 : 1.",
+      "zh": "H₂O = 2 个氢和 1 个氧。按题目顺序写比（氢在前）：2 : 1。"
+     },
+     "wrong": {
+      "1 : 2": {
+       "en": "This is oxygen : hydrogen, the wrong order.",
+       "zh": "这是氧 : 氢，顺序反了。"
+      },
+      "2 : 2": {
+       "en": "There is only 1 oxygen in H₂O (no number after O means 1).",
+       "zh": "H₂O 只有 1 个氧（O 后面没写数字就是 1）。"
+      },
+      "1 : 1": {
+       "en": "The small 2 after H means two hydrogens.",
+       "zh": "H 后面的小 2 表示两个氢。"
+      }
      }
     },
     {
@@ -988,6 +1590,20 @@
      "why": {
       "en": "Reactants are what you start with, on the left.",
       "zh": "反应物是开始时的物质，在左边。"
+     },
+     "wrong": {
+      "iron sulfide": {
+       "en": "Iron sulfide is the PRODUCT, on the right of the arrow.",
+       "zh": "硫化亚铁是生成物，在箭头右边。"
+      },
+      "sulfur only": {
+       "en": "Both substances on the left are reactants: iron AND sulfur.",
+       "zh": "左边的两种物质都是反应物：铁和硫。"
+      },
+      "iron sulfide and iron": {
+       "en": "Iron sulfide is made, not started with, so it is not a reactant.",
+       "zh": "硫化亚铁是生成的，不是开始就有的，所以不是反应物。"
+      }
      }
     },
     {
@@ -1000,8 +1616,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Keep the metal name, change chlorine to chloride.",
-      "zh": "保留金属名称，chlorine 变成 chloride。"
+      "en": "Metal + non-metal: keep the metal name first and change the non-metal ending to -IDE. Chlorine → chloride, so sodium chloride (table salt).",
+      "zh": "金属 + 非金属：金属名称在前不变，非金属词尾改成 -ide。chlorine → chloride，所以是 sodium chloride（食盐）。"
+     },
+     "wrong": {
+      "sodium chlorine": {
+       "en": "The non-metal must change its ending: chlorine → chloride.",
+       "zh": "非金属要改词尾：chlorine → chloride。"
+      },
+      "chlorine sodide": {
+       "en": "The METAL comes first and keeps its name; only the non-metal gets -ide.",
+       "zh": "金属在前、名称不变；只有非金属加 -ide。"
+      },
+      "sodium chlorate": {
+       "en": "-ate means oxygen is also in it. Only sodium and chlorine reacted, so -ide.",
+       "zh": "-ate 表示里面还有氧。只有钠和氯反应，所以用 -ide。"
+      }
      }
     },
     {
@@ -1014,8 +1644,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Two non-metals: di = 2 oxygen atoms.",
-      "zh": "两种非金属：di = 2 个氧原子。"
+      "en": "Name the first element, then the second with -ide, and add a prefix to count the atoms: mono = 1, di = 2, tri = 3. SO₂ has 2 oxygens, so sulfur DIoxide.",
+      "zh": "先写第一种元素，第二种改成 -ide，再加前缀表示原子数：mono = 1，di = 2，tri = 3。SO₂ 有 2 个氧，所以是 sulfur dioxide（二氧化硫）。"
+     },
+     "wrong": {
+      "sulfur monoxide": {
+       "en": "Mono = 1. SO₂ has TWO oxygens, so di-.",
+       "zh": "mono = 1。SO₂ 有两个氧，所以用 di-。"
+      },
+      "sulfur oxide": {
+       "en": "This does not say HOW MANY oxygens. The small 2 needs the prefix di-.",
+       "zh": "这没说有几个氧。小的 2 要用前缀 di-。"
+      },
+      "sulfide dioxide": {
+       "en": "The FIRST element keeps its normal name (sulfur). Only the second gets -ide.",
+       "zh": "第一种元素用原名（sulfur），只有第二种加 -ide。"
+      }
      }
     }
    ],
@@ -1051,8 +1695,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Burning makes a new substance. The others are physical changes.",
-      "zh": "燃烧产生新物质。其他都是物理变化。"
+      "en": "A chemical change makes a NEW substance and cannot easily be reversed. Burning paper makes ash, smoke and gases, and you cannot turn them back into paper.",
+      "zh": "化学变化产生新物质，不容易逆转。烧纸会产生灰、烟和气体，没法变回纸。"
+     },
+     "wrong": {
+      "ice melting": {
+       "en": "Melting is a change of STATE. It is still water and can freeze again: physical.",
+       "zh": "熔化是状态变化，还是水，可以再冻起来：物理变化。"
+      },
+      "sugar dissolving": {
+       "en": "The sugar is still there (the water tastes sweet) and you can get it back by evaporating: physical.",
+       "zh": "糖还在（水是甜的），蒸发后可以拿回来：物理变化。"
+      },
+      "water boiling": {
+       "en": "Boiling is a change of STATE: steam is still water and can condense back.",
+       "zh": "沸腾是状态变化：水蒸气还是水，可以凝结回来。"
+      }
      }
     },
     {
@@ -1065,8 +1723,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A new gas means a new substance was made.",
-      "zh": "新的气体说明产生了新物质。"
+      "en": "A new gas appearing means a NEW substance was made, which is the sign of a chemical change. (Other signs: colour change, heat or light given out, a new solid.)",
+      "zh": "出现新的气体表示生成了新物质，这是化学变化的标志。（其他标志：颜色变化、放热或发光、生成新固体。）"
+     },
+     "wrong": {
+      "physical change": {
+       "en": "A physical change makes no new substance. New gas bubbles mean something new was made.",
+       "zh": "物理变化不产生新物质。新的气泡表示有新东西生成。"
+      },
+      "melting point": {
+       "en": "Melting point is a temperature, not a sign of a reaction.",
+       "zh": "熔点是一个温度，不是反应的标志。"
+      },
+      "fair test": {
+       "en": "A fair test is a way of planning an experiment, not something you observe.",
+       "zh": "公平测试是设计实验的方法，不是观察到的现象。"
+      }
      }
     },
     {
@@ -1079,8 +1751,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Atoms are never lost or made: 2.0 g + 0.8 g = 2.8 g.",
-      "zh": "原子不会消失也不会凭空产生：2.0 g + 0.8 g = 2.8 g。"
+      "en": "Conservation of mass: no atoms are lost or made, so all the iron and all the sulfur end up in the product. 2.0 g + 0.8 g = 2.8 g.",
+      "zh": "质量守恒：原子不会消失也不会产生，所以所有的铁和硫都在生成物里。2.0 g + 0.8 g = 2.8 g。"
+     },
+     "wrong": {
+      "1.2 g": {
+       "en": "1.2 g is 2.0 − 0.8: subtracting. The sulfur JOINS the iron, so the masses add.",
+       "zh": "1.2 g 是 2.0 − 0.8，减了。硫是加到铁上的，所以质量相加。"
+      },
+      "2.0 g": {
+       "en": "2.0 g is only the iron. The 0.8 g of sulfur joined it, so the mass goes up.",
+       "zh": "2.0 g 只是铁。0.8 g 的硫结合上去了，质量会增加。"
+      },
+      "1.6 g": {
+       "en": "1.6 g is 0.8 × 2. The masses of the reactants simply add up.",
+       "zh": "1.6 g 是 0.8 × 2。反应物的质量只是相加。"
+      }
      }
     },
     {
@@ -1095,6 +1781,20 @@
      "why": {
       "en": "Solid = neat rows. Liquid = touching, random, sliding. Gas = far apart.",
       "zh": "固体 = 整齐排列。液体 = 挨着、随机、滑动。气体 = 离得很远。"
+     },
+     "wrong": {
+      "in neat rows, only wiggling": {
+       "en": "Neat rows that only vibrate describes a SOLID.",
+       "zh": "整齐排列、只能振动的是固体。"
+      },
+      "far apart and moving fast": {
+       "en": "Far apart and fast describes a GAS.",
+       "zh": "离得远、运动快的是气体。"
+      },
+      "not moving at all": {
+       "en": "Particles are ALWAYS moving, even in a solid (they vibrate).",
+       "zh": "粒子一直在运动，就算在固体里也在振动。"
+      }
      }
     },
     {
@@ -1109,6 +1809,20 @@
      "why": {
       "en": "Gas → liquid = condensing.",
       "zh": "气体 → 液体 = 冷凝。"
+     },
+     "wrong": {
+      "freezing": {
+       "en": "Freezing is liquid → solid.",
+       "zh": "凝固是液体 → 固体。"
+      },
+      "melting": {
+       "en": "Melting is solid → liquid.",
+       "zh": "熔化是固体 → 液体。"
+      },
+      "boiling": {
+       "en": "Boiling is liquid → gas, the opposite.",
+       "zh": "沸腾是液体 → 气体，正相反。"
+      }
      }
     },
     {
@@ -1123,6 +1837,20 @@
      "why": {
       "en": "20 is hotter than -39 but colder than 357, so it is between: liquid.",
       "zh": "20 比 -39 热，比 357 冷，在两者之间：液体。"
+     },
+     "wrong": {
+      "solid": {
+       "en": "Mercury is only solid BELOW −39 °C. 20 °C is warmer than that, so it has melted.",
+       "zh": "汞只有低于 −39 °C 才是固体。20 °C 比这暖，已经熔化了。"
+      },
+      "gas": {
+       "en": "Mercury only becomes a gas above 357 °C. 20 °C is far below that.",
+       "zh": "汞要高于 357 °C 才变成气体。20 °C 远低于此。"
+      },
+      "mixture": {
+       "en": "Mercury is an element (Hg). The question asks about its STATE.",
+       "zh": "汞是单质（Hg）。题目问的是状态。"
+      }
      }
     },
     {
@@ -1135,8 +1863,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "The bigger the number after the minus, the colder.",
-      "zh": "负号后面的数越大，越冷。"
+      "en": "On a number line, the further LEFT a number is, the smaller (colder) it is. −40 is furthest left: −40 < −5 < 0 < 12.",
+      "zh": "数轴上越往左越小（越冷）。−40 在最左边：−40 < −5 < 0 < 12。"
+     },
+     "wrong": {
+      "-5 °C": {
+       "en": "−5 °C is below freezing, but −40 is 35 degrees colder.",
+       "zh": "−5 °C 低于冰点，但 −40 °C 还要冷 35 度。"
+      },
+      "0 °C": {
+       "en": "0 °C is warmer than any negative temperature.",
+       "zh": "0 °C 比任何负温度都暖。"
+      },
+      "12 °C": {
+       "en": "12 °C is above zero, the warmest here.",
+       "zh": "12 °C 在零度以上，是这里最暖的。"
+      }
      }
     },
     {
@@ -1149,8 +1891,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Independent = the one thing you change.",
-      "zh": "自变量 = 你改变的那一个量。"
+      "en": "The independent variable is the ONE thing you choose to change on purpose. Emma changes the water TEMPERATURE to see what happens.",
+      "zh": "自变量是你故意改变的那一样。Emma 改变的是水的温度，看会发生什么。"
+     },
+     "wrong": {
+      "time to dissolve": {
+       "en": "The time is what she MEASURES: the dependent variable.",
+       "zh": "时间是她测量的：因变量。"
+      },
+      "mass of sugar": {
+       "en": "The mass of sugar must stay the SAME to keep it fair: a control variable.",
+       "zh": "糖的质量要保持不变才公平：控制变量。"
+      },
+      "volume of water": {
+       "en": "The volume of water must stay the same too: a control variable.",
+       "zh": "水的体积也要保持不变：控制变量。"
+      }
      }
     },
     {
@@ -1163,8 +1919,22 @@
      ],
      "answer": 0,
      "why": {
-      "en": "First column = the independent variable, with units in the heading.",
-      "zh": "第一列 = 自变量，表头写上单位。"
+      "en": "The first column of a results table is always the independent variable, what you CHANGE, with its unit in the heading. The measurements go in the columns after it.",
+      "zh": "结果表的第一列永远是自变量（你改变的东西），表头写单位。测量结果放在后面的列。"
+     },
+     "wrong": {
+      "what you keep the same": {
+       "en": "Control variables stay the same, so they do not need a column; you state them in the method.",
+       "zh": "控制变量保持不变，不需要一列，在方法里写明就行。"
+      },
+      "your name": {
+       "en": "A name is not data. Tables only hold variables.",
+       "zh": "名字不是数据，表格只放变量。"
+      },
+      "the conclusion": {
+       "en": "The conclusion is written in sentences AFTER the table, not in it.",
+       "zh": "结论是在表格后面用句子写的，不在表格里。"
+      }
      }
     },
     {
@@ -1179,6 +1949,20 @@
      "why": {
       "en": "Iron sulfide is a compound: the iron is chemically joined.",
       "zh": "硫化亚铁是化合物：铁已经化学结合了。"
+     },
+     "wrong": {
+      "the iron sticks to the magnet": {
+       "en": "In iron sulfide the iron is chemically joined to sulfur. The new compound is not magnetic.",
+       "zh": "硫化亚铁里的铁和硫化学结合了，新的化合物没有磁性。"
+      },
+      "the sulfur sticks to the magnet": {
+       "en": "Sulfur is never magnetic, joined or not.",
+       "zh": "硫从来没有磁性，结合与否都一样。"
+      },
+      "it turns back into iron and sulfur": {
+       "en": "A magnet cannot undo a chemical reaction. Separating a compound needs another chemical reaction.",
+       "zh": "磁铁不能逆转化学反应。分开化合物需要另一个化学反应。"
+      }
      }
     },
     {
@@ -1191,8 +1975,22 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Melting makes no new substance: it is still water.",
-      "zh": "熔化没有产生新物质，还是水。"
+      "en": "A physical change makes NO new substance and can be reversed. Melted ice is still water and can be frozen again.",
+      "zh": "物理变化不产生新物质，可以逆转。融化的冰还是水，可以再冻起来。"
+     },
+     "wrong": {
+      "paper burning": {
+       "en": "Burning makes new substances (ash, smoke, gases): chemical.",
+       "zh": "燃烧产生新物质（灰、烟、气体）：化学变化。"
+      },
+      "iron rusting": {
+       "en": "Rust (iron oxide) is a new substance made when iron joins with oxygen: chemical.",
+       "zh": "铁锈（氧化铁）是铁和氧结合产生的新物质：化学变化。"
+      },
+      "an egg cooking": {
+       "en": "Cooking changes the egg's proteins for good and cannot be undone: chemical.",
+       "zh": "煮熟会永久改变蛋白质，不能逆转：化学变化。"
+      }
      }
     },
     {
@@ -1205,8 +2003,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Lavoisier said metals GAIN oxygen from the air, so the mass goes up.",
-      "zh": "Lavoisier 说金属从空气中得到氧，所以质量增加。"
+      "en": "Lavoisier said a heated metal JOINS with oxygen from the air. Gaining oxygen atoms adds mass, so the mass goes up, which is what happened.",
+      "zh": "拉瓦锡说金属加热时会和空气中的氧结合。多了氧原子质量就增加，结果正是这样。"
+     },
+     "wrong": {
+      "Priestley": {
+       "en": "Priestley's idea (phlogiston) said metals LOSE something when heated, so the mass should go DOWN. It went up.",
+       "zh": "普里斯特利的理论（燃素）说金属加热会失去东西，质量应该下降。结果质量上升了。"
+      },
+      "both": {
+       "en": "Their ideas predict opposite results (mass up vs mass down), so the evidence cannot support both.",
+       "zh": "他们的理论预测相反的结果（质量上升和下降），证据不可能同时支持两个人。"
+      },
+      "neither": {
+       "en": "The mass going up fits Lavoisier's idea: the metal joined with oxygen from the air.",
+       "zh": "质量上升符合拉瓦锡的理论：金属和空气中的氧结合了。"
+      }
      }
     }
    ],
@@ -1401,6 +2213,20 @@
      "why": {
       "en": "Light passes clearly: transparent.",
       "zh": "光清楚地通过：透明。"
+     },
+     "wrong": {
+      "translucent": {
+       "en": "Translucent glass (frosted) is blurry. You can see clearly through a window, so it is transparent.",
+       "zh": "半透明玻璃（磨砂）看不清。窗户能看清楚，所以是透明的。"
+      },
+      "opaque": {
+       "en": "Opaque blocks all light. Light comes through a window.",
+       "zh": "不透明会挡住所有光。窗户是透光的。"
+      },
+      "luminous": {
+       "en": "Luminous means it makes its own light. Glass does not.",
+       "zh": "发光是自己发光，玻璃不会。"
+      }
      }
     },
     {
@@ -1415,6 +2241,20 @@
      "why": {
       "en": "Light passes but scatters: translucent.",
       "zh": "光能通过但会散开：半透明。"
+     },
+     "wrong": {
+      "transparent": {
+       "en": "Transparent means you can see clearly through it. Frosted glass is blurry on purpose.",
+       "zh": "透明是能清楚看过去。磨砂玻璃故意做成模糊的。"
+      },
+      "opaque": {
+       "en": "Opaque blocks ALL light, but frosted glass still lets light into the bathroom.",
+       "zh": "不透明会挡住所有光，但磨砂玻璃还是让光进到浴室。"
+      },
+      "non-luminous only": {
+       "en": "It is non-luminous, but that only says it makes no light. The question is how light passes through.",
+       "zh": "它确实不发光，但那只说明它自己不发光。题目问的是光怎样穿过。"
+      }
      }
     },
     {
@@ -1429,6 +2269,20 @@
      "why": {
       "en": "No light passes: opaque.",
       "zh": "光不能通过：不透明。"
+     },
+     "wrong": {
+      "transparent": {
+       "en": "You cannot see through a wooden door, so it is not transparent.",
+       "zh": "木门看不过去，所以不透明。"
+      },
+      "translucent": {
+       "en": "Translucent lets some light through. A wooden door lets none.",
+       "zh": "半透明会透一些光。木门一点都不透。"
+      },
+      "luminous": {
+       "en": "A door makes no light of its own.",
+       "zh": "门自己不发光。"
+      }
      }
     },
     {
@@ -1443,6 +2297,20 @@
      "why": {
       "en": "It makes its own light.",
       "zh": "它自己发光。"
+     },
+     "wrong": {
+      "the Moon": {
+       "en": "The Moon only REFLECTS sunlight, so it is non-luminous.",
+       "zh": "月亮只是反射阳光，所以不是光源。"
+      },
+      "a mirror": {
+       "en": "A mirror only reflects light from other things.",
+       "zh": "镜子只反射别的东西的光。"
+      },
+      "a white wall": {
+       "en": "A white wall reflects a lot of light but makes none itself.",
+       "zh": "白墙反射很多光，但自己不发光。"
+      }
      }
     },
     {
@@ -1457,6 +2325,20 @@
      "why": {
       "en": "Non-luminous objects are seen by reflected light.",
       "zh": "不发光的物体靠反射光被看见。"
+     },
+     "wrong": {
+      "it makes its own light": {
+       "en": "A book is non-luminous: in a dark room you cannot see it.",
+       "zh": "书不发光：在黑屋子里你看不到它。"
+      },
+      "our eyes send out light": {
+       "en": "Eyes RECEIVE light; they do not send it out. That is why we cannot see in the dark.",
+       "zh": "眼睛是接收光，不是发出光。所以在黑暗中看不见。"
+      },
+      "it is opaque": {
+       "en": "Being opaque only means light cannot pass through it. We see it because light BOUNCES off it into our eyes.",
+       "zh": "不透明只表示光穿不过去。我们看到它是因为光从它上面反射进眼睛。"
+      }
      }
     },
     {
@@ -1471,6 +2353,20 @@
      "why": {
       "en": "Light travels in straight lines. The arrow shows the direction.",
       "zh": "光沿直线传播，箭头表示方向。"
+     },
+     "wrong": {
+      "wavy lines": {
+       "en": "Light is a wave, but a ray shows the PATH it travels, which is straight.",
+       "zh": "光是波，但光线表示的是它走的路线，是直的。"
+      },
+      "circles": {
+       "en": "Circles do not show a direction of travel.",
+       "zh": "圆圈不能表示传播方向。"
+      },
+      "dotted curves": {
+       "en": "Light does not curve in air. Dotted lines are only used for the normal or for virtual rays behind a mirror.",
+       "zh": "光在空气中不会弯。虚线只用来画法线或镜子后面的虚像光线。"
+      }
      }
     },
     {
@@ -1483,8 +2379,22 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Angle of incidence = angle of reflection.",
-      "zh": "入射角 = 反射角。"
+      "en": "Law of reflection: the angle of incidence EQUALS the angle of reflection, both measured from the normal. 30° in, 30° out.",
+      "zh": "反射定律：入射角等于反射角，都从法线量。入射 30°，反射也是 30°。"
+     },
+     "wrong": {
+      "60°": {
+       "en": "60° is 90° − 30°, the angle from the mirror surface. Angles are measured from the normal, so it stays 30°.",
+       "zh": "60° 是 90° − 30°，是从镜面量的。角要从法线量，所以还是 30°。"
+      },
+      "90°": {
+       "en": "90° is the angle between the normal and the mirror.",
+       "zh": "90° 是法线和镜面之间的角。"
+      },
+      "150°": {
+       "en": "150° is 180° − 30°. The law says the two angles are equal.",
+       "zh": "150° 是 180° − 30°。定律说两个角相等。"
+      }
      }
     },
     {
@@ -1497,8 +2407,22 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Always from the normal, the 90° line.",
-      "zh": "总是从法线（90° 的线）开始量。"
+      "en": "The normal is a line at 90° to the surface where the ray hits. All angles in ray diagrams are measured from it, so the law of reflection works on any surface.",
+      "zh": "法线是在光线射到的地方和表面成 90° 的线。光路图里所有角都从它量，这样反射定律在任何表面都适用。"
+     },
+     "wrong": {
+      "mirror surface": {
+       "en": "Measuring from the mirror gives the wrong angle (90° minus the real one).",
+       "zh": "从镜面量会得到错误的角（90° 减去真正的角）。"
+      },
+      "top of the page": {
+       "en": "The page has nothing to do with the ray; the normal is drawn where the ray hits.",
+       "zh": "纸的边和光线无关，法线画在光线射到的地方。"
+      },
+      "light source": {
+       "en": "The light source can be anywhere. Angles are measured at the mirror, from the normal.",
+       "zh": "光源可以在任何地方。角是在镜面上从法线量的。"
+      }
      }
     },
     {
@@ -1513,6 +2437,20 @@
      "why": {
       "en": "Incident = going in. Reflected = bouncing off.",
       "zh": "入射 = 射进来；反射 = 弹出去。"
+     },
+     "wrong": {
+      "incident ray": {
+       "en": "The incident ray is the one going IN, towards the mirror.",
+       "zh": "入射光线是射向镜子的那条。"
+      },
+      "normal": {
+       "en": "The normal is the 90° construction line, not a ray of light.",
+       "zh": "法线是画出来的 90° 辅助线，不是光线。"
+      },
+      "refracted ray": {
+       "en": "A refracted ray goes INTO a new material and bends, like into glass or water.",
+       "zh": "折射光线是进入新物质时弯折的光线，比如进入玻璃或水。"
+      }
      }
     },
     {
@@ -1527,6 +2465,20 @@
      "why": {
       "en": "Laterally inverted = reversed left to right.",
       "zh": "左右颠倒 = 左右反过来。"
+     },
+     "wrong": {
+      "refraction": {
+       "en": "Refraction is light bending as it enters a new material.",
+       "zh": "折射是光进入新物质时弯折。"
+      },
+      "dispersion": {
+       "en": "Dispersion is white light splitting into colours.",
+       "zh": "色散是白光分成各种颜色。"
+      },
+      "absorption": {
+       "en": "Absorption is a material taking in light.",
+       "zh": "吸收是物质把光吸进去。"
+      }
      }
     }
    ],

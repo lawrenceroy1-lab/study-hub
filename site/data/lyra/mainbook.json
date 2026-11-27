@@ -171,8 +171,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "One type of atom = element.",
-       "zh": "只有一种原子 = 元素。"
+       "en": "An element is made of only ONE type of atom.",
+       "zh": "单质只由一种原子组成。"
+      },
+      "wrong": {
+       "a mixture": {
+        "en": "A mixture contains at least two different substances, so more than one type of particle.",
+        "zh": "混合物至少有两种不同的物质，所以不止一种粒子。"
+       }
       }
      }
     },
@@ -307,8 +313,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "Only iron, nickel and cobalt are magnetic. Copper is not.",
-       "zh": "只有铁、镍、钴有磁性，铜没有。"
+       "en": "Only three common metals are magnetic: iron, nickel and cobalt. Iron is one of them.",
+       "zh": "只有三种常见金属有磁性：铁、镍、钴。铁是其中之一。"
+      },
+      "wrong": {
+       "copper": {
+        "en": "Copper is a metal but NOT magnetic. Most metals are not.",
+        "zh": "铜是金属，但没有磁性。大多数金属都没有。"
+       }
       }
      }
     },
@@ -437,6 +449,12 @@
       "why": {
        "en": "Both atoms are oxygen, so it is still an element.",
        "zh": "两个原子都是氧，所以还是元素。"
+      },
+      "wrong": {
+       "a compound": {
+        "en": "A compound needs two DIFFERENT elements. Both atoms in O₂ are oxygen.",
+        "zh": "化合物需要两种不同的元素。O₂ 的两个原子都是氧。"
+       }
       }
      }
     }
@@ -628,6 +646,12 @@
       "why": {
        "en": "Not chemically joined, so a mixture.",
        "zh": "没有化学结合，所以是混合物。"
+      },
+      "wrong": {
+       "compound": {
+        "en": "Sand and water are not chemically joined; you can separate them by filtering. A compound would need a reaction.",
+        "zh": "沙和水没有化学结合，过滤就能分开。化合物需要化学反应。"
+       }
       }
      }
     },
@@ -708,6 +732,12 @@
       "why": {
        "en": "An alloy is a mixture of metals.",
        "zh": "合金是金属的混合物。"
+      },
+      "wrong": {
+       "a compound": {
+        "en": "A compound has a fixed formula. Brass can have different amounts of copper and zinc, so it is a mixture.",
+        "zh": "化合物有固定的化学式。黄铜里铜和锌的比例可以不同，所以是混合物。"
+       }
       }
      }
     },
@@ -789,6 +819,12 @@
       "why": {
        "en": "One capital letter = one element: cobalt.",
        "zh": "一个大写字母 = 一种元素：钴。"
+      },
+      "wrong": {
+       "carbon monoxide, a compound": {
+        "en": "Carbon monoxide is CO, with two CAPITAL letters. A small o belongs to the same symbol: Co = cobalt.",
+        "zh": "一氧化碳是 CO，两个大写字母。小写的 o 属于同一个符号：Co = 钴。"
+       }
       }
      }
     },
@@ -964,6 +1000,12 @@
       "why": {
        "en": "One kind of particle with different atoms joined = compound.",
        "zh": "只有一种粒子，里面是不同原子结合 = 化合物。"
+      },
+      "wrong": {
+       "a mixture": {
+        "en": "A mixture would have two or more DIFFERENT kinds of particle. Here every particle is the same.",
+        "zh": "混合物会有两种或更多不同的粒子。这里每个粒子都一样。"
+       }
       }
      }
     },
@@ -1258,8 +1300,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Always write the FULL name.",
-       "zh": "一定要写完整的名称。"
+       "en": "Tests want the FULL name: say what kind of thing is mixed. Each particle has one kind of atom (elements), and there are two kinds: mixture of two elements.",
+       "zh": "考试要写完整名称：说明混合的是什么。每个粒子只有一种原子（单质），有两种：两种单质的混合物。"
+      },
+      "wrong": {
+       "mixture": {
+        "en": "\"Mixture\" is not wrong, but it is not the FULL name, so it loses marks. Say what is mixed.",
+        "zh": "mixture 没错，但不是完整名称，会扣分。要说明混合的是什么。"
+       }
       }
      }
     },
@@ -1443,8 +1491,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "2 hydrogen + 1 oxygen = 3 atoms.",
-       "zh": "2 个氢 + 1 个氧 = 3 个原子。"
+       "en": "H₂O = 2 hydrogens + 1 oxygen (no number means 1). 2 + 1 = 3 atoms.",
+       "zh": "H₂O = 2 个氢 + 1 个氧（没写数字就是 1）。2 + 1 = 3 个原子。"
+      },
+      "wrong": {
+       "2": {
+        "en": "2 counts only the hydrogens, or the number of elements. Add the 1 oxygen.",
+        "zh": "2 只数了氢，或者是元素种类数。还要加 1 个氧。"
+       }
       }
      }
     },
@@ -1483,8 +1537,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "3 molecules × 2 hydrogen = 6.",
-       "zh": "3 个分子 × 2 个氢 = 6。"
+       "en": "The big 3 means 3 molecules. Each H₂O has 2 hydrogens, so 3 × 2 = 6 hydrogen atoms.",
+       "zh": "大的 3 表示 3 个分子。每个 H₂O 有 2 个氢，所以 3 × 2 = 6 个氢原子。"
+      },
+      "wrong": {
+       "5": {
+        "en": "5 is 3 + 2, adding. There are 3 molecules with 2 hydrogens EACH, so multiply.",
+        "zh": "5 是 3 + 2，加了。3 个分子每个有 2 个氢，要相乘。"
+       }
       }
      }
     },
@@ -1587,8 +1647,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Products are on the RIGHT of the arrow.",
-       "zh": "生成物在箭头右边。"
+       "en": "Products are what is MADE, written on the right of the arrow. Magnesium oxide is on the right.",
+       "zh": "生成物是生成的东西，写在箭头右边。氧化镁在右边。"
+      },
+      "wrong": {
+       "oxygen": {
+        "en": "Oxygen is on the LEFT: it is a reactant, something you start with.",
+        "zh": "氧在左边：是反应物，是开始时就有的。"
+       }
       }
      }
     },
@@ -1653,8 +1719,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "di = 2 oxygens.",
-       "zh": "di = 2 个氧。"
+       "en": "CO₂ has 2 oxygens. The prefix for 2 is di-: carbon DIoxide.",
+       "zh": "CO₂ 有 2 个氧。表示 2 的前缀是 di-：carbon dioxide（二氧化碳）。"
+      },
+      "wrong": {
+       "monoxide": {
+        "en": "Mono = 1. Carbon monoxide is CO, with only one oxygen.",
+        "zh": "mono = 1。一氧化碳是 CO，只有一个氧。"
+       }
       }
      }
     },
@@ -1740,8 +1812,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "No new substance: it is still water.",
-       "zh": "没有新物质，还是水。"
+       "en": "Melted ice is still water (H₂O); no new substance is made and it can freeze again. That is a physical change.",
+       "zh": "融化的冰还是水（H₂O），没有新物质，还可以再冻起来。这是物理变化。"
+      },
+      "wrong": {
+       "chemical change": {
+        "en": "A chemical change makes a NEW substance. Melting only changes the state of the water.",
+        "zh": "化学变化会产生新物质。熔化只是改变了水的状态。"
+       }
       }
      }
     },
@@ -1832,8 +1910,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "A new substance (gas) is made.",
-       "zh": "产生了新物质（气体）。"
+       "en": "A new gas appearing means a NEW substance was made, which is a chemical change.",
+       "zh": "出现新气体表示生成了新物质，这是化学变化。"
+      },
+      "wrong": {
+       "physical change": {
+        "en": "A physical change makes no new substance. The bubbles here are a new gas that was not there before.",
+        "zh": "物理变化不产生新物质。这里的气泡是原来没有的新气体。"
+       }
       }
      }
     },
@@ -2119,6 +2203,12 @@
       "why": {
        "en": "Cooling a gas turns it back to liquid: condensing.",
        "zh": "气体冷却变回液体：凝结。"
+      },
+      "wrong": {
+       "boiling": {
+        "en": "Boiling is the opposite: liquid → gas.",
+        "zh": "沸腾正相反：液体 → 气体。"
+       }
       }
      }
     },
@@ -2234,6 +2324,12 @@
       "why": {
        "en": "20 °C is below the melting point, so it has not melted: solid.",
        "zh": "20 °C 低于熔点，还没熔化：固体。"
+      },
+      "wrong": {
+       "liquid": {
+        "en": "It would only be liquid ABOVE its melting point, 50 °C. Room temperature (20 °C) is below that.",
+        "zh": "只有高于熔点 50 °C 才是液体。室温 20 °C 比这低。"
+       }
       }
      }
     }
@@ -2316,8 +2412,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "C-M-S: Change, Measure, keep the Same.",
-       "zh": "C-M-S：改变、测量、保持不变。"
+       "en": "In a fair test you CHANGE one thing, the independent variable, MEASURE one thing (dependent), and keep everything else the SAME (control variables).",
+       "zh": "公平测试里你改变一样东西（自变量），测量一样东西（因变量），其他都保持不变（控制变量）。"
+      },
+      "wrong": {
+       "control variable": {
+        "en": "Control variables are the things you keep the SAME, not the one you change.",
+        "zh": "控制变量是保持不变的东西，不是你改变的那个。"
+       }
       }
      }
     },
@@ -2386,8 +2488,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "First column = what you change.",
-       "zh": "第一列 = 你改变的东西。"
+       "en": "The first column is always the independent variable, what you CHANGE. The results you measure go in the columns after it.",
+       "zh": "第一列永远是自变量，就是你改变的东西。测量的结果放在后面的列。"
+      },
+      "wrong": {
+       "what you measure": {
+        "en": "What you measure is the RESULT. It goes in the later columns.",
+        "zh": "测量的是结果，放在后面的列。"
+       }
       }
      }
     }
@@ -2470,6 +2578,12 @@
       "why": {
        "en": "The water moves up and down, at 90° to the way the wave travels.",
        "zh": "水上下运动，和波传播方向成 90°。"
+      },
+      "wrong": {
+       "longitudinal": {
+        "en": "In a longitudinal wave particles move back and forth ALONG the direction of travel. The water moves up and down, at 90°.",
+        "zh": "纵波的粒子沿着传播方向前后动。水是上下动的，成 90°。"
+       }
       }
      }
     },
@@ -2537,6 +2651,12 @@
       "why": {
        "en": "Particles vibrate parallel to the direction of travel.",
        "zh": "粒子振动方向和传播方向平行。"
+      },
+      "wrong": {
+       "transverse": {
+        "en": "In a transverse wave particles move at 90° (up and down). Sound particles move back and forth along the direction of travel.",
+        "zh": "横波的粒子成 90°（上下）振动。声音的粒子是沿着传播方向前后振动。"
+       }
       }
      }
     },
@@ -2618,6 +2738,12 @@
       "why": {
        "en": "Sound needs particles (a medium). A vacuum has none.",
        "zh": "声音需要粒子（介质），真空里没有。"
+      },
+      "wrong": {
+       "Yes": {
+        "en": "Sound is passed from particle to particle. A vacuum has no particles, so there is nothing to carry it. That is why space is silent.",
+        "zh": "声音靠粒子一个传一个。真空里没有粒子，没有东西能传它。所以太空是寂静的。"
+       }
       }
      }
     },
@@ -3010,8 +3136,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Pitch = frequency. Loudness = amplitude.",
-       "zh": "音调看频率，响度看振幅。"
+       "en": "Pitch depends on frequency: more vibrations each second = a higher note.",
+       "zh": "音调取决于频率：每秒振动越多，音越高。"
+      },
+      "wrong": {
+       "louder sound": {
+        "en": "Loudness depends on AMPLITUDE, not frequency.",
+        "zh": "响度取决于振幅，不是频率。"
+       }
       }
      }
     },
@@ -3076,8 +3208,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Loudness = amplitude.",
-       "zh": "响度看振幅。"
+       "en": "Loudness depends on amplitude: bigger vibrations carry more energy, so the sound is louder.",
+       "zh": "响度取决于振幅：振动越大能量越多，声音越响。"
+      },
+      "wrong": {
+       "higher pitch": {
+        "en": "Pitch depends on FREQUENCY, not amplitude.",
+        "zh": "音调取决于频率，不是振幅。"
+       }
       }
      }
     },
@@ -3315,6 +3453,12 @@
       "why": {
        "en": "Ultra = beyond (above). Infra = below.",
        "zh": "ultra = 超过；infra = 低于。"
+      },
+      "wrong": {
+       "infrasound": {
+        "en": "Infra = below. Infrasound is BELOW 20 Hz, very low sounds.",
+        "zh": "infra = 在下面。次声波低于 20 Hz，是很低的声音。"
+       }
       }
      }
     },
@@ -3480,8 +3624,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Pinna → canal → eardrum → ossicles → cochlea → nerve.",
-       "zh": "耳廓 → 外耳道 → 鼓膜 → 听小骨 → 耳蜗 → 听神经。"
+       "en": "Sound is collected FIRST by the pinna, the outer ear flap you can see. Then: canal → eardrum → ossicles → cochlea → nerve.",
+       "zh": "声音最先被耳廓收集，就是你看得见的外耳。然后：耳道 → 鼓膜 → 听小骨 → 耳蜗 → 神经。"
+      },
+      "wrong": {
+       "cochlea": {
+        "en": "The cochlea is deep in the inner ear, near the END of the path.",
+        "zh": "耳蜗在内耳深处，在路线的末端附近。"
+       }
       }
      }
     },
@@ -3650,6 +3800,12 @@
       "why": {
        "en": "Three tiny bones that pass on and amplify the vibrations.",
        "zh": "三块小骨头，传递并放大振动。"
+      },
+      "wrong": {
+       "a spiral tube": {
+        "en": "The spiral tube is the COCHLEA, which turns vibrations into signals.",
+        "zh": "螺旋形的管子是耳蜗，把振动变成信号。"
+       }
       }
      }
     },
@@ -3774,8 +3930,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "No light passes through a brick wall.",
-       "zh": "光不能穿过砖墙。"
+       "en": "Opaque materials let NO light through. A brick wall blocks all light and makes a sharp shadow.",
+       "zh": "不透明的材料一点光都不透。砖墙挡住所有光，形成清楚的影子。"
+      },
+      "wrong": {
+       "translucent": {
+        "en": "Translucent materials let SOME light through (like frosted glass). No light gets through bricks.",
+        "zh": "半透明材料会透一些光（像磨砂玻璃）。砖墙一点光都不透。"
+       }
       }
      }
     },
@@ -3828,6 +3990,12 @@
       "why": {
        "en": "It reflects sunlight. It does not make its own light.",
        "zh": "它反射太阳光，自己不发光。"
+      },
+      "wrong": {
+       "luminous": {
+        "en": "Luminous objects MAKE their own light, like the Sun. The Moon only reflects sunlight.",
+        "zh": "发光体自己发光，比如太阳。月亮只是反射阳光。"
+       }
       }
      }
     },
@@ -4032,8 +4200,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "They are always equal.",
-       "zh": "它们总是相等。"
+       "en": "Law of reflection: the angle of incidence EQUALS the angle of reflection, both measured from the normal. 40° in, 40° out.",
+       "zh": "反射定律：入射角等于反射角，都从法线量。入射 40°，反射 40°。"
+      },
+      "wrong": {
+       "50°": {
+        "en": "50° is 90° − 40°, the angle from the mirror surface. Measure from the normal and the two angles are equal.",
+        "zh": "50° 是 90° − 40°，是从镜面量的角。从法线量，两个角相等。"
+       }
       }
      }
     },
@@ -4084,8 +4258,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Normal = a line at 90°.",
-       "zh": "法线和表面成 90°。"
+       "en": "The normal is an imaginary line at a RIGHT angle (90°) to the surface where the ray hits. All angles are measured from it.",
+       "zh": "法线是在光线射到的地方和表面成直角（90°）的假想线。所有角都从它量。"
+      },
+      "wrong": {
+       "45°": {
+        "en": "45° is halfway. The normal is always at a right angle, 90°.",
+        "zh": "45° 只是一半。法线总是成直角，90°。"
+       }
       }
      }
     }
@@ -4130,8 +4310,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "Changing speed between materials makes light change direction.",
-       "zh": "在不同材料之间速度改变，光就改变方向。"
+       "en": "Light travels at different speeds in different materials. When it enters a new material at an angle, the change in SPEED makes it change direction: refraction.",
+       "zh": "光在不同物质中速度不同。斜着进入新物质时，速度变化让它改变方向：折射。"
+      },
+      "wrong": {
+       "colour": {
+        "en": "The colour of light stays the same when it enters a new material. Its speed changes.",
+        "zh": "光进入新物质时颜色不变，变的是速度。"
+       }
       }
      }
     },
@@ -4187,8 +4373,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "Light changes speed as it leaves the water, so it bends.",
-       "zh": "光离开水时速度改变，所以会弯折。"
+       "en": "Light from the straw changes speed and bends (refracts) as it leaves the water into the air. Your brain assumes light goes straight, so the straw looks bent.",
+       "zh": "吸管的光离开水进入空气时速度改变、发生弯折（折射）。大脑以为光是直线走的，所以吸管看起来弯了。"
+      },
+      "wrong": {
+       "reflection": {
+        "en": "Reflection is light bouncing back off a surface. Here the light passes out of the water and bends.",
+        "zh": "反射是光从表面弹回来。这里的光是穿出水面并弯折。"
+       }
       }
      }
     }
@@ -4293,8 +4485,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Light: red, green, blue. (Paint is different.)",
-       "zh": "光的三原色：红、绿、蓝。（颜料不一样。）"
+       "en": "Light ADDS colours together, and its three primaries are red, green and blue. (That is why screens are made of red, green and blue dots.)",
+       "zh": "光是颜色相加，三原色是红、绿、蓝。（所以屏幕是由红、绿、蓝的小点组成的。）"
+      },
+      "wrong": {
+       "yellow": {
+        "en": "Yellow is a primary colour of PAINT. For light, yellow is made by red + green.",
+        "zh": "黄色是颜料的原色。对光来说，黄色是红 + 绿混出来的。"
+       }
       }
      }
     },
@@ -4325,8 +4523,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "Red + blue = magenta. Green + blue = cyan.",
-       "zh": "红 + 蓝 = 品红；绿 + 蓝 = 青。"
+       "en": "Adding coloured light: red + blue = magenta (pinky purple).",
+       "zh": "光的颜色相加：红 + 蓝 = 品红（粉紫色）。"
+      },
+      "wrong": {
+       "cyan": {
+        "en": "Cyan is GREEN + blue, not red + blue.",
+        "zh": "青色是绿 + 蓝，不是红 + 蓝。"
+       }
       }
      }
     },
@@ -4420,8 +4624,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "All three primary colours of light make white.",
-       "zh": "三种原色光加起来是白光。"
+       "en": "Adding all three primary colours of light gives white light.",
+       "zh": "光的三原色加在一起就是白光。"
+      },
+      "wrong": {
+       "black": {
+        "en": "Black is NO light. Adding more light makes it brighter, not darker. (Mixing paints is different, because paint absorbs light.)",
+        "zh": "黑色是没有光。加更多的光只会更亮，不会更暗。（颜料混合不一样，因为颜料吸收光。）"
+       }
       }
      }
     },
@@ -4473,8 +4683,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "No light is reflected, so it looks black.",
-       "zh": "没有光被反射，所以看起来是黑的。"
+       "en": "We see the colours an object REFLECTS. A black T-shirt absorbs every colour, so no light reflects into your eyes and it looks black.",
+       "zh": "我们看到的是物体反射的颜色。黑 T 恤吸收所有颜色，没有光反射进眼睛，所以看起来是黑的。"
+      },
+      "wrong": {
+       "reflects all colours": {
+        "en": "Reflecting all colours makes something look WHITE, the opposite.",
+        "zh": "反射所有颜色的东西看起来是白的，正相反。"
+       }
       }
      }
     }
@@ -4559,8 +4775,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "Radio is at the low-frequency end. Gamma is at the high end.",
-       "zh": "无线电波在低频端，伽马射线在高频端。"
+       "en": "EM spectrum, low to high frequency: radio, microwave, infrared, visible, ultraviolet, X-ray, gamma. Radio is at the LOW end.",
+       "zh": "电磁波谱从低频到高频：无线电波、微波、红外线、可见光、紫外线、X 光、伽马射线。无线电波在低频端。"
+      },
+      "wrong": {
+       "gamma rays": {
+        "en": "Gamma rays are at the HIGHEST frequency end.",
+        "zh": "伽马射线在最高频的一端。"
+       }
       }
      }
     },
@@ -4651,8 +4873,14 @@
       ],
       "answer": 0,
       "why": {
-       "en": "UV damages skin cells.",
-       "zh": "紫外线会伤害皮肤细胞。"
+       "en": "Ultraviolet has a higher frequency (more energy) than visible light. It can damage skin cells and cause sunburn.",
+       "zh": "紫外线的频率（能量）比可见光高，会伤害皮肤细胞，造成晒伤。"
+      },
+      "wrong": {
+       "echoes": {
+        "en": "Echoes are reflected SOUND. UV is light, an EM wave.",
+        "zh": "回声是反射的声音。紫外线是光，是电磁波。"
+       }
       }
      }
     },
@@ -4788,8 +5016,14 @@
       ],
       "answer": 1,
       "why": {
-       "en": "Order: ... infrared, visible, ULTRAVIOLET, X-ray, gamma.",
-       "zh": "顺序：……红外线、可见光、紫外线、X 射线、伽马射线。"
+       "en": "Order: … infrared, VISIBLE, ULTRAVIOLET, X-ray, gamma. \"Ultra\" means beyond: ultraviolet is just beyond violet, the high-frequency end of visible light.",
+       "zh": "顺序：……红外线、可见光、紫外线、X 光、伽马射线。ultra 是“超过”：紫外线就在紫光外面，在可见光的高频端。"
+      },
+      "wrong": {
+       "infrared": {
+        "en": "Infrared (\"below red\") comes just BEFORE visible light, at lower frequency.",
+        "zh": "红外线（“红光以下”）在可见光前面，频率更低。"
+       }
       }
      }
     }
