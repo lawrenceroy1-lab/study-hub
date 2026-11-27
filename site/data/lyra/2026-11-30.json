@@ -180,6 +180,13 @@
        "en": "In sound, air particles vibrate back and forth but stay in place. Only the energy moves along.",
        "zh": "声音里的空气粒子前后振动但留在原地，只有能量往前传。"
       }
+     },
+     "qzh": "波把 ___ 从一个地方传到另一个地方。",
+     "ozh": {
+      "energy": "能量",
+      "particles": "粒子",
+      "water": "水",
+      "air": "空气"
      }
     },
     {
@@ -208,6 +215,13 @@
        "en": "The vibration direction is always related to the travel direction: 90° for transverse, parallel for longitudinal.",
        "zh": "振动方向和传播方向一定有关系：横波是 90°，纵波是平行。"
       }
+     },
+     "qzh": "横波的振动方向和传播方向是 ___ 的。",
+     "ozh": {
+      "perpendicular": "垂直",
+      "parallel": "平行",
+      "opposite": "相反",
+      "unrelated": "没有关系"
      }
     },
     {
@@ -236,6 +250,13 @@
        "en": "Light is a transverse, electromagnetic wave, a different kind from sound.",
        "zh": "光是横波、电磁波，和声音不是一类。"
       }
+     },
+     "qzh": "声音是一种 ___ 波。",
+     "ozh": {
+      "longitudinal": "纵",
+      "transverse": "横",
+      "electromagnetic": "电磁",
+      "light": "光"
      }
     },
     {
@@ -264,6 +285,13 @@
        "en": "Troughs are the bottoms of TRANSVERSE waves.",
        "zh": "波谷是横波的最低点。"
       }
+     },
+     "qzh": "在纵波里，粒子挤在一起的地方叫……",
+     "ozh": {
+      "compression": "密部",
+      "rarefaction": "疏部",
+      "crest": "波峰",
+      "trough": "波谷"
      }
     },
     {
@@ -292,6 +320,13 @@
        "en": "The source is where the wave started, not a point on the wave.",
        "zh": "波源是波开始的地方，不是波上的点。"
       }
+     },
+     "qzh": "振幅是从 ___ 量到波峰。",
+     "ozh": {
+      "rest position": "平衡位置",
+      "next crest": "下一个波峰",
+      "trough": "波谷",
+      "source": "波源"
      }
     },
     {
@@ -320,7 +355,8 @@
        "en": "8 is 10 − 2. The formula divides.",
        "zh": "8 是 10 − 2。公式是除。"
       }
-     }
+     },
+     "qzh": "2 秒内有 10 个完整的波经过一个点。频率是多少？"
     },
     {
      "q": "Why can sound NOT travel through a vacuum?",
@@ -348,6 +384,13 @@
        "en": "No frequency of sound can cross a vacuum, high or low.",
        "zh": "不管频率高低，声音都不能穿过真空。"
       }
+     },
+     "qzh": "为什么声音不能在真空中传播？",
+     "ozh": {
+      "there are no particles to vibrate": "没有粒子可以振动",
+      "it is too cold": "太冷了",
+      "light blocks it": "光挡住了它",
+      "the frequency is too high": "频率太高了"
      }
     },
     {
@@ -376,6 +419,13 @@
        "en": "Higher frequency gives a HIGHER pitch, not lower.",
        "zh": "频率越高，音调越高，不是越低。"
       }
+     },
+     "qzh": "频率越高，……",
+     "ozh": {
+      "higher pitch": "音调越高",
+      "louder sound": "声音越响",
+      "quieter sound": "声音越小",
+      "lower pitch": "音调越低"
      }
     },
     {
@@ -404,6 +454,13 @@
        "en": "The speed of sound depends on the medium, not on amplitude.",
        "zh": "声速取决于介质，不是振幅。"
       }
+     },
+     "qzh": "振幅越大，……",
+     "ozh": {
+      "louder sound": "声音越响",
+      "higher pitch": "音调越高",
+      "lower pitch": "音调越低",
+      "faster sound": "声音越快"
      }
     },
     {
@@ -432,6 +489,13 @@
        "en": "An echo is a reflected sound, at any frequency. The question is about how high it is.",
        "zh": "回声是反射的声音，什么频率都可能。题目问的是有多高。"
       }
+     },
+     "qzh": "25,000 Hz 的狗哨是……",
+     "ozh": {
+      "ultrasound": "超声波",
+      "infrasound": "次声波",
+      "in the human audible range": "在人能听到的范围内",
+      "an echo": "回声"
      }
     },
     {
@@ -460,6 +524,13 @@
        "en": "The ossicles are tiny bones that pass on and AMPLIFY the vibration. The cochlea changes it into signals.",
        "zh": "听小骨是把振动传过去并放大的小骨头。耳蜗才把它变成信号。"
       }
+     },
+     "qzh": "耳朵的哪个部分把振动变成电信号？",
+     "ozh": {
+      "cochlea": "耳蜗",
+      "eardrum": "鼓膜",
+      "pinna": "耳廓",
+      "ossicles": "听小骨"
      }
     },
     {
@@ -488,6 +559,13 @@
        "en": "This is the right list but backwards, from the brain outwards.",
        "zh": "顺序对，但反过来了，是从大脑往外。"
       }
+     },
+     "qzh": "声音进入耳朵的正确顺序是哪个？",
+     "ozh": {
+      "pinna, auditory canal, eardrum, ossicles, cochlea, auditory nerve": "耳廓、耳道、鼓膜、听小骨、耳蜗、听神经",
+      "eardrum, pinna, cochlea, ossicles, auditory canal, auditory nerve": "鼓膜、耳廓、耳蜗、听小骨、耳道、听神经",
+      "pinna, eardrum, auditory canal, cochlea, ossicles, auditory nerve": "耳廓、鼓膜、耳道、耳蜗、听小骨、听神经",
+      "auditory nerve, cochlea, ossicles, eardrum, auditory canal, pinna": "听神经、耳蜗、听小骨、鼓膜、耳道、耳廓"
      }
     }
    ],
@@ -690,6 +768,13 @@
        "en": "Water waves need water to travel in.",
        "zh": "水波需要水才能传播。"
       }
+     },
+     "qzh": "电磁波是一种能在真空中传播的 ___ 波。",
+     "ozh": {
+      "transverse": "横",
+      "longitudinal": "纵",
+      "sound": "声",
+      "water": "水"
      }
     },
     {
@@ -718,6 +803,13 @@
        "en": "A slinky wave travels through the slinky's coils; it needs the slinky.",
        "zh": "弹簧上的波要靠弹簧的圈传播，需要弹簧。"
       }
+     },
+     "qzh": "哪个能在真空中传播？",
+     "ozh": {
+      "light": "光",
+      "sound": "声音",
+      "a water wave": "水波",
+      "a wave on a slinky": "弹簧上的波"
      }
     },
     {
@@ -746,6 +838,13 @@
        "en": "Ultraviolet is higher than visible light, near the top end.",
        "zh": "紫外线比可见光高，接近高频端。"
       }
+     },
+     "qzh": "哪种电磁波的频率最低？",
+     "ozh": {
+      "radio wave": "无线电波",
+      "gamma ray": "伽马射线",
+      "X-ray": "X 光",
+      "ultraviolet": "紫外线"
      }
     },
     {
@@ -774,6 +873,13 @@
        "en": "Infrared is below visible light, in the lower half.",
        "zh": "红外线在可见光下面，在低频那一半。"
       }
+     },
+     "qzh": "哪种电磁波的频率最高？",
+     "ozh": {
+      "gamma ray": "伽马射线",
+      "radio wave": "无线电波",
+      "microwave": "微波",
+      "infrared": "红外线"
      }
     },
     {
@@ -802,6 +908,13 @@
        "en": "Radio is the lowest, so it comes first. Infrared comes before visible, and X-ray before gamma.",
        "zh": "无线电波最低，排第一。红外线在可见光前，X 光在伽马射线前。"
       }
+     },
+     "qzh": "从低频到高频，哪个顺序是对的？",
+     "ozh": {
+      "radio, microwave, infrared, visible, ultraviolet, X-ray, gamma": "无线电波、微波、红外线、可见光、紫外线、X 光、伽马射线",
+      "gamma, X-ray, ultraviolet, visible, infrared, microwave, radio": "伽马射线、X 光、紫外线、可见光、红外线、微波、无线电波",
+      "radio, infrared, microwave, visible, X-ray, ultraviolet, gamma": "无线电波、红外线、微波、可见光、X 光、紫外线、伽马射线",
+      "microwave, radio, visible, infrared, ultraviolet, gamma, X-ray": "微波、无线电波、可见光、红外线、紫外线、伽马射线、X 光"
      }
     },
     {
@@ -830,6 +943,13 @@
        "en": "X-rays are for medical images of bones.",
        "zh": "X 光用于拍骨头的医学影像。"
       }
+     },
+     "qzh": "电视遥控器和热成像相机都用……",
+     "ozh": {
+      "infrared": "红外线",
+      "ultraviolet": "紫外线",
+      "gamma rays": "伽马射线",
+      "X-rays": "X 光"
      }
     },
     {
@@ -858,6 +978,13 @@
        "en": "Gamma rays are too dangerous for cooking; they are used to kill cancer cells.",
        "zh": "伽马射线太危险，不能做饭，用来杀癌细胞。"
       }
+     },
+     "qzh": "哪种电磁波用来做饭和做雷达？",
+     "ozh": {
+      "microwave": "微波",
+      "radio wave": "无线电波",
+      "visible light": "可见光",
+      "gamma ray": "伽马射线"
      }
     },
     {
@@ -886,6 +1013,13 @@
        "en": "Visible light lets us see. Sunburn comes from the UV just beyond violet.",
        "zh": "可见光让我们看见东西。晒伤来自紫光外面的紫外线。"
       }
+     },
+     "qzh": "晒太阳太多会晒伤皮肤。这是由……造成的。",
+     "ozh": {
+      "ultraviolet": "紫外线",
+      "infrared": "红外线",
+      "radio waves": "无线电波",
+      "visible light": "可见光"
      }
     },
     {
@@ -914,6 +1048,13 @@
        "en": "X-rays are EM waves, so they need no medium.",
        "zh": "X 光是电磁波，不需要介质。"
       }
+     },
+     "qzh": "X 光能拍到骨头的照片，因为它们……",
+     "ozh": {
+      "pass through soft tissue": "能穿过软组织",
+      "are seen by the human eye": "人眼能看见",
+      "are low-frequency waves": "是低频的波",
+      "need a medium to travel": "需要介质才能传播"
      }
     },
     {
@@ -942,6 +1083,13 @@
        "en": "Ionising radiation (UV, X-ray, gamma) is INVISIBLE, which makes it more dangerous.",
        "zh": "电离辐射（紫外线、X 光、伽马射线）是看不见的，所以更危险。"
       }
+     },
+     "qzh": "电离辐射很危险，因为它……",
+     "ozh": {
+      "removes electrons from atoms and can damage cells and DNA": "能把电子从原子里打出来，会伤害细胞和 DNA",
+      "is too quiet to hear": "太小声听不到",
+      "cannot travel through a vacuum": "不能在真空中传播",
+      "is always visible": "总是看得见"
      }
     }
    ],
@@ -993,6 +1141,13 @@
        "en": "Luminous means it makes its own light. Glass does not.",
        "zh": "发光是自己发光，玻璃不会。"
       }
+     },
+     "qzh": "磨砂玻璃能透光，但看不清楚后面。它是……",
+     "ozh": {
+      "translucent": "半透明的",
+      "transparent": "透明的",
+      "opaque": "不透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -1021,6 +1176,13 @@
        "en": "Laterally inverted describes a mirror image, not the Sun.",
        "zh": "左右颠倒描述的是镜像，不是太阳。"
       }
+     },
+     "qzh": "太阳是……",
+     "ozh": {
+      "luminous": "发光的",
+      "non-luminous": "不发光的",
+      "opaque": "不透明的",
+      "laterally inverted": "左右颠倒的"
      }
     },
     {
@@ -1049,7 +1211,8 @@
        "en": "0° would lie flat along the surface. The normal stands straight up at 90°.",
        "zh": "0° 是平躺在表面上。法线是 90° 竖起来的。"
       }
-     }
+     },
+     "qzh": "法线是和表面成 ___ 的线。"
     },
     {
      "q": "The angle of incidence is 35°. The angle of reflection is...",
@@ -1077,7 +1240,8 @@
        "en": "145° is 180° − 35°. The law of reflection says the two angles are EQUAL.",
        "zh": "145° 是 180° − 35°。反射定律说两个角相等。"
       }
-     }
+     },
+     "qzh": "入射角是 35°。反射角是……"
     },
     {
      "q": "Writing looks back to front in a plane mirror. The image is...",
@@ -1105,6 +1269,13 @@
        "en": "If the light were absorbed, you would see no image at all.",
        "zh": "如果光被吸收了，就根本看不到像。"
       }
+     },
+     "qzh": "在平面镜里，字看起来是反的。这个像是……",
+     "ozh": {
+      "laterally inverted": "左右颠倒的",
+      "refracted": "折射的",
+      "dispersed": "色散的",
+      "absorbed": "被吸收的"
      }
     },
     {
@@ -1133,6 +1304,13 @@
        "en": "The source stays the same. The new MATERIAL changes the speed.",
        "zh": "光源没变，是新的物质改变了速度。"
       }
+     },
+     "qzh": "光从空气进入玻璃时会弯折，因为它的 ___ 变了。",
+     "ozh": {
+      "speed": "速度",
+      "colour": "颜色",
+      "amplitude": "振幅",
+      "source": "光源"
      }
     },
     {
@@ -1161,6 +1339,13 @@
        "en": "Absorption takes light in. A prism lets the light through and spreads it out.",
        "zh": "吸收是把光吸进去。棱镜是让光通过并分散开。"
       }
+     },
+     "qzh": "棱镜把白光分成各种颜色。这是……",
+     "ozh": {
+      "dispersion": "反射",
+      "reflection": "色散",
+      "absorption": "左右颠倒",
+      "lateral inversion": "吸收"
      }
     },
     {
@@ -1189,6 +1374,13 @@
        "en": "White needs all THREE primaries: red + green + blue.",
        "zh": "白光要三种原色都有：红 + 绿 + 蓝。"
       }
+     },
+     "qzh": "红光 + 绿光 = ？",
+     "ozh": {
+      "yellow": "青色",
+      "cyan": "黄色",
+      "magenta": "品红色",
+      "white": "白色"
      }
     },
     {
@@ -1217,6 +1409,13 @@
        "en": "Reflecting all colours makes something look WHITE.",
        "zh": "反射所有颜色的东西看起来是白的。"
       }
+     },
+     "qzh": "绿叶看起来是绿色的，因为它……",
+     "ozh": {
+      "reflects green light and absorbs the other colours": "反射绿光，吸收其他颜色",
+      "absorbs green light": "吸收绿光",
+      "makes its own green light": "自己发出绿光",
+      "reflects all colours": "反射所有颜色"
      }
     },
     {
@@ -1245,6 +1444,13 @@
        "en": "Radio waves are invisible; we need a radio to detect them.",
        "zh": "无线电波看不见，要用收音机才能接收。"
       }
+     },
+     "qzh": "人眼能看见哪种电磁波？",
+     "ozh": {
+      "visible light": "可见光",
+      "infrared": "红外线",
+      "ultraviolet": "紫外线",
+      "radio waves": "无线电波"
      }
     },
     {
@@ -1273,6 +1479,13 @@
        "en": "Infrared is heat radiation, used in remote controls and thermal cameras.",
        "zh": "红外线是热辐射，用于遥控器和热成像。"
       }
+     },
+     "qzh": "治疗癌症用哪种电磁波？",
+     "ozh": {
+      "gamma rays": "伽马射线",
+      "microwaves": "微波",
+      "radio waves": "无线电波",
+      "infrared": "红外线"
      }
     },
     {
@@ -1301,6 +1514,13 @@
        "en": "Ultraviolet is the HIGHEST of the three, so it must come last.",
        "zh": "紫外线是三个里最高的，所以要排最后。"
       }
+     },
+     "qzh": "哪一组是按频率从低到高排列的？",
+     "ozh": {
+      "infrared, visible light, ultraviolet": "红外线、可见光、紫外线",
+      "ultraviolet, visible light, infrared": "紫外线、可见光、红外线",
+      "visible light, infrared, ultraviolet": "可见光、红外线、紫外线",
+      "ultraviolet, infrared, visible light": "紫外线、红外线、可见光"
      }
     }
    ],
@@ -1352,6 +1572,13 @@
        "en": "An alloy is a mixture of metals (like brass), so it has more than one type of atom.",
        "zh": "合金是金属的混合物（像黄铜），有不止一种原子。"
       }
+     },
+     "qzh": "只由一种原子组成的物质是……",
+     "ozh": {
+      "an element": "单质",
+      "a compound": "化合物",
+      "a mixture": "混合物",
+      "an alloy": "合金"
      }
     },
     {
@@ -1380,6 +1607,13 @@
        "en": "A solution is something dissolved in a liquid, a kind of mixture.",
        "zh": "溶液是东西溶在液体里，是混合物的一种。"
       }
+     },
+     "qzh": "O₂ 是……",
+     "ozh": {
+      "an element": "单质",
+      "a compound": "化合物",
+      "a mixture": "混合物",
+      "a solution": "溶液"
      }
     },
     {
@@ -1408,6 +1642,13 @@
        "en": "An element has only ONE type of atom. Joining two elements gives something new.",
        "zh": "单质只有一种原子。两种元素结合会变成新东西。"
       }
+     },
+     "qzh": "两种或更多元素化学结合形成……",
+     "ozh": {
+      "compound": "化合物",
+      "mixture": "混合物",
+      "solution": "溶液",
+      "pure element": "纯单质"
      }
     },
     {
@@ -1436,6 +1677,13 @@
        "en": "A pure element has only ONE kind of particle. Here there are two kinds.",
        "zh": "纯单质只有一种粒子。这里有两种。"
       }
+     },
+     "qzh": "一张粒子图有两种粒子，每种都只由一种原子组成。这是……",
+     "ozh": {
+      "mixture of two elements": "两种单质的混合物",
+      "compound": "化合物",
+      "mixture of two compounds": "两种化合物的混合物",
+      "pure element": "纯单质"
      }
     },
     {
@@ -1464,6 +1712,13 @@
        "en": "Copper's symbol is Cu (from its Latin name cuprum), not Co.",
        "zh": "铜的符号是 Cu（来自拉丁文 cuprum），不是 Co。"
       }
+     },
+     "qzh": "Co（大写 C，小写 o）是……",
+     "ozh": {
+      "cobalt, an element": "钴，一种单质",
+      "carbon monoxide, a compound": "一氧化碳，一种化合物",
+      "carbon and oxygen mixed": "碳和氧混合在一起",
+      "copper": "铜"
      }
     },
     {
@@ -1492,7 +1747,8 @@
        "en": "In is INDIUM, a different metal.",
        "zh": "In 是铟，是另一种金属。"
       }
-     }
+     },
+     "qzh": "铁的符号是……"
     },
     {
      "q": "How many atoms are in ONE molecule of H₂SO₄?",
@@ -1520,7 +1776,8 @@
        "en": "3 counts the number of different ELEMENTS (H, S, O), not atoms.",
        "zh": "3 是元素种类数（H、S、O），不是原子数。"
       }
-     }
+     },
+     "qzh": "一个 H₂SO₄ 分子里有几个原子？"
     },
     {
      "q": "How many atoms are in 3 molecules of CO₂?",
@@ -1548,7 +1805,8 @@
        "en": "3 is the atoms in ONE molecule, or the number of molecules. There are 3 molecules of 3 atoms.",
        "zh": "3 是一个分子的原子数，或者是分子数。这里是 3 个分子，每个 3 个原子。"
       }
-     }
+     },
+     "qzh": "3 个 CO₂ 分子里有几个原子？"
     },
     {
      "q": "In H₂O, the ratio hydrogen : oxygen is...",
@@ -1576,7 +1834,8 @@
        "en": "The small 2 after H means two hydrogens.",
        "zh": "H 后面的小 2 表示两个氢。"
       }
-     }
+     },
+     "qzh": "在 H₂O 里，氢 : 氧的比是……"
     },
     {
      "q": "In iron + sulfur → iron sulfide, the reactants are...",
@@ -1604,6 +1863,13 @@
        "en": "Iron sulfide is made, not started with, so it is not a reactant.",
        "zh": "硫化亚铁是生成的，不是开始就有的，所以不是反应物。"
       }
+     },
+     "qzh": "在“铁 + 硫 → 硫化亚铁”里，反应物是……",
+     "ozh": {
+      "iron and sulfur": "铁和硫",
+      "iron sulfide": "硫化亚铁",
+      "sulfur only": "只有硫",
+      "iron sulfide and iron": "硫化亚铁和铁"
      }
     },
     {
@@ -1632,6 +1898,13 @@
        "en": "-ate means oxygen is also in it. Only sodium and chlorine reacted, so -ide.",
        "zh": "-ate 表示里面还有氧。只有钠和氯反应，所以用 -ide。"
       }
+     },
+     "qzh": "钠 + 氯 → ?（选正确的英文名称）",
+     "ozh": {
+      "sodium chloride": "",
+      "sodium chlorine": "",
+      "chlorine sodide": "",
+      "sodium chlorate": ""
      }
     },
     {
@@ -1660,6 +1933,13 @@
        "en": "The FIRST element keeps its normal name (sulfur). Only the second gets -ide.",
        "zh": "第一种元素用原名（sulfur），只有第二种加 -ide。"
       }
+     },
+     "qzh": "SO₂ 叫……（选正确的英文名称）",
+     "ozh": {
+      "sulfur dioxide": "",
+      "sulfur monoxide": "",
+      "sulfur oxide": "",
+      "sulfide dioxide": ""
      }
     }
    ],
@@ -1711,6 +1991,13 @@
        "en": "Boiling is a change of STATE: steam is still water and can condense back.",
        "zh": "沸腾是状态变化：水蒸气还是水，可以凝结回来。"
       }
+     },
+     "qzh": "哪个是化学变化？",
+     "ozh": {
+      "burning paper": "烧纸",
+      "ice melting": "冰融化",
+      "sugar dissolving": "糖溶解",
+      "water boiling": "水沸腾"
      }
     },
     {
@@ -1739,6 +2026,13 @@
        "en": "A fair test is a way of planning an experiment, not something you observe.",
        "zh": "公平测试是设计实验的方法，不是观察到的现象。"
       }
+     },
+     "qzh": "两种液体混合时冒出了新气体的气泡。这是……的标志。",
+     "ozh": {
+      "chemical change": "化学变化",
+      "physical change": "物理变化",
+      "melting point": "熔点",
+      "fair test": "公平测试"
      }
     },
     {
@@ -1767,7 +2061,8 @@
        "en": "1.6 g is 0.8 × 2. The masses of the reactants simply add up.",
        "zh": "1.6 g 是 0.8 × 2。反应物的质量只是相加。"
       }
-     }
+     },
+     "qzh": "2.0 g 铁和 0.8 g 硫反应。生成的硫化亚铁质量是……"
     },
     {
      "q": "In a liquid, the particles are...",
@@ -1795,6 +2090,13 @@
        "en": "Particles are ALWAYS moving, even in a solid (they vibrate).",
        "zh": "粒子一直在运动，就算在固体里也在振动。"
       }
+     },
+     "qzh": "在液体里，粒子……",
+     "ozh": {
+      "touching but random, and they slide": "互相接触但杂乱，能滑动",
+      "in neat rows, only wiggling": "整齐排列，只能振动",
+      "far apart and moving fast": "离得很远，运动很快",
+      "not moving at all": "完全不动"
      }
     },
     {
@@ -1823,6 +2125,13 @@
        "en": "Boiling is liquid → gas, the opposite.",
        "zh": "沸腾是液体 → 气体，正相反。"
       }
+     },
+     "qzh": "气体变成液体叫……",
+     "ozh": {
+      "condensing": "凝结",
+      "freezing": "凝固",
+      "melting": "熔化",
+      "boiling": "沸腾"
      }
     },
     {
@@ -1851,6 +2160,13 @@
        "en": "Mercury is an element (Hg). The question asks about its STATE.",
        "zh": "汞是单质（Hg）。题目问的是状态。"
       }
+     },
+     "qzh": "汞在 -39 °C 熔化，在 357 °C 沸腾。在 20 °C 时汞是……",
+     "ozh": {
+      "liquid": "液体",
+      "solid": "固体",
+      "gas": "气体",
+      "mixture": "混合物"
      }
     },
     {
@@ -1879,7 +2195,8 @@
        "en": "12 °C is above zero, the warmest here.",
        "zh": "12 °C 在零度以上，是这里最暖的。"
       }
-     }
+     },
+     "qzh": "哪个温度最冷？"
     },
     {
      "q": "Emma tests how the water temperature changes the time for sugar to dissolve. The independent variable is the...",
@@ -1907,6 +2224,13 @@
        "en": "The volume of water must stay the same too: a control variable.",
        "zh": "水的体积也要保持不变：控制变量。"
       }
+     },
+     "qzh": "Emma 测试水温怎样影响糖溶解的时间。自变量是……",
+     "ozh": {
+      "temperature of the water": "水的温度",
+      "time to dissolve": "溶解的时间",
+      "mass of sugar": "糖的质量",
+      "volume of water": "水的体积"
      }
     },
     {
@@ -1935,6 +2259,13 @@
        "en": "The conclusion is written in sentences AFTER the table, not in it.",
        "zh": "结论是在表格后面用句子写的，不在表格里。"
       }
+     },
+     "qzh": "在结果表里，第一列是……",
+     "ozh": {
+      "what you change": "你改变的东西",
+      "what you keep the same": "你保持不变的东西",
+      "your name": "你的名字",
+      "the conclusion": "结论"
      }
     },
     {
@@ -1963,6 +2294,13 @@
        "en": "A magnet cannot undo a chemical reaction. Separating a compound needs another chemical reaction.",
        "zh": "磁铁不能逆转化学反应。分开化合物需要另一个化学反应。"
       }
+     },
+     "qzh": "把磁铁移到硫化亚铁上面（铁和硫加热之后）。会发生什么？",
+     "ozh": {
+      "the magnet cannot pull the iron out": "磁铁吸不出铁",
+      "the iron sticks to the magnet": "铁粘到磁铁上",
+      "the sulfur sticks to the magnet": "硫粘到磁铁上",
+      "it turns back into iron and sulfur": "它变回铁和硫"
      }
     },
     {
@@ -1991,6 +2329,13 @@
        "en": "Cooking changes the egg's proteins for good and cannot be undone: chemical.",
        "zh": "煮熟会永久改变蛋白质，不能逆转：化学变化。"
       }
+     },
+     "qzh": "哪个是物理变化？",
+     "ozh": {
+      "paper burning": "纸燃烧",
+      "ice melting": "冰融化",
+      "iron rusting": "铁生锈",
+      "an egg cooking": "煮鸡蛋"
      }
     },
     {
@@ -2019,6 +2364,13 @@
        "en": "The mass going up fits Lavoisier's idea: the metal joined with oxygen from the air.",
        "zh": "质量上升符合拉瓦锡的理论：金属和空气中的氧结合了。"
       }
+     },
+     "qzh": "金属在空气中加热后质量增加了。谁是对的？",
+     "ozh": {
+      "Priestley": "普里斯特利",
+      "both": "两个人都对",
+      "neither": "两个人都不对",
+      "Lavoisier": "拉瓦锡"
      }
     }
    ],
@@ -2227,6 +2579,13 @@
        "en": "Luminous means it makes its own light. Glass does not.",
        "zh": "发光是自己发光，玻璃不会。"
       }
+     },
+     "qzh": "窗户玻璃是……",
+     "ozh": {
+      "translucent": "半透明的",
+      "transparent": "透明的",
+      "opaque": "不透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -2255,6 +2614,13 @@
        "en": "It is non-luminous, but that only says it makes no light. The question is how light passes through.",
        "zh": "它确实不发光，但那只说明它自己不发光。题目问的是光怎样穿过。"
       }
+     },
+     "qzh": "浴室的磨砂玻璃是……",
+     "ozh": {
+      "transparent": "透明的",
+      "opaque": "不透明的",
+      "non-luminous only": "只是不发光的",
+      "translucent": "半透明的"
      }
     },
     {
@@ -2283,6 +2649,13 @@
        "en": "A door makes no light of its own.",
        "zh": "门自己不发光。"
       }
+     },
+     "qzh": "木门是……",
+     "ozh": {
+      "opaque": "不透明的",
+      "transparent": "透明的",
+      "translucent": "半透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -2311,6 +2684,13 @@
        "en": "A white wall reflects a lot of light but makes none itself.",
        "zh": "白墙反射很多光，但自己不发光。"
       }
+     },
+     "qzh": "哪个会自己发光？",
+     "ozh": {
+      "the Moon": "月亮",
+      "a mirror": "镜子",
+      "a lit torch": "开着的手电筒",
+      "a white wall": "白墙"
      }
     },
     {
@@ -2339,6 +2719,13 @@
        "en": "Being opaque only means light cannot pass through it. We see it because light BOUNCES off it into our eyes.",
        "zh": "不透明只表示光穿不过去。我们看到它是因为光从它上面反射进眼睛。"
       }
+     },
+     "qzh": "我们能看到书，是因为……",
+     "ozh": {
+      "it makes its own light": "它自己发光",
+      "light reflects off it into our eyes": "光从它上面反射进我们的眼睛",
+      "our eyes send out light": "我们的眼睛发出光",
+      "it is opaque": "它是不透明的"
      }
     },
     {
@@ -2367,6 +2754,13 @@
        "en": "Light does not curve in air. Dotted lines are only used for the normal or for virtual rays behind a mirror.",
        "zh": "光在空气中不会弯。虚线只用来画法线或镜子后面的虚像光线。"
       }
+     },
+     "qzh": "光线画成……",
+     "ozh": {
+      "straight lines with arrows": "带箭头的直线",
+      "wavy lines": "波浪线",
+      "circles": "圆圈",
+      "dotted curves": "虚线曲线"
      }
     },
     {
@@ -2395,7 +2789,8 @@
        "en": "150° is 180° − 30°. The law says the two angles are equal.",
        "zh": "150° 是 180° − 30°。定律说两个角相等。"
       }
-     }
+     },
+     "qzh": "入射角是 30°。反射角是……"
     },
     {
      "q": "Angles in a ray diagram are measured from the...",
@@ -2423,6 +2818,13 @@
        "en": "The light source can be anywhere. Angles are measured at the mirror, from the normal.",
        "zh": "光源可以在任何地方。角是在镜面上从法线量的。"
       }
+     },
+     "qzh": "光路图里的角是从……量的。",
+     "ozh": {
+      "mirror surface": "镜面",
+      "top of the page": "纸的顶部",
+      "normal": "法线",
+      "light source": "光源"
      }
     },
     {
@@ -2451,6 +2853,13 @@
        "en": "A refracted ray goes INTO a new material and bends, like into glass or water.",
        "zh": "折射光线是进入新物质时弯折的光线，比如进入玻璃或水。"
       }
+     },
+     "qzh": "从镜子上反弹回来的光线叫……",
+     "ozh": {
+      "reflected ray": "反射光线",
+      "incident ray": "入射光线",
+      "normal": "法线",
+      "refracted ray": "折射光线"
      }
     },
     {
@@ -2479,6 +2888,13 @@
        "en": "Absorption is a material taking in light.",
        "zh": "吸收是物质把光吸进去。"
       }
+     },
+     "qzh": "在平面镜里，你的右手看起来像左手。这叫……",
+     "ozh": {
+      "refraction": "折射",
+      "laterally inverted": "左右颠倒",
+      "dispersion": "色散",
+      "absorption": "吸收"
      }
     }
    ],

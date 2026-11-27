@@ -179,6 +179,11 @@
         "en": "A mixture contains at least two different substances, so more than one type of particle.",
         "zh": "混合物至少有两种不同的物质，所以不止一种粒子。"
        }
+      },
+      "qzh": "只由一种原子组成的物质是……",
+      "ozh": {
+       "an element": "单质",
+       "a mixture": "混合物"
       }
      }
     },
@@ -321,6 +326,11 @@
         "en": "Copper is a metal but NOT magnetic. Most metals are not.",
         "zh": "铜是金属，但没有磁性。大多数金属都没有。"
        }
+      },
+      "qzh": "哪种金属有磁性？",
+      "ozh": {
+       "copper": "铜",
+       "iron": "铁"
       }
      }
     },
@@ -455,6 +465,11 @@
         "en": "A compound needs two DIFFERENT elements. Both atoms in O₂ are oxygen.",
         "zh": "化合物需要两种不同的元素。O₂ 的两个原子都是氧。"
        }
+      },
+      "qzh": "O₂ 是……",
+      "ozh": {
+       "a compound": "化合物",
+       "an element": "单质"
       }
      }
     }
@@ -652,6 +667,11 @@
         "en": "Sand and water are not chemically joined; you can separate them by filtering. A compound would need a reaction.",
         "zh": "沙和水没有化学结合，过滤就能分开。化合物需要化学反应。"
        }
+      },
+      "qzh": "沙和水搅在一起是……",
+      "ozh": {
+       "compound": "化合物",
+       "mixture": "混合物"
       }
      }
     },
@@ -738,6 +758,11 @@
         "en": "A compound has a fixed formula. Brass can have different amounts of copper and zinc, so it is a mixture.",
         "zh": "化合物有固定的化学式。黄铜里铜和锌的比例可以不同，所以是混合物。"
        }
+      },
+      "qzh": "黄铜（铜 + 锌）是……",
+      "ozh": {
+       "a mixture": "混合物",
+       "a compound": "化合物"
       }
      }
     },
@@ -825,6 +850,11 @@
         "en": "Carbon monoxide is CO, with two CAPITAL letters. A small o belongs to the same symbol: Co = cobalt.",
         "zh": "一氧化碳是 CO，两个大写字母。小写的 o 属于同一个符号：Co = 钴。"
        }
+      },
+      "qzh": "Co（小写 o）是……",
+      "ozh": {
+       "cobalt, an element": "钴，一种单质",
+       "carbon monoxide, a compound": "一氧化碳，一种化合物"
       }
      }
     },
@@ -1006,6 +1036,11 @@
         "en": "A mixture would have two or more DIFFERENT kinds of particle. Here every particle is the same.",
         "zh": "混合物会有两种或更多不同的粒子。这里每个粒子都一样。"
        }
+      },
+      "qzh": "粒子由不同颜色的原子连在一起组成，而且都一样：这是……",
+      "ozh": {
+       "a mixture": "混合物",
+       "a compound": "化合物"
       }
      }
     },
@@ -1308,6 +1343,11 @@
         "en": "\"Mixture\" is not wrong, but it is not the FULL name, so it loses marks. Say what is mixed.",
         "zh": "mixture 没错，但不是完整名称，会扣分。要说明混合的是什么。"
        }
+      },
+      "qzh": "有两种粒子，每种只有一种颜色：要写……",
+      "ozh": {
+       "mixture of two elements": "两种单质的混合物",
+       "mixture": "混合物"
       }
      }
     },
@@ -1499,7 +1539,8 @@
         "en": "2 counts only the hydrogens, or the number of elements. Add the 1 oxygen.",
         "zh": "2 只数了氢，或者是元素种类数。还要加 1 个氧。"
        }
-      }
+      },
+      "qzh": "一个 H₂O 分子里有几个原子？"
      }
     },
     {
@@ -1545,7 +1586,8 @@
         "en": "5 is 3 + 2, adding. There are 3 molecules with 2 hydrogens EACH, so multiply.",
         "zh": "5 是 3 + 2，加了。3 个分子每个有 2 个氢，要相乘。"
        }
-      }
+      },
+      "qzh": "3H₂O 里有几个氢原子？"
      }
     },
     {
@@ -1655,6 +1697,11 @@
         "en": "Oxygen is on the LEFT: it is a reactant, something you start with.",
         "zh": "氧在左边：是反应物，是开始时就有的。"
        }
+      },
+      "qzh": "在“镁 + 氧 → 氧化镁”里，生成物是……",
+      "ozh": {
+       "magnesium oxide": "氧化镁",
+       "oxygen": "氧"
       }
      }
     },
@@ -1727,6 +1774,11 @@
         "en": "Mono = 1. Carbon monoxide is CO, with only one oxygen.",
         "zh": "mono = 1。一氧化碳是 CO，只有一个氧。"
        }
+      },
+      "qzh": "CO₂ 叫 carbon……（二氧化碳）",
+      "ozh": {
+       "monoxide": "",
+       "dioxide": ""
       }
      }
     },
@@ -1820,6 +1872,11 @@
         "en": "A chemical change makes a NEW substance. Melting only changes the state of the water.",
         "zh": "化学变化会产生新物质。熔化只是改变了水的状态。"
        }
+      },
+      "qzh": "冰融化是……",
+      "ozh": {
+       "physical change": "物理变化",
+       "chemical change": "化学变化"
       }
      }
     },
@@ -1918,6 +1975,11 @@
         "en": "A physical change makes no new substance. The bubbles here are a new gas that was not there before.",
         "zh": "物理变化不产生新物质。这里的气泡是原来没有的新气体。"
        }
+      },
+      "qzh": "出现了新气体的气泡。这是……的标志。",
+      "ozh": {
+       "physical change": "物理变化",
+       "chemical change": "化学变化"
       }
      }
     },
@@ -2209,6 +2271,11 @@
         "en": "Boiling is the opposite: liquid → gas.",
         "zh": "沸腾正相反：液体 → 气体。"
        }
+      },
+      "qzh": "气体变成液体叫……",
+      "ozh": {
+       "boiling": "沸腾",
+       "condensing": "凝结"
       }
      }
     },
@@ -2330,6 +2397,11 @@
         "en": "It would only be liquid ABOVE its melting point, 50 °C. Room temperature (20 °C) is below that.",
         "zh": "只有高于熔点 50 °C 才是液体。室温 20 °C 比这低。"
        }
+      },
+      "qzh": "室温是 20 °C，熔点是 50 °C。在室温下它是……",
+      "ozh": {
+       "liquid": "液体",
+       "solid": "固体"
       }
      }
     }
@@ -2420,6 +2492,11 @@
         "en": "Control variables are the things you keep the SAME, not the one you change.",
         "zh": "控制变量是保持不变的东西，不是你改变的那个。"
        }
+      },
+      "qzh": "在公平测试里，你改变的东西叫……",
+      "ozh": {
+       "independent variable": "自变量",
+       "control variable": "控制变量"
       }
      }
     },
@@ -2496,6 +2573,11 @@
         "en": "What you measure is the RESULT. It goes in the later columns.",
         "zh": "测量的是结果，放在后面的列。"
        }
+      },
+      "qzh": "结果表的第一列是……",
+      "ozh": {
+       "what you change": "你改变的东西",
+       "what you measure": "你测量的东西"
       }
      }
     }
@@ -2584,6 +2666,11 @@
         "en": "In a longitudinal wave particles move back and forth ALONG the direction of travel. The water moves up and down, at 90°.",
         "zh": "纵波的粒子沿着传播方向前后动。水是上下动的，成 90°。"
        }
+      },
+      "qzh": "池塘上的水波是……",
+      "ozh": {
+       "longitudinal": "纵波",
+       "transverse": "横波"
       }
      }
     },
@@ -2657,6 +2744,11 @@
         "en": "In a transverse wave particles move at 90° (up and down). Sound particles move back and forth along the direction of travel.",
         "zh": "横波的粒子成 90°（上下）振动。声音的粒子是沿着传播方向前后振动。"
        }
+      },
+      "qzh": "声波是……",
+      "ozh": {
+       "longitudinal": "纵波",
+       "transverse": "横波"
       }
      }
     },
@@ -2744,6 +2836,10 @@
         "en": "Sound is passed from particle to particle. A vacuum has no particles, so there is nothing to carry it. That is why space is silent.",
         "zh": "声音靠粒子一个传一个。真空里没有粒子，没有东西能传它。所以太空是寂静的。"
        }
+      },
+      "qzh": "声音能在真空中传播吗？",
+      "ozh": {
+       "Yes": "能"
       }
      }
     },
@@ -3144,6 +3240,11 @@
         "en": "Loudness depends on AMPLITUDE, not frequency.",
         "zh": "响度取决于振幅，不是频率。"
        }
+      },
+      "qzh": "频率越高，……",
+      "ozh": {
+       "higher pitch": "音调越高",
+       "louder sound": "声音越响"
       }
      }
     },
@@ -3216,6 +3317,11 @@
         "en": "Pitch depends on FREQUENCY, not amplitude.",
         "zh": "音调取决于频率，不是振幅。"
        }
+      },
+      "qzh": "振幅越大，……",
+      "ozh": {
+       "louder sound": "声音越响",
+       "higher pitch": "音调越高"
       }
      }
     },
@@ -3459,6 +3565,11 @@
         "en": "Infra = below. Infrasound is BELOW 20 Hz, very low sounds.",
         "zh": "infra = 在下面。次声波低于 20 Hz，是很低的声音。"
        }
+      },
+      "qzh": "高于 20,000 Hz 的声音是……",
+      "ozh": {
+       "infrasound": "次声波",
+       "ultrasound": "超声波"
       }
      }
     },
@@ -3632,6 +3743,11 @@
         "en": "The cochlea is deep in the inner ear, near the END of the path.",
         "zh": "耳蜗在内耳深处，在路线的末端附近。"
        }
+      },
+      "qzh": "声音进入耳朵时，最先经过哪里？",
+      "ozh": {
+       "pinna": "耳廓",
+       "cochlea": "耳蜗"
       }
      }
     },
@@ -3806,6 +3922,11 @@
         "en": "The spiral tube is the COCHLEA, which turns vibrations into signals.",
         "zh": "螺旋形的管子是耳蜗，把振动变成信号。"
        }
+      },
+      "qzh": "听小骨是……",
+      "ozh": {
+       "a spiral tube": "一根螺旋形的管子",
+       "three tiny bones": "三块很小的骨头"
       }
      }
     },
@@ -3938,6 +4059,11 @@
         "en": "Translucent materials let SOME light through (like frosted glass). No light gets through bricks.",
         "zh": "半透明材料会透一些光（像磨砂玻璃）。砖墙一点光都不透。"
        }
+      },
+      "qzh": "砖墙是……",
+      "ozh": {
+       "translucent": "半透明的",
+       "opaque": "不透明的"
       }
      }
     },
@@ -3996,6 +4122,11 @@
         "en": "Luminous objects MAKE their own light, like the Sun. The Moon only reflects sunlight.",
         "zh": "发光体自己发光，比如太阳。月亮只是反射阳光。"
        }
+      },
+      "qzh": "月亮是……",
+      "ozh": {
+       "luminous": "发光的",
+       "non-luminous": "不发光的"
       }
      }
     },
@@ -4208,7 +4339,8 @@
         "en": "50° is 90° − 40°, the angle from the mirror surface. Measure from the normal and the two angles are equal.",
         "zh": "50° 是 90° − 40°，是从镜面量的角。从法线量，两个角相等。"
        }
-      }
+      },
+      "qzh": "入射角 = 40°。反射角 = ？"
      }
     },
     {
@@ -4266,7 +4398,8 @@
         "en": "45° is halfway. The normal is always at a right angle, 90°.",
         "zh": "45° 只是一半。法线总是成直角，90°。"
        }
-      }
+      },
+      "qzh": "法线和表面成 ___。"
      }
     }
    ],
@@ -4318,6 +4451,11 @@
         "en": "The colour of light stays the same when it enters a new material. Its speed changes.",
         "zh": "光进入新物质时颜色不变，变的是速度。"
        }
+      },
+      "qzh": "折射发生是因为光改变了……",
+      "ozh": {
+       "colour": "颜色",
+       "speed": "速度"
       }
      }
     },
@@ -4381,6 +4519,11 @@
         "en": "Reflection is light bouncing back off a surface. Here the light passes out of the water and bends.",
         "zh": "反射是光从表面弹回来。这里的光是穿出水面并弯折。"
        }
+      },
+      "qzh": "吸管放在水里看起来弯了，是因为……",
+      "ozh": {
+       "reflection": "反射",
+       "refraction": "折射"
       }
      }
     }
@@ -4493,6 +4636,11 @@
         "en": "Yellow is a primary colour of PAINT. For light, yellow is made by red + green.",
         "zh": "黄色是颜料的原色。对光来说，黄色是红 + 绿混出来的。"
        }
+      },
+      "qzh": "光的三原色是红、绿和……",
+      "ozh": {
+       "blue": "蓝",
+       "yellow": "黄"
       }
      }
     },
@@ -4531,6 +4679,11 @@
         "en": "Cyan is GREEN + blue, not red + blue.",
         "zh": "青色是绿 + 蓝，不是红 + 蓝。"
        }
+      },
+      "qzh": "红光 + 蓝光 = ？",
+      "ozh": {
+       "cyan": "青色",
+       "magenta": "品红色"
       }
      }
     },
@@ -4632,6 +4785,11 @@
         "en": "Black is NO light. Adding more light makes it brighter, not darker. (Mixing paints is different, because paint absorbs light.)",
         "zh": "黑色是没有光。加更多的光只会更亮，不会更暗。（颜料混合不一样，因为颜料吸收光。）"
        }
+      },
+      "qzh": "红光 + 绿光 + 蓝光 = ？",
+      "ozh": {
+       "black": "黑色",
+       "white": "白色"
       }
      }
     },
@@ -4691,6 +4849,11 @@
         "en": "Reflecting all colours makes something look WHITE, the opposite.",
         "zh": "反射所有颜色的东西看起来是白的，正相反。"
        }
+      },
+      "qzh": "黑 T 恤……",
+      "ozh": {
+       "absorbs all colours": "吸收所有颜色",
+       "reflects all colours": "反射所有颜色"
       }
      }
     }
@@ -4783,6 +4946,11 @@
         "en": "Gamma rays are at the HIGHEST frequency end.",
         "zh": "伽马射线在最高频的一端。"
        }
+      },
+      "qzh": "哪个的频率更低？",
+      "ozh": {
+       "radio waves": "无线电波",
+       "gamma rays": "伽马射线"
       }
      }
     },
@@ -4881,6 +5049,11 @@
         "en": "Echoes are reflected SOUND. UV is light, an EM wave.",
         "zh": "回声是反射的声音。紫外线是光，是电磁波。"
        }
+      },
+      "qzh": "紫外线会造成……",
+      "ozh": {
+       "sunburn": "晒伤",
+       "echoes": "回声"
       }
      }
     },
@@ -5024,6 +5197,11 @@
         "en": "Infrared (\"below red\") comes just BEFORE visible light, at lower frequency.",
         "zh": "红外线（“红光以下”）在可见光前面，频率更低。"
        }
+      },
+      "qzh": "紧接在可见光后面（频率更高）的是哪个？",
+      "ozh": {
+       "infrared": "红外线",
+       "ultraviolet": "紫外线"
       }
      }
     }

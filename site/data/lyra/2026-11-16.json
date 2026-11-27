@@ -54,6 +54,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "空气是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -82,6 +89,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "氯化钠（NaCl）是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -110,6 +124,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "黄铜是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -138,6 +159,13 @@
        "en": "Element is right, but nitrogen is a GAS at room temperature. It is only liquid below −196 °C.",
        "zh": "单质对了，但氮在室温下是气体，只有低于 −196 °C 才是液体。"
       }
+     },
+     "qzh": "哪两个词描述室温下的氮气（N₂）？",
+     "ozh": {
+      "gas, element": "气体，单质",
+      "gas, compound": "气体，化合物",
+      "solid, mixture": "固体，混合物",
+      "liquid, element": "液体，单质"
      }
     },
     {
@@ -166,6 +194,13 @@
        "en": "There are no compounds here, and pure means only one substance.",
        "zh": "这里没有化合物，而且纯净就是只有一种物质。"
       }
+     },
+     "qzh": "纯溴（Br₂）属于哪一类物质？",
+     "ozh": {
+      "element": "单质",
+      "compound": "化合物",
+      "mixture of elements": "单质的混合物",
+      "mixture of compounds": "化合物的混合物"
      }
     },
     {
@@ -194,6 +229,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "硫化亚铁是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -222,6 +264,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "汽油是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -250,6 +299,10 @@
        "en": "Two capital letters (C, O): two elements joined, a compound.",
        "zh": "两个大写字母（C、O）：两种元素结合，是化合物。"
       }
+     },
+     "qzh": "哪个化学式是单质？",
+     "ozh": {
+      "NaCl": ""
      }
     },
     {
@@ -278,6 +331,13 @@
        "en": "In a compound the different atoms are JOINED. Here blue and red are not joined to each other.",
        "zh": "化合物里不同的原子是结合的。这里蓝和红没有连在一起。"
       }
+     },
+     "qzh": "一个盒子里有“蓝-蓝”分子和单个的红色原子，彼此没有连在一起。它的完整名称是什么？",
+     "ozh": {
+      "mixture": "混合物",
+      "mixture of two elements": "两种单质的混合物",
+      "mixture of two compounds": "两种化合物的混合物",
+      "compound": "化合物"
      }
     },
     {
@@ -306,6 +366,13 @@
        "en": "A mixture needs at least two different substances. Every particle here is the same.",
        "zh": "混合物至少要两种不同的物质。这里每个粒子都一样。"
       }
+     },
+     "qzh": "一个盒子里只有“蓝-蓝”分子。它的完整名称是什么？",
+     "ozh": {
+      "molecules": "分子",
+      "element (molecules)": "单质（分子）",
+      "compound": "化合物",
+      "mixture": "混合物"
      }
     }
    ],
@@ -574,6 +641,13 @@
        "en": "An element and a compound join to make one compound, not a split into elements.",
        "zh": "一种单质和一种化合物结合成一种化合物，不是分解成单质。"
       }
+     },
+     "qzh": "哪个反应是：化合物 → 两种单质？",
+     "ozh": {
+      "zinc + sulfur → zinc sulfide": "锌 + 硫 → 硫化锌",
+      "carbon dioxide + calcium hydroxide → calcium carbonate + water": "二氧化碳 + 氢氧化钙 → 碳酸钙 + 水",
+      "oxygen + copper sulfide → copper sulfate": "氧 + 硫化铜 → 硫酸铜",
+      "water → hydrogen + oxygen": "水 → 氢 + 氧"
      }
     },
     {
@@ -602,6 +676,13 @@
        "en": "Salt water is a MIXTURE (a solution), not a new compound, and salt and water are compounds, not elements.",
        "zh": "盐水是混合物（溶液），不是新的化合物，而且盐和水是化合物，不是单质。"
       }
+     },
+     "qzh": "哪个反应是：单质 + 单质 → 化合物？",
+     "ozh": {
+      "water → hydrogen + oxygen": "水 → 氢 + 氧",
+      "zinc + sulfur → zinc sulfide": "锌 + 硫 → 硫化锌",
+      "calcium carbonate → calcium oxide + carbon dioxide": "碳酸钙 → 氧化钙 + 二氧化碳",
+      "salt + water → salt water": "盐 + 水 → 盐水"
      }
     },
     {
@@ -630,6 +711,13 @@
        "en": "-oxide means joined with OXYGEN. Here zinc joined with sulfur.",
        "zh": "-oxide 表示和氧结合。这里锌是和硫结合。"
       }
+     },
+     "qzh": "把锌和硫一起加热。生成的固体叫什么名字？（写英文名称）",
+     "ozh": {
+      "zinc sulfur": "",
+      "heated sulfide": "",
+      "zinc sulfide": "",
+      "zinc oxide": ""
      }
     },
     {
@@ -658,6 +746,13 @@
        "en": "Oxygen must change to -oxide, and 2 atoms need di-: sulfur dioxide.",
        "zh": "oxygen 要改成 -oxide，2 个原子要加 di-：sulfur dioxide。"
       }
+     },
+     "qzh": "硫 + 氧 → ?（生成物是 SO₂）（选正确的英文名称）",
+     "ozh": {
+      "sulfur oxide": "",
+      "sulfur dioxide": "",
+      "sulfide oxygen": "",
+      "sulfur oxygen": ""
      }
     },
     {
@@ -676,6 +771,11 @@
        "en": "A physical change (melting, freezing, dissolving) makes NO new substance and can be reversed. A cooked egg cannot go back.",
        "zh": "物理变化（熔化、凝固、溶解）不产生新物质，可以逆转。煮熟的蛋变不回去。"
       }
+     },
+     "qzh": "煮鸡蛋是……",
+     "ozh": {
+      "physical change": "物理变化",
+      "chemical change": "化学变化"
      }
     },
     {
@@ -704,6 +804,13 @@
        "en": "Freezing is liquid → solid.",
        "zh": "凝固是液体 → 固体。"
       }
+     },
+     "qzh": "气体 → 液体叫……",
+     "ozh": {
+      "boiling": "沸腾",
+      "melting": "熔化",
+      "condensing": "凝结",
+      "freezing": "凝固"
      }
     },
     {
@@ -732,6 +839,13 @@
        "en": "There are about 118 known elements, not 1000.",
        "zh": "已知的元素约 118 种，不是 1000 种。"
       }
+     },
+     "qzh": "哪一句是对的？",
+     "ozh": {
+      "Most elements are non-metals.": "大多数元素是非金属。",
+      "There are 2 liquid elements at room temperature.": "室温下有 2 种液态元素。",
+      "Most metals are magnetic.": "大多数金属有磁性。",
+      "There are about 1000 elements.": "大约有 1000 种元素。"
      }
     },
     {
@@ -761,6 +875,13 @@
        "en": "Magnesium is liquid at 1000 °C, but mercury boils at 357 °C, so it is a GAS by 1000 °C.",
        "zh": "镁在 1000 °C 是液体，但汞 357 °C 就沸腾，到 1000 °C 是气体。"
       }
+     },
+     "qzh": "在 1000 °C 时，哪两种元素是液体？",
+     "ozh": {
+      "aluminium and magnesium": "铝和镁",
+      "aluminium and aluminium": "铝和铝",
+      "iron and mercury": "铁和汞",
+      "mercury and magnesium": "汞和镁"
      }
     },
     {
@@ -789,7 +910,8 @@
        "en": "−5 is the BIGGEST negative here (closest to 0), not the smallest. −100 is the smallest.",
        "zh": "−5 是这里最大的负数（最靠近 0），不是最小的。−100 最小。"
       }
-     }
+     },
+     "qzh": "从小到大排列：12、-39、0、-100、-5"
     },
     {
      "q": "What does a magnet show about the iron + sulfur MIXTURE and iron SULFIDE?",
@@ -817,6 +939,13 @@
        "en": "Sulfur is not magnetic. Only the iron is.",
        "zh": "硫没有磁性，只有铁有。"
       }
+     },
+     "qzh": "关于铁和硫的混合物以及硫化亚铁，磁铁能说明什么？",
+     "ozh": {
+      "It pulls iron out of both.": "两种里的铁都能吸出来。",
+      "It pulls iron out of the mixture, but not out of iron sulfide.": "能把混合物里的铁吸出来，但吸不出硫化亚铁里的铁。",
+      "It cannot pull iron out of either.": "两种里的铁都吸不出来。",
+      "It pulls the sulfur out.": "能把硫吸出来。"
      }
     }
    ],
@@ -1291,6 +1420,13 @@
        "en": "Light is a transverse, electromagnetic wave, a different kind from sound.",
        "zh": "光是横波、电磁波，和声音不是一类。"
       }
+     },
+     "qzh": "声音是哪种波？",
+     "ozh": {
+      "transverse": "横波",
+      "longitudinal": "纵波",
+      "electromagnetic": "电磁波",
+      "light": "光"
      }
     },
     {
@@ -1319,6 +1455,13 @@
        "en": "The medium changes the SPEED of sound, not its pitch.",
        "zh": "介质改变的是声速，不是音调。"
       }
+     },
+     "qzh": "音调取决于……",
+     "ozh": {
+      "frequency": "频率",
+      "amplitude": "振幅",
+      "speed": "速度",
+      "the medium": "介质"
      }
     },
     {
@@ -1347,6 +1490,13 @@
        "en": "Pitch is how high or low a sound is. It is separate from how loud it is.",
        "zh": "音调是声音的高低，和响度是两回事。"
       }
+     },
+     "qzh": "响度取决于……",
+     "ozh": {
+      "frequency": "频率",
+      "amplitude": "振幅",
+      "wavelength": "波长",
+      "pitch": "音调"
      }
     },
     {
@@ -1375,7 +1525,8 @@
        "en": "48 is 50 − 2. The formula divides waves by time.",
        "zh": "48 是 50 − 2。公式是波数除以时间。"
       }
-     }
+     },
+     "qzh": "2 秒内有 50 个波经过一个点。频率是多少？"
     },
     {
      "q": "Why can sound NOT travel through space?",
@@ -1403,6 +1554,13 @@
        "en": "Darkness is about light, not sound. Light CAN cross space; sound cannot.",
        "zh": "黑暗跟光有关，跟声音无关。光能穿过太空，声音不能。"
       }
+     },
+     "qzh": "为什么声音不能在太空中传播？",
+     "ozh": {
+      "Space is too cold.": "太空太冷了。",
+      "Space is a vacuum with no particles.": "太空是真空，没有粒子。",
+      "Sound is too slow.": "声音太慢了。",
+      "Space is too dark.": "太空太黑了。"
      }
     },
     {
@@ -1431,7 +1589,8 @@
        "en": "Above 20,000 Hz is ULTRASOUND, which humans cannot hear (bats and dolphins can).",
        "zh": "20,000 Hz 以上是超声波，人听不到（蝙蝠和海豚能听到）。"
       }
-     }
+     },
+     "qzh": "人能听到的范围大约是……"
     },
     {
      "q": "Sound with a frequency HIGHER than 20,000 Hz is called...",
@@ -1459,6 +1618,13 @@
        "en": "Sonar is a USE of sound waves (often ultrasound) to find objects, not the name of the frequency range.",
        "zh": "声呐是利用声波（常是超声波）找东西的技术，不是频率范围的名字。"
       }
+     },
+     "qzh": "频率高于 20,000 Hz 的声音叫……",
+     "ozh": {
+      "infrasound": "次声波",
+      "ultrasound": "超声波",
+      "an echo": "回声",
+      "sonar": "声呐"
      }
     },
     {
@@ -1487,6 +1653,13 @@
        "en": "The auditory canal comes BEFORE the eardrum (it leads to it), and the ossicles come before the cochlea.",
        "zh": "耳道在鼓膜前面（通向鼓膜），听小骨在耳蜗前面。"
       }
+     },
+     "qzh": "声音进入耳朵的正确顺序是哪个？",
+     "ozh": {
+      "pinna → auditory canal → eardrum → ossicles → cochlea": "耳廓 → 耳道 → 鼓膜 → 听小骨 → 耳蜗",
+      "eardrum → pinna → cochlea → ossicles → auditory canal": "鼓膜 → 耳廓 → 耳蜗 → 听小骨 → 耳道",
+      "cochlea → ossicles → eardrum → auditory canal → pinna": "耳蜗 → 听小骨 → 鼓膜 → 耳道 → 耳廓",
+      "pinna → eardrum → auditory canal → cochlea → ossicles": "耳廓 → 鼓膜 → 耳道 → 耳蜗 → 听小骨"
      }
     },
     {
@@ -1515,6 +1688,13 @@
        "en": "Trough to trough is also the WAVELENGTH.",
        "zh": "波谷到波谷也是波长。"
       }
+     },
+     "qzh": "振幅是从……量的。",
+     "ozh": {
+      "crest to trough": "波峰到波谷",
+      "the rest position to the crest": "平衡位置到波峰",
+      "crest to crest": "波峰到波峰",
+      "trough to trough": "波谷到波谷"
      }
     },
     {
@@ -1543,6 +1723,13 @@
        "en": "Light is a TRANSVERSE wave. The reason is its speed, not its type.",
        "zh": "光是横波。原因是速度，不是波的类型。"
       }
+     },
+     "qzh": "我们先看到闪电，后听到雷声，是因为……",
+     "ozh": {
+      "light travels much faster than sound": "光比声音快得多",
+      "sound is louder than light": "声音比光响",
+      "thunder happens first": "雷声先发生",
+      "light is a longitudinal wave": "光是纵波"
      }
     }
    ],
@@ -1854,6 +2041,13 @@
        "en": "Element is right, but nitrogen is a GAS at room temperature. It is only liquid below −196 °C.",
        "zh": "单质对了，但氮在室温下是气体，只有低于 −196 °C 才是液体。"
       }
+     },
+     "qzh": "哪两个词适用于氮气（N₂）？",
+     "ozh": {
+      "gas, compound": "气体，化合物",
+      "gas, element": "气体，单质",
+      "solid, mixture": "固体，混合物",
+      "liquid, element": "液体，单质"
      }
     },
     {
@@ -1882,6 +2076,13 @@
        "en": "There are about 118 known elements, not 1000.",
        "zh": "已知的元素约 118 种，不是 1000 种。"
       }
+     },
+     "qzh": "哪一句是对的？",
+     "ozh": {
+      "Most metals are magnetic.": "大多数元素是非金属。",
+      "There are 2 liquid elements at room temperature.": "室温下有 2 种液态元素。",
+      "Most elements are non-metals.": "大多数金属有磁性。",
+      "There are about 1000 elements.": "大约有 1000 种元素。"
      }
     },
     {
@@ -1910,6 +2111,13 @@
        "en": "Freezing is liquid → solid.",
        "zh": "凝固是液体 → 固体。"
       }
+     },
+     "qzh": "气体 → 液体叫……",
+     "ozh": {
+      "boiling": "沸腾",
+      "melting": "熔化",
+      "freezing": "凝结",
+      "condensing": "凝固"
      }
     },
     {
@@ -1938,6 +2146,13 @@
        "en": "The change in mass is the RESULT you work out, not something you choose.",
        "zh": "质量变化是你算出来的结果，不是你选的。"
       }
+     },
+     "qzh": "在加热金属的实验里，你只改变的那一样是什么？",
+     "ozh": {
+      "the type of metal": "金属的种类",
+      "the mass after heating": "加热后的质量",
+      "the colour of the flame": "火焰的颜色",
+      "the change in mass": "质量的变化"
      }
     },
     {
@@ -1966,6 +2181,13 @@
        "en": "The mass going up fits Lavoisier's idea: the metal joined with oxygen from the air.",
        "zh": "质量上升符合拉瓦锡的理论：金属和空气中的氧结合了。"
       }
+     },
+     "qzh": "加热后质量增加了。谁说得对？",
+     "ozh": {
+      "Priestley": "普里斯特利",
+      "Lavoisier": "拉瓦锡",
+      "both": "两个人都对",
+      "neither": "两个人都不对"
      }
     },
     {
@@ -1994,7 +2216,8 @@
        "en": "There are 3 atoms in TOTAL, but the ratio compares carbon (1) with oxygen (2).",
        "zh": "总共有 3 个原子，但比是碳（1）比氧（2）。"
       }
-     }
+     },
+     "qzh": "CO₂ 里碳 : 氧的比是多少？"
     },
     {
      "q": "How many OXYGEN atoms are in 6 molecules of CO₂?",
@@ -2022,7 +2245,8 @@
        "en": "18 is 6 × 3, counting ALL the atoms (C and O). The question asks only for oxygen.",
        "zh": "18 是 6 × 3，把所有原子（C 和 O）都算了。题目只问氧。"
       }
-     }
+     },
+     "qzh": "6 个 CO₂ 分子里有几个氧原子？"
     },
     {
      "q": "24 + x = 40. What is x?",
@@ -2050,7 +2274,8 @@
        "en": "Subtraction slip. Check: 24 + 14 = 38, not 40.",
        "zh": "减法算错了。检查：24 + 14 = 38，不是 40。"
       }
-     }
+     },
+     "qzh": "24 + x = 40。x 等于多少？"
     },
     {
      "q": "Simplify the ratio 6 : 9.",
@@ -2078,7 +2303,8 @@
        "en": "Only the 9 was divided. Divide BOTH sides by 3.",
        "zh": "只除了 9。两边都要除以 3。"
       }
-     }
+     },
+     "qzh": "化简比 6 : 9。"
     },
     {
      "q": "In a results table, what goes in the FIRST column?",
@@ -2106,6 +2332,13 @@
        "en": "Your name is not data. Tables only hold the variables.",
        "zh": "名字不是数据，表格里只放变量。"
       }
+     },
+     "qzh": "在结果表里，第一列放什么？",
+     "ozh": {
+      "what you change (type of metal)": "你改变的东西（金属种类）",
+      "change in mass (g)": "质量的变化（g）",
+      "mass after (g)": "加热后的质量（g）",
+      "your name": "你的名字"
      }
     }
    ],
@@ -2159,6 +2392,13 @@
        "en": "Brass is copper and zinc mixed, not joined: a mixture (an alloy).",
        "zh": "黄铜是铜和锌混合，没有结合：混合物（合金）。"
       }
+     },
+     "qzh": "下面哪个是化合物？",
+     "ozh": {
+      "carbon monoxide": "一氧化碳",
+      "magnesium": "镁",
+      "bromine": "溴",
+      "brass": "黄铜"
      }
     },
     {
@@ -2187,6 +2427,13 @@
        "en": "There are about 118 known elements, not 1000.",
        "zh": "已知的元素约 118 种，不是 1000 种。"
       }
+     },
+     "qzh": "哪一句是对的？",
+     "ozh": {
+      "Most elements are non-metals": "大多数元素是非金属",
+      "There are 2 liquid elements at room temperature": "室温下有 2 种液态元素",
+      "Most metals are magnetic": "大多数金属有磁性",
+      "There are about 1000 elements": "大约有 1000 种元素"
      }
     },
     {
@@ -2215,6 +2462,13 @@
        "en": "Copper sulfate is a solid, and it has three elements joined, so it is not an element.",
        "zh": "硫酸铜是固体，而且有三种元素结合，不是单质。"
       }
+     },
+     "qzh": "哪两个词适用于硫酸铜？",
+     "ozh": {
+      "gas, compound": "气体，化合物",
+      "solid, mixture": "固体，混合物",
+      "gas, element": "气体，单质",
+      "solid, compound": "固体，化合物"
      }
     },
     {
@@ -2243,6 +2497,13 @@
        "en": "Hydrogen is an element and petrol is a mixture; this has all three wrong.",
        "zh": "氢是单质，汽油是混合物；这三个都错了。"
       }
+     },
+     "qzh": "氢、汽油、水：哪个顺序是对的？",
+     "ozh": {
+      "element, compound, mixture": "单质、化合物、混合物",
+      "element, mixture, compound": "单质、混合物、化合物",
+      "mixture, compound, element": "混合物、化合物、单质",
+      "compound, element, mixture": "化合物、单质、混合物"
      }
     },
     {
@@ -2271,6 +2532,12 @@
        "en": "Two capital letters (Co, O): cobalt and oxygen joined, a compound. (Co with a small o is cobalt; CO with a capital O would be carbon monoxide.)",
        "zh": "两个大写字母（Co、O）：钴和氧结合，是化合物。（Co 小写 o 是钴；CO 大写 O 是一氧化碳。）"
       }
+     },
+     "qzh": "下面哪个是单质？",
+     "ozh": {
+      "MgS": "",
+      "NaCl": "",
+      "CoO": ""
      }
     },
     {
@@ -2299,6 +2566,13 @@
        "en": "Nitrogen is a gas at room temperature, and N₂ is one pure substance, not a mixture.",
        "zh": "氮在室温下是气体，N₂ 是一种纯净物，不是混合物。"
       }
+     },
+     "qzh": "哪两个词适用于氮？",
+     "ozh": {
+      "gas, compound": "气体，化合物",
+      "liquid, compound": "液体，化合物",
+      "gas, element": "气体，单质",
+      "solid, mixture": "固体，混合物"
      }
     },
     {
@@ -2327,6 +2601,13 @@
        "en": "An element and a compound join to make one compound, not a split into elements.",
        "zh": "一种单质和一种化合物结合成一种化合物，不是分解成单质。"
       }
+     },
+     "qzh": "哪个反应是：化合物 → 两种单质？",
+     "ozh": {
+      "zinc + sulfur → zinc sulfide": "锌 + 硫 → 硫化锌",
+      "carbon dioxide + calcium hydroxide → calcium carbonate + water": "二氧化碳 + 氢氧化钙 → 碳酸钙 + 水",
+      "oxygen + copper sulfide → copper sulfate": "氧 + 硫化铜 → 硫酸铜",
+      "water → hydrogen + oxygen": "水 → 氢 + 氧"
      }
     },
     {
@@ -2355,7 +2636,8 @@
        "en": "C₃H₆ has only 6 hydrogens. Propane has 8.",
        "zh": "C₃H₆ 只有 6 个氢。丙烷有 8 个。"
       }
-     }
+     },
+     "qzh": "丙烷的化学式是什么？（3 个碳原子，8 个氢原子）"
     },
     {
      "q": "zinc + sulfur → ?",
@@ -2383,6 +2665,13 @@
        "en": "Chemical names are never squashed together like this. Metal name, then non-metal with -ide.",
        "zh": "化学名称不会这样拼在一起。金属名称，再加非金属 -ide。"
       }
+     },
+     "qzh": "锌 + 硫 → ?（选正确的英文名称）",
+     "ozh": {
+      "zinc sulfate": "",
+      "zinc sulfide": "",
+      "sulfur zinc": "",
+      "zincur": ""
      }
     },
     {
@@ -2411,6 +2700,13 @@
        "en": "Sulfuric acid is H₂SO₄, which needs hydrogen too. Only sulfur and oxygen reacted.",
        "zh": "硫酸是 H₂SO₄，还需要氢。这里只有硫和氧反应。"
       }
+     },
+     "qzh": "硫 + 氧 → ?（选正确的英文名称）",
+     "ozh": {
+      "sulfur oxygen": "",
+      "sulfur dioxide": "",
+      "oxygen sulfide": "",
+      "sulfuric acid": ""
      }
     },
     {
@@ -2439,6 +2735,13 @@
        "en": "Sulfur is yellow before anything happens. A sign of reaction is a CHANGE, like a new black solid.",
        "zh": "硫本来就是黄色的。反应的标志是变化，比如生成新的黑色固体。"
       }
+     },
+     "qzh": "Lily 加热了铁和硫。哪一项说明发生了化学反应？",
+     "ozh": {
+      "The mixture got warm from the burner": "混合物被燃烧器加热变暖了",
+      "It glowed and a new black solid formed": "它发光了，并生成了一种新的黑色固体",
+      "The tray was metal": "托盘是金属的",
+      "Sulfur is yellow": "硫是黄色的"
      }
     },
     {
@@ -2467,6 +2770,13 @@
        "en": "Sulfur alone is a non-metallic element, but iron sulfide has iron joined to it.",
        "zh": "单独的硫是非金属单质，但硫化亚铁里还结合了铁。"
       }
+     },
+     "qzh": "硫化亚铁是一种……",
+     "ozh": {
+      "metallic element": "金属单质",
+      "mixture": "混合物",
+      "non-metallic element": "非金属单质",
+      "compound": "化合物"
      }
     },
     {
@@ -2495,6 +2805,13 @@
        "en": "Getting bigger does not add mass. Atoms are never made from nothing; the extra atoms are sulfur.",
        "zh": "变大不会增加质量。原子不会凭空产生，多出来的原子是硫。"
       }
+     },
+     "qzh": "James 用了 2.0 g 铁，得到 2.8 g 硫化亚铁。为什么？",
+     "ozh": {
+      "The heat added mass": "加热增加了质量",
+      "Sulfur atoms joined onto the iron": "硫原子结合到了铁上",
+      "The scale was wrong": "秤坏了",
+      "Iron got bigger": "铁变大了"
      }
     },
     {
@@ -2523,6 +2840,13 @@
        "en": "Aluminium is an element, and heating does not change that. The question is about its STATE.",
        "zh": "铝是单质，加热不会改变这一点。题目问的是状态。"
       }
+     },
+     "qzh": "铝在 660 °C 熔化，在 2520 °C 沸腾。在 1500 °C 时它是……",
+     "ozh": {
+      "solid": "固体",
+      "liquid": "液体",
+      "gas": "气体",
+      "a compound": "化合物"
      }
     },
     {
@@ -2551,6 +2875,10 @@
        "en": "H₂O is water. It has no sulfur.",
        "zh": "H₂O 是水，没有硫。"
       }
+     },
+     "qzh": "硫酸的化学式是什么？",
+     "ozh": {
+      "HSO": ""
      }
     }
    ],
@@ -3417,6 +3745,13 @@
        "en": "Brass is copper and zinc mixed, not joined: a mixture (an alloy).",
        "zh": "黄铜是铜和锌混合，没有结合：混合物（合金）。"
       }
+     },
+     "qzh": "下面哪个是化合物？",
+     "ozh": {
+      "carbon monoxide": "一氧化碳",
+      "magnesium": "镁",
+      "bromine": "溴",
+      "brass": "黄铜"
      }
     },
     {
@@ -3445,6 +3780,13 @@
        "en": "There are about 118 known elements, not 1000.",
        "zh": "已知的元素约 118 种，不是 1000 种。"
       }
+     },
+     "qzh": "哪一句是对的？",
+     "ozh": {
+      "Most elements are non-metals": "大多数元素是非金属",
+      "There are 2 liquid elements at room temperature": "室温下有 2 种液态元素",
+      "Most metals are magnetic": "大多数金属有磁性",
+      "There are about 1000 elements": "大约有 1000 种元素"
      }
     },
     {
@@ -3473,6 +3815,13 @@
        "en": "Copper sulfate is a solid, and it has three elements joined, so it is not an element.",
        "zh": "硫酸铜是固体，而且有三种元素结合，不是单质。"
       }
+     },
+     "qzh": "哪两个词适用于硫酸铜？",
+     "ozh": {
+      "gas, compound": "气体，化合物",
+      "solid, mixture": "固体，混合物",
+      "gas, element": "气体，单质",
+      "solid, compound": "固体，化合物"
      }
     },
     {
@@ -3501,6 +3850,13 @@
        "en": "Hydrogen is an element and petrol is a mixture; this has all three wrong.",
        "zh": "氢是单质，汽油是混合物；这三个都错了。"
       }
+     },
+     "qzh": "氢、汽油、水：哪个顺序是对的？",
+     "ozh": {
+      "element, compound, mixture": "单质、化合物、混合物",
+      "element, mixture, compound": "单质、混合物、化合物",
+      "mixture, compound, element": "混合物、化合物、单质",
+      "compound, element, mixture": "化合物、单质、混合物"
      }
     },
     {
@@ -3529,6 +3885,12 @@
        "en": "Two capital letters (Co, O): cobalt and oxygen joined, a compound. (Co with a small o is cobalt; CO with a capital O would be carbon monoxide.)",
        "zh": "两个大写字母（Co、O）：钴和氧结合，是化合物。（Co 小写 o 是钴；CO 大写 O 是一氧化碳。）"
       }
+     },
+     "qzh": "下面哪个是单质？",
+     "ozh": {
+      "MgS": "",
+      "NaCl": "",
+      "CoO": ""
      }
     },
     {
@@ -3557,6 +3919,13 @@
        "en": "Nitrogen is a gas at room temperature, and N₂ is one pure substance, not a mixture.",
        "zh": "氮在室温下是气体，N₂ 是一种纯净物，不是混合物。"
       }
+     },
+     "qzh": "哪两个词适用于氮？",
+     "ozh": {
+      "gas, compound": "气体，化合物",
+      "liquid, compound": "液体，化合物",
+      "gas, element": "气体，单质",
+      "solid, mixture": "固体，混合物"
      }
     },
     {
@@ -3585,6 +3954,13 @@
        "en": "An element and a compound join to make one compound, not a split into elements.",
        "zh": "一种单质和一种化合物结合成一种化合物，不是分解成单质。"
       }
+     },
+     "qzh": "哪个反应是：化合物 → 两种单质？",
+     "ozh": {
+      "zinc + sulfur → zinc sulfide": "锌 + 硫 → 硫化锌",
+      "carbon dioxide + calcium hydroxide → calcium carbonate + water": "二氧化碳 + 氢氧化钙 → 碳酸钙 + 水",
+      "oxygen + copper sulfide → copper sulfate": "氧 + 硫化铜 → 硫酸铜",
+      "water → hydrogen + oxygen": "水 → 氢 + 氧"
      }
     },
     {
@@ -3613,7 +3989,8 @@
        "en": "C₃H₆ has only 6 hydrogens. Propane has 8.",
        "zh": "C₃H₆ 只有 6 个氢。丙烷有 8 个。"
       }
-     }
+     },
+     "qzh": "丙烷的化学式是什么？（3 个碳原子，8 个氢原子）"
     },
     {
      "q": "zinc + sulfur → ?",
@@ -3641,6 +4018,13 @@
        "en": "Chemical names are never squashed together like this. Metal name, then non-metal with -ide.",
        "zh": "化学名称不会这样拼在一起。金属名称，再加非金属 -ide。"
       }
+     },
+     "qzh": "锌 + 硫 → ?（选正确的英文名称）",
+     "ozh": {
+      "zinc sulfate": "",
+      "zinc sulfide": "",
+      "sulfur zinc": "",
+      "zincur": ""
      }
     },
     {
@@ -3669,6 +4053,13 @@
        "en": "Sulfuric acid is H₂SO₄, which needs hydrogen too. Only sulfur and oxygen reacted.",
        "zh": "硫酸是 H₂SO₄，还需要氢。这里只有硫和氧反应。"
       }
+     },
+     "qzh": "硫 + 氧 → ?（选正确的英文名称）",
+     "ozh": {
+      "sulfur oxygen": "",
+      "sulfur dioxide": "",
+      "oxygen sulfide": "",
+      "sulfuric acid": ""
      }
     },
     {
@@ -3697,6 +4088,13 @@
        "en": "Sulfur is yellow before anything happens. A sign of reaction is a CHANGE, like a new black solid.",
        "zh": "硫本来就是黄色的。反应的标志是变化，比如生成新的黑色固体。"
       }
+     },
+     "qzh": "Lily 加热了铁和硫。哪一项说明发生了化学反应？",
+     "ozh": {
+      "The mixture got warm from the burner": "混合物被燃烧器加热变暖了",
+      "It glowed and a new black solid formed": "它发光了，并生成了一种新的黑色固体",
+      "The tray was metal": "托盘是金属的",
+      "Sulfur is yellow": "硫是黄色的"
      }
     },
     {
@@ -3725,6 +4123,13 @@
        "en": "Sulfur alone is a non-metallic element, but iron sulfide has iron joined to it.",
        "zh": "单独的硫是非金属单质，但硫化亚铁里还结合了铁。"
       }
+     },
+     "qzh": "硫化亚铁是一种……",
+     "ozh": {
+      "metallic element": "金属单质",
+      "mixture": "混合物",
+      "non-metallic element": "非金属单质",
+      "compound": "化合物"
      }
     },
     {
@@ -3753,6 +4158,13 @@
        "en": "Getting bigger does not add mass. Atoms are never made from nothing; the extra atoms are sulfur.",
        "zh": "变大不会增加质量。原子不会凭空产生，多出来的原子是硫。"
       }
+     },
+     "qzh": "James 用了 2.0 g 铁，得到 2.8 g 硫化亚铁。为什么？",
+     "ozh": {
+      "The heat added mass": "加热增加了质量",
+      "Sulfur atoms joined onto the iron": "硫原子结合到了铁上",
+      "The scale was wrong": "秤坏了",
+      "Iron got bigger": "铁变大了"
      }
     },
     {
@@ -3781,6 +4193,13 @@
        "en": "Aluminium is an element, and heating does not change that. The question is about its STATE.",
        "zh": "铝是单质，加热不会改变这一点。题目问的是状态。"
       }
+     },
+     "qzh": "铝在 660 °C 熔化，在 2520 °C 沸腾。在 1500 °C 时它是……",
+     "ozh": {
+      "solid": "固体",
+      "liquid": "液体",
+      "gas": "气体",
+      "a compound": "化合物"
      }
     },
     {
@@ -3809,6 +4228,10 @@
        "en": "H₂O is water. It has no sulfur.",
        "zh": "H₂O 是水，没有硫。"
       }
+     },
+     "qzh": "硫酸的化学式是什么？",
+     "ozh": {
+      "HSO": ""
      }
     }
    ],
@@ -3860,6 +4283,13 @@
        "en": "Element is right, but nitrogen is a GAS at room temperature. It is only liquid below −196 °C.",
        "zh": "单质对了，但氮在室温下是气体，只有低于 −196 °C 才是液体。"
       }
+     },
+     "qzh": "哪两个词适用于氮气（N₂）？",
+     "ozh": {
+      "gas, compound": "气体，化合物",
+      "gas, element": "气体，单质",
+      "solid, mixture": "固体，混合物",
+      "liquid, element": "液体，单质"
      }
     },
     {
@@ -3888,6 +4318,13 @@
        "en": "There are about 118 known elements, not 1000.",
        "zh": "已知的元素约 118 种，不是 1000 种。"
       }
+     },
+     "qzh": "哪一句是对的？",
+     "ozh": {
+      "Most metals are magnetic.": "大多数元素是非金属。",
+      "There are 2 liquid elements at room temperature.": "室温下有 2 种液态元素。",
+      "Most elements are non-metals.": "大多数金属有磁性。",
+      "There are about 1000 elements.": "大约有 1000 种元素。"
      }
     },
     {
@@ -3916,6 +4353,13 @@
        "en": "Freezing is liquid → solid.",
        "zh": "凝固是液体 → 固体。"
       }
+     },
+     "qzh": "气体 → 液体叫……",
+     "ozh": {
+      "boiling": "沸腾",
+      "melting": "熔化",
+      "freezing": "凝结",
+      "condensing": "凝固"
      }
     },
     {
@@ -3944,6 +4388,13 @@
        "en": "The change in mass is the RESULT you work out, not something you choose.",
        "zh": "质量变化是你算出来的结果，不是你选的。"
       }
+     },
+     "qzh": "在加热金属的实验里，你只改变的那一样是什么？",
+     "ozh": {
+      "the type of metal": "金属的种类",
+      "the mass after heating": "加热后的质量",
+      "the colour of the flame": "火焰的颜色",
+      "the change in mass": "质量的变化"
      }
     },
     {
@@ -3972,6 +4423,13 @@
        "en": "The mass going up fits Lavoisier's idea: the metal joined with oxygen from the air.",
        "zh": "质量上升符合拉瓦锡的理论：金属和空气中的氧结合了。"
       }
+     },
+     "qzh": "加热后质量增加了。谁说得对？",
+     "ozh": {
+      "Priestley": "普里斯特利",
+      "Lavoisier": "拉瓦锡",
+      "both": "两个人都对",
+      "neither": "两个人都不对"
      }
     },
     {
@@ -4000,7 +4458,8 @@
        "en": "There are 3 atoms in TOTAL, but the ratio compares carbon (1) with oxygen (2).",
        "zh": "总共有 3 个原子，但比是碳（1）比氧（2）。"
       }
-     }
+     },
+     "qzh": "CO₂ 里碳 : 氧的比是多少？"
     },
     {
      "q": "How many OXYGEN atoms are in 6 molecules of CO₂?",
@@ -4028,7 +4487,8 @@
        "en": "18 is 6 × 3, counting ALL the atoms (C and O). The question asks only for oxygen.",
        "zh": "18 是 6 × 3，把所有原子（C 和 O）都算了。题目只问氧。"
       }
-     }
+     },
+     "qzh": "6 个 CO₂ 分子里有几个氧原子？"
     },
     {
      "q": "24 + x = 40. What is x?",
@@ -4056,7 +4516,8 @@
        "en": "Subtraction slip. Check: 24 + 14 = 38, not 40.",
        "zh": "减法算错了。检查：24 + 14 = 38，不是 40。"
       }
-     }
+     },
+     "qzh": "24 + x = 40。x 等于多少？"
     },
     {
      "q": "Simplify the ratio 6 : 9.",
@@ -4084,7 +4545,8 @@
        "en": "Only the 9 was divided. Divide BOTH sides by 3.",
        "zh": "只除了 9。两边都要除以 3。"
       }
-     }
+     },
+     "qzh": "化简比 6 : 9。"
     },
     {
      "q": "In a results table, what goes in the FIRST column?",
@@ -4112,6 +4574,13 @@
        "en": "Your name is not data. Tables only hold the variables.",
        "zh": "名字不是数据，表格里只放变量。"
       }
+     },
+     "qzh": "在结果表里，第一列放什么？",
+     "ozh": {
+      "what you change (type of metal)": "你改变的东西（金属种类）",
+      "change in mass (g)": "质量的变化（g）",
+      "mass after (g)": "加热后的质量（g）",
+      "your name": "你的名字"
      }
     },
     {
@@ -4140,6 +4609,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "空气是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -4168,6 +4644,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "氯化钠（NaCl）是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -4196,6 +4679,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "黄铜是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -4224,6 +4714,13 @@
        "en": "Element is right, but nitrogen is a GAS at room temperature. It is only liquid below −196 °C.",
        "zh": "单质对了，但氮在室温下是气体，只有低于 −196 °C 才是液体。"
       }
+     },
+     "qzh": "哪两个词描述室温下的氮气（N₂）？",
+     "ozh": {
+      "gas, element": "气体，单质",
+      "gas, compound": "气体，化合物",
+      "solid, mixture": "固体，混合物",
+      "liquid, element": "液体，单质"
      }
     },
     {
@@ -4252,6 +4749,13 @@
        "en": "There are no compounds here, and pure means only one substance.",
        "zh": "这里没有化合物，而且纯净就是只有一种物质。"
       }
+     },
+     "qzh": "纯溴（Br₂）属于哪一类物质？",
+     "ozh": {
+      "element": "单质",
+      "compound": "化合物",
+      "mixture of elements": "单质的混合物",
+      "mixture of compounds": "化合物的混合物"
      }
     },
     {
@@ -4280,6 +4784,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "硫化亚铁是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -4308,6 +4819,13 @@
        "en": "A molecule is just two or more atoms joined. It is not one of the three kinds of substance (element, compound, mixture). Always name the kind of substance.",
        "zh": "分子只是两个或更多原子连在一起，不是三种物质类型（单质、化合物、混合物）之一。要写出物质的类型。"
       }
+     },
+     "qzh": "汽油是一种……",
+     "ozh": {
+      "element": "单质（元素）",
+      "compound": "化合物",
+      "mixture": "混合物",
+      "molecule": "分子"
      }
     },
     {
@@ -4336,6 +4854,10 @@
        "en": "Two capital letters (C, O): two elements joined, a compound.",
        "zh": "两个大写字母（C、O）：两种元素结合，是化合物。"
       }
+     },
+     "qzh": "哪个化学式是单质？",
+     "ozh": {
+      "NaCl": ""
      }
     },
     {
@@ -4364,6 +4886,13 @@
        "en": "In a compound the different atoms are JOINED. Here blue and red are not joined to each other.",
        "zh": "化合物里不同的原子是结合的。这里蓝和红没有连在一起。"
       }
+     },
+     "qzh": "一个盒子里有“蓝-蓝”分子和单个的红色原子，彼此没有连在一起。它的完整名称是什么？",
+     "ozh": {
+      "mixture": "混合物",
+      "mixture of two elements": "两种单质的混合物",
+      "mixture of two compounds": "两种化合物的混合物",
+      "compound": "化合物"
      }
     },
     {
@@ -4392,6 +4921,13 @@
        "en": "A mixture needs at least two different substances. Every particle here is the same.",
        "zh": "混合物至少要两种不同的物质。这里每个粒子都一样。"
       }
+     },
+     "qzh": "一个盒子里只有“蓝-蓝”分子。它的完整名称是什么？",
+     "ozh": {
+      "molecules": "分子",
+      "element (molecules)": "单质（分子）",
+      "compound": "化合物",
+      "mixture": "混合物"
      }
     }
    ],
@@ -5256,6 +5792,13 @@
        "en": "An echo is a reflected sound, so it is also longitudinal.",
        "zh": "回声是反射的声音，所以也是纵波。"
       }
+     },
+     "qzh": "哪种波的振动方向和传播方向成 90°？",
+     "ozh": {
+      "longitudinal wave": "纵波",
+      "transverse wave": "横波",
+      "sound wave": "声波",
+      "echo": "回声"
      }
     },
     {
@@ -5284,6 +5827,13 @@
        "en": "Light is transverse and electromagnetic. Sound is a vibration of particles.",
        "zh": "光是横波、电磁波。声音是粒子的振动。"
       }
+     },
+     "qzh": "声音是一种……",
+     "ozh": {
+      "transverse wave": "横波",
+      "electromagnetic wave": "电磁波",
+      "light ray": "光线",
+      "longitudinal wave": "纵波"
      }
     },
     {
@@ -5312,6 +5862,13 @@
        "en": "Pitch is how high or low a note is. A quiet note can be high.",
        "zh": "音调是声音的高低。很小声的音也可以很高。"
       }
+     },
+     "qzh": "声音越响，……越大。",
+     "ozh": {
+      "amplitude": "振幅",
+      "frequency": "频率",
+      "wavelength": "波长",
+      "pitch": "音调"
      }
     },
     {
@@ -5340,6 +5897,13 @@
        "en": "The medium changes the SPEED of sound, not pitch.",
        "zh": "介质改变的是声速，不是音调。"
       }
+     },
+     "qzh": "音调越高，……越高。",
+     "ozh": {
+      "amplitude": "振幅",
+      "decibel": "分贝",
+      "frequency": "频率",
+      "medium": "介质"
      }
     },
     {
@@ -5368,6 +5932,13 @@
        "en": "An echo is a reflected sound, at any frequency. The question is about how high it is.",
        "zh": "回声是反射的声音，什么频率都可能。题目问的是有多高。"
       }
+     },
+     "qzh": "30,000 Hz 的狗哨是……",
+     "ozh": {
+      "infrasound": "次声波",
+      "ultrasound": "超声波",
+      "audible to humans": "人能听到的",
+      "an echo": "回声"
      }
     },
     {
@@ -5396,6 +5967,13 @@
        "en": "An echo is a reflected sound, not a frequency range.",
        "zh": "回声是反射的声音，不是频率范围。"
       }
+     },
+     "qzh": "大象用低于 20 Hz 的声音交流。这是……",
+     "ozh": {
+      "infrasound": "次声波",
+      "ultrasound": "超声波",
+      "a decibel": "分贝",
+      "an echo": "回声"
      }
     },
     {
@@ -5424,6 +6002,13 @@
        "en": "Infrared is heat radiation. It is absorbed quickly by water.",
        "zh": "红外线是热辐射，很快就被水吸收了。"
       }
+     },
+     "qzh": "船用……找到海底。",
+     "ozh": {
+      "x-rays": "X 光",
+      "a prism": "棱镜",
+      "infrared": "红外线",
+      "sonar": "声呐"
      }
     },
     {
@@ -5452,6 +6037,13 @@
        "en": "The auditory canal is the tube that carries sound to the eardrum.",
        "zh": "耳道是把声音传到鼓膜的管子。"
       }
+     },
+     "qzh": "耳朵的哪个部分把振动变成电信号？",
+     "ozh": {
+      "pinna": "耳廓",
+      "eardrum": "鼓膜",
+      "cochlea": "耳蜗",
+      "auditory canal": "耳道"
      }
     },
     {
@@ -5480,6 +6072,13 @@
        "en": "Luminous means it MAKES its own light (the Sun, a flame). It is not about letting light through.",
        "zh": "发光是指自己会发光（太阳、火焰），跟让光透过无关。"
       }
+     },
+     "qzh": "哪种材料一点光都不让通过？",
+     "ozh": {
+      "opaque": "不透明的",
+      "transparent": "透明的",
+      "translucent": "半透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -5508,6 +6107,13 @@
        "en": "A book is seen by reflected light. It makes no light itself.",
        "zh": "书是靠反射光被看到的，自己不发光。"
       }
+     },
+     "qzh": "下面哪个会自己发光？",
+     "ozh": {
+      "the Moon": "月亮",
+      "a candle flame": "蜡烛的火焰",
+      "a mirror": "镜子",
+      "a book": "书"
      }
     },
     {
@@ -5536,6 +6142,13 @@
        "en": "180° is a straight line, which would lie flat along the surface again.",
        "zh": "180° 是一条直线，又躺回表面上了。"
       }
+     },
+     "qzh": "法线画在……",
+     "ozh": {
+      "45° to the surface": "和表面成 45°",
+      "along the surface": "沿着表面",
+      "90° to the surface": "和表面成 90°",
+      "180° to the surface": "和表面成 180°"
      }
     },
     {
@@ -5564,6 +6177,13 @@
        "en": "Orange can be made by mixing other colours, so it is not a primary colour.",
        "zh": "橙色可以由其他颜色混合出来，所以不是原色。"
       }
+     },
+     "qzh": "光的三原色是……",
+     "ozh": {
+      "red, yellow, blue": "红、黄、蓝",
+      "cyan, magenta, yellow": "青、品红、黄",
+      "red, orange, yellow": "红、橙、黄",
+      "red, green, blue": "红、绿、蓝"
      }
     },
     {
@@ -5592,6 +6212,13 @@
        "en": "White needs all THREE primaries: red + green + blue.",
        "zh": "白光要三种原色都有：红 + 绿 + 蓝。"
       }
+     },
+     "qzh": "红光 + 绿光 = ？",
+     "ozh": {
+      "cyan": "青色",
+      "yellow": "黄色",
+      "magenta": "品红色",
+      "white": "白色"
      }
     },
     {
@@ -5620,6 +6247,13 @@
        "en": "Ultraviolet causes sunburn and is used in security marks, not ovens.",
        "zh": "紫外线会造成晒伤，用于防伪标记，不是用来做饭。"
       }
+     },
+     "qzh": "哪种电磁波用来做饭？",
+     "ozh": {
+      "radio wave": "无线电波",
+      "gamma ray": "伽马射线",
+      "ultraviolet": "紫外线",
+      "microwave": "微波"
      }
     },
     {
@@ -5648,6 +6282,13 @@
        "en": "Visible light lets us see. Sunburn comes from the UV just beyond violet.",
        "zh": "可见光让我们看见东西。晒伤来自紫光外面的紫外线。"
       }
+     },
+     "qzh": "哪种电磁波会造成晒伤？",
+     "ozh": {
+      "ultraviolet": "紫外线",
+      "infrared": "红外线",
+      "radio wave": "无线电波",
+      "visible light": "可见光"
      }
     },
     {
@@ -5676,6 +6317,13 @@
        "en": "Sunlight reaches us across empty space, so at least light can, and in fact all EM waves can.",
        "zh": "阳光穿过真空照到我们，所以至少光可以，事实上所有电磁波都可以。"
       }
+     },
+     "qzh": "哪些电磁波能在真空中传播？",
+     "ozh": {
+      "only light": "只有光",
+      "only radio waves": "只有无线电波",
+      "all of them": "全部都能",
+      "none of them": "都不能"
      }
     }
    ],
@@ -5727,6 +6375,13 @@
        "en": "In sound, air particles vibrate back and forth but stay in place. Only the energy moves along.",
        "zh": "声音里的空气粒子前后振动但留在原地，只有能量往前传。"
       }
+     },
+     "qzh": "波传递的是……",
+     "ozh": {
+      "particles": "粒子",
+      "energy": "能量",
+      "water": "水",
+      "air": "空气"
      }
     },
     {
@@ -5755,6 +6410,13 @@
        "en": "\"Equal\" is not a direction.",
        "zh": "equal 不是方向。"
       }
+     },
+     "qzh": "横波的振动方向和传播方向是 ___ 的。",
+     "ozh": {
+      "perpendicular": "垂直",
+      "parallel": "平行",
+      "opposite": "相反",
+      "equal": "相等"
      }
     },
     {
@@ -5783,6 +6445,12 @@
        "en": "The vibrations follow a pattern; they are not random.",
        "zh": "振动是有规律的，不是随机的。"
       }
+     },
+     "qzh": "纵波的振动方向和传播方向是 ___ 的。",
+     "ozh": {
+      "perpendicular": "垂直",
+      "random": "随机",
+      "parallel": "平行"
      }
     },
     {
@@ -5811,6 +6479,13 @@
        "en": "Pitch is how high or low a sound is, which depends on frequency.",
        "zh": "音调是声音的高低，取决于频率。"
       }
+     },
+     "qzh": "从一个波峰到下一个波峰的距离是……",
+     "ozh": {
+      "amplitude": "振幅",
+      "frequency": "频率",
+      "wavelength": "波长",
+      "pitch": "音调"
      }
     },
     {
@@ -5839,6 +6514,13 @@
        "en": "The medium is the material the wave travels through (air, water).",
        "zh": "介质是波传播经过的物质（空气、水）。"
       }
+     },
+     "qzh": "一个点离开平衡位置的最大距离是……",
+     "ozh": {
+      "amplitude": "振幅",
+      "wavelength": "波长",
+      "frequency": "频率",
+      "medium": "介质"
      }
     },
     {
@@ -5867,7 +6549,8 @@
        "en": "50 Hz would be 50 waves every second. There are only 5.",
        "zh": "50 Hz 是每秒 50 个波。这里只有 5 个。"
       }
-     }
+     },
+     "qzh": "每秒有 5 个完整的波经过一个点。频率是……"
     },
     {
      "q": "A space containing no particles is a...",
@@ -5895,6 +6578,13 @@
        "en": "A spectrum is a range of waves or colours, like the rainbow.",
        "zh": "光谱是一系列波或颜色，比如彩虹。"
       }
+     },
+     "qzh": "没有任何粒子的空间叫……",
+     "ozh": {
+      "medium": "介质",
+      "compression": "密部",
+      "vacuum": "真空",
+      "spectrum": "光谱"
      }
     },
     {
@@ -5923,6 +6613,13 @@
        "en": "A vacuum has NO particles at all. A rarefaction still has particles, just spread out.",
        "zh": "真空里一个粒子都没有。疏部还有粒子，只是分散开了。"
       }
+     },
+     "qzh": "在纵波里，粒子分得比较开的地方叫……",
+     "ozh": {
+      "compression": "密部",
+      "crest": "波峰",
+      "vacuum": "真空",
+      "rarefaction": "疏部"
      }
     },
     {
@@ -5951,6 +6648,13 @@
        "en": "The medium changes how fast sound travels, not its pitch.",
        "zh": "介质改变声速，不是音调。"
       }
+     },
+     "qzh": "音调取决于……",
+     "ozh": {
+      "amplitude": "振幅",
+      "frequency": "频率",
+      "decibels": "分贝",
+      "medium": "介质"
      }
     },
     {
@@ -5979,6 +6683,13 @@
        "en": "Pitch is high or low, not loud or quiet.",
        "zh": "音调是高低，不是大小声。"
       }
+     },
+     "qzh": "响度和……有关。",
+     "ozh": {
+      "frequency": "频率",
+      "wavelength": "波长",
+      "pitch": "音调",
+      "amplitude": "振幅"
      }
     },
     {
@@ -6007,7 +6718,8 @@
        "en": "This range is too narrow. It misses the lowest and highest sounds we hear.",
        "zh": "这个范围太窄，漏掉了我们能听到的最低和最高的声音。"
       }
-     }
+     },
+     "qzh": "人能听到的范围大约是……"
     },
     {
      "q": "Sound heard again after reflecting off a surface is an...",
@@ -6035,6 +6747,13 @@
        "en": "Infrasound is sound below 20 Hz, not reflected sound.",
        "zh": "次声波是低于 20 Hz 的声音，不是反射的声音。"
       }
+     },
+     "qzh": "声音碰到表面反射回来又被听到，叫……",
+     "ozh": {
+      "ultrasound": "超声波",
+      "eardrum": "鼓膜",
+      "echo": "回声",
+      "infrasound": "次声波"
      }
     },
     {
@@ -6063,6 +6782,13 @@
        "en": "The auditory nerve carries signals to the brain, deep inside the head.",
        "zh": "听神经在头部深处，把信号送到大脑。"
       }
+     },
+     "qzh": "耳朵外面收集声波的部分是……",
+     "ozh": {
+      "cochlea": "耳蜗",
+      "pinna": "耳廓",
+      "ossicles": "听小骨",
+      "auditory nerve": "听神经"
      }
     },
     {
@@ -6091,6 +6817,13 @@
        "en": "The pinna is the FIRST part, already at the start of the list.",
        "zh": "耳廓是第一部分，已经在开头了。"
       }
+     },
+     "qzh": "给耳朵排顺序：耳廓 → 耳道 → ___ → 听小骨 → 耳蜗 → 听神经",
+     "ozh": {
+      "eardrum": "鼓膜",
+      "brain": "大脑",
+      "sonar": "声呐",
+      "pinna": "耳廓"
      }
     },
     {
@@ -6119,6 +6852,13 @@
        "en": "The pinna collects sound on the outside.",
        "zh": "耳廓在外面收集声音。"
       }
+     },
+     "qzh": "什么把电信号从耳蜗送到大脑？",
+     "ozh": {
+      "auditory canal": "耳道",
+      "eardrum": "鼓膜",
+      "pinna": "耳廓",
+      "auditory nerve": "听神经"
      }
     }
    ],
@@ -6170,6 +6910,13 @@
        "en": "Luminous means it makes its own light, not that light passes through it.",
        "zh": "发光是自己会发光，不是光能穿过。"
       }
+     },
+     "qzh": "能让光清楚地穿过的材料是……",
+     "ozh": {
+      "translucent": "半透明的",
+      "opaque": "不透明的",
+      "transparent": "透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -6198,6 +6945,13 @@
        "en": "Non-luminous only means it makes no light. That is true but does not describe how light passes through.",
        "zh": "不发光只是说它自己不发光，这没错，但没有说明光怎样穿过它。"
       }
+     },
+     "qzh": "描图纸能透光，但看不清楚后面的东西。它是……",
+     "ozh": {
+      "translucent": "半透明的",
+      "transparent": "透明的",
+      "opaque": "不透明的",
+      "non-luminous": "不发光的"
      }
     },
     {
@@ -6226,6 +6980,13 @@
        "en": "A flame makes its own light: luminous.",
        "zh": "火焰自己发光：是光源。"
       }
+     },
+     "qzh": "哪个不会自己发光？",
+     "ozh": {
+      "the Sun": "太阳",
+      "the Moon": "月亮",
+      "a torch that is on": "开着的手电筒",
+      "a candle flame": "蜡烛的火焰"
      }
     },
     {
@@ -6254,6 +7015,13 @@
        "en": "Refraction is light BENDING into a new material. Its angle is between the refracted ray and the normal.",
        "zh": "折射是光进入新物质时弯折，折射角是折射光线和法线之间的角。"
       }
+     },
+     "qzh": "入射光线和法线之间的角叫……",
+     "ozh": {
+      "angle of reflection": "反射角",
+      "right angle": "直角",
+      "angle of incidence": "入射角",
+      "angle of refraction": "折射角"
      }
     },
     {
@@ -6282,7 +7050,8 @@
        "en": "145° is 180° − 35°. The law of reflection says the two angles are EQUAL.",
        "zh": "145° 是 180° − 35°。反射定律说两个角相等。"
       }
-     }
+     },
+     "qzh": "入射角是 35°。反射角是……"
     },
     {
      "q": "Light bends when it goes from air into glass because its ___ changes.",
@@ -6310,6 +7079,13 @@
        "en": "Brightness has nothing to do with bending. The change in SPEED causes refraction.",
        "zh": "亮度和弯折无关，是速度的变化造成折射。"
       }
+     },
+     "qzh": "光从空气进入玻璃时会弯折，因为它的 ___ 变了。",
+     "ozh": {
+      "colour": "颜色",
+      "speed": "速度",
+      "amplitude": "振幅",
+      "brightness": "亮度"
      }
     },
     {
@@ -6338,6 +7114,13 @@
        "en": "Inversion means turning upside down (like an image in a pinhole camera).",
        "zh": "倒置是上下颠倒（像针孔相机里的像）。"
       }
+     },
+     "qzh": "白光分成各种颜色叫……",
+     "ozh": {
+      "reflection": "反射",
+      "absorption": "吸收",
+      "inversion": "倒置",
+      "dispersion": "色散"
      }
     },
     {
@@ -6366,6 +7149,13 @@
        "en": "These are the secondary colours of PAINT. Light mixes differently because it adds instead of absorbing.",
        "zh": "这些是颜料的二次色。光是相加而不是吸收，所以混合方式不同。"
       }
+     },
+     "qzh": "光的二次色是……",
+     "ozh": {
+      "cyan, magenta, yellow": "青、品红、黄",
+      "red, green, blue": "红、绿、蓝",
+      "red, yellow, blue": "红、黄、蓝",
+      "orange, green, purple": "橙、绿、紫"
      }
     },
     {
@@ -6394,6 +7184,13 @@
        "en": "Transmitting all colours means light goes straight through, so it would look clear like glass.",
        "zh": "让所有颜色通过就是光直接穿过去，它会像玻璃一样透明。"
       }
+     },
+     "qzh": "红苹果看起来是红色的，因为它……",
+     "ozh": {
+      "absorbs red light": "吸收红光",
+      "makes its own red light": "自己发出红光",
+      "reflects red light and absorbs the other colours": "反射红光，吸收其他颜色",
+      "transmits all colours": "让所有颜色都穿过去"
      }
     },
     {
@@ -6422,6 +7219,13 @@
        "en": "Visible light is only a small part of the EM spectrum: radio, microwave, infrared, UV, X-ray and gamma are EM waves too.",
        "zh": "可见光只是电磁波谱的一小部分：无线电波、微波、红外线、紫外线、X 光和伽马射线都是电磁波。"
       }
+     },
+     "qzh": "电磁波是……",
+     "ozh": {
+      "longitudinal, and need a medium": "纵波，需要介质",
+      "transverse, and can travel through a vacuum": "横波，能在真空中传播",
+      "sound waves": "声波",
+      "only visible light": "只有可见光"
      }
     },
     {
@@ -6450,6 +7254,13 @@
        "en": "Ultraviolet is higher than visible light, near the top end.",
        "zh": "紫外线比可见光高，接近高频端。"
       }
+     },
+     "qzh": "哪种电磁波的频率最低？",
+     "ozh": {
+      "radio wave": "无线电波",
+      "gamma ray": "伽马射线",
+      "x-ray": "X 光",
+      "ultraviolet": "紫外线"
      }
     },
     {
@@ -6478,6 +7289,13 @@
        "en": "Gamma rays are for cancer treatment and sterilising.",
        "zh": "伽马射线用于治疗癌症和消毒。"
       }
+     },
+     "qzh": "热成像和遥控器用的是哪种电磁波？",
+     "ozh": {
+      "microwave": "微波",
+      "x-ray": "X 光",
+      "gamma ray": "伽马射线",
+      "infrared": "红外线"
      }
     },
     {
@@ -6506,6 +7324,13 @@
        "en": "Radio shows use RADIO waves.",
        "zh": "广播节目用无线电波。"
       }
+     },
+     "qzh": "X 光用于医学影像，因为它们……",
+     "ozh": {
+      "cook food": "能做饭",
+      "cause sunburn": "会造成晒伤",
+      "pass through soft tissue": "能穿过软组织",
+      "carry radio shows": "能传送广播节目"
      }
     },
     {
@@ -6534,6 +7359,13 @@
        "en": "Visible light lets us see. It does not have enough energy to destroy cancer cells.",
        "zh": "可见光让我们看见东西，能量不够摧毁癌细胞。"
       }
+     },
+     "qzh": "治疗癌症用的是哪种电磁波？",
+     "ozh": {
+      "gamma ray": "伽马射线",
+      "radio wave": "无线电波",
+      "infrared": "红外线",
+      "visible light": "可见光"
      }
     },
     {
@@ -6562,6 +7394,13 @@
        "en": "Absorbed radiation adds energy, which HEATS things, not cools them. The real danger is damage to cells.",
        "zh": "被吸收的辐射会增加能量，让东西变热，不是变冷。真正的危险是伤害细胞。"
       }
+     },
+     "qzh": "电离辐射很危险，因为它会……",
+     "ozh": {
+      "make things invisible": "让东西隐形",
+      "damage cells and DNA": "伤害细胞和 DNA",
+      "stop sound": "让声音停止",
+      "cool things down": "让东西变冷"
      }
     }
    ],
@@ -6615,6 +7454,13 @@
        "en": "Luminous means it makes its own light. Glass does not.",
        "zh": "发光是自己发光，玻璃不会。"
       }
+     },
+     "qzh": "窗户玻璃是……",
+     "ozh": {
+      "translucent": "半透明的",
+      "transparent": "透明的",
+      "opaque": "不透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -6643,6 +7489,13 @@
        "en": "It is non-luminous, but that only says it makes no light. The question is how light passes through.",
        "zh": "它确实不发光，但那只说明它自己不发光。题目问的是光怎样穿过。"
       }
+     },
+     "qzh": "浴室的磨砂玻璃是……",
+     "ozh": {
+      "transparent": "透明的",
+      "opaque": "不透明的",
+      "non-luminous only": "只是不发光的",
+      "translucent": "半透明的"
      }
     },
     {
@@ -6671,6 +7524,13 @@
        "en": "A door makes no light of its own.",
        "zh": "门自己不发光。"
       }
+     },
+     "qzh": "木门是……",
+     "ozh": {
+      "opaque": "不透明的",
+      "transparent": "透明的",
+      "translucent": "半透明的",
+      "luminous": "发光的"
      }
     },
     {
@@ -6699,6 +7559,13 @@
        "en": "A white wall reflects a lot of light but makes none itself.",
        "zh": "白墙反射很多光，但自己不发光。"
       }
+     },
+     "qzh": "哪个会自己发光？",
+     "ozh": {
+      "the Moon": "月亮",
+      "a mirror": "镜子",
+      "a lit torch": "开着的手电筒",
+      "a white wall": "白墙"
      }
     },
     {
@@ -6727,6 +7594,13 @@
        "en": "Being opaque only means light cannot pass through it. We see it because light BOUNCES off it into our eyes.",
        "zh": "不透明只表示光穿不过去。我们看到它是因为光从它上面反射进眼睛。"
       }
+     },
+     "qzh": "我们能看到书，是因为……",
+     "ozh": {
+      "it makes its own light": "它自己发光",
+      "light reflects off it into our eyes": "光从它上面反射进我们的眼睛",
+      "our eyes send out light": "我们的眼睛发出光",
+      "it is opaque": "它是不透明的"
      }
     },
     {
@@ -6755,6 +7629,13 @@
        "en": "Light does not curve in air. Dotted lines are only used for the normal or for virtual rays behind a mirror.",
        "zh": "光在空气中不会弯。虚线只用来画法线或镜子后面的虚像光线。"
       }
+     },
+     "qzh": "光线画成……",
+     "ozh": {
+      "straight lines with arrows": "带箭头的直线",
+      "wavy lines": "波浪线",
+      "circles": "圆圈",
+      "dotted curves": "虚线曲线"
      }
     },
     {
@@ -6783,7 +7664,8 @@
        "en": "150° is 180° − 30°. The law says the two angles are equal.",
        "zh": "150° 是 180° − 30°。定律说两个角相等。"
       }
-     }
+     },
+     "qzh": "入射角是 30°。反射角是……"
     },
     {
      "q": "Angles in a ray diagram are measured from the...",
@@ -6811,6 +7693,13 @@
        "en": "The light source can be anywhere. Angles are measured at the mirror, from the normal.",
        "zh": "光源可以在任何地方。角是在镜面上从法线量的。"
       }
+     },
+     "qzh": "光路图里的角是从……量的。",
+     "ozh": {
+      "mirror surface": "镜面",
+      "top of the page": "纸的顶部",
+      "normal": "法线",
+      "light source": "光源"
      }
     },
     {
@@ -6839,6 +7728,13 @@
        "en": "A refracted ray goes INTO a new material and bends, like into glass or water.",
        "zh": "折射光线是进入新物质时弯折的光线，比如进入玻璃或水。"
       }
+     },
+     "qzh": "从镜子上反弹回来的光线叫……",
+     "ozh": {
+      "reflected ray": "反射光线",
+      "incident ray": "入射光线",
+      "normal": "法线",
+      "refracted ray": "折射光线"
      }
     },
     {
@@ -6867,6 +7763,13 @@
        "en": "Absorption is a material taking in light.",
        "zh": "吸收是物质把光吸进去。"
       }
+     },
+     "qzh": "在平面镜里，你的右手看起来像左手。这叫……",
+     "ozh": {
+      "refraction": "折射",
+      "laterally inverted": "左右颠倒",
+      "dispersion": "色散",
+      "absorption": "吸收"
      }
     }
    ],
@@ -7016,6 +7919,13 @@
        "en": "CO₂ has one formula: carbon and oxygen joined, a compound.",
        "zh": "CO₂ 有一个化学式：碳和氧结合，是化合物。"
       }
+     },
+     "qzh": "哪个是混合物？",
+     "ozh": {
+      "water (H₂O)": "水（H₂O）",
+      "air": "空气",
+      "oxygen (O₂)": "氧气（O₂）",
+      "carbon dioxide (CO₂)": "二氧化碳（CO₂）"
      }
     },
     {
@@ -7044,6 +7954,11 @@
        "en": "Two capital letters (Na, Cl): a compound.",
        "zh": "两个大写字母（Na、Cl）：化合物。"
       }
+     },
+     "qzh": "哪个是单质？",
+     "ozh": {
+      "MgO": "",
+      "NaCl": ""
      }
     },
     {
@@ -7072,7 +7987,8 @@
        "en": "Cu (copper) has one capital letter: an element.",
        "zh": "Cu（铜）只有一个大写字母：单质。"
       }
-     }
+     },
+     "qzh": "哪个是化合物？"
     },
     {
      "q": "How many atoms are in ONE molecule of CH₄?",
@@ -7100,7 +8016,8 @@
        "en": "1 is the number of molecules, or only the carbon. There are 5 atoms inside it.",
        "zh": "1 是分子数，或只数了碳。里面有 5 个原子。"
       }
-     }
+     },
+     "qzh": "一个 CH₄ 分子里有几个原子？"
     },
     {
      "q": "How many oxygen atoms are in 2H₂O?",
@@ -7128,7 +8045,8 @@
        "en": "6 is ALL the atoms (2 × 3). The question asks only for oxygen.",
        "zh": "6 是所有原子（2 × 3）。题目只问氧。"
       }
-     }
+     },
+     "qzh": "2H₂O 里有几个氧原子？"
     },
     {
      "q": "magnesium + oxygen → ?",
@@ -7156,6 +8074,13 @@
        "en": "The metal comes FIRST, and oxygen changes to oxide at the end.",
        "zh": "金属在前，oxygen 在后面改成 oxide。"
       }
+     },
+     "qzh": "镁 + 氧 → ?（选正确的英文名称）",
+     "ozh": {
+      "magnesium oxide": "",
+      "magnesium oxygenide": "",
+      "magnesium dioxide": "",
+      "oxygen magnesium": ""
      }
     },
     {
@@ -7184,6 +8109,13 @@
        "en": "Reactants are substances that react. They are not called mixtures.",
        "zh": "反应物是参加反应的物质，不叫混合物。"
       }
+     },
+     "qzh": "在文字方程式里，箭头左边的物质叫……",
+     "ozh": {
+      "products": "生成物",
+      "elements": "单质",
+      "mixtures": "混合物",
+      "reactants": "反应物"
      }
     },
     {
@@ -7212,6 +8144,13 @@
        "en": "Cut paper is still paper, just smaller pieces: physical.",
        "zh": "剪开的纸还是纸，只是变小了：物理变化。"
       }
+     },
+     "qzh": "哪个是化学变化？",
+     "ozh": {
+      "melting ice": "冰融化",
+      "dissolving sugar": "糖溶解",
+      "burning paper": "烧纸",
+      "cutting paper": "剪纸"
      }
     },
     {
@@ -7240,6 +8179,11 @@
        "en": "The atoms are still all there, just joined differently.",
        "zh": "原子都还在，只是连接方式变了。"
       }
+     },
+     "qzh": "反应前质量 = 10 g。反应后（没有东西跑掉）= ？",
+     "ozh": {
+      "less than 10 g": "少于 10 g",
+      "more than 10 g": "多于 10 g"
      }
     },
     {
@@ -7268,6 +8212,13 @@
        "en": "Condensing is gas → liquid.",
        "zh": "凝结是气体 → 液体。"
       }
+     },
+     "qzh": "液体 → 固体叫……",
+     "ozh": {
+      "melting": "熔化",
+      "freezing": "凝固",
+      "boiling": "沸腾",
+      "condensing": "凝结"
      }
     },
     {
@@ -7296,6 +8247,13 @@
        "en": "Mixture is about what a substance is made of, not its state. The question asks the state.",
        "zh": "混合物讲的是组成，不是状态。题目问的是状态。"
       }
+     },
+     "qzh": "一种物质在 -10 °C 熔化，在 80 °C 沸腾。在 20 °C 时它是……",
+     "ozh": {
+      "solid": "固体",
+      "gas": "气体",
+      "liquid": "液体",
+      "mixture": "混合物"
      }
     },
     {
@@ -7324,6 +8282,13 @@
        "en": "Results are the measurements you record, not variables you hold steady.",
        "zh": "结果是记录的测量值，不是保持不变的变量。"
       }
+     },
+     "qzh": "在公平测试里，保持不变的变量叫……",
+     "ozh": {
+      "independent variable": "自变量",
+      "dependent variable": "因变量",
+      "results": "结果",
+      "control variables": "控制变量"
      }
     }
    ],
@@ -7375,6 +8340,13 @@
        "en": "The source stays the same. The new MATERIAL changes the speed.",
        "zh": "光源没变，是新的物质改变了速度。"
       }
+     },
+     "qzh": "折射是光因为 ___ 改变而改变方向。",
+     "ozh": {
+      "colour": "颜色",
+      "amplitude": "振幅",
+      "speed": "速度",
+      "source": "光源"
      }
     },
     {
@@ -7403,6 +8375,13 @@
        "en": "Absorption takes light in. It does not make things look bent.",
        "zh": "吸收是把光吸进去，不会让东西看起来弯。"
       }
+     },
+     "qzh": "吸管放在水杯里看起来弯了。这是由……造成的。",
+     "ozh": {
+      "reflection": "反射",
+      "dispersion": "色散",
+      "absorption": "吸收",
+      "refraction": "折射"
      }
     },
     {
@@ -7431,6 +8410,13 @@
        "en": "Absorption takes light in. A prism lets the light through and spreads it out.",
        "zh": "吸收是把光吸进去。棱镜是让光通过并分散开。"
       }
+     },
+     "qzh": "棱镜把白光分成各种颜色。这是……",
+     "ozh": {
+      "reflection": "反射",
+      "dispersion": "色散",
+      "lateral inversion": "左右颠倒",
+      "absorption": "吸收"
      }
     },
     {
@@ -7459,6 +8445,13 @@
        "en": "Paper is opaque or translucent, so light cannot pass cleanly through it.",
        "zh": "纸不透明或半透明，光不能清楚地穿过。"
       }
+     },
+     "qzh": "棱镜通常用……做成。",
+     "ozh": {
+      "wood": "木头",
+      "metal": "金属",
+      "paper": "纸",
+      "glass or plastic": "玻璃或塑料"
      }
     },
     {
@@ -7487,6 +8480,13 @@
        "en": "Mirrors reflect light; they are not part of the spectrum.",
        "zh": "镜子反射光，不是光谱的一部分。"
       }
+     },
+     "qzh": "可见光谱是一系列……",
+     "ozh": {
+      "colours": "颜色",
+      "sounds": "声音",
+      "temperatures": "温度",
+      "mirrors": "镜子"
      }
     },
     {
@@ -7515,6 +8515,13 @@
        "en": "Black is no light, and white is all colours together. Neither is a primary colour.",
        "zh": "黑是没有光，白是所有颜色加在一起，都不是原色。"
       }
+     },
+     "qzh": "光的三原色是……",
+     "ozh": {
+      "red, yellow and blue": "红、黄和蓝",
+      "cyan, magenta and yellow": "青、品红和黄",
+      "red, green and blue": "红、绿和蓝",
+      "black and white": "黑和白"
      }
     },
     {
@@ -7543,6 +8550,13 @@
        "en": "White needs all three: red + green + blue.",
        "zh": "白光要三种都有：红 + 绿 + 蓝。"
       }
+     },
+     "qzh": "绿光 + 蓝光 = ？",
+     "ozh": {
+      "magenta": "品红色",
+      "cyan": "青色",
+      "yellow": "黄色",
+      "white": "白色"
      }
     },
     {
@@ -7571,6 +8585,13 @@
        "en": "Yellow is only red + green. Adding blue too makes white.",
        "zh": "黄色只是红 + 绿。再加上蓝就是白。"
       }
+     },
+     "qzh": "红光 + 绿光 + 蓝光 = ？",
+     "ozh": {
+      "white": "白色",
+      "black": "黑色",
+      "brown": "棕色",
+      "yellow": "黄色"
      }
     },
     {
@@ -7599,6 +8620,13 @@
        "en": "If all light passed through, the leaf would look clear, not green.",
        "zh": "如果所有光都穿过去，叶子会是透明的，不是绿色。"
       }
+     },
+     "qzh": "绿叶看起来是绿色的，因为它……",
+     "ozh": {
+      "absorbs green light": "吸收绿光",
+      "makes green light": "发出绿光",
+      "transmits all light": "让所有光穿过",
+      "reflects green light and absorbs the rest": "反射绿光，吸收其他颜色"
      }
     },
     {
@@ -7627,6 +8655,13 @@
        "en": "A transparent T-shirt would be see-through, not white.",
        "zh": "透明的 T 恤是能看穿的，不是白色。"
       }
+     },
+     "qzh": "白 T 恤看起来是白色的，因为它……",
+     "ozh": {
+      "absorbs all colours": "吸收所有颜色",
+      "makes its own light": "自己发光",
+      "reflects all colours": "反射所有颜色",
+      "is transparent": "是透明的"
      }
     },
     {
@@ -7655,6 +8690,13 @@
        "en": "A black T-shirt makes no light, and if it did it would not look black.",
        "zh": "黑 T 恤不发光，如果发光就不会是黑的。"
       }
+     },
+     "qzh": "黑 T 恤看起来是黑色的，因为它……",
+     "ozh": {
+      "absorbs all colours": "吸收所有颜色",
+      "reflects all colours": "反射所有颜色",
+      "reflects only black light": "只反射黑光",
+      "is luminous": "会发光"
      }
     },
     {
@@ -7683,6 +8725,13 @@
        "en": "Splitting into colours is DISPERSION.",
        "zh": "分成颜色是色散。"
       }
+     },
+     "qzh": "transmit（透射）光的意思是……",
+     "ozh": {
+      "bounce it back": "把光弹回去",
+      "let it pass through": "让光穿过去",
+      "take it in": "把光吸进去",
+      "split it into colours": "把光分成颜色"
      }
     }
    ],
