@@ -2824,11 +2824,11 @@
   }
   /* Every finished try of every homework, newest first. */
   function allTries(all, onlyParts) {
-    var rows = [];
+    var rows = [], seen = {};
     all.forEach(function (x) {
-      if (x.d.kind !== 'homework') return;
       if (onlyParts && !dayParts(x.w, x.d).some(function (p) { return onlyParts.indexOf(p) >= 0; })) return;
-      dayHw(x.w, x.d).forEach(function (a) {
+      dayHw(x.w, x.d).forEach(function (a) {   /* homework quizzes, and class-day quizzes with saved tries (e.g. an end-of-class big quiz) */
+        var k = x.w.week + '/' + a.id; if (seen[k]) return; seen[k] = true;
         hwTries(x.w.week, a).forEach(function (t, n) { rows.push({ x: x, a: a, t: t, n: n + 1 }); });
       });
     });

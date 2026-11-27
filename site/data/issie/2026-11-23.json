@@ -94,20 +94,23 @@
   {
    "date": "2026-11-27",
    "title": {
-    "en": "Maths Chapter 8: Equations and Inequalities",
-    "zh": "数学第 8 章：方程和不等式"
+    "en": "Maths Chapters 8 and 9 + The Atmosphere",
+    "zh": "数学第 8、9 章 + 大气层"
    },
    "message": {
-    "en": "Class with Roy, for Tuesday's Unit 8 and 9 test. Main Book M4 and M5 (and M1 if needed), then the class quiz.",
-    "zh": "和 Roy 老师上课，为星期二的第 8、9 单元测验准备。先学主课本 M4 和 M5（需要的话 M1），再做课堂小测。"
+    "en": "Class with Roy, for Tuesday's Unit 8 and 9 test. Main Book M4, M5 and M6, then the two class quizzes. If there is time, start the science: W10 The Atmosphere. At the end of class, take the Big Quiz (25 questions).",
+    "zh": "和 Roy 老师上课，为星期二的第 8、9 单元测验准备。先学主课本 M4、M5 和 M6，再做两个课堂小测。有时间的话开始学科学：W10 大气层。下课前做大测验（25 道题）。"
    },
    "activities": [
-    "m8-quiz"
+    "m8-quiz",
+    "m9-quiz",
+    "big27"
    ],
    "book": [
-    "M1",
     "M4",
-    "M5"
+    "M5",
+    "M6",
+    "W10"
    ]
   },
   {
@@ -154,11 +157,12 @@
     "zh": "数学第 9 章 + 测验复习"
    },
    "message": {
-    "en": "Class with Roy. Main Book M6, then review Chapters 8 and 9 for tomorrow's test.",
-    "zh": "和 Roy 老师上课。先学主课本 M6，再复习第 8、9 章，准备明天的测验。"
+    "en": "Class with Roy. Test review for tomorrow: go over anything that was hard on Friday, then the review quiz and the Big Quiz again.",
+    "zh": "和 Roy 老师上课。为明天的测验复习：把星期五觉得难的再看一遍，再做复习小测和大测验。"
    },
    "activities": [
-    "m9-quiz"
+    "m9-quiz",
+    "big27"
    ],
    "book": [
     "M6",
@@ -4153,6 +4157,700 @@
     "zh": "我已经准备好第 8、9 单元测验了。"
    },
    "count": 10
+  },
+  {
+   "id": "big27",
+   "type": "hwquiz",
+   "part": "M",
+   "icon": "🏁",
+   "title": {
+    "en": "End-of-Class Big Quiz: Chapter 8, Chapter 9 and the Atmosphere",
+    "zh": "课堂结束大测验：第 8 章、第 9 章和大气层"
+   },
+   "subtitle": {
+    "en": "25 questions",
+    "zh": "25 道题"
+   },
+   "intro": {
+    "en": "Take this at the end of class. 25 questions: equations, inequalities, variables and graphs, and the atmosphere. Read every \"why\" when you get one wrong.",
+    "zh": "下课前做。25 道题：方程、不等式、变量和图像，还有大气层。答错时要读每一条“原因”。"
+   },
+   "questions": [
+    {
+     "q": "Is 6 a solution of x + 9 = 15?",
+     "options": [
+      "No",
+      "Yes"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "A solution makes the equation TRUE. Put 6 in for x: 6 + 9 = 15, and 15 = 15 ✓.",
+      "zh": "解会让等式成立。把 6 代入 x：6 + 9 = 15，15 = 15 ✓。"
+     },
+     "wrong": {
+      "No": {
+       "en": "Work it out: 6 + 9 = 15, exactly the right side. So 6 IS a solution.",
+       "zh": "算一下：6 + 9 = 15，和右边一样，所以 6 是解。"
+      }
+     }
+    },
+    {
+     "q": "y + 23 = 41. y = ?",
+     "options": [
+      "64",
+      "28",
+      "23",
+      "18"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Undo \"+ 23\" with \"− 23\" on both sides: y = 41 − 23 = 18. Check: 18 + 23 = 41 ✓.",
+      "zh": "用“− 23”抵消“+ 23”，两边都减：y = 41 − 23 = 18。检查：18 + 23 = 41 ✓。"
+     },
+     "wrong": {
+      "64": {
+       "en": "64 is 41 + 23: it adds instead of undoing. Check: 64 + 23 = 87.",
+       "zh": "64 是 41 + 23，加了而没有抵消。检查：64 + 23 = 87。"
+      },
+      "28": {
+       "en": "Subtraction slip. Check: 28 + 23 = 51, not 41.",
+       "zh": "减法算错了。检查：28 + 23 = 51，不是 41。"
+      },
+      "23": {
+       "en": "23 is the number already in the equation. Check: 23 + 23 = 46.",
+       "zh": "23 是题目里本来的数。检查：23 + 23 = 46。"
+      }
+     }
+    },
+    {
+     "q": "k − 14 = 30. k = ?",
+     "options": [
+      "44",
+      "16",
+      "30",
+      "14"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Undo \"− 14\" with \"+ 14\" on both sides: k = 30 + 14 = 44. Check: 44 − 14 = 30 ✓.",
+      "zh": "用“+ 14”抵消“− 14”，两边都加：k = 30 + 14 = 44。检查：44 − 14 = 30 ✓。"
+     },
+     "wrong": {
+      "16": {
+       "en": "16 is 30 − 14: it subtracts again instead of undoing. Check: 16 − 14 = 2.",
+       "zh": "16 是 30 − 14，又减了一次。检查：16 − 14 = 2。"
+      },
+      "30": {
+       "en": "30 is the answer side, not k. Check: 30 − 14 = 16.",
+       "zh": "30 是等号右边的数，不是 k。检查：30 − 14 = 16。"
+      },
+      "14": {
+       "en": "14 is the number taken away. Check: 14 − 14 = 0.",
+       "zh": "14 是被减去的数。检查：14 − 14 = 0。"
+      }
+     }
+    },
+    {
+     "q": "8n = 72. n = ?",
+     "options": [
+      "64",
+      "80",
+      "9",
+      "576"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "8n means 8 × n. Undo it by dividing both sides by 8: n = 72 ÷ 8 = 9. Check: 8 × 9 = 72 ✓.",
+      "zh": "8n 是 8 × n，两边都除以 8：n = 72 ÷ 8 = 9。检查：8 × 9 = 72 ✓。"
+     },
+     "wrong": {
+      "64": {
+       "en": "64 is 72 − 8. 8n is multiplication, so divide. Check: 8 × 64 = 512.",
+       "zh": "64 是 72 − 8。8n 是乘法，要除。检查：8 × 64 = 512。"
+      },
+      "80": {
+       "en": "80 is 72 + 8. Divide instead. Check: 8 × 80 = 640.",
+       "zh": "80 是 72 + 8，应该除。检查：8 × 80 = 640。"
+      },
+      "576": {
+       "en": "576 is 72 × 8, which multiplies again. Check: 8 × 576 = 4608.",
+       "zh": "576 是 72 × 8，又乘了一次。检查：8 × 576 = 4608。"
+      }
+     }
+    },
+    {
+     "q": "p ÷ 4 = 7. p = ?",
+     "options": [
+      "11",
+      "28",
+      "3",
+      "1.75"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The inverse of dividing by 4 is multiplying by 4: p = 7 × 4 = 28. Check: 28 ÷ 4 = 7 ✓.",
+      "zh": "除以 4 的逆运算是乘以 4：p = 7 × 4 = 28。检查：28 ÷ 4 = 7 ✓。"
+     },
+     "wrong": {
+      "11": {
+       "en": "11 is 7 + 4. Undo division with MULTIPLICATION. Check: 11 ÷ 4 is not 7.",
+       "zh": "11 是 7 + 4。除法要用乘法抵消。检查：11 ÷ 4 不是 7。"
+      },
+      "3": {
+       "en": "3 is 7 − 4. Undo division with multiplication. Check: 3 ÷ 4 is less than 1.",
+       "zh": "3 是 7 − 4。除法要用乘法抵消。检查：3 ÷ 4 小于 1。"
+      },
+      "1.75": {
+       "en": "1.75 is 7 ÷ 4: it divides again instead of undoing.",
+       "zh": "1.75 是 7 ÷ 4，又除了一次而没有抵消。"
+      }
+     }
+    },
+    {
+     "q": "Which is the best first step for x − 12 = 5?",
+     "options": [
+      "add 12 to both sides",
+      "subtract 12 from both sides",
+      "divide both sides by 12",
+      "add 5 to both sides"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "x has 12 taken away. The inverse of subtracting 12 is ADDING 12, on both sides to keep it balanced: x = 5 + 12 = 17.",
+      "zh": "x 被减去了 12。减 12 的逆运算是加 12，两边都加才保持平衡：x = 5 + 12 = 17。"
+     },
+     "wrong": {
+      "subtract 12 from both sides": {
+       "en": "Subtracting 12 again makes x − 24, further from x alone.",
+       "zh": "再减 12 会变成 x − 24，离 x 单独更远。"
+      },
+      "divide both sides by 12": {
+       "en": "Dividing undoes MULTIPLYING. Here 12 is subtracted.",
+       "zh": "除法是抵消乘法的。这里 12 是被减去的。"
+      },
+      "add 5 to both sides": {
+       "en": "Adding 5 does not remove the − 12 next to x.",
+       "zh": "加 5 不能去掉 x 旁边的 − 12。"
+      }
+     }
+    },
+    {
+     "q": "James had some marbles and lost 9. Now he has 16. Which equation fits?",
+     "options": [
+      "m + 9 = 16",
+      "9m = 16",
+      "m − 16 = 9 + 16",
+      "m − 9 = 16"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Follow the story: he HAD m, LOST 9 (− 9), and now has 16 (= 16): m − 9 = 16. Solve: m = 16 + 9 = 25 marbles.",
+      "zh": "按故事顺序：他原来有 m，丢了 9（− 9），现在有 16（= 16）：m − 9 = 16。解：m = 16 + 9 = 25 颗。"
+     },
+     "wrong": {
+      "m + 9 = 16": {
+       "en": "Plus means he GOT 9 more. Losing marbles takes them away, so minus.",
+       "zh": "加号表示他又得到 9 颗。丢了是减少，所以用减号。"
+      },
+      "9m = 16": {
+       "en": "9m means 9 TIMES m. Losing is taking away, not multiplying.",
+       "zh": "9m 是 9 乘以 m。丢是减，不是乘。"
+      },
+      "m − 16 = 9 + 16": {
+       "en": "This mixes up the numbers. 16 is what he has NOW, so it goes alone after the equals sign.",
+       "zh": "这把数字弄乱了。16 是他现在有的，应该单独放在等号后面。"
+      }
+     }
+    },
+    {
+     "q": "Which symbol means \"at most\"?",
+     "options": [
+      "≥",
+      "<",
+      "≤",
+      ">"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "\"At most 5\" means 5 or LESS: 5 is allowed, 6 is not. That is \"less than or equal to\": ≤.",
+      "zh": "“最多 5”就是 5 或更少：5 可以，6 不行。那是“小于或等于”：≤。"
+     },
+     "wrong": {
+      "≥": {
+       "en": "≥ means AT LEAST (that number or more), the opposite.",
+       "zh": "≥ 是“至少”（这个数或更多），意思相反。"
+      },
+      "<": {
+       "en": "< leaves out the number itself, but \"at most 5\" allows exactly 5. It needs the equal line.",
+       "zh": "< 不包括这个数本身，但“最多 5”可以刚好 5，要有等于线。"
+      },
+      ">": {
+       "en": "> means MORE than, the opposite of at most.",
+       "zh": "> 是“多于”，和“最多”相反。"
+      }
+     }
+    },
+    {
+     "q": "\"You must be at least 12 years old\" is...",
+     "options": [
+      "a ≥ 12",
+      "a ≤ 12",
+      "a > 12",
+      "a < 12"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "\"At least 12\" means 12 or MORE: a 12-year-old is allowed. Greater than OR equal to: a ≥ 12.",
+      "zh": "“至少 12 岁”就是 12 岁或更大：12 岁可以。大于或等于：a ≥ 12。"
+     },
+     "wrong": {
+      "a ≤ 12": {
+       "en": "≤ means 12 or YOUNGER, the opposite of the rule.",
+       "zh": "≤ 是 12 岁或更小，和规定相反。"
+      },
+      "a > 12": {
+       "en": "> leaves out 12 itself, but a 12-year-old IS allowed. It needs the equal line: ≥.",
+       "zh": "> 不包括 12，但 12 岁是可以的，要有等于线：≥。"
+      },
+      "a < 12": {
+       "en": "< means younger than 12, the opposite.",
+       "zh": "< 是小于 12 岁，意思相反。"
+      }
+     }
+    },
+    {
+     "q": "Which number is a solution of x < 6?",
+     "options": [
+      "6",
+      "5",
+      "7",
+      "10"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "x < 6 means x must be LESS than 6, and 6 itself is not included. 5 is less than 6 ✓.",
+      "zh": "x < 6 表示 x 必须小于 6，不包括 6。5 比 6 小 ✓。"
+     },
+     "wrong": {
+      "6": {
+       "en": "6 is EQUAL to 6, not less. The < sign has no equal line.",
+       "zh": "6 等于 6，不是小于。< 没有等于线。"
+      },
+      "7": {
+       "en": "7 is bigger than 6, so 7 < 6 is false.",
+       "zh": "7 比 6 大，7 < 6 不成立。"
+      },
+      "10": {
+       "en": "10 is bigger than 6, so 10 < 6 is false.",
+       "zh": "10 比 6 大，10 < 6 不成立。"
+      }
+     }
+    },
+    {
+     "q": "Which number is NOT a solution of y ≥ 4?",
+     "options": [
+      "4",
+      "5",
+      "3",
+      "9"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "y ≥ 4 means 4 or MORE. Test each: 3 ≥ 4 is FALSE, because 3 is smaller than 4. So 3 is not a solution.",
+      "zh": "y ≥ 4 表示 4 或更大。一个个试：3 ≥ 4 不成立，因为 3 比 4 小。所以 3 不是解。"
+     },
+     "wrong": {
+      "4": {
+       "en": "4 ≥ 4 is TRUE: the line under the sign means \"or equal\". So 4 IS a solution.",
+       "zh": "4 ≥ 4 成立：下面那条线表示“或等于”。所以 4 是解。"
+      },
+      "5": {
+       "en": "5 is bigger than 4, so 5 ≥ 4 is true. It IS a solution.",
+       "zh": "5 比 4 大，5 ≥ 4 成立，它是解。"
+      },
+      "9": {
+       "en": "9 is bigger than 4, so 9 ≥ 4 is true. It IS a solution.",
+       "zh": "9 比 4 大，9 ≥ 4 成立，它是解。"
+      }
+     }
+    },
+    {
+     "q": "An open circle on 2 and an arrow to the LEFT shows...",
+     "options": [
+      "x ≤ 2",
+      "x > 2",
+      "x ≥ 2",
+      "x < 2"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Open circle = 2 is NOT included (no equal line). Arrow left = smaller numbers. Not including 2, smaller than 2: x < 2.",
+      "zh": "空心圆 = 不包括 2（没有等于线）。箭头向左 = 更小的数。不包括 2、比 2 小：x < 2。"
+     },
+     "wrong": {
+      "x ≤ 2": {
+       "en": "≤ includes 2, which would need a CLOSED circle.",
+       "zh": "≤ 包括 2，要用实心圆。"
+      },
+      "x > 2": {
+       "en": "> means bigger numbers, so the arrow would point RIGHT.",
+       "zh": "> 是更大的数，箭头会向右。"
+      },
+      "x ≥ 2": {
+       "en": "≥ is bigger numbers AND includes 2: closed circle, arrow right. Both parts are wrong.",
+       "zh": "≥ 是更大的数而且包括 2：实心圆、向右。两部分都不对。"
+      }
+     }
+    },
+    {
+     "q": "To graph x ≥ 7, you draw...",
+     "options": [
+      "an open circle on 7 and an arrow to the right",
+      "a closed circle on 7 and an arrow to the right",
+      "a closed circle on 7 and an arrow to the left",
+      "an open circle on 7 and an arrow to the left"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "≥ includes 7 (the equal line), so a CLOSED circle. Greater numbers are to the RIGHT, so the arrow goes right.",
+      "zh": "≥ 包括 7（有等于线），所以画实心圆。更大的数在右边，所以箭头向右。"
+     },
+     "wrong": {
+      "an open circle on 7 and an arrow to the right": {
+       "en": "An open circle means 7 is NOT included. ≥ includes it, so closed.",
+       "zh": "空心圆表示不包括 7。≥ 包括它，所以要实心。"
+      },
+      "a closed circle on 7 and an arrow to the left": {
+       "en": "Left means SMALLER numbers. ≥ is 7 and bigger, so right.",
+       "zh": "向左是更小的数。≥ 是 7 和更大的，所以向右。"
+      },
+      "an open circle on 7 and an arrow to the left": {
+       "en": "Both parts are wrong: that shows x < 7.",
+       "zh": "两部分都错了，那是 x < 7。"
+      }
+     }
+    },
+    {
+     "q": "Tom saves 20 baht every week. Which is the INDEPENDENT variable?",
+     "options": [
+      "money saved",
+      "number of weeks"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "The independent variable is the one that changes on its own (time passing, or what you choose). The money saved DEPENDS on how many weeks have passed.",
+      "zh": "自变量是自己变化的那个（时间过去，或你选择的）。存的钱取决于过了几周。"
+     },
+     "wrong": {
+      "money saved": {
+       "en": "The money depends on the weeks (more weeks, more money), so money is the DEPENDENT variable.",
+       "zh": "钱取决于周数（周越多，钱越多），所以钱是因变量。"
+      }
+     }
+    },
+    {
+     "q": "The number of cookies baked depends on the cups of flour used. The DEPENDENT variable is...",
+     "options": [
+      "cookies baked",
+      "cups of flour"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The sentence says the cookies \"depend on\" the flour. The thing that depends on the other is the dependent variable.",
+      "zh": "句子说饼干 depends on 面粉。依赖另一个的就是因变量。"
+     },
+     "wrong": {
+      "cups of flour": {
+       "en": "The flour is what you choose; it causes the change. That makes it the INDEPENDENT variable.",
+       "zh": "面粉是你选的，是它引起变化，所以是自变量。"
+      }
+     }
+    },
+    {
+     "q": "x: 1, 2, 3. y: 6, 12, 18. The equation is...",
+     "options": [
+      "y = x + 5",
+      "y = x + 6",
+      "y = 6x",
+      "y = 5x"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "Find a rule for EVERY pair: 1 → 6, 2 → 12, 3 → 18. Each y is x times 6, so y = 6x.",
+      "zh": "找对每一对都成立的规律：1 → 6，2 → 12，3 → 18。每个 y 都是 x 乘 6，所以 y = 6x。"
+     },
+     "wrong": {
+      "y = x + 5": {
+       "en": "Works for x = 1 (6) but fails for x = 2: 2 + 5 = 7, not 12.",
+       "zh": "x = 1 时成立（6），但 x = 2 时 2 + 5 = 7，不是 12。"
+      },
+      "y = x + 6": {
+       "en": "Test x = 1: 1 + 6 = 7, not 6.",
+       "zh": "试 x = 1：1 + 6 = 7，不是 6。"
+      },
+      "y = 5x": {
+       "en": "Test x = 1: 5 × 1 = 5, not 6.",
+       "zh": "试 x = 1：5 × 1 = 5，不是 6。"
+      }
+     }
+    },
+    {
+     "q": "x: 1, 2, 3. y: 4, 7, 10. The equation is...",
+     "options": [
+      "y = x + 3",
+      "y = 3x + 1",
+      "y = 4x",
+      "y = 3x"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Each time x goes up by 1, y goes up by 3, so the rule has 3x. Then 3 × 1 = 3, and y is 4, so add 1: y = 3x + 1. Test all: 4, 7, 10 ✓.",
+      "zh": "x 每加 1，y 就加 3，所以规律里有 3x。3 × 1 = 3，而 y 是 4，所以加 1：y = 3x + 1。都试一遍：4、7、10 ✓。"
+     },
+     "wrong": {
+      "y = x + 3": {
+       "en": "Works for x = 1 (4) but fails for x = 2: 2 + 3 = 5, not 7.",
+       "zh": "x = 1 时成立（4），但 x = 2 时 2 + 3 = 5，不是 7。"
+      },
+      "y = 4x": {
+       "en": "Works for x = 1 (4) but fails for x = 2: 4 × 2 = 8, not 7.",
+       "zh": "x = 1 时成立（4），但 x = 2 时 4 × 2 = 8，不是 7。"
+      },
+      "y = 3x": {
+       "en": "Test x = 1: 3 × 1 = 3, but y is 4. It needs + 1.",
+       "zh": "试 x = 1：3 × 1 = 3，但 y 是 4，还要加 1。"
+      }
+     }
+    },
+    {
+     "q": "y = 4x − 3. If x = 5, y = ?",
+     "options": [
+      "17",
+      "23",
+      "2",
+      "20"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "Multiply first, then subtract: 4x = 4 × 5 = 20, then 20 − 3 = 17.",
+      "zh": "先乘后减：4x = 4 × 5 = 20，再 20 − 3 = 17。"
+     },
+     "wrong": {
+      "23": {
+       "en": "23 is 20 + 3. The rule says MINUS 3.",
+       "zh": "23 是 20 + 3。规律是减 3。"
+      },
+      "2": {
+       "en": "2 is 5 − 3: it forgot to multiply by 4 first.",
+       "zh": "2 是 5 − 3，忘了先乘以 4。"
+      },
+      "20": {
+       "en": "20 is only 4 × 5. You forgot to subtract 3.",
+       "zh": "20 只是 4 × 5，忘了减 3。"
+      }
+     }
+    },
+    {
+     "q": "Which point is on the graph of y = x + 2?",
+     "options": [
+      "(5, 3)",
+      "(3, 6)",
+      "(2, 2)",
+      "(3, 5)"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "A point is on the graph if it makes the rule TRUE. Put x = 3 into y = x + 2: 3 + 2 = 5. So (3, 5) works.",
+      "zh": "让规律成立的点才在图上。把 x = 3 代入 y = x + 2：3 + 2 = 5。所以 (3, 5) 成立。"
+     },
+     "wrong": {
+      "(5, 3)": {
+       "en": "This is (3, 5) back to front. With x = 5, y = 5 + 2 = 7, not 3. The x number always comes first.",
+       "zh": "这是 (3, 5) 反过来了。x = 5 时 y = 7，不是 3。x 的数一定在前面。"
+      },
+      "(3, 6)": {
+       "en": "With x = 3, y = 3 + 2 = 5, not 6 (6 would be 2 × 3).",
+       "zh": "x = 3 时 y = 3 + 2 = 5，不是 6（6 是 2 × 3）。"
+      },
+      "(2, 2)": {
+       "en": "With x = 2, y = 2 + 2 = 4, not 2.",
+       "zh": "x = 2 时 y = 2 + 2 = 4，不是 2。"
+      }
+     }
+    },
+    {
+     "q": "To plot (5, 3), you go...",
+     "options": [
+      "3 across, then 5 up",
+      "5 up, then 3 across",
+      "5 across, then 3 up",
+      "8 across"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "In (x, y) the first number is x: go ACROSS. The second is y: go UP. So 5 across, then 3 up.",
+      "zh": "(x, y) 里第一个数是 x：横着走。第二个是 y：往上走。所以先往右 5，再往上 3。"
+     },
+     "wrong": {
+      "3 across, then 5 up": {
+       "en": "This swaps the numbers and plots (3, 5), a different point.",
+       "zh": "这把两个数换了，画出来是 (3, 5)，是另一个点。"
+      },
+      "5 up, then 3 across": {
+       "en": "Across always comes first. Going up first plots (3, 5).",
+       "zh": "一定先横着走。先往上会画成 (3, 5)。"
+      },
+      "8 across": {
+       "en": "5 + 3 = 8, but you never add the two numbers. They are two separate directions.",
+       "zh": "5 + 3 = 8，但两个数不能相加，它们是两个不同的方向。"
+      }
+     }
+    },
+    {
+     "q": "A phone plan costs 100 baht plus 5 baht for each GB. Which equation gives the cost c for g GB?",
+     "options": [
+      "c = 5g + 100",
+      "c = 100g + 5",
+      "c = g + 105",
+      "c = 105g"
+     ],
+     "answer": 0,
+     "why": {
+      "en": "The amount for EACH GB gets the letter: 5 × g = 5g. The 100 is paid once, so it is added once: c = 5g + 100. (For 10 GB: 50 + 100 = 150 baht.)",
+      "zh": "每 GB 都要付的钱跟着字母：5 × g = 5g。100 只付一次，所以只加一次：c = 5g + 100。（10 GB：50 + 100 = 150 泰铢。）"
+     },
+     "wrong": {
+      "c = 100g + 5": {
+       "en": "This swaps the numbers: it charges 100 for every GB. The per-GB price is 5.",
+       "zh": "这把两个数换了：每 GB 收 100。每 GB 的价钱是 5。"
+      },
+      "c = g + 105": {
+       "en": "This adds 100 and 5 together. But the 5 is paid for EACH GB, so it must multiply g.",
+       "zh": "这把 100 和 5 加在一起了。但 5 是每 GB 都要付，要乘以 g。"
+      },
+      "c = 105g": {
+       "en": "This charges 105 for every GB. The 100 is paid only once.",
+       "zh": "这样每 GB 收 105。100 只付一次。"
+      }
+     }
+    },
+    {
+     "q": "Which gas is about 21% of the air?",
+     "options": [
+      "nitrogen",
+      "oxygen",
+      "carbon dioxide",
+      "argon"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "Air is about 78% nitrogen, 21% oxygen and 1% other gases. The 21% is oxygen, the gas we breathe.",
+      "zh": "空气大约 78% 是氮气，21% 是氧气，1% 是其他气体。21% 是氧气，就是我们呼吸的气体。"
+     },
+     "wrong": {
+      "nitrogen": {
+       "en": "Nitrogen is the BIGGEST part, about 78%.",
+       "zh": "氮气是最多的部分，约 78%。"
+      },
+      "carbon dioxide": {
+       "en": "Carbon dioxide is a tiny part of the air, well under 1%.",
+       "zh": "二氧化碳只占很小一部分，远少于 1%。"
+      },
+      "argon": {
+       "en": "Argon is part of the last 1% of other gases.",
+       "zh": "氩气属于最后 1% 的其他气体。"
+      }
+     }
+    },
+    {
+     "q": "Which layer of the atmosphere do we live in?",
+     "options": [
+      "stratosphere",
+      "mesosphere",
+      "troposphere",
+      "thermosphere"
+     ],
+     "answer": 2,
+     "why": {
+      "en": "The troposphere starts at the ground and goes up about 12 km. We live in it, and all weather happens in it.",
+      "zh": "对流层从地面开始，大约到 12 公里高。我们生活在这一层，所有天气都在这里发生。"
+     },
+     "wrong": {
+      "stratosphere": {
+       "en": "The stratosphere is the SECOND layer, above the weather, where the ozone layer is.",
+       "zh": "平流层是第二层，在天气上面，臭氧层在那里。"
+      },
+      "mesosphere": {
+       "en": "The mesosphere is the THIRD layer, where meteors burn up.",
+       "zh": "中间层是第三层，流星在那里烧掉。"
+      },
+      "thermosphere": {
+       "en": "The thermosphere is the FOURTH layer, very high up.",
+       "zh": "热层是第四层，非常高。"
+      }
+     }
+    },
+    {
+     "q": "The ozone layer protects us by absorbing...",
+     "options": [
+      "rain",
+      "meteors",
+      "wind",
+      "harmful UV rays"
+     ],
+     "answer": 3,
+     "why": {
+      "en": "Ozone in the stratosphere soaks up most of the Sun's harmful ultraviolet (UV) rays, which can burn skin.",
+      "zh": "平流层的臭氧吸收了大部分太阳的有害紫外线，紫外线会晒伤皮肤。"
+     },
+     "wrong": {
+      "rain": {
+       "en": "Rain falls in the troposphere, BELOW the ozone layer.",
+       "zh": "雨在对流层，在臭氧层下面。"
+      },
+      "meteors": {
+       "en": "Meteors burn up higher, in the mesosphere, because of friction with the air.",
+       "zh": "流星在更高的中间层因为和空气摩擦而烧掉。"
+      },
+      "wind": {
+       "en": "Wind is in the troposphere. Ozone blocks rays from the Sun, not moving air.",
+       "zh": "风在对流层。臭氧挡的是太阳射线，不是流动的空气。"
+      }
+     }
+    },
+    {
+     "q": "The correct order from the ground up is...",
+     "options": [
+      "stratosphere, troposphere, mesosphere, thermosphere, exosphere",
+      "troposphere, stratosphere, mesosphere, thermosphere, exosphere",
+      "troposphere, mesosphere, stratosphere, thermosphere, exosphere",
+      "exosphere, thermosphere, mesosphere, stratosphere, troposphere"
+     ],
+     "answer": 1,
+     "why": {
+      "en": "From the ground up: T, S, M, T, E. Remember \"The Strong Man Throws Eggs\".",
+      "zh": "从地面往上：T、S、M、T、E。记住 The Strong Man Throws Eggs。"
+     },
+     "wrong": {
+      "stratosphere, troposphere, mesosphere, thermosphere, exosphere": {
+       "en": "The first two are swapped. The troposphere (weather) is always at the bottom.",
+       "zh": "前两个换了。对流层（天气层）一定在最下面。"
+      },
+      "troposphere, mesosphere, stratosphere, thermosphere, exosphere": {
+       "en": "Mesosphere and stratosphere are swapped. Strong Man: S comes before M.",
+       "zh": "中间层和平流层换了。Strong Man：S 在 M 前面。"
+      },
+      "exosphere, thermosphere, mesosphere, stratosphere, troposphere": {
+       "en": "This is the right list but from the TOP down.",
+       "zh": "顺序对，但是从上往下。"
+      }
+     }
+    }
+   ],
+   "canNow": {
+    "en": "I can now solve equations and inequalities, find rules in tables and graphs, and name the layers of the atmosphere.",
+    "zh": "我现在会解方程和不等式，会找表格和图像的规律，还能说出大气层的各层。"
+   }
   }
  ],
  "reviews": [
