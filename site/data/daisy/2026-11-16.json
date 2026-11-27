@@ -382,8 +382,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Clue words: we, our. That is first person.",
-      "zh": "线索词：we、our，所以是第一人称。"
+      "en": "Look at the pronouns OUTSIDE speech marks. \"We\" and \"our\" mean the narrator is one of the people in the story. A narrator inside the story who says I/we = first person.",
+      "zh": "看引号外的代词。we 和 our 表示叙述者是故事里的人。故事里的人用 I/we 讲故事 = 第一人称。"
+     },
+     "wrong": {
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "我们收拾好游泳包，跑去赶校车。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -396,8 +417,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "The narrator talks to YOU, the reader. That is second person.",
-      "zh": "叙述者在对“你”（读者）说话，所以是第二人称。"
+      "en": "The narrator speaks straight to the reader with \"you\" (Have YOU ever...?). Talking to the reader = second person.",
+      "zh": "叙述者直接用 you 对读者说话（Have YOU ever...?）。对读者说话 = 第二人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "First person uses I, me, my, we, our OUTSIDE the speech marks: the narrator is in the story. These words are not there.",
+       "zh": "第一人称在引号外用 I、me、my、we、our：叙述者在故事里。这里没有这些词。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "你吃过榴莲吗？你永远忘不了那个味道！\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -410,8 +452,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Clue words: Sophie, her, she. That is third person.",
-      "zh": "线索词：Sophie、her、she，所以是第三人称。"
+      "en": "The narrator is NOT in the story; they tell us about someone else using a name and she/her. Name + he/she/they = third person.",
+      "zh": "叙述者不在故事里，用名字和 she/her 讲别人的事。名字 + he/she/they = 第三人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "First person uses I, me, my, we, our OUTSIDE the speech marks: the narrator is in the story. These words are not there.",
+       "zh": "第一人称在引号外用 I、me、my、we、our：叙述者在故事里。这里没有这些词。"
+      },
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "Sophie 买了一张她最喜欢的歌手的小卡。她一路笑着回家。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -426,6 +489,27 @@
      "why": {
       "en": "Cover the dialogue first! \"You\" is inside the speech marks, so it does not count. Lily, Emma, they = third person.",
       "zh": "先遮住对话！“You” 在引号里，不算。Lily、Emma、they = 第三人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "\"You\" and \"my\" are inside the speech marks, so they are Lily's words, not the narrator's. Outside: Lily, Emma, they.",
+       "zh": "you 和 my 在引号里，是 Lily 说的话，不是叙述者的。引号外是 Lily、Emma、they。"
+      },
+      "Second person": {
+       "en": "The \"you\" is inside the speech marks: Lily is talking to Emma, not the narrator talking to the reader.",
+       "zh": "you 在引号里：是 Lily 在对 Emma 说话，不是叙述者对读者说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "“你是我最好的朋友！”Lily 对 Emma 说。然后她们拥抱了。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -440,6 +524,27 @@
      "why": {
       "en": "Cover the dialogue: \"I won\" does not count. Tom, he, his = third person.",
       "zh": "遮住对话：“I won” 不算。Tom、he、his = 第三人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "\"I won\" is inside the speech marks, so it is Tom's words. The narrator says Tom, he, his.",
+       "zh": "I won 在引号里，是 Tom 说的话。叙述者用的是 Tom、he、his。"
+      },
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "“我赢了，我赢了！”Tom 喊道。他把金牌高高举起。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -454,6 +559,27 @@
      "why": {
       "en": "Clue words: you, your. The narrator talks to the reader. That is second person.",
       "zh": "线索词：you、your，叙述者在对读者说话，是第二人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "First person uses I, me, my, we, our OUTSIDE the speech marks: the narrator is in the story. These words are not there.",
+       "zh": "第一人称在引号外用 I、me、my、we、our：叙述者在故事里。这里没有这些词。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "你去过泰国的寺庙吗？你必须先脱鞋。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -468,6 +594,27 @@
      "why": {
       "en": "We only SEE actions. We know nobody's feelings, like a camera. That is objective.",
       "zh": "我们只看到动作，不知道任何人的感受，像摄像机，所以是客观。"
+     },
+     "wrong": {
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      },
+      "First person": {
+       "en": "First person would use I or we outside the speech marks. This story uses names and he, she, they.",
+       "zh": "第一人称会在引号外用 I 或 we。这个故事用的是名字和 he、she、they。"
+      }
+     },
+     "qzh": "James 和 Tom 把面包搬到大厅。他们把面包放在长桌上。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角",
+      "First person": "第一人称"
      }
     },
     {
@@ -482,6 +629,27 @@
      "why": {
       "en": "We know the feelings of ONE person: Lily. That is limited.",
       "zh": "我们只知道一个人（Lily）的感受，所以是有限。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      },
+      "First person": {
+       "en": "First person would use I or we outside the speech marks. This story uses names and he, she, they.",
+       "zh": "第一人称会在引号外用 I 或 we。这个故事用的是名字和 he、she、they。"
+      }
+     },
+     "qzh": "Lily 想上台唱歌，但她怕自己的声音会发抖。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角",
+      "First person": "第一人称"
      }
     },
     {
@@ -496,6 +664,27 @@
      "why": {
       "en": "We know how EVERYONE feels: Daisy, Emma and the teacher. That is omniscient.",
       "zh": "我们知道每个人的感受：Daisy、Emma 和老师，所以是全知。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      },
+      "First person": {
+       "en": "First person would use I or we outside the speech marks. This story uses names and he, she, they.",
+       "zh": "第一人称会在引号外用 I 或 we。这个故事用的是名字和 he、she、they。"
+      }
+     },
+     "qzh": "Daisy 为自己的画感到骄傲。Emma 有点嫉妒，老师很高兴。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角",
+      "First person": "第一人称"
      }
     },
     {
@@ -510,6 +699,27 @@
      "why": {
       "en": "Only actions, no feelings. Like a camera. That is objective.",
       "zh": "只有动作，没有感受，像摄像机，所以是客观。"
+     },
+     "wrong": {
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      },
+      "First person": {
+       "en": "First person would use I or we outside the speech marks. This story uses names and he, she, they.",
+       "zh": "第一人称会在引号外用 I 或 we。这个故事用的是名字和 he、she、they。"
+      }
+     },
+     "qzh": "游泳运动员跳进泳池。观众拍手欢呼。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角",
+      "First person": "第一人称"
      }
     },
     {
@@ -524,6 +734,27 @@
      "why": {
       "en": "We know the feelings of Sophie, Lily AND the teacher. All of them = omniscient.",
       "zh": "我们知道 Sophie、Lily 和老师的感受。所有人 = 全知。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      },
+      "First person": {
+       "en": "First person would use I or we outside the speech marks. This story uses names and he, she, they.",
+       "zh": "第一人称会在引号外用 I 或 we。这个故事用的是名字和 he、she、they。"
+      }
+     },
+     "qzh": "Sophie 担心考试，Lily 也替她担心。她们的老师相信她们俩都会考好。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角",
+      "First person": "第一人称"
      }
     },
     {
@@ -538,6 +769,27 @@
      "why": {
       "en": "We only know what Tom hopes. One person = limited.",
       "zh": "我们只知道 Tom 的想法。一个人 = 有限。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      },
+      "First person": {
+       "en": "First person would use I or we outside the speech marks. This story uses names and he, she, they.",
+       "zh": "第一人称会在引号外用 I 或 we。这个故事用的是名字和 he、she、they。"
+      }
+     },
+     "qzh": "Tom 对新来的女孩笑了笑。他希望她午饭时坐在他旁边。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角",
+      "First person": "第一人称"
      }
     },
     {
@@ -552,6 +804,27 @@
      "why": {
       "en": "They see the SAME rain in different ways. HOW a character sees something is perspective.",
       "zh": "他们看同一场雨的感受不同。人物怎样看一件事就是“看法”。"
+     },
+     "wrong": {
+      "themes": {
+       "en": "A theme is a life lesson for everyone. This is about how each character SEES the rain.",
+       "zh": "主题是给所有人的人生道理。这里讲的是每个人物怎样看待下雨。"
+      },
+      "narrators": {
+       "en": "The narrator is who tells the story. There is one narrator here; the two characters just feel differently.",
+       "zh": "叙述者是讲故事的人。这里只有一个叙述者，两个人物只是感受不同。"
+      },
+      "dialogues": {
+       "en": "Dialogue is people talking with speech marks. Nobody is talking here.",
+       "zh": "对话是人物说话，有引号。这里没有人说话。"
+      }
+     },
+     "qzh": "下了一整天雨。Daisy 很难过，因为游泳课取消了。农夫 Tom 很开心，因为他的植物需要水。\n这说明两个人物有不同的……",
+     "ozh": {
+      "themes": "主题",
+      "perspectives": "视角（看法）",
+      "narrators": "叙述者",
+      "dialogues": "对话"
      }
     },
     {
@@ -566,6 +839,27 @@
      "why": {
       "en": "It tells WHAT HAPPENED and uses names. That is a summary.",
       "zh": "它讲的是发生了什么，还有名字，所以是概要。"
+     },
+     "wrong": {
+      "Theme": {
+       "en": "A theme is a lesson for EVERYONE and has no names. This sentence uses names and tells what happened.",
+       "zh": "主题是给所有人的道理，没有名字。这句有名字，讲的是发生了什么。"
+      },
+      "Dialogue": {
+       "en": "Dialogue needs speech marks and someone talking.",
+       "zh": "对话需要引号和有人说话。"
+      },
+      "Narrator": {
+       "en": "The narrator is a person who tells the story, not a sentence about events.",
+       "zh": "叙述者是讲故事的人，不是一句讲事情的话。"
+      }
+     },
+     "qzh": "“Emma 把卡还给了 Sophie。”\n这是主题还是概要？",
+     "ozh": {
+      "Theme": "主题",
+      "Summary": "概要",
+      "Dialogue": "对话",
+      "Narrator": "叙述者"
      }
     },
     {
@@ -580,6 +874,27 @@
      "why": {
       "en": "It is a life lesson for EVERYONE, with no names. That is a theme.",
       "zh": "这是对每个人都适用的道理，没有名字，所以是主题。"
+     },
+     "wrong": {
+      "Summary": {
+       "en": "A summary tells WHAT HAPPENED and uses names. This is advice for everyone.",
+       "zh": "概要讲发生了什么，会用名字。这是给所有人的建议。"
+      },
+      "Dialogue": {
+       "en": "Dialogue is characters talking in speech marks.",
+       "zh": "对话是人物在引号里说话。"
+      },
+      "Narrator": {
+       "en": "The narrator is the voice telling the story, not a lesson.",
+       "zh": "叙述者是讲故事的声音，不是道理。"
+      }
+     },
+     "qzh": "“要诚实，就算没有人看着。”\n这是主题还是概要？",
+     "ozh": {
+      "Theme": "主题",
+      "Summary": "概要",
+      "Dialogue": "对话",
+      "Narrator": "叙述者"
      }
     }
    ],
@@ -646,6 +961,27 @@
      "why": {
       "en": "Clue words outside the dialogue: My, I, me. That is first person.",
       "zh": "对话外面的线索词：My、I、me，所以是第一人称。"
+     },
+     "wrong": {
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      },
+      "No narrator": {
+       "en": "Every story has a narrator, the voice telling it. The clue words show which point of view it is.",
+       "zh": "每个故事都有叙述者，就是讲故事的声音。线索词告诉你是哪种人称。"
+      }
+     },
+     "qzh": "这个故事是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称",
+      "No narrator": "没有叙述者"
      }
     },
     {
@@ -660,6 +996,27 @@
      "why": {
       "en": "\"My name is Emma.\" Emma tells the story.",
       "zh": "“My name is Emma.” 是 Emma 在讲故事。"
+     },
+     "wrong": {
+      "Sophie": {
+       "en": "Sophie is a character the narrator talks ABOUT. The narrator says \"My name is Emma\".",
+       "zh": "Sophie 是叙述者讲到的人物。叙述者说的是 My name is Emma。"
+      },
+      "Sophie's sister": {
+       "en": "Sophie's sister is only mentioned; she does not tell the story.",
+       "zh": "Sophie 的姐姐只是被提到，不是讲故事的人。"
+      },
+      "the bus driver": {
+       "en": "The bus driver does not say \"I\" in the story. Emma does.",
+       "zh": "司机在故事里没有用 I 说话，是 Emma 在说。"
+      }
+     },
+     "qzh": "谁是叙述者？",
+     "ozh": {
+      "Sophie": "",
+      "Emma": "",
+      "Sophie's sister": "Sophie 的姐姐",
+      "the bus driver": "公交车司机"
      }
     },
     {
@@ -674,6 +1031,27 @@
      "why": {
       "en": "Paragraph 1: \"I was so excited.\"",
       "zh": "第 1 段：“I was so excited.”"
+     },
+     "wrong": {
+      "angry": {
+       "en": "Nothing in paragraph 1 shows anger. Emma says she was excited.",
+       "zh": "第 1 段没有生气的意思，Emma 说她很兴奋。"
+      },
+      "bored": {
+       "en": "Bored means not interested. Finding a special card is the opposite of boring.",
+       "zh": "bored 是没兴趣。找到一张特别的卡一点也不无聊。"
+      },
+      "scared": {
+       "en": "Scared means afraid. Emma was happy and excited, not afraid.",
+       "zh": "scared 是害怕。Emma 是开心兴奋，不是害怕。"
+      }
+     },
+     "qzh": "Emma 刚捡到卡的时候感觉怎么样？",
+     "ozh": {
+      "angry": "生气",
+      "bored": "无聊",
+      "excited": "兴奋",
+      "scared": "害怕"
      }
     },
     {
@@ -688,6 +1066,27 @@
      "why": {
       "en": "Paragraph 2: \"My sister gave it to me for my birthday.\"",
       "zh": "第 2 段：“My sister gave it to me for my birthday.”"
+     },
+     "wrong": {
+      "She bought it in Korea.": {
+       "en": "The story does not say she bought it. Paragraph 2 says it was a gift.",
+       "zh": "故事没说是她买的。第 2 段说是礼物。"
+      },
+      "It cost a lot of money.": {
+       "en": "Price is not mentioned. It was special because of who GAVE it.",
+       "zh": "没提到价钱。它特别是因为是谁送的。"
+      },
+      "Emma gave it to her.": {
+       "en": "Emma FOUND the card and gave it BACK. Her sister gave it to her first.",
+       "zh": "Emma 是捡到卡再还给她。最初是她姐姐送给她的。"
+      }
+     },
+     "qzh": "为什么这张卡对 Sophie 那么特别？",
+     "ozh": {
+      "It was a gift from her sister.": "那是她姐姐送的礼物。",
+      "She bought it in Korea.": "她在韩国买的。",
+      "It cost a lot of money.": "它很贵。",
+      "Emma gave it to her.": "是 Emma 给她的。"
      }
     },
     {
@@ -702,6 +1101,27 @@
      "why": {
       "en": "A theme is a life lesson for everyone. The others are facts or a summary.",
       "zh": "主题是对每个人都适用的道理。其他选项是事实或概要。"
+     },
+     "wrong": {
+      "Emma found a card on the bus.": {
+       "en": "This tells WHAT HAPPENED with a name, so it is a summary, not a life lesson.",
+       "zh": "这讲的是发生了什么，有名字，是概要，不是人生道理。"
+      },
+      "K-pop cards are rare.": {
+       "en": "This is a fact about cards. A theme is a lesson about how to live.",
+       "zh": "这是关于卡片的事实。主题是关于怎样做人的道理。"
+      },
+      "Buses are often crowded.": {
+       "en": "This is a fact about buses, not a lesson the story teaches.",
+       "zh": "这是关于公交车的事实，不是故事要教的道理。"
+      }
+     },
+     "qzh": "故事最好的主题是哪一个？",
+     "ozh": {
+      "Emma found a card on the bus.": "Emma 在公交车上捡到一张卡。",
+      "K-pop cards are rare.": "K-pop 小卡很稀有。",
+      "Buses are often crowded.": "公交车常常很挤。",
+      "Doing the right thing feels better than keeping what is not yours.": "做正确的事，比留下不属于自己的东西感觉更好。"
      }
     },
     {
@@ -714,6 +1134,17 @@
      "why": {
       "en": "It tells what happened and uses names, so it is a summary.",
       "zh": "它讲发生了什么，还有名字，所以是概要。"
+     },
+     "wrong": {
+      "Theme": {
+       "en": "A theme is a lesson for everyone with no names. This sentence uses names and tells an event.",
+       "zh": "主题是给所有人的道理，没有名字。这句有名字，讲的是一件事。"
+      }
+     },
+     "qzh": "“Emma 把卡还给了 Sophie。”这是主题还是概要？",
+     "ozh": {
+      "Theme": "主题",
+      "Summary": "概要"
      }
     },
     {
@@ -726,6 +1157,17 @@
      "why": {
       "en": "It is a lesson for everyone with no names, so it is a theme.",
       "zh": "这是给每个人的道理，没有名字，所以是主题。"
+     },
+     "wrong": {
+      "Summary": {
+       "en": "A summary tells what happened, with names. This is advice for everyone, with no names.",
+       "zh": "概要讲发生了什么，有名字。这是给所有人的建议，没有名字。"
+      }
+     },
+     "qzh": "“要诚实，就算没有人看着。”这是主题还是概要？",
+     "ozh": {
+      "Theme": "主题",
+      "Summary": "概要"
      }
     }
    ],
@@ -2042,8 +2484,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "\"I like bread\" and \"it is soft\" are two complete sentences joined with nothing between them.",
-      "zh": "“I like bread” 和 “it is soft” 是两个完整的句子，中间什么都没有。"
+      "en": "A run-on sentence is TWO complete sentences pushed together with no full stop or joining word. \"I like bread\" + \"it is soft\" = two sentences with nothing between.",
+      "zh": "连写句是两个完整的句子挤在一起，中间没有句号或连接词。I like bread + it is soft = 两个句子中间什么都没有。"
+     },
+     "wrong": {
+      "I like bread.": {
+       "en": "This is ONE complete sentence with a full stop. Nothing is joined wrongly.",
+       "zh": "这是一个完整的句子，有句号，没有连错。"
+      },
+      "I like soft bread.": {
+       "en": "One subject (I), one verb (like): a single correct sentence.",
+       "zh": "一个主语（I）、一个动词（like）：一个正确的句子。"
+      },
+      "Soft bread is nice.": {
+       "en": "One subject (soft bread), one verb (is): a single correct sentence.",
+       "zh": "一个主语（soft bread）、一个动词（is）：一个正确的句子。"
+      }
+     },
+     "qzh": "哪一个是连写句（run-on sentence）？",
+     "ozh": {
+      "I like bread.": "",
+      "I like bread it is soft.": "",
+      "I like soft bread.": "",
+      "Soft bread is nice.": ""
      }
     },
     {
@@ -2058,6 +2521,27 @@
      "why": {
       "en": "Two complete sentences joined with only a comma is still a run-on. It needs \"but\" or a full stop.",
       "zh": "两个完整的句子只用逗号连起来，还是连写句。需要加 but 或句号。"
+     },
+     "wrong": {
+      "Tom ran, but he was late.": {
+       "en": "The joining word \"but\" after the comma links the two ideas correctly.",
+       "zh": "逗号后面有连接词 but，正确地连起了两个意思。"
+      },
+      "Tom ran fast.": {
+       "en": "This is one complete sentence, so it is correct.",
+       "zh": "这是一个完整的句子，是对的。"
+      },
+      "Tom was late.": {
+       "en": "This is one complete sentence, so it is correct.",
+       "zh": "这是一个完整的句子，是对的。"
+      }
+     },
+     "qzh": "哪一个是连写句（run-on sentence）？",
+     "ozh": {
+      "Tom ran, but he was late.": "",
+      "Tom ran fast.": "",
+      "Tom ran fast, he was late.": "",
+      "Tom was late.": ""
      }
     },
     {
@@ -2070,8 +2554,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Fix 1: full stop + capital letter. \"She\" starts the new sentence with a capital S.",
-      "zh": "改法 1：句号 + 大写字母。新句子 She 要大写。"
+      "en": "Fix a run-on by ending the first sentence with a full stop and starting the next with a CAPITAL letter: Emma loves K-pop. She dances every day.",
+      "zh": "改连写句：第一句用句号结束，下一句用大写字母开头：Emma loves K-pop. She dances every day."
+     },
+     "wrong": {
+      "Emma loves K-pop, she dances every day.": {
+       "en": "This joins two complete sentences with only a comma. A comma alone cannot join two sentences: that is a comma splice, a kind of run-on.",
+       "zh": "这只用逗号连接两个完整的句子。逗号不能单独连接两个句子：这叫逗号粘连，也是连写句。"
+      },
+      "Emma loves K-pop she. Dances every day.": {
+       "en": "The full stop is in the wrong place. \"She\" belongs to the second sentence; \"Dances every day\" has no subject.",
+       "zh": "句号放错了。She 属于第二句；Dances every day 没有主语。"
+      },
+      "emma loves K-pop. she dances every day.": {
+       "en": "The full stop is right, but every sentence and every name must start with a CAPITAL letter: Emma, She.",
+       "zh": "句号对了，但每个句子和名字都要大写开头：Emma、She。"
+      }
+     },
+     "qzh": "选最好的改法：Emma loves K-pop she dances every day.",
+     "ozh": {
+      "Emma loves K-pop, she dances every day.": "",
+      "Emma loves K-pop. She dances every day.": "",
+      "Emma loves K-pop she. Dances every day.": "",
+      "emma loves K-pop. she dances every day.": ""
      }
     },
     {
@@ -2084,8 +2589,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Fix 2: comma + and. \"My grandma smiled, and she gave me a big hug.\"",
-      "zh": "改法 2：逗号 + and。"
+      "en": "Another way to fix a run-on: add a comma AND a joining word (and, but, so) between the two sentences: My grandma smiled, and she gave me a big hug.",
+      "zh": "改连写句的另一种方法：在两个句子之间加逗号和连接词（and、but、so）：My grandma smiled, and she gave me a big hug."
+     },
+     "wrong": {
+      "My grandma smiled, she gave me a big hug.": {
+       "en": "This joins two complete sentences with only a comma. A comma alone cannot join two sentences: that is a comma splice, a kind of run-on.",
+       "zh": "这只用逗号连接两个完整的句子。逗号不能单独连接两个句子：这叫逗号粘连，也是连写句。"
+      },
+      "My grandma smiled and, she gave me a big hug.": {
+       "en": "The comma goes BEFORE \"and\", not after it.",
+       "zh": "逗号要放在 and 前面，不是后面。"
+      },
+      "my grandma smiled. she gave me a big hug.": {
+       "en": "The full stop is fine, but each sentence must start with a capital: My, She.",
+       "zh": "句号可以，但每个句子要大写开头：My、She。"
+      }
+     },
+     "qzh": "选最好的改法：My grandma smiled she gave me a big hug.",
+     "ozh": {
+      "My grandma smiled, she gave me a big hug.": "",
+      "My grandma smiled and, she gave me a big hug.": "",
+      "My grandma smiled, and she gave me a big hug.": "",
+      "my grandma smiled. she gave me a big hug.": ""
      }
     },
     {
@@ -2098,8 +2624,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A comma alone is not enough. Comma + so joins the two ideas and shows the reason.",
-      "zh": "只有逗号不够。逗号 + so 把两个意思连起来，还说明了原因。"
+      "en": "A comma alone cannot join two sentences. Add a joining word: comma + so. \"So\" also shows the reason: dropping the phone caused the crack.",
+      "zh": "逗号不能单独连接两个句子，要加连接词：逗号 + so。so 还表示因果：手机掉了导致屏幕裂了。"
+     },
+     "wrong": {
+      "I dropped my phone the screen cracked.": {
+       "en": "This removes the comma and makes it worse: two sentences with nothing between them.",
+       "zh": "这把逗号也去掉了，更糟：两个句子中间什么都没有。"
+      },
+      "I dropped, my phone the screen cracked.": {
+       "en": "The comma is in the wrong place and the two sentences are still not joined properly.",
+       "zh": "逗号放错了位置，两个句子还是没有正确连接。"
+      },
+      "I dropped my phone, the Screen cracked.": {
+       "en": "Still a comma splice, and \"screen\" is not a name, so it needs no capital.",
+       "zh": "还是逗号粘连，而且 screen 不是名字，不用大写。"
+      }
+     },
+     "qzh": "选最好的改法：I dropped my phone, the screen cracked.",
+     "ozh": {
+      "I dropped my phone, so the screen cracked.": "",
+      "I dropped my phone the screen cracked.": "",
+      "I dropped, my phone the screen cracked.": "",
+      "I dropped my phone, the Screen cracked.": ""
      }
     },
     {
@@ -2112,8 +2659,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A question to grab attention is an introduction.",
-      "zh": "用问题吸引听众，这是开场。"
+      "en": "The introduction comes first and grabs the audience's attention, often with a question to the listener.",
+      "zh": "引言在最前面，用来吸引听众注意，常用一个问听众的问题。"
+     },
+     "wrong": {
+      "Beginning": {
+       "en": "The beginning of the story tells WHEN and WHERE it happened. A question to the audience comes before that.",
+       "zh": "故事的开头讲什么时候、在哪里。问听众的问题在这之前。"
+      },
+      "Middle": {
+       "en": "The middle is the exciting problem or surprise.",
+       "zh": "中间是精彩的问题或意外。"
+      },
+      "End": {
+       "en": "The end tells how the story finished.",
+       "zh": "结尾讲故事怎样结束。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“你有没有试过做饭，结果弄得一团糟？”",
+     "ozh": {
+      "Introduction": "引言",
+      "Beginning": "开头",
+      "Middle": "中间",
+      "End": "结尾"
      }
     },
     {
@@ -2128,6 +2696,27 @@
      "why": {
       "en": "It tells WHEN and WHERE. That is the beginning.",
       "zh": "它讲了时间和地点，这是开始。"
+     },
+     "wrong": {
+      "Introduction": {
+       "en": "The introduction grabs attention, often with a question. This sentence sets the time and place.",
+       "zh": "引言用问题等方式吸引注意。这句交代时间和地点。"
+      },
+      "Middle": {
+       "en": "The middle is a problem or surprise. Nothing has happened yet here.",
+       "zh": "中间是问题或意外。这里还什么都没发生。"
+      },
+      "Conclusion": {
+       "en": "The conclusion says what you learned, at the very end.",
+       "zh": "结论在最后，说你学到了什么。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“那是春节，我在奶奶的厨房里。”",
+     "ozh": {
+      "Introduction": "引言",
+      "Beginning": "开头",
+      "Middle": "中间",
+      "Conclusion": "结论"
      }
     },
     {
@@ -2142,6 +2731,27 @@
      "why": {
       "en": "A problem or surprise is the exciting middle part.",
       "zh": "问题或惊喜是最精彩的中间部分。"
+     },
+     "wrong": {
+      "Beginning": {
+       "en": "The beginning sets the scene (when, where). Words like \"Then\" and \"something unexpected\" show the story has moved on.",
+       "zh": "开头交代场景（时间、地点）。Then 和 something unexpected 表示故事已经往前走了。"
+      },
+      "End": {
+       "en": "The end tells how the problem was solved. Here the problem is just starting.",
+       "zh": "结尾讲问题怎么解决。这里问题才刚开始。"
+      },
+      "Conclusion": {
+       "en": "The conclusion is the lesson learned, not an event.",
+       "zh": "结论是学到的道理，不是事件。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“然后，意想不到的事发生了：我的第一个饺子在锅里破开了！”",
+     "ozh": {
+      "Beginning": "开头",
+      "Middle": "中间",
+      "End": "结尾",
+      "Conclusion": "结论"
      }
     },
     {
@@ -2156,6 +2766,27 @@
      "why": {
       "en": "It tells how the story ended. That is the end.",
       "zh": "它讲了故事的结果，这是结尾。"
+     },
+     "wrong": {
+      "Introduction": {
+       "en": "The introduction grabs attention at the start. \"Finally\" shows this is near the end.",
+       "zh": "引言在开头吸引注意。Finally 表示这接近结尾。"
+      },
+      "Middle": {
+       "en": "The middle is the problem. Here the problem is already solved.",
+       "zh": "中间是问题。这里问题已经解决了。"
+      },
+      "Conclusion": {
+       "en": "The conclusion says what you LEARNED. This sentence still tells what happened.",
+       "zh": "结论说你学到了什么。这句还在讲发生了什么。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“最后，奶奶尝了我的饺子，说它们很完美。”",
+     "ozh": {
+      "Introduction": "引言",
+      "Middle": "中间",
+      "End": "结尾",
+      "Conclusion": "结论"
      }
     },
     {
@@ -2170,6 +2801,27 @@
      "why": {
       "en": "It tells what I learned, not the story again. That is the conclusion.",
       "zh": "它讲了我学到什么，不是再讲故事，这是总结。"
+     },
+     "wrong": {
+      "Beginning": {
+       "en": "The beginning tells when and where the story happened.",
+       "zh": "开头讲故事发生的时间和地点。"
+      },
+      "Middle": {
+       "en": "The middle is the problem or surprise in the story.",
+       "zh": "中间是故事里的问题或意外。"
+      },
+      "End": {
+       "en": "The end tells how the story finished. A lesson learned is the conclusion.",
+       "zh": "结尾讲故事怎样结束。学到的道理是结论。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“我明白了，犯错是学习新东西的一部分。”",
+     "ozh": {
+      "Beginning": "开头",
+      "Middle": "中间",
+      "End": "结尾",
+      "Conclusion": "结论"
      }
     }
    ],
@@ -2207,8 +2859,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Words ending in -ent usually take -ence: silent → silence.",
-      "zh": "以 -ent 结尾的词通常加 -ence：silent → silence。"
+      "en": "Words ending in -ent change to -ence: silent → silence. Take off the t, add -ce.",
+      "zh": "以 -ent 结尾的词改成 -ence：silent → silence。去掉 t，加 -ce。"
+     },
+     "wrong": {
+      "silance": {
+       "en": "-ent words take -ENCE, not -ance.",
+       "zh": "-ent 结尾的词用 -ence，不用 -ance。"
+      },
+      "silentce": {
+       "en": "The t must go: -ent becomes -ence.",
+       "zh": "t 要去掉：-ent 变成 -ence。"
+      },
+      "silents": {
+       "en": "Adding -s makes a plural, not the noun. The noun is silence.",
+       "zh": "加 -s 是复数，不是名词形式。名词是 silence。"
+      }
+     },
+     "qzh": "silent + -ance 还是 -ence = ？（选正确的拼写）",
+     "ozh": {
+      "silance": "",
+      "silence": "",
+      "silentce": "",
+      "silents": ""
      }
     },
     {
@@ -2223,6 +2896,27 @@
      "why": {
       "en": "appear does not end in -ant or -ent. We learn it: appear → appearance.",
       "zh": "appear 不是 -ant 或 -ent 结尾，要记住：appear → appearance。"
+     },
+     "wrong": {
+      "appearence": {
+       "en": "Appear takes -ANCE. This one must be learned: appearance.",
+       "zh": "appear 用 -ance，这个要记住：appearance。"
+      },
+      "apperance": {
+       "en": "The whole word appear stays, with both a's: appear + ance.",
+       "zh": "appear 整个词保留，两个 a 都在：appear + ance。"
+      },
+      "appearnce": {
+       "en": "The a in -ance is missing: appear + ance.",
+       "zh": "-ance 的 a 漏了：appear + ance。"
+      }
+     },
+     "qzh": "appear + -ance 还是 -ence = ？（选正确的拼写）",
+     "ozh": {
+      "appearence": "",
+      "appearance": "",
+      "apperance": "",
+      "appearnce": ""
      }
     },
     {
@@ -2235,8 +2929,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "-ent → -ence: confident → confidence.",
-      "zh": "-ent → -ence：confident → confidence。"
+      "en": "-ent → -ence: confident → confidence. Take off the t, add -ce.",
+      "zh": "-ent → -ence：confident → confidence。去掉 t，加 -ce。"
+     },
+     "wrong": {
+      "confidance": {
+       "en": "-ent words take -ENCE, not -ance.",
+       "zh": "-ent 结尾的词用 -ence，不用 -ance。"
+      },
+      "confidentce": {
+       "en": "The t must go: -ent becomes -ence.",
+       "zh": "t 要去掉：-ent 变成 -ence。"
+      },
+      "confidense": {
+       "en": "The ending is spelled -ce, not -se.",
+       "zh": "词尾拼作 -ce，不是 -se。"
+      }
+     },
+     "qzh": "confident + -ance 还是 -ence = ？（选正确的拼写）",
+     "ozh": {
+      "confidance": "",
+      "confidentce": "",
+      "confidence": "",
+      "confidense": ""
      }
     },
     {
@@ -2249,8 +2964,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "-ant → -ance: distant → distance.",
-      "zh": "-ant → -ance：distant → distance。"
+      "en": "-ant → -ance: distant → distance. Take off the t, add -ce.",
+      "zh": "-ant → -ance：distant → distance。去掉 t，加 -ce。"
+     },
+     "wrong": {
+      "distence": {
+       "en": "-ant words take -ANCE, not -ence.",
+       "zh": "-ant 结尾的词用 -ance，不用 -ence。"
+      },
+      "distants": {
+       "en": "Adding -s does not make the noun. The noun is distance.",
+       "zh": "加 -s 不是名词形式。名词是 distance。"
+      },
+      "distanse": {
+       "en": "The ending is spelled -ce, not -se.",
+       "zh": "词尾拼作 -ce，不是 -se。"
+      }
+     },
+     "qzh": "distant + -ance 还是 -ence = ？（选正确的拼写）",
+     "ozh": {
+      "distence": "",
+      "distance": "",
+      "distants": "",
+      "distanse": ""
      }
     },
     {
@@ -2265,6 +3001,27 @@
      "why": {
       "en": "-ent → -ence: independent → independence.",
       "zh": "-ent → -ence：independent → independence。"
+     },
+     "wrong": {
+      "independance": {
+       "en": "-ent words take -ENCE, not -ance.",
+       "zh": "-ent 结尾的词用 -ence，不用 -ance。"
+      },
+      "independense": {
+       "en": "The ending is spelled -ce, not -se.",
+       "zh": "词尾拼作 -ce，不是 -se。"
+      },
+      "independents": {
+       "en": "Adding -s does not make the noun. The noun is independence.",
+       "zh": "加 -s 不是名词形式。名词是 independence。"
+      }
+     },
+     "qzh": "independent + -ance 还是 -ence = ？（选正确的拼写）",
+     "ozh": {
+      "independance": "",
+      "independense": "",
+      "independents": "",
+      "independence": ""
      }
     },
     {
@@ -2279,6 +3036,27 @@
      "why": {
       "en": "Drop the e, then add -ance: guide → guidance.",
       "zh": "去掉 e，再加 -ance：guide → guidance。"
+     },
+     "wrong": {
+      "guideance": {
+       "en": "When a word ends in silent e, drop the e before adding a suffix that starts with a vowel (-ance).",
+       "zh": "以不发音的 e 结尾的词，加元音开头的后缀（-ance）前要去掉 e。"
+      },
+      "guidence": {
+       "en": "Guide takes -ANCE, not -ence.",
+       "zh": "guide 用 -ance，不用 -ence。"
+      },
+      "guidanse": {
+       "en": "The ending is spelled -ce, not -se.",
+       "zh": "词尾拼作 -ce，不是 -se。"
+      }
+     },
+     "qzh": "guide + -ance 还是 -ence = ？（记得去掉 e！）",
+     "ozh": {
+      "guidance": "",
+      "guideance": "",
+      "guidence": "",
+      "guidanse": ""
      }
     },
     {
@@ -2291,8 +3069,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "We need a noun. patient → patience (-ent → -ence). \"patients\" means sick people at a hospital!",
-      "zh": "这里要名词。patient → patience。patients 是“病人”的意思！"
+      "en": "After \"showed great\" we need a NOUN (a thing she showed). The adjective patient becomes the noun patience (-ent → -ence).",
+      "zh": "showed great 后面要一个名词（她表现出的东西）。形容词 patient 变成名词 patience（-ent → -ence）。"
+     },
+     "wrong": {
+      "patients": {
+       "en": "\"Patients\" are sick people at a hospital. It sounds the same but means something else.",
+       "zh": "patients 是医院里的病人。读音一样，但意思不同。"
+      },
+      "patiance": {
+       "en": "-ent words take -ENCE, not -ance.",
+       "zh": "-ent 结尾的词用 -ence，不用 -ance。"
+      },
+      "patient": {
+       "en": "\"Patient\" is the adjective (she is patient). After \"great\" we need the noun: patience.",
+       "zh": "patient 是形容词（she is patient）。great 后面要名词：patience。"
+      }
+     },
+     "qzh": "Sophie 等着轮到她的时候，表现出了很大的 __________（耐心）。",
+     "ozh": {
+      "patients": "",
+      "patiance": "",
+      "patience": "",
+      "patient": ""
      }
     },
     {
@@ -2307,6 +3106,27 @@
      "why": {
       "en": "The idiom means something extra that makes a GOOD thing even better.",
       "zh": "这个习语的意思是让好事变得更好的额外惊喜（锦上添花）。"
+     },
+     "wrong": {
+      "I fell over, and that was the icing on the cake.": {
+       "en": "Falling over is a BAD thing. The idiom is for something extra that makes a good thing better.",
+       "zh": "摔倒是坏事。这个习语是指让好事更好的额外的东西。"
+      },
+      "I put pink icing on the cake.": {
+       "en": "This is about real icing, not the idiom. An idiom has a meaning different from its words.",
+       "zh": "这是真的糖霜，不是习语。习语的意思和字面不一样。"
+      },
+      "The test was hard, the icing on the cake.": {
+       "en": "A hard test is not good, and the sentence is not complete.",
+       "zh": "难的考试不是好事，而且句子不完整。"
+      }
+     },
+     "qzh": "哪一句正确使用了习语 the icing on the cake（锦上添花）？",
+     "ozh": {
+      "I fell over, and that was the icing on the cake.": "我摔倒了，那真是锦上添花。",
+      "Our trip was great, and seeing an elephant was the icing on the cake.": "我们的旅行很棒，看到大象更是锦上添花。",
+      "I put pink icing on the cake.": "我在蛋糕上抹了粉色的糖霜。",
+      "The test was hard, the icing on the cake.": "考试很难，锦上添花。"
      }
     }
    ],

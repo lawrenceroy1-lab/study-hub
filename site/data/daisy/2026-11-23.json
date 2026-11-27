@@ -551,8 +551,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Clue words: we, our. That is first person.",
-      "zh": "线索词：we、our，所以是第一人称。"
+      "en": "Look at the pronouns OUTSIDE speech marks. \"We\" and \"our\" mean the narrator is one of the people in the story. A narrator inside the story who says I/we = first person.",
+      "zh": "看引号外的代词。we 和 our 表示叙述者是故事里的人。故事里的人用 I/we 讲故事 = 第一人称。"
+     },
+     "wrong": {
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      }
+     },
+     "qzh": "我们收拾好游泳包，跑去赶校车。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -564,8 +580,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "The narrator talks to YOU, the reader. That is second person.",
-      "zh": "叙述者在对“你”（读者）说话，所以是第二人称。"
+      "en": "The narrator speaks straight to the reader with \"you\" (Have YOU ever...?). Talking to the reader = second person.",
+      "zh": "叙述者直接用 you 对读者说话（Have YOU ever...?）。对读者说话 = 第二人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "First person uses I, me, my, we, our OUTSIDE the speech marks: the narrator is in the story. These words are not there.",
+       "zh": "第一人称在引号外用 I、me、my、we、our：叙述者在故事里。这里没有这些词。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      }
+     },
+     "qzh": "你吃过榴莲吗？你永远忘不了那个味道！\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -577,8 +609,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Clue words: Sophie, her, she. That is third person.",
-      "zh": "线索词：Sophie、her、she，所以是第三人称。"
+      "en": "The narrator is NOT in the story; they tell us about someone else using a name and she/her. Name + he/she/they = third person.",
+      "zh": "叙述者不在故事里，用名字和 she/her 讲别人的事。名字 + he/she/they = 第三人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "First person uses I, me, my, we, our OUTSIDE the speech marks: the narrator is in the story. These words are not there.",
+       "zh": "第一人称在引号外用 I、me、my、we、our：叙述者在故事里。这里没有这些词。"
+      },
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      }
+     },
+     "qzh": "Sophie 买了一张她最喜欢的歌手的小卡。她一路笑着回家。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -592,6 +640,22 @@
      "why": {
       "en": "Cover the dialogue first! \"You\" is inside the speech marks, so it does not count. Lily, Emma, they = third person.",
       "zh": "先遮住对话！“You” 在引号里，不算。Lily、Emma、they = 第三人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "\"You\" and \"my\" are inside the speech marks, so they are Lily's words, not the narrator's. Outside: Lily, Emma, they.",
+       "zh": "you 和 my 在引号里，是 Lily 说的话，不是叙述者的。引号外是 Lily、Emma、they。"
+      },
+      "Second person": {
+       "en": "The \"you\" is inside the speech marks: Lily is talking to Emma, not the narrator talking to the reader.",
+       "zh": "you 在引号里：是 Lily 在对 Emma 说话，不是叙述者对读者说话。"
+      }
+     },
+     "qzh": "“你是我最好的朋友！”Lily 对 Emma 说。然后她们拥抱了。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -605,6 +669,22 @@
      "why": {
       "en": "Cover the dialogue: \"I won\" does not count. Tom, he, his = third person.",
       "zh": "遮住对话：“I won” 不算。Tom、he、his = 第三人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "\"I won\" is inside the speech marks, so it is Tom's words. The narrator says Tom, he, his.",
+       "zh": "I won 在引号里，是 Tom 说的话。叙述者用的是 Tom、he、his。"
+      },
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      }
+     },
+     "qzh": "“我赢了，我赢了！”Tom 喊道。他把金牌高高举起。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -618,6 +698,22 @@
      "why": {
       "en": "Clue words: you, your. The narrator talks to the reader. That is second person.",
       "zh": "线索词：you、your，叙述者在对读者说话，是第二人称。"
+     },
+     "wrong": {
+      "First person": {
+       "en": "First person uses I, me, my, we, our OUTSIDE the speech marks: the narrator is in the story. These words are not there.",
+       "zh": "第一人称在引号外用 I、me、my、we、our：叙述者在故事里。这里没有这些词。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      }
+     },
+     "qzh": "你去过泰国的寺庙吗？你必须先脱鞋。\n这是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -631,6 +727,22 @@
      "why": {
       "en": "We only SEE actions. We know nobody's feelings, like a camera. That is objective.",
       "zh": "我们只看到动作，不知道任何人的感受，像摄像机，所以是客观。"
+     },
+     "wrong": {
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      }
+     },
+     "qzh": "James 和 Tom 把面包搬到大厅。他们把面包放在长桌上。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角"
      }
     },
     {
@@ -644,6 +756,22 @@
      "why": {
       "en": "We know the feelings of ONE person: Lily. That is limited.",
       "zh": "我们只知道一个人（Lily）的感受，所以是有限。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      }
+     },
+     "qzh": "Lily 想上台唱歌，但她怕自己的声音会发抖。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角"
      }
     },
     {
@@ -657,6 +785,22 @@
      "why": {
       "en": "We know how EVERYONE feels: Daisy, Emma and the teacher. That is omniscient.",
       "zh": "我们知道每个人的感受：Daisy、Emma 和老师，所以是全知。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      }
+     },
+     "qzh": "Daisy 为自己的画感到骄傲。Emma 有点嫉妒，老师很高兴。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角"
      }
     },
     {
@@ -670,6 +814,22 @@
      "why": {
       "en": "Only actions, no feelings. Like a camera. That is objective.",
       "zh": "只有动作，没有感受，像摄像机，所以是客观。"
+     },
+     "wrong": {
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      }
+     },
+     "qzh": "游泳运动员跳进泳池。观众拍手欢呼。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角"
      }
     },
     {
@@ -683,6 +843,22 @@
      "why": {
       "en": "We know the feelings of Sophie, Lily AND the teacher. All of them = omniscient.",
       "zh": "我们知道 Sophie、Lily 和老师的感受。所有人 = 全知。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person limited": {
+       "en": "Limited means we know the feelings of only ONE character.",
+       "zh": "有限视角是只知道一个人物的感受。"
+      }
+     },
+     "qzh": "Sophie 担心考试，Lily 也替她担心。她们的老师相信她们俩都会考好。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角"
      }
     },
     {
@@ -696,6 +872,22 @@
      "why": {
       "en": "We only know what Tom hopes. One person = limited.",
       "zh": "我们只知道 Tom 的想法。一个人 = 有限。"
+     },
+     "wrong": {
+      "Third person objective": {
+       "en": "Objective is like a camera: we only SEE what people do, and we know nobody's feelings.",
+       "zh": "客观视角像摄像机：只看到人们做什么，不知道任何人的感受。"
+      },
+      "Third person omniscient": {
+       "en": "Omniscient means we know the feelings of EVERYONE (omni = all).",
+       "zh": "全知视角是知道每个人的感受（omni = 全部）。"
+      }
+     },
+     "qzh": "Tom 对新来的女孩笑了笑。他希望她午饭时坐在他旁边。\n这是哪一种第三人称？",
+     "ozh": {
+      "Third person objective": "第三人称客观视角",
+      "Third person limited": "第三人称有限视角",
+      "Third person omniscient": "第三人称全知视角"
      }
     },
     {
@@ -710,6 +902,27 @@
      "why": {
       "en": "They see the SAME rain in different ways. HOW a character sees something is perspective.",
       "zh": "他们看同一场雨的感受不同。人物怎样看一件事就是“看法”。"
+     },
+     "wrong": {
+      "themes": {
+       "en": "A theme is a life lesson for everyone. This is about how each character SEES the rain.",
+       "zh": "主题是给所有人的人生道理。这里讲的是每个人物怎样看待下雨。"
+      },
+      "narrators": {
+       "en": "The narrator is who tells the story. There is one narrator here; the two characters just feel differently.",
+       "zh": "叙述者是讲故事的人。这里只有一个叙述者，两个人物只是感受不同。"
+      },
+      "dialogues": {
+       "en": "Dialogue is people talking with speech marks. Nobody is talking here.",
+       "zh": "对话是人物说话，有引号。这里没有人说话。"
+      }
+     },
+     "qzh": "下了一整天雨。Daisy 很难过，因为游泳课取消了。农夫 Tom 很开心，因为他的植物需要水。\n这说明两个人物有不同的……",
+     "ozh": {
+      "themes": "主题",
+      "perspectives": "视角（看法）",
+      "narrators": "叙述者",
+      "dialogues": "对话"
      }
     },
     {
@@ -722,6 +935,17 @@
      "why": {
       "en": "It tells WHAT HAPPENED and uses names. That is a summary.",
       "zh": "它讲的是发生了什么，还有名字，所以是概要。"
+     },
+     "wrong": {
+      "Theme": {
+       "en": "A theme is a lesson for everyone with no names. This sentence uses names and tells an event.",
+       "zh": "主题是给所有人的道理，没有名字。这句有名字，讲的是一件事。"
+      }
+     },
+     "qzh": "“Emma 把卡还给了 Sophie。”\n这是主题还是概要？",
+     "ozh": {
+      "Theme": "主题",
+      "Summary": "概要"
      }
     },
     {
@@ -734,6 +958,17 @@
      "why": {
       "en": "It is a life lesson for EVERYONE, with no names. That is a theme.",
       "zh": "这是对每个人都适用的道理，没有名字，所以是主题。"
+     },
+     "wrong": {
+      "Summary": {
+       "en": "A summary tells what happened, with names. This is advice for everyone, with no names.",
+       "zh": "概要讲发生了什么，有名字。这是给所有人的建议，没有名字。"
+      }
+     },
+     "qzh": "“要诚实，就算没有人看着。”\n这是主题还是概要？",
+     "ozh": {
+      "Theme": "主题",
+      "Summary": "概要"
      }
     }
    ],
@@ -799,6 +1034,22 @@
      "why": {
       "en": "Clue words outside the dialogue: My, I, me. That is first person.",
       "zh": "对话外面的线索词：My、I、me，所以是第一人称。"
+     },
+     "wrong": {
+      "Second person": {
+       "en": "Second person talks to YOU, the reader (you, your). This story does not talk to the reader.",
+       "zh": "第二人称是对读者“你”说话（you、your）。这个故事没有对读者说话。"
+      },
+      "Third person": {
+       "en": "Third person uses names and he, she, they. Here the narrator uses I/we or talks to you instead.",
+       "zh": "第三人称用名字和 he、she、they。这里叙述者用的是 I/we 或在对“你”说话。"
+      }
+     },
+     "qzh": "这个故事是第几人称？",
+     "ozh": {
+      "First person": "第一人称",
+      "Second person": "第二人称",
+      "Third person": "第三人称"
      }
     },
     {
@@ -813,6 +1064,27 @@
      "why": {
       "en": "\"My name is Emma.\" Emma tells the story.",
       "zh": "“My name is Emma.” 是 Emma 在讲故事。"
+     },
+     "wrong": {
+      "Sophie": {
+       "en": "Sophie is a character the narrator talks ABOUT. The narrator says \"My name is Emma\".",
+       "zh": "Sophie 是叙述者讲到的人物。叙述者说的是 My name is Emma。"
+      },
+      "Sophie's sister": {
+       "en": "Sophie's sister is only mentioned; she does not tell the story.",
+       "zh": "Sophie 的姐姐只是被提到，不是讲故事的人。"
+      },
+      "the bus driver": {
+       "en": "The bus driver does not say \"I\" in the story. Emma does.",
+       "zh": "司机在故事里没有用 I 说话，是 Emma 在说。"
+      }
+     },
+     "qzh": "谁是叙述者？",
+     "ozh": {
+      "Sophie": "",
+      "Emma": "",
+      "Sophie's sister": "Sophie 的姐姐",
+      "the bus driver": "公交车司机"
      }
     },
     {
@@ -827,6 +1099,27 @@
      "why": {
       "en": "Paragraph 1: \"I was so excited.\"",
       "zh": "第 1 段：“I was so excited.”"
+     },
+     "wrong": {
+      "angry": {
+       "en": "Nothing in paragraph 1 shows anger. Emma says she was excited.",
+       "zh": "第 1 段没有生气的意思，Emma 说她很兴奋。"
+      },
+      "bored": {
+       "en": "Bored means not interested. Finding a special card is the opposite of boring.",
+       "zh": "bored 是没兴趣。找到一张特别的卡一点也不无聊。"
+      },
+      "scared": {
+       "en": "Scared means afraid. Emma was happy and excited, not afraid.",
+       "zh": "scared 是害怕。Emma 是开心兴奋，不是害怕。"
+      }
+     },
+     "qzh": "Emma 刚捡到卡的时候感觉怎么样？",
+     "ozh": {
+      "angry": "生气",
+      "bored": "无聊",
+      "excited": "兴奋",
+      "scared": "害怕"
      }
     },
     {
@@ -841,6 +1134,27 @@
      "why": {
       "en": "Paragraph 2: \"My sister gave it to me for my birthday.\"",
       "zh": "第 2 段：“My sister gave it to me for my birthday.”"
+     },
+     "wrong": {
+      "She bought it in Korea.": {
+       "en": "The story does not say she bought it. Paragraph 2 says it was a gift.",
+       "zh": "故事没说是她买的。第 2 段说是礼物。"
+      },
+      "It cost a lot of money.": {
+       "en": "Price is not mentioned. It was special because of who GAVE it.",
+       "zh": "没提到价钱。它特别是因为是谁送的。"
+      },
+      "Emma gave it to her.": {
+       "en": "Emma FOUND the card and gave it BACK. Her sister gave it to her first.",
+       "zh": "Emma 是捡到卡再还给她。最初是她姐姐送给她的。"
+      }
+     },
+     "qzh": "为什么这张卡对 Sophie 那么特别？",
+     "ozh": {
+      "It was a gift from her sister.": "那是她姐姐送的礼物。",
+      "She bought it in Korea.": "她在韩国买的。",
+      "It cost a lot of money.": "它很贵。",
+      "Emma gave it to her.": "是 Emma 给她的。"
      }
     },
     {
@@ -855,6 +1169,27 @@
      "why": {
       "en": "A theme is a life lesson for everyone. The others are facts or a summary.",
       "zh": "主题是对每个人都适用的道理。其他选项是事实或概要。"
+     },
+     "wrong": {
+      "Emma found a card on the bus.": {
+       "en": "This tells WHAT HAPPENED with a name, so it is a summary, not a life lesson.",
+       "zh": "这讲的是发生了什么，有名字，是概要，不是人生道理。"
+      },
+      "K-pop cards are rare.": {
+       "en": "This is a fact about cards. A theme is a lesson about how to live.",
+       "zh": "这是关于卡片的事实。主题是关于怎样做人的道理。"
+      },
+      "Buses are often crowded.": {
+       "en": "This is a fact about buses, not a lesson the story teaches.",
+       "zh": "这是关于公交车的事实，不是故事要教的道理。"
+      }
+     },
+     "qzh": "故事最好的主题是哪一个？",
+     "ozh": {
+      "Emma found a card on the bus.": "Emma 在公交车上捡到一张卡。",
+      "K-pop cards are rare.": "K-pop 小卡很稀有。",
+      "Buses are often crowded.": "公交车常常很挤。",
+      "Doing the right thing feels better than keeping what is not yours.": "做正确的事，比留下不属于自己的东西感觉更好。"
      }
     },
     {
@@ -869,6 +1204,27 @@
      "why": {
       "en": "A summary tells WHAT HAPPENED, with names. \"Be kind\" is a theme, not a summary.",
       "zh": "概要讲发生了什么，有名字。“Be kind” 是主题，不是概要。"
+     },
+     "wrong": {
+      "Be kind to other people.": {
+       "en": "This is a THEME (a lesson for everyone with no names), not what happened.",
+       "zh": "这是主题（给所有人的道理，没有名字），不是发生了什么。"
+      },
+      "K-pop is very popular.": {
+       "en": "This is a fact, not what happened in the story.",
+       "zh": "这是一个事实，不是故事里发生的事。"
+      },
+      "Sophie's sister likes birthdays.": {
+       "en": "This is a small detail the story does not even say. A summary tells the MAIN events.",
+       "zh": "这是故事里都没说的小细节。概要要讲主要事件。"
+      }
+     },
+     "qzh": "哪一句是这个故事最好的概要？",
+     "ozh": {
+      "Emma found a rare photo card on the bus and gave it back to Sophie.": "Emma 在公交车上捡到一张稀有的小卡，并还给了 Sophie。",
+      "Be kind to other people.": "要对别人好。",
+      "K-pop is very popular.": "K-pop 很受欢迎。",
+      "Sophie's sister likes birthdays.": "Sophie 的姐姐喜欢过生日。"
      }
     },
     {
@@ -883,6 +1239,27 @@
      "why": {
       "en": "Paragraphs 2 and 3: she saw the girl crying and looking under every seat, so she felt sad and worried.",
       "zh": "第 2、3 段：她看到女孩在哭、在每个座位下面找，所以心里难过、担心。"
+     },
+     "wrong": {
+      "She lost her own photo card.": {
+       "en": "Emma did not lose a card; Sophie did. Emma felt bad when she saw Sophie upset.",
+       "zh": "Emma 没丢卡，是 Sophie 丢的。Emma 看到 Sophie 难过才心里难受。"
+      },
+      "The bus was late.": {
+       "en": "The story does not say the bus was late. Her heart was heavy because of Sophie's tears.",
+       "zh": "故事没说车晚了。她心情沉重是因为 Sophie 哭了。"
+      },
+      "She did not like K-pop any more.": {
+       "en": "Emma still loves K-pop. Her heavy heart came from seeing Sophie crying.",
+       "zh": "Emma 还是喜欢 K-pop。她心情沉重是因为看到 Sophie 在哭。"
+      }
+     },
+     "qzh": "为什么 Emma 心里很沉重？",
+     "ozh": {
+      "She saw Sophie crying and looking for the card.": "她看到 Sophie 一边哭一边找卡。",
+      "She lost her own photo card.": "她丢了自己的小卡。",
+      "The bus was late.": "公交车晚了。",
+      "She did not like K-pop any more.": "她不再喜欢 K-pop 了。"
      }
     }
    ],
@@ -1975,8 +2352,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "\"I like bread\" and \"it is soft\" are two complete sentences joined with nothing between them.",
-      "zh": "“I like bread” 和 “it is soft” 是两个完整的句子，中间什么都没有。"
+      "en": "A run-on sentence is TWO complete sentences pushed together with no full stop or joining word. \"I like bread\" + \"it is soft\" = two sentences with nothing between.",
+      "zh": "连写句是两个完整的句子挤在一起，中间没有句号或连接词。I like bread + it is soft = 两个句子中间什么都没有。"
+     },
+     "wrong": {
+      "I like bread.": {
+       "en": "This is ONE complete sentence with a full stop. Nothing is joined wrongly.",
+       "zh": "这是一个完整的句子，有句号，没有连错。"
+      },
+      "I like soft bread.": {
+       "en": "One subject (I), one verb (like): a single correct sentence.",
+       "zh": "一个主语（I）、一个动词（like）：一个正确的句子。"
+      },
+      "Soft bread is nice.": {
+       "en": "One subject (soft bread), one verb (is): a single correct sentence.",
+       "zh": "一个主语（soft bread）、一个动词（is）：一个正确的句子。"
+      }
+     },
+     "qzh": "哪一个是连写句（run-on sentence）？",
+     "ozh": {
+      "I like bread.": "",
+      "I like bread it is soft.": "",
+      "I like soft bread.": "",
+      "Soft bread is nice.": ""
      }
     },
     {
@@ -1991,6 +2389,27 @@
      "why": {
       "en": "Two complete sentences joined with only a comma is still a run-on. It needs \"but\" or a full stop.",
       "zh": "两个完整的句子只用逗号连起来，还是连写句。需要加 but 或句号。"
+     },
+     "wrong": {
+      "Tom ran, but he was late.": {
+       "en": "The joining word \"but\" after the comma links the two ideas correctly.",
+       "zh": "逗号后面有连接词 but，正确地连起了两个意思。"
+      },
+      "Tom ran fast.": {
+       "en": "This is one complete sentence, so it is correct.",
+       "zh": "这是一个完整的句子，是对的。"
+      },
+      "Tom was late.": {
+       "en": "This is one complete sentence, so it is correct.",
+       "zh": "这是一个完整的句子，是对的。"
+      }
+     },
+     "qzh": "哪一个是连写句（run-on sentence）？",
+     "ozh": {
+      "Tom ran, but he was late.": "",
+      "Tom ran fast.": "",
+      "Tom ran fast, he was late.": "",
+      "Tom was late.": ""
      }
     },
     {
@@ -2003,8 +2422,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Fix 1: full stop + capital letter. \"She\" starts the new sentence with a capital S.",
-      "zh": "改法 1：句号 + 大写字母。新句子 She 要大写。"
+      "en": "Fix a run-on by ending the first sentence with a full stop and starting the next with a CAPITAL letter: Emma loves K-pop. She dances every day.",
+      "zh": "改连写句：第一句用句号结束，下一句用大写字母开头：Emma loves K-pop. She dances every day."
+     },
+     "wrong": {
+      "Emma loves K-pop, she dances every day.": {
+       "en": "This joins two complete sentences with only a comma. A comma alone cannot join two sentences: that is a comma splice, a kind of run-on.",
+       "zh": "这只用逗号连接两个完整的句子。逗号不能单独连接两个句子：这叫逗号粘连，也是连写句。"
+      },
+      "Emma loves K-pop she. Dances every day.": {
+       "en": "The full stop is in the wrong place. \"She\" belongs to the second sentence; \"Dances every day\" has no subject.",
+       "zh": "句号放错了。She 属于第二句；Dances every day 没有主语。"
+      },
+      "emma loves K-pop. she dances every day.": {
+       "en": "The full stop is right, but every sentence and every name must start with a CAPITAL letter: Emma, She.",
+       "zh": "句号对了，但每个句子和名字都要大写开头：Emma、She。"
+      }
+     },
+     "qzh": "选最好的改法：Emma loves K-pop she dances every day.",
+     "ozh": {
+      "Emma loves K-pop, she dances every day.": "",
+      "Emma loves K-pop. She dances every day.": "",
+      "Emma loves K-pop she. Dances every day.": "",
+      "emma loves K-pop. she dances every day.": ""
      }
     },
     {
@@ -2017,8 +2457,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "Fix 2: comma + and. \"My grandma smiled, and she gave me a big hug.\"",
-      "zh": "改法 2：逗号 + and。"
+      "en": "Another way to fix a run-on: add a comma AND a joining word (and, but, so) between the two sentences: My grandma smiled, and she gave me a big hug.",
+      "zh": "改连写句的另一种方法：在两个句子之间加逗号和连接词（and、but、so）：My grandma smiled, and she gave me a big hug."
+     },
+     "wrong": {
+      "My grandma smiled, she gave me a big hug.": {
+       "en": "This joins two complete sentences with only a comma. A comma alone cannot join two sentences: that is a comma splice, a kind of run-on.",
+       "zh": "这只用逗号连接两个完整的句子。逗号不能单独连接两个句子：这叫逗号粘连，也是连写句。"
+      },
+      "My grandma smiled and, she gave me a big hug.": {
+       "en": "The comma goes BEFORE \"and\", not after it.",
+       "zh": "逗号要放在 and 前面，不是后面。"
+      },
+      "my grandma smiled. she gave me a big hug.": {
+       "en": "The full stop is fine, but each sentence must start with a capital: My, She.",
+       "zh": "句号可以，但每个句子要大写开头：My、She。"
+      }
+     },
+     "qzh": "选最好的改法：My grandma smiled she gave me a big hug.",
+     "ozh": {
+      "My grandma smiled, she gave me a big hug.": "",
+      "My grandma smiled and, she gave me a big hug.": "",
+      "My grandma smiled, and she gave me a big hug.": "",
+      "my grandma smiled. she gave me a big hug.": ""
      }
     },
     {
@@ -2031,8 +2492,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A comma alone is not enough. Comma + so joins the two ideas and shows the reason.",
-      "zh": "只有逗号不够。逗号 + so 把两个意思连起来，还说明了原因。"
+      "en": "A comma alone cannot join two sentences. Add a joining word: comma + so. \"So\" also shows the reason: dropping the phone caused the crack.",
+      "zh": "逗号不能单独连接两个句子，要加连接词：逗号 + so。so 还表示因果：手机掉了导致屏幕裂了。"
+     },
+     "wrong": {
+      "I dropped my phone the screen cracked.": {
+       "en": "This removes the comma and makes it worse: two sentences with nothing between them.",
+       "zh": "这把逗号也去掉了，更糟：两个句子中间什么都没有。"
+      },
+      "I dropped, my phone the screen cracked.": {
+       "en": "The comma is in the wrong place and the two sentences are still not joined properly.",
+       "zh": "逗号放错了位置，两个句子还是没有正确连接。"
+      },
+      "I dropped my phone, the Screen cracked.": {
+       "en": "Still a comma splice, and \"screen\" is not a name, so it needs no capital.",
+       "zh": "还是逗号粘连，而且 screen 不是名字，不用大写。"
+      }
+     },
+     "qzh": "选最好的改法：I dropped my phone, the screen cracked.",
+     "ozh": {
+      "I dropped my phone, so the screen cracked.": "",
+      "I dropped my phone the screen cracked.": "",
+      "I dropped, my phone the screen cracked.": "",
+      "I dropped my phone, the Screen cracked.": ""
      }
     },
     {
@@ -2045,8 +2527,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "A question to grab attention is an introduction.",
-      "zh": "用问题吸引听众，这是开场。"
+      "en": "The introduction comes first and grabs the audience's attention, often with a question to the listener.",
+      "zh": "引言在最前面，用来吸引听众注意，常用一个问听众的问题。"
+     },
+     "wrong": {
+      "Beginning": {
+       "en": "The beginning of the story tells WHEN and WHERE it happened. A question to the audience comes before that.",
+       "zh": "故事的开头讲什么时候、在哪里。问听众的问题在这之前。"
+      },
+      "Middle": {
+       "en": "The middle is the exciting problem or surprise.",
+       "zh": "中间是精彩的问题或意外。"
+      },
+      "End": {
+       "en": "The end tells how the story finished.",
+       "zh": "结尾讲故事怎样结束。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“你有没有试过做饭，结果弄得一团糟？”",
+     "ozh": {
+      "Introduction": "引言",
+      "Beginning": "开头",
+      "Middle": "中间",
+      "End": "结尾"
      }
     },
     {
@@ -2061,6 +2564,27 @@
      "why": {
       "en": "It tells WHEN and WHERE. That is the beginning.",
       "zh": "它讲了时间和地点，这是开始。"
+     },
+     "wrong": {
+      "Introduction": {
+       "en": "The introduction grabs attention, often with a question. This sentence sets the time and place.",
+       "zh": "引言用问题等方式吸引注意。这句交代时间和地点。"
+      },
+      "Middle": {
+       "en": "The middle is a problem or surprise. Nothing has happened yet here.",
+       "zh": "中间是问题或意外。这里还什么都没发生。"
+      },
+      "Conclusion": {
+       "en": "The conclusion says what you learned, at the very end.",
+       "zh": "结论在最后，说你学到了什么。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“那是春节，我在奶奶的厨房里。”",
+     "ozh": {
+      "Introduction": "引言",
+      "Beginning": "开头",
+      "Middle": "中间",
+      "Conclusion": "结论"
      }
     },
     {
@@ -2075,6 +2599,27 @@
      "why": {
       "en": "A problem or surprise is the exciting middle part.",
       "zh": "问题或惊喜是最精彩的中间部分。"
+     },
+     "wrong": {
+      "Beginning": {
+       "en": "The beginning sets the scene (when, where). Words like \"Then\" and \"something unexpected\" show the story has moved on.",
+       "zh": "开头交代场景（时间、地点）。Then 和 something unexpected 表示故事已经往前走了。"
+      },
+      "End": {
+       "en": "The end tells how the problem was solved. Here the problem is just starting.",
+       "zh": "结尾讲问题怎么解决。这里问题才刚开始。"
+      },
+      "Conclusion": {
+       "en": "The conclusion is the lesson learned, not an event.",
+       "zh": "结论是学到的道理，不是事件。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“然后，意想不到的事发生了：我的第一个饺子在锅里破开了！”",
+     "ozh": {
+      "Beginning": "开头",
+      "Middle": "中间",
+      "End": "结尾",
+      "Conclusion": "结论"
      }
     },
     {
@@ -2089,6 +2634,27 @@
      "why": {
       "en": "It tells how the story ended. That is the end.",
       "zh": "它讲了故事的结果，这是结尾。"
+     },
+     "wrong": {
+      "Introduction": {
+       "en": "The introduction grabs attention at the start. \"Finally\" shows this is near the end.",
+       "zh": "引言在开头吸引注意。Finally 表示这接近结尾。"
+      },
+      "Middle": {
+       "en": "The middle is the problem. Here the problem is already solved.",
+       "zh": "中间是问题。这里问题已经解决了。"
+      },
+      "Conclusion": {
+       "en": "The conclusion says what you LEARNED. This sentence still tells what happened.",
+       "zh": "结论说你学到了什么。这句还在讲发生了什么。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“最后，奶奶尝了我的饺子，说它们很完美。”",
+     "ozh": {
+      "Introduction": "引言",
+      "Middle": "中间",
+      "End": "结尾",
+      "Conclusion": "结论"
      }
     },
     {
@@ -2103,6 +2669,27 @@
      "why": {
       "en": "It tells what I learned, not the story again. That is the conclusion.",
       "zh": "它讲了我学到什么，不是再讲故事，这是总结。"
+     },
+     "wrong": {
+      "Beginning": {
+       "en": "The beginning tells when and where the story happened.",
+       "zh": "开头讲故事发生的时间和地点。"
+      },
+      "Middle": {
+       "en": "The middle is the problem or surprise in the story.",
+       "zh": "中间是故事里的问题或意外。"
+      },
+      "End": {
+       "en": "The end tells how the story finished. A lesson learned is the conclusion.",
+       "zh": "结尾讲故事怎样结束。学到的道理是结论。"
+      }
+     },
+     "qzh": "这是演讲的哪一部分？\n“我明白了，犯错是学习新东西的一部分。”",
+     "ozh": {
+      "Beginning": "开头",
+      "Middle": "中间",
+      "End": "结尾",
+      "Conclusion": "结论"
      }
     }
    ],
@@ -2138,9 +2725,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "1/2 × 1/4 = 1/8.",
-      "zh": "1/2 × 1/4 = 1/8。"
-     }
+      "en": "Multiply straight across: top × top = 1 × 1 = 1, bottom × bottom = 2 × 4 = 8. So 1/8. (Half of a quarter is an eighth.)",
+      "zh": "直接横着乘：分子 1 × 1 = 1，分母 2 × 4 = 8。所以是 1/8。（四分之一的一半是八分之一。）"
+     },
+     "wrong": {
+      "2/8": {
+       "en": "2/8 adds the tops (1 + 1). The tops must be MULTIPLIED: 1 × 1 = 1.",
+       "zh": "2/8 是把分子相加（1 + 1）。分子要相乘：1 × 1 = 1。"
+      },
+      "2/6": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "1/6": {
+       "en": "1/6 adds the bottoms (2 + 4). The bottoms must be MULTIPLIED: 2 × 4 = 8.",
+       "zh": "1/6 是把分母相加（2 + 4）。分母要相乘：2 × 4 = 8。"
+      }
+     },
+     "qzh": "1/2 × 1/4 = ？"
     },
     {
      "q": "2/3 × 1/2 = ?",
@@ -2152,9 +2754,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "2/3 × 1/2 = 1/3.",
-      "zh": "2/3 × 1/2 = 1/3。"
-     }
+      "en": "Top × top = 2 × 1 = 2, bottom × bottom = 3 × 2 = 6, so 2/6. Simplify (÷ 2): 1/3.",
+      "zh": "分子 2 × 1 = 2，分母 3 × 2 = 6，得 2/6。约分（÷ 2）：1/3。"
+     },
+     "wrong": {
+      "3/5": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "2/5": {
+       "en": "2/5 adds the bottoms (3 + 2). Bottoms must be MULTIPLIED: 3 × 2 = 6.",
+       "zh": "2/5 是把分母相加（3 + 2）。分母要相乘：3 × 2 = 6。"
+      },
+      "3/6": {
+       "en": "3/6 adds the tops (2 + 1). Tops must be MULTIPLIED: 2 × 1 = 2.",
+       "zh": "3/6 是把分子相加（2 + 1）。分子要相乘：2 × 1 = 2。"
+      }
+     },
+     "qzh": "2/3 × 1/2 = ？"
     },
     {
      "q": "3/4 × 4/5 = ?",
@@ -2166,9 +2783,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "3/4 × 4/5 = 3/5.",
-      "zh": "3/4 × 4/5 = 3/5。"
-     }
+      "en": "Top × top = 3 × 4 = 12, bottom × bottom = 4 × 5 = 20, so 12/20. Simplify (÷ 4): 3/5.",
+      "zh": "分子 3 × 4 = 12，分母 4 × 5 = 20，得 12/20。约分（÷ 4）：3/5。"
+     },
+     "wrong": {
+      "7/9": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "4/5": {
+       "en": "4/5 is just the second fraction. You must multiply BOTH fractions.",
+       "zh": "4/5 只是第二个分数。两个分数都要乘。"
+      },
+      "12/9": {
+       "en": "12/9 multiplies the tops but ADDS the bottoms (4 + 5). Bottoms must be multiplied: 20.",
+       "zh": "12/9 分子乘了，分母却加了（4 + 5）。分母要相乘：20。"
+      }
+     },
+     "qzh": "3/4 × 4/5 = ？"
     },
     {
      "q": "4 × 1/3 = ?",
@@ -2180,9 +2812,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "4 × 1/3 = 1 1/3.",
-      "zh": "4 × 1/3 = 1 1/3。"
-     }
+      "en": "Write 4 as 4/1. Then 4 × 1 = 4 and 1 × 3 = 3, so 4/3. 4/3 is 3/3 + 1/3 = 1 1/3.",
+      "zh": "把 4 写成 4/1。4 × 1 = 4，1 × 3 = 3，得 4/3。4/3 = 3/3 + 1/3 = 1 1/3。"
+     },
+     "wrong": {
+      "5/3": {
+       "en": "5/3 adds 4 + 1. A whole number times a fraction multiplies the top: 4 × 1 = 4.",
+       "zh": "5/3 是 4 + 1。整数乘分数要乘分子：4 × 1 = 4。"
+      },
+      "1/12": {
+       "en": "1/12 multiplies the BOTTOM by 4. 4 = 4/1, so the 4 multiplies the top.",
+       "zh": "1/12 是把分母乘了 4。4 = 4/1，所以 4 乘的是分子。"
+      },
+      "4/12": {
+       "en": "4/12 multiplies the top AND the bottom by 4, which keeps the same value (1/3). Only the top gets × 4.",
+       "zh": "4/12 是分子分母都乘 4，值没变（1/3）。只有分子乘 4。"
+      }
+     },
+     "qzh": "4 × 1/3 = ？"
     },
     {
      "q": "5/6 × 2/5 = ?",
@@ -2194,9 +2841,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "5/6 × 2/5 = 1/3.",
-      "zh": "5/6 × 2/5 = 1/3。"
-     }
+      "en": "Top × top = 5 × 2 = 10, bottom × bottom = 6 × 5 = 30, so 10/30. Simplify (÷ 10): 1/3.",
+      "zh": "分子 5 × 2 = 10，分母 6 × 5 = 30，得 10/30。约分（÷ 10）：1/3。"
+     },
+     "wrong": {
+      "10/11": {
+       "en": "10/11 multiplies the tops but ADDS the bottoms (6 + 5). Bottoms must be multiplied: 30.",
+       "zh": "10/11 分子乘了，分母却加了（6 + 5）。分母要相乘：30。"
+      },
+      "7/11": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "7/30": {
+       "en": "7/30 adds the tops (5 + 2). Tops must be MULTIPLIED: 5 × 2 = 10.",
+       "zh": "7/30 是把分子相加（5 + 2）。分子要相乘：5 × 2 = 10。"
+      }
+     },
+     "qzh": "5/6 × 2/5 = ？"
     },
     {
      "q": "1/2 ÷ 1/4 = ?",
@@ -2208,9 +2870,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "1/2 ÷ 1/4 = 2.",
-      "zh": "1/2 ÷ 1/4 = 2。"
-     }
+      "en": "Keep, Change, Flip: 1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2. Check: how many quarters fit in a half? 2.",
+      "zh": "Keep、Change、Flip：1/2 ÷ 1/4 = 1/2 × 4/1 = 4/2 = 2。检查：半个里面有几个四分之一？2 个。"
+     },
+     "wrong": {
+      "2/8": {
+       "en": "Dividing by a fraction smaller than 1 makes the answer BIGGER than 1/2. 2/8 is smaller. To divide by a fraction, KEEP the first, CHANGE ÷ to ×, FLIP the second (Keep, Change, Flip).",
+       "zh": "除以小于 1 的分数，答案会比 1/2 大。2/8 更小了。除以一个分数：第一个不变，÷ 变 ×，第二个倒过来（Keep、Change、Flip）。"
+      },
+      "1/2": {
+       "en": "1/2 is the number we started with. Dividing by 1/4 changes it.",
+       "zh": "1/2 是开始的数。除以 1/4 会改变它。"
+      },
+      "1/8": {
+       "en": "1/8 is 1/2 × 1/4: it multiplied without flipping. To divide by a fraction, KEEP the first, CHANGE ÷ to ×, FLIP the second (Keep, Change, Flip).",
+       "zh": "1/8 是 1/2 × 1/4，没有倒过来就乘了。除以一个分数：第一个不变，÷ 变 ×，第二个倒过来（Keep、Change、Flip）。"
+      }
+     },
+     "qzh": "1/2 ÷ 1/4 = ？"
     },
     {
      "q": "2 ÷ 1/3 = ?",
@@ -2222,9 +2899,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "2 ÷ 1/3 = 6.",
-      "zh": "2 ÷ 1/3 = 6。"
-     }
+      "en": "Keep, Change, Flip: 2 ÷ 1/3 = 2 × 3/1 = 6. Check: each whole has 3 thirds, so 2 wholes have 6 thirds.",
+      "zh": "Keep、Change、Flip：2 ÷ 1/3 = 2 × 3/1 = 6。检查：每个整体有 3 个三分之一，2 个整体有 6 个。"
+     },
+     "wrong": {
+      "2/3": {
+       "en": "2/3 is 2 × 1/3: it multiplied without flipping. To divide by a fraction, KEEP the first, CHANGE ÷ to ×, FLIP the second (Keep, Change, Flip).",
+       "zh": "2/3 是 2 × 1/3，没有倒过来就乘了。除以一个分数：第一个不变，÷ 变 ×，第二个倒过来（Keep、Change、Flip）。"
+      },
+      "3/2": {
+       "en": "3/2 flips the WRONG number. Keep the 2, flip the 1/3 to 3/1.",
+       "zh": "3/2 倒错了数。2 不变，把 1/3 倒成 3/1。"
+      },
+      "1/6": {
+       "en": "1/6 is the right digits upside down. Dividing by 1/3 gives MORE than 2, not less.",
+       "zh": "1/6 是把正确答案倒过来了。除以 1/3 结果比 2 大，不是更小。"
+      }
+     },
+     "qzh": "2 ÷ 1/3 = ？"
     },
     {
      "q": "3/5 ÷ 3 = ?",
@@ -2236,9 +2928,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "3/5 ÷ 3 = 1/5.",
-      "zh": "3/5 ÷ 3 = 1/5。"
-     }
+      "en": "Write 3 as 3/1 and flip it: 3/5 × 1/3 = 3/15. Simplify (÷ 3): 1/5. (Sharing 3 fifths between 3 gives 1 fifth each.)",
+      "zh": "把 3 写成 3/1 再倒过来：3/5 × 1/3 = 3/15。约分（÷ 3）：1/5。（3 个五分之一分给 3 个人，每人 1 个五分之一。）"
+     },
+     "wrong": {
+      "1/15": {
+       "en": "1/15 divides the top by 3 AND multiplies the bottom by 3, which divides twice. Only one change is needed: 3/15 = 1/5.",
+       "zh": "1/15 是分子除以 3、分母又乘 3，等于除了两次。只要变一次：3/15 = 1/5。"
+      },
+      "1 4/5": {
+       "en": "1 4/5 = 9/5, which is 3/5 × 3: it multiplied instead of dividing.",
+       "zh": "1 4/5 = 9/5，是 3/5 × 3，乘了而不是除。"
+      },
+      "9/5": {
+       "en": "9/5 is 3/5 × 3: it multiplied instead of dividing.",
+       "zh": "9/5 是 3/5 × 3，乘了而不是除。"
+      }
+     },
+     "qzh": "3/5 ÷ 3 = ？"
     },
     {
      "q": "3/4 ÷ 3/8 = ?",
@@ -2250,9 +2957,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "3/4 ÷ 3/8 = 2.",
-      "zh": "3/4 ÷ 3/8 = 2。"
-     }
+      "en": "Keep, Change, Flip: 3/4 × 8/3 = 24/12 = 2. Check: 3/8 fits into 3/4 two times (3/8 + 3/8 = 6/8 = 3/4).",
+      "zh": "Keep、Change、Flip：3/4 × 8/3 = 24/12 = 2。检查：3/4 里有两个 3/8（3/8 + 3/8 = 6/8 = 3/4）。"
+     },
+     "wrong": {
+      "9/32": {
+       "en": "9/32 is 3/4 × 3/8: it multiplied without flipping. To divide by a fraction, KEEP the first, CHANGE ÷ to ×, FLIP the second (Keep, Change, Flip).",
+       "zh": "9/32 是 3/4 × 3/8，没倒过来就乘了。除以一个分数：第一个不变，÷ 变 ×，第二个倒过来（Keep、Change、Flip）。"
+      },
+      "1/2": {
+       "en": "1/2 flips the FIRST fraction (4/3 × 3/8). Keep the first, flip the SECOND.",
+       "zh": "1/2 是倒了第一个分数（4/3 × 3/8）。第一个不变，倒第二个。"
+      },
+      "6/4": {
+       "en": "6/4 = 1 1/2. Check: 3/8 × 6/4 = 18/32, not 3/4. The answer is 2.",
+       "zh": "6/4 = 1 1/2。检查：3/8 × 6/4 = 18/32，不是 3/4。答案是 2。"
+      }
+     },
+     "qzh": "3/4 ÷ 3/8 = ？"
     },
     {
      "q": "4/5 ÷ 2/3 = ?",
@@ -2264,9 +2986,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "4/5 ÷ 2/3 = 1 1/5.",
-      "zh": "4/5 ÷ 2/3 = 1 1/5。"
-     }
+      "en": "Keep, Change, Flip: 4/5 × 3/2 = 12/10 = 6/5 = 1 1/5. Check: dividing by 2/3 (less than 1) makes the answer BIGGER than 4/5.",
+      "zh": "Keep、Change、Flip：4/5 × 3/2 = 12/10 = 6/5 = 1 1/5。检查：除以 2/3（小于 1）会让答案比 4/5 大。"
+     },
+     "wrong": {
+      "8/15": {
+       "en": "8/15 is 4/5 × 2/3: it multiplied without flipping. To divide by a fraction, KEEP the first, CHANGE ÷ to ×, FLIP the second (Keep, Change, Flip).",
+       "zh": "8/15 是 4/5 × 2/3，没倒过来就乘了。除以一个分数：第一个不变，÷ 变 ×，第二个倒过来（Keep、Change、Flip）。"
+      },
+      "2/3": {
+       "en": "2/3 is just the second fraction, not the answer.",
+       "zh": "2/3 只是第二个分数，不是答案。"
+      },
+      "6/10": {
+       "en": "6/10 is smaller than 4/5, but dividing by 2/3 must give a BIGGER answer. 12/10 was halved by mistake.",
+       "zh": "6/10 比 4/5 小，但除以 2/3 答案一定更大。是把 12/10 错误地减半了。"
+      }
+     },
+     "qzh": "4/5 ÷ 2/3 = ？"
     }
    ],
    "canNow": {
@@ -2301,8 +3038,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "discussion: add -ion (drop the e first if the word ends in e).",
-      "zh": "discussion：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "discuss + ion = discussion. The base word keeps its double s, and -ion is added (i before o).",
+      "zh": "discuss + ion = discussion。原词的双 s 保留，再加 -ion（i 在 o 前）。"
+     },
+     "wrong": {
+      "discussoin": {
+       "en": "The ending is -ion: i comes BEFORE o.",
+       "zh": "词尾是 -ion：i 在 o 前面。"
+      },
+      "discusion": {
+       "en": "Discuss already has TWO s's; keep both.",
+       "zh": "discuss 本来有两个 s，都要保留。"
+      },
+      "disscussion": {
+       "en": "Only the second s is doubled: dis-cuss.",
+       "zh": "只有后面的 s 是双写：dis-cuss。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "discussoin": "",
+      "discussion": "",
+      "discusion": "",
+      "disscussion": ""
      }
     },
     {
@@ -2315,8 +3073,29 @@
      ],
      "answer": 3,
      "why": {
-      "en": "instruction: add -ion (drop the e first if the word ends in e).",
-      "zh": "instruction：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "instruct + ion = instruction. Keep the whole base word (with its c and t) and add -ion.",
+      "zh": "instruct + ion = instruction。保留整个原词（包括 c 和 t），再加 -ion。"
+     },
+     "wrong": {
+      "instructoin": {
+       "en": "The ending is -ion: i comes BEFORE o.",
+       "zh": "词尾是 -ion：i 在 o 前面。"
+      },
+      "instrucion": {
+       "en": "The t from instruct must stay: instruct + ion.",
+       "zh": "instruct 的 t 要保留：instruct + ion。"
+      },
+      "instruktion": {
+       "en": "Instruct is spelled with c, not k.",
+       "zh": "instruct 拼作 c，不是 k。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "instructoin": "",
+      "instrucion": "",
+      "instruktion": "",
+      "instruction": ""
      }
     },
     {
@@ -2329,8 +3108,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "operation: add -ion (drop the e first if the word ends in e).",
-      "zh": "operation：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "operate ends in e: drop the e, then add -ion. operate → operat + ion = operation.",
+      "zh": "operate 以 e 结尾：去掉 e，再加 -ion。operate → operat + ion = operation。"
+     },
+     "wrong": {
+      "operatoin": {
+       "en": "The ending is -ion: i comes BEFORE o.",
+       "zh": "词尾是 -ion：i 在 o 前面。"
+      },
+      "opperation": {
+       "en": "Operate has only ONE p.",
+       "zh": "operate 只有一个 p。"
+      },
+      "operateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "operatoin": "",
+      "opperation": "",
+      "operation": "",
+      "operateion": ""
      }
     },
     {
@@ -2343,8 +3143,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "evaluation: add -ion (drop the e first if the word ends in e).",
-      "zh": "evaluation：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "evaluate ends in e: drop the e, add -ion: evaluation.",
+      "zh": "evaluate 以 e 结尾：去掉 e，加 -ion：evaluation。"
+     },
+     "wrong": {
+      "evaluateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      },
+      "evalution": {
+       "en": "The a from evaluate must stay: eval-u-a-tion.",
+       "zh": "evaluate 的 a 要保留：eval-u-a-tion。"
+      },
+      "evaluasion": {
+       "en": "The ending is spelled -tion. The \"shun\" sound is never spelled -sion here, and -tion is never -toin.",
+       "zh": "词尾拼作 -tion。这里的 shun 音不拼 -sion，-tion 也不是 -toin。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "evaluateion": "",
+      "evalution": "",
+      "evaluation": "",
+      "evaluasion": ""
      }
     },
     {
@@ -2357,8 +3178,29 @@
      ],
      "answer": 3,
      "why": {
-      "en": "investigation: add -ion (drop the e first if the word ends in e).",
-      "zh": "investigation：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "investigate ends in e: drop the e, add -ion: investigation.",
+      "zh": "investigate 以 e 结尾：去掉 e，加 -ion：investigation。"
+     },
+     "wrong": {
+      "investigateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      },
+      "investigasion": {
+       "en": "The ending is spelled -tion. The \"shun\" sound is never spelled -sion here, and -tion is never -toin.",
+       "zh": "词尾拼作 -tion。这里的 shun 音不拼 -sion，-tion 也不是 -toin。"
+      },
+      "investagation": {
+       "en": "The base word is inves-TI-gate, with an i, not an a.",
+       "zh": "原词是 inves-ti-gate，是 i，不是 a。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "investigateion": "",
+      "investigasion": "",
+      "investagation": "",
+      "investigation": ""
      }
     },
     {
@@ -2371,8 +3213,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "punctuation: add -ion (drop the e first if the word ends in e).",
-      "zh": "punctuation：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "punctuate ends in e: drop the e, add -ion: punctuation.",
+      "zh": "punctuate 以 e 结尾：去掉 e，加 -ion：punctuation。"
+     },
+     "wrong": {
+      "punctuateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      },
+      "puntuation": {
+       "en": "The c from punc-tuate must stay: punc-tu-a-tion.",
+       "zh": "punctuate 的 c 要保留：punc-tu-a-tion。"
+      },
+      "punctuasion": {
+       "en": "The ending is spelled -tion. The \"shun\" sound is never spelled -sion here, and -tion is never -toin.",
+       "zh": "词尾拼作 -tion。这里的 shun 音不拼 -sion，-tion 也不是 -toin。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "punctuation": "",
+      "punctuateion": "",
+      "puntuation": "",
+      "punctuasion": ""
      }
     },
     {
@@ -2385,8 +3248,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "congratulation: add -ion (drop the e first if the word ends in e).",
-      "zh": "congratulation：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "congratulate ends in e: drop the e, add -ion: congratulation.",
+      "zh": "congratulate 以 e 结尾：去掉 e，加 -ion：congratulation。"
+     },
+     "wrong": {
+      "congratulasion": {
+       "en": "The ending is spelled -tion. The \"shun\" sound is never spelled -sion here, and -tion is never -toin.",
+       "zh": "词尾拼作 -tion。这里的 shun 音不拼 -sion，-tion 也不是 -toin。"
+      },
+      "congradulation": {
+       "en": "It is spelled with a T: con-gra-TU-late (it sounds like a d, but it is a t).",
+       "zh": "要拼 t：con-gra-tu-late（听起来像 d，但其实是 t）。"
+      },
+      "congratulateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "congratulation": "",
+      "congratulasion": "",
+      "congradulation": "",
+      "congratulateion": ""
      }
     },
     {
@@ -2399,8 +3283,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "violation: add -ion (drop the e first if the word ends in e).",
-      "zh": "violation：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "violate ends in e: drop the e, add -ion: violation.",
+      "zh": "violate 以 e 结尾：去掉 e，加 -ion：violation。"
+     },
+     "wrong": {
+      "violasion": {
+       "en": "The ending is spelled -tion. The \"shun\" sound is never spelled -sion here, and -tion is never -toin.",
+       "zh": "词尾拼作 -tion。这里的 shun 音不拼 -sion，-tion 也不是 -toin。"
+      },
+      "violateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      },
+      "voilation": {
+       "en": "The base word is VI-o-late: i comes before o.",
+       "zh": "原词是 vi-o-late：i 在 o 前面。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "violasion": "",
+      "violation": "",
+      "violateion": "",
+      "voilation": ""
      }
     },
     {
@@ -2413,8 +3318,29 @@
      ],
      "answer": 1,
      "why": {
-      "en": "digestion: add -ion (drop the e first if the word ends in e).",
-      "zh": "digestion：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "digest + ion = digestion. Keep the base word exactly and add -ion.",
+      "zh": "digest + ion = digestion。原词不变，加 -ion。"
+     },
+     "wrong": {
+      "diggestion": {
+       "en": "Digest has only ONE g.",
+       "zh": "digest 只有一个 g。"
+      },
+      "digesttion": {
+       "en": "Digest has only ONE t at the end.",
+       "zh": "digest 末尾只有一个 t。"
+      },
+      "digesion": {
+       "en": "The t from digest must stay: digest + ion.",
+       "zh": "digest 的 t 要保留：digest + ion。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "diggestion": "",
+      "digestion": "",
+      "digesttion": "",
+      "digesion": ""
      }
     },
     {
@@ -2427,8 +3353,29 @@
      ],
      "answer": 3,
      "why": {
-      "en": "duplication: add -ion (drop the e first if the word ends in e).",
-      "zh": "duplication：加 -ion（以 e 结尾先去掉 e）。"
+      "en": "duplicate ends in e: drop the e, add -ion: duplication.",
+      "zh": "duplicate 以 e 结尾：去掉 e，加 -ion：duplication。"
+     },
+     "wrong": {
+      "duplicasion": {
+       "en": "The ending is spelled -tion. The \"shun\" sound is never spelled -sion here, and -tion is never -toin.",
+       "zh": "词尾拼作 -tion。这里的 shun 音不拼 -sion，-tion 也不是 -toin。"
+      },
+      "duplicateion": {
+       "en": "When a word ends in e, drop the e before adding -ion: no \"eion\".",
+       "zh": "以 e 结尾的词加 -ion 前要去掉 e：不会有 eion。"
+      },
+      "dupplication": {
+       "en": "Duplicate has only ONE p at the start.",
+       "zh": "duplicate 开头只有一个 p。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "duplicasion": "",
+      "duplicateion": "",
+      "dupplication": "",
+      "duplication": ""
      }
     }
    ],
@@ -2468,6 +3415,27 @@
      "why": {
       "en": "Clue: she ate three bowls of noodles.",
       "zh": "线索：她吃了三碗面。"
+     },
+     "wrong": {
+      "very tired": {
+       "en": "Swimming can make you tired, but the clue is that she ATE three bowls. That shows hunger.",
+       "zh": "游泳会累，但线索是她吃了三碗，说明是饿。"
+      },
+      "very cold": {
+       "en": "Being cold does not explain eating three bowls of noodles.",
+       "zh": "冷不能解释吃了三碗面。"
+      },
+      "very happy": {
+       "en": "The clue is about food, not about feelings.",
+       "zh": "线索是关于吃的，不是感受。"
+      }
+     },
+     "qzh": "游了两个小时泳后，Lily 感到 FAMISHED。她吃了三碗面！\nFAMISHED 的意思是……",
+     "ozh": {
+      "very tired": "很累",
+      "very cold": "很冷",
+      "very happy": "很开心",
+      "very hungry": "很饿"
      }
     },
     {
@@ -2482,6 +3450,27 @@
      "why": {
       "en": "Clue word \"but\": timid is the opposite of brave and loud.",
       "zh": "线索词 but：timid 和 brave、loud 相反。"
+     },
+     "wrong": {
+      "very loud": {
+       "en": "\"But\" shows an OPPOSITE. On stage he was loud, so usually he is the opposite: quiet and shy.",
+       "zh": "but 表示相反。他在台上很大声，所以平时正相反：安静害羞。"
+      },
+      "very tall": {
+       "en": "Height has nothing to do with being brave or loud.",
+       "zh": "身高跟勇敢或大声无关。"
+      },
+      "angry": {
+       "en": "The opposite of brave is scared, not angry.",
+       "zh": "勇敢的反义是害怕，不是生气。"
+      }
+     },
+     "qzh": "Tom 平时很 TIMID，但在台上他又勇敢又大声。\nTIMID 的意思是……",
+     "ozh": {
+      "very loud": "很大声",
+      "shy and easily scared": "害羞、容易害怕",
+      "very tall": "很高",
+      "angry": "生气"
      }
     },
     {
@@ -2496,6 +3485,27 @@
      "why": {
       "en": "Clue words \"such as\" give examples: pens, stickers, notebooks.",
       "zh": "线索词 such as 后面是例子：笔、贴纸、本子。"
+     },
+     "wrong": {
+      "clothes": {
+       "en": "Pens, stickers and notebooks are not clothes.",
+       "zh": "笔、贴纸和本子不是衣服。"
+      },
+      "snacks": {
+       "en": "You cannot eat pens and stickers.",
+       "zh": "笔和贴纸不能吃。"
+      },
+      "toys for babies": {
+       "en": "Gel pens and notebooks are for writing and school, not babies.",
+       "zh": "中性笔和本子是写字上学用的，不是给婴儿的。"
+      }
+     },
+     "qzh": "Emma 很喜欢 STATIONERY，比如中性笔、贴纸和笔记本。\nSTATIONERY 的意思是……",
+     "ozh": {
+      "clothes": "衣服",
+      "snacks": "零食",
+      "toys for babies": "婴儿玩具",
+      "things for writing and school": "写字和上学用的东西"
      }
     },
     {
@@ -2510,6 +3520,27 @@
      "why": {
       "en": "Clue: we could hardly hear it.",
       "zh": "线索：我们几乎听不见。"
+     },
+     "wrong": {
+      "very loud": {
+       "en": "If it were loud, we could hear it easily. \"Hardly hear\" means quiet.",
+       "zh": "如果很大声，就很容易听到。hardly hear 表示很小声。"
+      },
+      "very high": {
+       "en": "A high voice can still be easy to hear. The clue is about how hard it was to hear.",
+       "zh": "高音也可以很容易听到。线索是很难听见。"
+      },
+      "very fast": {
+       "en": "Speed is not the clue. We could hardly HEAR it, so it was quiet.",
+       "zh": "线索不是速度。几乎听不见，所以是小声。"
+      }
+     },
+     "qzh": "歌手的声音太 FAINT 了，我们几乎听不见。\nFAINT 的意思是……",
+     "ozh": {
+      "very quiet and weak": "很小、很弱",
+      "very loud": "很大声",
+      "very high": "很高",
+      "very fast": "很快"
      }
     },
     {
@@ -2524,6 +3555,27 @@
      "why": {
       "en": "Clue: it gobbled up its food in seconds.",
       "zh": "线索：它几秒钟就把食物吃光了。"
+     },
+     "wrong": {
+      "very sleepy": {
+       "en": "A sleepy puppy would not gobble food in seconds.",
+       "zh": "困的小狗不会几秒钟就把饭吃光。"
+      },
+      "frightened": {
+       "en": "A scared puppy usually hides; eating fast shows hunger.",
+       "zh": "害怕的小狗通常会躲起来；吃得快表示饿。"
+      },
+      "dirty": {
+       "en": "Being dirty does not explain eating so fast.",
+       "zh": "脏不能解释吃得这么快。"
+      }
+     },
+     "qzh": "小狗很 RAVENOUS，几秒钟就把饭吃光了。\nRAVENOUS 的意思是……",
+     "ozh": {
+      "very sleepy": "很困",
+      "frightened": "害怕",
+      "extremely hungry": "非常饿",
+      "dirty": "脏"
      }
     },
     {
@@ -2538,6 +3590,27 @@
      "why": {
       "en": "Clue word \"unlike\": tidy is the opposite of messy.",
       "zh": "线索词 unlike：tidy 和 messy 相反。"
+     },
+     "wrong": {
+      "messy": {
+       "en": "\"Unlike\" shows an OPPOSITE. Sophie is messy, so her sister is the opposite.",
+       "zh": "unlike 表示相反。Sophie 很乱，所以她姐姐正相反。"
+      },
+      "noisy": {
+       "en": "The clue compares rooms (messy), not sound.",
+       "zh": "线索比较的是房间（乱），不是声音。"
+      },
+      "small": {
+       "en": "The opposite of messy is neat, not small.",
+       "zh": "乱的反义是整齐，不是小。"
+      }
+     },
+     "qzh": "和她 TIDY 的姐姐不一样，Sophie 的房间很乱。\nTIDY 的意思是……",
+     "ozh": {
+      "messy": "乱",
+      "neat and clean": "整齐干净",
+      "noisy": "吵",
+      "small": "小"
      }
     },
     {
@@ -2552,6 +3625,27 @@
      "why": {
       "en": "Clue: there was no room to move.",
       "zh": "线索：没有地方可以动。"
+     },
+     "wrong": {
+      "empty": {
+       "en": "Empty streets would have lots of room. \"No room to move\" means full.",
+       "zh": "空的街道会有很多空间。no room to move 表示很满。"
+      },
+      "wet": {
+       "en": "Wet is about water. The clue is about having no room.",
+       "zh": "wet 跟水有关。线索是没有空间。"
+      },
+      "quiet": {
+       "en": "A crowded festival is usually noisy, and the clue is about space.",
+       "zh": "拥挤的节日通常很吵，线索讲的是空间。"
+      }
+     },
+     "qzh": "节日的时候，街上很 PACKED，挤得动不了。\nPACKED 的意思是……",
+     "ozh": {
+      "very full of people": "挤满了人",
+      "empty": "空的",
+      "wet": "湿的",
+      "quiet": "安静"
      }
     },
     {
@@ -2566,6 +3660,27 @@
      "why": {
       "en": "Clue: he jumped and cheered.",
       "zh": "线索：他跳起来欢呼。"
+     },
+     "wrong": {
+      "very sad": {
+       "en": "People who are sad do not jump and cheer.",
+       "zh": "难过的人不会跳起来欢呼。"
+      },
+      "bored": {
+       "en": "Jumping and cheering shows strong excitement, not boredom.",
+       "zh": "跳起来欢呼是非常兴奋，不是无聊。"
+      },
+      "worried": {
+       "en": "His team WON, and he cheered, so he was not worried.",
+       "zh": "他的队赢了，他在欢呼，所以不担心。"
+      }
+     },
+     "qzh": "James 的队赢了游泳比赛，他很 ELATED，又跳又欢呼。\nELATED 的意思是……",
+     "ozh": {
+      "very sad": "很难过",
+      "bored": "无聊",
+      "worried": "担心",
+      "very happy": "非常开心"
      }
     },
     {
@@ -2580,6 +3695,27 @@
      "why": {
       "en": "Clue: held it carefully so it would not tear.",
       "zh": "线索：小心拿着，免得撕破。"
+     },
+     "wrong": {
+      "very heavy": {
+       "en": "Heavy things are not easy to tear. You hold it carefully because it could break.",
+       "zh": "重的东西不容易撕破。小心拿着是因为它容易坏。"
+      },
+      "brand new": {
+       "en": "New maps are strong. The clue says it is OLD and might tear.",
+       "zh": "新地图很结实。线索说它很旧，容易撕破。"
+      },
+      "colourful": {
+       "en": "Colour has nothing to do with tearing.",
+       "zh": "颜色和撕破没有关系。"
+      }
+     },
+     "qzh": "这张旧地图很 FRAGILE，我们小心地拿着，免得撕破。\nFRAGILE 的意思是……",
+     "ozh": {
+      "very heavy": "很重",
+      "brand new": "全新的",
+      "easy to break or damage": "容易坏、容易破",
+      "colourful": "彩色的"
      }
     },
     {
@@ -2594,6 +3730,27 @@
      "why": {
       "en": "But and unlike = opposite. Such as and for example = examples. Which means = the meaning.",
       "zh": "but、unlike = 相反；such as、for example = 举例；which means = 意思。"
+     },
+     "wrong": {
+      "such as": {
+       "en": "\"Such as\" gives EXAMPLES (pens, stickers).",
+       "zh": "such as 引出例子（笔、贴纸）。"
+      },
+      "which means": {
+       "en": "\"Which means\" gives the MEANING directly.",
+       "zh": "which means 直接给出意思。"
+      },
+      "for example": {
+       "en": "\"For example\" gives EXAMPLES.",
+       "zh": "for example 引出例子。"
+      }
+     },
+     "qzh": "哪个线索词告诉你后面要说相反的意思？",
+     "ozh": {
+      "but": "but（但是）",
+      "such as": "such as（比如）",
+      "which means": "which means（意思是）",
+      "for example": "for example（例如）"
      }
     }
    ],
@@ -2809,7 +3966,22 @@
      "why": {
       "en": "Top × top: 1 × 1 = 1. Bottom × bottom: 2 × 3 = 6. So 1/6.",
       "zh": "分子乘分子：1 × 1 = 1；分母乘分母：2 × 3 = 6。所以是 1/6。"
-     }
+     },
+     "wrong": {
+      "2/5": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "2/6": {
+       "en": "2/6 adds the tops (1 + 1). Tops must be multiplied: 1 × 1 = 1.",
+       "zh": "2/6 是分子相加（1 + 1）。分子要相乘：1 × 1 = 1。"
+      },
+      "1/5": {
+       "en": "1/5 adds the bottoms (2 + 3). Bottoms must be multiplied: 2 × 3 = 6.",
+       "zh": "1/5 是分母相加（2 + 3）。分母要相乘：2 × 3 = 6。"
+      }
+     },
+     "qzh": "1/2 × 1/3 = ？"
     },
     {
      "q": "2/3 × 3/4 = ?",
@@ -2823,7 +3995,22 @@
      "why": {
       "en": "2 × 3 = 6 and 3 × 4 = 12, so 6/12. Simplify: 6/12 = 1/2.",
       "zh": "2 × 3 = 6，3 × 4 = 12，得 6/12。约分：6/12 = 1/2。"
-     }
+     },
+     "wrong": {
+      "5/7": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "6/7": {
+       "en": "6/7 multiplies the tops but ADDS the bottoms (3 + 4). Bottoms must be multiplied: 12.",
+       "zh": "6/7 分子乘了，分母却加了（3 + 4）。分母要相乘：12。"
+      },
+      "5/12": {
+       "en": "5/12 adds the tops (2 + 3). Tops must be multiplied: 2 × 3 = 6.",
+       "zh": "5/12 是分子相加（2 + 3）。分子要相乘：2 × 3 = 6。"
+      }
+     },
+     "qzh": "2/3 × 3/4 = ？"
     },
     {
      "q": "3/5 × 2 = ?",
@@ -2837,7 +4024,22 @@
      "why": {
       "en": "2 = 2/1. 3 × 2 = 6 and 5 × 1 = 5, so 6/5 = 1 1/5.",
       "zh": "2 = 2/1。3 × 2 = 6，5 × 1 = 5，得 6/5 = 1 1/5。"
-     }
+     },
+     "wrong": {
+      "6/10": {
+       "en": "6/10 multiplies the bottom by 2 as well. 2 = 2/1, so the bottom is × 1: 6/5.",
+       "zh": "6/10 把分母也乘了 2。2 = 2/1，分母乘的是 1：6/5。"
+      },
+      "3/10": {
+       "en": "3/10 multiplies only the BOTTOM by 2. The 2 multiplies the top.",
+       "zh": "3/10 只把分母乘了 2。2 应该乘分子。"
+      },
+      "5/5": {
+       "en": "5/5 adds 3 + 2. It must be 3 × 2 = 6.",
+       "zh": "5/5 是 3 + 2，应该是 3 × 2 = 6。"
+      }
+     },
+     "qzh": "3/5 × 2 = ？"
     },
     {
      "q": "4 × 1/8 = ?",
@@ -2851,7 +4053,22 @@
      "why": {
       "en": "4 = 4/1. 4 × 1 = 4 and 1 × 8 = 8, so 4/8 = 1/2.",
       "zh": "4 = 4/1。4 × 1 = 4，1 × 8 = 8，得 4/8 = 1/2。"
-     }
+     },
+     "wrong": {
+      "4/32": {
+       "en": "4/32 multiplies the bottom by 4. 4 = 4/1, so only the top is × 4: 4/8.",
+       "zh": "4/32 把分母乘了 4。4 = 4/1，只有分子乘 4：4/8。"
+      },
+      "5/8": {
+       "en": "5/8 adds 4 + 1. It must be 4 × 1 = 4.",
+       "zh": "5/8 是 4 + 1，应该是 4 × 1 = 4。"
+      },
+      "1/32": {
+       "en": "1/32 multiplies the bottom by 4 instead of the top.",
+       "zh": "1/32 把 4 乘到分母上了，应该乘分子。"
+      }
+     },
+     "qzh": "4 × 1/8 = ？"
     },
     {
      "q": "2/5 × 5/6 = ?",
@@ -2865,7 +4082,22 @@
      "why": {
       "en": "2 × 5 = 10 and 5 × 6 = 30, so 10/30. Simplify: 10/30 = 1/3.",
       "zh": "2 × 5 = 10，5 × 6 = 30，得 10/30。约分：10/30 = 1/3。"
-     }
+     },
+     "wrong": {
+      "7/11": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "10/11": {
+       "en": "10/11 multiplies the tops but ADDS the bottoms (5 + 6). Bottoms must be multiplied: 30.",
+       "zh": "10/11 分子乘了，分母却加了（5 + 6）。分母要相乘：30。"
+      },
+      "7/30": {
+       "en": "7/30 adds the tops (2 + 5). Tops must be multiplied: 2 × 5 = 10.",
+       "zh": "7/30 是分子相加（2 + 5）。分子要相乘：2 × 5 = 10。"
+      }
+     },
+     "qzh": "2/5 × 5/6 = ？"
     },
     {
      "q": "Lily drinks 3/4 of a 1/2 litre bottle of juice. How much does she drink?",
@@ -2879,7 +4111,22 @@
      "why": {
       "en": "Of means ×: 3/4 × 1/2 = 3/8 L.",
       "zh": "of 就是 ×：3/4 × 1/2 = 3/8 升。"
-     }
+     },
+     "wrong": {
+      "4/6 L": {
+       "en": "4/6 adds the tops and the bottoms. \"Of\" means MULTIPLY.",
+       "zh": "4/6 是分子分母都相加了。of 表示乘。"
+      },
+      "1/4 L": {
+       "en": "1/4 is 3/4 − 1/2, subtracting. \"Of\" means multiply.",
+       "zh": "1/4 是 3/4 − 1/2，减了。of 表示乘。"
+      },
+      "5/4 L": {
+       "en": "5/4 is 3/4 + 1/2, adding. She drinks PART of half a litre, so it must be less than 1/2 L.",
+       "zh": "5/4 是 3/4 + 1/2，加了。她只喝了半升的一部分，一定少于 1/2 升。"
+      }
+     },
+     "qzh": "Lily 喝了一瓶 1/2 升果汁的 3/4。她喝了多少？"
     },
     {
      "q": "What is 2/3 of 9 stickers?",
@@ -2893,6 +4140,27 @@
      "why": {
       "en": "2/3 × 9: 9 ÷ 3 = 3, then 3 × 2 = 6 stickers.",
       "zh": "2/3 × 9：9 ÷ 3 = 3，再 3 × 2 = 6 张贴纸。"
+     },
+     "wrong": {
+      "3 stickers": {
+       "en": "3 is only 1/3 of 9. We need 2 thirds: 3 × 2 = 6.",
+       "zh": "3 只是 9 的 1/3。我们要 2 个三分之一：3 × 2 = 6。"
+      },
+      "18 stickers": {
+       "en": "18 is 2 × 9, which forgets to divide by 3. A fraction of 9 must be LESS than 9.",
+       "zh": "18 是 2 × 9，忘了除以 3。9 的几分之几一定比 9 小。"
+      },
+      "27 stickers": {
+       "en": "27 is 3 × 9. A fraction of 9 stickers must be less than 9.",
+       "zh": "27 是 3 × 9。9 张的几分之几一定少于 9 张。"
+      }
+     },
+     "qzh": "9 张贴纸的 2/3 是多少？",
+     "ozh": {
+      "3 stickers": "3 张",
+      "18 stickers": "18 张",
+      "6 stickers": "6 张",
+      "27 stickers": "27 张"
      }
     },
     {
@@ -2907,6 +4175,27 @@
      "why": {
       "en": "Multiply straight across. No common denominator needed. Flipping is for DIVIDING.",
       "zh": "直接横着乘，不用通分。倒过来是除法才用的。"
+     },
+     "wrong": {
+      "add the tops": {
+       "en": "Adding is for adding fractions. For multiplying, MULTIPLY the tops and the bottoms.",
+       "zh": "相加是分数加法用的。乘法要分子乘分子、分母乘分母。"
+      },
+      "find a common denominator first": {
+       "en": "Common denominators are needed for ADDING and SUBTRACTING, not multiplying.",
+       "zh": "通分是加法和减法才需要的，乘法不需要。"
+      },
+      "flip the second fraction": {
+       "en": "Flipping is for DIVIDING (Keep, Change, Flip), not multiplying.",
+       "zh": "倒过来是除法用的（Keep、Change、Flip），不是乘法。"
+      }
+     },
+     "qzh": "两个分数怎样相乘？",
+     "ozh": {
+      "add the tops": "分子相加",
+      "top × top, bottom × bottom": "分子乘分子，分母乘分母",
+      "find a common denominator first": "先通分",
+      "flip the second fraction": "把第二个分数倒过来"
      }
     }
    ],
@@ -2944,6 +4233,27 @@
      "why": {
       "en": "Clue: it fell asleep.",
       "zh": "线索：它睡着了。"
+     },
+     "wrong": {
+      "hungry": {
+       "en": "The clue is \"fell asleep\", not eating.",
+       "zh": "线索是 fell asleep（睡着了），不是吃。"
+      },
+      "noisy": {
+       "en": "A noisy kitten would not fall asleep quietly in your lap.",
+       "zh": "吵闹的小猫不会安静地在腿上睡着。"
+      },
+      "brave": {
+       "en": "Brave is about not being afraid; the clue is about sleep.",
+       "zh": "brave 是不害怕；线索是关于睡觉的。"
+      }
+     },
+     "qzh": "“小猫太 DROWSY 了，在我腿上睡着了。”DROWSY 的意思是……",
+     "ozh": {
+      "sleepy": "困",
+      "hungry": "饿",
+      "noisy": "吵",
+      "brave": "勇敢"
      }
     },
     {
@@ -2958,6 +4268,27 @@
      "why": {
       "en": "Clue word \"unlike\": calm is the opposite of wild and stormy.",
       "zh": "线索词 unlike：calm 和 wild、stormy 相反。"
+     },
+     "wrong": {
+      "wild": {
+       "en": "\"Unlike\" shows an OPPOSITE. The sea was wild, so the lake was the opposite.",
+       "zh": "unlike 表示相反。海很狂暴，所以湖正相反。"
+      },
+      "deep": {
+       "en": "The clue compares wild and stormy, not depth.",
+       "zh": "线索比较的是狂暴，不是深浅。"
+      },
+      "cold": {
+       "en": "The opposite of stormy is still and peaceful, not cold.",
+       "zh": "暴风雨的反义是平静，不是冷。"
+      }
+     },
+     "qzh": "“和 CALM 的湖不一样，大海又狂暴又有风暴。”CALM 的意思是……",
+     "ozh": {
+      "wild": "狂暴",
+      "deep": "深",
+      "cold": "冷",
+      "still and peaceful": "平静安宁"
      }
     },
     {
@@ -2972,6 +4303,27 @@
      "why": {
       "en": "Clue words \"such as\": ice cream, cake. All sweet foods.",
       "zh": "线索词 such as：冰淇淋、蛋糕，都是甜食。"
+     },
+     "wrong": {
+      "drinks": {
+       "en": "Ice cream, mango sticky rice and cake are foods, not drinks.",
+       "zh": "冰淇淋、芒果糯米饭和蛋糕是食物，不是饮料。"
+      },
+      "vegetables": {
+       "en": "The examples are all SWEET foods, not vegetables.",
+       "zh": "例子都是甜食，不是蔬菜。"
+      },
+      "breakfast foods": {
+       "en": "Cake and ice cream come after a meal, not at breakfast.",
+       "zh": "蛋糕和冰淇淋是饭后吃的，不是早餐。"
+      }
+     },
+     "qzh": "“我们吃了很多 DESSERTS，比如冰淇淋、芒果糯米饭和蛋糕。”DESSERTS 是……",
+     "ozh": {
+      "drinks": "饮料",
+      "vegetables": "蔬菜",
+      "sweet foods after a meal": "饭后吃的甜食",
+      "breakfast foods": "早餐食物"
      }
     },
     {
@@ -2984,8 +4336,27 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Going to bed early is the result: so.",
-      "zh": "早睡是结果：so。"
+      "en": "\"So\" shows a RESULT: being tired is the reason, going to bed early is what happened because of it.",
+      "zh": "so 表示结果：累是原因，早睡是因此发生的事。"
+     },
+     "wrong": {
+      "but": {
+       "en": "\"But\" shows a CONTRAST (something unexpected). Going to bed when tired is expected.",
+       "zh": "but 表示转折（意料之外）。累了去睡觉是意料之中的。"
+      },
+      "or": {
+       "en": "\"Or\" gives a CHOICE between two things.",
+       "zh": "or 是在两样里选一样。"
+      },
+      "until": {
+       "en": "\"Until\" is about time (up to a point). \"I was tired, until I went to bed\" does not make sense.",
+       "zh": "until 表示时间（直到）。I was tired, until I went to bed 说不通。"
+      }
+     },
+     "qzh": "“我很累，___ 我早早睡了。”（选连接词）",
+     "ozh": {
+      "but": "",
+      "until": ""
      }
     },
     {
@@ -2998,8 +4369,27 @@
      ],
      "answer": 1,
      "why": {
-      "en": "A choice between two things: or.",
-      "zh": "两个里选一个：or。"
+      "en": "\"Or\" joins two CHOICES: swim, or play badminton.",
+      "zh": "or 连接两个选择：游泳还是打羽毛球。"
+     },
+     "wrong": {
+      "so": {
+       "en": "\"So\" shows a result, not a choice.",
+       "zh": "so 表示结果，不是选择。"
+      },
+      "because": {
+       "en": "\"Because\" gives a reason, not a choice.",
+       "zh": "because 给出原因，不是选择。"
+      },
+      "although": {
+       "en": "\"Although\" shows a contrast, not a choice.",
+       "zh": "although 表示让步，不是选择。"
+      }
+     },
+     "qzh": "“你想游泳 ___ 打羽毛球？”（选连接词）",
+     "ozh": {
+      "because": "",
+      "although": ""
      }
     },
     {
@@ -3014,6 +4404,27 @@
      "why": {
       "en": "Two full sentences joined by so: the comma goes BEFORE so.",
       "zh": "两个完整句子用 so 连接：逗号放在 so 前面。"
+     },
+     "wrong": {
+      "I love K-pop so, I bought a photo card.": {
+       "en": "The comma goes BEFORE the joining word, not after it.",
+       "zh": "逗号放在连接词前面，不是后面。"
+      },
+      "I love, K-pop so I bought a photo card.": {
+       "en": "This comma splits \"love\" from what she loves. It belongs before \"so\".",
+       "zh": "这个逗号把 love 和她爱的东西分开了。逗号应该在 so 前面。"
+      },
+      "I love K-pop so I, bought a photo card.": {
+       "en": "This comma splits \"I\" from its verb \"bought\". It belongs before \"so\".",
+       "zh": "这个逗号把 I 和它的动词 bought 分开了。逗号应该在 so 前面。"
+      }
+     },
+     "qzh": "哪一句的逗号位置正确？",
+     "ozh": {
+      "I love K-pop so, I bought a photo card.": "",
+      "I love, K-pop so I bought a photo card.": "",
+      "I love K-pop, so I bought a photo card.": "",
+      "I love K-pop so I, bought a photo card.": ""
      }
     },
     {
@@ -3028,6 +4439,27 @@
      "why": {
       "en": "Act ends in -ct, so add -or: actor.",
       "zh": "act 以 -ct 结尾，加 -or：actor。"
+     },
+     "wrong": {
+      "acter": {
+       "en": "Words ending in -ct (act, direct, conduct) take -OR for the person: actor.",
+       "zh": "以 -ct 结尾的词（act、direct、conduct）表示人时加 -or：actor。"
+      },
+      "actour": {
+       "en": "The ending is -or, with no u (in British spelling only words like colour have -our).",
+       "zh": "词尾是 -or，没有 u。"
+      },
+      "actar": {
+       "en": "The ending for a person who acts is -or, not -ar.",
+       "zh": "表示演员的词尾是 -or，不是 -ar。"
+      }
+     },
+     "qzh": "在电影里演戏的人是……（选正确的拼写）",
+     "ozh": {
+      "acter": "",
+      "actour": "",
+      "actar": "",
+      "actor": ""
      }
     },
     {
@@ -3042,6 +4474,27 @@
      "why": {
       "en": "Short vowel + one m: double the m, then add -er.",
       "zh": "短元音加一个 m：双写 m，再加 -er。"
+     },
+     "wrong": {
+      "swimer": {
+       "en": "Swim has a SHORT vowel (i) and ends in one consonant (m), so double the m before -er: swimmer.",
+       "zh": "swim 是短元音（i）加一个辅音（m），加 -er 前要双写 m：swimmer。"
+      },
+      "swimor": {
+       "en": "A person who swims takes -er, and the m must be doubled: swimmer.",
+       "zh": "游泳的人用 -er，m 还要双写：swimmer。"
+      },
+      "swimmor": {
+       "en": "The double m is right, but the ending is -er, not -or.",
+       "zh": "双写 m 对了，但词尾是 -er，不是 -or。"
+      }
+     },
+     "qzh": "游泳的人是……（选正确的拼写）",
+     "ozh": {
+      "swimer": "",
+      "swimmer": "",
+      "swimor": "",
+      "swimmor": ""
      }
     },
     {
@@ -3056,6 +4509,27 @@
      "why": {
       "en": "Go out on a limb = take a risk by saying something others may not agree with.",
       "zh": "go out on a limb = 冒险说别人可能不同意的话。"
+     },
+     "wrong": {
+      "climbed a tree": {
+       "en": "A limb is a branch, but this is an IDIOM: its meaning is different from the words.",
+       "zh": "limb 是树枝，但这是习语：意思和字面不一样。"
+      },
+      "broke her arm": {
+       "en": "Limb can mean arm or leg, but the idiom is about taking a risk, not getting hurt.",
+       "zh": "limb 也可以指手臂或腿，但这个习语是冒险，不是受伤。"
+      },
+      "left the room": {
+       "en": "She \"told the class her idea\", so she stayed. Going out on a limb means being brave with an idea.",
+       "zh": "她 told the class her idea，所以她没离开。go out on a limb 是勇敢地说出想法。"
+      }
+     },
+     "qzh": "“Emma went out on a limb，在全班面前说出了自己的想法。”这表示 Emma……",
+     "ozh": {
+      "climbed a tree": "爬了树",
+      "broke her arm": "摔断了手臂",
+      "left the room": "离开了房间",
+      "took a risk": "冒了险"
      }
     },
     {
@@ -3068,9 +4542,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "3 × 2 = 6 and 4 × 3 = 12, so 6/12 = 1/2.",
-      "zh": "3 × 2 = 6，4 × 3 = 12，得 6/12 = 1/2。"
-     }
+      "en": "Multiply straight across: 3 × 2 = 6 and 4 × 3 = 12, so 6/12. Simplify (÷ 6): 1/2.",
+      "zh": "直接横着乘：3 × 2 = 6，4 × 3 = 12，得 6/12。约分（÷ 6）：1/2。"
+     },
+     "wrong": {
+      "5/7": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "6/7": {
+       "en": "6/7 multiplies the tops but ADDS the bottoms (4 + 3). Bottoms must be multiplied: 12.",
+       "zh": "6/7 分子乘了，分母却加了（4 + 3）。分母要相乘：12。"
+      },
+      "5/12": {
+       "en": "5/12 adds the tops (3 + 2). Tops must be multiplied: 6.",
+       "zh": "5/12 是分子相加（3 + 2）。分子要相乘：6。"
+      }
+     },
+     "qzh": "3/4 × 2/3 = ？"
     },
     {
      "q": "What is 1/4 of 20 sweets?",
@@ -3082,8 +4571,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "1/4 × 20 = 20 ÷ 4 = 5 sweets.",
-      "zh": "1/4 × 20 = 20 ÷ 4 = 5 颗糖。"
+      "en": "1/4 of 20 means share 20 into 4 equal groups: 20 ÷ 4 = 5 sweets.",
+      "zh": "20 的 1/4 是把 20 平均分成 4 份：20 ÷ 4 = 5 颗。"
+     },
+     "wrong": {
+      "4 sweets": {
+       "en": "4 is the number of groups, not the size of one group.",
+       "zh": "4 是份数，不是一份的大小。"
+      },
+      "16 sweets": {
+       "en": "16 is 20 − 4. \"Of\" means multiply, so 1/4 × 20 = 20 ÷ 4.",
+       "zh": "16 是 20 − 4。of 表示乘，1/4 × 20 = 20 ÷ 4。"
+      },
+      "80 sweets": {
+       "en": "80 is 20 × 4. A quarter of 20 must be LESS than 20.",
+       "zh": "80 是 20 × 4。20 的四分之一一定比 20 小。"
+      }
+     },
+     "qzh": "20 颗糖的 1/4 是多少？",
+     "ozh": {
+      "4 sweets": "4 颗",
+      "16 sweets": "16 颗",
+      "5 sweets": "5 颗",
+      "80 sweets": "80 颗"
      }
     },
     {
@@ -3098,6 +4608,27 @@
      "why": {
       "en": "Investigate: drop the e, add -ion: investigation.",
       "zh": "investigate 去掉 e，加 -ion：investigation。"
+     },
+     "wrong": {
+      "investigasion": {
+       "en": "The \"shun\" sound here is spelled -tion: investigate → investigation.",
+       "zh": "这里的 shun 音拼作 -tion：investigate → investigation。"
+      },
+      "investegation": {
+       "en": "The base word is inves-TI-gate, with an i, not an e.",
+       "zh": "原词是 inves-ti-gate，是 i，不是 e。"
+      },
+      "investigtion": {
+       "en": "The a from investig-A-te must stay: investig-a-tion.",
+       "zh": "investigate 的 a 要保留：investig-a-tion。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "investigasion": "",
+      "investigation": "",
+      "investegation": "",
+      "investigtion": ""
      }
     }
    ],
@@ -3165,6 +4696,27 @@
      "why": {
       "en": "Clue: she decided she would practise every morning, even when it was cold.",
       "zh": "线索：她决定每天早上练习，即使很冷。"
+     },
+     "wrong": {
+      "she was scared": {
+       "en": "A scared person might give up. She practised every morning even when it was cold, which shows she would not stop.",
+       "zh": "害怕的人可能会放弃。她就算天冷也每天早上练习，说明她不会停。"
+      },
+      "she was bored": {
+       "en": "Bored people do not practise every morning.",
+       "zh": "无聊的人不会每天早上练习。"
+      },
+      "she was lost": {
+       "en": "Nothing in the clue is about being lost; it is about deciding and not stopping.",
+       "zh": "线索里没有迷路的意思，讲的是下定决心、不停下。"
+      }
+     },
+     "qzh": "DETERMINED 的意思是……",
+     "ozh": {
+      "she was scared": "她很害怕",
+      "she had decided and would not stop": "她下定决心，不会停下",
+      "she was bored": "她很无聊",
+      "she was lost": "她迷路了"
      }
     },
     {
@@ -3179,6 +4731,27 @@
      "why": {
       "en": "The meaning comes right after: so tired.",
       "zh": "意思紧跟在后面：so tired（非常累）。"
+     },
+     "wrong": {
+      "her friend Sophie": {
+       "en": "This names a person; it does not explain the word.",
+       "zh": "这是一个人名，没有解释这个词。"
+      },
+      "on the day of the gala": {
+       "en": "This tells WHEN, not what exhausted means.",
+       "zh": "这讲的是什么时候，不是 exhausted 的意思。"
+      },
+      "the whistle blew": {
+       "en": "This is an event in the race, not a clue about being tired.",
+       "zh": "这是比赛里的事，不是累的线索。"
+      }
+     },
+     "qzh": "哪些词是 EXHAUSTED 的上下文线索？",
+     "ozh": {
+      "her friend Sophie": "她的朋友 Sophie",
+      "on the day of the gala": "比赛那天",
+      "the whistle blew": "哨声响了",
+      "so tired that she fell asleep on the bus": "累得在公交车上睡着了"
      }
     },
     {
@@ -3193,6 +4766,27 @@
      "why": {
       "en": "No empty seat = very full.",
       "zh": "没有空座位 = 非常满。"
+     },
+     "wrong": {
+      "the whistle blew": {
+       "en": "The whistle starts the race; it says nothing about how full the pool was.",
+       "zh": "哨声是比赛开始，跟游泳馆有多满无关。"
+      },
+      "she dived in": {
+       "en": "Diving in is what she did, not a clue about the crowd.",
+       "zh": "跳水是她做的事，不是人多的线索。"
+      },
+      "38 seconds": {
+       "en": "38 seconds is her time, not a clue about the crowd.",
+       "zh": "38 秒是她的成绩，不是人多的线索。"
+      }
+     },
+     "qzh": "“泳池很 PACKED。”哪个线索有帮助？",
+     "ozh": {
+      "there was no empty seat anywhere": "到处都没有空位",
+      "the whistle blew": "哨声响了",
+      "she dived in": "她跳下水",
+      "38 seconds": "38 秒"
      }
     },
     {
@@ -3207,6 +4801,27 @@
      "why": {
       "en": "It is an idiom. Sophie wants Emma to remember her goal.",
       "zh": "这是习语。Sophie 想让 Emma 记住目标。"
+     },
+     "wrong": {
+      "Look at the medals.": {
+       "en": "This takes the words literally. An idiom means something different: keep thinking about your goal.",
+       "zh": "这是按字面理解。习语的意思不一样：一直想着你的目标。"
+      },
+      "Close your eyes.": {
+       "en": "Keep your eyes ON something is the opposite of closing them, and it is not literal.",
+       "zh": "keep your eyes on 跟闭眼正相反，而且不是字面意思。"
+      },
+      "Buy a prize.": {
+       "en": "Nobody is buying anything; it means remembering your goal.",
+       "zh": "没有人在买东西，意思是记住你的目标。"
+      }
+     },
+     "qzh": "Sophie 说 Keep your eyes on the prize 是什么意思？",
+     "ozh": {
+      "Look at the medals.": "看着奖牌。",
+      "Close your eyes.": "闭上眼睛。",
+      "Think about your goal and do not give up.": "想着你的目标，不要放弃。",
+      "Buy a prize.": "买一个奖品。"
      }
     },
     {
@@ -3221,6 +4836,27 @@
      "why": {
       "en": "Her goal was under 40 seconds. 38 is less than 40.",
       "zh": "目标是 40 秒以内。38 比 40 少。"
+     },
+     "wrong": {
+      "No: she was too slow.": {
+       "en": "Her goal was UNDER 40 seconds. 38 is less than 40, so she was fast enough.",
+       "zh": "她的目标是 40 秒以内。38 比 40 少，所以她够快。"
+      },
+      "No: she did not swim.": {
+       "en": "The story says she dived in and swam the race.",
+       "zh": "故事说她跳下水游了比赛。"
+      },
+      "We do not know.": {
+       "en": "We DO know: the goal (under 40) and her time (38) are both in the story.",
+       "zh": "我们知道：目标（40 秒以内）和成绩（38 秒）故事里都有。"
+      }
+     },
+     "qzh": "Emma 达到目标了吗？",
+     "ozh": {
+      "No: she was too slow.": "没有：她太慢了。",
+      "Yes: 38 seconds is under 40 seconds.": "达到了：38 秒在 40 秒以内。",
+      "No: she did not swim.": "没有：她没有游。",
+      "We do not know.": "我们不知道。"
      }
     },
     {
@@ -3235,6 +4871,27 @@
      "why": {
       "en": "A theme is a life lesson for everyone, with no names.",
       "zh": "主题是给每个人的道理，不写名字。"
+     },
+     "wrong": {
+      "Emma swam in a gala.": {
+       "en": "This is what HAPPENED, with a name: a summary, not a theme.",
+       "zh": "这是发生的事，有名字：是概要，不是主题。"
+      },
+      "Pools are cold in the morning.": {
+       "en": "This is a small fact, not a life lesson.",
+       "zh": "这是一个小事实，不是人生道理。"
+      },
+      "Sophie is Emma's friend.": {
+       "en": "This is a fact about the characters, not a lesson.",
+       "zh": "这是关于人物的事实，不是道理。"
+      }
+     },
+     "qzh": "哪一个是最好的主题？",
+     "ozh": {
+      "Hard work helps you reach your goals.": "努力能帮你达到目标。",
+      "Emma swam in a gala.": "Emma 参加了游泳比赛。",
+      "Pools are cold in the morning.": "泳池早上很冷。",
+      "Sophie is Emma's friend.": "Sophie 是 Emma 的朋友。"
      }
     }
    ],
@@ -3281,6 +4938,27 @@
      "why": {
       "en": "Who = characters.",
       "zh": "谁 = 人物。"
+     },
+     "wrong": {
+      "setting": {
+       "en": "The setting is WHERE and WHEN, not who.",
+       "zh": "背景是在哪里、什么时候，不是谁。"
+      },
+      "problem": {
+       "en": "The problem is what goes WRONG.",
+       "zh": "问题是出了什么错。"
+      },
+      "solution": {
+       "en": "The solution is how the problem gets FIXED.",
+       "zh": "解决办法是问题怎样被解决。"
+      }
+     },
+     "qzh": "“Tom 和他的妹妹 Lily”是故事的……",
+     "ozh": {
+      "setting": "背景",
+      "problem": "问题",
+      "solution": "解决办法",
+      "characters": "人物"
      }
     },
     {
@@ -3295,6 +4973,27 @@
      "why": {
       "en": "Where and when = setting.",
       "zh": "在哪里、什么时候 = 背景。"
+     },
+     "wrong": {
+      "characters": {
+       "en": "Characters are WHO is in the story.",
+       "zh": "人物是故事里的“谁”。"
+      },
+      "solution": {
+       "en": "The solution is how the problem is fixed.",
+       "zh": "解决办法是问题怎样被解决。"
+      },
+      "events": {
+       "en": "Events are what the characters DO, step by step.",
+       "zh": "事件是人物一步一步做的事。"
+      }
+     },
+     "qzh": "“一个下雪的早上，在山里”是故事的……",
+     "ozh": {
+      "characters": "人物",
+      "solution": "解决办法",
+      "setting": "背景",
+      "events": "事件"
      }
     },
     {
@@ -3309,6 +5008,27 @@
      "why": {
       "en": "Something goes wrong = problem.",
       "zh": "出了问题 = 问题。"
+     },
+     "wrong": {
+      "setting": {
+       "en": "The setting is where and when.",
+       "zh": "背景是在哪里、什么时候。"
+      },
+      "solution": {
+       "en": "The puppy has not been found yet, so nothing is fixed.",
+       "zh": "小狗还没找到，所以还没解决。"
+      },
+      "characters": {
+       "en": "Characters are who is in the story.",
+       "zh": "人物是故事里的“谁”。"
+      }
+     },
+     "qzh": "“他们的小狗跑进了森林。”这是故事的……",
+     "ozh": {
+      "problem": "问题",
+      "setting": "背景",
+      "solution": "解决办法",
+      "characters": "人物"
      }
     },
     {
@@ -3323,6 +5043,27 @@
      "why": {
       "en": "What the characters do, step by step = events.",
       "zh": "人物一步一步做的事 = 事件。"
+     },
+     "wrong": {
+      "setting": {
+       "en": "The setting is where and when, not actions.",
+       "zh": "背景是在哪里、什么时候，不是动作。"
+      },
+      "problem": {
+       "en": "The problem was the puppy running away. Following prints is what they DO about it.",
+       "zh": "问题是小狗跑了。跟着脚印是他们为此做的事。"
+      },
+      "theme": {
+       "en": "A theme is a life lesson, not actions.",
+       "zh": "主题是人生道理，不是动作。"
+      }
+     },
+     "qzh": "“他们跟着爪印走，喊着它的名字。”这些是故事的……",
+     "ozh": {
+      "setting": "背景",
+      "events": "事件",
+      "problem": "问题",
+      "theme": "主题"
      }
     },
     {
@@ -3337,6 +5078,27 @@
      "why": {
       "en": "The problem is fixed = solution.",
       "zh": "问题解决了 = 解决。"
+     },
+     "wrong": {
+      "problem": {
+       "en": "Finding the puppy FIXES the problem.",
+       "zh": "找到小狗是解决了问题。"
+      },
+      "setting": {
+       "en": "The setting is where and when.",
+       "zh": "背景是在哪里、什么时候。"
+      },
+      "characters": {
+       "en": "Characters are who is in the story.",
+       "zh": "人物是故事里的“谁”。"
+      }
+     },
+     "qzh": "“他们发现小狗在树下睡着了，就把它抱回了家。”这是故事的……",
+     "ozh": {
+      "problem": "问题",
+      "setting": "背景",
+      "solution": "解决办法",
+      "characters": "人物"
      }
     },
     {
@@ -3351,6 +5113,27 @@
      "why": {
       "en": "Showing (shaking hands) paints a picture. Telling (\"scared\") does not.",
       "zh": "“手在发抖”能让人看到画面，只说“害怕”不行。"
+     },
+     "wrong": {
+      "She was scared.": {
+       "en": "This TELLS the feeling with one word. Showing describes what her body does so we can picture it.",
+       "zh": "这是用一个词直接说出感受。展示是描写她的身体在做什么，让我们想象得到。"
+      },
+      "She was a girl.": {
+       "en": "This gives no feeling at all.",
+       "zh": "这根本没有感受。"
+      },
+      "It was Monday.": {
+       "en": "This is the time, not a feeling.",
+       "zh": "这是时间，不是感受。"
+      }
+     },
+     "qzh": "哪一句最能“展示”出感受？",
+     "ozh": {
+      "She was scared.": "她很害怕。",
+      "She was a girl.": "她是个女孩。",
+      "It was Monday.": "那天是星期一。",
+      "Her hands shook as she opened the letter.": "她打开信的时候手在发抖。"
      }
     },
     {
@@ -3365,6 +5148,27 @@
      "why": {
       "en": "Draft = first try. You check and improve it later.",
       "zh": "草稿 = 第一次尝试，之后再检查、修改。"
+     },
+     "wrong": {
+      "the final perfect copy": {
+       "en": "The final copy comes AFTER drafting and checking.",
+       "zh": "定稿是在打草稿和检查之后。"
+      },
+      "a list of spelling words": {
+       "en": "A spelling list is not a piece of writing you improve.",
+       "zh": "拼写单词表不是要修改的文章。"
+      },
+      "a picture": {
+       "en": "A draft is writing, not a picture.",
+       "zh": "草稿是文字，不是图画。"
+      }
+     },
+     "qzh": "草稿（draft）是……",
+     "ozh": {
+      "the final perfect copy": "最后完美的定稿",
+      "a first try that you will improve": "第一次尝试，之后还会修改",
+      "a list of spelling words": "一张拼写单词表",
+      "a picture": "一幅画"
      }
     },
     {
@@ -3379,6 +5183,27 @@
      "why": {
       "en": "Fiction = made up. Dragons are not real!",
       "zh": "虚构 = 编的。龙不是真的！"
+     },
+     "wrong": {
+      "How to make fried rice": {
+       "en": "Instructions are NON-fiction: real and true.",
+       "zh": "做法说明是非虚构的：真实的。"
+      },
+      "My trip to the dentist yesterday": {
+       "en": "A real trip is a true recount: non-fiction.",
+       "zh": "真实的旅程是真事记叙：非虚构。"
+      },
+      "The life of a real scientist": {
+       "en": "A real person's life is a biography: non-fiction.",
+       "zh": "真人的一生是传记：非虚构。"
+      }
+     },
+     "qzh": "哪一个是虚构（fiction）的故事？",
+     "ozh": {
+      "How to make fried rice": "怎样做炒饭",
+      "My trip to the dentist yesterday": "我昨天去看牙医",
+      "The life of a real scientist": "一位真实科学家的一生",
+      "A dragon who is scared of the dark": "一条怕黑的龙"
      }
     }
    ],
@@ -3416,7 +5241,22 @@
      "why": {
       "en": "Of means ×: 3/4 × 1/3 = 3/12 = 1/4.",
       "zh": "of 就是 ×：3/4 × 1/3 = 3/12 = 1/4。"
-     }
+     },
+     "wrong": {
+      "4/7": {
+       "en": "Multiply fractions straight across: top × top, bottom × bottom. Never add them.",
+       "zh": "分数相乘直接横着乘：分子乘分子，分母乘分母。不能相加。"
+      },
+      "3/7": {
+       "en": "3/7 adds the bottoms (4 + 3). Bottoms must be multiplied: 12.",
+       "zh": "3/7 是分母相加（4 + 3）。分母要相乘：12。"
+      },
+      "1 1/4": {
+       "en": "1 1/4 is MORE than a whole pizza, but she only had 3/4. She eats part of what she had, so it must be less than 3/4.",
+       "zh": "1 1/4 比一整个披萨还多，但她只有 3/4。她吃的是一部分，一定少于 3/4。"
+      }
+     },
+     "qzh": "Lily 有 3/4 个披萨，她吃了其中的 1/3。她吃了整个披萨的几分之几？"
     },
     {
      "q": "Tom has 4 m of ribbon. Each bow needs 1/2 m. How many bows can he make?",
@@ -3430,7 +5270,22 @@
      "why": {
       "en": "How many ... in ... = divide: 4 ÷ 1/2 = 4 × 2 = 8 bows.",
       "zh": "“……里有几个” = 除法：4 ÷ 1/2 = 4 × 2 = 8 个。"
-     }
+     },
+     "wrong": {
+      "2": {
+       "en": "2 is 4 × 1/2: it multiplied. \"How many halves in 4?\" means divide: 4 ÷ 1/2 = 8.",
+       "zh": "2 是 4 × 1/2，乘了。“4 里有几个一半”是除：4 ÷ 1/2 = 8。"
+      },
+      "4 1/2": {
+       "en": "4 1/2 is 4 + 1/2: adding. Each metre makes 2 bows, so 4 metres make 8.",
+       "zh": "4 1/2 是 4 + 1/2，加了。每米做 2 个蝴蝶结，4 米做 8 个。"
+      },
+      "6": {
+       "en": "Check: 6 bows × 1/2 m = 3 m, but he has 4 m. 8 × 1/2 = 4 ✓.",
+       "zh": "检查：6 个 × 1/2 米 = 3 米，但他有 4 米。8 × 1/2 = 4 ✓。"
+      }
+     },
+     "qzh": "Tom 有 4 米丝带，每个蝴蝶结要 1/2 米。他能做几个蝴蝶结？"
     },
     {
      "q": "Emma swims 2/5 km every day. How far does she swim in 5 days?",
@@ -3442,9 +5297,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Same amount each day = multiply: 2/5 × 5 = 10/5 = 2 km.",
-      "zh": "每天一样多 = 乘法：2/5 × 5 = 10/5 = 2 千米。"
-     }
+      "en": "The same amount every day means MULTIPLY: 2/5 × 5 = 10/5 = 2 km.",
+      "zh": "每天一样多就用乘法：2/5 × 5 = 10/5 = 2 公里。"
+     },
+     "wrong": {
+      "2/25 km": {
+       "en": "2/25 multiplies the BOTTOM by 5. 5 = 5/1, so the 5 multiplies the top: 10/5.",
+       "zh": "2/25 是把分母乘了 5。5 = 5/1，所以 5 乘的是分子：10/5。"
+      },
+      "7/5 km": {
+       "en": "7/5 adds 5 to the top (2 + 5). The 5 days MULTIPLY: 2 × 5 = 10.",
+       "zh": "7/5 是分子加了 5（2 + 5）。5 天是乘：2 × 5 = 10。"
+      },
+      "10 km": {
+       "en": "10 is 2 × 5 but forgets the bottom: 10/5 = 2. She swims less than 1 km a day, so 5 days must be less than 5 km.",
+       "zh": "10 是 2 × 5，但忘了分母：10/5 = 2。她每天不到 1 公里，5 天一定不到 5 公里。"
+      }
+     },
+     "qzh": "Emma 每天游 2/5 公里。她 5 天游多远？"
     },
     {
      "q": "3 friends share 3/4 kg of sweets equally. How much does each get?",
@@ -3456,9 +5326,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Shared equally = divide: 3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4 kg.",
-      "zh": "平均分 = 除法：3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4 千克。"
-     }
+      "en": "Shared equally = DIVIDE: 3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4 kg each.",
+      "zh": "平均分就用除法：3/4 ÷ 3 = 3/4 × 1/3 = 3/12 = 1/4 千克。"
+     },
+     "wrong": {
+      "9/4 kg": {
+       "en": "9/4 is 3/4 × 3: it multiplied. Sharing makes each part SMALLER, so divide.",
+       "zh": "9/4 是 3/4 × 3，乘了。分东西每份会变小，要用除法。"
+      },
+      "1/3 kg": {
+       "en": "1/3 is \"one of three people\", not the amount. Check: 3 × 1/3 = 1 kg, but there is only 3/4 kg.",
+       "zh": "1/3 是“三个人中的一个”，不是数量。检查：3 × 1/3 = 1 千克，但只有 3/4 千克。"
+      },
+      "1 kg": {
+       "en": "1 kg is MORE than all the sweets (3/4 kg). Each share must be smaller than the whole.",
+       "zh": "1 千克比全部糖果（3/4 千克）还多。每份一定比总数小。"
+      }
+     },
+     "qzh": "3 个朋友平分 3/4 千克糖果。每人分到多少？"
     },
     {
      "q": "Sophie has 200 baht. She spends 3/4 of it on a phone case. How much does she spend?",
@@ -3470,8 +5355,29 @@
      ],
      "answer": 3,
      "why": {
-      "en": "3/4 of 200: 200 ÷ 4 = 50, then 50 × 3 = 150 baht.",
-      "zh": "200 的 3/4：200 ÷ 4 = 50，再 50 × 3 = 150 泰铢。"
+      "en": "3/4 of 200: first find 1/4: 200 ÷ 4 = 50. Then 3 quarters: 50 × 3 = 150 baht.",
+      "zh": "200 的 3/4：先算 1/4：200 ÷ 4 = 50，再乘 3：50 × 3 = 150 泰铢。"
+     },
+     "wrong": {
+      "50 baht": {
+       "en": "50 is only 1/4. She spends 3 quarters: 50 × 3.",
+       "zh": "50 只是 1/4。她花了 3 个四分之一：50 × 3。"
+      },
+      "75 baht": {
+       "en": "Check: 75 is only 3/8 of 200. 3/4 of 200 is 150.",
+       "zh": "检查：75 只是 200 的 3/8。200 的 3/4 是 150。"
+      },
+      "800 baht": {
+       "en": "800 is 200 × 4. She cannot spend more than the 200 baht she has.",
+       "zh": "800 是 200 × 4。她不可能花得比她有的 200 泰铢还多。"
+      }
+     },
+     "qzh": "Sophie 有 200 泰铢，她把其中的 3/4 用来买手机壳。她花了多少钱？",
+     "ozh": {
+      "50 baht": "50 泰铢",
+      "75 baht": "75 泰铢",
+      "800 baht": "800 泰铢",
+      "150 baht": "150 泰铢"
      }
     },
     {
@@ -3484,9 +5390,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "2 ÷ 1/4 = 2 × 4 = 8 glasses.",
-      "zh": "2 ÷ 1/4 = 2 × 4 = 8 杯。"
-     }
+      "en": "\"How many 1/4 in 2?\" = divide: 2 ÷ 1/4 = 2 × 4 = 8 glasses. (Each litre fills 4 glasses.)",
+      "zh": "“2 里面有几个 1/4”就是除：2 ÷ 1/4 = 2 × 4 = 8 杯。（每升装 4 杯。）"
+     },
+     "wrong": {
+      "1/2": {
+       "en": "1/2 is 2 × 1/4: it multiplied. You cannot fill half a glass as the answer to \"how many glasses\".",
+       "zh": "1/2 是 2 × 1/4，乘了。“能装几杯”不会是半杯。"
+      },
+      "6": {
+       "en": "Check: 6 × 1/4 = 1 1/2 litres, but the bottle has 2 litres.",
+       "zh": "检查：6 × 1/4 = 1 1/2 升，但瓶子有 2 升。"
+      },
+      "4": {
+       "en": "4 glasses is only 1 litre (4 × 1/4). There are 2 litres.",
+       "zh": "4 杯只有 1 升（4 × 1/4）。这里有 2 升。"
+      }
+     },
+     "qzh": "一个瓶子装 2 升，每个杯子装 1/4 升。能装满几杯？"
     },
     {
      "q": "Which word problem needs DIVIDING?",
@@ -3500,6 +5421,27 @@
      "why": {
       "en": "\"How many ... in ...\" = divide. \"Of\" and \"each day for\" = multiply.",
       "zh": "“……里有几个” = 除法；of 和“每天……共几天” = 乘法。"
+     },
+     "wrong": {
+      "What is 1/2 of 6?": {
+       "en": "\"Of\" means MULTIPLY: 1/2 × 6.",
+       "zh": "of 表示乘：1/2 × 6。"
+      },
+      "She runs 1/4 km each day for 3 days.": {
+       "en": "The same amount each day for 3 days means MULTIPLY: 1/4 × 3.",
+       "zh": "3 天每天一样多就用乘：1/4 × 3。"
+      },
+      "What is 2/3 of 9?": {
+       "en": "\"Of\" means MULTIPLY: 2/3 × 9.",
+       "zh": "of 表示乘：2/3 × 9。"
+      }
+     },
+     "qzh": "哪一道应用题要用除法？",
+     "ozh": {
+      "How many 1/3 cups are in 2 cups?": "2 杯里有几个 1/3 杯？",
+      "What is 1/2 of 6?": "6 的 1/2 是多少？",
+      "She runs 1/4 km each day for 3 days.": "她每天跑 1/4 公里，跑了 3 天。",
+      "What is 2/3 of 9?": "9 的 2/3 是多少？"
      }
     },
     {
@@ -3512,9 +5454,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Keep, Change, Flip: 1/2 × 4/1 = 4/2 = 2.",
-      "zh": "不变、变号、倒过来：1/2 × 4/1 = 4/2 = 2。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 1/2 × 4/1 = 2.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：1/2 × 4/1 = 2。"
+     },
+     "wrong": {
+      "1/8": {
+       "en": "1/8 is 1/2 × 1/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "1/8 是 1/2 × 1/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/2": {
+       "en": "1/2 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/2 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "4": {
+       "en": "Check by multiplying back: 4 × 1/4 = 1, not 1/2.",
+       "zh": "乘回去检查：4 × 1/4 = 1，不是 1/2。"
+      }
+     },
+     "qzh": "1/2 ÷ 1/4 = ？"
     },
     {
      "q": "2/3 × 3/8 = ?",
@@ -3526,9 +5483,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "2 × 3 = 6 and 3 × 8 = 24, so 6/24 = 1/4.",
-      "zh": "2 × 3 = 6，3 × 8 = 24，得 6/24 = 1/4。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 2/3 × 3/8. Multiply tops and bottoms: 6/24 = 1/4.",
+      "zh": "先把带分数变成假分数：2/3 × 3/8。分子乘分子、分母乘分母：6/24 = 1/4。"
+     },
+     "wrong": {
+      "5/11": {
+       "en": "5/11 is too big. Change to improper fractions and multiply: 2/3 × 3/8 = 1/4, not 5/11.",
+       "zh": "5/11 太大了。先变成假分数再乘：2/3 × 3/8 = 1/4，不是 5/11。"
+      },
+      "6/11": {
+       "en": "6/11 is too big. Change to improper fractions and multiply: 2/3 × 3/8 = 1/4, not 6/11.",
+       "zh": "6/11 太大了。先变成假分数再乘：2/3 × 3/8 = 1/4，不是 6/11。"
+      },
+      "1/3": {
+       "en": "1/3 is too big. Change to improper fractions and multiply: 2/3 × 3/8 = 1/4, not 1/3.",
+       "zh": "1/3 太大了。先变成假分数再乘：2/3 × 3/8 = 1/4，不是 1/3。"
+      }
+     },
+     "qzh": "2/3 × 3/8 = ？"
     },
     {
      "q": "Does the answer make sense? James eats 1/2 of 1/2 of a cake. He says he ate 1 whole cake.",
@@ -3540,6 +5512,17 @@
      "why": {
       "en": "Of means ×: 1/2 × 1/2 = 1/4. Half of a half must be smaller than a half.",
       "zh": "of 就是 ×：1/2 × 1/2 = 1/4。一半的一半一定比一半小。"
+     },
+     "wrong": {
+      "Yes: 1/2 + 1/2 = 1": {
+       "en": "\"Of\" means MULTIPLY, not add: 1/2 × 1/2 = 1/4. Half of a half is a quarter, smaller than half.",
+       "zh": "of 表示乘，不是加：1/2 × 1/2 = 1/4。一半的一半是四分之一，比一半还小。"
+      }
+     },
+     "qzh": "这个答案合理吗？James 吃了一个蛋糕的 1/2 的 1/2。他说他吃了一整个蛋糕。",
+     "ozh": {
+      "Yes: 1/2 + 1/2 = 1": "合理：1/2 + 1/2 = 1",
+      "No: 1/2 of 1/2 is 1/4, less than half": "不合理：1/2 的 1/2 是 1/4，比一半还少"
      }
     }
    ],
@@ -3577,6 +5560,27 @@
      "why": {
       "en": "Clue: so quiet.",
       "zh": "线索：so quiet。"
+     },
+     "wrong": {
+      "very busy": {
+       "en": "A busy library is noisy. The clue says it was \"so quiet\".",
+       "zh": "热闹的图书馆会很吵。线索说 so quiet。"
+      },
+      "very dark": {
+       "en": "The clue is about sound (hearing the clock), not light.",
+       "zh": "线索是声音（听到钟声），不是光线。"
+      },
+      "very cold": {
+       "en": "The clue is about how quiet it was, not temperature.",
+       "zh": "线索是安静，不是温度。"
+      }
+     },
+     "qzh": "“图书馆很 SILENT，安静得能听到钟声。”SILENT 的意思是……",
+     "ozh": {
+      "very quiet": "很安静",
+      "very busy": "很热闹",
+      "very dark": "很暗",
+      "very cold": "很冷"
      }
     },
     {
@@ -3591,6 +5595,27 @@
      "why": {
       "en": "Unlike = opposite of calm.",
       "zh": "unlike = 和 calm 相反。"
+     },
+     "wrong": {
+      "calm": {
+       "en": "\"Unlike\" shows an OPPOSITE. Emma was calm, so her brother was the opposite.",
+       "zh": "unlike 表示相反。Emma 很平静，所以弟弟正相反。"
+      },
+      "happy": {
+       "en": "The opposite of calm before a test is worried, not happy.",
+       "zh": "考试前平静的反义是担心，不是开心。"
+      },
+      "hungry": {
+       "en": "The sentence compares feelings about the test, not food.",
+       "zh": "句子比较的是对考试的感受，不是吃。"
+      }
+     },
+     "qzh": "“和她 ANXIOUS 的弟弟不一样，Emma 考试前很平静。”ANXIOUS 的意思是……",
+     "ozh": {
+      "calm": "平静",
+      "happy": "开心",
+      "worried and nervous": "担心、紧张",
+      "hungry": "饿"
      }
     },
     {
@@ -3603,8 +5628,28 @@
      ],
      "answer": 1,
      "why": {
-      "en": "It gives the reason: because.",
-      "zh": "说原因：because。"
+      "en": "\"Because\" gives the REASON: it was sunny, so that is why we went.",
+      "zh": "because 给出原因：因为是晴天，所以才去。"
+     },
+     "wrong": {
+      "or": {
+       "en": "\"Or\" gives a choice; there is no choice here.",
+       "zh": "or 是选择，这里没有选择。"
+      },
+      "until": {
+       "en": "\"Until\" is about time; it does not give a reason.",
+       "zh": "until 表示时间，不给原因。"
+      },
+      "but": {
+       "en": "\"But\" shows a surprise. Going to the beach when it is sunny is not a surprise.",
+       "zh": "but 表示转折。晴天去海边不是意外。"
+      }
+     },
+     "qzh": "“我们去了海边，___ 天气很晴朗。”（选连接词）",
+     "ozh": {
+      "because": "",
+      "until": "",
+      "but": ""
      }
     },
     {
@@ -3617,8 +5662,27 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Something different from what she wanted: but.",
-      "zh": "和想要的不一样：but。"
+      "en": "\"But\" shows a CONTRAST: she wanted the card, yet something stopped her.",
+      "zh": "but 表示转折：她想要卡，但有事阻止了她。"
+     },
+     "wrong": {
+      "so": {
+       "en": "\"So\" shows a result. Not having money is not a result of wanting the card.",
+       "zh": "so 表示结果。没钱不是想要卡的结果。"
+      },
+      "because": {
+       "en": "\"Because\" gives a reason, but not having money is not WHY she wanted it.",
+       "zh": "because 给出原因，但没钱不是她想要卡的原因。"
+      },
+      "or": {
+       "en": "\"Or\" gives a choice between two things.",
+       "zh": "or 是两个之间的选择。"
+      }
+     },
+     "qzh": "“我想买那张小卡，___ 我的钱不够。”（选连接词）",
+     "ozh": {
+      "but": "",
+      "because": ""
      }
     },
     {
@@ -3631,8 +5695,29 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Visit + -or = visitor.",
-      "zh": "visit + -or = visitor。"
+      "en": "visit + -or = visitor. Many \"person who\" words ending in -t take -or (actor, visitor, inventor).",
+      "zh": "visit + -or = visitor。很多以 -t 结尾的“做……的人”用 -or（actor、visitor、inventor）。"
+     },
+     "wrong": {
+      "visiter": {
+       "en": "Visitor ends in -OR, not -er.",
+       "zh": "visitor 以 -or 结尾，不是 -er。"
+      },
+      "visittor": {
+       "en": "Visit has only ONE t; do not double it.",
+       "zh": "visit 只有一个 t，不用双写。"
+      },
+      "visitar": {
+       "en": "The ending is -or, not -ar.",
+       "zh": "词尾是 -or，不是 -ar。"
+      }
+     },
+     "qzh": "来拜访的人是……（选正确的拼写）",
+     "ozh": {
+      "visiter": "",
+      "visittor": "",
+      "visitar": "",
+      "visitor": ""
      }
     },
     {
@@ -3647,6 +5732,27 @@
      "why": {
       "en": "Bake ends in e: drop the e, add -er.",
       "zh": "bake 以 e 结尾：去掉 e，加 -er。"
+     },
+     "wrong": {
+      "bakor": {
+       "en": "A person who bakes takes -ER: baker.",
+       "zh": "做面包的人用 -er：baker。"
+      },
+      "bakeer": {
+       "en": "Bake already ends in e: drop it before adding -er, so only one e.",
+       "zh": "bake 已经以 e 结尾：加 -er 前去掉 e，所以只有一个 e。"
+      },
+      "bakker": {
+       "en": "Bake has a LONG a sound, so the k is not doubled.",
+       "zh": "bake 是长元音 a，所以 k 不双写。"
+      }
+     },
+     "qzh": "烤面包的人是……（选正确的拼写）",
+     "ozh": {
+      "bakor": "",
+      "bakeer": "",
+      "baker": "",
+      "bakker": ""
      }
     },
     {
@@ -3661,6 +5767,27 @@
      "why": {
       "en": "Where and when = setting.",
       "zh": "在哪里、什么时候 = 背景。"
+     },
+     "wrong": {
+      "problem": {
+       "en": "The problem is what goes wrong, not where and when.",
+       "zh": "问题是出了什么错，不是在哪里、什么时候。"
+      },
+      "solution": {
+       "en": "The solution is how the problem is fixed.",
+       "zh": "解决办法是问题怎样被解决。"
+      },
+      "characters": {
+       "en": "Characters are WHO is in the story.",
+       "zh": "人物是故事里的“谁”。"
+      }
+     },
+     "qzh": "“很久以前，在一座城堡里”是故事的……",
+     "ozh": {
+      "setting": "背景",
+      "problem": "问题",
+      "solution": "解决办法",
+      "characters": "人物"
      }
     },
     {
@@ -3675,6 +5802,27 @@
      "why": {
       "en": "Solution = how the problem is fixed.",
       "zh": "解决 = 问题怎样解决。"
+     },
+     "wrong": {
+      "setting": {
+       "en": "The setting is where and when.",
+       "zh": "背景是在哪里、什么时候。"
+      },
+      "problem": {
+       "en": "The problem is what goes WRONG. Fixing it is the solution.",
+       "zh": "问题是出了什么错，解决它才是解决办法。"
+      },
+      "draft": {
+       "en": "A draft is your first try at writing, not part of the story.",
+       "zh": "草稿是你第一次写的稿子，不是故事的一部分。"
+      }
+     },
+     "qzh": "故事里问题被解决的部分是……",
+     "ozh": {
+      "setting": "背景",
+      "solution": "解决办法",
+      "problem": "问题",
+      "draft": "草稿"
      }
     },
     {
@@ -3687,8 +5835,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "12 ÷ 3 = 4, then 4 × 2 = 8.",
-      "zh": "12 ÷ 3 = 4，再 4 × 2 = 8。"
+      "en": "2/3 of 12: find 1/3 first: 12 ÷ 3 = 4. Then 2 thirds: 4 × 2 = 8 stickers.",
+      "zh": "12 的 2/3：先算 1/3：12 ÷ 3 = 4，再乘 2：4 × 2 = 8 张。"
+     },
+     "wrong": {
+      "4 stickers": {
+       "en": "4 is only 1/3 of 12. We need 2 thirds: 4 × 2 = 8.",
+       "zh": "4 只是 12 的 1/3。要 2 个三分之一：4 × 2 = 8。"
+      },
+      "18 stickers": {
+       "en": "18 is more than 12, but a fraction of 12 must be LESS than 12.",
+       "zh": "18 比 12 还多，但 12 的几分之几一定比 12 少。"
+      },
+      "6 stickers": {
+       "en": "6 is HALF of 12 (1/2). 2/3 is more than a half: 8.",
+       "zh": "6 是 12 的一半（1/2）。2/3 比一半多：8。"
+      }
+     },
+     "qzh": "12 张贴纸的 2/3 = ？",
+     "ozh": {
+      "4 stickers": "4 张",
+      "18 stickers": "18 张",
+      "8 stickers": "8 张",
+      "6 stickers": "6 张"
      }
     },
     {
@@ -3703,6 +5872,27 @@
      "why": {
       "en": "Congratulate: drop the e, add -ion.",
       "zh": "congratulate 去掉 e，加 -ion。"
+     },
+     "wrong": {
+      "congradulation": {
+       "en": "It is spelled with a T: con-gra-TU-late (it sounds like d, but it is t).",
+       "zh": "要拼 t：con-gra-tu-late（听起来像 d，其实是 t）。"
+      },
+      "congratualtion": {
+       "en": "The letters are mixed up: it is -TU-LA-tion.",
+       "zh": "字母顺序乱了：是 -tu-la-tion。"
+      },
+      "congratulasion": {
+       "en": "The \"shun\" sound here is spelled -tion.",
+       "zh": "这里的 shun 音拼作 -tion。"
+      }
+     },
+     "qzh": "哪个拼写是正确的？",
+     "ozh": {
+      "congradulation": "",
+      "congratualtion": "",
+      "congratulasion": "",
+      "congratulation": ""
      }
     }
    ],
@@ -3744,9 +5934,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "4 × 3 = 12, then 12 + 1 = 13. So 13/4.",
-      "zh": "4 × 3 = 12，再 12 + 1 = 13，所以是 13/4。"
-     }
+      "en": "Whole × bottom, then add the top: 3 × 4 = 12, 12 + 1 = 13. Keep the bottom: 13/4.",
+      "zh": "整数乘分母，再加分子：3 × 4 = 12，12 + 1 = 13。分母不变：13/4。"
+     },
+     "wrong": {
+      "7/4": {
+       "en": "7/4 adds 3 + 4. The whole number must be MULTIPLIED by the bottom: 3 × 4 = 12.",
+       "zh": "7/4 是 3 + 4。整数要乘分母：3 × 4 = 12。"
+      },
+      "12/4": {
+       "en": "12/4 forgets to add the 1 on top: 12 + 1 = 13.",
+       "zh": "12/4 忘了加上分子 1：12 + 1 = 13。"
+      },
+      "4/4": {
+       "en": "4/4 adds 3 + 1, which is just 1 whole. 3 1/4 is more than 3.",
+       "zh": "4/4 是 3 + 1，只等于 1。3 1/4 比 3 还大。"
+      }
+     },
+     "qzh": "把 3 1/4 变成假分数。"
     },
     {
      "q": "Change 2 2/5 to an improper fraction.",
@@ -3758,9 +5963,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "5 × 2 = 10, then 10 + 2 = 12. So 12/5.",
-      "zh": "5 × 2 = 10，再 10 + 2 = 12，所以是 12/5。"
-     }
+      "en": "Whole × bottom, then add the top: 2 × 5 = 10, 10 + 2 = 12. So 12/5.",
+      "zh": "整数乘分母，再加分子：2 × 5 = 10，10 + 2 = 12。所以是 12/5。"
+     },
+     "wrong": {
+      "9/5": {
+       "en": "9/5 adds 2 + 2 + 5. The whole number must be MULTIPLIED by 5.",
+       "zh": "9/5 是 2 + 2 + 5。整数要乘 5。"
+      },
+      "10/5": {
+       "en": "10/5 forgets to add the 2 on top: 10 + 2 = 12.",
+       "zh": "10/5 忘了加分子 2：10 + 2 = 12。"
+      },
+      "4/5": {
+       "en": "4/5 is less than 1, but 2 2/5 is more than 2.",
+       "zh": "4/5 小于 1，但 2 2/5 比 2 大。"
+      }
+     },
+     "qzh": "把 2 2/5 变成假分数。"
     },
     {
      "q": "Change 11/4 to a mixed number.",
@@ -3772,9 +5992,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "11 ÷ 4 = 2 with 3 left over: 2 3/4.",
-      "zh": "11 ÷ 4 = 2 余 3：2 3/4。"
-     }
+      "en": "Divide the top by the bottom: 11 ÷ 4 = 2 remainder 3. The 2 is the whole number, the 3 goes on top: 2 3/4.",
+      "zh": "分子除以分母：11 ÷ 4 = 2 余 3。2 是整数，3 放在分子：2 3/4。"
+     },
+     "wrong": {
+      "3 1/4": {
+       "en": "This swaps the answer and the remainder. 4 goes into 11 only 2 times (4 × 3 = 12 is too big).",
+       "zh": "这把商和余数换了。11 里只有 2 个 4（4 × 3 = 12 太大了）。"
+      },
+      "2 1/4": {
+       "en": "The remainder is 11 − 8 = 3, not 1.",
+       "zh": "余数是 11 − 8 = 3，不是 1。"
+      },
+      "1 3/4": {
+       "en": "1 3/4 = 7/4. 4 goes into 11 TWO times, not once.",
+       "zh": "1 3/4 = 7/4。11 里有两个 4，不是一个。"
+      }
+     },
+     "qzh": "把 11/4 变成带分数。"
     },
     {
      "q": "1 1/2 × 1 1/2 = ?",
@@ -3786,9 +6021,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "3/2 × 3/2 = 9/4 = 2 1/4.",
-      "zh": "3/2 × 3/2 = 9/4 = 2 1/4。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 3/2 × 3/2. Multiply tops and bottoms: 9/4 = 2 1/4.",
+      "zh": "先把带分数变成假分数：3/2 × 3/2。分子乘分子、分母乘分母：9/4 = 2 1/4。"
+     },
+     "wrong": {
+      "1 1/4": {
+       "en": "1 1/4 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 2 1/4.",
+       "zh": "1 1/4 是把整数和分数分开乘了。要先变成假分数：答案是 2 1/4。"
+      },
+      "2": {
+       "en": "2 multiplies only the whole number 1 by 1 1/2 and forgets to multiply the 1/2 too. Change to improper fractions: 3/2 × 3/2 = 2 1/4.",
+       "zh": "2 只把整数 1 乘了 1 1/2，忘了 1/2 也要乘。要先变成假分数：3/2 × 3/2 = 2 1/4。"
+      },
+      "3": {
+       "en": "3 is 1 1/2 + 1 1/2: it adds instead of multiplying.",
+       "zh": "3 是 1 1/2 + 1 1/2，加了而不是乘。"
+      }
+     },
+     "qzh": "1 1/2 × 1 1/2 = ？"
     },
     {
      "q": "2 1/3 × 3 = ?",
@@ -3800,9 +6050,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "7/3 × 3/1 = 21/3 = 7.",
-      "zh": "7/3 × 3/1 = 21/3 = 7。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 7/3 × 3/1. Multiply tops and bottoms: 21/3 = 7.",
+      "zh": "先把带分数变成假分数：7/3 × 3/1。分子乘分子、分母乘分母：21/3 = 7。"
+     },
+     "wrong": {
+      "6 1/3": {
+       "en": "6 1/3 multiplies only the whole number 2 by 3 and forgets to multiply the 1/3 too. Change to improper fractions: 7/3 × 3/1 = 7.",
+       "zh": "6 1/3 只把整数 2 乘了 3，忘了 1/3 也要乘。要先变成假分数：7/3 × 3/1 = 7。"
+      },
+      "6 1/9": {
+       "en": "6 1/9 is too small. Change to improper fractions and multiply: 7/3 × 3/1 = 7, not 6 1/9.",
+       "zh": "6 1/9 太小了。先变成假分数再乘：7/3 × 3/1 = 7，不是 6 1/9。"
+      },
+      "9": {
+       "en": "9 is too big. Change to improper fractions and multiply: 7/3 × 3/1 = 7, not 9.",
+       "zh": "9 太大了。先变成假分数再乘：7/3 × 3/1 = 7，不是 9。"
+      }
+     },
+     "qzh": "2 1/3 × 3 = ？"
     },
     {
      "q": "1 1/4 × 2/5 = ?",
@@ -3814,9 +6079,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "5/4 × 2/5 = 10/20 = 1/2.",
-      "zh": "5/4 × 2/5 = 10/20 = 1/2。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 5/4 × 2/5. Multiply tops and bottoms: 10/20 = 1/2.",
+      "zh": "先把带分数变成假分数：5/4 × 2/5。分子乘分子、分母乘分母：10/20 = 1/2。"
+     },
+     "wrong": {
+      "2/5": {
+       "en": "2/5 is too small. Change to improper fractions and multiply: 5/4 × 2/5 = 1/2, not 2/5.",
+       "zh": "2/5 太小了。先变成假分数再乘：5/4 × 2/5 = 1/2，不是 2/5。"
+      },
+      "1 1/10": {
+       "en": "1 1/10 is too big. Change to improper fractions and multiply: 5/4 × 2/5 = 1/2, not 1 1/10.",
+       "zh": "1 1/10 太大了。先变成假分数再乘：5/4 × 2/5 = 1/2，不是 1 1/10。"
+      },
+      "5/8": {
+       "en": "5/8 is too big. Change to improper fractions and multiply: 5/4 × 2/5 = 1/2, not 5/8.",
+       "zh": "5/8 太大了。先变成假分数再乘：5/4 × 2/5 = 1/2，不是 5/8。"
+      }
+     },
+     "qzh": "1 1/4 × 2/5 = ？"
     },
     {
      "q": "2 1/2 × 1 1/3 = ?",
@@ -3828,9 +6108,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "5/2 × 4/3 = 20/6 = 10/3 = 3 1/3. Trap: 2 1/6 multiplies the parts on their own.",
-      "zh": "5/2 × 4/3 = 20/6 = 10/3 = 3 1/3。陷阱：2 1/6 是把两部分分开乘了。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 5/2 × 4/3. Multiply tops and bottoms: 20/6 = 3 1/3.",
+      "zh": "先把带分数变成假分数：5/2 × 4/3。分子乘分子、分母乘分母：20/6 = 3 1/3。"
+     },
+     "wrong": {
+      "2 1/6": {
+       "en": "2 1/6 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 3 1/3.",
+       "zh": "2 1/6 是把整数和分数分开乘了。要先变成假分数：答案是 3 1/3。"
+      },
+      "3 1/6": {
+       "en": "3 1/6 multiplies only the whole number 2 by 1 1/3 and forgets to multiply the 1/2 too. Change to improper fractions: 5/2 × 4/3 = 3 1/3.",
+       "zh": "3 1/6 只把整数 2 乘了 1 1/3，忘了 1/2 也要乘。要先变成假分数：5/2 × 4/3 = 3 1/3。"
+      },
+      "2 5/6": {
+       "en": "2 5/6 is too small. Change to improper fractions and multiply: 5/2 × 4/3 = 3 1/3, not 2 5/6.",
+       "zh": "2 5/6 太小了。先变成假分数再乘：5/2 × 4/3 = 3 1/3，不是 2 5/6。"
+      }
+     },
+     "qzh": "2 1/2 × 1 1/3 = ？"
     },
     {
      "q": "Estimate first: 3 1/4 × 1 3/4 is about...",
@@ -3842,9 +6137,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "3 1/4 is about 3, and 1 3/4 is about 2. 3 × 2 = 6.",
-      "zh": "3 1/4 约是 3，1 3/4 约是 2。3 × 2 = 6。"
-     }
+      "en": "Round each mixed number to the nearest whole: 3 1/4 ≈ 3 and 1 3/4 ≈ 2. Then 3 × 2 = 6.",
+      "zh": "把带分数四舍五入到整数：3 1/4 ≈ 3，1 3/4 ≈ 2。再算 3 × 2 = 6。"
+     },
+     "wrong": {
+      "3": {
+       "en": "3 treats 1 3/4 as 1. But 1 3/4 is close to 2, so the answer is about 6.",
+       "zh": "3 是把 1 3/4 当成 1。但 1 3/4 接近 2，所以答案大约是 6。"
+      },
+      "12": {
+       "en": "12 is far too big: even 4 × 2 is only 8.",
+       "zh": "12 太大了：就算 4 × 2 也只有 8。"
+      },
+      "2": {
+       "en": "Multiplying by more than 1 makes the answer BIGGER than 3 1/4, so it cannot be 2.",
+       "zh": "乘以大于 1 的数，答案会比 3 1/4 大，不可能是 2。"
+      }
+     },
+     "qzh": "先估算：3 1/4 × 1 3/4 大约是……"
     },
     {
      "q": "A cat eats 1 1/3 cans of food a day. How many cans in 6 days?",
@@ -3856,9 +6166,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "4/3 × 6/1 = 24/3 = 8 cans.",
-      "zh": "4/3 × 6/1 = 24/3 = 8 罐。"
-     }
+      "en": "Same amount each day = multiply: 1 1/3 × 6 = 4/3 × 6/1 = 24/3 = 8 cans.",
+      "zh": "每天一样多就用乘：1 1/3 × 6 = 4/3 × 6/1 = 24/3 = 8 罐。"
+     },
+     "wrong": {
+      "6 1/3": {
+       "en": "6 1/3 multiplies only the 1 by 6 and forgets the 1/3: 1/3 × 6 = 2 more.",
+       "zh": "6 1/3 只把 1 乘了 6，忘了 1/3 也要乘：1/3 × 6 = 2。"
+      },
+      "7": {
+       "en": "Check: 4/3 × 6 = 24/3 = 8, not 7.",
+       "zh": "检查：4/3 × 6 = 24/3 = 8，不是 7。"
+      },
+      "6 1/18": {
+       "en": "6 1/18 divides the 1/3 by 6 instead of multiplying it.",
+       "zh": "6 1/18 是把 1/3 除以 6 了，应该乘。"
+      }
+     },
+     "qzh": "一只猫每天吃 1 1/3 罐猫粮。6 天吃几罐？"
     },
     {
      "q": "Lily's gel pen is 5 1/2 inches long. Her ruler is 2 times as long. How long is the ruler?",
@@ -3870,8 +6195,29 @@
      ],
      "answer": 2,
      "why": {
-      "en": "11/2 × 2/1 = 22/2 = 11 inches.",
-      "zh": "11/2 × 2/1 = 22/2 = 11 英寸。"
+      "en": "\"2 times as long\" = multiply: 5 1/2 × 2 = 11/2 × 2/1 = 22/2 = 11 inches.",
+      "zh": "“2 倍长”就是乘：5 1/2 × 2 = 11/2 × 2/1 = 22/2 = 11 英寸。"
+     },
+     "wrong": {
+      "10 1/2 inches": {
+       "en": "10 1/2 multiplies the 5 but forgets to multiply the 1/2: 1/2 × 2 = 1 more.",
+       "zh": "10 1/2 只乘了 5，忘了 1/2 也要乘：1/2 × 2 = 1。"
+      },
+      "10 inches": {
+       "en": "10 is only 5 × 2. The extra 1/2 inch also doubles: + 1.",
+       "zh": "10 只是 5 × 2。多出来的 1/2 也要翻倍：再加 1。"
+      },
+      "7 1/2 inches": {
+       "en": "7 1/2 is 5 1/2 + 2: it adds instead of multiplying.",
+       "zh": "7 1/2 是 5 1/2 + 2，加了而不是乘。"
+      }
+     },
+     "qzh": "Lily 的中性笔长 5 1/2 英寸。她的尺子是笔的 2 倍长。尺子有多长？",
+     "ozh": {
+      "10 1/2 inches": "10 1/2 英寸",
+      "10 inches": "10 英寸",
+      "11 inches": "11 英寸",
+      "7 1/2 inches": "7 1/2 英寸"
      }
     }
    ]
@@ -3961,9 +6307,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "5/2 × 2/1 = 10/2 = 5.",
-      "zh": "5/2 × 2/1 = 10/2 = 5。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 5/2 × 2/1 = 5.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：5/2 × 2/1 = 5。"
+     },
+     "wrong": {
+      "1 1/4": {
+       "en": "1 1/4 is 2 1/2 × 1/2: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "1 1/4 是 2 1/2 × 1/2，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "4": {
+       "en": "Check by multiplying back: 4 × 1/2 = 2, not 2 1/2.",
+       "zh": "乘回去检查：4 × 1/2 = 2，不是 2 1/2。"
+      },
+      "2": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 2 1/2, but 2 is smaller. Check: 2 × 1/2 = 1, not 2 1/2.",
+       "zh": "除以小于 1 的数，答案会比 2 1/2 大，但 2 更小。检查：2 × 1/2 = 1，不是 2 1/2。"
+      }
+     },
+     "qzh": "2 1/2 ÷ 1/2 = ？"
     },
     {
      "q": "3 1/3 ÷ 2/3 = ?",
@@ -3975,9 +6336,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "10/3 × 3/2 = 30/6 = 5.",
-      "zh": "10/3 × 3/2 = 30/6 = 5。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 10/3 × 3/2 = 5.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：10/3 × 3/2 = 5。"
+     },
+     "wrong": {
+      "2 2/9": {
+       "en": "2 2/9 is 3 1/3 × 2/3: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "2 2/9 是 3 1/3 × 2/3，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1 1/5": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 3 1/3, but 1 1/5 is smaller. Check: 1 1/5 × 2/3 = 4/5, not 3 1/3.",
+       "zh": "除以小于 1 的数，答案会比 3 1/3 大，但 1 1/5 更小。检查：1 1/5 × 2/3 = 4/5，不是 3 1/3。"
+      },
+      "6": {
+       "en": "Check by multiplying back: 6 × 2/3 = 4, not 3 1/3.",
+       "zh": "乘回去检查：6 × 2/3 = 4，不是 3 1/3。"
+      }
+     },
+     "qzh": "3 1/3 ÷ 2/3 = ？"
     },
     {
      "q": "1 1/2 ÷ 3/4 = ?",
@@ -3989,9 +6365,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "3/2 × 4/3 = 12/6 = 2.",
-      "zh": "3/2 × 4/3 = 12/6 = 2。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 3/2 × 4/3 = 2.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：3/2 × 4/3 = 2。"
+     },
+     "wrong": {
+      "1 1/8": {
+       "en": "1 1/8 is 1 1/2 × 3/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "1 1/8 是 1 1/2 × 3/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/2": {
+       "en": "1/2 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/2 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "4/3": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 1 1/2, but 4/3 is smaller. Check: 4/3 × 3/4 = 1, not 1 1/2.",
+       "zh": "除以小于 1 的数，答案会比 1 1/2 大，但 4/3 更小。检查：4/3 × 3/4 = 1，不是 1 1/2。"
+      }
+     },
+     "qzh": "1 1/2 ÷ 3/4 = ？"
     },
     {
      "q": "4 1/2 ÷ 1 1/2 = ?",
@@ -4003,9 +6394,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "9/2 × 2/3 = 18/6 = 3.",
-      "zh": "9/2 × 2/3 = 18/6 = 3。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 9/2 × 2/3 = 3.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：9/2 × 2/3 = 3。"
+     },
+     "wrong": {
+      "6 3/4": {
+       "en": "6 3/4 is 4 1/2 × 1 1/2: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "6 3/4 是 4 1/2 × 1 1/2，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "4": {
+       "en": "Check by multiplying back: 4 × 1 1/2 = 6, not 4 1/2.",
+       "zh": "乘回去检查：4 × 1 1/2 = 6，不是 4 1/2。"
+      },
+      "2": {
+       "en": "Check by multiplying back: 2 × 1 1/2 = 3, not 4 1/2.",
+       "zh": "乘回去检查：2 × 1 1/2 = 3，不是 4 1/2。"
+      }
+     },
+     "qzh": "4 1/2 ÷ 1 1/2 = ？"
     },
     {
      "q": "5 ÷ 1 1/4 = ?",
@@ -4017,9 +6423,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "5/1 × 4/5 = 20/5 = 4.",
-      "zh": "5/1 × 4/5 = 20/5 = 4。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 5/1 × 4/5 = 4.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：5/1 × 4/5 = 4。"
+     },
+     "wrong": {
+      "6 1/4": {
+       "en": "6 1/4 is 5 + 1 1/4: it adds instead of dividing.",
+       "zh": "6 1/4 是 5 + 1 1/4，加了而不是除。"
+      },
+      "5 4/5": {
+       "en": "Check by multiplying back: 5 4/5 × 1 1/4 = 7 1/4, not 5.",
+       "zh": "乘回去检查：5 4/5 × 1 1/4 = 7 1/4，不是 5。"
+      },
+      "3": {
+       "en": "Check by multiplying back: 3 × 1 1/4 = 3 3/4, not 5.",
+       "zh": "乘回去检查：3 × 1 1/4 = 3 3/4，不是 5。"
+      }
+     },
+     "qzh": "5 ÷ 1 1/4 = ？"
     },
     {
      "q": "2 1/4 ÷ 1 1/2 = ?",
@@ -4031,9 +6452,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "9/4 × 2/3 = 18/12 = 3/2 = 1 1/2.",
-      "zh": "9/4 × 2/3 = 18/12 = 3/2 = 1 1/2。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 9/4 × 2/3 = 1 1/2.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：9/4 × 2/3 = 1 1/2。"
+     },
+     "wrong": {
+      "3 3/8": {
+       "en": "3 3/8 is 2 1/4 × 1 1/2: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "3 3/8 是 2 1/4 × 1 1/2，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "2/3": {
+       "en": "2/3 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "2/3 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "2": {
+       "en": "Check by multiplying back: 2 × 1 1/2 = 3, not 2 1/4.",
+       "zh": "乘回去检查：2 × 1 1/2 = 3，不是 2 1/4。"
+      }
+     },
+     "qzh": "2 1/4 ÷ 1 1/2 = ？"
     },
     {
      "q": "In 3 3/4 ÷ 1 1/4, which fraction do you flip?",
@@ -4045,8 +6481,27 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Change to 15/4 ÷ 5/4. Keep the first, flip only the second: 4/5.",
-      "zh": "变成 15/4 ÷ 5/4。第一个不变，只把第二个倒过来：4/5。"
+      "en": "Change both to improper fractions: 15/4 ÷ 5/4. Keep the FIRST, flip only the SECOND (the one you divide by): 5/4 → 4/5.",
+      "zh": "先都变成假分数：15/4 ÷ 5/4。第一个不变，只倒第二个（除数）：5/4 → 4/5。"
+     },
+     "wrong": {
+      "15/4": {
+       "en": "15/4 is the FIRST number. Keep it as it is.",
+       "zh": "15/4 是第一个数，保持不变。"
+      },
+      "both": {
+       "en": "Flipping both gives the wrong answer. Only the number you divide BY is flipped.",
+       "zh": "两个都倒会得到错误答案。只倒除数。"
+      },
+      "neither": {
+       "en": "Dividing by a fraction needs a flip: Keep, Change, Flip.",
+       "zh": "除以分数一定要倒：Keep、Change、Flip。"
+      }
+     },
+     "qzh": "在 3 3/4 ÷ 1 1/4 里，要把哪个分数倒过来？",
+     "ozh": {
+      "both": "两个都倒",
+      "neither": "都不倒"
      }
     },
     {
@@ -4059,9 +6514,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "How many 1 1/2 in 6? 6/1 × 2/3 = 12/3 = 4 cakes.",
-      "zh": "6 里有几个 1 1/2？6/1 × 2/3 = 12/3 = 4 个蛋糕。"
-     }
+      "en": "\"How many 1 1/2 in 6?\" = divide: 6 ÷ 1 1/2 = 6/1 × 2/3 = 12/3 = 4 cakes.",
+      "zh": "“6 里有几个 1 1/2”就是除：6 ÷ 1 1/2 = 6/1 × 2/3 = 12/3 = 4 个蛋糕。"
+     },
+     "wrong": {
+      "9": {
+       "en": "9 is 6 × 1 1/2: it multiplied. Each cake USES flour, so divide.",
+       "zh": "9 是 6 × 1 1/2，乘了。每个蛋糕用掉面粉，要用除。"
+      },
+      "3": {
+       "en": "Check: 3 cakes × 1 1/2 = 4 1/2 cups, but she has 6.",
+       "zh": "检查：3 个 × 1 1/2 = 4 1/2 杯，但她有 6 杯。"
+      },
+      "5": {
+       "en": "Check: 5 cakes × 1 1/2 = 7 1/2 cups, more than her 6 cups.",
+       "zh": "检查：5 个 × 1 1/2 = 7 1/2 杯，比她的 6 杯多。"
+      }
+     },
+     "qzh": "Emma 有 6 杯面粉，每个蛋糕要 1 1/2 杯。能做几个蛋糕？"
     },
     {
      "q": "A 7 1/2 m rope is cut into pieces 2 1/2 m long. How many pieces?",
@@ -4073,9 +6543,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "15/2 × 2/5 = 30/10 = 3 pieces.",
-      "zh": "15/2 × 2/5 = 30/10 = 3 段。"
-     }
+      "en": "\"How many 2 1/2 in 7 1/2?\" = divide: 15/2 × 2/5 = 30/10 = 3 pieces.",
+      "zh": "“7 1/2 里有几个 2 1/2”就是除：15/2 × 2/5 = 30/10 = 3 段。"
+     },
+     "wrong": {
+      "18 3/4": {
+       "en": "18 3/4 is 7 1/2 × 2 1/2: it multiplied. Cutting into pieces means divide.",
+       "zh": "18 3/4 是 7 1/2 × 2 1/2，乘了。剪成几段要用除。"
+      },
+      "5": {
+       "en": "Check: 5 × 2 1/2 = 12 1/2 m, but the rope is 7 1/2 m.",
+       "zh": "检查：5 × 2 1/2 = 12 1/2 米，但绳子只有 7 1/2 米。"
+      },
+      "2": {
+       "en": "Check: 2 × 2 1/2 = 5 m, leaving 2 1/2 m for one more piece.",
+       "zh": "检查：2 × 2 1/2 = 5 米，还剩 2 1/2 米可以再剪一段。"
+      }
+     },
+     "qzh": "一根 7 1/2 米的绳子剪成每段 2 1/2 米。能剪几段？"
     },
     {
      "q": "Daisy swims 4 laps in 2/3 of an hour. Is 4 ÷ 2/3 bigger or smaller than 4?",
@@ -4089,6 +6574,27 @@
      "why": {
       "en": "2/3 is less than 1, so the answer is bigger: 4/1 × 3/2 = 12/2 = 6.",
       "zh": "2/3 小于 1，所以答案变大：4/1 × 3/2 = 12/2 = 6。"
+     },
+     "wrong": {
+      "smaller: 2 2/3": {
+       "en": "2 2/3 is 4 × 2/3: it multiplied. Dividing by a number less than 1 gives a BIGGER answer.",
+       "zh": "2 2/3 是 4 × 2/3，乘了。除以小于 1 的数，答案会更大。"
+      },
+      "the same: 4": {
+       "en": "Only dividing by 1 keeps the number the same. 2/3 is less than 1.",
+       "zh": "只有除以 1 数才不变。2/3 小于 1。"
+      },
+      "smaller: 1/6": {
+       "en": "1/6 is the right answer (6) upside down. 4 ÷ 2/3 = 4 × 3/2 = 6.",
+       "zh": "1/6 是正确答案 6 倒过来了。4 ÷ 2/3 = 4 × 3/2 = 6。"
+      }
+     },
+     "qzh": "Daisy 在 2/3 小时里游了 4 圈。4 ÷ 2/3 比 4 大还是小？",
+     "ozh": {
+      "bigger: 6": "更大：6",
+      "smaller: 2 2/3": "更小：2 2/3",
+      "the same: 4": "一样：4",
+      "smaller: 1/6": "更小：1/6"
      }
     }
    ]
@@ -4198,9 +6704,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "Big to small: multiply. 4 × 12 = 48 in.",
-      "zh": "大到小：乘。4 × 12 = 48 英寸。"
-     }
+      "en": "1 ft = 12 in. Feet are BIGGER than inches, so you get MORE inches: multiply. 4 × 12 = 48 in.",
+      "zh": "1 英尺 = 12 英寸。英尺比英寸大，换成英寸数会变多：乘。4 × 12 = 48 英寸。"
+     },
+     "wrong": {
+      "16 in": {
+       "en": "16 is 4 + 12: it adds. Each foot is 12 inches, so multiply.",
+       "zh": "16 是 4 + 12，加了。每英尺是 12 英寸，要乘。"
+      },
+      "40 in": {
+       "en": "40 uses 10 inches in a foot. There are 12: 4 × 12 = 48.",
+       "zh": "40 是用 1 英尺 = 10 英寸算的。其实是 12：4 × 12 = 48。"
+      },
+      "1/3 in": {
+       "en": "1/3 is 4 ÷ 12: it divides. Going from big to small units means MULTIPLY.",
+       "zh": "1/3 是 4 ÷ 12，除了。从大单位换到小单位要乘。"
+      }
+     },
+     "qzh": "4 英尺 = ? 英寸"
     },
     {
      "q": "3 lb = ? oz",
@@ -4212,9 +6733,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "3 × 16 = 48 oz.",
-      "zh": "3 × 16 = 48 盎司。"
-     }
+      "en": "1 lb = 16 oz. Big to small: multiply. 3 × 16 = 48 oz.",
+      "zh": "1 磅 = 16 盎司。大换小：乘。3 × 16 = 48 盎司。"
+     },
+     "wrong": {
+      "19 oz": {
+       "en": "19 is 3 + 16: it adds. Multiply: 3 × 16.",
+       "zh": "19 是 3 + 16，加了。要乘：3 × 16。"
+      },
+      "30 oz": {
+       "en": "30 uses 10 oz in a pound. There are 16.",
+       "zh": "30 是用 1 磅 = 10 盎司算的。其实是 16。"
+      },
+      "24 oz": {
+       "en": "24 uses 8 oz in a pound. There are 16 oz in 1 lb.",
+       "zh": "24 是用 1 磅 = 8 盎司算的。1 磅是 16 盎司。"
+      }
+     },
+     "qzh": "3 磅 = ? 盎司"
     },
     {
      "q": "5 pt = ? c",
@@ -4226,9 +6762,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "1 pt = 2 c, so 5 × 2 = 10 c.",
-      "zh": "1 品脱 = 2 杯，所以 5 × 2 = 10 杯。"
-     }
+      "en": "1 pt = 2 c. Big to small: multiply. 5 × 2 = 10 c.",
+      "zh": "1 品脱 = 2 杯。大换小：乘。5 × 2 = 10 杯。"
+     },
+     "wrong": {
+      "2 1/2 c": {
+       "en": "2 1/2 is 5 ÷ 2: it divides. Pints are bigger than cups, so you get MORE cups.",
+       "zh": "2 1/2 是 5 ÷ 2，除了。品脱比杯大，换成杯会更多。"
+      },
+      "7 c": {
+       "en": "7 is 5 + 2: it adds. Multiply: 5 × 2.",
+       "zh": "7 是 5 + 2，加了。要乘：5 × 2。"
+      },
+      "40 c": {
+       "en": "40 uses 8 cups in a pint. 1 pint is only 2 cups.",
+       "zh": "40 是用 1 品脱 = 8 杯算的。1 品脱只有 2 杯。"
+      }
+     },
+     "qzh": "5 品脱 = ? 杯"
     },
     {
      "q": "18 in = ? ft",
@@ -4240,9 +6791,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Small to big: divide. 18 ÷ 12 = 18/12 = 3/2 = 1 1/2 ft.",
-      "zh": "小到大：除。18 ÷ 12 = 18/12 = 3/2 = 1 1/2 英尺。"
-     }
+      "en": "1 ft = 12 in. Small to big: divide. 18 ÷ 12 = 18/12 = 3/2 = 1 1/2 ft.",
+      "zh": "1 英尺 = 12 英寸。小换大：除。18 ÷ 12 = 18/12 = 3/2 = 1 1/2 英尺。"
+     },
+     "wrong": {
+      "216 ft": {
+       "en": "216 is 18 × 12: it multiplied. Inches are SMALL, so you get FEWER feet.",
+       "zh": "216 是 18 × 12，乘了。英寸是小单位，换成英尺会更少。"
+      },
+      "1 1/4 ft": {
+       "en": "1 1/4 ft = 15 in. 18 in is 12 + 6, which is 1 1/2 ft.",
+       "zh": "1 1/4 英尺 = 15 英寸。18 英寸 = 12 + 6，是 1 1/2 英尺。"
+      },
+      "6 ft": {
+       "en": "6 is 18 ÷ 3 (yards use 3). For feet, divide by 12.",
+       "zh": "6 是 18 ÷ 3（码才用 3）。英尺要除以 12。"
+      }
+     },
+     "qzh": "18 英寸 = ? 英尺"
     },
     {
      "q": "8 oz = ? lb",
@@ -4254,9 +6820,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "8 ÷ 16 = 8/16 = 1/2 lb.",
-      "zh": "8 ÷ 16 = 8/16 = 1/2 磅。"
-     }
+      "en": "1 lb = 16 oz. Small to big: divide. 8 ÷ 16 = 8/16 = 1/2 lb.",
+      "zh": "1 磅 = 16 盎司。小换大：除。8 ÷ 16 = 8/16 = 1/2 磅。"
+     },
+     "wrong": {
+      "2 lb": {
+       "en": "2 is 16 ÷ 8, upside down. 8 oz is LESS than 1 lb (16 oz).",
+       "zh": "2 是 16 ÷ 8，倒过来了。8 盎司比 1 磅（16 盎司）少。"
+      },
+      "128 lb": {
+       "en": "128 is 8 × 16: it multiplied. Small to big means divide.",
+       "zh": "128 是 8 × 16，乘了。小换大要除。"
+      },
+      "1/8 lb": {
+       "en": "1/8 lb = 2 oz. 8 oz is half of 16, so 1/2 lb.",
+       "zh": "1/8 磅 = 2 盎司。8 盎司是 16 的一半，所以是 1/2 磅。"
+      }
+     },
+     "qzh": "8 盎司 = ? 磅"
     },
     {
      "q": "12 qt = ? gal",
@@ -4268,8 +6849,29 @@
      ],
      "answer": 3,
      "why": {
-      "en": "1 gal = 4 qt, so 12 ÷ 4 = 3 gal.",
-      "zh": "1 加仑 = 4 夸脱，所以 12 ÷ 4 = 3 加仑。"
+      "en": "1 gal = 4 qt. Small to big: divide. 12 ÷ 4 = 3 gal.",
+      "zh": "1 加仑 = 4 夸脱。小换大：除。12 ÷ 4 = 3 加仑。"
+     },
+     "wrong": {
+      "48 gal": {
+       "en": "48 is 12 × 4: it multiplied. Quarts are small, so you get FEWER gallons.",
+       "zh": "48 是 12 × 4，乘了。夸脱是小单位，换成加仑会更少。"
+      },
+      "6 gal": {
+       "en": "6 is 12 ÷ 2 (that would be pints in a quart). 1 gallon is 4 quarts.",
+       "zh": "6 是 12 ÷ 2。1 加仑是 4 夸脱。"
+      },
+      "4 gal": {
+       "en": "Check: 4 gal = 16 qt, not 12.",
+       "zh": "检查：4 加仑 = 16 夸脱，不是 12。"
+      }
+     },
+     "qzh": "12 夸脱 = ? 加仑",
+     "ozh": {
+      "48 gal": "48 加仑",
+      "6 gal": "6 加仑",
+      "4 gal": "4 加仑",
+      "3 gal": "3 加仑"
      }
     },
     {
@@ -4282,9 +6884,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "5/2 × 3/1 = 15/2 = 7 1/2 ft.",
-      "zh": "5/2 × 3/1 = 15/2 = 7 1/2 英尺。"
-     }
+      "en": "1 yd = 3 ft. Big to small: multiply. 2 1/2 × 3 = 5/2 × 3/1 = 15/2 = 7 1/2 ft.",
+      "zh": "1 码 = 3 英尺。大换小：乘。2 1/2 × 3 = 5/2 × 3/1 = 15/2 = 7 1/2 英尺。"
+     },
+     "wrong": {
+      "5 1/2 ft": {
+       "en": "5 1/2 is 2 1/2 + 3: it adds. Multiply by 3.",
+       "zh": "5 1/2 是 2 1/2 + 3，加了。要乘 3。"
+      },
+      "6 ft": {
+       "en": "6 is only 2 × 3. The 1/2 yard is 1 1/2 ft more.",
+       "zh": "6 只是 2 × 3。那 1/2 码还有 1 1/2 英尺。"
+      },
+      "30 ft": {
+       "en": "30 uses 12 (inches in a foot). A yard is 3 FEET.",
+       "zh": "30 是用 12 算的（英寸）。1 码是 3 英尺。"
+      }
+     },
+     "qzh": "2 1/2 码 = ? 英尺"
     },
     {
      "q": "1 1/2 c = ? fl oz",
@@ -4296,9 +6913,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "3/2 × 8/1 = 24/2 = 12 fl oz.",
-      "zh": "3/2 × 8/1 = 24/2 = 12 液量盎司。"
-     }
+      "en": "1 c = 8 fl oz. Big to small: multiply. 1 1/2 × 8 = 3/2 × 8/1 = 24/2 = 12 fl oz.",
+      "zh": "1 杯 = 8 液量盎司。大换小：乘。1 1/2 × 8 = 3/2 × 8/1 = 24/2 = 12 液量盎司。"
+     },
+     "wrong": {
+      "9 fl oz": {
+       "en": "9 multiplies only the 1 and adds the 1/2 on. 1/2 cup is 4 fl oz: 8 + 4 = 12.",
+       "zh": "9 只乘了 1 再加上 1/2。半杯是 4 液量盎司：8 + 4 = 12。"
+      },
+      "10 fl oz": {
+       "en": "Check: 1 cup = 8, half a cup = 4, so 8 + 4 = 12, not 10.",
+       "zh": "检查：1 杯 = 8，半杯 = 4，8 + 4 = 12，不是 10。"
+      },
+      "16 fl oz": {
+       "en": "16 fl oz is 2 cups. 1 1/2 cups is less.",
+       "zh": "16 液量盎司是 2 杯。1 1/2 杯更少。"
+      }
+     },
+     "qzh": "1 1/2 杯 = ? 液量盎司"
     },
     {
      "q": "To change pounds to ounces you...",
@@ -4310,8 +6942,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Pounds are bigger, so you need more ounces: × 16.",
-      "zh": "磅比盎司大，换成盎司数字变大：× 16。"
+      "en": "A pound is BIGGER than an ounce (1 lb = 16 oz), so changing pounds to ounces gives more: multiply by 16.",
+      "zh": "磅比盎司大（1 磅 = 16 盎司），磅换成盎司数会变多：乘以 16。"
+     },
+     "wrong": {
+      "divide by 16": {
+       "en": "Dividing makes the number smaller. That is for ounces → pounds.",
+       "zh": "除会让数变小，那是盎司换磅用的。"
+      },
+      "multiply by 12": {
+       "en": "12 is for feet → inches. Pounds use 16.",
+       "zh": "12 是英尺换英寸。磅用 16。"
+      },
+      "divide by 12": {
+       "en": "12 is for length, and dividing is the wrong direction.",
+       "zh": "12 是长度用的，而且除方向也错了。"
+      }
+     },
+     "qzh": "把磅换成盎司，你要……",
+     "ozh": {
+      "multiply by 16": "乘以 16",
+      "divide by 16": "除以 16",
+      "multiply by 12": "乘以 12",
+      "divide by 12": "除以 12"
      }
     },
     {
@@ -4324,9 +6977,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "1 T = 2,000 lb. 1/4 × 2,000 = 2,000 ÷ 4 = 500 lb.",
-      "zh": "1 吨 = 2,000 磅。1/4 × 2,000 = 2,000 ÷ 4 = 500 磅。"
-     }
+      "en": "1 ton = 2,000 lb. \"1/4 of\" means multiply: 1/4 × 2,000 = 2,000 ÷ 4 = 500 lb.",
+      "zh": "1 吨 = 2,000 磅。“1/4 吨”就是乘：1/4 × 2,000 = 2,000 ÷ 4 = 500 磅。"
+     },
+     "wrong": {
+      "8,000 lb": {
+       "en": "8,000 is 2,000 × 4: it multiplied by 4. A quarter means divide by 4.",
+       "zh": "8,000 是 2,000 × 4，乘了 4。四分之一要除以 4。"
+      },
+      "250 lb": {
+       "en": "250 is 2,000 ÷ 8 (an eighth), not a quarter.",
+       "zh": "250 是 2,000 ÷ 8（八分之一），不是四分之一。"
+      },
+      "400 lb": {
+       "en": "400 is 2,000 ÷ 5. A quarter is ÷ 4: 500.",
+       "zh": "400 是 2,000 ÷ 5。四分之一是 ÷ 4：500。"
+      }
+     },
+     "qzh": "一头小象重 1/4 吨。那是多少磅？"
     }
    ]
   },
@@ -4357,9 +7025,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "8 × 1 = 8, then 8 + 3 = 11. So 11/8.",
-      "zh": "8 × 1 = 8，再 8 + 3 = 11，所以是 11/8。"
-     }
+      "en": "Whole × bottom, then add the top: 1 × 8 = 8, 8 + 3 = 11. Keep the bottom: 11/8.",
+      "zh": "整数乘分母，再加分子：1 × 8 = 8，8 + 3 = 11。分母不变：11/8。"
+     },
+     "wrong": {
+      "4/8": {
+       "en": "4/8 adds 1 + 3. The whole number must be MULTIPLIED by 8.",
+       "zh": "4/8 是 1 + 3。整数要乘 8。"
+      },
+      "13/8": {
+       "en": "13/8 adds 1 + 8 + 3 + 1. The rule is 1 × 8 + 3 = 11.",
+       "zh": "13/8 算错了。规则是 1 × 8 + 3 = 11。"
+      },
+      "8/11": {
+       "en": "8/11 is the right answer upside down. The bottom stays 8.",
+       "zh": "8/11 是正确答案倒过来了。分母还是 8。"
+      }
+     },
+     "qzh": "把 1 3/8 变成假分数。"
     },
     {
      "q": "Change 17/5 to a mixed number.",
@@ -4371,9 +7054,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "17 ÷ 5 = 3 with 2 left over: 3 2/5.",
-      "zh": "17 ÷ 5 = 3 余 2：3 2/5。"
-     }
+      "en": "Divide the top by the bottom: 17 ÷ 5 = 3 remainder 2. Whole number 3, remainder 2 on top: 3 2/5.",
+      "zh": "分子除以分母：17 ÷ 5 = 3 余 2。整数 3，余数 2 放在分子：3 2/5。"
+     },
+     "wrong": {
+      "2 3/5": {
+       "en": "This swaps the answer and the remainder. 5 goes into 17 THREE times.",
+       "zh": "这把商和余数换了。17 里有三个 5。"
+      },
+      "3 1/5": {
+       "en": "The remainder is 17 − 15 = 2, not 1.",
+       "zh": "余数是 17 − 15 = 2，不是 1。"
+      },
+      "5 2/3": {
+       "en": "This puts the 5 in the wrong place. The bottom (5) stays the bottom.",
+       "zh": "这把 5 放错了位置。分母 5 还是分母。"
+      }
+     },
+     "qzh": "把 17/5 变成带分数。"
     },
     {
      "q": "1 2/3 × 3 = ?",
@@ -4385,9 +7083,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "5/3 × 3/1 = 15/3 = 5.",
-      "zh": "5/3 × 3/1 = 15/3 = 5。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 5/3 × 3/1. Multiply tops and bottoms: 15/3 = 5.",
+      "zh": "先把带分数变成假分数：5/3 × 3/1。分子乘分子、分母乘分母：15/3 = 5。"
+     },
+     "wrong": {
+      "3 2/3": {
+       "en": "3 2/3 multiplies only the whole number 1 by 3 and forgets to multiply the 2/3 too. Change to improper fractions: 5/3 × 3/1 = 5.",
+       "zh": "3 2/3 只把整数 1 乘了 3，忘了 2/3 也要乘。要先变成假分数：5/3 × 3/1 = 5。"
+      },
+      "4": {
+       "en": "4 is too small. Change to improper fractions and multiply: 5/3 × 3/1 = 5, not 4.",
+       "zh": "4 太小了。先变成假分数再乘：5/3 × 3/1 = 5，不是 4。"
+      },
+      "3 2/9": {
+       "en": "3 2/9 is too small. Change to improper fractions and multiply: 5/3 × 3/1 = 5, not 3 2/9.",
+       "zh": "3 2/9 太小了。先变成假分数再乘：5/3 × 3/1 = 5，不是 3 2/9。"
+      }
+     },
+     "qzh": "1 2/3 × 3 = ？"
     },
     {
      "q": "2 1/2 × 1 1/5 = ?",
@@ -4399,9 +7112,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "5/2 × 6/5 = 30/10 = 3.",
-      "zh": "5/2 × 6/5 = 30/10 = 3。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 5/2 × 6/5. Multiply tops and bottoms: 30/10 = 3.",
+      "zh": "先把带分数变成假分数：5/2 × 6/5。分子乘分子、分母乘分母：30/10 = 3。"
+     },
+     "wrong": {
+      "2 1/10": {
+       "en": "2 1/10 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 3.",
+       "zh": "2 1/10 是把整数和分数分开乘了。要先变成假分数：答案是 3。"
+      },
+      "3 1/2": {
+       "en": "3 1/2 is too big. Change to improper fractions and multiply: 5/2 × 6/5 = 3, not 3 1/2.",
+       "zh": "3 1/2 太大了。先变成假分数再乘：5/2 × 6/5 = 3，不是 3 1/2。"
+      },
+      "2 1/2": {
+       "en": "2 1/2 is too small. Change to improper fractions and multiply: 5/2 × 6/5 = 3, not 2 1/2.",
+       "zh": "2 1/2 太小了。先变成假分数再乘：5/2 × 6/5 = 3，不是 2 1/2。"
+      }
+     },
+     "qzh": "2 1/2 × 1 1/5 = ？"
     },
     {
      "q": "3/4 × 2 2/3 = ?",
@@ -4413,9 +7141,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "3/4 × 8/3 = 24/12 = 2.",
-      "zh": "3/4 × 8/3 = 24/12 = 2。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 3/4 × 8/3. Multiply tops and bottoms: 24/12 = 2.",
+      "zh": "先把带分数变成假分数：3/4 × 8/3。分子乘分子、分母乘分母：24/12 = 2。"
+     },
+     "wrong": {
+      "1 1/2": {
+       "en": "1 1/2 is too small. Change to improper fractions and multiply: 3/4 × 8/3 = 2, not 1 1/2.",
+       "zh": "1 1/2 太小了。先变成假分数再乘：3/4 × 8/3 = 2，不是 1 1/2。"
+      },
+      "2 1/2": {
+       "en": "2 1/2 is too big. Change to improper fractions and multiply: 3/4 × 8/3 = 2, not 2 1/2.",
+       "zh": "2 1/2 太大了。先变成假分数再乘：3/4 × 8/3 = 2，不是 2 1/2。"
+      },
+      "6/12": {
+       "en": "6/12 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 2.",
+       "zh": "6/12 是把整数和分数分开乘了。要先变成假分数：答案是 2。"
+      }
+     },
+     "qzh": "3/4 × 2 2/3 = ？"
     },
     {
      "q": "1 1/3 × 1 1/2 = ?",
@@ -4427,9 +7170,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "4/3 × 3/2 = 12/6 = 2.",
-      "zh": "4/3 × 3/2 = 12/6 = 2。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 4/3 × 3/2. Multiply tops and bottoms: 12/6 = 2.",
+      "zh": "先把带分数变成假分数：4/3 × 3/2。分子乘分子、分母乘分母：12/6 = 2。"
+     },
+     "wrong": {
+      "1 1/6": {
+       "en": "1 1/6 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 2.",
+       "zh": "1 1/6 是把整数和分数分开乘了。要先变成假分数：答案是 2。"
+      },
+      "2 1/2": {
+       "en": "2 1/2 is too big. Change to improper fractions and multiply: 4/3 × 3/2 = 2, not 2 1/2.",
+       "zh": "2 1/2 太大了。先变成假分数再乘：4/3 × 3/2 = 2，不是 2 1/2。"
+      },
+      "1 5/6": {
+       "en": "1 5/6 multiplies only the whole number 1 by 1 1/2 and forgets to multiply the 1/3 too. Change to improper fractions: 4/3 × 3/2 = 2.",
+       "zh": "1 5/6 只把整数 1 乘了 1 1/2，忘了 1/3 也要乘。要先变成假分数：4/3 × 3/2 = 2。"
+      }
+     },
+     "qzh": "1 1/3 × 1 1/2 = ？"
     },
     {
      "q": "A K-pop dance practice lasts 1 3/4 hours. Daisy practises 4 times. How many hours?",
@@ -4441,9 +7199,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "7/4 × 4/1 = 28/4 = 7 hours.",
-      "zh": "7/4 × 4/1 = 28/4 = 7 小时。"
-     }
+      "en": "4 practices of 1 3/4 hours = multiply: 7/4 × 4/1 = 28/4 = 7 hours.",
+      "zh": "练 4 次、每次 1 3/4 小时就用乘：7/4 × 4/1 = 28/4 = 7 小时。"
+     },
+     "wrong": {
+      "4 3/4": {
+       "en": "4 3/4 multiplies only the 1 and forgets the 3/4: 3/4 × 4 = 3 more.",
+       "zh": "4 3/4 只乘了 1，忘了 3/4 也要乘：3/4 × 4 = 3。"
+      },
+      "6": {
+       "en": "Check: 7/4 × 4 = 7, not 6.",
+       "zh": "检查：7/4 × 4 = 7，不是 6。"
+      },
+      "7 3/4": {
+       "en": "7 3/4 adds an extra 3/4 at the end. 1 × 4 = 4 and 3/4 × 4 = 3, so 4 + 3 = 7.",
+       "zh": "7 3/4 多加了 3/4。1 × 4 = 4，3/4 × 4 = 3，4 + 3 = 7。"
+      }
+     },
+     "qzh": "一次 K-pop 舞蹈练习 1 3/4 小时。Daisy 练了 4 次。一共几小时？"
     },
     {
      "q": "Sophie's cat weighs 4 1/2 kg. Her dog is 2 1/2 times as heavy. How heavy is the dog?",
@@ -4455,9 +7228,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "9/2 × 5/2 = 45/4 = 11 1/4 kg.",
-      "zh": "9/2 × 5/2 = 45/4 = 11 1/4 千克。"
-     }
+      "en": "\"2 1/2 times as heavy\" = multiply: 9/2 × 5/2 = 45/4 = 11 1/4 kg.",
+      "zh": "“2 1/2 倍重”就是乘：9/2 × 5/2 = 45/4 = 11 1/4 千克。"
+     },
+     "wrong": {
+      "8 1/4 kg": {
+       "en": "8 1/4 multiplies the whole numbers (4 × 2) and the halves (1/2 × 1/2) separately. Change to improper fractions first.",
+       "zh": "8 1/4 是把整数（4 × 2）和分数（1/2 × 1/2）分开乘了。要先变成假分数。"
+      },
+      "9 kg": {
+       "en": "9 is 4 1/2 × 2 only. The dog is 2 1/2 times as heavy, so add another half: 9 + 2 1/4.",
+       "zh": "9 只是 4 1/2 × 2。狗是 2 1/2 倍重，还要再加一半：9 + 2 1/4。"
+      },
+      "7 kg": {
+       "en": "7 is 4 1/2 + 2 1/2: it adds instead of multiplying.",
+       "zh": "7 是 4 1/2 + 2 1/2，加了而不是乘。"
+      }
+     },
+     "qzh": "Sophie 的猫重 4 1/2 千克。她的狗是猫的 2 1/2 倍重。狗有多重？"
     }
    ]
   },
@@ -4488,9 +7276,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "3/1 × 4/3 = 12/3 = 4.",
-      "zh": "3/1 × 4/3 = 12/3 = 4。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 3/1 × 4/3 = 4.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：3/1 × 4/3 = 4。"
+     },
+     "wrong": {
+      "2 1/4": {
+       "en": "2 1/4 is 3 × 3/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "2 1/4 是 3 × 3/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/4": {
+       "en": "1/4 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/4 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "9/4": {
+       "en": "9/4 is 3 × 3/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "9/4 是 3 × 3/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      }
+     },
+     "qzh": "3 ÷ 3/4 = ？"
     },
     {
      "q": "2 2/3 ÷ 2/3 = ?",
@@ -4502,9 +7305,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "8/3 × 3/2 = 24/6 = 4.",
-      "zh": "8/3 × 3/2 = 24/6 = 4。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 8/3 × 3/2 = 4.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：8/3 × 3/2 = 4。"
+     },
+     "wrong": {
+      "1 7/9": {
+       "en": "1 7/9 is 2 2/3 × 2/3: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "1 7/9 是 2 2/3 × 2/3，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "2": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 2 2/3, but 2 is smaller. Check: 2 × 2/3 = 1 1/3, not 2 2/3.",
+       "zh": "除以小于 1 的数，答案会比 2 2/3 大，但 2 更小。检查：2 × 2/3 = 1 1/3，不是 2 2/3。"
+      },
+      "3": {
+       "en": "Check by multiplying back: 3 × 2/3 = 2, not 2 2/3.",
+       "zh": "乘回去检查：3 × 2/3 = 2，不是 2 2/3。"
+      }
+     },
+     "qzh": "2 2/3 ÷ 2/3 = ？"
     },
     {
      "q": "3 1/2 ÷ 1 3/4 = ?",
@@ -4516,9 +7334,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "7/2 × 4/7 = 28/14 = 2.",
-      "zh": "7/2 × 4/7 = 28/14 = 2。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 7/2 × 4/7 = 2.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：7/2 × 4/7 = 2。"
+     },
+     "wrong": {
+      "6 1/8": {
+       "en": "6 1/8 is 3 1/2 × 1 3/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "6 1/8 是 3 1/2 × 1 3/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/2": {
+       "en": "1/2 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/2 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "3": {
+       "en": "Check by multiplying back: 3 × 1 3/4 = 5 1/4, not 3 1/2.",
+       "zh": "乘回去检查：3 × 1 3/4 = 5 1/4，不是 3 1/2。"
+      }
+     },
+     "qzh": "3 1/2 ÷ 1 3/4 = ？"
     },
     {
      "q": "1 1/4 × 2 2/5 = ?",
@@ -4530,9 +7363,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "5/4 × 12/5 = 60/20 = 3.",
-      "zh": "5/4 × 12/5 = 60/20 = 3。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 5/4 × 12/5. Multiply tops and bottoms: 60/20 = 3.",
+      "zh": "先把带分数变成假分数：5/4 × 12/5。分子乘分子、分母乘分母：60/20 = 3。"
+     },
+     "wrong": {
+      "2 1/10": {
+       "en": "2 1/10 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 3.",
+       "zh": "2 1/10 是把整数和分数分开乘了。要先变成假分数：答案是 3。"
+      },
+      "2 1/2": {
+       "en": "2 1/2 is too small. Change to improper fractions and multiply: 5/4 × 12/5 = 3, not 2 1/2.",
+       "zh": "2 1/2 太小了。先变成假分数再乘：5/4 × 12/5 = 3，不是 2 1/2。"
+      },
+      "3 1/4": {
+       "en": "3 1/4 is too big. Change to improper fractions and multiply: 5/4 × 12/5 = 3, not 3 1/4.",
+       "zh": "3 1/4 太大了。先变成假分数再乘：5/4 × 12/5 = 3，不是 3 1/4。"
+      }
+     },
+     "qzh": "1 1/4 × 2 2/5 = ？"
     },
     {
      "q": "6 1/4 ÷ 1 1/4 = ?",
@@ -4544,9 +7392,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "25/4 × 4/5 = 100/20 = 5.",
-      "zh": "25/4 × 4/5 = 100/20 = 5。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 25/4 × 4/5 = 5.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：25/4 × 4/5 = 5。"
+     },
+     "wrong": {
+      "7 13/16": {
+       "en": "7 13/16 is 6 1/4 × 1 1/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "7 13/16 是 6 1/4 × 1 1/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "6": {
+       "en": "Check by multiplying back: 6 × 1 1/4 = 7 1/2, not 6 1/4.",
+       "zh": "乘回去检查：6 × 1 1/4 = 7 1/2，不是 6 1/4。"
+      },
+      "4": {
+       "en": "Check by multiplying back: 4 × 1 1/4 = 5, not 6 1/4.",
+       "zh": "乘回去检查：4 × 1 1/4 = 5，不是 6 1/4。"
+      }
+     },
+     "qzh": "6 1/4 ÷ 1 1/4 = ？"
     },
     {
      "q": "A bubble tea shop uses 2 1/2 bags of tapioca a day. How many bags in 4 days?",
@@ -4558,9 +7421,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "4 days of 2 1/2 bags: ×. 5/2 × 4/1 = 20/2 = 10 bags.",
-      "zh": "4 天、每天 2 1/2 袋：×。5/2 × 4/1 = 20/2 = 10 袋。"
-     }
+      "en": "The same amount every day = multiply: 5/2 × 4/1 = 20/2 = 10 bags.",
+      "zh": "每天一样多就用乘：5/2 × 4/1 = 20/2 = 10 袋。"
+     },
+     "wrong": {
+      "8 1/2": {
+       "en": "8 1/2 multiplies only the 2 and forgets the 1/2: 1/2 × 4 = 2 more.",
+       "zh": "8 1/2 只乘了 2，忘了 1/2 也要乘：1/2 × 4 = 2。"
+      },
+      "1 3/5": {
+       "en": "1 3/5 is 4 ÷ 2 1/2: it divides. Using bags every day means multiply.",
+       "zh": "1 3/5 是 4 ÷ 2 1/2，除了。每天都用要用乘。"
+      },
+      "6 1/2": {
+       "en": "6 1/2 is 2 1/2 + 4: it adds instead of multiplying.",
+       "zh": "6 1/2 是 2 1/2 + 4，加了而不是乘。"
+      }
+     },
+     "qzh": "一家珍珠奶茶店每天用 2 1/2 袋珍珠。4 天用几袋？"
     },
     {
      "q": "James has 5 1/4 m of string. Each bracelet needs 3/4 m. How many bracelets?",
@@ -4572,9 +7450,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "How many 3/4 in 5 1/4: ÷. 21/4 × 4/3 = 84/12 = 7.",
-      "zh": "5 1/4 里有几个 3/4：÷。21/4 × 4/3 = 84/12 = 7。"
-     }
+      "en": "\"How many 3/4 in 5 1/4?\" = divide: 21/4 × 4/3 = 84/12 = 7 bracelets.",
+      "zh": "“5 1/4 里有几个 3/4”就是除：21/4 × 4/3 = 84/12 = 7 条。"
+     },
+     "wrong": {
+      "3 15/16": {
+       "en": "3 15/16 is 5 1/4 × 3/4: it multiplied. Cutting string into pieces means divide.",
+       "zh": "3 15/16 是 5 1/4 × 3/4，乘了。把绳子剪成几段要用除。"
+      },
+      "6": {
+       "en": "Check: 6 × 3/4 = 4 1/2 m, leaving 3/4 m for one more bracelet.",
+       "zh": "检查：6 × 3/4 = 4 1/2 米，还剩 3/4 米能再做一条。"
+      },
+      "8": {
+       "en": "Check: 8 × 3/4 = 6 m, but he only has 5 1/4 m.",
+       "zh": "检查：8 × 3/4 = 6 米，但他只有 5 1/4 米。"
+      }
+     },
+     "qzh": "James 有 5 1/4 米绳子，每条手链要 3/4 米。他能做几条手链？"
     },
     {
      "q": "Which one will give an answer BIGGER than 8?",
@@ -4588,7 +7481,22 @@
      "why": {
       "en": "Dividing by a number less than 1 makes it bigger: 8 ÷ 2/3 = 12.",
       "zh": "除以小于 1 的数会变大：8 ÷ 2/3 = 12。"
-     }
+     },
+     "wrong": {
+      "8 ÷ 1 1/3": {
+       "en": "Dividing by a number BIGGER than 1 makes the answer smaller: 8 ÷ 1 1/3 = 6.",
+       "zh": "除以大于 1 的数，答案会变小：8 ÷ 1 1/3 = 6。"
+      },
+      "8 × 1/2": {
+       "en": "Multiplying by a number less than 1 makes it smaller: 8 × 1/2 = 4.",
+       "zh": "乘以小于 1 的数会变小：8 × 1/2 = 4。"
+      },
+      "8 ÷ 2": {
+       "en": "Dividing by 2 halves it: 4.",
+       "zh": "除以 2 就是减半：4。"
+      }
+     },
+     "qzh": "哪一个的答案会比 8 大？"
     }
    ]
   },
@@ -4621,6 +7529,27 @@
      "why": {
       "en": "The sentence tells you: \"which means very hungry\".",
       "zh": "句子直接告诉你：“which means very hungry”。"
+     },
+     "wrong": {
+      "very sleepy": {
+       "en": "The sentence says \"which means very hungry\", not sleepy.",
+       "zh": "句子说的是 which means very hungry，不是困。"
+      },
+      "very small": {
+       "en": "Size is not mentioned; the meaning is given right after the word.",
+       "zh": "没有提到大小；意思就写在这个词后面。"
+      },
+      "very happy": {
+       "en": "The sentence gives the meaning directly: very hungry.",
+       "zh": "句子直接给出了意思：very hungry。"
+      }
+     },
+     "qzh": "小猫很 famished，意思是非常饿。famished 是什么意思？",
+     "ozh": {
+      "very hungry": "非常饿",
+      "very sleepy": "非常困",
+      "very small": "非常小",
+      "very happy": "非常开心"
      }
     },
     {
@@ -4635,6 +7564,27 @@
      "why": {
       "en": "\"but\" tells you an opposite is coming. The opposite of brave is shy and scared.",
       "zh": "“but”表示后面是相反的意思。brave 的反义是胆小。"
+     },
+     "wrong": {
+      "brave": {
+       "en": "\"But\" shows an OPPOSITE. His SISTER was brave, so Tom was the opposite.",
+       "zh": "but 表示相反。他姐姐勇敢，所以 Tom 正相反。"
+      },
+      "tall": {
+       "en": "The clue compares how brave they are, not height.",
+       "zh": "线索比较的是勇敢，不是身高。"
+      },
+      "funny": {
+       "en": "The opposite of bold and brave is shy and scared, not funny.",
+       "zh": "勇敢的反义是害羞胆小，不是好笑。"
+      }
+     },
+     "qzh": "Tom 很 timid，但他姐姐又大胆又勇敢。timid 的意思是……",
+     "ozh": {
+      "brave": "勇敢",
+      "shy and easily scared": "害羞、容易害怕",
+      "tall": "高",
+      "funny": "好笑"
      }
     },
     {
@@ -4649,6 +7599,27 @@
      "why": {
       "en": "\"such as\" gives examples: lemons, limes and oranges.",
       "zh": "“such as”后面是例子：柠檬、青柠和橙子。"
+     },
+     "wrong": {
+      "sweet berries": {
+       "en": "Lemons and limes are sour, and they are not berries.",
+       "zh": "柠檬和青柠是酸的，也不是浆果。"
+      },
+      "vegetables": {
+       "en": "The examples are fruits, not vegetables.",
+       "zh": "例子都是水果，不是蔬菜。"
+      },
+      "dried fruits": {
+       "en": "Lemons and oranges are fresh and juicy, not dried.",
+       "zh": "柠檬和橙子是新鲜多汁的，不是干的。"
+      }
+     },
+     "qzh": "Emma 喜欢 citrus fruits，比如柠檬、青柠和橙子。citrus fruits 是……",
+     "ozh": {
+      "sweet berries": "甜的浆果",
+      "vegetables": "蔬菜",
+      "sour, juicy fruits like lemons": "像柠檬一样酸、多汁的水果",
+      "dried fruits": "水果干"
      }
     },
     {
@@ -4663,6 +7634,25 @@
      "why": {
       "en": "Being tired and still going is a surprise, so use but.",
       "zh": "累了还去游泳，是转折，所以用 but。"
+     },
+     "wrong": {
+      "so": {
+       "en": "\"So\" shows a result. Going swimming is not a RESULT of being tired.",
+       "zh": "so 表示结果。去游泳不是累的结果。"
+      },
+      "because": {
+       "en": "\"Because\" gives a reason. Being tired is not why she went swimming.",
+       "zh": "because 给出原因。累不是她去游泳的原因。"
+      },
+      "or": {
+       "en": "\"Or\" gives a choice; here both things happened.",
+       "zh": "or 是选择；这里两件事都发生了。"
+      }
+     },
+     "qzh": "选最好的连接词：Daisy 很累，___ 她还是去游泳了。",
+     "ozh": {
+      "because": "",
+      "but": ""
      }
     },
     {
@@ -4677,6 +7667,26 @@
      "why": {
       "en": "Missing the bus is the REASON she was late: because.",
       "zh": "错过公交车是迟到的原因：because。"
+     },
+     "wrong": {
+      "but": {
+       "en": "\"But\" shows a surprise. Being late after missing the bus is not a surprise; it is the reason.",
+       "zh": "but 表示意外。错过公交车而迟到不意外，那是原因。"
+      },
+      "or": {
+       "en": "\"Or\" gives a choice between two things.",
+       "zh": "or 是两样之间的选择。"
+      },
+      "although": {
+       "en": "\"Although\" shows a contrast, not a reason.",
+       "zh": "although 表示让步，不是原因。"
+      }
+     },
+     "qzh": "选最好的连接词：Lily 迟到了，___ 她错过了公交车。",
+     "ozh": {
+      "but": "",
+      "because": "",
+      "although": ""
      }
     },
     {
@@ -4691,6 +7701,27 @@
      "why": {
       "en": "Two full sentences joined by so: the comma goes before so.",
       "zh": "so 连接两个完整的句子：逗号放在 so 前面。"
+     },
+     "wrong": {
+      "I love, cats so I visit the cat cafe.": {
+       "en": "This comma is in the wrong place. When two full sentences are joined with so, the comma goes just BEFORE so.",
+       "zh": "这个逗号放错了。两个完整的句子用 so 连接时，逗号放在 so 的前面。"
+      },
+      "I love cats so, I visit the cat cafe.": {
+       "en": "This comma is in the wrong place. When two full sentences are joined with so, the comma goes just BEFORE so.",
+       "zh": "这个逗号放错了。两个完整的句子用 so 连接时，逗号放在 so 的前面。"
+      },
+      "I, love cats so I visit the cat cafe.": {
+       "en": "This comma is in the wrong place. When two full sentences are joined with so, the comma goes just BEFORE so.",
+       "zh": "这个逗号放错了。两个完整的句子用 so 连接时，逗号放在 so 的前面。"
+      }
+     },
+     "qzh": "哪一句的逗号位置正确？",
+     "ozh": {
+      "I love, cats so I visit the cat cafe.": "",
+      "I love cats so, I visit the cat cafe.": "",
+      "I, love cats so I visit the cat cafe.": "",
+      "I love cats, so I visit the cat cafe.": ""
      }
     },
     {
@@ -4705,6 +7736,27 @@
      "why": {
       "en": "Short word ending in one vowel + m: double the m, then add -er.",
       "zh": "短词，结尾是一个元音 + m：双写 m，再加 -er。"
+     },
+     "wrong": {
+      "swimer": {
+       "en": "Swim has a SHORT vowel (i) and ends in one consonant (m), so double the m before -er: swimmer.",
+       "zh": "swim 是短元音（i）加一个辅音（m），加 -er 前要双写 m：swimmer。"
+      },
+      "swimor": {
+       "en": "A person who swims takes -er, and the m must be doubled: swimmer.",
+       "zh": "游泳的人用 -er，m 还要双写：swimmer。"
+      },
+      "swimmor": {
+       "en": "The double m is right, but the ending is -er, not -or.",
+       "zh": "双写 m 对了，但词尾是 -er，不是 -or。"
+      }
+     },
+     "qzh": "游泳的人是……（选正确的拼写）",
+     "ozh": {
+      "swimmer": "",
+      "swimer": "",
+      "swimmor": "",
+      "swimor": ""
      }
     },
     {
@@ -4719,6 +7771,27 @@
      "why": {
       "en": "Words ending in -ate drop the e and add -or.",
       "zh": "以 -ate 结尾的词去掉 e，加 -or。"
+     },
+     "wrong": {
+      "investigater": {
+       "en": "Words ending in -ate (investigate, educate) take -OR for the person.",
+       "zh": "以 -ate 结尾的词（investigate、educate）表示人时加 -or。"
+      },
+      "investigatter": {
+       "en": "Drop the e and add -or. The t is never doubled.",
+       "zh": "去掉 e 加 -or，t 不双写。"
+      },
+      "investigatior": {
+       "en": "There is no i before -or: investigat + or.",
+       "zh": "-or 前面没有 i：investigat + or。"
+      }
+     },
+     "qzh": "做调查的人是……（选正确的拼写）",
+     "ozh": {
+      "investigater": "",
+      "investigatter": "",
+      "investigator": "",
+      "investigatior": ""
      }
     }
    ]
@@ -4750,9 +7823,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "Big to small: 5 × 12 = 60 in.",
-      "zh": "大到小：5 × 12 = 60 英寸。"
-     }
+      "en": "1 ft = 12 in. Big to small: multiply. 5 × 12 = 60 in.",
+      "zh": "1 英尺 = 12 英寸。大换小：乘。5 × 12 = 60 英寸。"
+     },
+     "wrong": {
+      "17 in": {
+       "en": "17 is 5 + 12: it adds. Multiply.",
+       "zh": "17 是 5 + 12，加了。要乘。"
+      },
+      "50 in": {
+       "en": "50 uses 10 inches in a foot. There are 12.",
+       "zh": "50 是用 1 英尺 = 10 英寸算的。其实是 12。"
+      },
+      "5/12 in": {
+       "en": "5/12 is 5 ÷ 12: it divides. Feet → inches gives MORE, so multiply.",
+       "zh": "5/12 是 5 ÷ 12，除了。英尺换英寸会变多，要乘。"
+      }
+     },
+     "qzh": "5 英尺 = ? 英寸"
     },
     {
      "q": "40 oz = ? lb",
@@ -4764,9 +7852,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Small to big: 40 ÷ 16 = 40/16 = 5/2 = 2 1/2 lb.",
-      "zh": "小到大：40 ÷ 16 = 40/16 = 5/2 = 2 1/2 磅。"
-     }
+      "en": "1 lb = 16 oz. Small to big: divide. 40 ÷ 16 = 2 remainder 8, and 8/16 = 1/2, so 2 1/2 lb.",
+      "zh": "1 磅 = 16 盎司。小换大：除。40 ÷ 16 = 2 余 8，8/16 = 1/2，所以是 2 1/2 磅。"
+     },
+     "wrong": {
+      "640 lb": {
+       "en": "640 is 40 × 16: it multiplied. Ounces are small, so you get FEWER pounds.",
+       "zh": "640 是 40 × 16，乘了。盎司是小单位，换成磅会更少。"
+      },
+      "2 2/5 lb": {
+       "en": "The remainder 8 is out of 16, not 20: 8/16 = 1/2.",
+       "zh": "余数 8 是 16 分之 8，不是 20 分之：8/16 = 1/2。"
+      },
+      "4 lb": {
+       "en": "4 is 40 ÷ 10. A pound is 16 oz, not 10.",
+       "zh": "4 是 40 ÷ 10。1 磅是 16 盎司，不是 10。"
+      }
+     },
+     "qzh": "40 盎司 = ? 磅"
     },
     {
      "q": "3 gal = ? qt",
@@ -4778,9 +7881,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "1 gal = 4 qt. 3 × 4 = 12 qt.",
-      "zh": "1 加仑 = 4 夸脱。3 × 4 = 12 夸脱。"
-     }
+      "en": "1 gal = 4 qt. Big to small: multiply. 3 × 4 = 12 qt.",
+      "zh": "1 加仑 = 4 夸脱。大换小：乘。3 × 4 = 12 夸脱。"
+     },
+     "wrong": {
+      "3/4 qt": {
+       "en": "3/4 is 3 ÷ 4: it divides. Gallons → quarts gives MORE.",
+       "zh": "3/4 是 3 ÷ 4，除了。加仑换夸脱会变多。"
+      },
+      "7 qt": {
+       "en": "7 is 3 + 4: it adds. Multiply.",
+       "zh": "7 是 3 + 4，加了。要乘。"
+      },
+      "6 qt": {
+       "en": "6 uses 2 quarts in a gallon. There are 4.",
+       "zh": "6 是用 1 加仑 = 2 夸脱算的。其实是 4。"
+      }
+     },
+     "qzh": "3 加仑 = ? 夸脱"
     },
     {
      "q": "9 ft = ? yd",
@@ -4792,9 +7910,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "1 yd = 3 ft. 9 ÷ 3 = 3 yd.",
-      "zh": "1 码 = 3 英尺。9 ÷ 3 = 3 码。"
-     }
+      "en": "1 yd = 3 ft. Small to big: divide. 9 ÷ 3 = 3 yd.",
+      "zh": "1 码 = 3 英尺。小换大：除。9 ÷ 3 = 3 码。"
+     },
+     "wrong": {
+      "27 yd": {
+       "en": "27 is 9 × 3: it multiplied. Feet are small, so you get FEWER yards.",
+       "zh": "27 是 9 × 3，乘了。英尺是小单位，换成码会更少。"
+      },
+      "108 yd": {
+       "en": "108 is 9 × 12 (inches). Yards and feet use 3.",
+       "zh": "108 是 9 × 12（英寸）。码和英尺用 3。"
+      },
+      "6 yd": {
+       "en": "Check: 6 yd = 18 ft, not 9.",
+       "zh": "检查：6 码 = 18 英尺，不是 9。"
+      }
+     },
+     "qzh": "9 英尺 = ? 码"
     },
     {
      "q": "1 3/4 × 2 = ?",
@@ -4806,9 +7939,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "7/4 × 2/1 = 14/4 = 7/2 = 3 1/2.",
-      "zh": "7/4 × 2/1 = 14/4 = 7/2 = 3 1/2。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 7/4 × 2/1. Multiply tops and bottoms: 14/4 = 3 1/2.",
+      "zh": "先把带分数变成假分数：7/4 × 2/1。分子乘分子、分母乘分母：14/4 = 3 1/2。"
+     },
+     "wrong": {
+      "2 3/4": {
+       "en": "2 3/4 multiplies only the whole number 1 by 2 and forgets to multiply the 3/4 too. Change to improper fractions: 7/4 × 2/1 = 3 1/2.",
+       "zh": "2 3/4 只把整数 1 乘了 2，忘了 3/4 也要乘。要先变成假分数：7/4 × 2/1 = 3 1/2。"
+      },
+      "3 3/4": {
+       "en": "3 3/4 is 1 3/4 + 2: it adds instead of multiplying.",
+       "zh": "3 3/4 是 1 3/4 + 2，加了而不是乘。"
+      },
+      "2 3/8": {
+       "en": "2 3/8 is too small. Change to improper fractions and multiply: 7/4 × 2/1 = 3 1/2, not 2 3/8.",
+       "zh": "2 3/8 太小了。先变成假分数再乘：7/4 × 2/1 = 3 1/2，不是 2 3/8。"
+      }
+     },
+     "qzh": "1 3/4 × 2 = ？"
     },
     {
      "q": "2 1/4 ÷ 3/4 = ?",
@@ -4820,9 +7968,24 @@
      ],
      "answer": 1,
      "why": {
-      "en": "9/4 × 4/3 = 36/12 = 3.",
-      "zh": "9/4 × 4/3 = 36/12 = 3。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 9/4 × 4/3 = 3.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：9/4 × 4/3 = 3。"
+     },
+     "wrong": {
+      "1 11/16": {
+       "en": "1 11/16 is 2 1/4 × 3/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "1 11/16 是 2 1/4 × 3/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/3": {
+       "en": "1/3 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/3 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "2": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 2 1/4, but 2 is smaller. Check: 2 × 3/4 = 1 1/2, not 2 1/4.",
+       "zh": "除以小于 1 的数，答案会比 2 1/4 大，但 2 更小。检查：2 × 3/4 = 1 1/2，不是 2 1/4。"
+      }
+     },
+     "qzh": "2 1/4 ÷ 3/4 = ？"
     },
     {
      "q": "A recipe needs 3/4 c of milk. Daisy makes 2 1/2 recipes. How many cups?",
@@ -4834,9 +7997,24 @@
      ],
      "answer": 2,
      "why": {
-      "en": "3/4 × 5/2 = 15/8 = 1 7/8 c.",
-      "zh": "3/4 × 5/2 = 15/8 = 1 7/8 杯。"
-     }
+      "en": "2 1/2 recipes of 3/4 cup = multiply: 3/4 × 5/2 = 15/8 = 1 7/8 c.",
+      "zh": "2 1/2 份、每份 3/4 杯就用乘：3/4 × 5/2 = 15/8 = 1 7/8 杯。"
+     },
+     "wrong": {
+      "3 1/4 c": {
+       "en": "3 1/4 is 3/4 + 2 1/2: it adds instead of multiplying.",
+       "zh": "3 1/4 是 3/4 + 2 1/2，加了而不是乘。"
+      },
+      "1 3/4 c": {
+       "en": "Check: 3/4 × 5/2 = 15/8 = 1 7/8, not 1 3/4 (= 14/8).",
+       "zh": "检查：3/4 × 5/2 = 15/8 = 1 7/8，不是 1 3/4（= 14/8）。"
+      },
+      "3 1/3 c": {
+       "en": "3 1/3 is 2 1/2 ÷ 3/4: it divides. Making more recipes means multiply.",
+       "zh": "3 1/3 是 2 1/2 ÷ 3/4，除了。做好几份要用乘。"
+      }
+     },
+     "qzh": "一个食谱要 3/4 杯牛奶。Daisy 做了 2 1/2 份。要几杯牛奶？"
     },
     {
      "q": "A notebook is 8 1/2 inches wide. How wide are 2 notebooks side by side, in feet?",
@@ -4848,9 +8026,24 @@
      ],
      "answer": 3,
      "why": {
-      "en": "8 1/2 × 2 = 17 in. Then 17 ÷ 12 = 1 with 5 left over: 1 5/12 ft.",
-      "zh": "8 1/2 × 2 = 17 英寸。再 17 ÷ 12 = 1 余 5：1 5/12 英尺。"
-     }
+      "en": "Two steps. 1) 8 1/2 × 2 = 17 inches. 2) Change to feet: 17 ÷ 12 = 1 remainder 5, so 1 5/12 ft.",
+      "zh": "两步。1）8 1/2 × 2 = 17 英寸。2）换成英尺：17 ÷ 12 = 1 余 5，所以是 1 5/12 英尺。"
+     },
+     "wrong": {
+      "17 ft": {
+       "en": "17 is the answer in INCHES. The question asks for feet: divide by 12.",
+       "zh": "17 是英寸的答案。题目要英尺：除以 12。"
+      },
+      "1 1/2 ft": {
+       "en": "1 1/2 ft = 18 inches. The notebooks are 17 inches.",
+       "zh": "1 1/2 英尺 = 18 英寸。本子是 17 英寸。"
+      },
+      "1 1/4 ft": {
+       "en": "1 1/4 ft = 15 inches. The notebooks are 17 inches.",
+       "zh": "1 1/4 英尺 = 15 英寸。本子是 17 英寸。"
+      }
+     },
+     "qzh": "一本笔记本宽 8 1/2 英寸。两本并排放有多宽？用英尺回答。"
     }
    ]
   },
@@ -4887,9 +8080,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Top × top: 2 × 3 = 6. Bottom × bottom: 3 × 4 = 12. 6/12 = 1/2.",
-      "zh": "上 × 上：2 × 3 = 6。下 × 下：3 × 4 = 12。6/12 = 1/2。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 2/3 × 3/4. Multiply tops and bottoms: 6/12 = 1/2.",
+      "zh": "先把带分数变成假分数：2/3 × 3/4。分子乘分子、分母乘分母：6/12 = 1/2。"
+     },
+     "wrong": {
+      "5/7": {
+       "en": "5/7 is too big. Change to improper fractions and multiply: 2/3 × 3/4 = 1/2, not 5/7.",
+       "zh": "5/7 太大了。先变成假分数再乘：2/3 × 3/4 = 1/2，不是 5/7。"
+      },
+      "8/9": {
+       "en": "8/9 is too big. Change to improper fractions and multiply: 2/3 × 3/4 = 1/2, not 8/9.",
+       "zh": "8/9 太大了。先变成假分数再乘：2/3 × 3/4 = 1/2，不是 8/9。"
+      },
+      "6/7": {
+       "en": "6/7 is too big. Change to improper fractions and multiply: 2/3 × 3/4 = 1/2, not 6/7.",
+       "zh": "6/7 太大了。先变成假分数再乘：2/3 × 3/4 = 1/2，不是 6/7。"
+      }
+     },
+     "qzh": "2/3 × 3/4 = ？"
     },
     {
      "q": "4/5 ÷ 2/5 = ?",
@@ -4901,9 +8109,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Keep, Change, Flip: 4/5 × 5/2 = 20/10 = 2.",
-      "zh": "不变、变号、倒过来：4/5 × 5/2 = 20/10 = 2。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 4/5 × 5/2 = 2.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：4/5 × 5/2 = 2。"
+     },
+     "wrong": {
+      "8/25": {
+       "en": "8/25 is 4/5 × 2/5: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "8/25 是 4/5 × 2/5，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "2/5": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 4/5, but 2/5 is smaller. Check: 2/5 × 2/5 = 4/25, not 4/5.",
+       "zh": "除以小于 1 的数，答案会比 4/5 大，但 2/5 更小。检查：2/5 × 2/5 = 4/25，不是 4/5。"
+      },
+      "1/2": {
+       "en": "1/2 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/2 是倒了第一个数。第一个不变，倒第二个。"
+      }
+     },
+     "qzh": "4/5 ÷ 2/5 = ？"
     },
     {
      "q": "6 ÷ 2/3 = ?",
@@ -4915,9 +8138,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "6/1 × 3/2 = 18/2 = 9.",
-      "zh": "6/1 × 3/2 = 18/2 = 9。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 6/1 × 3/2 = 9.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：6/1 × 3/2 = 9。"
+     },
+     "wrong": {
+      "4": {
+       "en": "4 is 6 × 2/3: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "4 是 6 × 2/3，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/9": {
+       "en": "1/9 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/9 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "3": {
+       "en": "Dividing by a number smaller than 1 makes the answer BIGGER than 6, but 3 is smaller. Check: 3 × 2/3 = 2, not 6.",
+       "zh": "除以小于 1 的数，答案会比 6 大，但 3 更小。检查：3 × 2/3 = 2，不是 6。"
+      }
+     },
+     "qzh": "6 ÷ 2/3 = ？"
     },
     {
      "q": "1 1/2 × 2 2/3 = ?",
@@ -4929,9 +8167,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Improper first: 3/2 × 8/3 = 24/6 = 4.",
-      "zh": "先变假分数：3/2 × 8/3 = 24/6 = 4。"
-     }
+      "en": "Change mixed numbers to improper fractions first: 3/2 × 8/3. Multiply tops and bottoms: 24/6 = 4.",
+      "zh": "先把带分数变成假分数：3/2 × 8/3。分子乘分子、分母乘分母：24/6 = 4。"
+     },
+     "wrong": {
+      "2 1/3": {
+       "en": "2 1/3 multiplies the whole numbers and the fractions separately. Change to improper fractions first: the answer is 4.",
+       "zh": "2 1/3 是把整数和分数分开乘了。要先变成假分数：答案是 4。"
+      },
+      "3 1/3": {
+       "en": "3 1/3 is too small. Change to improper fractions and multiply: 3/2 × 8/3 = 4, not 3 1/3.",
+       "zh": "3 1/3 太小了。先变成假分数再乘：3/2 × 8/3 = 4，不是 3 1/3。"
+      },
+      "2": {
+       "en": "2 is too small. Change to improper fractions and multiply: 3/2 × 8/3 = 4, not 2.",
+       "zh": "2 太小了。先变成假分数再乘：3/2 × 8/3 = 4，不是 2。"
+      }
+     },
+     "qzh": "1 1/2 × 2 2/3 = ？"
     },
     {
      "q": "3 1/2 ÷ 1 3/4 = ?",
@@ -4943,9 +8196,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "Improper first: 7/2 ÷ 7/4. Flip: 7/2 × 4/7 = 28/14 = 2.",
-      "zh": "先变假分数：7/2 ÷ 7/4。倒过来：7/2 × 4/7 = 28/14 = 2。"
-     }
+      "en": "Change to improper fractions, then Keep, Change, Flip: 7/2 × 4/7 = 2.",
+      "zh": "先变成假分数，再 Keep、Change、Flip：7/2 × 4/7 = 2。"
+     },
+     "wrong": {
+      "6 1/8": {
+       "en": "6 1/8 is 3 1/2 × 1 3/4: it multiplied without flipping. Keep, Change, Flip.",
+       "zh": "6 1/8 是 3 1/2 × 1 3/4，没有倒过来就乘了。要 Keep、Change、Flip。"
+      },
+      "1/2": {
+       "en": "1/2 flips the FIRST number. Keep the first, flip the second.",
+       "zh": "1/2 是倒了第一个数。第一个不变，倒第二个。"
+      },
+      "3 2/3": {
+       "en": "Check by multiplying back: 3 2/3 × 1 3/4 = 6 5/12, not 3 1/2.",
+       "zh": "乘回去检查：3 2/3 × 1 3/4 = 6 5/12，不是 3 1/2。"
+      }
+     },
+     "qzh": "3 1/2 ÷ 1 3/4 = ？"
     },
     {
      "q": "Which is the same as 2/7 ÷ 3/5?",
@@ -4959,7 +8227,22 @@
      "why": {
       "en": "Keep the first fraction, change ÷ to ×, flip only the second: 2/7 × 5/3.",
       "zh": "第一个分数不变，÷ 变 ×，只把第二个倒过来：2/7 × 5/3。"
-     }
+     },
+     "wrong": {
+      "7/2 × 3/5": {
+       "en": "This flips the FIRST fraction and not the second. Keep the first, flip the second.",
+       "zh": "这倒了第一个分数，没倒第二个。第一个不变，倒第二个。"
+      },
+      "2/7 × 3/5": {
+       "en": "This changes ÷ to × but forgets to flip 3/5.",
+       "zh": "这把 ÷ 变成了 ×，但忘了把 3/5 倒过来。"
+      },
+      "7/2 × 5/3": {
+       "en": "This flips BOTH fractions. Only the second one is flipped.",
+       "zh": "这把两个分数都倒了。只倒第二个。"
+      }
+     },
+     "qzh": "哪一个和 2/7 ÷ 3/5 一样？"
     },
     {
      "q": "Lily has 3/4 of a pizza. She eats 2/3 of it. How much of a whole pizza did she eat?",
@@ -4971,8 +8254,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "\"of\" means ×. 2/3 × 3/4 = 6/12 = 1/2 of a pizza.",
-      "zh": "“of” 表示 ×。2/3 × 3/4 = 6/12 = 1/2 个披萨。"
+      "en": "\"Of\" means multiply: 2/3 × 3/4 = 6/12 = 1/2 of a pizza.",
+      "zh": "of 表示乘：2/3 × 3/4 = 6/12 = 1/2 个披萨。"
+     },
+     "wrong": {
+      "1 1/8 of a pizza": {
+       "en": "1 1/8 is more than a whole pizza, but she only had 3/4.",
+       "zh": "1 1/8 比一整个披萨还多，但她只有 3/4。"
+      },
+      "1/12 of a pizza": {
+       "en": "1/12 is 3/4 − 2/3: it subtracts. \"Of\" means multiply.",
+       "zh": "1/12 是 3/4 − 2/3，减了。of 表示乘。"
+      },
+      "5/7 of a pizza": {
+       "en": "5/7 adds the tops and bottoms. \"Of\" means multiply.",
+       "zh": "5/7 是分子分母相加了。of 表示乘。"
+      }
+     },
+     "qzh": "Lily 有 3/4 个披萨，她吃了其中的 2/3。她吃了整个披萨的多少？",
+     "ozh": {
+      "1/2 of a pizza": "1/2 个披萨",
+      "1 1/8 of a pizza": "1 1/8 个披萨",
+      "1/12 of a pizza": "1/12 个披萨",
+      "5/7 of a pizza": "5/7 个披萨"
      }
     },
     {
@@ -4985,8 +8289,29 @@
      ],
      "answer": 0,
      "why": {
-      "en": "How many 2/3 in 4? 4 ÷ 2/3 = 4/1 × 3/2 = 12/2 = 6 bows.",
-      "zh": "4 里面有几个 2/3？4 ÷ 2/3 = 4/1 × 3/2 = 12/2 = 6 个蝴蝶结。"
+      "en": "\"How many 2/3 in 4?\" = divide: 4 ÷ 2/3 = 4/1 × 3/2 = 12/2 = 6 bows.",
+      "zh": "“4 里有几个 2/3”就是除：4 ÷ 2/3 = 4/1 × 3/2 = 12/2 = 6 个。"
+     },
+     "wrong": {
+      "2 2/3 bows": {
+       "en": "2 2/3 is 4 × 2/3: it multiplied. Cutting ribbon into pieces means divide.",
+       "zh": "2 2/3 是 4 × 2/3，乘了。把丝带剪成几段要用除。"
+      },
+      "8 bows": {
+       "en": "Check: 8 × 2/3 = 5 1/3 m, but she has only 4 m.",
+       "zh": "检查：8 × 2/3 = 5 1/3 米，但她只有 4 米。"
+      },
+      "3 bows": {
+       "en": "Check: 3 × 2/3 = 2 m, leaving 2 m for 3 more bows.",
+       "zh": "检查：3 × 2/3 = 2 米，还剩 2 米能再做 3 个。"
+      }
+     },
+     "qzh": "Daisy 有 4 米丝带，每个蝴蝶结要 2/3 米。她能做几个蝴蝶结？",
+     "ozh": {
+      "6 bows": "6 个",
+      "2 2/3 bows": "2 2/3 个",
+      "8 bows": "8 个",
+      "3 bows": "3 个"
      }
     },
     {
@@ -4999,9 +8324,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "25 × 2 1/2 = 25/1 × 5/2 = 125/2 = 62 1/2 m.",
-      "zh": "25 × 2 1/2 = 25/1 × 5/2 = 125/2 = 62 1/2 米。"
-     }
+      "en": "2 1/2 lengths of 25 m = multiply: 25/1 × 5/2 = 125/2 = 62 1/2 m.",
+      "zh": "游 2 1/2 个 25 米就用乘：25/1 × 5/2 = 125/2 = 62 1/2 米。"
+     },
+     "wrong": {
+      "50 1/2 m": {
+       "en": "50 1/2 multiplies 25 × 2 and just adds the 1/2. Half a length is 12 1/2 m: 50 + 12 1/2.",
+       "zh": "50 1/2 是 25 × 2 再加上 1/2。半个泳道是 12 1/2 米：50 + 12 1/2。"
+      },
+      "10 m": {
+       "en": "10 is 25 ÷ 2 1/2: it divides. Swimming more lengths means multiply.",
+       "zh": "10 是 25 ÷ 2 1/2，除了。游好几个来回要用乘。"
+      },
+      "27 1/2 m": {
+       "en": "27 1/2 is 25 + 2 1/2: it adds instead of multiplying.",
+       "zh": "27 1/2 是 25 + 2 1/2，加了而不是乘。"
+      }
+     },
+     "qzh": "泳池长 25 米。Emma 游了 2 1/2 个泳池长。她游了多远？"
     },
     {
      "q": "2 1/4 kg of sweets are shared equally into 3 bags. How much is in each bag?",
@@ -5013,9 +8353,24 @@
      ],
      "answer": 0,
      "why": {
-      "en": "9/4 ÷ 3 = 9/4 × 1/3 = 9/12 = 3/4 kg.",
-      "zh": "9/4 ÷ 3 = 9/4 × 1/3 = 9/12 = 3/4 千克。"
-     }
+      "en": "Shared equally = divide: 9/4 ÷ 3 = 9/4 × 1/3 = 9/12 = 3/4 kg in each bag.",
+      "zh": "平均分就用除：9/4 ÷ 3 = 9/4 × 1/3 = 9/12 = 3/4 千克。"
+     },
+     "wrong": {
+      "6 3/4 kg": {
+       "en": "6 3/4 is 2 1/4 × 3: it multiplied. Sharing makes each bag SMALLER.",
+       "zh": "6 3/4 是 2 1/4 × 3，乘了。分开装每袋会更少。"
+      },
+      "2 1/12 kg": {
+       "en": "2 1/12 divides only the 1/4 by 3 and leaves the 2. Change to 9/4 first.",
+       "zh": "2 1/12 只把 1/4 除以 3，2 没有除。要先变成 9/4。"
+      },
+      "1 1/3 kg": {
+       "en": "1 1/3 is 3 ÷ 2 1/4, the wrong way round. Check: 3 × 1 1/3 = 4 kg, more than 2 1/4.",
+       "zh": "1 1/3 是 3 ÷ 2 1/4，反了。检查：3 × 1 1/3 = 4 千克，比 2 1/4 多。"
+      }
+     },
+     "qzh": "2 1/4 千克糖果平均装进 3 个袋子。每袋有多少？"
     }
    ]
   }
